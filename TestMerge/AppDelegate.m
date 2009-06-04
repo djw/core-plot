@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "TMMergeController.h"
 #import "TMImageCompareController.h"
+#import "TMUTStateCompareController.h"
 #import "TMOutputSorter.h"
 
 #import "GTMLogger.h"
@@ -42,17 +43,29 @@
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    self.mergeController = [[[TMMergeController alloc] initWithWindowNibName:@"MergeUI"] autorelease];
+    self.mergeController = [[TMMergeController alloc] initWithWindowNibName:@"MergeUI"];
     
     self.mergeController.compareControllersByExtension = [NSDictionary dictionaryWithObjectsAndKeys:
-                                                          [[[TMImageCompareController alloc] initWithNibName:@"ImageCompareView" bundle:[NSBundle mainBundle]] autorelease],
+                                                          [[TMImageCompareController alloc] initWithNibName:@"ImageCompareView" bundle:[NSBundle mainBundle]],
                                                           TMGTMUnitTestImageExtension,
+                                                          [[TMUTStateCompareController alloc] initWithNibName:@"UTStateCompareView" bundle:[NSBundle mainBundle]],
+                                                          TMGTMUnitTestStateExtension,
                                                           nil];
     
-    self.mergeController.referencePath = [[[NSProcessInfo processInfo] environment] objectForKey:@"TM_REFERENCE_PATH"];
-    self.mergeController.outputPath = [[[NSProcessInfo processInfo] environment] objectForKey:@"TM_OUTPUT_PATH"];
+    self.mergeController.referencePath = [[[[NSProcessInfo processInfo] environment] objectForKey:@"TM_REFERENCE_PATH"] stringByExpandingTildeInPath];
+    self.mergeController.outputPath = [[[[NSProcessInfo processInfo] environment] objectForKey:@"TM_OUTPUT_PATH"] stringByExpandingTildeInPath];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(mergeControllerDidCommitMerge:)
+                                                 name:TMMergeControllerDidCommitMerge
+                                               object:self.mergeController];
+    
+    [[[self mergeController] window] center];
     [[self mergeController] showWindow:self];
+}
+
+- (void)mergeControllerDidCommitMerge:(NSNotification*)notification {
+    //pass
 }
 
 /**
@@ -213,6 +226,32 @@
         
         else {
             reply = NSTerminateCancel;
+        }
+    }
+    
+    
+    // if the user has selected a merge direction for any output groups, prompt to commit the merge
+    NSSet *groups = self.mergeController.outputGroups;
+    if([[[groups allObjects] filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"replaceReference=YES || replaceReference=NO"]] count] > 0) {
+        
+        NSInteger result = [[NSAlert alertWithMessageText:NSLocalizedString(@"Commit merge?", @"Commit merge?")
+                                            defaultButton:NSLocalizedString(@"Commit",@"Commit")
+                                          alternateButton:NSLocalizedString(@"Don't commit", @"Don't commit")
+                                              otherButton:NSLocalizedString(@"Cancel", @"Cancel")
+                                informativeTextWithFormat:NSLocalizedString(@"Don't forget to update your unit tests target by adding any new images!", @"Don't forget to update your unit tests target by adding any new images!")] 
+                            runModal];
+        
+        switch(result) {
+            case NSAlertDefaultReturn:
+                [[self mergeController] commitMerge:self];
+                result = NSTerminateNow;
+                break;
+            case NSAlertAlternateReturn:
+                result = NSTerminateNow;
+                break;
+            case NSAlertOtherReturn:
+                result = NSTerminateCancel;
+                break;
         }
     }
     

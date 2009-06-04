@@ -3,7 +3,7 @@
 //  TestMerge
 //
 //  Created by Barry Wark on 5/28/09.
-//  Copyright 2009 Barry Wark. All rights reserved.
+//  Copyright 2009 Physion Consulting LLC. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
@@ -20,8 +20,10 @@
 
 @interface TMImageView : IKImageView {
     BOOL selected;
+    CALayer *selectionLayer;
 }
 
 @property (assign,readwrite) BOOL selected;
+@property (readwrite) CALayer *overlay;
 
 @end
