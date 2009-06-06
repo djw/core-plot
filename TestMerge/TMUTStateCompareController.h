@@ -10,7 +10,10 @@
 #import "TMCompareController.h"
 
 @interface TMUTStateCompareController : TMCompareController {
-
+    
 }
+
+@property (copy,readonly) NSString *referenceText;
+@property (copy,readonly) NSString *outputText;
 
 @end
