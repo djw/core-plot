@@ -4,6 +4,7 @@
 #import <CorePlot/CPAxis.h>
 #import <CorePlot/CPAxisSet.h>
 #import <CorePlot/CPBarPlot.h>
+#import <CorePlot/CPBorderedLayer.h>
 #import <CorePlot/CPColor.h>
 #import <CorePlot/CPColorSpace.h>
 #import <CorePlot/CPDecimalNumberValueTransformer.h>
@@ -22,6 +23,8 @@
 #import <CorePlot/CPPlotSymbol.h>
 #import <CorePlot/CPPolarPlotSpace.h>
 #import <CorePlot/CPScatterPlot.h>
+#import <CorePlot/CPTextLayer.h>
+#import <CorePlot/CPTextStyle.h>
 #import <CorePlot/CPUtilities.h>
 #import <CorePlot/CPXYAxis.h>
 #import <CorePlot/CPXYAxisSet.h>

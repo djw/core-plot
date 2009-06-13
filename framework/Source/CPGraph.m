@@ -187,7 +187,8 @@
         [axisSet removeFromSuperlayer];
         axisSet = [newSet retain];
         if ( axisSet ) [self addSublayer:axisSet];
-        [axisSet positionInGraph:self];
+		axisSet.graph = self;
+        [axisSet positionInGraph];
     }
 }
 
@@ -202,10 +203,15 @@
 #pragma mark -
 #pragma mark Layout
 
++(CGFloat)defaultZPosition 
+{
+	return CPDefaultZPositionGraph;
+}
+
 -(void)layoutSublayers 
 {
     [super layoutSublayers];
-    [self.axisSet positionInGraph:self];
+    [self.axisSet positionInGraph];
 }
 
 #pragma mark -

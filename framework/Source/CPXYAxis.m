@@ -25,6 +25,7 @@
 	if (self = [super initWithFrame:newFrame]) {
         self.constantCoordinateValue = [NSDecimalNumber zero];
 		self.needsDisplayOnBoundsChange = YES;
+		self.tickDirection = CPSignNone;
 	}
 	return self;
 }
@@ -60,16 +61,41 @@
     for ( NSDecimalNumber *tickLocation in locations ) {
         // Tick end points
         CGPoint baseViewPoint = [self viewPointForCoordinateDecimalNumber:tickLocation];
-        CGPoint terminalViewPoint = baseViewPoint;
-        if ( self.coordinate == CPCoordinateX ) 
-            terminalViewPoint.y += length * ( self.tickDirection == CPDirectionRight ? 1 : -1 );
-        else
-            terminalViewPoint.x += length * ( self.tickDirection == CPDirectionUp ? 1 : -1 );
+		CGPoint startViewPoint = baseViewPoint;
+        CGPoint endViewPoint = baseViewPoint;
+		
+		CGFloat startFactor, endFactor;
+		switch ( self.tickDirection ) {
+			case CPSignPositive:
+				startFactor = 0;
+				endFactor = 1;
+				break;
+			case CPSignNegative:
+				startFactor = 0;
+				endFactor = -1;
+				break;
+			case CPSignNone:
+				startFactor = -0.5;
+				endFactor = 0.5;
+				break;
+			default:
+				NSLog(@"Invalid sign in drawTicksInContext...");
+				break;
+		}
+		
+        if ( self.coordinate == CPCoordinateX ) {
+			startViewPoint.y += length * startFactor;
+			endViewPoint.y += length * endFactor;
+		}
+        else {
+			startViewPoint.x += length * startFactor;
+			endViewPoint.x += length * endFactor;
+		}
         
         // Stroke line
         CGContextBeginPath(theContext);
-        CGContextMoveToPoint(theContext, baseViewPoint.x, baseViewPoint.y);
-        CGContextAddLineToPoint(theContext, terminalViewPoint.x, terminalViewPoint.y);
+        CGContextMoveToPoint(theContext, startViewPoint.x, startViewPoint.y);
+        CGContextAddLineToPoint(theContext, endViewPoint.x, endViewPoint.y);
         CGContextStrokePath(theContext);
     }    
 }
@@ -83,17 +109,19 @@
     [self drawTicksInContext:theContext atLocations:self.minorTickLocations withLength:self.minorTickLength isMajor:NO];
 
     // Axis Line
-    CPPlotRange *range = [self.plotSpace plotRangeForCoordinate:self.coordinate];
-    CGPoint startViewPoint = [self viewPointForCoordinateDecimalNumber:range.location];
-    CGPoint endViewPoint = [self viewPointForCoordinateDecimalNumber:range.end];
-    [self.axisLineStyle setLineStyleInContext:theContext];
-    CGContextBeginPath(theContext);
-	CGContextMoveToPoint(theContext, startViewPoint.x, startViewPoint.y);
-	CGContextAddLineToPoint(theContext, endViewPoint.x, endViewPoint.y);
-	CGContextStrokePath(theContext);
+	if ( self.drawsAxisLine ) {
+		CPPlotRange *range = [self.plotSpace plotRangeForCoordinate:self.coordinate];
+		CGPoint startViewPoint = [self viewPointForCoordinateDecimalNumber:range.location];
+		CGPoint endViewPoint = [self viewPointForCoordinateDecimalNumber:range.end];
+		[self.axisLineStyle setLineStyleInContext:theContext];
+		CGContextBeginPath(theContext);
+		CGContextMoveToPoint(theContext, startViewPoint.x, startViewPoint.y);
+		CGContextAddLineToPoint(theContext, endViewPoint.x, endViewPoint.y);
+		CGContextStrokePath(theContext);
+	}
 }
 
--(NSString*)description
+-(NSString *)description
 {
     CPPlotRange *range = [self.plotSpace plotRangeForCoordinate:self.coordinate];
 	CGPoint startViewPoint = [self viewPointForCoordinateDecimalNumber:range.location];
