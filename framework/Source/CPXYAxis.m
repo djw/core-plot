@@ -25,6 +25,7 @@
 	if (self = [super initWithFrame:newFrame]) {
         self.constantCoordinateValue = [NSDecimalNumber zero];
 		self.needsDisplayOnBoundsChange = YES;
+		self.tickDirection = CPSignNone;
 	}
 	return self;
 }
@@ -77,6 +78,7 @@
 			case CPSignNone:
 				startFactor = -0.5;
 				endFactor = 0.5;
+				break;
 			default:
 				NSLog(@"Invalid sign in drawTicksInContext...");
 				break;
