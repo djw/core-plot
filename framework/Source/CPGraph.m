@@ -68,6 +68,11 @@
 #pragma mark -
 #pragma mark Retrieving Plots
 
+-(void)reloadData
+{
+    [[self allPlots] makeObjectsPerformSelector:@selector(reloadData)];
+}
+
 -(NSArray *)allPlots 
 {    
 	return [NSArray arrayWithArray:self.plots];
