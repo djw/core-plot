@@ -8,12 +8,22 @@
 #import "CPAxisSet.h"
 #import "CPAxis.h"
 
+@interface CPGraph()
+
+@property (nonatomic, readwrite, retain) NSMutableArray *plots;
+@property (nonatomic, readwrite, retain) NSMutableArray *plotSpaces;
+
+-(void)plotSpaceMappingDidChange:(NSNotification *)notif;
+
+@end
+
 @implementation CPGraph
 
 @synthesize axisSet;
 @synthesize plotArea;
-@synthesize defaultPlotSpace;
 @synthesize fill;
+@synthesize plots;
+@synthesize plotSpaces;
 
 #pragma mark -
 #pragma mark Init/Dealloc
@@ -21,52 +31,66 @@
 -(id)initWithFrame:(CGRect)newFrame
 {
 	if ( self = [super initWithFrame:newFrame] ) {
-        self.fill = nil;
-		plots = [[NSMutableArray alloc] init];
+ 		[CATransaction begin];
+		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+
+		self.fill = nil;
+		self.plots = [[NSMutableArray alloc] init];
         
         // Plot area
-        plotArea = [[CPPlotArea alloc] initWithFrame:CGRectInset(self.bounds, 40.0, 40.0)]; // TODO: Replace later with true margins
-        [self addSublayer:plotArea];
-
+        self.plotArea = [[CPPlotArea alloc] initWithFrame:self.bounds];
+        [self addSublayer:self.plotArea];
+		
         // Plot spaces
-		plotSpaces = [[NSMutableArray alloc] init];
-        [self addPlotSpace:[self createPlotSpace]];
+		self.plotSpaces = [[NSMutableArray alloc] init];
+        CPPlotSpace *newPlotSpace = [self newPlotSpace];
+        [self addPlotSpace:newPlotSpace];
+        [newPlotSpace release];
         
         // Axis set
-        self.axisSet = [self createAxisSet];
+        CPAxisSet *newAxisSet = [self newAxisSet];
+        self.axisSet = newAxisSet;
+        [newAxisSet release];
         
+		[CATransaction commit];
+		
 		self.needsDisplayOnBoundsChange = YES;
-        [self setNeedsLayout];
 	}
 	return self;
 }
 
 -(void)dealloc
 {
-	self.axisSet = nil;
-	self.plotArea = nil;
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+	[axisSet release];
+	[plotArea release];
     self.fill = nil;
-	[plots release];
-	[plotSpaces release];
+	self.plots = nil;
+	self.plotSpaces = nil;
 	[super dealloc];
 }
 
 #pragma mark -
 #pragma mark Retrieving Plots
 
+-(void)reloadData
+{
+    [[self allPlots] makeObjectsPerformSelector:@selector(reloadData)];
+}
+
 -(NSArray *)allPlots 
 {    
-	return [NSArray arrayWithArray:plots];
+	return [NSArray arrayWithArray:self.plots];
 }
 
 -(CPPlot *)plotAtIndex:(NSUInteger)index
 {
-    return [plots objectAtIndex:index];
+    return [self.plots objectAtIndex:index];
 }
 
 -(CPPlot *)plotWithIdentifier:(id <NSCopying>)identifier 
 {
-	for (CPPlot *plot in plots) {
+	for (CPPlot *plot in self.plots) {
         if ( [[plot identifier] isEqual:identifier] ) return plot;
 	}
     return nil;
@@ -82,20 +106,33 @@
 
 -(void)addPlot:(CPPlot *)plot toPlotSpace:(CPPlotSpace *)space
 {
-	plot.frame = space.bounds;
-	[plots addObject:plot];
-    plot.plotSpace = space;
-	[space addSublayer:plot];	
-    [self setNeedsLayout];
+	if (plot) {
+		[CATransaction begin];
+		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+
+		[self.plots addObject:plot];
+		plot.plotSpace = space;
+		[space addSublayer:plot];
+		
+		[CATransaction commit];
+		
+		[self setNeedsDisplay];
+	}
 }
 
 -(void)removePlot:(CPPlot *)plot
 {
-    if ( [plots containsObject:plot] ) {
-        [plots removeObject:plot];
+    if ( [self.plots containsObject:plot] ) {
+ 		[CATransaction begin];
+		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+
+		[self.plots removeObject:plot];
         plot.plotSpace = nil;
         [plot removeFromSuperlayer];
-        [self setNeedsLayout];
+		
+		[CATransaction commit];
+		
+		[self setNeedsDisplay];
     }
     else {
         [NSException raise:CPException format:@"Tried to remove CPPlot which did not exist."];
@@ -109,40 +146,57 @@
 
 -(void)insertPlot:(CPPlot* )plot atIndex:(NSUInteger)index intoPlotSpace:(CPPlotSpace *)space
 {
-	[plots insertObject:plot atIndex:index];
-    plot.plotSpace = space;
-    [space addSublayer:plot];
-    [self setNeedsLayout];
+	if (plot) {
+		[CATransaction begin];
+		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+
+		[self.plots insertObject:plot atIndex:index];
+		plot.plotSpace = space;
+		[space addSublayer:plot];
+		
+		[CATransaction commit];
+		
+		[self setNeedsDisplay];
+	}
 }
 
 -(void)removePlotWithIdentifier:(id <NSCopying>)identifier 
 {
 	CPPlot* plotToRemove = [self plotWithIdentifier:identifier];
-	[plotToRemove setPlotSpace:nil];
-	[plotToRemove removeFromSuperlayer];
-	[plots removeObjectIdenticalTo:plotToRemove];
+	if (plotToRemove) {
+		[CATransaction begin];
+		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+
+		plotToRemove.plotSpace = nil;
+		[plotToRemove removeFromSuperlayer];
+		[self.plots removeObjectIdenticalTo:plotToRemove];
+		
+		[CATransaction commit];
+		
+		[self setNeedsDisplay];
+	}
 }
 
 #pragma mark -
 #pragma mark Retrieving Plot Spaces
 
 -(CPPlotSpace *)defaultPlotSpace {
-    return ( plotSpaces.count > 0 ? [plotSpaces objectAtIndex:0] : nil );
+    return ( self.plotSpaces.count > 0 ? [self.plotSpaces objectAtIndex:0] : nil );
 }
 
 -(NSArray *)allPlotSpaces
 {
-	return [NSArray arrayWithArray:plotSpaces];
+	return [NSArray arrayWithArray:self.plotSpaces];
 }
 
 -(CPPlotSpace *)plotSpaceAtIndex:(NSUInteger)index
 {
-	return ( plotSpaces.count > index ? [plotSpaces objectAtIndex:index] : nil );
+	return ( self.plotSpaces.count > index ? [self.plotSpaces objectAtIndex:index] : nil );
 }
 
 -(CPPlotSpace *)plotSpaceWithIdentifier:(id <NSCopying>)identifier
 {
-	for (CPPlotSpace *plotSpace in plotSpaces) {
+	for (CPPlotSpace *plotSpace in self.plotSpaces) {
         if ( [[plotSpace identifier] isEqual:identifier] ) return plotSpace;
 	}
     return nil;	
@@ -153,25 +207,49 @@
 
 -(void)addPlotSpace:(CPPlotSpace *)space
 {
+	[CATransaction begin];
+	[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+
 	space.frame = self.plotArea.bounds;
-	[plotSpaces addObject:space];
+	[self.plotSpaces addObject:space];
 	[self.plotArea addSublayer:space];
-    [self setNeedsLayout];
+	
+	[CATransaction commit];
+	
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(plotSpaceMappingDidChange:) name:CPPlotSpaceCoordinateMappingDidChangeNotification object:space];
 }
 
 -(void)removePlotSpace:(CPPlotSpace *)plotSpace
 {
-	if ( [plotSpaces containsObject:plotSpace] ) {
-        [plotSpaces removeObject:plotSpace];
+	if ( [self.plotSpaces containsObject:plotSpace] ) {
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:CPPlotSpaceCoordinateMappingDidChangeNotification object:plotSpace];
+		[CATransaction begin];
+		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+
+		[self.plotSpaces removeObject:plotSpace];
         [plotSpace removeFromSuperlayer];
         for ( CPAxis *axis in self.axisSet.axes ) {
             if ( axis.plotSpace == plotSpace ) axis.plotSpace = nil;
         }
+		
+		[CATransaction commit];
     }
     else {
         [NSException raise:CPException format:@"Tried to remove CPPlotSpace which did not exist."];
     }
-	[self setNeedsLayout];
+}
+
+
+#pragma mark -
+#pragma mark Coordinate Changes in Plot Spaces
+
+-(void)plotSpaceMappingDidChange:(NSNotification *)notif 
+{
+    [self setNeedsLayout];
+    [self.axisSet relabelAxes];
+    for ( CPPlot *plot in self.plots ) {
+        [plot setNeedsDisplay];
+    }
 }
 
 #pragma mark -
@@ -180,11 +258,21 @@
 -(void)setAxisSet:(CPAxisSet *)newSet
 {
     if ( newSet != axisSet ) {
+ 		[CATransaction begin];
+		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+
+		[axisSet removeFromSuperlayer];
+		[newSet retain];
         [axisSet release];
-        [axisSet removeFromSuperlayer];
-        axisSet = [newSet retain];
-        if ( axisSet ) [self addSublayer:axisSet];
-        [axisSet positionInGraph:self];
+        axisSet = newSet;
+        if ( axisSet ) {
+			axisSet.graph = self;
+			[self addSublayer:axisSet];	
+		}
+		
+		[CATransaction commit];
+		
+		[self setNeedsDisplay];
     }
 }
 
@@ -199,10 +287,26 @@
 #pragma mark -
 #pragma mark Layout
 
++(CGFloat)defaultZPosition 
+{
+	return CPDefaultZPositionGraph;
+}
+
 -(void)layoutSublayers 
 {
-    [super layoutSublayers];
-    [self.axisSet positionInGraph:self];
+	[super layoutSublayers];
+	
+    if ( self.axisSet ) {
+        // Set the bounds so that the axis set coordinates coincide with the 
+        // plot area drawing coordinates.
+        CGRect axisSetBounds = self.bounds;
+        axisSetBounds.origin = [self convertPoint:self.bounds.origin toLayer:self.plotArea];
+		
+		CPAxisSet *theAxisSet = self.axisSet;
+        theAxisSet.bounds = axisSetBounds;
+        theAxisSet.anchorPoint = CGPointZero;
+        theAxisSet.position = self.bounds.origin;
+    }
 }
 
 #pragma mark -
@@ -211,8 +315,9 @@
 -(void)setFill:(CPFill *)newFill 
 {
     if ( newFill != fill ) {
+		[newFill retain];
         [fill release];
-        fill = [newFill retain];
+        fill = newFill;
         [self setNeedsDisplay];
     }
 }

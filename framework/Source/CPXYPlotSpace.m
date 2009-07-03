@@ -40,11 +40,47 @@
     return ( coordinate == CPCoordinateX ? self.xRange : self.yRange );
 }
 
+-(void)setXRange:(CPPlotRange *)range 
+{
+    if ( range != xRange ) {
+        [xRange release];
+        xRange = [range copy];
+        [self setNeedsLayout];
+        [[NSNotificationCenter defaultCenter] postNotificationName:CPPlotSpaceCoordinateMappingDidChangeNotification object:self];
+    }
+}
+
+-(void)setYRange:(CPPlotRange *)range 
+{
+    if ( range != yRange ) {
+        [yRange release];
+        yRange = [range copy];
+        [self setNeedsLayout];
+        [[NSNotificationCenter defaultCenter] postNotificationName:CPPlotSpaceCoordinateMappingDidChangeNotification object:self];
+    }
+}
+
 #pragma mark -
 #pragma mark Point Conversion
 
 -(CGFloat)viewCoordinateForViewLength:(CGFloat)viewLength linearPlotRange:(CPPlotRange *)range plotCoordinateValue:(NSNumber *)plotCoord 
 {    
+    
+#if defined(TARGET_IPHONE_SIMULATOR) || defined(TARGET_OS_IPHONE)
+//We don't need the precision of NSDecimalNumber here and it's too slow on the iPhone
+    if (0 == range.length) {
+        [NSException raise:CPException format:@"range length is zero in viewCoordinateForViewLength:..."];
+    }
+    
+    double plotCoordDouble = [plotCoord doubleValue];
+    double diff = plotCoordDouble - [range.location doubleValue];
+    double factor = diff / [range.length doubleValue];
+    
+    CGFloat viewCoordinate = viewLength * factor;
+    return viewCoordinate;
+}
+
+#else
     NSDecimalNumber *plotCoordDecimalNumber = [NSDecimalNumber decimalNumberWithDecimal:plotCoord.decimalValue];
     NSDecimalNumber *diff = [plotCoordDecimalNumber decimalNumberBySubtracting:range.location];
     NSDecimalNumber *factor = [diff decimalNumberByDividingBy:range.length];
@@ -54,35 +90,33 @@
     }
     
     CGFloat viewCoordinate = viewLength * factor.doubleValue;
+    
     return viewCoordinate;
 }
+#endif
 
--(CGPoint)viewPointForPlotPoint:(NSArray *)numbers;
+-(CGPoint)viewPointForPlotPoint:(NSDecimalNumber **)numbers
 {
-	if ([numbers count] != 2) {
-        [NSException raise:CPDataException format:@"Wrong number of plot points supplied to viewPointForPlotPoint:"];
-    }
-        
     CGFloat viewX, viewY;
-
+    
     if ( self.xScaleType == CPScaleTypeLinear ) {
-        viewX = [self viewCoordinateForViewLength:self.bounds.size.width linearPlotRange:xRange plotCoordinateValue:[numbers objectAtIndex:CPCoordinateX]];
-    }
-    else {
-        [NSException raise:CPException format:@"Scale type not yet supported in CPXYPlotSpace"];
-    }
-
-    if ( self.yScaleType == CPScaleTypeLinear ) {
-        viewY = [self viewCoordinateForViewLength:self.bounds.size.height linearPlotRange:yRange plotCoordinateValue:[numbers objectAtIndex:CPCoordinateY]];      
+        viewX = [self viewCoordinateForViewLength:self.bounds.size.width linearPlotRange:xRange plotCoordinateValue:numbers[CPCoordinateX]];
     }
     else {
         [NSException raise:CPException format:@"Scale type not yet supported in CPXYPlotSpace"];
     }
     
-    return CGPointMake(viewX, viewY);
+    if ( self.yScaleType == CPScaleTypeLinear ) {
+        viewY = [self viewCoordinateForViewLength:self.bounds.size.height linearPlotRange:yRange plotCoordinateValue:numbers[CPCoordinateY]];      
+    }
+    else {
+        [NSException raise:CPException format:@"Scale type not yet supported in CPXYPlotSpace"];
+    }
+    
+    return CGPointMake(round(viewX), round(viewY));
 }
 
--(NSArray *)plotPointForViewPoint:(CGPoint)point
+-(void)plotPoint:(NSDecimalNumber **)plotPoint forViewPoint:(CGPoint)point
 {
 	NSDecimal pointx = CPDecimalFromFloat(point.x);
 	NSDecimal pointy = CPDecimalFromFloat(point.y);
@@ -97,17 +131,18 @@
 	NSDecimalDivide(&x, &pointx, &boundsw, NSRoundPlain);
 	NSDecimalMultiply(&x, &x, &(xLength), NSRoundPlain);
 	NSDecimalAdd(&x, &x, &(xLocation), NSRoundPlain);
-
+    
 	// get the yRange's location and length
 	NSDecimal yLocation = yRange.location.decimalValue;
 	NSDecimal yLength = yRange.length.decimalValue;
-
+    
 	NSDecimal y;
 	NSDecimalDivide(&y, &pointy, &boundsh, NSRoundPlain);
 	NSDecimalMultiply(&y, &y, &(yLength), NSRoundPlain);
 	NSDecimalAdd(&y, &y, &(yLocation), NSRoundPlain);
 
-	return [NSArray arrayWithObjects:[NSDecimalNumber decimalNumberWithDecimal:x], [NSDecimalNumber decimalNumberWithDecimal:y], nil];
+    plotPoint[CPCoordinateX] = [NSDecimalNumber decimalNumberWithDecimal:x];
+    plotPoint[CPCoordinateY] = [NSDecimalNumber decimalNumberWithDecimal:y];
 }
 
 @end

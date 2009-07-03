@@ -1,5 +1,6 @@
 
 #import "CPPlotRange.h"
+#import "CPPlatformSpecificCategories.h"
 
 @implementation CPPlotRange
 
@@ -39,6 +40,16 @@
     return [self.location decimalNumberByAdding:self.length];
 }
 
+#pragma mark -
+#pragma mark NSCopying
+
+-(id)copyWithZone:(NSZone *)zone 
+{
+    CPPlotRange *newRange = [[CPPlotRange allocWithZone:zone] init];
+    newRange.location = self.location;
+    newRange.length = self.length;
+    return newRange;
+}
 
 #pragma mark -
 #pragma mark NSCoding
@@ -67,6 +78,22 @@
     }
     
     return self;
+}
+
+#pragma mark -
+#pragma mark Checking Containership
+
+-(BOOL)contains:(NSDecimalNumber *)number
+{
+	return ([number isGreaterThanOrEqualTo:location] && [number isLessThanOrEqualTo:self.end]);
+}
+
+#pragma mark -
+#pragma mark Description
+
+- (NSString*)description
+{
+	return [NSString stringWithFormat:@"CPPlotRange from %@, length %@", location, length]; 
 }
 
 @end

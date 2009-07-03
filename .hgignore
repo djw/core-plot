@@ -22,3 +22,8 @@ syntax: glob
 **.mode?v?
 **.perspectivev?
 
+# documentation
+**.docset/*
+
+# for those crazies using svn and hg at the same time
+*.svn*

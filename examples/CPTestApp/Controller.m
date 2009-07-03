@@ -17,93 +17,116 @@
 -(void)awakeFromNib {
     [super awakeFromNib];
 
-    // Create graph
-    graph = [[CPXYGraph alloc] initWithFrame:NSRectToCGRect(hostView.bounds)];
-	graph.fill = [CPFill fillWithColor:[CPColor lightGrayColor]];
-		
-    CPGradient *gradient = [CPGradient unifiedDarkGradient];
-    gradient.angle = 90.0;
-	graph.plotArea.fill = [CPFill fillWithGradient:gradient]; 
-	
-	graph.layerAutoresizingMask = kCPLayerWidthSizable | kCPLayerHeightSizable;
+    // Create graph from theme
+	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
+	graph = [theme newGraph];
 	hostView.hostedLayer = graph;
     
-    // Setup plot space
+    // Setup scatter plot space
     CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
     plotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.0) length:CPDecimalFromFloat(2.0)];
     plotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.0) length:CPDecimalFromFloat(3.0)];
 
     // Axes
 	CPXYAxisSet *axisSet = (CPXYAxisSet *)graph.axisSet;
-    
-    CPLineStyle *majorLineStyle = [CPLineStyle lineStyle];
-    majorLineStyle.lineCap = kCGLineCapRound;
-    majorLineStyle.lineColor = [CPColor darkGrayColor];
-    majorLineStyle.lineWidth = 2.0f;
-    
-    CPLineStyle *minorLineStyle = [CPLineStyle lineStyle];
-    minorLineStyle.lineColor = [CPColor darkGrayColor];
-    minorLineStyle.lineWidth = 1.0f;
-
     CPXYAxis *x = axisSet.xAxis;
-    x.axisLabelingPolicy = CPAxisLabelingPolicyFixedInterval;
-    x.majorIntervalLength = [NSDecimalNumber decimalNumberWithString:@"0.1"];
-    x.constantCoordinateValue = [NSDecimalNumber one];
+    x.majorIntervalLength = [NSDecimalNumber decimalNumberWithString:@"0.5"];
+    x.constantCoordinateValue = [NSDecimalNumber decimalNumberWithString:@"2"];
     x.minorTicksPerInterval = 2;
-    x.majorTickLineStyle = majorLineStyle;
-    x.minorTickLineStyle = minorLineStyle;
-    x.axisLineStyle = majorLineStyle;
-    x.majorTickLength = 7.0f;
-    x.minorTickLength = 5.0f;
+	NSArray *exclusionRanges = [NSArray arrayWithObjects:
+		[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.99) length:CPDecimalFromFloat(0.02)], 
+		[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.99) length:CPDecimalFromFloat(0.02)],
+		[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(2.99) length:CPDecimalFromFloat(0.02)],
+		nil];
+	x.labelExclusionRanges = exclusionRanges;
 
     CPXYAxis *y = axisSet.yAxis;
-    y.axisLabelingPolicy = CPAxisLabelingPolicyFixedInterval;
     y.majorIntervalLength = [NSDecimalNumber decimalNumberWithString:@"0.5"];
     y.minorTicksPerInterval = 5;
-    y.constantCoordinateValue = [NSDecimalNumber one];
-    y.majorTickLineStyle = majorLineStyle;
-    y.minorTickLineStyle = minorLineStyle;
-    y.axisLineStyle = majorLineStyle;
-    y.majorTickLength = 7.0f;
-    y.minorTickLength = 5.0f;
+    y.constantCoordinateValue = [NSDecimalNumber decimalNumberWithString:@"2"];
+	exclusionRanges = [NSArray arrayWithObjects:
+		[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.99) length:CPDecimalFromFloat(0.02)], 
+		[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.99) length:CPDecimalFromFloat(0.02)],
+		[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(3.99) length:CPDecimalFromFloat(0.02)],
+		nil];
+	y.labelExclusionRanges = exclusionRanges;
     
     // Create one plot that uses bindings
-	CPScatterPlot *boundLinePlot = [[[CPScatterPlot alloc] initWithFrame:graph.bounds] autorelease];
+	CPScatterPlot *boundLinePlot = [[[CPScatterPlot alloc] init] autorelease];
     boundLinePlot.identifier = @"Bindings Plot";
-	boundLinePlot.dataLineStyle.lineWidth = 2.f;
+	boundLinePlot.dataLineStyle.miterLimit = 1.f;
+	boundLinePlot.dataLineStyle.lineWidth = 3.f;
+	boundLinePlot.dataLineStyle.lineColor = [CPColor blueColor];
     [graph addPlot:boundLinePlot];
 	[boundLinePlot bind:CPScatterPlotBindingXValues toObject:self withKeyPath:@"arrangedObjects.x" options:nil];
 	[boundLinePlot bind:CPScatterPlotBindingYValues toObject:self withKeyPath:@"arrangedObjects.y" options:nil];
     
+    // Put an area gradient under the plot above
+    NSString *pathToFillImage = [[NSBundle mainBundle] pathForResource:@"BlueTexture" ofType:@"png"];
+    CPImage *fillImage = [CPImage imageForPNGFile:pathToFillImage];
+    fillImage.tiled = YES;
+    CPFill *areaGradientFill = [CPFill fillWithImage:fillImage];
+    boundLinePlot.areaFill = areaGradientFill;
+    boundLinePlot.areaBaseValue = [NSDecimalNumber zero];
+    
 	// Add plot symbols
-	CPPlotSymbol *greenCirclePlotSymbol = [CPPlotSymbol ellipsePlotSymbol];
-	CGColorRef greenColor = CPNewCGColorFromNSColor([NSColor greenColor]);
-	greenCirclePlotSymbol.fill = [CPFill fillWithColor:[CPColor colorWithCGColor:greenColor]];
-    greenCirclePlotSymbol.size = CGSizeMake(10.0, 10.0);
-    boundLinePlot.defaultPlotSymbol = greenCirclePlotSymbol;
-	CGColorRelease(greenColor);
+	CPLineStyle *symbolLineStyle = [CPLineStyle lineStyle];
+	symbolLineStyle.lineColor = [CPColor blackColor];
+	CPPlotSymbol *plotSymbol = [CPPlotSymbol ellipsePlotSymbol];
+	plotSymbol.fill = [CPFill fillWithColor:[CPColor blueColor]];
+	plotSymbol.lineStyle = symbolLineStyle;
+    plotSymbol.size = CGSizeMake(10.0, 10.0);
+    boundLinePlot.plotSymbol = plotSymbol;
     
     // Create a second plot that uses the data source method
-	CPScatterPlot *dataSourceLinePlot = [[[CPScatterPlot alloc] initWithFrame:graph.bounds] autorelease];
+	CPScatterPlot *dataSourceLinePlot = [[[CPScatterPlot alloc] init] autorelease];
     dataSourceLinePlot.identifier = @"Data Source Plot";
-	dataSourceLinePlot.dataLineStyle.lineWidth = 1.f;
-    dataSourceLinePlot.dataLineStyle.lineColor = [CPColor redColor];
+	dataSourceLinePlot.dataLineStyle.lineWidth = 3.f;
+    dataSourceLinePlot.dataLineStyle.lineColor = [CPColor greenColor];
     dataSourceLinePlot.dataSource = self;
     [graph addPlot:dataSourceLinePlot];
+    
+    // Put an area gradient under the plot above
+    CPColor *areaColor = [CPColor colorWithComponentRed:0.3 green:1.0 blue:0.3 alpha:0.8];
+    CPGradient *areaGradient = [CPGradient gradientWithBeginningColor:areaColor endingColor:[CPColor clearColor]];
+    areaGradient.angle = -90.0f;
+    areaGradientFill = [CPFill fillWithGradient:areaGradient];
+    dataSourceLinePlot.areaFill = areaGradientFill;
+    dataSourceLinePlot.areaBaseValue = [NSDecimalNumber decimalNumberWithString:@"1.75"];    
 	
     // Add some initial data
-	NSDecimalNumber *x1 = [NSDecimalNumber decimalNumberWithString:@"1.3"];
-	NSDecimalNumber *x2 = [NSDecimalNumber decimalNumberWithString:@"1.7"];
-	NSDecimalNumber *x3 = [NSDecimalNumber decimalNumberWithString:@"2.8"];
-	NSDecimalNumber *y1 = [NSDecimalNumber decimalNumberWithString:@"1.3"];
-	NSDecimalNumber *y2 = [NSDecimalNumber decimalNumberWithString:@"2.3"];
-	NSDecimalNumber *y3 = [NSDecimalNumber decimalNumberWithString:@"2"];
-    NSMutableArray *contentArray = [NSMutableArray arrayWithObjects:
-        [NSMutableDictionary dictionaryWithObjectsAndKeys:x1, @"x", y1, @"y", nil],
-        [NSMutableDictionary dictionaryWithObjectsAndKeys:x2, @"x", y2, @"y", nil],
-        [NSMutableDictionary dictionaryWithObjectsAndKeys:x3, @"x", y3, @"y", nil],
-        nil];
+	NSMutableArray *contentArray = [NSMutableArray arrayWithCapacity:100];
+	NSUInteger i;
+	for ( i = 0; i < 60; i++ ) {
+		id x = [NSDecimalNumber numberWithFloat:1+i*0.05];
+		id y = [NSDecimalNumber numberWithFloat:1.2*rand()/(float)RAND_MAX + 1.2];
+		[contentArray addObject:[NSMutableDictionary dictionaryWithObjectsAndKeys:x, @"x", y, @"y", nil]];
+	}
 	self.content = contentArray;
+    
+    // Add plot space for horizontal bar charts
+    CPXYPlotSpace *barPlotSpace = [[CPXYPlotSpace alloc] init];
+    barPlotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-20.0f) length:CPDecimalFromFloat(200.0f)];
+    barPlotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-7.0f) length:CPDecimalFromFloat(15.0f)];
+    [graph addPlotSpace:barPlotSpace];
+    [barPlotSpace release];
+    
+    // First bar plot
+    CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:YES];
+    barPlot.baseValue = [NSDecimalNumber decimalNumberWithString:@"20"];
+    barPlot.dataSource = self;
+    barPlot.barOffset = -0.25f;
+    barPlot.identifier = @"Bar Plot 1";
+    [graph addPlot:barPlot toPlotSpace:barPlotSpace];
+    
+    // Second bar plot
+    barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor blueColor] horizontalBars:YES];
+    barPlot.dataSource = self;
+    barPlot.baseValue = [NSDecimalNumber decimalNumberWithString:@"20"];
+    barPlot.barOffset = 0.25f;
+    barPlot.cornerRadius = 2.0f;
+    barPlot.identifier = @"Bar Plot 2";
+    [graph addPlot:barPlot toPlotSpace:barPlotSpace];
 }
 
 -(id)newObject 
@@ -124,13 +147,24 @@
 #pragma mark -
 #pragma mark Plot Data Source Methods
 
--(NSUInteger)numberOfRecords {
-    return [self.arrangedObjects count];
+-(NSUInteger)numberOfRecordsForPlot:(CPPlot *)plot {
+    if ( [plot isKindOfClass:[CPBarPlot class]] ) 
+        return 8;
+    else
+        return [self.arrangedObjects count];
 }
 
 -(NSNumber *)numberForPlot:(CPPlot *)plot field:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index {
-    NSDecimalNumber *num = [[self.arrangedObjects objectAtIndex:index] valueForKey:(fieldEnum == CPScatterPlotFieldX ? @"x" : @"y")];
-    if ( fieldEnum == CPScatterPlotFieldY ) num = [num decimalNumberByAdding:[NSDecimalNumber one]];
+    NSDecimalNumber *num;
+    if ( [plot isKindOfClass:[CPBarPlot class]] ) {
+        num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:(index+1)*(index+1)];
+        if ( [plot.identifier isEqual:@"Bar Plot 2"] ) 
+            num = [num decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"10"]];
+    }
+    else {
+        num = [[self.arrangedObjects objectAtIndex:index] valueForKey:(fieldEnum == CPScatterPlotFieldX ? @"x" : @"y")];
+        if ( fieldEnum == CPScatterPlotFieldY ) num = [num decimalNumberByAdding:[NSDecimalNumber one]];
+    }
     return num;
 }
 
@@ -175,7 +209,8 @@
 	perspectiveRotation = CATransform3DRotate(perspectiveRotation, -55.0 * M_PI / 180.0, perspectiveRotation.m11, perspectiveRotation.m21, perspectiveRotation.m31);
 	
 	perspectiveRotation = CATransform3DScale(perspectiveRotation, 0.7, 0.7, 0.7);
-	hostView.layer.masksToBounds = NO;
+	graph.masksToBounds = NO;
+	graph.superlayer.masksToBounds = NO;
 	
 	overlayRotationView = [[RotationView alloc] initWithFrame:hostView.frame];
 	overlayRotationView.rotationDelegate = self;
@@ -186,7 +221,7 @@
 	[CATransaction setValue:[NSNumber numberWithFloat:1.0f] forKey:kCATransactionAnimationDuration];		
 
 	[Controller recursivelySplitSublayersInZForLayer:graph depthLevel:0];
-	graph.transform = perspectiveRotation;
+	graph.superlayer.sublayerTransform = perspectiveRotation;
 
 	[CATransaction commit];
 }
@@ -194,6 +229,9 @@
 +(void)recursivelySplitSublayersInZForLayer:(CALayer *)layer depthLevel:(unsigned int)depthLevel;
 {
 	layer.zPosition = ZDISTANCEBETWEENLAYERS * (CGFloat)depthLevel;
+	layer.borderColor = [[CPColor blueColor] cgColor];
+	layer.borderWidth = 2.0;
+
 	depthLevel++;
 	for (CALayer *currentLayer in layer.sublayers) {
 		[Controller recursivelySplitSublayersInZForLayer:currentLayer depthLevel:depthLevel];
@@ -206,7 +244,7 @@
 	[CATransaction setValue:[NSNumber numberWithFloat:1.0f] forKey:kCATransactionAnimationDuration];		
 	
 	[Controller recursivelyAssembleSublayersInZForLayer:graph];
-	graph.transform = CATransform3DIdentity;
+	graph.superlayer.sublayerTransform = CATransform3DIdentity;
 
 	[CATransaction commit];
 	
@@ -218,6 +256,8 @@
 +(void)recursivelyAssembleSublayersInZForLayer:(CALayer *)layer;
 {
 	layer.zPosition = 0.0;
+	layer.borderColor = [[CPColor clearColor] cgColor];
+	layer.borderWidth = 0.0;
 	for (CALayer *currentLayer in layer.sublayers) {
 		[Controller recursivelyAssembleSublayersInZForLayer:currentLayer];
 	}
@@ -226,12 +266,12 @@
 #pragma mark -
 #pragma mark CPRotationDelegate delegate method
 
-- (void)rotateObjectUsingTransform:(CATransform3D)rotationTransform;
+-(void)rotateObjectUsingTransform:(CATransform3D)rotationTransform;
 {
 	[CATransaction begin];
 	[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];	
 
-	graph.transform = rotationTransform;
+	graph.superlayer.sublayerTransform = rotationTransform;
 	
 	[CATransaction commit];
 }

@@ -22,6 +22,8 @@
 @property (nonatomic, readonly, retain) CPPlotSpace *defaultPlotSpace;
 @property (nonatomic, readwrite, retain) CPFill *fill;
 
+-(void)reloadData;
+
 // Retrieving plots
 -(NSArray *)allPlots;
 -(CPPlot *)plotAtIndex:(NSUInteger)index;
@@ -47,8 +49,8 @@
 
 @interface CPGraph (AbstractFactoryMethods)
 
--(CPPlotSpace *)createPlotSpace;
--(CPAxisSet *)createAxisSet;
+-(CPPlotSpace *)newPlotSpace;
+-(CPAxisSet *)newAxisSet;
 
 @end
 

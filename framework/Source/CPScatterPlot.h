@@ -5,37 +5,46 @@
 
 @class CPLineStyle;
 @class CPPlotSymbol;
+@class CPScatterPlot;
+@class CPFill;
 
-extern NSString *CPScatterPlotBindingXValues;
-extern NSString *CPScatterPlotBindingYValues;
+extern NSString * const CPScatterPlotBindingXValues;
+extern NSString * const CPScatterPlotBindingYValues;
+extern NSString * const CPScatterPlotBindingPlotSymbols;
 
 typedef enum _CPScatterPlotField {
     CPScatterPlotFieldX,
-    CPScatterPlotFieldY,
-    CPScatterPlotFieldErrorMinimum,
-    CPScatterPlotFieldErrorMaximum
+    CPScatterPlotFieldY
 } CPScatterPlotField;
 
+@protocol CPScatterPlotDataSource <CPPlotDataSource>
+
+@optional
+// Implement one of the following to add plot symbols
+-(NSArray *)symbolsForScatterPlot:(CPScatterPlot *)plot;
+-(CPPlotSymbol *)symbolForScatterPlot:(CPScatterPlot *)plot recordIndex:(NSUInteger)index;
+
+@end 
 
 @interface CPScatterPlot : CPPlot {
-    CPNumericType numericType;
     id observedObjectForXValues;
     id observedObjectForYValues;
+    id observedObjectForPlotSymbols;
     NSString *keyPathForXValues;
     NSString *keyPathForYValues;
-    BOOL hasErrorBars;
+    NSString *keyPathForPlotSymbols;
 	CPLineStyle *dataLineStyle;
-	CPPlotSymbol *defaultPlotSymbol;
+	CPPlotSymbol *plotSymbol;
+    CPFill *areaFill;
+    NSDecimalNumber *areaBaseValue;
     NSArray *xValues;
     NSArray *yValues;
-    NSMutableArray *plotSymbols;
+    NSArray *plotSymbols;
 } 
 
-@property (nonatomic, readwrite, assign) CPNumericType numericType;
-@property (nonatomic, readwrite, assign) BOOL hasErrorBars;
 @property (nonatomic, readwrite, copy) CPLineStyle *dataLineStyle;
-@property (nonatomic, readwrite, copy) CPPlotSymbol *defaultPlotSymbol;
-
--(void)setPlotSymbol:(CPPlotSymbol *)symbol atIndex:(NSUInteger)index;
+@property (nonatomic, readwrite, copy) CPPlotSymbol *plotSymbol;
+@property (nonatomic, readwrite, copy) CPFill *areaFill;
+@property (nonatomic, readwrite, copy) NSDecimalNumber *areaBaseValue;
 
 @end

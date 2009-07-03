@@ -70,13 +70,14 @@
 	greenCirclePlotSymbol.fill = [CPFill fillWithColor:[CPColor colorWithCGColor:greenColor]];
     greenCirclePlotSymbol.size = CGSizeMake(5.0, 5.0);
     greenCirclePlotSymbol.lineStyle.lineWidth = 0.1;
-    scatterPlot.defaultPlotSymbol = greenCirclePlotSymbol;
+    scatterPlot.plotSymbol = greenCirclePlotSymbol;
 	CGColorRelease(greenColor);
     
     CPXYPlotSpace *plotSpace;
     if([[self.graph allPlotSpaces] count] == 0) {
-        plotSpace = (CPXYPlotSpace*)[[self graph] createPlotSpace];
+        plotSpace = (CPXYPlotSpace*)[[self graph] newPlotSpace];
         [[self graph] addPlotSpace:plotSpace];
+        [plotSpace release];
     } else {
         plotSpace = (CPXYPlotSpace*)[[self graph] defaultPlotSpace];
     }
@@ -113,4 +114,5 @@
     
     GTMAssertObjectImageEqualToImageNamed(self.graph, @"CPXYGraphTests-testRenderMultipleScatter", @"Should render 3 offset sine waves with green symbols.");
 }
+
 @end

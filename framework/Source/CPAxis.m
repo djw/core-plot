@@ -4,8 +4,11 @@
 #import "CPUtilities.h"
 #import "CPPlotRange.h"
 #import "CPLineStyle.h"
+#import "CPTextStyle.h"
 #import "CPTextLayer.h"
 #import "CPAxisLabel.h"
+#import "CPPlatformSpecificCategories.h"
+#import "CPUtilities.h"
 
 @interface CPAxis ()
 
@@ -13,6 +16,8 @@
 
 -(void)tickLocationsBeginningAt:(NSDecimalNumber *)beginNumber increasing:(BOOL)increasing majorTickLocations:(NSSet **)newMajorLocations minorTickLocations:(NSSet **)newMinorLocations;
 -(NSDecimalNumber *)nextLocationFromCoordinateValue:(NSDecimalNumber *)coord increasing:(BOOL)increasing interval:(NSDecimalNumber *)interval;
+
+-(NSSet *)filteredTickLocations:(NSSet *)allLocations;
 
 @end
 
@@ -32,24 +37,27 @@
 @synthesize majorIntervalLength;
 @synthesize minorTicksPerInterval;
 @synthesize axisLabelingPolicy;
+@synthesize axisLabelTextStyle;
 @synthesize tickLabelFormatter;
 @synthesize axisLabels;
 @synthesize tickDirection;
 @synthesize needsRelabel;
+@synthesize drawsAxisLine;
+@synthesize labelExclusionRanges;
+@synthesize delegate;
 
 #pragma mark -
 #pragma mark Init/Dealloc
 
 -(id)initWithFrame:(CGRect)newFrame
 {
-	self = [super initWithFrame:newFrame];
-	if (self != nil) {
+	if (self = [super initWithFrame:newFrame]) {
 		self.plotSpace = nil;
 		self.majorTickLocations = [NSArray array];
 		self.minorTickLocations = [NSArray array];
 		self.minorTickLength = 3.f;
 		self.majorTickLength = 5.f;
-		self.axisLabelOffset = 20.f;
+		self.axisLabelOffset = 2.f;
 		self.majorTickLineStyle = [CPLineStyle lineStyle];
 		self.minorTickLineStyle = [CPLineStyle lineStyle];
 		self.fixedPoint = [NSDecimalNumber zero];
@@ -57,31 +65,37 @@
 		self.minorTicksPerInterval = 1;
 		self.coordinate = CPCoordinateX;
 		self.axisLabelingPolicy = CPAxisLabelingPolicyFixedInterval;
-		NSNumberFormatter *newFormatter = [[[NSNumberFormatter alloc] init] autorelease];
+		self.axisLabelTextStyle = [[[CPTextStyle alloc] init] autorelease];
+		NSNumberFormatter *newFormatter = [[NSNumberFormatter alloc] init];
 		newFormatter.maximumFractionDigits = 1; 
         newFormatter.minimumFractionDigits = 1;
         self.tickLabelFormatter = newFormatter;
+		[newFormatter release];
 		self.axisLabels = [NSSet set];
-        self.tickDirection = CPDirectionDown;
-		self.layerAutoresizingMask = kCPLayerNotSizable;
+        self.tickDirection = CPSignNone;
         self.needsRelabel = YES;
+		self.drawsAxisLine = YES;
+		self.labelExclusionRanges = nil;
+		self.delegate = nil;
 	}
 	return self;
 }
 
 
 -(void)dealloc {
-    self.deallocating = YES;
 	self.plotSpace = nil;
-	self.majorTickLocations = nil;
-	self.minorTickLocations = nil;
+	[majorTickLocations release];
+	[minorTickLocations release];
 	self.axisLineStyle = nil;
-	self.majorTickLineStyle = nil;
-	self.minorTickLineStyle = nil;
+	[majorTickLineStyle release];
+	[minorTickLineStyle release];
 	self.fixedPoint = nil;
 	self.majorIntervalLength = nil;
 	self.tickLabelFormatter = nil;
-	self.axisLabels = nil;
+	[axisLabels release];
+	[axisLabelTextStyle release];
+	self.labelExclusionRanges = nil;
+	self.delegate = nil;
 	[super dealloc];
 }
 
@@ -135,14 +149,14 @@
 #pragma mark -
 #pragma mark Labels
 
--(NSArray *)createAxisLabelsAtLocations:(NSArray *)locations
+-(NSArray *)newAxisLabelsAtLocations:(NSArray *)locations
 {
-    NSMutableArray *newLabels = [NSMutableArray arrayWithCapacity:locations.count];
+    NSMutableArray *newLabels = [[NSMutableArray alloc] initWithCapacity:locations.count];
 	for ( NSDecimalNumber *tickLocation in locations ) {
         NSString *labelString = [self.tickLabelFormatter stringForObjectValue:tickLocation];
-        CPAxisLabel *newLabel = [[CPAxisLabel alloc] initWithText:labelString];
+        CPAxisLabel *newLabel = [[CPAxisLabel alloc] initWithText:labelString textStyle:self.axisLabelTextStyle];
         newLabel.tickLocation = tickLocation;
-        newLabel.offset = self.axisLabelOffset;
+        newLabel.offset = self.axisLabelOffset + self.majorTickLength;
         [newLabels addObject:newLabel];
         [newLabel release];
 	}
@@ -158,12 +172,16 @@
 {
     if (!self.needsRelabel) return;
 	if (!self.plotSpace) return;
+	if ( self.delegate && ![self.delegate axisShouldRelabel:self] ) {
+        self.needsRelabel = NO;
+        return;
+    }
 	
 	NSMutableSet *allNewMajorLocations = [NSMutableSet set];
 	NSMutableSet *allNewMinorLocations = [NSMutableSet set];
 	NSSet *newMajorLocations, *newMinorLocations;
 	
-	switch (axisLabelingPolicy) {
+	switch (self.axisLabelingPolicy) {
 		case CPAxisLabelingPolicyAdHoc:
 			// Nothing to do. User sets labels.
 			break;
@@ -183,28 +201,59 @@
 			// TODO: logarithmic labeling policy
 			break;
 	}
-	self.majorTickLocations = allNewMajorLocations;
-	self.minorTickLocations = allNewMinorLocations;
+	
+	// Filter and set tick locations	
+	self.majorTickLocations = [self filteredMajorTickLocations:allNewMajorLocations];
+	self.minorTickLocations = [self filteredMinorTickLocations:allNewMinorLocations];
 	
 	// Label ticks
-	NSArray *newLabels = [self createAxisLabelsAtLocations:self.majorTickLocations.allObjects];
+	NSArray *newLabels = [self newAxisLabelsAtLocations:self.majorTickLocations.allObjects];
 	self.axisLabels = [NSSet setWithArray:newLabels];
-    
-    [self setNeedsDisplay];
-    [self setNeedsLayout];
+    [newLabels release];
     
     self.needsRelabel = NO;
+	
+	[self.delegate axisDidRelabel:self];
+}
+
+-(NSSet *)filteredTickLocations:(NSSet *)allLocations 
+{
+	NSMutableSet *filteredLocations = [allLocations mutableCopy];
+	for ( CPPlotRange *range in self.labelExclusionRanges ) {
+		for ( NSDecimalNumber *location in allLocations ) {
+			if ( [range contains:location] ) [filteredLocations removeObject:location];
+		}
+	}
+	return [filteredLocations autorelease];
+}
+
+-(NSSet *)filteredMajorTickLocations:(NSSet *)allLocations
+{
+	return [self filteredTickLocations:allLocations];
+}
+
+-(NSSet *)filteredMinorTickLocations:(NSSet *)allLocations
+{
+	return [self filteredTickLocations:allLocations];
 }
 
 #pragma mark -
 #pragma mark Sublayer Layout
 
++(CGFloat)defaultZPosition 
+{
+	return CPDefaultZPositionAxis;
+}
+
 -(void)layoutSublayers 
 {
-    if ( self.needsRelabel ) [self relabel];
-    for ( CPAxisLabel *label in axisLabels ) {
+	[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+
+	if ( self.needsRelabel ) [self relabel];
+	
+    for ( CPAxisLabel *label in self.axisLabels ) {
         CGPoint tickBasePoint = [self viewPointForCoordinateDecimalNumber:label.tickLocation];
-        [label positionRelativeToViewPoint:tickBasePoint inDirection:tickDirection];
+        [label positionRelativeToViewPoint:tickBasePoint forCoordinate:OrthogonalCoordinate(self.coordinate) inDirection:self.tickDirection];
     }
 }
 
@@ -214,6 +263,9 @@
 -(void)setAxisLabels:(NSSet *)newLabels 
 {
     if ( newLabels != axisLabels ) {
+		[CATransaction begin];
+		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+		
         for ( CPAxisLabel *label in axisLabels ) {
             [label removeFromSuperlayer];
         }
@@ -225,7 +277,28 @@
         for ( CPAxisLabel *label in axisLabels ) {
             [self addSublayer:label];
         }
-    }
+
+		[CATransaction commit];
+		
+		[self setNeedsDisplay];		
+	}
+}
+
+-(void)setAxisLabelTextStyle:(CPTextStyle *)newStyle 
+{
+	if ( newStyle != axisLabelTextStyle ) {
+		[axisLabelTextStyle release];
+		axisLabelTextStyle = [newStyle copy];
+		[self setNeedsLayout];
+	}
+}
+
+-(void)setLabelExclusionRanges:(NSArray *)ranges {
+	if ( ranges != labelExclusionRanges ) {
+		[labelExclusionRanges release];
+		labelExclusionRanges = [ranges retain];
+		[self setNeedsRelabel];
+	}
 }
 
 -(void)setNeedsRelabel:(BOOL)newNeedsRelabel 
@@ -234,7 +307,6 @@
         needsRelabel = newNeedsRelabel;
         if ( needsRelabel ) {
             [self setNeedsLayout];
-            [self setNeedsDisplay];
         }
     }
 }
@@ -244,7 +316,8 @@
     if ( newLocations != majorTickLocations ) {
         [majorTickLocations release];
         majorTickLocations = [newLocations retain];
-        self.needsRelabel = YES;
+		[self setNeedsDisplay];		
+        [self setNeedsRelabel];
     }
 }
 
@@ -253,7 +326,8 @@
     if ( newLocations != majorTickLocations ) {
         [minorTickLocations release];
         minorTickLocations = [newLocations retain];
-        self.needsRelabel = YES;
+		[self setNeedsDisplay];		
+        [self setNeedsRelabel];
     }
 }
 
@@ -277,8 +351,7 @@
 {
     if ( newOffset != axisLabelOffset ) {
         axisLabelOffset = newOffset;
-        [self setNeedsDisplay];
-        [self setNeedsLayout];
+		[self setNeedsLayout];
     }
 }
 
@@ -305,6 +378,14 @@
         [axisLineStyle release];
         axisLineStyle = [newLineStyle copy];
         [self setNeedsDisplay];
+    }
+}
+
+-(void)setDrawsAxisLine:(BOOL)newDraws 
+{
+    if ( newDraws != drawsAxisLine ) {
+        drawsAxisLine = newDraws;
+		[self setNeedsDisplay];
     }
 }
 
@@ -369,12 +450,11 @@
     }
 }
 
--(void)setTickDirection:(CPDirection)newDirection 
+-(void)setTickDirection:(CPSign)newDirection 
 {
     if (newDirection != tickDirection) {
         tickDirection = newDirection;
-        [self setNeedsDisplay];
-        [self setNeedsLayout];
+		[self setNeedsLayout];
     }
 }
 

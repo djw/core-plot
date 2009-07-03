@@ -1,29 +1,19 @@
-
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 #import "CPPlatformSpecificDefines.h"
 
-// Layer layout constants
-enum CPLayerAutoresizingMask
-{
-    kCPLayerNotSizable			= 0,
-    kCPLayerMinXMargin			= 1U << 0,
-    kCPLayerWidthSizable		= 1U << 1,
-    kCPLayerMaxXMargin			= 1U << 2,
-    kCPLayerMinYMargin			= 1U << 3,
-    kCPLayerHeightSizable		= 1U << 4,
-    kCPLayerMaxYMargin			= 1U << 5
-};
-
 @interface CPLayer : CALayer {
-	@protected
-	unsigned int layerAutoresizingMask;
-	CGRect previousBounds;
-    BOOL deallocating;
+    @private
+	CGFloat paddingLeft;
+	CGFloat paddingTop;
+	CGFloat paddingRight;
+	CGFloat paddingBottom;
 }
 
-@property (nonatomic, readwrite) unsigned int layerAutoresizingMask;
-@property (nonatomic, readwrite) BOOL deallocating;
+@property (nonatomic, readwrite) CGFloat paddingLeft;
+@property (nonatomic, readwrite) CGFloat paddingTop;
+@property (nonatomic, readwrite) CGFloat paddingRight;
+@property (nonatomic, readwrite) CGFloat paddingBottom;
 
 -(id)initWithFrame:(CGRect)newFrame;
 
@@ -37,5 +27,14 @@ enum CPLayerAutoresizingMask
 -(void)mouseOrFingerUpAtPoint:(CGPoint)interactionPoint;
 -(void)mouseOrFingerDraggedAtPoint:(CGPoint)interactionPoint;
 -(void)mouseOrFingerCancelled;
+
+// Z position
++(CGFloat)defaultZPosition;
+
+// Bindings
++(void)exposeBinding:(NSString *)binding;
+-(void)bind:(NSString *)binding toObject:(id)observable withKeyPath:(NSString *)keyPath options:(NSDictionary *)options;
+-(void)unbind:(NSString *)binding;
+-(Class)valueClassForBinding:(NSString *)binding;
 
 @end

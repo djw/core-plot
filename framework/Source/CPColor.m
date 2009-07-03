@@ -61,6 +61,19 @@
 	return color; 
 } 
 
++(CPColor *)greenColor
+{ 
+    static CPColor *color = nil;
+    if ( nil == color ) {
+        CGColorRef green = NULL;
+        CGFloat values[4] = {0.0, 1.0, 0.0, 1.0}; 
+		green = CGColorCreate([CPColorSpace genericRGBSpace].cgColorSpace, values);
+        color = [[CPColor alloc] initWithCGColor:green];
+        CGColorRelease(green);
+    }
+	return color; 
+}
+
 +(CPColor *)blueColor
 { 
     static CPColor *color = nil;
@@ -78,11 +91,7 @@
 { 
     static CPColor *color = nil;
     if ( nil == color ) {
-        CGColorRef darkGray = NULL;
-        CGFloat values[4] = {0.4, 0.4, 0.4, 1.0}; 
-		darkGray = CGColorCreate([CPColorSpace genericRGBSpace].cgColorSpace, values);
-        color = [[CPColor alloc] initWithCGColor:darkGray];
-        CGColorRelease(darkGray);
+        color = [[self colorWithGenericGray:0.4] retain];
     }
 	return color; 
 }
@@ -91,11 +100,7 @@
 { 
     static CPColor *color = nil;
     if ( nil == color ) {
-        CGColorRef lightGray = NULL;
-        CGFloat values[4] = {0.7, 0.7, 0.7, 1.0}; 
-		lightGray = CGColorCreate([CPColorSpace genericRGBSpace].cgColorSpace, values);
-        color = [[CPColor alloc] initWithCGColor:lightGray];
-        CGColorRelease(lightGray);
+		color = [[self colorWithGenericGray:0.7] retain];
     }
 	return color; 
 }
@@ -103,6 +108,21 @@
 +(CPColor *)colorWithCGColor:(CGColorRef)newCGColor 
 {
     return [[[CPColor alloc] initWithCGColor:newCGColor] autorelease];
+}
+
++(CPColor *)colorWithComponentRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha
+{
+    return [[[CPColor alloc] initWithComponentRed:red green:green blue:blue alpha:alpha] autorelease];
+}
+
++(CPColor *)colorWithGenericGray:(CGFloat)gray
+{
+	CGColorRef colorRef = NULL;
+	CGFloat values[4] = {gray, gray, gray, 1.0}; 
+	colorRef = CGColorCreate([CPColorSpace genericRGBSpace].cgColorSpace, values);
+	CPColor *color = [[CPColor alloc] initWithCGColor:colorRef];
+	CGColorRelease(colorRef);
+	return [color autorelease];
 }
 
 #pragma mark -
@@ -114,6 +134,19 @@
         CGColorRetain(newCGColor);
         cgColor = newCGColor;
     }
+    return self;
+}
+
+-(id)initWithComponentRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha
+{
+    CGFloat colorComponents[4];
+    colorComponents[0] = red;
+    colorComponents[1] = green;
+    colorComponents[2] = blue;
+    colorComponents[3] = alpha;
+    CGColorRef color = CGColorCreate([CPColorSpace genericRGBSpace].cgColorSpace, colorComponents);
+    [self initWithCGColor:color];
+    CGColorRelease(color);
     return self;
 }
 
@@ -176,6 +209,36 @@
     CPColor *colorCopy = [[[self class] allocWithZone:zone] initWithCGColor:cgColorCopy];
     CGColorRelease(cgColorCopy);
     return colorCopy;
+}
+
+#pragma mark -
+#pragma mark Color comparison
+
+-(BOOL)isEqual:(id)object
+{
+	if ([object isKindOfClass:[self class]]) {
+		return CGColorEqualToColor(self.cgColor, ((CPColor *)object).cgColor);
+	} else {
+		return NO;
+	}
+}
+
+-(NSUInteger)hash
+{
+	// Equal objects must hash the same.
+	CGFloat theHash = 0.0f;
+	CGFloat multiplier = 256.0f;
+
+	CGColorRef theColor = self.cgColor;
+	size_t numberOfComponents = CGColorGetNumberOfComponents(theColor);
+	const CGFloat *colorComponents = CGColorGetComponents(theColor);
+	
+	for (NSUInteger i = 0; i < numberOfComponents; i++) {
+		theHash += multiplier * colorComponents[i];
+		multiplier *= 256.0f;
+	}
+	
+	return (NSUInteger)theHash;
 }
 
 @end

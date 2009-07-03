@@ -10,44 +10,30 @@
 
 @implementation CPTestAppScatterPlotController
 
+@synthesize dataForPlot;
+
 #pragma mark -
 #pragma mark Initialization and teardown
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-		NSLog(@"Init");
-        // Custom initialization
-    }
-    return self;
-}
-*/
 
-- (void)dealloc 
+-(void)dealloc 
 {
 	[dataForPlot release];
     [super dealloc];
 }
 
-- (void)viewDidLoad 
+-(void)viewDidLoad 
 {
-    // Create graph
-    graph = [[CPXYGraph alloc] initWithFrame:self.view.bounds];
-	
-	CGFloat grayColorComponents[4] = {0.7, 0.7, 0.7, 1.0};
-	CGColorRef grayColor =  CGColorCreate([CPColorSpace genericRGBSpace].cgColorSpace, grayColorComponents);
+    [super viewDidLoad];
 
-	graph.fill = [CPFill fillWithColor:[CPColor colorWithCGColor:grayColor]];
-	CGColorRelease(grayColor);
-	
-	CGFloat darkGrayColorComponents[4] = {0.2, 0.2, 0.2, 0.3};
-	grayColor =  CGColorCreate([CPColorSpace genericRGBSpace].cgColorSpace, darkGrayColorComponents);
-	
-	graph.plotArea.fill = [CPFill fillWithColor:[CPColor colorWithCGColor:grayColor]];
-	CGColorRelease(grayColor);
-	
-	graph.layerAutoresizingMask = kCPLayerWidthSizable | kCPLayerMinXMargin | kCPLayerMaxXMargin | kCPLayerHeightSizable | kCPLayerMinYMargin | kCPLayerMaxYMargin;
-	[(CPLayerHostingView *)self.view setHostedLayer:graph];
+    // Create graph from theme
+	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
+	graph = [theme newGraph];
+	CPLayerHostingView *hostingView = (CPLayerHostingView *)self.view;
+    hostingView.hostedLayer = graph;
+    graph.paddingLeft = 20.0;
+	graph.paddingTop = 20.0;
+	graph.paddingRight = 20.0;
+	graph.paddingBottom = 20.0;
     
     // Setup plot space
     CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
@@ -56,34 +42,17 @@
 
     // Axes
 	CPXYAxisSet *axisSet = (CPXYAxisSet *)graph.axisSet;
+    CPXYAxis *x = axisSet.xAxis;
+    x.majorIntervalLength = [NSDecimalNumber decimalNumberWithString:@"0.5"];
+    x.constantCoordinateValue = [NSDecimalNumber decimalNumberWithString:@"2"];
+    x.minorTicksPerInterval = 2;
     
-    CPLineStyle *majorLineStyle = [CPLineStyle lineStyle];
-    majorLineStyle.lineCap = kCGLineCapRound;
-    majorLineStyle.lineColor = [CPColor blueColor];
-    majorLineStyle.lineWidth = 2.0f;
-    
-    CPLineStyle *minorLineStyle = [CPLineStyle lineStyle];
-    minorLineStyle.lineColor = [CPColor redColor];
-    minorLineStyle.lineWidth = 2.0f;
-	
-    axisSet.xAxis.majorIntervalLength = [NSDecimalNumber decimalNumberWithString:@"0.1"];
-    axisSet.xAxis.constantCoordinateValue = [NSDecimalNumber one];
-    axisSet.xAxis.minorTicksPerInterval = 2;
-    axisSet.xAxis.majorTickLineStyle = majorLineStyle;
-    axisSet.xAxis.minorTickLineStyle = minorLineStyle;
-    axisSet.xAxis.axisLineStyle = majorLineStyle;
-    axisSet.xAxis.minorTickLength = 7.0f;
-	
-    axisSet.yAxis.majorIntervalLength = [NSDecimalNumber decimalNumberWithString:@"0.5"];
-    axisSet.yAxis.minorTicksPerInterval = 5;
-    axisSet.yAxis.constantCoordinateValue = [NSDecimalNumber one];
-    axisSet.yAxis.majorTickLineStyle = majorLineStyle;
-    axisSet.yAxis.minorTickLineStyle = minorLineStyle;
-    axisSet.yAxis.axisLineStyle = majorLineStyle;
-    axisSet.yAxis.minorTickLength = 7.0f;
-	
-	
-    // Create a second plot that uses the data source method
+    CPXYAxis *y = axisSet.yAxis;
+    y.majorIntervalLength = [NSDecimalNumber decimalNumberWithString:@"0.5"];
+    y.minorTicksPerInterval = 5;
+    y.constantCoordinateValue = [NSDecimalNumber decimalNumberWithString:@"2"];
+
+    // Create a plot that uses the data source method
 	CPScatterPlot *dataSourceLinePlot = [[[CPScatterPlot alloc] initWithFrame:graph.bounds] autorelease];
     dataSourceLinePlot.identifier = @"Data Source Plot";
 	dataSourceLinePlot.dataLineStyle.lineWidth = 1.f;
@@ -93,12 +62,9 @@
 
 	// Add plot symbols
 	CPPlotSymbol *greenCirclePlotSymbol = [CPPlotSymbol ellipsePlotSymbol];
-	CGFloat greenColorComponents[4] = {0.0, 1.0, 0.0, 1.0};
-	CGColorRef greenColor =  CGColorCreate([CPColorSpace genericRGBSpace].cgColorSpace, greenColorComponents);
-	greenCirclePlotSymbol.fill = [CPFill fillWithColor:[CPColor colorWithCGColor:greenColor]];
+	greenCirclePlotSymbol.fill = [CPFill fillWithColor:[CPColor greenColor]];
     greenCirclePlotSymbol.size = CGSizeMake(10.0, 10.0);
-    dataSourceLinePlot.defaultPlotSymbol = greenCirclePlotSymbol;
-	CGColorRelease(greenColor);
+    dataSourceLinePlot.plotSymbol = greenCirclePlotSymbol;
 	
     // Add some initial data
 	NSDecimalNumber *x1 = [NSDecimalNumber decimalNumberWithString:@"1.3"];
@@ -114,31 +80,22 @@
 									[NSMutableDictionary dictionaryWithObjectsAndKeys:x3, @"x", y3, @"y", nil],
 									nil];
 	self.dataForPlot = contentArray;
-	
-	
-	
-    [super viewDidLoad];
+    
+    [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(changePlotRange) userInfo:nil repeats:YES];
 }
 
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
-    // Release anything that's not essential, such as cached data
+-(void)changePlotRange 
+{
+    // Setup plot space
+    CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
+    plotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0) length:CPDecimalFromFloat(3.0 + 2.0*rand()/RAND_MAX)];
+    plotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0) length:CPDecimalFromFloat(3.0 + 2.0*rand()/RAND_MAX)];
 }
 
 #pragma mark -
 #pragma mark Plot Data Source Methods
 
--(NSUInteger)numberOfRecords {
+-(NSUInteger)numberOfRecordsForPlot:(CPPlot *)plot {
     return [dataForPlot count];
 }
 
@@ -147,11 +104,5 @@
     if ( fieldEnum == CPScatterPlotFieldY ) num = [num decimalNumberByAdding:[NSDecimalNumber one]];
     return num;
 }
-
-#pragma mark -
-#pragma mark Accessors
-
-@synthesize dataForPlot;
-
 
 @end

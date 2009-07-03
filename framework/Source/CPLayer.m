@@ -1,53 +1,38 @@
 
 #import "CPLayer.h"
 #import "CPPlatformSpecificFunctions.h"
-
-@interface CPLayer()
-
-@property (nonatomic, readwrite) CGRect previousBounds;
-
-@end
+#import "CPExceptions.h"
 
 @implementation CPLayer
 
-@synthesize layerAutoresizingMask;
-@synthesize previousBounds;
-@synthesize deallocating;
+@synthesize paddingLeft;
+@synthesize paddingTop;
+@synthesize paddingRight;
+@synthesize paddingBottom;
 
 -(id)initWithFrame:(CGRect)newFrame
 {
 	if ( self = [super init] ) {
-		self.previousBounds = CGRectZero;
 		self.frame = newFrame;
 		self.needsDisplayOnBoundsChange = NO;
-        self.opaque = NO;
-		self.layerAutoresizingMask = kCPLayerNotSizable;
+		self.opaque = NO;
 		self.masksToBounds = NO;
-        self.deallocating = NO;
+		self.zPosition = [self.class defaultZPosition];
+		self.paddingLeft = 0.0f;
+		self.paddingTop = 0.0f;
+		self.paddingRight = 0.0f;
+		self.paddingBottom = 0.0f;
 	}
 	return self;
 }
 
-- (id)init
+-(id)init
 {
 	return [self initWithFrame:CGRectZero];
 }
 
-
 #pragma mark -
 #pragma mark Drawing
-
--(void)setNeedsLayout 
-{
-    if ( self.deallocating ) return;
-    [super setNeedsLayout];
-}
-
--(void)setNeedsDisplay
-{
-    if ( self.deallocating ) return;
-    [super setNeedsDisplay];
-}
 
 -(void)drawInContext:(CGContextRef)context
 {
@@ -61,16 +46,23 @@
 
 -(void)recursivelyRenderInContext:(CGContextRef)context
 {
-	// TODO: set up clipping for sublayers
 	[self renderAsVectorInContext:context];
-	
-	for (CPLayer *currentSublayer in self.sublayers) {
+
+	for (CALayer *currentSublayer in self.sublayers) {
 		CGContextSaveGState(context);
 		
 		// Shift origin of context to match starting coordinate of sublayer
-		CGPoint currentSublayerOrigin = currentSublayer.frame.origin;
-		CGContextTranslateCTM (context, currentSublayerOrigin.x, currentSublayerOrigin.y);
-		[currentSublayer recursivelyRenderInContext:context];
+		CGPoint currentSublayerFrameOrigin = currentSublayer.frame.origin;
+		CGPoint currentSublayerBoundsOrigin = currentSublayer.bounds.origin;
+		CGContextTranslateCTM(context, currentSublayerFrameOrigin.x - currentSublayerBoundsOrigin.x, currentSublayerFrameOrigin.y - currentSublayerBoundsOrigin.y);
+		if (self.masksToBounds) {
+			CGContextClipToRect(context, currentSublayer.bounds);
+		}
+		if ([currentSublayer isKindOfClass:[CPLayer class]]) {
+			[(CPLayer *)currentSublayer recursivelyRenderInContext:context];
+		} else {
+			[currentSublayer drawInContext:context];
+		}
 		CGContextRestoreGState(context);
 	}
 }
@@ -130,128 +122,106 @@
 #pragma mark -
 #pragma mark Layout
 
+-(void)setPaddingLeft:(CGFloat)newPadding 
+{
+    if ( newPadding != paddingLeft ) {
+        paddingLeft = newPadding;
+        [self setNeedsLayout];
+    }
+}
+
+-(void)setPaddingRight:(CGFloat)newPadding 
+{
+    if ( newPadding != paddingRight ) {
+        paddingRight = newPadding;
+        [self setNeedsLayout];
+    }
+}
+
+-(void)setPaddingTop:(CGFloat)newPadding 
+{
+    if ( newPadding != paddingTop ) {
+        paddingTop = newPadding;
+        [self setNeedsLayout];
+    }
+}
+
+-(void)setPaddingBottom:(CGFloat)newPadding 
+{
+    if ( newPadding != paddingBottom ) {
+        paddingBottom = newPadding;
+        [self setNeedsLayout];
+    }
+}
+
++(CGFloat)defaultZPosition 
+{
+	return 0.0f;
+}
+
 -(void)layoutSublayers
 {
 	// This is where we do our custom replacement for the Mac-only layout manager and autoresizing mask
-	CGRect mainLayerBounds = self.bounds;
+	// Subclasses should override to lay out their own sublayers
+	// TODO: create a generic layout manager akin to CAConstraintLayoutManager ("struts and springs" is not flexible enough)
+	// Sublayers fill the super layer's bounds minus any padding by default
+	CGRect selfBounds = self.bounds;
+	CGSize subLayerSize = selfBounds.size;
+	subLayerSize.width -= self.paddingLeft + self.paddingRight;
+	subLayerSize.width = MAX(subLayerSize.width, 0.0f);
+	subLayerSize.height -= self.paddingTop + self.paddingBottom;
+	subLayerSize.height = MAX(subLayerSize.height, 0.0f);
 	
-	for (CALayer *currentLayer in self.sublayers) {
-		// People might add normal CALayers to their hierarchy, don't lay out those
-		if ([currentLayer isKindOfClass:[CPLayer class]]) {
-			CPLayer *currentCPLayer = (CPLayer *)currentLayer;
-			CGRect sublayerFrame = currentCPLayer.frame;
-			NSUInteger currentAutoresizingMask = currentCPLayer.layerAutoresizingMask;
-            
-            if ( currentAutoresizingMask == kCPLayerNotSizable ) continue;
-			
-			// Align and size along X
-			if (currentAutoresizingMask & kCPLayerWidthSizable) {
-				if (currentAutoresizingMask & kCPLayerMaxXMargin) {
-					CGFloat maxXMargin = previousBounds.size.width - (sublayerFrame.origin.x + sublayerFrame.size.width);
-					if (currentAutoresizingMask & kCPLayerMinXMargin) {
-						sublayerFrame.size.width = MAX(0.0, mainLayerBounds.size.width - sublayerFrame.origin.x - maxXMargin);
-					}
-					else {
-						sublayerFrame.origin.x = mainLayerBounds.size.width - sublayerFrame.size.width - maxXMargin;
-					}
-				}
-				else {
-					if (currentAutoresizingMask & kCPLayerMinXMargin) {
-					}
-					else {
-						CGFloat scaleDifferenceFromOldWidth = mainLayerBounds.size.width / previousBounds.size.width;
-						sublayerFrame.origin.x = sublayerFrame.origin.x * scaleDifferenceFromOldWidth;
-						if (sublayerFrame.size.width <= 0.0)
-							sublayerFrame.size.width = mainLayerBounds.size.width;
-						else
-							sublayerFrame.size.width = sublayerFrame.size.width * scaleDifferenceFromOldWidth;
-					}
-				}
-			}
-			else {
-				if (currentAutoresizingMask & kCPLayerMaxXMargin) {
-					CGFloat maxXMargin = previousBounds.size.width - (sublayerFrame.origin.x + sublayerFrame.size.width);
-					
-					if (currentAutoresizingMask & kCPLayerMinXMargin) {
-					}
-					else {
-						sublayerFrame.origin.x = mainLayerBounds.size.width - sublayerFrame.size.width - maxXMargin;
-					}
-				}
-				else {
-					if (currentAutoresizingMask & kCPLayerMinXMargin) {
-					}
-					else {
-						CGFloat scaleDifferenceFromOldWidth = mainLayerBounds.size.width / previousBounds.size.width;
-						sublayerFrame.origin.x = sublayerFrame.origin.x * scaleDifferenceFromOldWidth;						
-					}
-				}
-			}
-				
-			// Align and size along Y
-			if (currentAutoresizingMask & kCPLayerHeightSizable) {
-				if (currentAutoresizingMask & kCPLayerMaxYMargin) {
-					CGFloat maxYMargin = previousBounds.size.height - (sublayerFrame.origin.y + sublayerFrame.size.height);
-					
-					if (currentAutoresizingMask & kCPLayerMinYMargin) {
-						sublayerFrame.size.height = MAX(0.0, mainLayerBounds.size.height - sublayerFrame.origin.y - maxYMargin);
-					}
-					else {
-						sublayerFrame.origin.y = mainLayerBounds.size.height - sublayerFrame.size.height - maxYMargin;
-					}
-				}
-				else {
-					if (currentAutoresizingMask & kCPLayerMinYMargin) {
-					}
-					else {
-						CGFloat scaleDifferenceFromOldHeight = mainLayerBounds.size.height / previousBounds.size.height;
-						sublayerFrame.origin.y = sublayerFrame.origin.y * scaleDifferenceFromOldHeight;
-						if (sublayerFrame.size.height <= 0.0)
-							sublayerFrame.size.height = mainLayerBounds.size.height;
-						else
-							sublayerFrame.size.height = sublayerFrame.size.height * scaleDifferenceFromOldHeight;
-					}
-				}
-			}
-			else {
-				if (currentAutoresizingMask & kCPLayerMaxYMargin) {
-					CGFloat maxYMargin = previousBounds.size.height - (sublayerFrame.origin.y + sublayerFrame.size.height);
-					
-					if (currentAutoresizingMask & kCPLayerMinYMargin) {
-					}
-					else {
-						sublayerFrame.origin.y = mainLayerBounds.size.height - sublayerFrame.size.height - maxYMargin;
-					}
-				}
-				else {
-					if (currentAutoresizingMask & kCPLayerMinXMargin) {
-					}
-					else {
-						CGFloat scaleDifferenceFromOldHeight = mainLayerBounds.size.height / previousBounds.size.height;
-						sublayerFrame.origin.y = sublayerFrame.origin.y * scaleDifferenceFromOldHeight;						
-					}
-				}
-			}
-			
-			if (!CGRectEqualToRect(sublayerFrame, currentCPLayer.frame))
-				currentCPLayer.frame = sublayerFrame;
-		}		
-	}	
+	[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
 	
-	previousBounds = self.bounds;
+	for (CALayer *subLayer in self.sublayers) {
+		CGRect subLayerBounds = subLayer.bounds;
+		subLayerBounds.size = subLayerSize;
+		subLayer.bounds = subLayerBounds;
+		subLayer.anchorPoint = CGPointZero;
+		subLayer.position = CGPointMake(selfBounds.origin.x + self.paddingLeft, selfBounds.origin.y	+ self.paddingBottom);
+	}
 }
 
 #pragma mark -
-#pragma mark Accessors
+#pragma mark Bindings
 
--(void)setBounds:(CGRect)newBounds;
+static NSString * const BindingsNotSupportedString = @"Bindings are not supported on the iPhone in Core Plot";
+
++(void)exposeBinding:(NSString *)binding 
 {
-	// Deal with the initial bounds setting
-	if (CGRectEqualToRect(previousBounds, CGRectZero))
-		previousBounds = newBounds;
+#if defined(TARGET_IPHONE_SIMULATOR) || defined(TARGET_OS_IPHONE)
+#else
+    [super exposeBinding:binding];
+#endif
+}
 
-//	NSLog(@"Bounds: %f, %f", newBounds.size.width, newBounds.size.height);
-	[super setBounds:newBounds];
+-(void)bind:(NSString *)binding toObject:(id)observable withKeyPath:(NSString *)keyPath options:(NSDictionary *)options
+{
+#if defined(TARGET_IPHONE_SIMULATOR) || defined(TARGET_OS_IPHONE)
+    [NSException raise:CPException format:BindingsNotSupportedString];
+#else
+    [super bind:binding toObject:observable withKeyPath:keyPath options:options];
+#endif
+}
+
+-(void)unbind:(NSString *)binding
+{
+#if defined(TARGET_IPHONE_SIMULATOR) || defined(TARGET_OS_IPHONE)
+    [NSException raise:CPException format:BindingsNotSupportedString];
+#else
+    [super unbind:binding];
+#endif
+}
+
+-(Class)valueClassForBinding:(NSString *)binding
+{
+#if defined(TARGET_IPHONE_SIMULATOR) || defined(TARGET_OS_IPHONE)
+    [NSException raise:CPException format:BindingsNotSupportedString];
+    return Nil;
+#else
+    return [super valueClassForBinding:binding];
+#endif
 }
 
 @end
