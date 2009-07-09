@@ -14,17 +14,16 @@
 
 -(id)initWithFrame:(NSRect)frame {
     if (self = [super initWithFrame:frame]) {
-		hostedLayer = nil;
-		layerBeingClickedOn = nil;
-		CPLayer *mainLayer = [[CPLayer alloc] initWithFrame:NSRectToCGRect(frame)];
-		self.layer = mainLayer;
-		[mainLayer release];
-		[self setWantsLayer:YES];
+        hostedLayer = nil;
+        layerBeingClickedOn = nil;
+        CPLayer *mainLayer = [[CPLayer alloc] initWithFrame:NSRectToCGRect(frame)];
+        self.layer = mainLayer;
+        [mainLayer release];
     }
     return self;
 }
 
-- (void)dealloc
+-(void)dealloc
 {
 	self.hostedLayer = nil;
 	self.layerBeingClickedOn = nil;
@@ -34,7 +33,7 @@
 #pragma mark -
 #pragma mark Mouse handling
 
-- (BOOL)acceptsFirstMouse:(NSEvent *)theEvent;
+-(BOOL)acceptsFirstMouse:(NSEvent *)theEvent;
 {
 	return YES;
 }
@@ -80,18 +79,14 @@
 -(void)setHostedLayer:(CPLayer *)newLayer
 {
 	if (newLayer != hostedLayer) {
-		[CATransaction begin];
-		[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
-
+        self.wantsLayer = YES;
 		[hostedLayer removeFromSuperlayer];
 		[hostedLayer release];
 		hostedLayer = [newLayer retain];
 		if (hostedLayer) {
 			[self.layer addSublayer:hostedLayer];
 		}
-		
-		[CATransaction commit];
-	}
+    }
 }
 
 @end
