@@ -58,8 +58,8 @@
 	x.minorTickLength = 6.0;
     x.minorGridLineStyle = minorGridLineStyle;
 	x.title = @"X Axis";
-	x.axisTitleTextStyle = axisTitleTextStyle;
-	x.axisTitleOffset = 25.0f;
+	x.titleTextStyle = axisTitleTextStyle;
+	x.titleOffset = 25.0f;
 	
 	// Label y with an automatic label policy. 
     // Rotate the labels by 45 degrees, just to show it can be done.
@@ -75,8 +75,8 @@
 	y.minorTickLength = 6.0;
     y.minorGridLineStyle = minorGridLineStyle;
 	y.title = @"Y Axis";
-	y.axisTitleTextStyle = axisTitleTextStyle;
-	y.axisTitleOffset = 30.0f;
+	y.titleTextStyle = axisTitleTextStyle;
+	y.titleOffset = 30.0f;
 }
 
 @end
