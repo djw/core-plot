@@ -6,6 +6,8 @@
 #import "CPXYAxis.h"
 #import "CPAxisSet.h"
 #import "CPPlot.h"
+#import "CPPlotArea.h"
+#import "CPGraph.h"
 
 /// @cond
 @interface CPXYPlotSpace ()
@@ -75,6 +77,9 @@
 		[xRange release];
 		xRange = [range copy];
 		[[NSNotificationCenter defaultCenter] postNotificationName:CPPlotSpaceCoordinateMappingDidChangeNotification object:self];
+    	if ( [self.delegate respondsToSelector:@selector(plotSpace:didChangePlotRangeForCoordinate:)] ) {
+            [self.delegate plotSpace:self didChangePlotRangeForCoordinate:CPCoordinateX];
+        }
 	}
 }
 
@@ -84,6 +89,9 @@
 		[yRange release];
 		yRange = [range copy];
 		[[NSNotificationCenter defaultCenter] postNotificationName:CPPlotSpaceCoordinateMappingDidChangeNotification object:self];
+        if ( [self.delegate respondsToSelector:@selector(plotSpace:didChangePlotRangeForCoordinate:)] ) {
+            [self.delegate plotSpace:self didChangePlotRangeForCoordinate:CPCoordinateY];
+        }
 	}
 }
 
@@ -127,10 +135,10 @@
     return viewLength * ((plotCoord - range.doublePrecisionLocation) / range.doublePrecisionLength);
 }
 
--(CGPoint)viewPointInLayer:(CPLayer *)layer forPlotPoint:(NSDecimal *)plotPoint
+-(CGPoint)plotAreaViewPointForPlotPoint:(NSDecimal *)plotPoint
 {
 	CGFloat viewX, viewY;
-	CGSize layerSize = layer.bounds.size;
+	CGSize layerSize = self.graph.plotArea.bounds.size;
 	
 	switch ( self.xScaleType ) {
 		case CPScaleTypeLinear:
@@ -151,10 +159,10 @@
 	return CGPointMake(viewX, viewY);
 }
 
--(CGPoint)viewPointInLayer:(CPLayer *)layer forDoublePrecisionPlotPoint:(double *)plotPoint
+-(CGPoint)plotAreaViewPointForDoublePrecisionPlotPoint:(double *)plotPoint
 {
 	CGFloat viewX, viewY;
-	CGSize layerSize = layer.bounds.size;
+	CGSize layerSize = self.graph.plotArea.bounds.size;
 
 	switch ( self.xScaleType ) {
 		case CPScaleTypeLinear:
@@ -175,12 +183,12 @@
 	return CGPointMake(viewX, viewY);
 }
 
--(void)plotPoint:(NSDecimal *)plotPoint forViewPoint:(CGPoint)point inLayer:(CPLayer *)layer
+-(void)plotPoint:(NSDecimal *)plotPoint forPlotAreaViewPoint:(CGPoint)point
 {
 	NSDecimal pointx = CPDecimalFromFloat(point.x);
 	NSDecimal pointy = CPDecimalFromFloat(point.y);
-	NSDecimal boundsw = CPDecimalFromFloat(layer.bounds.size.width);
-	NSDecimal boundsh = CPDecimalFromFloat(layer.bounds.size.height);
+	NSDecimal boundsw = CPDecimalFromFloat(self.graph.plotArea.bounds.size.width);
+	NSDecimal boundsh = CPDecimalFromFloat(self.graph.plotArea.bounds.size.height);
 	
 	// get the xRange's location and length
 	NSDecimal xLocation = xRange.location;
@@ -204,9 +212,84 @@
 	plotPoint[CPCoordinateY] = y;
 }
 
--(void)doublePrecisionPlotPoint:(double *)plotPoint forViewPoint:(CGPoint)point inLayer:(CPLayer *)layer
+-(void)doublePrecisionPlotPoint:(double *)plotPoint forPlotAreaViewPoint:(CGPoint)point 
 {
 	//	TODO: implement doublePrecisionPlotPoint:forViewPoint:
+}
+
+#pragma mark Interaction
+
+-(BOOL)pointingDeviceDownAtPoint:(CGPoint)interactionPoint
+{
+	if ( !self.allowsUserInteraction || !self.graph.plotArea ) {
+        return NO;
+    }
+    CGPoint pointInPlotArea = [self.graph.plotArea convertPoint:interactionPoint toLayer:self.graph.plotArea];
+    if ( [self.graph.plotArea containsPoint:pointInPlotArea] ) {
+        // Handle event
+        lastDragPoint = pointInPlotArea;
+        isDragging = YES;
+        return YES;
+    }
+
+	return NO;
+}
+
+-(BOOL)pointingDeviceUpAtPoint:(CGPoint)interactionPoint
+{
+	if ( !self.allowsUserInteraction || !self.graph.plotArea ) {
+        return NO;
+    }
+    if ( isDragging ) {
+        isDragging = NO;
+        return YES;
+    }
+    
+	return NO;
+}
+
+-(BOOL)pointingDeviceDraggedAtPoint:(CGPoint)interactionPoint
+{
+	if ( !self.allowsUserInteraction || !self.graph.plotArea ) {
+        return NO;
+    }
+    CGPoint pointInPlotArea = [self.graph.plotArea convertPoint:interactionPoint toLayer:self.graph.plotArea];
+    if ( isDragging ) {
+    	CGPoint displacement = CGPointMake(pointInPlotArea.x-lastDragPoint.x, pointInPlotArea.y-lastDragPoint.y);
+        CGPoint pointToUse = pointInPlotArea;
+        
+        // Allow delegate to override
+        if ( [self.delegate respondsToSelector:@selector(plotSpace:willDisplaceBy:)] ) {
+            displacement = [self.delegate plotSpace:self willDisplaceBy:displacement];
+            pointToUse = CGPointMake(lastDragPoint.x+displacement.x, lastDragPoint.y+displacement.y);
+        }
+    
+    	NSDecimal lastPoint[2], newPoint[2];
+    	[self plotPoint:lastPoint forPlotAreaViewPoint:lastDragPoint];
+        [self plotPoint:newPoint forPlotAreaViewPoint:pointToUse];
+        
+		CPPlotRange *newRangeX = [[self.xRange copy] autorelease];
+        CPPlotRange *newRangeY = [[self.yRange copy] autorelease];
+        NSDecimal shiftX = CPDecimalSubtract(lastPoint[0], newPoint[0]);
+        NSDecimal shiftY = CPDecimalSubtract(lastPoint[1], newPoint[1]);
+		newRangeX.location = CPDecimalAdd(newRangeX.location, shiftX);
+        newRangeY.location = CPDecimalAdd(newRangeY.location, shiftY);
+        
+        // Delegate override
+        if ( [self.delegate respondsToSelector:@selector(plotSpace:willChangePlotRangeTo:forCoordinate:)] ) {
+            newRangeX = [self.delegate plotSpace:self willChangePlotRangeTo:newRangeX forCoordinate:CPCoordinateX];
+            newRangeY = [self.delegate plotSpace:self willChangePlotRangeTo:newRangeY forCoordinate:CPCoordinateY];
+        }
+        
+        self.xRange = newRangeX;
+        self.yRange = newRangeY;
+        
+        lastDragPoint = pointInPlotArea;
+        
+        return YES;
+    }
+
+	return NO;
 }
 
 @end

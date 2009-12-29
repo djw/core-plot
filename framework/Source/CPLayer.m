@@ -26,6 +26,11 @@
 /// @defgroup CPLayer CPLayer
 /// @{
 
+/**	@property graph
+ *	@brief The graph for the axis set.
+ **/
+@synthesize graph;
+
 /** @property paddingLeft
  *  @brief Amount to inset the left side of each sublayer.
  **/
@@ -103,10 +108,10 @@
 		self.opaque = NO;
 		self.masksToBounds = NO;
 		self.zPosition = [self.class defaultZPosition];
-        NSDictionary *actionsDict = [[NSDictionary alloc] initWithObjectsAndKeys:[NSNull null], @"position", [NSNull null], @"bounds", [NSNull null], @"sublayers", nil];
+        NSDictionary *actionsDict = [[NSDictionary alloc] initWithObjectsAndKeys:[NSNull null], @"position", [NSNull null], @"bounds", [NSNull null], @"sublayers", [NSNull null], @"contents", nil];
         self.actions = actionsDict;
         [actionsDict release];
-	}
+    }
 	return self;
 }
 
@@ -117,8 +122,17 @@
 
 -(void)dealloc
 {
+	graph = nil;
 	[layoutManager release];
 	[super dealloc];
+}
+
+#pragma mark -
+#pragma mark Animation
+
++(id <CAAction>)defaultActionForKey:(NSString *)aKey
+{
+    return nil;
 }
 
 #pragma mark -
@@ -198,43 +212,41 @@
 }
 
 #pragma mark -
-#pragma mark User interaction
+#pragma mark Responder Chain and User interaction
 
--(BOOL)containsPoint:(CGPoint)thePoint
+/**	@brief Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.
+ *	@param interactionPoint The coordinates of the event in the host view.
+ *  @return Whether the event was handled or not.
+ **/
+-(BOOL)pointingDeviceDownAtPoint:(CGPoint)interactionPoint
 {
-	// By default, don't respond to touch or mouse events
 	return NO;
 }
 
-/**	@brief Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.
- *	@param interactionPoint The coordinates of the event.
- **/
--(void)mouseOrFingerDownAtPoint:(CGPoint)interactionPoint
-{
-	// Subclasses should handle mouse or touch interactions here
-}
-
 /**	@brief Abstraction of Mac and iPhone event handling. Handles mouse or finger up event.
- *	@param interactionPoint The coordinates of the event.
+ *	@param interactionPoint The coordinates of the event in the host view.
+ *  @return Whether the event was handled or not.
  **/
--(void)mouseOrFingerUpAtPoint:(CGPoint)interactionPoint
+-(BOOL)pointingDeviceUpAtPoint:(CGPoint)interactionPoint
 {
-	// Subclasses should handle mouse or touch interactions here
+	return NO;
 }
 
 /**	@brief Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event.
- *	@param interactionPoint The coordinates of the event.
+ *	@param interactionPoint The coordinates of the event in the host view.
+ *  @return Whether the event was handled or not.
  **/
--(void)mouseOrFingerDraggedAtPoint:(CGPoint)interactionPoint
+-(BOOL)pointingDeviceDraggedAtPoint:(CGPoint)interactionPoint
 {
-	// Subclasses should handle mouse or touch interactions here
+	return NO;
 }
 
 /**	@brief Abstraction of Mac and iPhone event handling. Mouse or finger event cancelled.
+ *  @return Whether the event was handled or not.
  **/
--(void)mouseOrFingerCancelled
+-(BOOL)pointingDeviceCancelled
 {
-	// Subclasses should handle mouse or touch interactions here
+	return NO;
 }
 
 #pragma mark -
