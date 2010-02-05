@@ -11,6 +11,8 @@
 
 @property (nonatomic, readwrite, getter=isRenderingRecursively) BOOL renderingRecursively;
 
+-(void)applyTransform:(CATransform3D)transform toContext:(CGContextRef)context;
+
 @end
 ///	@endcond
 
@@ -163,17 +165,32 @@
  **/
 -(void)recursivelyRenderInContext:(CGContextRef)context
 {
+	// render self
+	CGContextSaveGState(context);
+	
+	[self applyTransform:self.transform toContext:context];
+	
 	self.renderingRecursively = YES;
+	if ( !self.masksToBounds ) {
+		CGContextSaveGState(context);
+	}
 	[self renderAsVectorInContext:context];
+	if ( !self.masksToBounds ) {
+		CGContextRestoreGState(context);
+	}
 	self.renderingRecursively = NO;
-
+	
+	// render sublayers
 	for ( CALayer *currentSublayer in self.sublayers ) {
 		CGContextSaveGState(context);
 		
 		// Shift origin of context to match starting coordinate of sublayer
 		CGPoint currentSublayerFrameOrigin = currentSublayer.frame.origin;
-		CGPoint currentSublayerBoundsOrigin = currentSublayer.bounds.origin;
-		CGContextTranslateCTM(context, currentSublayerFrameOrigin.x - currentSublayerBoundsOrigin.x, currentSublayerFrameOrigin.y - currentSublayerBoundsOrigin.y);
+		CGRect currentSublayerBounds = currentSublayer.bounds;
+		CGContextTranslateCTM(context,
+							  currentSublayerFrameOrigin.x - currentSublayerBounds.origin.x, 
+							  currentSublayerFrameOrigin.y - currentSublayerBounds.origin.y);
+		[self applyTransform:self.sublayerTransform toContext:context];
 		if ( [currentSublayer isKindOfClass:[CPLayer class]] ) {
 			[(CPLayer *)currentSublayer recursivelyRenderInContext:context];
 		} else {
@@ -183,6 +200,28 @@
 			[currentSublayer drawInContext:context];
 		}
 		CGContextRestoreGState(context);
+	}
+	CGContextRestoreGState(context);
+}
+
+-(void)applyTransform:(CATransform3D)transform3D toContext:(CGContextRef)context
+{
+	if ( !CATransform3DIsIdentity(transform3D) ) {
+		if ( CATransform3DIsAffine(transform3D) ) {
+			CGRect selfBounds = self.bounds;
+			CGPoint anchorPoint = self.anchorPoint;
+			CGPoint anchorOffset = CGPointMake(anchorOffset.x = selfBounds.origin.x + anchorPoint.x * selfBounds.size.width,
+											   anchorOffset.y = selfBounds.origin.y + anchorPoint.y * selfBounds.size.height);
+			
+			CGAffineTransform affineTransform = CGAffineTransformMakeTranslation(-anchorOffset.x, -anchorOffset.y);
+			affineTransform = CGAffineTransformConcat(affineTransform, CATransform3DGetAffineTransform(transform3D));
+			affineTransform = CGAffineTransformTranslate(affineTransform, anchorOffset.x, anchorOffset.y);
+			
+			CGRect transformedBounds = CGRectApplyAffineTransform(selfBounds, affineTransform);
+			
+			CGContextTranslateCTM(context, -transformedBounds.origin.x, -transformedBounds.origin.y);
+			CGContextConcatCTM(context, affineTransform);
+		}
 	}
 }
 
@@ -355,11 +394,18 @@
 	
 	CGPathRef maskPath = self.sublayerMaskingPath;
 	if ( maskPath ) {
+		//		CGAffineTransform transform = CATransform3DGetAffineTransform(self.transform);
+		//		CGAffineTransform sublayerTransform = CATransform3DGetAffineTransform(self.sublayerTransform);
+		
 		CGContextTranslateCTM(context, -layerOffset.x, -layerOffset.y);
-
+		//		CGContextConcatCTM(context, CGAffineTransformInvert(transform));
+		//		CGContextConcatCTM(context, CGAffineTransformInvert(sublayerTransform));
+		
 		CGContextAddPath(context, maskPath);
 		CGContextClip(context);
 
+		//		CGContextConcatCTM(context, sublayerTransform);
+		//		CGContextConcatCTM(context, transform);
 		CGContextTranslateCTM(context, layerOffset.x, layerOffset.y);
 	}
 }
