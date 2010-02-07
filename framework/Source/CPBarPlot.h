@@ -15,14 +15,15 @@
 
 /// @name Binding Identifiers
 /// @{
+extern NSString * const CPBarPlotBindingBarLocations;
 extern NSString * const CPBarPlotBindingBarLengths;
 ///	@}
 
 /**	@brief Enumeration of bar plot data source field types
  **/
 typedef enum _CPBarPlotField {
-    CPBarPlotFieldBarLocation,  ///< Bar location on independent coordinate axis.
-    CPBarPlotFieldBarLength		///< Bar length.
+    CPBarPlotFieldBarLocation = 2,  ///< Bar location on independent coordinate axis.
+    CPBarPlotFieldBarLength   = 3	///< Bar length.
 } CPBarPlotField;
 
 /**	@brief A bar plot data source.
@@ -50,7 +51,9 @@ typedef enum _CPBarPlotField {
 
 @interface CPBarPlot : CPPlot {
 	@private
+    id observedObjectForBarLocationValues;
     id observedObjectForBarLengthValues;
+    NSString *keyPathForBarLocationValues;
     NSString *keyPathForBarLengthValues;
     CPLineStyle *lineStyle;
     CPFill *fill;
@@ -58,6 +61,7 @@ typedef enum _CPBarPlotField {
     CGFloat barOffset;
     CGFloat cornerRadius;
     NSDecimal baseValue;	
+    NSArray *barLocations;
     NSArray *barLengths;
     BOOL barsAreHorizontal;
     CPPlotRange *plotRange;
