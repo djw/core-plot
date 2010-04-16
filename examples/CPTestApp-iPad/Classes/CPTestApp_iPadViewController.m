@@ -186,7 +186,7 @@
 	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
     [barChart applyTheme:theme];
     barChartView.hostedLayer = barChart;
-    barChart.plotArea.masksToBorder = NO;
+    barChart.plotAreaFrame.masksToBorder = NO;
 	
     barChart.paddingLeft = 70.0;
 	barChart.paddingTop = 20.0;
@@ -263,7 +263,7 @@
 	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
     [pieChart applyTheme:theme];
     pieChartView.hostedLayer = pieChart;
-    pieChart.plotArea.masksToBorder = NO;
+    pieChart.plotAreaFrame.masksToBorder = NO;
 	
     pieChart.paddingLeft = 20.0;
 	pieChart.paddingTop = 20.0;

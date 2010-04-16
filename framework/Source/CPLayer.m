@@ -53,6 +53,11 @@
  **/
 @synthesize paddingBottom;
 
+/** @property masksToBorder 
+ *  @brief If YES (the default), a sublayer mask is applied to clip sublayer content to the inside of the border.
+ **/
+@synthesize masksToBorder;
+
 /** @property maskingPath
  *  @brief A drawing path that encompasses the layer content including any borders. Set to NULL when no masking is desired.
  *
@@ -102,6 +107,7 @@
 		paddingTop = 0.0;
 		paddingRight = 0.0;
 		paddingBottom = 0.0;
+		masksToBorder = NO;
 		layoutManager = nil;
 		renderingRecursively = NO;
 
@@ -110,9 +116,6 @@
 		self.opaque = NO;
 		self.masksToBounds = NO;
 		self.zPosition = [self.class defaultZPosition];
-        NSDictionary *actionsDict = [[NSDictionary alloc] initWithObjectsAndKeys:[NSNull null], @"position", [NSNull null], @"bounds", [NSNull null], @"sublayers", [NSNull null], @"contents", nil];
-        self.actions = actionsDict;
-        [actionsDict release];
     }
 	return self;
 }
@@ -132,7 +135,7 @@
 #pragma mark -
 #pragma mark Animation
 
-+(id <CAAction>)defaultActionForKey:(NSString *)aKey
+-(id <CAAction>)actionForKey:(NSString *)aKey
 {
     return nil;
 }
@@ -424,7 +427,7 @@
 -(void)applyMaskToContext:(CGContextRef)context
 {
 	if ( [self.superlayer isKindOfClass:[CPLayer class]] ) {
-		[(CPLayer *)self.superlayer applySublayerMaskToContext:context forSublayer:self withOffset:CGPointMake(0.0, 0.0)];
+		[(CPLayer *)self.superlayer applySublayerMaskToContext:context forSublayer:self withOffset:CGPointZero];
 	}
 	
 	CGPathRef maskPath = self.maskingPath;
@@ -497,7 +500,7 @@ static NSString * const BindingsNotSupportedString = @"Bindings are not supporte
 
 -(NSString *)description
 {
-	return [NSString stringWithFormat:@"<%@ with bounds: %@>", [super description], CPStringFromRect(self.bounds)];
+	return [NSString stringWithFormat:@"<%@ bounds: %@>", [super description], CPStringFromRect(self.bounds)];
 };
 
 @end

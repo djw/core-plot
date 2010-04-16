@@ -6,8 +6,9 @@
 #import "CPXYAxis.h"
 #import "CPAxisSet.h"
 #import "CPPlot.h"
-#import "CPPlotArea.h"
+#import "CPPlotAreaFrame.h"
 #import "CPPlotRange.h"
+#import "CPPlotArea.h"
 #import "CPGraph.h"
 
 /// @cond
@@ -197,7 +198,7 @@
 -(CGPoint)plotAreaViewPointForPlotPoint:(NSDecimal *)plotPoint
 {
 	CGFloat viewX, viewY;
-	CGSize layerSize = self.graph.plotArea.bounds.size;
+	CGSize layerSize = self.graph.plotAreaFrame.plotArea.bounds.size;
 	
 	switch ( self.xScaleType ) {
 		case CPScaleTypeLinear:
@@ -221,7 +222,7 @@
 -(CGPoint)plotAreaViewPointForDoublePrecisionPlotPoint:(double *)plotPoint
 {
 	CGFloat viewX, viewY;
-	CGSize layerSize = self.graph.plotArea.bounds.size;
+	CGSize layerSize = self.graph.plotAreaFrame.bounds.size;
 
 	switch ( self.xScaleType ) {
 		case CPScaleTypeLinear:
@@ -246,7 +247,7 @@
 {
 	NSDecimal pointx = CPDecimalFromDouble(point.x);
 	NSDecimal pointy = CPDecimalFromDouble(point.y);
-	CGSize boundsSize = self.graph.plotArea.bounds.size;
+	CGSize boundsSize = self.graph.plotAreaFrame.plotArea.bounds.size;
 	NSDecimal boundsw = CPDecimalFromDouble(boundsSize.width);
 	NSDecimal boundsh = CPDecimalFromDouble(boundsSize.height);
 	
@@ -285,12 +286,12 @@
 	BOOL handledByDelegate = [super pointingDeviceDownEvent:event atPoint:interactionPoint];
     if ( handledByDelegate ) return YES;
 
-	if ( !self.allowsUserInteraction || !self.graph.plotArea ) {
+	if ( !self.allowsUserInteraction || !self.graph.plotAreaFrame ) {
         return NO;
     }
     
-    CGPoint pointInPlotArea = [self.graph convertPoint:interactionPoint toLayer:self.graph.plotArea];
-    if ( [self.graph.plotArea containsPoint:pointInPlotArea] ) {
+    CGPoint pointInPlotArea = [self.graph convertPoint:interactionPoint toLayer:self.graph.plotAreaFrame];
+    if ( [self.graph.plotAreaFrame containsPoint:pointInPlotArea] ) {
         // Handle event
         lastDragPoint = pointInPlotArea;
         isDragging = YES;
@@ -305,7 +306,7 @@
 	BOOL handledByDelegate = [super pointingDeviceUpEvent:event atPoint:interactionPoint];
 	if ( handledByDelegate ) return YES;
 
-	if ( !self.allowsUserInteraction || !self.graph.plotArea ) {
+	if ( !self.allowsUserInteraction || !self.graph.plotAreaFrame ) {
         return NO;
     }
     
@@ -322,11 +323,11 @@
 	BOOL handledByDelegate = [super pointingDeviceDraggedEvent:event atPoint:interactionPoint];
 	if ( handledByDelegate ) return YES;
     
-	if ( !self.allowsUserInteraction || !self.graph.plotArea ) {
+	if ( !self.allowsUserInteraction || !self.graph.plotAreaFrame ) {
         return NO;
     }
     
-    CGPoint pointInPlotArea = [self.graph convertPoint:interactionPoint toLayer:self.graph.plotArea];
+    CGPoint pointInPlotArea = [self.graph convertPoint:interactionPoint toLayer:self.graph.plotAreaFrame];
     if ( isDragging ) {
     	CGPoint displacement = CGPointMake(pointInPlotArea.x-lastDragPoint.x, pointInPlotArea.y-lastDragPoint.y);
         CGPoint pointToUse = pointInPlotArea;

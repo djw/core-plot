@@ -14,21 +14,11 @@
  **/
 @synthesize borderLineStyle;
 
-/** @property cornerRadius 
- *  @brief Radius for the rounded corners of the layer.
- **/
-@synthesize cornerRadius;
-
 /** @property fill 
  *  @brief The fill for the layer background.
  *	If nil, the layer background is not filled.
  **/
 @synthesize fill;
-
-/** @property masksToBorder 
- *  @brief If YES (the default), a sublayer mask is applied to clip sublayer content to the inside of the border.
- **/
-@synthesize masksToBorder;
 
 #pragma mark -
 #pragma mark Init/Dealloc
@@ -38,11 +28,10 @@
 	if ( self = [super initWithFrame:newFrame] ) {
 		borderLineStyle = nil;
 		fill = nil;
-		cornerRadius = 0.0;
 		outerBorderPath = NULL;
 		innerBorderPath = NULL;
-		masksToBorder = YES;
 
+		self.masksToBorder = YES;
 		self.needsDisplayOnBoundsChange = YES;
 	}
 	return self;
@@ -155,8 +144,8 @@
 
 -(void)setCornerRadius:(CGFloat)newRadius
 {
-	if ( newRadius != cornerRadius ) {
-		cornerRadius = ABS(newRadius);
+	if ( newRadius != self.cornerRadius ) {
+		super.cornerRadius = newRadius;
 		[self setNeedsDisplay];
 		
 		CGPathRelease(outerBorderPath);

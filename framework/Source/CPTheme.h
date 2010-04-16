@@ -2,7 +2,7 @@
 #import <Foundation/Foundation.h>
 
 @class CPGraph;
-@class CPPlotArea;
+@class CPPlotAreaFrame;
 @class CPAxisSet;
 @class CPTextStyle;
 
@@ -51,7 +51,7 @@ extern NSString * const kCPStocksTheme;
 -(id)newGraph;
 
 -(void)applyThemeToBackground:(CPGraph *)graph;
--(void)applyThemeToPlotArea:(CPPlotArea *)plotArea;
+-(void)applyThemeToPlotArea:(CPPlotAreaFrame *)plotAreaFrame;
 -(void)applyThemeToAxisSet:(CPAxisSet *)axisSet; 
 /// @}
 

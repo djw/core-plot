@@ -45,12 +45,12 @@
 	graph.frame = self.view.bounds;
 	graph.paddingRight = 50.0f;
     graph.paddingLeft = 50.0f;
-    graph.plotArea.masksToBorder = NO;
-    graph.plotArea.cornerRadius = 0.0f;
+    graph.plotAreaFrame.masksToBorder = NO;
+    graph.plotAreaFrame.cornerRadius = 0.0f;
     CPLineStyle *borderLineStyle = [CPLineStyle lineStyle];
     borderLineStyle.lineColor = [CPColor whiteColor];
     borderLineStyle.lineWidth = 2.0f;
-    graph.plotArea.borderLineStyle = borderLineStyle;
+    graph.plotAreaFrame.borderLineStyle = borderLineStyle;
 	[self.layerHost.layer addSublayer:graph];
     
     // Axes

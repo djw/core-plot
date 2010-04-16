@@ -2,34 +2,40 @@
 
 @implementation AxisDemoController
 
--(void)dealloc 
-{
-    [graph release];
-    [super dealloc];
-}
-
 -(void)awakeFromNib
 {
-    // Create graph
-    graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:NSRectToCGRect(hostView.bounds)];
-    hostView.hostedLayer = graph;
-	
 	// Background
-	CGColorRef grayColor = CGColorCreateGenericGray(0.7, 1.0);
-	graph.fill = [CPFill fillWithColor:[CPColor colorWithCGColor:grayColor]];
-	CGColorRelease(grayColor);
+	CPBorderedLayer *background = [[(CPBorderedLayer *)[CPBorderedLayer alloc] initWithFrame:NSRectToCGRect(hostView.bounds)] autorelease];
+	background.fill = [CPFill fillWithColor:[CPColor darkGrayColor]];
+	background.paddingTop = 20.0;
+	background.paddingBottom = 20.0;
+	background.paddingLeft = 20.0;
+	background.paddingRight = 20.0;
+    hostView.hostedLayer = background;
+	
+    // Create graph
+	CPXYGraph *graph = [[(CPXYGraph *)[CPXYGraph alloc] initWithFrame:background.bounds] autorelease];
+	graph.fill = [CPFill fillWithColor:[CPColor lightGrayColor]];
+	[background addSublayer:graph];
 	
 	// Plot area
-	graph.plotArea.fill = [CPFill fillWithColor:[CPColor whiteColor]];
-	    
+	graph.plotAreaFrame.fill = [CPFill fillWithColor:[CPColor whiteColor]];
+	graph.plotAreaFrame.paddingTop = 20.0;
+	graph.plotAreaFrame.paddingBottom = 50.0;
+	graph.plotAreaFrame.paddingLeft = 50.0;
+	graph.plotAreaFrame.paddingRight = 20.0;
+	
+	graph.plotAreaFrame.plotArea.borderLineStyle = [CPLineStyle lineStyle];
+
     // Setup plot space
     CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
-    plotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(-1.0) length:CPDecimalFromDouble(11.5)];
-    plotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(-1.0) length:CPDecimalFromDouble(11.5)];
+    plotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(10.0)];
+    plotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(10.0)];
 	
     // Line styles
     CPLineStyle *axisLineStyle = [CPLineStyle lineStyle];
     axisLineStyle.lineWidth = 3.0;
+	axisLineStyle.lineCap = kCGLineCapRound;
     
     CPLineStyle *majorGridLineStyle = [CPLineStyle lineStyle];
     majorGridLineStyle.lineWidth = 0.75;
@@ -52,35 +58,30 @@
     x.minorTicksPerInterval = 4;
 	x.tickDirection = CPSignNone;
 	x.axisLineStyle = axisLineStyle;
-	x.majorTickLength = 9.0;
+	x.majorTickLength = 12.0;
 	x.majorTickLineStyle = axisLineStyle;
     x.majorGridLineStyle = majorGridLineStyle;
-	x.minorTickLength = 6.0;
+	x.minorTickLength = 8.0;
     x.minorGridLineStyle = minorGridLineStyle;
 	x.title = @"X Axis";
 	x.titleTextStyle = axisTitleTextStyle;
-	x.titleOffset = 25.0f;
-	x.visibleRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromInteger(0) length:CPDecimalFromInteger(10)];
-	x.gridLinesRange = x.visibleRange;
+	x.titleOffset = 25.0;
 	
-	// Label y with an automatic label policy. 
-    // Rotate the labels by 45 degrees, just to show it can be done.
+	// Label y with an automatic label policy.
 	axisLineStyle.lineColor = [CPColor greenColor];
 	
     CPXYAxis *y = axisSet.yAxis;
     y.minorTicksPerInterval = 9;
 	y.tickDirection = CPSignNone;
 	y.axisLineStyle = axisLineStyle;
-	y.majorTickLength = 9.0;
+	y.majorTickLength = 12.0;
 	y.majorTickLineStyle = axisLineStyle;
     y.majorGridLineStyle = majorGridLineStyle;
-	y.minorTickLength = 6.0;
+	y.minorTickLength = 8.0;
     y.minorGridLineStyle = minorGridLineStyle;
 	y.title = @"Y Axis";
 	y.titleTextStyle = axisTitleTextStyle;
-	y.titleOffset = 30.0f;
-	y.visibleRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromInteger(0) length:CPDecimalFromInteger(10)];
-	y.gridLinesRange = y.visibleRange;
+	y.titleOffset = 30.0;
 }
 
 @end

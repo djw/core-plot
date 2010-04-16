@@ -1,10 +1,9 @@
-
 #import "CPSlateTheme.h"
 #import "CPXYGraph.h"
 #import "CPColor.h"
 #import "CPGradient.h"
 #import "CPFill.h"
-#import "CPPlotArea.h"
+#import "CPPlotAreaFrame.h"
 #import "CPXYPlotSpace.h"
 #import "CPUtilities.h"
 #import "CPXYAxisSet.h"
@@ -54,19 +53,19 @@
 	// No background fill has been implemented
 }
 
--(void)applyThemeToPlotArea:(CPPlotArea *)plotArea 
+-(void)applyThemeToPlotArea:(CPPlotAreaFrame *)plotAreaFrame 
 {
 	CPGradient *gradient = [CPGradient gradientWithBeginningColor:[CPColor colorWithComponentRed:0.43f green:0.51f blue:0.63f alpha:1.0f] endingColor:[CPColor colorWithComponentRed:0.70f green:0.73f blue:0.80f alpha:1.0f]];
     gradient.angle = 90.0;
-	plotArea.fill = [CPFill fillWithGradient:gradient]; 
+	plotAreaFrame.fill = [CPFill fillWithGradient:gradient]; 
 	
 	CPLineStyle *borderLineStyle = [CPLineStyle lineStyle];
 	borderLineStyle.lineColor = [CPColor colorWithGenericGray:0.2];
 	borderLineStyle.lineWidth = 1.0;
 	
-	plotArea.borderLineStyle = borderLineStyle;
-	plotArea.cornerRadius = 5.0;
-	plotArea.masksToBorder = NO;
+	plotAreaFrame.borderLineStyle = borderLineStyle;
+	plotAreaFrame.cornerRadius = 5.0;
+	plotAreaFrame.masksToBorder = NO;
 }
 
 -(void)applyThemeToAxisSet:(CPXYAxisSet *)axisSet {

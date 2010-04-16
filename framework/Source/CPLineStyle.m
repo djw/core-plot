@@ -66,7 +66,7 @@
 		miterLimit = 10.0;
 		lineWidth = 1.0;
 		dashPattern = nil;
-		patternPhase = 0.0f;
+		patternPhase = 0.0;
 		lineColor = [[CPColor blackColor] retain];
 	}
 	return self;

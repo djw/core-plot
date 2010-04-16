@@ -1,13 +1,15 @@
-#import "CPXYAxis.h"
-#import "CPPlotSpace.h"
-#import "CPPlotRange.h"
-#import "CPUtilities.h"
-#import "CPLineStyle.h"
 #import "CPAxisLabel.h"
 #import "CPConstrainedPosition.h"
-#import "CPXYPlotSpace.h"
-#import "CPExceptions.h"
 #import "CPDefinitions.h"
+#import "CPExceptions.h"
+#import "CPLineStyle.h"
+#import "CPPlotArea.h"
+#import "CPPlotRange.h"
+#import "CPPlotSpace.h"
+#import "CPUtilities.h"
+#import "CPXYAxis.h"
+#import "CPXYPlotSpace.h"
+#import "CPXYGridLines.h"
 
 ///	@cond
 @interface CPXYAxis ()
@@ -15,9 +17,6 @@
 @property (readwrite, retain) CPConstrainedPosition *constrainedPosition;
 
 -(void)drawTicksInContext:(CGContextRef)theContext atLocations:(NSSet *)locations withLength:(CGFloat)length isMajor:(BOOL)major; 
--(void)drawGridLinesInContext:(CGContextRef)theContext atLocations:(NSSet *)locations isMajor:(BOOL)major;
-
--(void)terminalPointsForGridLineWithCoordinateDecimalNumber:(NSDecimal)coordinateDecimalNumber startPoint:(CGPoint *)startPoint endPoint:(CGPoint *)endPoint;
 
 -(void)orthogonalCoordinateViewLowerBound:(CGFloat *)lower upperBound:(CGFloat *)upper;
 -(CGPoint)viewPointForOrthogonalCoordinateDecimal:(NSDecimal)orthogonalCoord axisCoordinateDecimal:(NSDecimal)coordinateDecimalNumber;
@@ -95,7 +94,7 @@
     NSDecimal plotPoint[2];
     plotPoint[self.coordinate] = coordinateDecimalNumber;
     plotPoint[orthogonalCoordinate] = orthogonalCoord;
-    CGPoint point = [self.plotSpace plotAreaViewPointForPlotPoint:plotPoint];
+    CGPoint point = [self convertPoint:[self.plotSpace plotAreaViewPointForPlotPoint:plotPoint] fromLayer:self.plotArea];
     return point;
 }
 
@@ -157,17 +156,20 @@
 				endFactor = 0.5;
 				break;
 			default:
-				NSLog(@"Invalid sign in drawTicksInContext...");
-				break;
+				NSLog(@"Invalid sign in [CPXYAxis drawTicksInContext:]");
 		}
 		
-        if ( self.coordinate == CPCoordinateX ) {
-			startViewPoint.y += length * startFactor;
-			endViewPoint.y += length * endFactor;
-		}
-        else {
-			startViewPoint.x += length * startFactor;
-			endViewPoint.x += length * endFactor;
+        switch ( self.coordinate ) {
+			case CPCoordinateX:
+				startViewPoint.y += length * startFactor;
+				endViewPoint.y += length * endFactor;
+				break;
+			case CPCoordinateY:
+				startViewPoint.x += length * startFactor;
+				endViewPoint.x += length * endFactor;
+				break;
+			default:
+				NSLog(@"Invalid coordinate in [CPXYAxis drawTicksInContext:]");
 		}
         
 		startViewPoint = CPAlignPointToUserSpace(theContext, startViewPoint);
@@ -181,59 +183,11 @@
 	CGContextStrokePath(theContext);
 }
 
--(void)terminalPointsForGridLineWithCoordinateDecimalNumber:(NSDecimal)coordinateDecimalNumber startPoint:(CGPoint *)startPoint endPoint:(CGPoint *)endPoint
-{
-    CPCoordinate orthogonalCoordinate = (self.coordinate == CPCoordinateX ? CPCoordinateY : CPCoordinateX);
-    CPPlotRange *orthogonalRange = [[self.plotSpace plotRangeForCoordinate:orthogonalCoordinate] copy];
-    if (self.gridLinesRange) {
-        [orthogonalRange intersectionPlotRange:self.gridLinesRange];
-    }
-    
-    // Start point
-    NSDecimal plotPoint[2];
-    plotPoint[self.coordinate] = coordinateDecimalNumber;
-    plotPoint[orthogonalCoordinate] = orthogonalRange.location;
-    *startPoint = [self.plotSpace plotAreaViewPointForPlotPoint:plotPoint];
-    
-    // End point
-    plotPoint[orthogonalCoordinate] = orthogonalRange.end;
-    *endPoint = [self.plotSpace plotAreaViewPointForPlotPoint:plotPoint];
-    [orthogonalRange release];
-}
-
--(void)drawGridLinesInContext:(CGContextRef)theContext atLocations:(NSSet *)locations isMajor:(BOOL)major
-{
-	if ( major && !self.majorGridLineStyle ) return;
-    if ( !major && !self.minorGridLineStyle ) return; 
-    
-	[(major ? self.majorGridLineStyle : self.minorGridLineStyle) setLineStyleInContext:theContext];
-	CGContextBeginPath(theContext);
-	
-    for ( NSDecimalNumber *location in locations ) {
-        CGPoint startViewPoint;
-        CGPoint endViewPoint;
-        [self terminalPointsForGridLineWithCoordinateDecimalNumber:[location decimalValue] startPoint:&startViewPoint endPoint:&endViewPoint];
-        
-        // Align to pixels
-        startViewPoint = CPAlignPointToUserSpace(theContext, startViewPoint);
-        endViewPoint = CPAlignPointToUserSpace(theContext, endViewPoint);
-        
-        // Add grid line 
-        CGContextMoveToPoint(theContext, startViewPoint.x, startViewPoint.y);
-        CGContextAddLineToPoint(theContext, endViewPoint.x, endViewPoint.y);
-    }
-    
-	// Stroke grid line
-	CGContextStrokePath(theContext);
-}
-
 -(void)renderAsVectorInContext:(CGContextRef)theContext
 {
 	[super renderAsVectorInContext:theContext];
 	
-    // Grid Lines
-    [self drawGridLinesInContext:theContext atLocations:self.minorTickLocations isMajor:NO];
-    [self drawGridLinesInContext:theContext atLocations:self.majorTickLocations isMajor:YES];
+	[self relabel];
 	
     // Ticks
     [self drawTicksInContext:theContext atLocations:self.minorTickLocations withLength:self.minorTickLength isMajor:NO];
@@ -265,7 +219,11 @@
 	CGPoint startViewPoint = [self viewPointForCoordinateDecimalNumber:range.location];
     CGPoint endViewPoint = [self viewPointForCoordinateDecimalNumber:range.end];
 	
-	return [NSString stringWithFormat:@"<%@ with range %@ viewCoordinates: {%g, %g} to {%g, %g}>", [super description], range, startViewPoint.x, startViewPoint.y, endViewPoint.x, endViewPoint.y];
+	return [NSString stringWithFormat:@"<%@ with range: %@ viewCoordinates: %@ to %@>",
+			[super description],
+			range,
+			CPStringFromPoint(startViewPoint),
+			CPStringFromPoint(endViewPoint)];
 };
 
 #pragma mark -
@@ -314,6 +272,11 @@
 {
     orthogonalCoordinateDecimal = newCoord;
     [self updateConstraints];
+}
+
+-(Class)gridLineClass
+{
+	return [CPXYGridLines class];
 }
 
 @end

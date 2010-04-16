@@ -1,5 +1,3 @@
-
-
 #import <Foundation/Foundation.h>
 #import "CPAxis.h"
 #import "CPDefinitions.h"
@@ -7,7 +5,7 @@
 @class CPConstrainedPosition;
 
 @interface CPXYAxis : CPAxis {
-	@private
+@private
     BOOL positionedRelativeToPlotArea;
     NSDecimal orthogonalCoordinateDecimal;
 	CPConstraints constraints;
