@@ -4,6 +4,7 @@
 #import "CPLayer.h"
 
 @class CPPlot;
+@class CPPlotArea;
 @class CPPlotSpace;
 @class CPPlotRange;
 
@@ -40,7 +41,8 @@
 ///	@}
 
 /**	@brief Determines the record index range corresponding to a given range of data.
- *	This method is optional.
+ *	This method is optional. If the method is implemented, it could improve performance
+ *  in data sets that are only partially displayed.
  *	@param plot The plot.
  *	@param plotRange The range expressed in data values.
  *	@return The range of record indexes.
@@ -49,17 +51,22 @@
 
 @end 
 
+#pragma mark -
+
 @interface CPPlot : CPLayer {
+	@private
     id <CPPlotDataSource> dataSource;
     id <NSCopying, NSObject> identifier;
     CPPlotSpace *plotSpace;
     BOOL dataNeedsReloading;
+    NSMutableDictionary *cachedData;
 }
 
 @property (nonatomic, readwrite, assign) id <CPPlotDataSource> dataSource;
 @property (nonatomic, readwrite, copy) id <NSCopying, NSObject> identifier;
 @property (nonatomic, readwrite, retain) CPPlotSpace *plotSpace;
 @property (nonatomic, readonly, assign) BOOL dataNeedsReloading;
+@property (nonatomic, readonly, retain) CPPlotArea *plotArea;
 
 /// @name Data Loading
 /// @{
@@ -71,6 +78,25 @@
 /// @{
 -(NSArray *)numbersFromDataSourceForField:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange;
 -(NSRange)recordIndexRangeForPlotRange:(CPPlotRange *)plotRange;
+///	@}
+
+/// @name Data Cache
+/// @{
+-(NSArray *)cachedNumbersForField:(NSUInteger)fieldEnum;
+-(void)cacheNumbers:(NSArray *)numbers forField:(NSUInteger)fieldEnum;
+///	@}
+
+/// @name Plot Data Ranges
+/// @{
+-(CPPlotRange *)plotRangeForField:(NSUInteger)fieldEnum;
+-(CPPlotRange *)plotRangeForCoordinate:(CPCoordinate)coord;
+///	@}
+
+/// @name Fields
+/// @{
+-(NSUInteger)numberOfFields;
+-(NSArray *)fieldIdentifiers;
+-(NSArray *)fieldIdentifiersForCoordinate:(CPCoordinate)coord;
 ///	@}
 
 @end

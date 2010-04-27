@@ -1,12 +1,13 @@
-
 #import "CPGraph.h"
 #import "CPExceptions.h"
 #import "CPPlot.h"
 #import "CPPlotArea.h"
+#import "CPPlotAreaFrame.h"
 #import "CPPlotSpace.h"
 #import "CPFill.h"
 #import "CPAxisSet.h"
 #import "CPAxis.h"
+#import "CPTheme.h"
 
 ///	@cond
 @interface CPGraph()
@@ -19,28 +20,22 @@
 @end
 ///	@endcond
 
+#pragma mark -
+
 /**	@brief An abstract graph class.
  *	@todo More documentation needed 
  **/
 @implementation CPGraph
 
-/// @defgroup CPGraph CPGraph
-/// @{
-
 /**	@property axisSet
  *	@brief The axis set.
  **/
-@synthesize axisSet;
+@dynamic axisSet;
 
-/**	@property plotArea
- *	@brief The plot area.
+/**	@property plotAreaFrame
+ *	@brief The plot area frame.
  **/
-@synthesize plotArea;
-
-/**	@property fill
- *	@brief The background fill.
- **/
-@synthesize fill;
+@synthesize plotAreaFrame;
 
 /**	@property plots
  *	@brief An array of all plots associated with the graph.
@@ -57,30 +52,42 @@
  **/
 @dynamic defaultPlotSpace;
 
+/** @property topDownLayerOrder
+ *	@brief An array of graph layers to be drawn in an order other than the default.
+ *	@see CPPlotArea#topDownLayerOrder
+ **/
+@dynamic topDownLayerOrder;
+
 #pragma mark -
 #pragma mark Init/Dealloc
 
 -(id)initWithFrame:(CGRect)newFrame
 {
 	if ( self = [super initWithFrame:newFrame] ) {
-		self.fill = nil;
-		self.plots = [[NSMutableArray alloc] init];
+		plots = [[NSMutableArray alloc] init];
+        
+        // Margins
+        self.paddingLeft = 20.0;
+        self.paddingTop = 20.0;
+        self.paddingRight = 20.0;
+        self.paddingBottom = 20.0;
         
         // Plot area
-        self.plotArea = [(CPPlotArea *)[CPPlotArea alloc] initWithFrame:self.bounds];
-        [self addSublayer:self.plotArea];
-		
+        CPPlotAreaFrame *newArea = [(CPPlotAreaFrame *)[CPPlotAreaFrame alloc] initWithFrame:self.bounds];
+        self.plotAreaFrame = newArea;
+        [newArea release];
+
         // Plot spaces
-		self.plotSpaces = [[NSMutableArray alloc] init];
+		plotSpaces = [[NSMutableArray alloc] init];
         CPPlotSpace *newPlotSpace = [self newPlotSpace];
         [self addPlotSpace:newPlotSpace];
         [newPlotSpace release];
-        
+
         // Axis set
-        CPAxisSet *newAxisSet = [self newAxisSet];
-        self.axisSet = newAxisSet;
-        [newAxisSet release];
-        		
+		CPAxisSet *newAxisSet = [self newAxisSet];
+		self.axisSet = newAxisSet;
+		[newAxisSet release];
+
 		self.needsDisplayOnBoundsChange = YES;
 	}
 	return self;
@@ -90,9 +97,7 @@
 {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 
-	[axisSet release];
-	[plotArea release];
-    [fill release];
+	[plotAreaFrame release];
 	[plots release];
 	[plotSpaces release];
 	
@@ -155,11 +160,11 @@
  **/
 -(void)addPlot:(CPPlot *)plot toPlotSpace:(CPPlotSpace *)space
 {
-	if (plot) {
+	if ( plot ) {
 		[self.plots addObject:plot];
 		plot.plotSpace = space;
-		[space addSublayer:plot];		
-		[self setNeedsDisplay];
+        plot.graph = self;
+		[self.plotAreaFrame.plotGroup addPlot:plot];
 	}
 }
 
@@ -171,8 +176,8 @@
     if ( [self.plots containsObject:plot] ) {
 		[self.plots removeObject:plot];
         plot.plotSpace = nil;
-        [plot removeFromSuperlayer];		
-		[self setNeedsDisplay];
+        plot.graph = nil;
+		[self.plotAreaFrame.plotGroup removePlot:plot];
     }
     else {
         [NSException raise:CPException format:@"Tried to remove CPPlot which did not exist."];
@@ -198,8 +203,8 @@
 	if (plot) {
 		[self.plots insertObject:plot atIndex:index];
 		plot.plotSpace = space;
-		[space addSublayer:plot];
-		[self setNeedsDisplay];
+        plot.graph = self;
+		[self.plotAreaFrame.plotGroup addPlot:plot];
 	}
 }
 
@@ -211,9 +216,9 @@
 	CPPlot* plotToRemove = [self plotWithIdentifier:identifier];
 	if (plotToRemove) {
 		plotToRemove.plotSpace = nil;
-		[plotToRemove removeFromSuperlayer];
+        plotToRemove.graph = nil;
+		[self.plotAreaFrame.plotGroup removePlot:plotToRemove];
 		[self.plots removeObjectIdenticalTo:plotToRemove];
-		[self setNeedsDisplay];
 	}
 }
 
@@ -254,6 +259,24 @@
 }
 
 #pragma mark -
+#pragma mark Set Plot Area
+
+-(void)setPlotAreaFrame:(CPPlotAreaFrame *)newArea 
+{
+    if ( plotAreaFrame != newArea ) {
+    	plotAreaFrame.graph = nil;
+    	[plotAreaFrame removeFromSuperlayer];
+        [plotAreaFrame release];
+        plotAreaFrame = [newArea retain];
+        [self addSublayer:newArea];
+        plotAreaFrame.graph = self;
+		for ( CPPlotSpace *space in self.plotSpaces ) {
+            space.graph = self;
+        }
+    }
+}
+
+#pragma mark -
 #pragma mark Organizing Plot Spaces
 
 /**	@brief Add a plot space to the graph.
@@ -261,9 +284,8 @@
  **/
 -(void)addPlotSpace:(CPPlotSpace *)space
 {
-	space.frame = self.plotArea.bounds;
 	[self.plotSpaces addObject:space];
-	[self.plotArea addSublayer:space];
+    space.graph = self;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(plotSpaceMappingDidChange:) name:CPPlotSpaceCoordinateMappingDidChangeNotification object:space];
 }
 
@@ -274,8 +296,12 @@
 {
 	if ( [self.plotSpaces containsObject:plotSpace] ) {
         [[NSNotificationCenter defaultCenter] removeObserver:self name:CPPlotSpaceCoordinateMappingDidChangeNotification object:plotSpace];
+
+        // Remove space
 		[self.plotSpaces removeObject:plotSpace];
-        [plotSpace removeFromSuperlayer];
+        plotSpace.graph = nil;
+        
+        // Update axes that referenced space
         for ( CPAxis *axis in self.axisSet.axes ) {
             if ( axis.plotSpace == plotSpace ) axis.plotSpace = nil;
         }
@@ -285,7 +311,6 @@
     }
 }
 
-
 #pragma mark -
 #pragma mark Coordinate Changes in Plot Spaces
 
@@ -293,35 +318,31 @@
 {
     [self setNeedsLayout];
     [self.axisSet relabelAxes];
-    for ( CPPlot *plot in self.plots ) {
-        [plot setNeedsDisplay];
-    }
+    [[self allPlots] makeObjectsPerformSelector:@selector(setNeedsDisplay)];
 }
 
 #pragma mark -
 #pragma mark Axis Set
 
+-(CPAxisSet *)axisSet
+{
+	return self.plotAreaFrame.axisSet;
+}
+
 -(void)setAxisSet:(CPAxisSet *)newSet
 {
-    if ( newSet != axisSet ) {
-		[axisSet removeFromSuperlayer];
-		[newSet retain];
-        [axisSet release];
-        axisSet = newSet;
-        if ( axisSet ) {
-			axisSet.graph = self;
-			[self addSublayer:axisSet];	
-		}
-		[self setNeedsDisplay];
-    }
+	self.plotAreaFrame.axisSet = newSet;
 }
 
 #pragma mark -
-#pragma mark Drawing
+#pragma mark Themes
 
--(void)renderAsVectorInContext:(CGContextRef)theContext
+/**	@brief Apply a theme to style the graph.
+ *	@param theme The theme object used to style the graph.
+ **/
+-(void)applyTheme:(CPTheme *)theme 
 {
-	[self.fill fillRect:self.bounds inContext:theContext];
+    [theme applyThemeToGraph:self];
 }
 
 #pragma mark -
@@ -332,44 +353,157 @@
 	return CPDefaultZPositionGraph;
 }
 
--(void)layoutSublayers 
-{
-	[super layoutSublayers];
-	
-    if ( self.axisSet ) {
-        // Set the bounds so that the axis set coordinates coincide with the 
-        // plot area drawing coordinates.
-        CGRect axisSetBounds = self.bounds;
-        axisSetBounds.origin = [self convertPoint:self.bounds.origin toLayer:self.plotArea];
-		
-		CPAxisSet *theAxisSet = self.axisSet;
-        theAxisSet.bounds = axisSetBounds;
-        theAxisSet.anchorPoint = CGPointZero;
-        theAxisSet.position = self.bounds.origin;
-    }
-}
-
 #pragma mark -
 #pragma mark Accessors
 
--(void)setFill:(CPFill *)newFill 
+-(void)setPaddingLeft:(CGFloat)newPadding 
 {
-    if ( newFill != fill ) {
-		[newFill retain];
-        [fill release];
-        fill = newFill;
-        [self setNeedsDisplay];
+    if ( newPadding != self.paddingLeft ) {
+        [super setPaddingLeft:newPadding];
+		[self.axisSet.axes makeObjectsPerformSelector:@selector(setNeedsDisplay)];
     }
 }
-///	@}
+
+-(void)setPaddingRight:(CGFloat)newPadding 
+{
+    if ( newPadding != self.paddingRight ) {
+        [super setPaddingRight:newPadding];
+		[self.axisSet.axes makeObjectsPerformSelector:@selector(setNeedsDisplay)];
+    }
+}
+
+-(void)setPaddingTop:(CGFloat)newPadding 
+{
+    if ( newPadding != self.paddingTop ) {
+        [super setPaddingTop:newPadding];
+		[self.axisSet.axes makeObjectsPerformSelector:@selector(setNeedsDisplay)];
+    }
+}
+
+-(void)setPaddingBottom:(CGFloat)newPadding 
+{
+    if ( newPadding != self.paddingBottom ) {
+        [super setPaddingBottom:newPadding];
+		[self.axisSet.axes makeObjectsPerformSelector:@selector(setNeedsDisplay)];
+    }
+}
+
+-(NSArray *)topDownLayerOrder
+{
+	return self.plotAreaFrame.plotArea.topDownLayerOrder;
+}
+
+-(void)setTopDownLayerOrder:(NSArray *)newArray
+{
+	self.plotAreaFrame.plotArea.topDownLayerOrder = newArray;
+}
+
+#pragma mark -
+#pragma mark Event Handling
+
+-(BOOL)pointingDeviceDownEvent:(id)event atPoint:(CGPoint)interactionPoint
+{
+    // Plots
+    for ( CPPlot *plot in self.plots ) {
+        if ( [plot pointingDeviceDownEvent:event atPoint:interactionPoint] ) return YES;
+    } 
+    
+    // Axes Set
+    if ( [self.axisSet pointingDeviceDownEvent:event atPoint:interactionPoint] ) return YES;
+    
+    // Plot area
+    if ( [self.plotAreaFrame pointingDeviceDownEvent:event atPoint:interactionPoint] ) return YES;
+    
+    // Plot spaces
+    // Plot spaces do not block events, because several spaces may need to receive
+    // the same event sequence (eg dragging coordinate translation)
+    BOOL handledEvent = NO;
+    for ( CPPlotSpace *space in self.plotSpaces ) {
+        BOOL handled = [space pointingDeviceDownEvent:event atPoint:interactionPoint];
+        handledEvent |= handled;
+    } 
+    
+    return handledEvent;
+}
+
+-(BOOL)pointingDeviceUpEvent:(id)event atPoint:(CGPoint)interactionPoint
+{
+    // Plots
+    for ( CPPlot *plot in self.plots ) {
+        if ( [plot pointingDeviceUpEvent:event atPoint:interactionPoint] ) return YES;
+    } 
+    
+    // Axes Set
+    if ( [self.axisSet pointingDeviceUpEvent:event atPoint:interactionPoint] ) return YES;
+    
+    // Plot area
+    if ( [self.plotAreaFrame pointingDeviceUpEvent:event atPoint:interactionPoint] ) return YES;
+    
+    // Plot spaces
+    // Plot spaces do not block events, because several spaces may need to receive
+    // the same event sequence (eg dragging coordinate translation)
+    BOOL handledEvent = NO;
+    for ( CPPlotSpace *space in self.plotSpaces ) {
+        BOOL handled = [space pointingDeviceUpEvent:event atPoint:interactionPoint];
+        handledEvent |= handled;
+    } 
+    
+    return handledEvent;
+}
+
+-(BOOL)pointingDeviceDraggedEvent:(id)event atPoint:(CGPoint)interactionPoint
+{
+    // Plots
+    for ( CPPlot *plot in self.plots ) {
+        if ( [plot pointingDeviceDraggedEvent:event atPoint:interactionPoint] ) return YES;
+    } 
+    
+    // Axes Set
+    if ( [self.axisSet pointingDeviceDraggedEvent:event atPoint:interactionPoint] ) return YES;
+    
+    // Plot area
+    if ( [self.plotAreaFrame pointingDeviceDraggedEvent:event atPoint:interactionPoint] ) return YES;
+    
+    // Plot spaces
+    // Plot spaces do not block events, because several spaces may need to receive
+    // the same event sequence (eg dragging coordinate translation)
+    BOOL handledEvent = NO;
+    for ( CPPlotSpace *space in self.plotSpaces ) {
+        BOOL handled = [space pointingDeviceDraggedEvent:event atPoint:interactionPoint];
+        handledEvent |= handled;
+    } 
+    
+    return handledEvent;
+}
+
+-(BOOL)pointingDeviceCancelledEvent:(id)event
+{
+    // Plots
+    for ( CPPlot *plot in self.plots ) {
+        if ( [plot pointingDeviceCancelledEvent:event] ) return YES;
+    } 
+    
+    // Axes Set
+    if ( [self.axisSet pointingDeviceCancelledEvent:event] ) return YES;
+    
+    // Plot area
+    if ( [self.plotAreaFrame pointingDeviceCancelledEvent:event] ) return YES;
+    
+    // Plot spaces
+    BOOL handledEvent = NO;
+    for ( CPPlotSpace *space in self.plotSpaces ) {
+        BOOL handled = [space pointingDeviceCancelledEvent:event];
+        handledEvent |= handled;
+    } 
+    
+    return handledEvent;
+}
 
 @end
 
-///	@brief CPGraph abstract methods—must be overridden by subclasses
-@implementation CPGraph(AbstractFactoryMethods)
+#pragma mark -
 
-/// @addtogroup CPGraph
-/// @{
+@implementation CPGraph(AbstractFactoryMethods)
 
 /**	@brief Creates a new plot space for the graph.
  *	@return A new plot space.
@@ -386,6 +520,5 @@
 {
 	return nil;
 }
-///	@}
 
 @end

@@ -2,8 +2,6 @@
 #import "CPNumericData+TypeConversion.h"
 #import "NumericDataTypeConversions.h"
 #import "CPNumericDataType.h"
-#import "GTMLogger.h"
-
 
 @implementation CPNumericData (TypeConversion)
 
@@ -573,7 +571,7 @@
     }
     
     if(result == nil) {
-        GTMLoggerError(@"Unable to match new and existing data types for conversion.");
+        NSLog(@"Unable to match new and existing data types for conversion.");
     }
     
     return [CPNumericData numericDataWithData:result

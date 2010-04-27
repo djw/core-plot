@@ -5,29 +5,69 @@
 #import "CPPlainBlackTheme.h"
 #import "CPPlainWhiteTheme.h"
 #import "CPStocksTheme.h"
+#import "CPSlateTheme.h"
 #import "CPGraph.h"
-#import "CPXYGraph.h"
 
 // theme names
 NSString * const kCPDarkGradientTheme = @"Dark Gradients";	///< Dark gradient theme.
 NSString * const kCPPlainWhiteTheme = @"Plain White";		///< Plain white theme.
 NSString * const kCPPlainBlackTheme = @"Plain Black";		///< Plain black theme.
+NSString * const kCPSlateTheme = @"Slate";		  			///< Slate theme.
 NSString * const kCPStocksTheme = @"Stocks";				///< Stocks theme.
+
+// Registered themes
+static NSMutableDictionary *themes = nil;
 
 /** @brief Creates a CPGraph instance formatted with predefined themes.
  *
  *	@todo More documentation needed 
  **/
-
 @implementation CPTheme
 
-/// @defgroup CPTheme CPTheme
-/// @{
+/** @property name
+ *	@brief The name of the theme.
+ **/
+@synthesize name;
 
-/**	@property graphClass
- *	@brief The class of the graph object to create.
+#pragma mark -
+#pragma mark Init/dealloc
+
+/** @property graphClass
+ *	@brief The class used to create new graphs. Must be a subclass of CPGraph.
  **/
 @synthesize graphClass;
+
+-(id)init
+{
+	if ( self = [super init] ) {
+		name = nil;
+		graphClass = Nil;
+	}
+	return self;
+}
+
+-(void)dealloc
+{
+	[name release];
+	[graphClass release];
+	[super dealloc];
+}
+
+#pragma mark -
+#pragma mark Accessors
+
+-(void)setGraphClass:(Class)newGraphClass
+{
+	if ( graphClass != newGraphClass ) {
+		if ( [newGraphClass isEqual:[CPGraph class]] ) {
+			[NSException raise:CPException format:@"Invalid graph class for theme; must be a subclass of CPGraph"];
+		} else
+		{
+			[graphClass release];
+			graphClass = [newGraphClass retain];
+		}
+	}
+}
 
 /**	@brief List of the available themes.
  *	@return An NSArray with all available themes.
@@ -35,7 +75,7 @@ NSString * const kCPStocksTheme = @"Stocks";				///< Stocks theme.
 +(NSArray *)themeClasses {
 	static NSArray *themeClasses = nil;
 	if ( themeClasses == nil ) {
-		themeClasses = [[NSArray alloc] initWithObjects:[CPDarkGradientTheme class], [CPPlainBlackTheme class], [CPPlainWhiteTheme class],  [CPStocksTheme class], nil];
+		themeClasses = [[NSArray alloc] initWithObjects:[CPDarkGradientTheme class], [CPPlainBlackTheme class], [CPPlainWhiteTheme class],  [CPSlateTheme class], [CPStocksTheme class], nil];
 	}
 	return themeClasses;
 }
@@ -53,7 +93,7 @@ NSString * const kCPStocksTheme = @"Stocks";				///< Stocks theme.
 	if ( theme ) return theme;
 	
 	for ( Class themeClass in [CPTheme themeClasses] ) {
-		if ( [themeName isEqualToString:[themeClass name]] ) {
+		if ( [themeName isEqualToString:[themeClass defaultName]] ) {
 			theme = [[themeClass alloc] init];
 			[themes setObject:theme forKey:themeName];
 			break;
@@ -63,41 +103,31 @@ NSString * const kCPStocksTheme = @"Stocks";				///< Stocks theme.
 	return [theme autorelease];
 }
 
-/**	@brief The name of the theme.
+/**	@brief Register a theme for a given name.
+ *	@param newTheme Theme to register.
+ **/
++(void)addTheme:(CPTheme *)newTheme
+{
+    CPTheme *existingTheme = [self themeNamed:newTheme.name];
+    if ( existingTheme ) {
+        [NSException raise:CPException format:@"Theme already exists with name %@", newTheme.name];
+    }
+    
+    [themes setObject:newTheme forKey:newTheme.name];
+}
+
+/**	@brief The name used by default for this theme class.
  *	@return The name.
  **/
-+(NSString *)name 
++(NSString *)defaultName 
 {
 	return NSStringFromClass(self);
 }
 
-/**	@brief A subclass of CPGraph that the graphClass must descend from.
- *	@return The required subclass.
- **/
-+(Class)requiredGraphSubclass
+-(NSString *)name 
 {
-    return [CPGraph class];
-}
-
-/**	@brief Sets the class used when creating a new graph
- *	@param newGraphClass the type of class, must inherit from CPGraph
- **/
--(void)setGraphClass:(Class)newGraphClass 
-{
-	if ( newGraphClass != Nil && ![newGraphClass isSubclassOfClass:[[self class] requiredGraphSubclass]] ) {
-		[NSException raise:CPException format:@"newGraphClass must be a subclass of %@", [[self class] requiredGraphSubclass]];
-	}
-	if ( graphClass != newGraphClass ) {
-        graphClass = newGraphClass;
-    }
-}
-
-/** @brief Creates and returns a new CPGraph instance formatted with the theme.
- *  @return A new CPGraph instance formatted with the theme.
- **/
--(id)newGraph 
-{
-    return nil;
+	return [[(name ? name : [[self class] defaultName]) copy] autorelease]
+	;
 }
 
 /**	@brief Applies the theme to the provided graph.
@@ -106,8 +136,22 @@ NSString * const kCPStocksTheme = @"Stocks";				///< Stocks theme.
 -(void)applyThemeToGraph:(CPGraph *)graph
 {
 	[self applyThemeToBackground:graph];
-	[self applyThemeToPlotArea:graph.plotArea];
+	[self applyThemeToPlotArea:graph.plotAreaFrame];
 	[self applyThemeToAxisSet:graph.axisSet];    
+}
+
+@end
+
+#pragma mark -
+
+@implementation CPTheme(AbstractMethods)
+
+/**	@brief Creates a new graph styled with the theme.
+ *	@return The new graph.
+ **/
+-(id)newGraph 
+{
+	return nil;
 }
 
 /**	@brief Applies the background theme to the provided graph.
@@ -118,9 +162,9 @@ NSString * const kCPStocksTheme = @"Stocks";				///< Stocks theme.
 }
 
 /**	@brief Applies the theme to the provided plot area.
- *	@param plotArea The plot area to style.
+ *	@param plotAreaFrame The plot area to style.
  **/
--(void)applyThemeToPlotArea:(CPPlotArea *)plotArea
+-(void)applyThemeToPlotArea:(CPPlotAreaFrame *)plotAreaFrame
 {
 }
 
@@ -130,7 +174,5 @@ NSString * const kCPStocksTheme = @"Stocks";				///< Stocks theme.
 -(void)applyThemeToAxisSet:(CPAxisSet *)axisSet
 {
 }
-
-///	@}
 
 @end

@@ -1,6 +1,5 @@
 #import "CPNumericData.h"
 #import "CPMutableNumericData.h"
-#import "GTMLogger.h"
 #import "CPExceptions.h"
 
 NSString * const CPNumericDataException = @"CPNumericDataException";

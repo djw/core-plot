@@ -1,26 +1,37 @@
-
 // Abstract class
-#import "CPLayer.h"
+#import "CPBorderedLayer.h"
+
+/// @file
 
 @class CPAxisSet;
-@class CPFill;
-@class CPPlotArea;
 @class CPPlot;
+@class CPPlotAreaFrame;
 @class CPPlotSpace;
+@class CPTheme;
 
-@interface CPGraph : CPLayer {
+/**
+ *	@brief Enumeration of graph layers.
+ **/
+typedef enum _CPGraphLayerType {
+	CPGraphLayerTypeMinorGridLines,		///< Minor grid lines.
+	CPGraphLayerTypeMajorGridLines,		///< Major grid lines.
+	CPGraphLayerTypeAxisLines,			///< Axis lines.
+	CPGraphLayerTypePlots,				///< Plots.
+	CPGraphLayerTypeAxisLabels,			///< Axis labels.
+	CPGraphLayerTypeAxisTitles			///< Axis titles.
+} CPGraphLayerType;
+
+@interface CPGraph : CPBorderedLayer {
 @private
-    CPAxisSet *axisSet;
-    CPPlotArea *plotArea;
+    CPPlotAreaFrame *plotAreaFrame;
     NSMutableArray *plots;
     NSMutableArray *plotSpaces;
-	CPFill *fill;
 }
 
 @property (nonatomic, readwrite, retain) CPAxisSet *axisSet;
-@property (nonatomic, readwrite, retain) CPPlotArea *plotArea;
+@property (nonatomic, readwrite, retain) CPPlotAreaFrame *plotAreaFrame;
 @property (nonatomic, readonly, retain) CPPlotSpace *defaultPlotSpace;
-@property (nonatomic, readwrite, retain) CPFill *fill;
+@property (nonatomic, readwrite, retain) NSArray *topDownLayerOrder;
 
 /// @name Data Source
 /// @{
@@ -56,11 +67,22 @@
 -(void)removePlotSpace:(CPPlotSpace *)plotSpace;
 ///	@}
 
+/// @name Themes
+/// @{
+-(void)applyTheme:(CPTheme *)theme;
+/// @}
+
 @end
 
+/**	@category CPGraph(AbstractFactoryMethods)
+ *	@brief CPGraph abstract methods—must be overridden by subclasses
+ **/
 @interface CPGraph(AbstractFactoryMethods)
 
+/// @name Factory Methods
+/// @{
 -(CPPlotSpace *)newPlotSpace;
 -(CPAxisSet *)newAxisSet;
+/// @}
 
 @end

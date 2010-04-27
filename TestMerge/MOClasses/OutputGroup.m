@@ -17,7 +17,7 @@
 
 
 - (NSString*)referencePath {
-    return [self mostSpecificGTMUnitTestOutputPathInSet:[[self referenceFiles] valueForKeyPath:@"path"] name:self.name extension:self.extension];
+    return [self mostSpecificGTMUnitTestOutputPathInSet:[[self referenceFilesSet] valueForKeyPath:@"path"] name:self.name extension:self.extension];
 }
 
 
@@ -76,7 +76,7 @@
 }
 
 - (void)addReferencePathsObject:(NSString*)newPath {
-    OutputFile *file = [OutputFile newInManagedObjectContext:[self managedObjectContext]];
+    OutputFile *file = [OutputFile insertInManagedObjectContext:[self managedObjectContext]];
     file.path = newPath;
     
     [self addReferenceFilesObject:file];

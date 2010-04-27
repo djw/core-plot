@@ -1,9 +1,8 @@
-
-#import "CPXYAxisSet.h"
-#import "CPXYAxis.h"
 #import "CPDefinitions.h"
-#import "CPPlotArea.h"
-#import "CPBorderedLayer.h"
+#import "CPLineStyle.h"
+#import "CPUtilities.h"
+#import "CPXYAxis.h"
+#import "CPXYAxisSet.h"
 
 /**	@brief A set of cartesian (X-Y) axes.
  **/
@@ -24,11 +23,7 @@
 
 -(id)initWithFrame:(CGRect)newFrame
 {
-	if (self = [super initWithFrame:newFrame]) {
-		CPBorderedLayer *newOverlayLayer = [[CPBorderedLayer alloc] init];
-		self.overlayLayer = newOverlayLayer;
-		[newOverlayLayer release];
-		
+	if ( self = [super initWithFrame:newFrame] ) {
 		CPXYAxis *xAxis = [(CPXYAxis *)[CPXYAxis alloc] initWithFrame:newFrame];
 		xAxis.coordinate = CPCoordinateX;
         xAxis.tickDirection = CPSignNegative;
@@ -42,6 +37,23 @@
 		[yAxis release];
 	}
 	return self;
+}
+
+#pragma mark -
+#pragma mark Drawing
+
+-(void)renderAsVectorInContext:(CGContextRef)context
+{
+	if ( self.borderLineStyle ) {
+		[super renderAsVectorInContext:context];
+		
+		CALayer *superlayer = self.superlayer;
+		CGRect borderRect = CPAlignRectToUserSpace(context, [self convertRect:superlayer.bounds fromLayer:superlayer]);
+		
+		[self.borderLineStyle setLineStyleInContext:context];
+		
+		CGContextStrokeRect(context, borderRect);
+	}
 }
 
 #pragma mark -

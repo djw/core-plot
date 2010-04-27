@@ -34,14 +34,11 @@
 - (void)windowControllerDidLoadNib:(NSWindowController *)windowController
 {
     // Create graph from theme
-//	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
-//	CPTheme *theme = [CPTheme themeNamed:kCPPlainBlackTheme];
+    graph = [[CPXYGraph alloc] initWithFrame:CGRectZero];
 	CPTheme *theme = [CPTheme themeNamed:kCPPlainWhiteTheme];
-//	CPTheme *theme = [CPTheme themeNamed:kCPStocksTheme];
-	graph = [theme newGraph]; 
+	[graph applyTheme:theme]; 
 	graphView.hostedLayer = graph;
 	
-//	graph.paddingLeft = 10.0;
 	graph.paddingTop = 40.0;
 	graph.paddingRight = 40.0;
 	graph.paddingBottom = 40.0;
@@ -54,21 +51,21 @@
 	CPXYAxisSet *axisSet = (CPXYAxisSet *)graph.axisSet;
 	CPXYAxis *x = axisSet.xAxis;
 	x.majorIntervalLength = CPDecimalFromDouble(majorIntervalLengthForX);
-	x.constantCoordinateValue = CPDecimalFromDouble(minimumValueForYAxis);
+	x.orthogonalCoordinateDecimal = CPDecimalFromDouble(minimumValueForYAxis);
 	x.minorTicksPerInterval = 5;
 	
 	CPXYAxis *y = axisSet.yAxis;
 	y.majorIntervalLength = CPDecimalFromDouble(majorIntervalLengthForY);
 	y.minorTicksPerInterval = 5;
-	y.constantCoordinateValue = CPDecimalFromDouble(minimumValueForXAxis);
+	y.orthogonalCoordinateDecimal = CPDecimalFromDouble(minimumValueForXAxis);
 	
 		CPLineStyle *borderLineStyle = [CPLineStyle lineStyle];
     borderLineStyle.lineColor = [CPColor colorWithGenericGray:0.2];
     borderLineStyle.lineWidth = 0.0f;
 	
-	CPBorderedLayer *borderedLayer = (CPBorderedLayer *)axisSet.overlayLayer;
-	borderedLayer.borderLineStyle = borderLineStyle;
-	borderedLayer.cornerRadius = 0.0f;
+//	CPBorderedLayer *borderedLayer = (CPBorderedLayer *)axisSet.overlayLayer;
+//	borderedLayer.borderLineStyle = borderLineStyle;
+//	borderedLayer.cornerRadius = 0.0f;
 
     // Create the main plot for the delimited data
 	CPScatterPlot *dataSourceLinePlot = [[[CPScatterPlot alloc] initWithFrame:graph.bounds] autorelease];

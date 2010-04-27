@@ -1,7 +1,6 @@
 
 #import "CPNumericDataType.h"
 #import "NSExceptionExtensions.h"
-#import "GTMLogger.h"
 
 static CPDataTypeFormat DataTypeForDtypeString(NSString *dtypeString);
 static NSInteger SampleBytesForDtypeString(NSString* dtypeString);

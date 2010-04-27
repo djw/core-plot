@@ -1,11 +1,12 @@
 
 #import "CPTestCase.h"
-#import "CPXYPlotSpace.h"
+
+@class CPXYGraph;
 
 @interface CPXYPlotSpaceTests : CPTestCase {
-    CPXYPlotSpace *plotSpace;
+    CPXYGraph *graph;
 }
 
-@property (retain,readwrite) CPXYPlotSpace *plotSpace;
+@property (retain,readwrite) CPXYGraph *graph;
 
 @end

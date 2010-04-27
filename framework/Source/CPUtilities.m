@@ -5,61 +5,71 @@
 #pragma mark Decimal Numbers
 
 /**
- *	@brief Converts an NSDecimal value to a CPInteger.
+ *	@brief Converts an NSDecimal value to a NSInteger.
  *	@param decimalNumber The NSDecimal value.
  *	@return The converted value.
  **/
-CPInteger CPDecimalIntegerValue(NSDecimal decimalNumber)
+NSInteger CPDecimalIntegerValue(NSDecimal decimalNumber)
 {
-	return (CPInteger)[[NSDecimalNumber decimalNumberWithDecimal:decimalNumber] intValue]; 
+	return (NSInteger)[[NSDecimalNumber decimalNumberWithDecimal:decimalNumber] intValue]; 
 }
 
 /**
- *	@brief Converts an NSDecimal value to a CPFloat.
+ *	@brief Converts an NSDecimal value to a float.
  *	@param decimalNumber The NSDecimal value.
  *	@return The converted value.
  **/
-CPFloat CPDecimalFloatValue(NSDecimal decimalNumber)
+float CPDecimalFloatValue(NSDecimal decimalNumber)
 {
-	return (CPFloat)[[NSDecimalNumber decimalNumberWithDecimal:decimalNumber] floatValue]; 
+	return (float)[[NSDecimalNumber decimalNumberWithDecimal:decimalNumber] doubleValue]; 
 }
 
 /**
- *	@brief Converts an NSDecimal value to a CPDouble.
+ *	@brief Converts an NSDecimal value to a double.
  *	@param decimalNumber The NSDecimal value.
  *	@return The converted value.
  **/
-CPDouble CPDecimalDoubleValue(NSDecimal decimalNumber)
+double CPDecimalDoubleValue(NSDecimal decimalNumber)
 {
-	return (CPDouble)[[NSDecimalNumber decimalNumberWithDecimal:decimalNumber] doubleValue]; 
+	return (double)[[NSDecimalNumber decimalNumberWithDecimal:decimalNumber] doubleValue]; 
 }
 
 /**
- *	@brief Converts a CPInteger value to an NSDecimal.
- *	@param i The CPInteger value.
+ *	@brief Converts a NSInteger value to an NSDecimal.
+ *	@param i The NSInteger value.
  *	@return The converted value.
  **/
-NSDecimal CPDecimalFromInt(CPInteger i)
+NSDecimal CPDecimalFromInteger(NSInteger i)
 {
-	return [[NSNumber numberWithInt:i] decimalValue]; 
+	return [[NSNumber numberWithInteger:i] decimalValue]; 
 }
 
 /**
- *	@brief Converts a CPFloat value to an NSDecimal.
- *	@param f The CPFloat value.
+ *	@brief Converts a NSUInteger value to an NSDecimal.
+ *	@param i The NSUInteger value.
  *	@return The converted value.
  **/
-NSDecimal CPDecimalFromFloat(CPFloat f)
+NSDecimal CPDecimalFromUnsignedInteger(NSUInteger i)
+{
+	return [[NSNumber numberWithUnsignedInteger:i] decimalValue]; 
+}
+
+/**
+ *	@brief Converts a float value to an NSDecimal.
+ *	@param f The float value.
+ *	@return The converted value.
+ **/
+NSDecimal CPDecimalFromFloat(float f)
 {
 	return [[NSNumber numberWithFloat:f] decimalValue]; 
 }
 
 /**
- *	@brief Converts a CPDouble value to an NSDecimal.
- *	@param d The CPDouble value.
+ *	@brief Converts a double value to an NSDecimal.
+ *	@param d The double value.
  *	@return The converted value.
  **/
-NSDecimal CPDecimalFromDouble(CPDouble d)
+NSDecimal CPDecimalFromDouble(double d)
 {
 	return [[NSNumber numberWithDouble:d] decimalValue]; 
 }
@@ -171,7 +181,11 @@ BOOL CPDecimalEquals(NSDecimal leftOperand, NSDecimal rightOperand)
 	return (NSDecimalCompare(&leftOperand, &rightOperand) == NSOrderedSame);	
 }
 
-
+/**
+ *	@brief Parses a string and extracts the numeric value as an NSDecimal.
+ *	@param stringRepresentation The string value.
+ *	@return The numeric value extracted from the string.
+ **/
 NSDecimal CPDecimalFromString(NSString *stringRepresentation)
 {
 	// The following NSDecimalNumber-based creation of NSDecimals from strings is slower than 
@@ -189,6 +203,21 @@ NSDecimal CPDecimalFromString(NSString *stringRepresentation)
 	return result;
 }
 
+/**
+ *	@brief Creates and returns an NSDecimal struct that represents the value "not a number".
+ *
+ *	Calling <code>NSDecimalIsNotANumber()</code> on this value will return <code>YES</code>.
+ *
+ *	@return An NSDecimal struct that represents the value "not a number".
+ **/
+NSDecimal CPDecimalNaN(void)
+{
+	NSDecimal decimalNaN = [[NSDecimalNumber zero] decimalValue];
+	decimalNaN._length = 0;
+	decimalNaN._isNegative = YES;
+	
+	return decimalNaN;
+}
 
 #pragma mark -
 #pragma mark Ranges
@@ -196,7 +225,7 @@ NSDecimal CPDecimalFromString(NSString *stringRepresentation)
 /**
  *	@brief Expands an NSRange by the given amount.
  *
- *	The <tt>location</tt> of the resulting NSRange will be non-negative.
+ *	The <code>location</code> of the resulting NSRange will be non-negative.
  *
  *	@param range The NSRange to expand.
  *	@param expandBy The amount the expand the range by.
@@ -256,7 +285,7 @@ CPRGBAColor CPRGBAColorFromCGColor(CGColorRef color)
  *	@param coord The CPCoordinate.
  *	@return The orthogonal CPCoordinate.
  **/
-CPCoordinate OrthogonalCoordinate(CPCoordinate coord)
+CPCoordinate CPOrthogonalCoordinate(CPCoordinate coord)
 {
 	return ( coord == CPCoordinateX ? CPCoordinateY : CPCoordinateX );
 }
@@ -274,7 +303,7 @@ CPCoordinate OrthogonalCoordinate(CPCoordinate coord)
  *	@param p The point in user space.
  *	@return The device aligned point in user space.
  **/
-CGPoint alignPointToUserSpace(CGContextRef context, CGPoint p)
+CGPoint CPAlignPointToUserSpace(CGContextRef context, CGPoint p)
 {
     // Compute the coordinates of the point in device space.
     p = CGContextConvertPointToDeviceSpace(context, p);
@@ -296,7 +325,7 @@ CGPoint alignPointToUserSpace(CGContextRef context, CGPoint p)
  *	@param s The size in user space.
  *	@return The device aligned size in user space.
  **/
-CGSize alignSizeToUserSpace(CGContextRef context, CGSize s)
+CGSize CPAlignSizeToUserSpace(CGContextRef context, CGSize s)
 {
     // Compute the size in device space.
     s = CGContextConvertSizeToDeviceSpace(context, s);
@@ -320,7 +349,7 @@ CGSize alignSizeToUserSpace(CGContextRef context, CGSize s)
  *	@param r The rectangle in user space.
  *	@return The device aligned rectangle in user space.
  **/
-CGRect alignRectToUserSpace(CGContextRef context, CGRect r)
+CGRect CPAlignRectToUserSpace(CGContextRef context, CGRect r)
 {
     // Compute the coordinates of the rectangle in device space.
     r = CGContextConvertRectToDeviceSpace(context, r);
@@ -334,4 +363,34 @@ CGRect alignRectToUserSpace(CGContextRef context, CGRect r)
     
     // Convert back to user space.
     return CGContextConvertRectToUserSpace(context, r);
+}
+
+#pragma mark -
+#pragma mark String formatting for Core Graphics structs
+
+/**	@brief Creates a string representation of the given point.
+ *	@param p The point.
+ *	@return A string with the format <code>{x, y}</code>.
+ **/
+NSString *CPStringFromPoint(CGPoint p)
+{
+	return [NSString stringWithFormat:@"{%g, %g}", p.x, p.y];
+}
+
+/**	@brief Creates a string representation of the given point.
+ *	@param s The size.
+ *	@return A string with the format <code>{width, height}</code>.
+ **/
+NSString *CPStringFromSize(CGSize s)
+{
+	return [NSString stringWithFormat:@"{%g, %g}", s.width, s.height];
+}
+
+/**	@brief Creates a string representation of the given point.
+ *	@param r The rectangle.
+ *	@return A string with the format <code>{{x, y}, {width, height}}</code>.
+ **/
+NSString *CPStringFromRect(CGRect r)
+{
+	return [NSString stringWithFormat:@"{{%g, %g}, {%g, %g}}", r.origin.x, r.origin.y, r.size.width, r.size.height];
 }

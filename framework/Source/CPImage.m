@@ -1,6 +1,6 @@
 #import "CPImage.h"
 
-#if defined(TARGET_IPHONE_SIMULATOR) || defined(TARGET_OS_IPHONE)
+#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
 // iPhone-specific image library as equivalent to ImageIO?
 #else
 //#import <ImageIO/ImageIO.h>
@@ -43,8 +43,9 @@
 -(id)initWithCGImage:(CGImageRef)anImage
 {
 	if ( self = [super init] ) {
-     	self.image = anImage;
-        self.tiled = NO;
+ 		CGImageRetain(anImage);
+    	image = anImage;
+        tiled = NO;
     }
     return self;
 }
@@ -76,7 +77,7 @@
 
 -(void)dealloc
 {
-	self.image = NULL;
+	CGImageRelease(image);
 	[super dealloc];
 }
 
@@ -84,10 +85,8 @@
 {
     CPImage *copy = [[[self class] allocWithZone:zone] init];
 	
-	CGImageRef imageCopy = CGImageCreateCopy(self.image);
-	copy.image = imageCopy;
-	CGImageRelease(imageCopy);
-	copy.tiled = self.tiled;
+	copy->image = CGImageCreateCopy(self.image);
+	copy->tiled = self->tiled;
 	
     return copy;
 }
@@ -118,7 +117,7 @@
 
 -(void)setImage:(CGImageRef)anImage
 {
-	if (anImage != image) {
+	if ( anImage != image ) {
 		CGImageRetain(anImage);
 		CGImageRelease(image);
 		image = anImage;
@@ -138,11 +137,16 @@
  **/
 -(void)drawInRect:(CGRect)rect inContext:(CGContextRef)context
 {
-	if (self.image) {
-		if (self.tiled) {
-			CGContextDrawTiledImage(context, rect, self.image);
+	CGImageRef theImage = self.image;
+	if ( theImage ) {
+		if ( self.tiled ) {
+			CGContextSaveGState(context);
+			CGContextClipToRect(context, *(CGRect *)&rect);
+			CGRect imageBounds = CGRectMake(0.0, 0.0, (CGFloat)CGImageGetWidth(theImage), (CGFloat)CGImageGetHeight(theImage));
+			CGContextDrawTiledImage(context, imageBounds, theImage);
+			CGContextRestoreGState(context);
 		} else {
-			CGContextDrawImage(context, rect, self.image);
+			CGContextDrawImage(context, rect, theImage);
 		}
 	}
 }

@@ -1,16 +1,22 @@
-
+#import "CPGraph.h"
 #import "CPPlot.h"
+#import "CPPlotArea.h"
+#import "CPPlotAreaFrame.h"
 #import "CPPlotSpace.h"
 #import "CPPlotRange.h"
 #import "NSNumberExtensions.h"
+#import "CPUtilities.h"
 
 ///	@cond
 @interface CPPlot()
 
 @property (nonatomic, readwrite, assign) BOOL dataNeedsReloading;
+@property (nonatomic, readwrite, retain) NSMutableDictionary *cachedData;
 
 @end
 ///	@endcond
+
+#pragma mark -
 
 /**	@brief An abstract plot class.
  *
@@ -33,27 +39,38 @@
  **/
 @synthesize plotSpace;
 
+/**	@property plotArea
+ *	@brief The plot area for the plot.
+ **/
+@dynamic plotArea;
+
 /**	@property dataNeedsReloading
  *	@brief If YES, the plot data will be reloaded from the data source before the layer content is drawn.
  **/
 @synthesize dataNeedsReloading;
+
+@synthesize cachedData;
 
 #pragma mark -
 #pragma mark init/dealloc
 
 -(id)initWithFrame:(CGRect)newFrame
 {
-	if (self = [super initWithFrame:newFrame]) {
-        self.dataNeedsReloading = YES;
+	if ( self = [super initWithFrame:newFrame] ) {
+		cachedData = nil;
+		dataSource = nil;
+		identifier = nil;
+		plotSpace = nil;
+        dataNeedsReloading = YES;
 	}
 	return self;
 }
 
 -(void)dealloc
 {
-    self.dataSource = nil;
-    self.identifier = nil;
-    self.plotSpace = nil;
+	[cachedData release];
+    [identifier release];
+    [plotSpace release];
     [super dealloc];
 }
 
@@ -74,6 +91,39 @@
 	return CPDefaultZPositionPlot;
 }
 
+-(void)layoutSublayers {
+	// do nothing
+}
+
+
+#pragma mark -
+#pragma mark Fields
+
+/**	@brief Number of fields in a plot data record.
+ *	@return The number of fields.
+ **/
+-(NSUInteger)numberOfFields 
+{
+    return 0;
+}
+
+/**	@brief Identifiers (enum values) identifying the fields.
+ *	@return Array of NSNumbers for the various field identifiers.
+ **/
+-(NSArray *)fieldIdentifiers 
+{
+    return [NSArray array];
+}
+
+/**	@brief The field identifiers that correspond to a particular coordinate.
+ *  @param coord The coordinate for which the corresponding field identifiers are desired.
+ *	@return Array of NSNumbers for the field identifiers.
+ **/
+-(NSArray *)fieldIdentifiersForCoordinate:(CPCoordinate)coord 
+{
+    return [NSArray array];
+}
+
 #pragma mark -
 #pragma mark Data Source
 
@@ -83,6 +133,7 @@
 {
     self.dataNeedsReloading = NO;
     [self setNeedsDisplay];
+    [self setNeedsLayout];
 }
 
 /**	@brief Gets a range of plot data for the given plot and field.
@@ -142,6 +193,67 @@
 }
 
 #pragma mark -
+#pragma mark Data Caching
+
+/**	@brief Stores an array of numbers in the cache.
+ *	@param numbers An array of numbers to cache.
+ *	@param fieldEnum The field enumerator identifying the field.
+ **/
+-(void)cacheNumbers:(NSArray *)numbers forField:(NSUInteger)fieldEnum 
+{
+	if ( numbers == nil ) return;
+    if ( cachedData == nil ) cachedData = [[NSMutableDictionary alloc] initWithCapacity:5];
+    [cachedData setObject:[[numbers copy] autorelease] forKey:[NSNumber numberWithUnsignedInteger:fieldEnum]];
+}
+
+/**	@brief Retrieves an array of numbers from the cache.
+ *	@param fieldEnum The field enumerator identifying the field.
+ *	@return The array of cached numbers.
+ **/
+-(NSArray *)cachedNumbersForField:(NSUInteger)fieldEnum 
+{
+    return [self.cachedData objectForKey:[NSNumber numberWithUnsignedInteger:fieldEnum]];
+}
+
+#pragma mark -
+#pragma mark Data Ranges
+
+/**	@brief Determines the smallest plot range that fully encloses the data for a particular field.
+ *	@param fieldEnum The field enumerator identifying the field.
+ *	@return The plot range enclosing the data.
+ **/
+-(CPPlotRange *)plotRangeForField:(NSUInteger)fieldEnum 
+{
+    if ( self.dataNeedsReloading ) [self reloadData];
+    NSArray *numbers = [self cachedNumbersForField:fieldEnum];
+    CPPlotRange *range = nil;
+    if ( numbers && numbers.count > 0 ) {
+        NSNumber *min = [numbers valueForKeyPath:@"@min.self"];
+        NSNumber *max = [numbers valueForKeyPath:@"@max.self"];
+        NSDecimal length = CPDecimalSubtract([max decimalValue], [min decimalValue]);
+        range = [CPPlotRange plotRangeWithLocation:[min decimalValue] length:length];
+    }
+    return range;
+}
+
+/**	@brief Determines the smallest plot range that fully encloses the data for a particular coordinate.
+ *	@param coord The coordinate identifier.
+ *	@return The plot range enclosing the data.
+ **/
+-(CPPlotRange *)plotRangeForCoordinate:(CPCoordinate)coord 
+{
+    NSArray *fields = [self fieldIdentifiersForCoordinate:coord];
+    if ( fields.count == 0 ) return nil;
+    
+    CPPlotRange *unionRange = [self plotRangeForField:[[fields lastObject] unsignedIntValue]];
+    for ( NSNumber *field in fields ) {
+        [unionRange unionPlotRange:[self plotRangeForField:field.unsignedIntValue]];
+    }
+    
+    return unionRange;
+}
+
+#pragma mark -
 #pragma mark Accessors
 
 -(void)setDataSource:(id <CPPlotDataSource>)newSource 
@@ -150,6 +262,7 @@
         dataSource = newSource;
         self.dataNeedsReloading = YES;
 		[self setNeedsDisplay];
+        [self setNeedsLayout];
     }
 }
 
@@ -159,6 +272,12 @@
 {
 	self.dataNeedsReloading = YES;
     [self setNeedsDisplay];
+    [self setNeedsLayout];
+}
+
+-(CPPlotArea *)plotArea
+{
+	return self.graph.plotAreaFrame.plotArea;
 }
 
 @end

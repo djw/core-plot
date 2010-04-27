@@ -1,4 +1,3 @@
-
 #import "CPBorderedLayer.h"
 #import "CPPathExtensions.h"
 #import "CPLineStyle.h"
@@ -6,7 +5,6 @@
 
 /** @brief A layer with rounded corners.
  **/
-
 @implementation CPBorderedLayer
 
 /** @property borderLineStyle 
@@ -15,20 +13,22 @@
  **/
 @synthesize borderLineStyle;
 
-/** @property cornerRadius 
- *  @brief Radius for the rounded corners of the layer.
- **/
-@synthesize cornerRadius;
-
 /** @property fill 
  *  @brief The fill for the layer background.
  *	If nil, the layer background is not filled.
  **/
 @synthesize fill;
 
+#pragma mark -
+#pragma mark Init/Dealloc
+
 -(id)initWithFrame:(CGRect)newFrame
 {
 	if ( self = [super initWithFrame:newFrame] ) {
+		borderLineStyle = nil;
+		fill = nil;
+
+		self.masksToBorder = YES;
 		self.needsDisplayOnBoundsChange = YES;
 	}
 	return self;
@@ -36,8 +36,8 @@
 
 -(void)dealloc
 {
-	[self.borderLineStyle release];
-    [self.fill release];
+	[borderLineStyle release];
+    [fill release];
 	
 	[super dealloc];
 }
@@ -47,30 +47,92 @@
 
 -(void)renderAsVectorInContext:(CGContextRef)context
 {
-    CGPathRef roundedPath = [self newMaskingPath];
-	if ( self.fill ) {
-		CGContextBeginPath(context);
-        CGContextAddPath(context, roundedPath);
-		[self.fill fillPathInContext:context];
-	}
+	[super renderAsVectorInContext:context];
+	
+	BOOL useMask = self.masksToBounds;
+	self.masksToBounds = YES;
+	CGContextBeginPath(context);
+	CGContextAddPath(context, self.maskingPath);
+	[self.fill fillPathInContext:context];
+	self.masksToBounds = useMask;
+	
     if ( self.borderLineStyle ) {
-		CGContextBeginPath(context);
-        CGContextAddPath(context, roundedPath);
+		CGFloat inset = self.borderLineStyle.lineWidth / 2.0;
+		CGRect selfBounds = CGRectInset(self.bounds, inset, inset);
+		
         [self.borderLineStyle setLineStyleInContext:context];
-        CGContextStrokePath(context);
+
+		if ( self.cornerRadius > 0.0 ) {
+			CGFloat radius = MIN(MIN(self.cornerRadius, selfBounds.size.width / 2.0), selfBounds.size.height / 2.0);
+			CGContextBeginPath(context);
+			AddRoundedRectPath(context, selfBounds, radius);
+			CGContextStrokePath(context);
+		}
+		else {
+			CGContextStrokeRect(context, selfBounds);
+		}
     }
-    CGPathRelease(roundedPath);
 }
 
 #pragma mark -
-#pragma mark <CPMasking>
+#pragma mark Masking
 
--(CGPathRef)newMaskingPath 
+-(CGPathRef)maskingPath 
 {
-    CGFloat inset = round(self.borderLineStyle.lineWidth*0.5 + 1.0f);
-	CGRect selfBounds = CGRectInset(self.bounds, inset, inset);
-    CGFloat radius = MIN(MIN(self.cornerRadius, selfBounds.size.width / 2), selfBounds.size.height / 2);
-    return CreateRoundedRectPath(selfBounds, radius);
+	if ( self.masksToBounds ) {
+		CGPathRef path = self.outerBorderPath;
+		if ( path ) return path;
+		
+		CGFloat lineWidth = self.borderLineStyle.lineWidth;
+		CGRect selfBounds = self.bounds;
+		
+		if ( self.cornerRadius > 0.0 ) {
+			CGFloat radius = MIN(MIN(self.cornerRadius + lineWidth / 2.0, selfBounds.size.width / 2.0), selfBounds.size.height / 2.0);
+			path = CreateRoundedRectPath(selfBounds, radius);
+			self.outerBorderPath = path;
+			CGPathRelease(path);
+		}
+		else {
+			CGMutablePathRef mutablePath = CGPathCreateMutable();
+			CGPathAddRect(mutablePath, NULL, selfBounds);
+			self.outerBorderPath = mutablePath;
+			CGPathRelease(mutablePath);
+		}
+		
+		return self.outerBorderPath;
+	}
+	else {
+		return NULL;
+	}
+}
+
+-(CGPathRef)sublayerMaskingPath 
+{
+	if ( self.masksToBorder ) {
+		CGPathRef path = self.innerBorderPath;
+		if ( path ) return path;
+		
+		CGFloat lineWidth = self.borderLineStyle.lineWidth;
+		CGRect selfBounds = CGRectInset(self.bounds, lineWidth, lineWidth);
+		
+		if ( self.cornerRadius > 0.0 ) {
+			CGFloat radius = MIN(MIN(self.cornerRadius - lineWidth / 2.0, selfBounds.size.width / 2.0), selfBounds.size.height / 2.0);
+			path = CreateRoundedRectPath(selfBounds, radius);
+			self.innerBorderPath = path;
+			CGPathRelease(path);
+		}
+		else {
+			CGMutablePathRef mutablePath = CGPathCreateMutable();
+			CGPathAddRect(mutablePath, NULL, selfBounds);
+			self.innerBorderPath = mutablePath;
+			CGPathRelease(mutablePath);
+		}
+		
+		return self.innerBorderPath;
+	}
+	else {
+		return NULL;
+	}
 }
 
 #pragma mark -
@@ -79,16 +141,12 @@
 -(void)setBorderLineStyle:(CPLineStyle *)newLineStyle
 {
 	if ( newLineStyle != borderLineStyle ) {
+		if ( newLineStyle.lineWidth != borderLineStyle.lineWidth ) {
+			self.outerBorderPath = NULL;
+			self.innerBorderPath = NULL;
+		}
 		[borderLineStyle release];
 		borderLineStyle = [newLineStyle copy];
-		[self setNeedsDisplay];
-	}
-}
-
--(void)setCornerRadius:(CGFloat)newRadius
-{
-	if ( newRadius != cornerRadius ) {
-		cornerRadius = ABS(newRadius);
 		[self setNeedsDisplay];
 	}
 }

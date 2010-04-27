@@ -2,13 +2,9 @@
 #import <Foundation/Foundation.h>
 
 @class CPGraph;
-@class CPXYGraph;
-@class CPPlotArea;
-@class CPXYPlotSpace;
+@class CPPlotAreaFrame;
 @class CPAxisSet;
-@class CPLineStyle;
 @class CPTextStyle;
-@class CPXYAxis;
 
 /// @file
 
@@ -17,26 +13,46 @@
 extern NSString * const kCPDarkGradientTheme;
 extern NSString * const kCPPlainWhiteTheme;
 extern NSString * const kCPPlainBlackTheme;
+extern NSString * const kCPSlateTheme;
 extern NSString * const kCPStocksTheme;
 /// @}
 
 @interface CPTheme : NSObject {
+	@private
+	NSString *name;
 	Class graphClass;
 }
 
-@property (nonatomic, assign) Class graphClass;
+@property (nonatomic, readwrite, copy) NSString *name;
+@property (nonatomic, readwrite, retain) Class graphClass;
 
+/// @name Theme Management
+/// @{
 +(NSArray *)themeClasses;
 +(CPTheme *)themeNamed:(NSString *)theme;
-+(NSString *)name;
++(void)addTheme:(CPTheme *)newTheme;
++(NSString *)defaultName;
+/// @}
 
-+(Class)requiredGraphSubclass;
+/// @name Theme Usage
+/// @{
+-(void)applyThemeToGraph:(CPGraph *)graph;
+/// @}
 
+@end
+
+/**	@category CPTheme(AbstractMethods)
+ *	@brief CPTheme abstract methods—must be overridden by subclasses
+ **/
+@interface CPTheme(AbstractMethods)
+
+/// @name Theme Usage
+/// @{
 -(id)newGraph;
 
--(void)applyThemeToGraph:(CPGraph *)graph;
 -(void)applyThemeToBackground:(CPGraph *)graph;
--(void)applyThemeToPlotArea:(CPPlotArea *)plotArea;
+-(void)applyThemeToPlotArea:(CPPlotAreaFrame *)plotAreaFrame;
 -(void)applyThemeToAxisSet:(CPAxisSet *)axisSet; 
+/// @}
 
 @end

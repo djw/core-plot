@@ -25,8 +25,9 @@
     [super viewDidLoad];
 
     // Create graph from theme
+    graph = [[CPXYGraph alloc] initWithFrame:CGRectZero];
 	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
-	graph = (CPXYGraph *)[theme newGraph];	
+    [graph applyTheme:theme];
 	CPLayerHostingView *hostingView = (CPLayerHostingView *)self.view;
     hostingView.hostedLayer = graph;
 	
@@ -37,6 +38,7 @@
     
     // Setup plot space
     CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
+    plotSpace.allowsUserInteraction = YES;
     plotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.0) length:CPDecimalFromFloat(2.0)];
     plotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.0) length:CPDecimalFromFloat(3.0)];
 
@@ -44,7 +46,7 @@
 	CPXYAxisSet *axisSet = (CPXYAxisSet *)graph.axisSet;
     CPXYAxis *x = axisSet.xAxis;
     x.majorIntervalLength = CPDecimalFromString(@"0.5");
-    x.constantCoordinateValue = CPDecimalFromString(@"2");
+    x.orthogonalCoordinateDecimal = CPDecimalFromString(@"2");
     x.minorTicksPerInterval = 2;
  	NSArray *exclusionRanges = [NSArray arrayWithObjects:
 		[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.99) length:CPDecimalFromFloat(0.02)], 
@@ -56,7 +58,7 @@
     CPXYAxis *y = axisSet.yAxis;
     y.majorIntervalLength = CPDecimalFromString(@"0.5");
     y.minorTicksPerInterval = 5;
-    y.constantCoordinateValue = CPDecimalFromString(@"2");
+    y.orthogonalCoordinateDecimal = CPDecimalFromString(@"2");
 	exclusionRanges = [NSArray arrayWithObjects:
 		[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.99) length:CPDecimalFromFloat(0.02)], 
 		[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.99) length:CPDecimalFromFloat(0.02)],
@@ -95,8 +97,8 @@
     dataSourceLinePlot.identifier = @"Green Plot";
 	dataSourceLinePlot.dataLineStyle.lineWidth = 3.f;
     dataSourceLinePlot.dataLineStyle.lineColor = [CPColor greenColor];
+	dataSourceLinePlot.dataLineStyle.dashPattern = [NSArray arrayWithObjects:[NSNumber numberWithFloat:5.0f], [NSNumber numberWithFloat:5.0f], nil];
     dataSourceLinePlot.dataSource = self;
-    [graph addPlot:dataSourceLinePlot];
 
    // Put an area gradient under the plot above
     CPColor *areaColor = [CPColor colorWithComponentRed:0.3 green:1.0 blue:0.3 alpha:0.8];
@@ -105,6 +107,17 @@
     areaGradientFill = [CPFill fillWithGradient:areaGradient];
     dataSourceLinePlot.areaFill = areaGradientFill;
     dataSourceLinePlot.areaBaseValue = CPDecimalFromString(@"1.75");
+
+	// Animate in the new plot, as an example
+	dataSourceLinePlot.opacity = 0.0f;
+    [graph addPlot:dataSourceLinePlot];
+	
+	CABasicAnimation *fadeInAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
+	fadeInAnimation.duration = 1.0f;
+	fadeInAnimation.removedOnCompletion = NO;
+	fadeInAnimation.fillMode = kCAFillModeForwards;
+	fadeInAnimation.toValue = [NSNumber numberWithFloat:1.0];
+	[dataSourceLinePlot addAnimation:fadeInAnimation forKey:@"animateOpacity"];
 	
     // Add some initial data
 	NSMutableArray *contentArray = [NSMutableArray arrayWithCapacity:100];

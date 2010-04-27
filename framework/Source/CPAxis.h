@@ -5,10 +5,14 @@
 
 ///	@file
 
+@class CPAxis;
+@class CPAxisSet;
+@class CPAxisTitle;
+@class CPGridLines;
 @class CPLineStyle;
 @class CPPlotSpace;
 @class CPPlotRange;
-@class CPAxis;
+@class CPPlotArea;
 @class CPTextStyle;
 
 /**	@brief Enumeration of labeling policies
@@ -17,15 +21,14 @@ typedef enum _CPAxisLabelingPolicy {
     CPAxisLabelingPolicyNone,					///< No labels provided; user sets labels and locations.
     CPAxisLabelingPolicyLocationsProvided,		///< User sets locations; class makes labels.
     CPAxisLabelingPolicyFixedInterval,			///< Fixed interval labeling policy.
-    // TODO: Implement automatic labeling
-	CPAxisLabelingPolicyAutomatic,				///< Automatic labeling policy (not implemented).
+	CPAxisLabelingPolicyAutomatic,				///< Automatic labeling policy.
 	// TODO: Implement logarithmic labeling
     CPAxisLabelingPolicyLogarithmic				///< logarithmic labeling policy (not implemented). 
 } CPAxisLabelingPolicy;
 
 /**	@brief Axis labeling delegate.
  **/
-@protocol CPAxisDelegate
+@protocol CPAxisDelegate <NSObject>
 
 /// @name Labels
 /// @{
@@ -42,51 +45,87 @@ typedef enum _CPAxisLabelingPolicy {
  **/
 -(void)axisDidRelabel:(CPAxis *)axis;
 
+@optional
+
+/**	@brief This method gives the delegate a chance to create custom labels for each tick.
+ *  It can be used with any relabeling policy. Returning NO will cause the axis not
+ *  to update the labels. It is then the delegates responsiblity to do this.
+ *	@param axis The axis.
+ *  @param locations The locations of the major ticks.
+ *  @return YES if the axis class should proceed with automatic relabeling.
+ **/
+-(BOOL)axis:(CPAxis *)axis shouldUpdateAxisLabelsAtLocations:(NSSet *)locations;
+
 ///	@}
 
 @end
 
 @interface CPAxis : CPLayer {   
-@private
+	@private
     CPCoordinate coordinate;
 	CPPlotSpace *plotSpace;
     NSSet *majorTickLocations;
     NSSet *minorTickLocations;
     CGFloat majorTickLength;
     CGFloat minorTickLength;
-	CGFloat axisLabelOffset;
+	CGFloat labelOffset;
+    CGFloat labelRotation;
     CPLineStyle *axisLineStyle;
     CPLineStyle *majorTickLineStyle;
     CPLineStyle *minorTickLineStyle;
     CPLineStyle *majorGridLineStyle;
     CPLineStyle *minorGridLineStyle;
-    NSDecimal fixedPoint;
-    NSDecimal majorIntervalLength;
+    NSDecimal labelingOrigin;			
+    NSDecimal majorIntervalLength;	
     NSUInteger minorTicksPerInterval;
-    CPAxisLabelingPolicy axisLabelingPolicy;
-	CPTextStyle *axisLabelTextStyle;
-	NSNumberFormatter *tickLabelFormatter;
+    NSUInteger preferredNumberOfMajorTicks;
+    CPAxisLabelingPolicy labelingPolicy;
+	CPTextStyle *labelTextStyle;
+	CPTextStyle *titleTextStyle;
+	NSNumberFormatter *labelFormatter;
+	BOOL labelFormatterChanged;
 	NSSet *axisLabels;
+	CPAxisTitle *axisTitle;
+	NSString *title;
+	CGFloat titleOffset;
+	NSDecimal titleLocation;	
     CPSign tickDirection;
     BOOL needsRelabel;
 	NSArray *labelExclusionRanges;
 	id <CPAxisDelegate> delegate;
+    CPPlotRange *visibleRange;
+    CPPlotRange *gridLinesRange;
+	CPPlotArea *plotArea;
+	CPGridLines *minorGridLines;
+	CPGridLines *majorGridLines;
 }
 
 /// @name Axis
 /// @{
 @property (nonatomic, readwrite, copy) CPLineStyle *axisLineStyle;
 @property (nonatomic, readwrite, assign) CPCoordinate coordinate;
-@property (nonatomic, readwrite) NSDecimal fixedPoint;
+@property (nonatomic, readwrite, assign) NSDecimal labelingOrigin;
 @property (nonatomic, readwrite, assign) CPSign tickDirection;
+@property (nonatomic, readwrite, copy) CPPlotRange *visibleRange;
+///	@}
+
+/// @name Title
+/// @{
+@property (nonatomic, readwrite, copy) CPTextStyle *titleTextStyle;
+@property (nonatomic, readwrite, retain) CPAxisTitle *axisTitle;
+@property (nonatomic, readwrite, assign) CGFloat titleOffset;
+@property (nonatomic, readwrite, retain) NSString *title;
+@property (nonatomic, readwrite, assign) NSDecimal titleLocation;
+@property (nonatomic, readonly, assign) NSDecimal defaultTitleLocation;
 ///	@}
 
 /// @name Labels
 /// @{
-@property (nonatomic, readwrite, assign) CPAxisLabelingPolicy axisLabelingPolicy;
-@property (nonatomic, readwrite, assign) CGFloat axisLabelOffset;
-@property (nonatomic, readwrite, copy) CPTextStyle *axisLabelTextStyle;
-@property (nonatomic, readwrite, retain) NSNumberFormatter *tickLabelFormatter;
+@property (nonatomic, readwrite, assign) CPAxisLabelingPolicy labelingPolicy;
+@property (nonatomic, readwrite, assign) CGFloat labelOffset;
+@property (nonatomic, readwrite, assign) CGFloat labelRotation;
+@property (nonatomic, readwrite, copy) CPTextStyle *labelTextStyle;
+@property (nonatomic, readwrite, retain) NSNumberFormatter *labelFormatter;
 @property (nonatomic, readwrite, retain) NSSet *axisLabels;
 @property (nonatomic, readonly, assign) BOOL needsRelabel;
 @property (nonatomic, readwrite, retain) NSArray *labelExclusionRanges;
@@ -95,10 +134,11 @@ typedef enum _CPAxisLabelingPolicy {
 
 /// @name Major Ticks
 /// @{
-@property (nonatomic, readwrite) NSDecimal majorIntervalLength;
+@property (nonatomic, readwrite, assign) NSDecimal majorIntervalLength;
 @property (nonatomic, readwrite, assign) CGFloat majorTickLength;
 @property (nonatomic, readwrite, copy) CPLineStyle *majorTickLineStyle;
 @property (nonatomic, readwrite, retain) NSSet *majorTickLocations;
+@property (nonatomic, readwrite, assign) NSUInteger preferredNumberOfMajorTicks;
 ///	@}
 
 /// @name Minor Ticks
@@ -113,16 +153,27 @@ typedef enum _CPAxisLabelingPolicy {
 /// @{
 @property (nonatomic, readwrite, copy) CPLineStyle *majorGridLineStyle;
 @property (nonatomic, readwrite, copy) CPLineStyle *minorGridLineStyle;
+@property (nonatomic, readwrite, copy) CPPlotRange *gridLinesRange;
 ///	@}
 
+/// @name Plot Space
+/// @{
 @property (nonatomic, readwrite, retain) CPPlotSpace *plotSpace;
+///	@}
+
+/// @name Layers
+/// @{
+@property (nonatomic, readwrite, retain) CPPlotArea *plotArea;
+@property (nonatomic, readonly, retain) CPGridLines *minorGridLines;
+@property (nonatomic, readonly, retain) CPGridLines *majorGridLines;
+@property (nonatomic, readonly, retain) CPAxisSet *axisSet;
+@property (nonatomic, readonly, retain) Class gridLineClass;
+///	@}
 
 /// @name Labels
 /// @{
 -(void)relabel;
 -(void)setNeedsRelabel;
-
--(NSArray *)newAxisLabelsAtLocations:(NSArray *)locations;
 ///	@}
 
 /// @name Ticks
@@ -133,6 +184,9 @@ typedef enum _CPAxisLabelingPolicy {
 
 @end
 
+/**	@category CPAxis(AbstractMethods)
+ *	@brief CPAxis abstract methods—must be overridden by subclasses
+ **/
 @interface CPAxis(AbstractMethods)
 
 /// @name Coordinate Space Conversions
