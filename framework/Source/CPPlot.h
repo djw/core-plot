@@ -38,6 +38,22 @@
  **/
 -(NSNumber *)numberForPlot:(CPPlot *)plot field:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index;
 
+/**	@brief Gets a range of plot data for the given plot and field.
+ *	@param plot The plot.
+ *	@param fieldEnum The field index.
+ *	@param indexRange The range of the data indexes of interest.
+ *	@return A retained C array of data points.
+ **/
+-(double *)doublesForPlot:(CPPlot *)plot field:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange;
+
+/**	@brief Gets a plot data value for the given plot and field.
+ *	@param plot The plot.
+ *	@param fieldEnum The field index.
+ *	@param index The data index of interest.
+ *	@return A data point.
+ **/
+-(double)doubleForPlot:(CPPlot *)plot field:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index;
+
 ///	@}
 
 /**	@brief Determines the record index range corresponding to a given range of data.
@@ -60,13 +76,40 @@
     CPPlotSpace *plotSpace;
     BOOL dataNeedsReloading;
     NSMutableDictionary *cachedData;
+    NSUInteger cachedDataCount;
+    BOOL doublePrecisionCache;
 }
 
+/// @name Data Source
+/// @{
 @property (nonatomic, readwrite, assign) id <CPPlotDataSource> dataSource;
+///	@}
+
+/// @name Identification
+/// @{
 @property (nonatomic, readwrite, copy) id <NSCopying, NSObject> identifier;
+///	@}
+
+/// @name Plot Space
+/// @{
 @property (nonatomic, readwrite, retain) CPPlotSpace *plotSpace;
-@property (nonatomic, readonly, assign) BOOL dataNeedsReloading;
+///	@}
+
+/// @name Plot Area
+/// @{
 @property (nonatomic, readonly, retain) CPPlotArea *plotArea;
+///	@}
+
+/// @name Data Loading
+/// @{
+@property (nonatomic, readonly, assign) BOOL dataNeedsReloading;
+///	@}
+
+/// @name Data Cache
+/// @{
+@property (nonatomic, readonly, assign) NSUInteger cachedDataCount;
+@property (nonatomic, readonly, assign) BOOL doublePrecisionCache;
+///	@}
 
 /// @name Data Loading
 /// @{
@@ -76,14 +119,14 @@
 
 /// @name Plot Data
 /// @{
--(NSArray *)numbersFromDataSourceForField:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange;
+-(id)numbersFromDataSourceForField:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange;
 -(NSRange)recordIndexRangeForPlotRange:(CPPlotRange *)plotRange;
 ///	@}
 
 /// @name Data Cache
 /// @{
--(NSArray *)cachedNumbersForField:(NSUInteger)fieldEnum;
--(void)cacheNumbers:(NSArray *)numbers forField:(NSUInteger)fieldEnum;
+-(id)cachedNumbersForField:(NSUInteger)fieldEnum;
+-(void)cacheNumbers:(id)numbers forField:(NSUInteger)fieldEnum;
 ///	@}
 
 /// @name Plot Data Ranges

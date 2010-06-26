@@ -1361,7 +1361,7 @@
 				PREBINDING = NO;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = macosx10.5;
-				SYMROOT = build;
+				SYMROOT = "$(PROJECT_DIR)/../build";
 			};
 			name = Release;
 		};

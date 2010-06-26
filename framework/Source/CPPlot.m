@@ -13,6 +13,9 @@
 @property (nonatomic, readwrite, assign) BOOL dataNeedsReloading;
 @property (nonatomic, readwrite, retain) NSMutableDictionary *cachedData;
 
+@property (nonatomic, readwrite, assign) NSUInteger cachedDataCount;
+@property (nonatomic, readwrite, assign) BOOL doublePrecisionCache;
+
 @end
 ///	@endcond
 
@@ -51,6 +54,16 @@
 
 @synthesize cachedData;
 
+/**	@property cachedDataCount
+ *	@brief The number of data points stored in the cache.
+ **/
+@synthesize cachedDataCount;
+
+/**	@property doublePrecisionCache
+ *	@brief If YES, the cache holds data of type 'double', otherwise it holds NSNumber.
+ **/
+@synthesize doublePrecisionCache;
+
 #pragma mark -
 #pragma mark init/dealloc
 
@@ -58,6 +71,8 @@
 {
 	if ( self = [super initWithFrame:newFrame] ) {
 		cachedData = nil;
+		cachedDataCount = 0;
+		doublePrecisionCache = NO;
 		dataSource = nil;
 		identifier = nil;
 		plotSpace = nil;
@@ -141,13 +156,32 @@
  *	@param indexRange The range of the data indexes of interest.
  *	@return An array of data points.
  **/
--(NSArray *)numbersFromDataSourceForField:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange 
+-(id)numbersFromDataSourceForField:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange 
 {
-    NSArray *numbers;
+    id numbers;  // could be NSArray or NSData
     
     if ( self.dataSource ) {
-        if ( [self.dataSource respondsToSelector:@selector(numbersForPlot:field:recordIndexRange:)] ) {
+        if ( [self.dataSource respondsToSelector:@selector(doublesForPlot:field:recordIndexRange:)] ) {
+            numbers = [NSMutableData dataWithLength:sizeof(double)*indexRange.length];
+            double *fieldValues = [numbers mutableBytes];
+            double *doubleValues = [self.dataSource doublesForPlot:self field:fieldEnum recordIndexRange:indexRange];
+            memcpy( fieldValues, doubleValues, sizeof(double)*indexRange.length );
+            self.doublePrecisionCache = YES;
+        }
+        else if ( [self.dataSource respondsToSelector:@selector(numbersForPlot:field:recordIndexRange:)] ) {
             numbers = [NSArray arrayWithArray:[self.dataSource numbersForPlot:self field:fieldEnum recordIndexRange:indexRange]];
+            self.doublePrecisionCache = NO;
+        }
+        else if ( [self.dataSource respondsToSelector:@selector(doubleForPlot:field:recordIndex:)] ) {
+            NSUInteger recordIndex;
+            NSMutableData *fieldData = [NSMutableData dataWithLength:sizeof(double)*indexRange.length];
+            double *fieldValues = [fieldData mutableBytes];
+            for ( recordIndex = indexRange.location; recordIndex < indexRange.location + indexRange.length; ++recordIndex ) {
+                double number = [self.dataSource doubleForPlot:self field:fieldEnum recordIndex:recordIndex];
+                *fieldValues++ = number;
+            }
+            numbers = fieldData;
+            self.doublePrecisionCache = YES;
         }
         else {
             BOOL respondsToSingleValueSelector = [self.dataSource respondsToSelector:@selector(numberForPlot:field:recordIndex:)];
@@ -163,10 +197,12 @@
                 }
             }
             numbers = fieldValues;
+            self.doublePrecisionCache = NO;
         }
     }
     else {
         numbers = [NSArray array];
+		self.doublePrecisionCache = NO;
     }
     
     return numbers;
@@ -199,9 +235,18 @@
  *	@param numbers An array of numbers to cache.
  *	@param fieldEnum The field enumerator identifying the field.
  **/
--(void)cacheNumbers:(NSArray *)numbers forField:(NSUInteger)fieldEnum 
+-(void)cacheNumbers:(id)numbers forField:(NSUInteger)fieldEnum 
 {
-	if ( numbers == nil ) return;
+	if ( numbers == nil ) {
+		self.cachedDataCount = 0;
+		return;
+	}
+	else if ( [numbers respondsToSelector:@selector(count)] ) {
+		self.cachedDataCount = [(NSArray *)numbers count];
+	}
+	else {
+		self.cachedDataCount = [(NSData *)numbers length] / sizeof(double);
+	}
     if ( cachedData == nil ) cachedData = [[NSMutableDictionary alloc] initWithCapacity:5];
     [cachedData setObject:[[numbers copy] autorelease] forKey:[NSNumber numberWithUnsignedInteger:fieldEnum]];
 }
@@ -210,7 +255,7 @@
  *	@param fieldEnum The field enumerator identifying the field.
  *	@return The array of cached numbers.
  **/
--(NSArray *)cachedNumbersForField:(NSUInteger)fieldEnum 
+-(id)cachedNumbersForField:(NSUInteger)fieldEnum 
 {
     return [self.cachedData objectForKey:[NSNumber numberWithUnsignedInteger:fieldEnum]];
 }
