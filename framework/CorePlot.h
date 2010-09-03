@@ -27,6 +27,11 @@
 #import	<CorePlot/CPLayoutManager.h>
 #import <CorePlot/CPLimitBand.h>
 #import <CorePlot/CPLineStyle.h>
+#import <CorePlot/CPMutableNumericData.h>
+#import <CorePlot/CPMutableNumericData+TypeConversion.h>
+#import <CorePlot/CPNumericDataType.h>
+#import <CorePlot/CPNumericData.h>
+#import <CorePlot/CPNumericData+TypeConversion.h>
 #import <CorePlot/CPPieChart.h>
 #import <CorePlot/CPPlainBlackTheme.h>
 #import <CorePlot/CPPlainWhiteTheme.h>

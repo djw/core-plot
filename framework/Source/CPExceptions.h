@@ -1,4 +1,3 @@
-
 #import <Foundation/Foundation.h>
 
 /// @file
@@ -7,4 +6,5 @@
 /// @{
 extern NSString * const CPException;
 extern NSString * const CPDataException;
+extern NSString * const CPNumericDataException;
 /// @}
