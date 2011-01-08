@@ -28,7 +28,7 @@
 @property (nonatomic, readwrite, assign) __weak CPGridLines *minorGridLines;
 @property (nonatomic, readwrite, assign) __weak CPGridLines *majorGridLines;
 @property (nonatomic, readwrite, assign) BOOL labelFormatterChanged;
-@property (nonatomic, readwrite, retain) NSMutableArray *backgroundLimitBands;
+@property (nonatomic, readwrite, retain) NSMutableArray *mutableBackgroundLimitBands;
 
 -(void)generateFixedIntervalMajorTickLocations:(NSSet **)newMajorLocations minorTickLocations:(NSSet **)newMinorLocations;
 -(void)autoGenerateMajorTickLocations:(NSSet **)newMajorLocations minorTickLocations:(NSSet **)newMinorLocations;
@@ -301,7 +301,7 @@
  *
  *	The limit bands are drawn on top of the alternating band fills.
  **/
-@dynamic backgroundLimitBands;
+@dynamic mutableBackgroundLimitBands;
 
 // Layers
 
@@ -383,7 +383,7 @@
 		plotArea = nil;
 		separateLayers = NO;
 		alternatingBandFills = nil;
-		backgroundLimitBands = nil;
+		mutableBackgroundLimitBands = nil;
 		minorGridLines = nil;
 		majorGridLines = nil;
 		
@@ -470,7 +470,7 @@
     [visibleRange release];
     [gridLinesRange release];
 	[alternatingBandFills release];
-	[backgroundLimitBands release];
+	[mutableBackgroundLimitBands release];
 	
 	[super dealloc];
 }
@@ -868,11 +868,11 @@
 -(void)addBackgroundLimitBand:(CPLimitBand *)limitBand
 {
 	if ( limitBand ) {
-		if ( !self.backgroundLimitBands ) {
-			self.backgroundLimitBands = [NSMutableArray array];
+		if ( !self.mutableBackgroundLimitBands ) {
+			self.mutableBackgroundLimitBands = [NSMutableArray array];
 		}
 		
-		[self.backgroundLimitBands addObject:limitBand];
+		[self.mutableBackgroundLimitBands addObject:limitBand];
 		[self.plotArea setNeedsDisplay];
 	}
 }
@@ -883,7 +883,7 @@
 -(void)removeBackgroundLimitBand:(CPLimitBand *)limitBand
 {
 	if ( limitBand ) {
-		[self.backgroundLimitBands removeObject:limitBand];
+		[mutableBackgroundLimitBands removeObject:limitBand];
 		[self.plotArea setNeedsDisplay];
 	}
 }
@@ -1588,6 +1588,11 @@
 		}
 		[self.plotArea setNeedsDisplay];
 	}
+}
+
+-(NSArray *)backgroundLimitBands
+{
+    return mutableBackgroundLimitBands;
 }
 
 -(CPAxisSet *)axisSet
