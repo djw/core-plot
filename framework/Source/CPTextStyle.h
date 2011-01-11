@@ -11,9 +11,9 @@
     CPColor *color;
 }
 
-@property(readonly, copy, nonatomic) NSString *fontName;
-@property(readonly, assign, nonatomic) CGFloat fontSize; 
-@property(readonly, copy, nonatomic) CPColor *color;
+@property(readwrite, copy, nonatomic) NSString *fontName;
+@property(readwrite, assign, nonatomic) CGFloat fontSize; 
+@property(readwrite, copy, nonatomic) CPColor *color;
 
 /// @name Factory Methods
 /// @{
