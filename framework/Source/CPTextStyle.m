@@ -4,15 +4,6 @@
 #import "CPColor.h"
 
 
-@interface CPTextStyle ()
-
-@property(readwrite, copy, nonatomic) NSString *fontName;
-@property(readwrite, assign, nonatomic) CGFloat fontSize; 
-@property(readwrite, copy, nonatomic) CPColor *color;
-
-@end
-
-
 /** @brief Immutable wrapper for various text style properties.
  *
  *  If you need to customize properties, you should create a CPMutableTextStyle.
