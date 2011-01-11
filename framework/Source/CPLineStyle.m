@@ -3,18 +3,6 @@
 #import "CPColor.h"
 #import "CPMutableLineStyle.h"
 
-@interface CPLineStyle ()
-
-@property (nonatomic, readwrite, assign) CGLineCap lineCap;
-@property (nonatomic, readwrite, assign) CGLineJoin lineJoin;
-@property (nonatomic, readwrite, assign) CGFloat miterLimit;
-@property (nonatomic, readwrite, assign) CGFloat lineWidth;
-@property (nonatomic, readwrite, retain) NSArray *dashPattern;
-@property (nonatomic, readwrite, assign) CGFloat patternPhase;
-@property (nonatomic, readwrite, retain) CPColor *lineColor;
-
-@end
-
 /** @brief Immutable wrapper for various line drawing properties.
  *
  *	@see See Apple's <a href="http://developer.apple.com/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/dq_paths/dq_paths.html#//apple_ref/doc/uid/TP30001066-CH211-TPXREF105">Quartz 2D</a>
