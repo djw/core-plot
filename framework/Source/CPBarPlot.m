@@ -588,14 +588,12 @@ NSString * const CPBarPlotBindingBarBases = @"barBases";			///< Bar bases.
 		theBaseDecimalValue = [self cachedDecimalForField:CPBarPlotFieldBarBase recordIndex:index];
 	}
 	
-	CPPlotSpace *thePlotSpace = self.plotSpace;
-
 	NSNumber *location = [self cachedNumberForField:CPBarPlotFieldBarLocation recordIndex:index];
 	NSNumber *length = [self cachedNumberForField:CPBarPlotFieldBarTip recordIndex:index];
 	
 	BOOL positiveDirection = CPDecimalGreaterThanOrEqualTo([length decimalValue], theBaseDecimalValue);
 	BOOL horizontalBars = self.barsAreHorizontal;
-	CPPlotRange *lengthRange = [thePlotSpace plotRangeForCoordinate:horizontalBars ? CPCoordinateX : CPCoordinateY];
+	CPPlotRange *lengthRange = [self.plotSpace plotRangeForCoordinate:horizontalBars ? CPCoordinateX : CPCoordinateY];
 	if ( CPDecimalLessThan(lengthRange.length, CPDecimalFromInteger(0)) ) {
 		positiveDirection = !positiveDirection;
 	}
