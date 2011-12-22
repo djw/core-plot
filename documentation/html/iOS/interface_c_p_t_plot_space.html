@@ -150,6 +150,7 @@ Properties</h2></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Defines the coordinate system of a plot. </p>
+<p>A plot space determines the mapping between data coordinates and device coordinates in the plot area. </p>
 </div><hr/><h2>Method Documentation</h2>
 <a class="anchor" id="a82b5a9d6a4ec2e1c26852136dafec971"></a><!-- doxytag: member="CPTPlotSpace::doublePrecisionPlotPoint:forPlotAreaViewPoint:" ref="a82b5a9d6a4ec2e1c26852136dafec971" args="(double *plotPoint,[forPlotAreaViewPoint] CGPoint point)" -->
 <div class="memitem">
@@ -231,7 +232,7 @@ Properties</h2></td></tr>
 <p>Converts a data point to plot area drawing coordinates. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">plotPoint</td><td>A c-style array of data point coordinates (as NSDecimals). </td></tr>
+    <tr><td class="paramname">plotPoint</td><td>A c-style array of data point coordinates (as <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a> structs). </td></tr>
   </table>
   </dd>
 </dl>
@@ -267,7 +268,7 @@ Properties</h2></td></tr>
 <p>Converts a point given in plot area drawing coordinates to the data coordinate space. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">plotPoint</td><td>A c-style array of data point coordinates (as NSDecimals). </td></tr>
+    <tr><td class="paramname">plotPoint</td><td>A c-style array of data point coordinates (as <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a> structs). </td></tr>
     <tr><td class="paramname">point</td><td>The drawing coordinates of the data point. </td></tr>
   </table>
   </dd>
@@ -329,7 +330,7 @@ Properties</h2></td></tr>
 <p>Zooms the plot space equally in each dimension. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">interactionScale</td><td>The scaling factor. One gives no scaling. </td></tr>
+    <tr><td class="paramname">interactionScale</td><td>The scaling factor. One (1) gives no scaling. </td></tr>
     <tr><td class="paramname">interactionPoint</td><td>The plot area view point about which the scaling occurs. </td></tr>
   </table>
   </dd>

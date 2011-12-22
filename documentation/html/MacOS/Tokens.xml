@@ -8974,7 +8974,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_range.html</Path>
     <Anchor>adc543d1939579179e9d6a4614e617a45</Anchor>
-    <Abstract>The ending value of the range.</Abstract>
+    <Abstract>The ending value of the range, equivalent to location  + length .</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9007,7 +9007,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_range.html</Path>
     <Anchor>aa01772dc9e183b18fddb47204b8fe77e</Anchor>
-    <Abstract>The ending value of the range as a double.</Abstract>
+    <Abstract>The ending value of the range as a double, equivalent to locationDouble  + lengthDouble ...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10521,7 +10521,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a6752a5841fd3789019bf18986e7398f6</Anchor>
-    <Abstract>The range of the x coordinate.</Abstract>
+    <Abstract>The range of the x coordinate. Defaults to a range with location zero (0) and a length of one (1)...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10532,7 +10532,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a26ded2764b895a4c656136b581f8d67c</Anchor>
-    <Abstract>The range of the y coordinate.</Abstract>
+    <Abstract>The range of the y coordinate. Defaults to a range with location zero (0) and a length of one (1)...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10543,7 +10543,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a04f609abf6a4072daa47b93848a8312a</Anchor>
-    <Abstract>The global range of the x coordinate to which the plot range is constrained. If nil, there is no constraint on x.</Abstract>
+    <Abstract>The global range of the x coordinate to which the xRange  is constrained.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10554,7 +10554,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a80bf9e8987247bbe4dc0b5fc07a1214d</Anchor>
-    <Abstract>The global range of the y coordinate to which the plot range is constrained. If nil, there is no constraint on y.</Abstract>
+    <Abstract>The global range of the y coordinate to which the yRange  is constrained.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10565,7 +10565,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a6fdb32ef229694a87af877d54933300a</Anchor>
-    <Abstract>The scale type of the x coordinate.</Abstract>
+    <Abstract>The scale type of the x coordinate. Defaults to CPTScaleTypeLinear .</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10576,7 +10576,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a5713690a3015d43e5136a751d7c3635d</Anchor>
-    <Abstract>The scale type of the y coordinate.</Abstract>
+    <Abstract>The scale type of the y coordinate. Defaults to CPTScaleTypeLinear .</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
