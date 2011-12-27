@@ -2447,7 +2447,7 @@
     </TokenIdentifier>
     <Path>group__plot_animation_pie_chart.html</Path>
     <Anchor>ga139122421a061b2ca1622bdebca5b1c3</Anchor>
-    <Abstract>The starting angle for the first slice in radians. Defaults to pi/2.</Abstract>
+    <Abstract>The starting angle for the first slice in radians. Defaults to π/2.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7621,7 +7621,7 @@
     </TokenIdentifier>
     <Path>group__plot_animation_pie_chart.html</Path>
     <Anchor>ga139122421a061b2ca1622bdebca5b1c3</Anchor>
-    <Abstract>The starting angle for the first slice in radians. Defaults to pi/2.</Abstract>
+    <Abstract>The starting angle for the first slice in radians. Defaults to π/2.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

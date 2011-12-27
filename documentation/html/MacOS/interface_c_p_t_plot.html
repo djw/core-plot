@@ -241,6 +241,14 @@ CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>An abstract plot class. </p>
 <p>Each data series on the graph is represented by a plot. Data is provided by a datasource that conforms to the <a class="el" href="protocol_c_p_t_plot_data_source-p.html" title="A plot data source.">CPTPlotDataSource</a> protocol. Plots also support data binding on MacOS.</p>
+<p>A Core Plot plot will request its data from the datasource when it is first displayed. You can force it to load new data in several ways:</p>
+<ul>
+<li>Call <a class="el" href="interface_c_p_t_graph.html#ade4d525c343ba79e1d72d92b8ea47c8d">-reloadData </a> on the graph to reload all plots.</li>
+<li>Call <a class="el" href="interface_c_p_t_plot.html#aa057480faff658c8f29cfe19a62ec0e7">-reloadData </a> on the plot to reload all of the data for only that plot.</li>
+<li>Call <a class="el" href="interface_c_p_t_plot.html#ac7a928fc9838d07ac188d4fef2015c07">-reloadDataInIndexRange: </a> on the plot to reload a range of data indices without changing the total number of data points.</li>
+<li>Call <a class="el" href="interface_c_p_t_plot.html#ab3c45087d014d31a56d8911b3db89040">-insertDataAtIndex:numberOfRecords: </a> to insert new data at the given index. Any data at higher indices will be moved to make room. Only the new data will be requested from the datasource.</li>
+</ul>
+<p>You can also remove data from the plot without reloading anything by using the <a class="el" href="interface_c_p_t_plot.html#aeda28869b1ab7bbcee58ced6635098bd">-deleteDataInIndexRange: </a> method.</p>
 <dl class="see"><dt><b>See also:</b></dt><dd>See <a class="el" href="group__plot_animation.html">Plots</a> for a list of animatable properties supported by each plot type. </dd>
 <dd>
 See <a class="el" href="group__plot_bindings.html">Plot Bindings</a> for a list of binding identifiers supported by each plot type. </dd></dl>
