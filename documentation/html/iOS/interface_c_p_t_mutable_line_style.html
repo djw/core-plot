@@ -85,6 +85,8 @@
 <!-- doxytag: class="CPTMutableLineStyle" --><!-- doxytag: inherits="CPTLineStyle" -->
 <p>Mutable wrapper for various line drawing properties.  
  <a href="interface_c_p_t_mutable_line_style.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_mutable_line_style_8h_source.html">CPTMutableLineStyle.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTMutableLineStyle:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -108,34 +110,147 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af231969b4a3217a18be3614a48dcaeba"></a><!-- doxytag: member="CPTMutableLineStyle::lineCap" ref="af231969b4a3217a18be3614a48dcaeba" args="" -->
-CGLineCap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#af231969b4a3217a18be3614a48dcaeba">lineCap</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The style for the endpoints of lines drawn in a graphics context. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07d08f155bca14b3f58576aa343bf820"></a><!-- doxytag: member="CPTMutableLineStyle::lineJoin" ref="a07d08f155bca14b3f58576aa343bf820" args="" -->
-CGLineJoin&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a07d08f155bca14b3f58576aa343bf820">lineJoin</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The style for the joins of connected lines in a graphics context. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a096fc5b9cfbc3f00aac8737697a08fac"></a><!-- doxytag: member="CPTMutableLineStyle::miterLimit" ref="a096fc5b9cfbc3f00aac8737697a08fac" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a096fc5b9cfbc3f00aac8737697a08fac">miterLimit</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The miter limit for the joins of connected lines in a graphics context. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20855fe525057f23b3e78123e0c62646"></a><!-- doxytag: member="CPTMutableLineStyle::lineWidth" ref="a20855fe525057f23b3e78123e0c62646" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a20855fe525057f23b3e78123e0c62646">lineWidth</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line width for a graphics context. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25a51dace9986d161a8c5795270418e4"></a><!-- doxytag: member="CPTMutableLineStyle::dashPattern" ref="a25a51dace9986d161a8c5795270418e4" args="" -->
-<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a25a51dace9986d161a8c5795270418e4">dashPattern</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The dash-and-space pattern for the line. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5fdac0b469975626a0bcffa702f6318d"></a><!-- doxytag: member="CPTMutableLineStyle::patternPhase" ref="a5fdac0b469975626a0bcffa702f6318d" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a5fdac0b469975626a0bcffa702f6318d">patternPhase</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting phase of the line dash pattern. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1773bf482e6f08590680906038c7d16"></a><!-- doxytag: member="CPTMutableLineStyle::lineColor" ref="ab1773bf482e6f08590680906038c7d16" args="" -->
-<a class="el" href="interface_c_p_t_color.html">CPTColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#ab1773bf482e6f08590680906038c7d16">lineColor</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The current stroke color in a context. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGLineCap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#af231969b4a3217a18be3614a48dcaeba">lineCap</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The style for the endpoints of lines drawn in a graphics context.  <a href="#af231969b4a3217a18be3614a48dcaeba"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGLineJoin&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a07d08f155bca14b3f58576aa343bf820">lineJoin</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The style for the joins of connected lines in a graphics context.  <a href="#a07d08f155bca14b3f58576aa343bf820"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a096fc5b9cfbc3f00aac8737697a08fac">miterLimit</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The miter limit for the joins of connected lines in a graphics context.  <a href="#a096fc5b9cfbc3f00aac8737697a08fac"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a20855fe525057f23b3e78123e0c62646">lineWidth</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line width for a graphics context.  <a href="#a20855fe525057f23b3e78123e0c62646"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a25a51dace9986d161a8c5795270418e4">dashPattern</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The dash-and-space pattern for the line.  <a href="#a25a51dace9986d161a8c5795270418e4"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a5fdac0b469975626a0bcffa702f6318d">patternPhase</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting phase of the line dash pattern.  <a href="#a5fdac0b469975626a0bcffa702f6318d"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_color.html">CPTColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#ab1773bf482e6f08590680906038c7d16">lineColor</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The current stroke color in a context.  <a href="#ab1773bf482e6f08590680906038c7d16"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Mutable wrapper for various line drawing properties. </p>
 <p>If you need to customize properties of a line, you should use this class rather than the immutable super class. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><hr/><h2>Property Documentation</h2>
+<a class="anchor" id="a25a51dace9986d161a8c5795270418e4"></a><!-- doxytag: member="CPTMutableLineStyle::dashPattern" ref="a25a51dace9986d161a8c5795270418e4" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutableLineStyle:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The dash-and-space pattern for the line. </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_line_style.html#a6053a92df9fbf4f49fd9c727efca2f94">CPTLineStyle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af231969b4a3217a18be3614a48dcaeba"></a><!-- doxytag: member="CPTMutableLineStyle::lineCap" ref="af231969b4a3217a18be3614a48dcaeba" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutableLineStyle:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The style for the endpoints of lines drawn in a graphics context. </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_line_style.html#aa2010258cc8e768ac59954a8b7d8f3f0">CPTLineStyle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab1773bf482e6f08590680906038c7d16"></a><!-- doxytag: member="CPTMutableLineStyle::lineColor" ref="ab1773bf482e6f08590680906038c7d16" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutableLineStyle:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The current stroke color in a context. </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_line_style.html#abbbc1a4147e36b4473da4ed9859ccd9a">CPTLineStyle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07d08f155bca14b3f58576aa343bf820"></a><!-- doxytag: member="CPTMutableLineStyle::lineJoin" ref="a07d08f155bca14b3f58576aa343bf820" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutableLineStyle:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The style for the joins of connected lines in a graphics context. </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_line_style.html#a5b41674be302ef1801d33ce079da3b42">CPTLineStyle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a20855fe525057f23b3e78123e0c62646"></a><!-- doxytag: member="CPTMutableLineStyle::lineWidth" ref="a20855fe525057f23b3e78123e0c62646" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutableLineStyle:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line width for a graphics context. </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_line_style.html#ad742282d977c6ec6cd251b2cd8f7c1de">CPTLineStyle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a096fc5b9cfbc3f00aac8737697a08fac"></a><!-- doxytag: member="CPTMutableLineStyle::miterLimit" ref="a096fc5b9cfbc3f00aac8737697a08fac" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutableLineStyle:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The miter limit for the joins of connected lines in a graphics context. </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_line_style.html#a7fba8edf2d131f6baad56635381a946b">CPTLineStyle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5fdac0b469975626a0bcffa702f6318d"></a><!-- doxytag: member="CPTMutableLineStyle::patternPhase" ref="a5fdac0b469975626a0bcffa702f6318d" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutableLineStyle:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The starting phase of the line dash pattern. </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_line_style.html#aafbb5316e2ad7a41708b55b45619397b">CPTLineStyle</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_mutable_line_style_8h_source.html">CPTMutableLineStyle.h</a></li>
-<li>Source/CPTMutableLineStyle.m</li>
+<li>Source/<a class="el" href="_c_p_t_mutable_line_style_8m.html">CPTMutableLineStyle.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

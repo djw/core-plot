@@ -108,11 +108,11 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Implement one of the following to add plot symbols</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Plot Symbols</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_scatter_plot_data_source-p.html#aecc09bf2220d7e45571d7f41d2459832">symbolsForScatterPlot:recordIndexRange:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot symbols for the given scatter plot.  <a href="#aecc09bf2220d7e45571d7f41d2459832"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_plot_symbol.html">CPTPlotSymbol</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_scatter_plot_data_source-p.html#aec36a56195942c7ca5bf1d469846b1f8">symbolForScatterPlot:recordIndex:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a plot symbol for the given scatter plot.  <a href="#aec36a56195942c7ca5bf1d469846b1f8"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a single plot symbol for the given scatter plot. This method will not be called if <a class="el" href="protocol_c_p_t_scatter_plot_data_source-p.html#aecc09bf2220d7e45571d7f41d2459832">-symbolsForScatterPlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#aec36a56195942c7ca5bf1d469846b1f8"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A scatter plot data source. </p>
@@ -142,7 +142,7 @@ Public Instance Methods</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>(Optional) Gets a plot symbol for the given scatter plot. </p>
+<p>(Optional) Gets a single plot symbol for the given scatter plot. This method will not be called if <a class="el" href="protocol_c_p_t_scatter_plot_data_source-p.html#aecc09bf2220d7e45571d7f41d2459832">-symbolsForScatterPlot:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The scatter plot. </td></tr>

@@ -88,6 +88,26 @@
             <Path>group__notification.html</Path>
             <Subnodes>
              <Node>
+              <Name>CPTGraphNeedsRedrawNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>gacdcc79d94fa2215225c836c3b2f04565</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTLegendNeedsLayoutForPlotNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>ga531a1b173c232bc63c207180d2ebd174</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTLegendNeedsRedrawForPlotNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>gaa902e90db19b08cf4fb6bd1a0d9cfbd9</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTLegendNeedsReloadEntriesForPlotNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>gac6c5bb933c26d69e705301c1290e0450</Anchor>
+             </Node>
+             <Node>
               <Name>CPTPlotSpaceCoordinateMappingDidChangeNotification</Name>
               <Path>group__notification.html</Path>
               <Anchor>ga23f2cfa5cf45e2998bd8983b9ee2f5cc</Anchor>
@@ -100,6 +120,37 @@
           <Name>Theme Names</Name>
           <Path>group__theme_names.html</Path>
           <Subnodes>
+           <Node>
+            <Name>Variables</Name>
+            <Path>group__theme_names.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>kCPTDarkGradientTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>ga5f7f2a396df2807d9df225b546bc83fd</Anchor>
+             </Node>
+             <Node>
+              <Name>kCPTPlainBlackTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>gaee2ee00fc6afe67c17bc2dab26dad06c</Anchor>
+             </Node>
+             <Node>
+              <Name>kCPTPlainWhiteTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>gafe03a5ec2d0a2c236b5b2ae68927b4b6</Anchor>
+             </Node>
+             <Node>
+              <Name>kCPTSlateTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>ga13f6afa3e4abf27f50cf8798ba48f615</Anchor>
+             </Node>
+             <Node>
+              <Name>kCPTStocksTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>gad0fd9a9b2a53d2fe4f5ae1c8b580ecac</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
           </Subnodes>
          </Node>
         </Subnodes>
@@ -108,208 +159,6 @@
           <Name>Class List</Name>
           <Path>annotated.html</Path>
           <Subnodes>
-           <Node>
-            <Name>_CPTConstraintsFixed</Name>
-            <Path>interface___c_p_t_constraints_fixed.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>initWithLowerOffset:</Name>
-              <Path>interface___c_p_t_constraints_fixed.html</Path>
-              <Anchor>a55d32e2823b0812f184c0bba8c2374e0</Anchor>
-             </Node>
-             <Node>
-              <Name>initWithUpperOffset:</Name>
-              <Path>interface___c_p_t_constraints_fixed.html</Path>
-              <Anchor>a4204b170b13eedcaa490b035ccf603d6</Anchor>
-             </Node>
-             <Node>
-              <Name>isEqualToConstraint:</Name>
-              <Path>interface___c_p_t_constraints_fixed.html</Path>
-              <Anchor>af5f0993ed2e7654cbfb518ac8d7cecc3</Anchor>
-             </Node>
-             <Node>
-              <Name>positionForLowerBound:upperBound:</Name>
-              <Path>interface___c_p_t_constraints_fixed.html</Path>
-              <Anchor>a1ebb080aeb522b179ab9cba02dec1fe3</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>_CPTConstraintsRelative</Name>
-            <Path>interface___c_p_t_constraints_relative.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>initWithRelativeOffset:</Name>
-              <Path>interface___c_p_t_constraints_relative.html</Path>
-              <Anchor>a505e4d3a35ac98d636f96d5981f162ca</Anchor>
-             </Node>
-             <Node>
-              <Name>isEqualToConstraint:</Name>
-              <Path>interface___c_p_t_constraints_relative.html</Path>
-              <Anchor>a40f6216e7bd428b94d5c300abfea6c64</Anchor>
-             </Node>
-             <Node>
-              <Name>positionForLowerBound:upperBound:</Name>
-              <Path>interface___c_p_t_constraints_relative.html</Path>
-              <Anchor>a9ac96c626fb3eeec163c873073129a48</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>_CPTDarkGradientTheme</Name>
-            <Path>interface___c_p_t_dark_gradient_theme.html</Path>
-           </Node>
-           <Node>
-            <Name>_CPTFillColor</Name>
-            <Path>interface___c_p_t_fill_color.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>fillPathInContext:</Name>
-              <Path>interface___c_p_t_fill_color.html</Path>
-              <Anchor>a1b0ff6881920daab4eebca65ae082ed0</Anchor>
-             </Node>
-             <Node>
-              <Name>fillRect:inContext:</Name>
-              <Path>interface___c_p_t_fill_color.html</Path>
-              <Anchor>af53b470025a8a68a231061e33a694def</Anchor>
-             </Node>
-             <Node>
-              <Name>initWithColor:</Name>
-              <Path>interface___c_p_t_fill_color.html</Path>
-              <Anchor>a57f49af4fdb80c6c24c081fd8cca88fc</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>_CPTFillGradient</Name>
-            <Path>interface___c_p_t_fill_gradient.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>fillPathInContext:</Name>
-              <Path>interface___c_p_t_fill_gradient.html</Path>
-              <Anchor>a2663306033f47f46893a1b7d83405d3d</Anchor>
-             </Node>
-             <Node>
-              <Name>fillRect:inContext:</Name>
-              <Path>interface___c_p_t_fill_gradient.html</Path>
-              <Anchor>adc8776ff1595a1871df6f41fc671c04e</Anchor>
-             </Node>
-             <Node>
-              <Name>initWithGradient:</Name>
-              <Path>interface___c_p_t_fill_gradient.html</Path>
-              <Anchor>ab27305a3884a385a574a0bd86e7ff939</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>_CPTFillImage</Name>
-            <Path>interface___c_p_t_fill_image.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>fillPathInContext:</Name>
-              <Path>interface___c_p_t_fill_image.html</Path>
-              <Anchor>a427bf7ddd5a0c576d18c26174c5c5b22</Anchor>
-             </Node>
-             <Node>
-              <Name>fillRect:inContext:</Name>
-              <Path>interface___c_p_t_fill_image.html</Path>
-              <Anchor>aaa530e5a40077cbd98a170c671af5629</Anchor>
-             </Node>
-             <Node>
-              <Name>initWithImage:</Name>
-              <Path>interface___c_p_t_fill_image.html</Path>
-              <Anchor>a965d16ac2de4b10e76e3bd9e1ffeab64</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>_CPTGradientElement</Name>
-            <Path>struct___c_p_t_gradient_element.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>color</Name>
-              <Path>struct___c_p_t_gradient_element.html</Path>
-              <Anchor>a92346980894773e902ed8b737e50e146</Anchor>
-             </Node>
-             <Node>
-              <Name>nextElement</Name>
-              <Path>struct___c_p_t_gradient_element.html</Path>
-              <Anchor>a6c4e88ae0a769422fa36e46f86f4c969</Anchor>
-             </Node>
-             <Node>
-              <Name>position</Name>
-              <Path>struct___c_p_t_gradient_element.html</Path>
-              <Anchor>ae97439c2ff3301070c9aada737dff1a1</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>_CPTNumericDataType</Name>
-            <Path>struct___c_p_t_numeric_data_type.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>byteOrder</Name>
-              <Path>struct___c_p_t_numeric_data_type.html</Path>
-              <Anchor>af184e5c4afb8e48d25a8caf08df60bd0</Anchor>
-             </Node>
-             <Node>
-              <Name>dataTypeFormat</Name>
-              <Path>struct___c_p_t_numeric_data_type.html</Path>
-              <Anchor>ad4e9860b55f131370a87d46aaa98e587</Anchor>
-             </Node>
-             <Node>
-              <Name>sampleBytes</Name>
-              <Path>struct___c_p_t_numeric_data_type.html</Path>
-              <Anchor>ae375460a7d977ba9558dd7e91744cb10</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>_CPTPlainBlackTheme</Name>
-            <Path>interface___c_p_t_plain_black_theme.html</Path>
-           </Node>
-           <Node>
-            <Name>_CPTPlainWhiteTheme</Name>
-            <Path>interface___c_p_t_plain_white_theme.html</Path>
-           </Node>
-           <Node>
-            <Name>_CPTRGBAColor</Name>
-            <Path>struct___c_p_t_r_g_b_a_color.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>alpha</Name>
-              <Path>struct___c_p_t_r_g_b_a_color.html</Path>
-              <Anchor>a37c8abb9e9f633c0944af84604fc9d58</Anchor>
-             </Node>
-             <Node>
-              <Name>blue</Name>
-              <Path>struct___c_p_t_r_g_b_a_color.html</Path>
-              <Anchor>a7f4bbdb0bfbfdebe0f8309b61ca7c637</Anchor>
-             </Node>
-             <Node>
-              <Name>green</Name>
-              <Path>struct___c_p_t_r_g_b_a_color.html</Path>
-              <Anchor>afd15b5674ab7901feccc31881d8a86cb</Anchor>
-             </Node>
-             <Node>
-              <Name>red</Name>
-              <Path>struct___c_p_t_r_g_b_a_color.html</Path>
-              <Anchor>a455503c037e12c9b5a219bc0325d1fed</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>_CPTSlateTheme</Name>
-            <Path>interface___c_p_t_slate_theme.html</Path>
-           </Node>
-           <Node>
-            <Name>_CPTStocksTheme</Name>
-            <Path>interface___c_p_t_stocks_theme.html</Path>
-           </Node>
-           <Node>
-            <Name>_CPTXYTheme</Name>
-            <Path>interface___c_p_t_x_y_theme.html</Path>
-           </Node>
            <Node>
             <Name>CPTAnnotation</Name>
             <Path>interface_c_p_t_annotation.html</Path>
@@ -354,6 +203,11 @@
               <Name>addAnnotation:</Name>
               <Path>interface_c_p_t_annotation_host_layer.html</Path>
               <Anchor>ae7118f2ca923d0b34c7cd917cf5cdfa1</Anchor>
+             </Node>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_annotation_host_layer.html</Path>
+              <Anchor>ac807d655c49f678cfb5db1411506cbb5</Anchor>
              </Node>
              <Node>
               <Name>removeAllAnnotations</Name>
@@ -405,6 +259,11 @@
               <Name>filteredMinorTickLocations:</Name>
               <Path>interface_c_p_t_axis.html</Path>
               <Anchor>a00bf088cb31b8068b5e369a00d55c270</Anchor>
+             </Node>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_axis.html</Path>
+              <Anchor>a16baaf9ca6edb23fe543f48bb15054b8</Anchor>
              </Node>
              <Node>
               <Name>relabel</Name>
@@ -464,17 +323,17 @@
              <Node>
               <Name>axisSet</Name>
               <Path>interface_c_p_t_axis.html</Path>
-              <Anchor>a6102deaadd58e4cad6c109a7bf2c96d6</Anchor>
+              <Anchor>af11b8486fa020a323c4720d915498c4f</Anchor>
              </Node>
              <Node>
               <Name>axisTitle</Name>
               <Path>interface_c_p_t_axis.html</Path>
-              <Anchor>a7926f918e17bb671be30aac6bc2169e7</Anchor>
+              <Anchor>abe4e5f3fad71540c2bab6ffb16dd1f27</Anchor>
              </Node>
              <Node>
               <Name>backgroundLimitBands</Name>
               <Path>interface_c_p_t_axis.html</Path>
-              <Anchor>a7741a5147c5563fbf5248d2efcd59e56</Anchor>
+              <Anchor>a5dc252828aa79a737747efcd7eec704e</Anchor>
              </Node>
              <Node>
               <Name>coordinate</Name>
@@ -664,7 +523,7 @@
              <Node>
               <Name>titleLocation</Name>
               <Path>interface_c_p_t_axis.html</Path>
-              <Anchor>aae16ecb681fe187b78a23e83f55325cb</Anchor>
+              <Anchor>a0095ed8259624fada0aebc4f51a98a60</Anchor>
              </Node>
              <Node>
               <Name>titleOffset</Name>
@@ -768,11 +627,23 @@
            <Node>
             <Name>CPTAxisLabelGroup</Name>
             <Path>interface_c_p_t_axis_label_group.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>renderAsVectorInContext:</Name>
+              <Path>interface_c_p_t_axis_label_group.html</Path>
+              <Anchor>a44f977559acc619d1f91ca70a68e7a22</Anchor>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>CPTAxisSet</Name>
             <Path>interface_c_p_t_axis_set.html</Path>
             <Subnodes>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_axis_set.html</Path>
+              <Anchor>af1b1939683cc055a4489fabdc6c43066</Anchor>
+             </Node>
              <Node>
               <Name>relabelAxes</Name>
               <Path>interface_c_p_t_axis_set.html</Path>
@@ -793,11 +664,33 @@
            <Node>
             <Name>CPTAxisTitle</Name>
             <Path>interface_c_p_t_axis_title.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>initWithContentLayer:</Name>
+              <Path>interface_c_p_t_axis_title.html</Path>
+              <Anchor>a255fc7c882641db93fde481749aa2c40</Anchor>
+             </Node>
+             <Node>
+              <Name>positionRelativeToViewPoint:forCoordinate:inDirection:</Name>
+              <Path>interface_c_p_t_axis_title.html</Path>
+              <Anchor>afee7837cb6510ee5270234effc968a61</Anchor>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>CPTBarPlot</Name>
             <Path>interface_c_p_t_bar_plot.html</Path>
             <Subnodes>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_bar_plot.html</Path>
+              <Anchor>a7029fe2b567b5a4ea9349889e4e17393</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_bar_plot.html</Path>
+              <Anchor>a2a84fda9ac02edf293d51f264436a4f6</Anchor>
+             </Node>
              <Node>
               <Name>tubularBarPlotWithColor:horizontalBars:</Name>
               <Path>interface_c_p_t_bar_plot.html</Path>
@@ -896,6 +789,16 @@
             <Name>CPTBorderedLayer</Name>
             <Path>interface_c_p_t_bordered_layer.html</Path>
             <Subnodes>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_bordered_layer.html</Path>
+              <Anchor>ab7d3984b53ff3a3c545b55e176e4296f</Anchor>
+             </Node>
+             <Node>
+              <Name>sublayerMarginLeft:top:right:bottom:</Name>
+              <Path>interface_c_p_t_bordered_layer.html</Path>
+              <Anchor>a2e2aa73578fc28eea7f44b5264e69d7e</Anchor>
+             </Node>
              <Node>
               <Name>borderLineStyle</Name>
               <Path>interface_c_p_t_bordered_layer.html</Path>
@@ -1097,10 +1000,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTDerivedXYGraph</Name>
-            <Path>interface_c_p_t_derived_x_y_graph.html</Path>
-           </Node>
-           <Node>
             <Name>CPTFill</Name>
             <Path>interface_c_p_t_fill.html</Path>
             <Subnodes>
@@ -1283,6 +1182,27 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTGradientElement</Name>
+            <Path>struct_c_p_t_gradient_element.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>color</Name>
+              <Path>struct_c_p_t_gradient_element.html</Path>
+              <Anchor>af823097f0f9dfda5b7784cfe8123d234</Anchor>
+             </Node>
+             <Node>
+              <Name>nextElement</Name>
+              <Path>struct_c_p_t_gradient_element.html</Path>
+              <Anchor>ae53c48ee44d43675e8aa393301e1a7ba</Anchor>
+             </Node>
+             <Node>
+              <Name>position</Name>
+              <Path>struct_c_p_t_gradient_element.html</Path>
+              <Anchor>a413e8bb0a4586e1db9a74570cb981d65</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CPTGraph</Name>
             <Path>interface_c_p_t_graph.html</Path>
             <Subnodes>
@@ -1315,6 +1235,11 @@
               <Name>applyTheme:</Name>
               <Path>interface_c_p_t_graph.html</Path>
               <Anchor>a431079ad3aa0867c39f4aa8aeca10c99</Anchor>
+             </Node>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_graph.html</Path>
+              <Anchor>ace4102f394be79c88fb0a1c0d0fd1022</Anchor>
              </Node>
              <Node>
               <Name>insertPlot:atIndex:</Name>
@@ -1357,6 +1282,26 @@
               <Anchor>a17bf238b2f1dd8a7c8d6ec692e9c7a59</Anchor>
              </Node>
              <Node>
+              <Name>pointingDeviceCancelledEvent:</Name>
+              <Path>interface_c_p_t_graph.html</Path>
+              <Anchor>a28bd4bb9bb1403625bc827471290be30</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_graph.html</Path>
+              <Anchor>a9080d854d6172aee9b6c87eddf6ca210</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDraggedEvent:atPoint:</Name>
+              <Path>interface_c_p_t_graph.html</Path>
+              <Anchor>ac9500271ddce0fd231fdadab1d1f54fb</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceUpEvent:atPoint:</Name>
+              <Path>interface_c_p_t_graph.html</Path>
+              <Anchor>afc9913d2f9d2b629757522ac514d5754</Anchor>
+             </Node>
+             <Node>
               <Name>reloadData</Name>
               <Path>interface_c_p_t_graph.html</Path>
               <Anchor>ade4d525c343ba79e1d72d92b8ea47c8d</Anchor>
@@ -1384,7 +1329,7 @@
              <Node>
               <Name>axisSet</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>ac12a501c599f4a8b8ebe0e40230c6802</Anchor>
+              <Anchor>a9e9ffee305f5db7dd1084f3f7bd1c6b2</Anchor>
              </Node>
              <Node>
               <Name>defaultPlotSpace</Name>
@@ -1394,7 +1339,7 @@
              <Node>
               <Name>legend</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>a99bd8248e51463b8a677a3c612a401d4</Anchor>
+              <Anchor>a1ba308c58863ea5ee170852297f39443</Anchor>
              </Node>
              <Node>
               <Name>legendAnchor</Name>
@@ -1434,7 +1379,7 @@
              <Node>
               <Name>topDownLayerOrder</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>a795cc120971f194789cbf5379691707c</Anchor>
+              <Anchor>acc6600a5f74da011378d67cf472ce3c3</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1445,7 +1390,7 @@
              <Node>
               <Name>pinchGestureRecognizer</Name>
               <Path>interface_c_p_t_graph_hosting_view.html</Path>
-              <Anchor>a6a6002bf387c4b1c0e1dae0cbc41675f</Anchor>
+              <Anchor>a6bd1dffebe1484ddd8711743a2a32f3d</Anchor>
              </Node>
              <Node>
               <Name>allowPinchScaling</Name>
@@ -1469,6 +1414,11 @@
             <Path>interface_c_p_t_grid_line_group.html</Path>
             <Subnodes>
              <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_grid_line_group.html</Path>
+              <Anchor>a333bc1319e96f0e033bf6825b53f6e06</Anchor>
+             </Node>
+             <Node>
               <Name>major</Name>
               <Path>interface_c_p_t_grid_line_group.html</Path>
               <Anchor>a92fac9b94f2d34f56a03fd629086307d</Anchor>
@@ -1484,6 +1434,11 @@
             <Name>CPTGridLines</Name>
             <Path>interface_c_p_t_grid_lines.html</Path>
             <Subnodes>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_grid_lines.html</Path>
+              <Anchor>ad454422cc5da098837c48963c989ad7e</Anchor>
+             </Node>
              <Node>
               <Name>axis</Name>
               <Path>interface_c_p_t_grid_lines.html</Path>
@@ -1602,6 +1557,26 @@
               <Anchor>a4f6b9618bb5b33f57f67c2841710aec3</Anchor>
              </Node>
              <Node>
+              <Name>pointingDeviceCancelledEvent:</Name>
+              <Path>interface_c_p_t_layer.html</Path>
+              <Anchor>ae47cd0a21d45a10aa6144f4a3eb3733e</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_layer.html</Path>
+              <Anchor>a2d6014b2ef18d540a36f69e63fbb5382</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDraggedEvent:atPoint:</Name>
+              <Path>interface_c_p_t_layer.html</Path>
+              <Anchor>ae7b4be656ed917f72457d4a57ecc360e</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceUpEvent:atPoint:</Name>
+              <Path>interface_c_p_t_layer.html</Path>
+              <Anchor>ae2fc98d78633968cb65822fe6346bfac</Anchor>
+             </Node>
+             <Node>
               <Name>recursivelyRenderInContext:</Name>
               <Path>interface_c_p_t_layer.html</Path>
               <Anchor>ab129f6842e4eeb5c282e873813ff3374</Anchor>
@@ -1619,7 +1594,7 @@
              <Node>
               <Name>contentsScale</Name>
               <Path>interface_c_p_t_layer.html</Path>
-              <Anchor>ad95ea54a7ebf06e98e6ae9dd99d9b86a</Anchor>
+              <Anchor>a49229cf561fb183c982cf7ad8ed78bca</Anchor>
              </Node>
              <Node>
               <Name>graph</Name>
@@ -1724,6 +1699,11 @@
               <Anchor>adf6acf1db67d39797186477afc5f8be2</Anchor>
              </Node>
              <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_legend.html</Path>
+              <Anchor>a57670747c45fe73a9a540e9a886b393f</Anchor>
+             </Node>
+             <Node>
               <Name>initWithGraph:</Name>
               <Path>interface_c_p_t_legend.html</Path>
               <Anchor>aec7cd86be98703face8fdae14ea86321</Anchor>
@@ -1786,7 +1766,7 @@
              <Node>
               <Name>columnWidthsThatFit</Name>
               <Path>interface_c_p_t_legend.html</Path>
-              <Anchor>a48e2326472517ac2a8a95275e06e038c</Anchor>
+              <Anchor>a3c61a74385acc4e92f7fceb61a083d4e</Anchor>
              </Node>
              <Node>
               <Name>equalColumns</Name>
@@ -1821,7 +1801,7 @@
              <Node>
               <Name>rowHeightsThatFit</Name>
               <Path>interface_c_p_t_legend.html</Path>
-              <Anchor>a48ca97b8055fba0008dd2653ca5f8da2</Anchor>
+              <Anchor>ab66af80986871299b1ce15acb7193f1d</Anchor>
              </Node>
              <Node>
               <Name>rowMargin</Name>
@@ -1846,7 +1826,7 @@
              <Node>
               <Name>swatchSize</Name>
               <Path>interface_c_p_t_legend.html</Path>
-              <Anchor>aad0ce5727aa3224b63e1c7c37f48d27e</Anchor>
+              <Anchor>ab813e52ec5aab85bccb89d1d6d3308ea</Anchor>
              </Node>
              <Node>
               <Name>textStyle</Name>
@@ -1908,7 +1888,7 @@
              <Node>
               <Name>titleSize</Name>
               <Path>interface_c_p_t_legend_entry.html</Path>
-              <Anchor>ad5c0200e139f8a75490055341fe3e8a7</Anchor>
+              <Anchor>a0f14e13c0a1256bac7dd10d0e7c5f13c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2178,7 +2158,7 @@
              <Node>
               <Name>mutableBytes</Name>
               <Path>interface_c_p_t_mutable_numeric_data.html</Path>
-              <Anchor>a38e4170708bf3f13e8a485e65da6afb7</Anchor>
+              <Anchor>ae8470cdaced2258ca6a12f011ad13806</Anchor>
              </Node>
              <Node>
               <Name>sampleBytes</Name>
@@ -2362,12 +2342,12 @@
              <Node>
               <Name>byteOrder</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>aa6ab52a1eb94fa433f1523dd01c19bba</Anchor>
+              <Anchor>a598b60649940a6927aa884a9384fd260</Anchor>
              </Node>
              <Node>
               <Name>bytes</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>ace066f223a50d1f66d4e6ce58853016f</Anchor>
+              <Anchor>a528437a3e5b9811eb475bdab9756566a</Anchor>
              </Node>
              <Node>
               <Name>data</Name>
@@ -2382,32 +2362,53 @@
              <Node>
               <Name>dataTypeFormat</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>ae307c9981911f62b846442e835a06d8a</Anchor>
+              <Anchor>a304e3e9293a305b2e1c96ac6d36f0841</Anchor>
              </Node>
              <Node>
               <Name>length</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>a93ab918cc9dfcecd51300e442bbbdc21</Anchor>
+              <Anchor>adcace4e38d6f394df2c44dcba5003f92</Anchor>
              </Node>
              <Node>
               <Name>numberOfDimensions</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>a030eaf27948f5b0367cefc771a28634b</Anchor>
+              <Anchor>a206732e4577018deeb958304bbfb1230</Anchor>
              </Node>
              <Node>
               <Name>numberOfSamples</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>aa2d6582c567580a8ca08f41511d07cbb</Anchor>
+              <Anchor>a0f0f5a081a9642d36ba28a94d4df3175</Anchor>
              </Node>
              <Node>
               <Name>sampleBytes</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>a61fdc670ca0fac32bb107a2a91bef8dc</Anchor>
+              <Anchor>a1daa0e75f70e0715e680c9a4fe0fe978</Anchor>
              </Node>
              <Node>
               <Name>shape</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
               <Anchor>a229be1e11221032087ca4544b67a869d</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTNumericDataType</Name>
+            <Path>struct_c_p_t_numeric_data_type.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>byteOrder</Name>
+              <Path>struct_c_p_t_numeric_data_type.html</Path>
+              <Anchor>a83950163ab70634e27fb878d771aea50</Anchor>
+             </Node>
+             <Node>
+              <Name>dataTypeFormat</Name>
+              <Path>struct_c_p_t_numeric_data_type.html</Path>
+              <Anchor>a872a5fe1d0bca6b981c3c19b0f49d37c</Anchor>
+             </Node>
+             <Node>
+              <Name>sampleBytes</Name>
+              <Path>struct_c_p_t_numeric_data_type.html</Path>
+              <Anchor>a060e7b9cb38b56dd9e8aa7c89e38bd14</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2419,6 +2420,16 @@
               <Name>defaultPieSliceColorForIndex:</Name>
               <Path>interface_c_p_t_pie_chart.html</Path>
               <Anchor>ad2efbb8005aebd12a9801a54edacf1ea</Anchor>
+             </Node>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_pie_chart.html</Path>
+              <Anchor>a921a8ed64d495233f8ce420f2f69067b</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_pie_chart.html</Path>
+              <Anchor>ac6d95068f152d9e5d8aa076443859544</Anchor>
              </Node>
              <Node>
               <Name>borderLineStyle</Name>
@@ -2542,6 +2553,11 @@
               <Name>fieldIdentifiersForCoordinate:</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>a0467a2b65d0204c0cfb4eeeb59e8ba40</Anchor>
+             </Node>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>a44f525ed96c9819b64fedc766feec98c</Anchor>
              </Node>
              <Node>
               <Name>insertDataAtIndex:numberOfRecords:</Name>
@@ -2706,7 +2722,7 @@
              <Node>
               <Name>plotArea</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>ac9a1a50376c4de43d67516317a60620a</Anchor>
+              <Anchor>aaf90e5f9891ced5481300e2562f9ce48</Anchor>
              </Node>
              <Node>
               <Name>plotSpace</Name>
@@ -2724,6 +2740,11 @@
             <Name>CPTPlotArea</Name>
             <Path>interface_c_p_t_plot_area.html</Path>
             <Subnodes>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_plot_area.html</Path>
+              <Anchor>afb45475ab1131edc13db789963420736</Anchor>
+             </Node>
              <Node>
               <Name>setAxisSetLayersForType:</Name>
               <Path>interface_c_p_t_plot_area.html</Path>
@@ -2757,7 +2778,7 @@
              <Node>
               <Name>borderLineStyle</Name>
               <Path>interface_c_p_t_plot_area.html</Path>
-              <Anchor>ab77ea92ee3ce64f2a8507324f4048290</Anchor>
+              <Anchor>a411447ebe982ef535d931e464466765d</Anchor>
              </Node>
              <Node>
               <Name>fill</Name>
@@ -2791,9 +2812,14 @@
             <Path>interface_c_p_t_plot_area_frame.html</Path>
             <Subnodes>
              <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_plot_area_frame.html</Path>
+              <Anchor>a24eba376f907c560dd33f86a63c80dc2</Anchor>
+             </Node>
+             <Node>
               <Name>axisSet</Name>
               <Path>interface_c_p_t_plot_area_frame.html</Path>
-              <Anchor>a0986cb3e27fb1ef8648b9106a7ecd6b8</Anchor>
+              <Anchor>a8bfede5596326bb1bbfedbdbb587d748</Anchor>
              </Node>
              <Node>
               <Name>plotArea</Name>
@@ -2803,7 +2829,7 @@
              <Node>
               <Name>plotGroup</Name>
               <Path>interface_c_p_t_plot_area_frame.html</Path>
-              <Anchor>a0a1171349beede1c3313f0ddfe65b35b</Anchor>
+              <Anchor>a8c68a1edd4d462dbcf59da656a069bbc</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2856,6 +2882,11 @@
               <Name>addPlot:</Name>
               <Path>interface_c_p_t_plot_group.html</Path>
               <Anchor>a370f190cc488434b9f89130af26b2774</Anchor>
+             </Node>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_plot_group.html</Path>
+              <Anchor>ab2d4d31b878ccfdf1be298c49449a802</Anchor>
              </Node>
              <Node>
               <Name>removePlot:</Name>
@@ -2916,12 +2947,12 @@
              <Node>
               <Name>end</Name>
               <Path>interface_c_p_t_plot_range.html</Path>
-              <Anchor>adc543d1939579179e9d6a4614e617a45</Anchor>
+              <Anchor>ac4724a72e44221ad6c426b0daff757ef</Anchor>
              </Node>
              <Node>
               <Name>endDouble</Name>
               <Path>interface_c_p_t_plot_range.html</Path>
-              <Anchor>aa01772dc9e183b18fddb47204b8fe77e</Anchor>
+              <Anchor>a7a2c256c4a57b429ee9b5e7d6d2662e5</Anchor>
              </Node>
              <Node>
               <Name>length</Name>
@@ -2946,32 +2977,32 @@
              <Node>
               <Name>maxLimit</Name>
               <Path>interface_c_p_t_plot_range.html</Path>
-              <Anchor>a62480dc618823e2efec97c8ebe1090d6</Anchor>
+              <Anchor>aefca1cf71433001df0d52f29a67ae35e</Anchor>
              </Node>
              <Node>
               <Name>maxLimitDouble</Name>
               <Path>interface_c_p_t_plot_range.html</Path>
-              <Anchor>a71430ba5a14b9e09829b95fbc2d37479</Anchor>
+              <Anchor>ad7d5eda27b99779a181a50d39585d6b8</Anchor>
              </Node>
              <Node>
               <Name>midPoint</Name>
               <Path>interface_c_p_t_plot_range.html</Path>
-              <Anchor>af95c83cdf0b6f8a6b98402febdda6147</Anchor>
+              <Anchor>a15d9a451a660e353fa50276366cd731d</Anchor>
              </Node>
              <Node>
               <Name>midPointDouble</Name>
               <Path>interface_c_p_t_plot_range.html</Path>
-              <Anchor>ae643ffe8042fcc24173c8cd4dc82e558</Anchor>
+              <Anchor>a21cac5697f6494c1f68c492ffc222a5f</Anchor>
              </Node>
              <Node>
               <Name>minLimit</Name>
               <Path>interface_c_p_t_plot_range.html</Path>
-              <Anchor>a141a2b5f4b14eee65bd61d121477850e</Anchor>
+              <Anchor>ac3e3e035d1ae8cce3abe1708f88af1ae</Anchor>
              </Node>
              <Node>
               <Name>minLimitDouble</Name>
               <Path>interface_c_p_t_plot_range.html</Path>
-              <Anchor>a211376d108e43009457867b616fe8f3b</Anchor>
+              <Anchor>a0ba8cfde4bb331dd4921a69ee6ceffb9</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3003,6 +3034,26 @@
               <Name>plotRangeForCoordinate:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
               <Anchor>a3aa2997fb48c06d37e50ff1d114ad7df</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceCancelledEvent:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>a643dcec3439e87950e59ab0648a4422c</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>a5f621e3f307ef440d9b4a9ecbb877f64</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDraggedEvent:atPoint:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>ac96f5040ddddc97b4a1c03f97f2db235</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceUpEvent:atPoint:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>aac92939c1f1b4121f2e78f0bcdfaee8c</Anchor>
              </Node>
              <Node>
               <Name>scaleBy:aboutPoint:</Name>
@@ -3153,6 +3204,11 @@
               <Anchor>a0221521330d08dbac22401a0f82857ac</Anchor>
              </Node>
              <Node>
+              <Name>newSymbolPath</Name>
+              <Path>interface_c_p_t_plot_symbol.html</Path>
+              <Anchor>aea182b736e8e5828223339ecbaf53d43</Anchor>
+             </Node>
+             <Node>
               <Name>pentagonPlotSymbol</Name>
               <Path>interface_c_p_t_plot_symbol.html</Path>
               <Anchor>aff2e05a3db2a505ff2cce92270e61500</Anchor>
@@ -3239,6 +3295,11 @@
             <Path>interface_c_p_t_range_plot.html</Path>
             <Subnodes>
              <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_range_plot.html</Path>
+              <Anchor>aaa362f21ff912ab51d4c5b1c315e5400</Anchor>
+             </Node>
+             <Node>
               <Name>areaFill</Name>
               <Path>interface_c_p_t_range_plot.html</Path>
               <Anchor>aac1321dad4d9536ba4df80b46446291a</Anchor>
@@ -3292,6 +3353,32 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTRGBAColor</Name>
+            <Path>struct_c_p_t_r_g_b_a_color.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>alpha</Name>
+              <Path>struct_c_p_t_r_g_b_a_color.html</Path>
+              <Anchor>aa71c02270e204b91762a63ffba293ccf</Anchor>
+             </Node>
+             <Node>
+              <Name>blue</Name>
+              <Path>struct_c_p_t_r_g_b_a_color.html</Path>
+              <Anchor>aa0a747fd8d521399dde552fff8cbd974</Anchor>
+             </Node>
+             <Node>
+              <Name>green</Name>
+              <Path>struct_c_p_t_r_g_b_a_color.html</Path>
+              <Anchor>aac4408d03ce0a0b26ff3ff4fa5c60318</Anchor>
+             </Node>
+             <Node>
+              <Name>red</Name>
+              <Path>struct_c_p_t_r_g_b_a_color.html</Path>
+              <Anchor>ac1ecf7e0d03dcc366ec1059f9563eaef</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CPTScatterPlot</Name>
             <Path>interface_c_p_t_scatter_plot.html</Path>
             <Subnodes>
@@ -3299,6 +3386,11 @@
               <Name>indexOfVisiblePointClosestToPlotAreaPoint:</Name>
               <Path>interface_c_p_t_scatter_plot.html</Path>
               <Anchor>a57eacc8261a4d4a1399f1196be786cff</Anchor>
+             </Node>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_scatter_plot.html</Path>
+              <Anchor>aa04e58896f986681b57b1443838fe4ba</Anchor>
              </Node>
              <Node>
               <Name>plotAreaPointOfVisiblePointAtIndex:</Name>
@@ -3309,6 +3401,11 @@
               <Name>plotSymbolForRecordIndex:</Name>
               <Path>interface_c_p_t_scatter_plot.html</Path>
               <Anchor>a9f74ed3bfedfb98fc91ce0e485d9b2b9</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_scatter_plot.html</Path>
+              <Anchor>a4601ba30081adefe769621da95329dd5</Anchor>
              </Node>
              <Node>
               <Name>areaBaseValue</Name>
@@ -3543,6 +3640,11 @@
               <Anchor>a959e68bbd6a24cd5bb489e080a1a0953</Anchor>
              </Node>
              <Node>
+              <Name>stringForObjectValue:</Name>
+              <Path>interface_c_p_t_time_formatter.html</Path>
+              <Anchor>a11b21b865619109cf5a9cb010c1800ae</Anchor>
+             </Node>
+             <Node>
               <Name>dateFormatter</Name>
               <Path>interface_c_p_t_time_formatter.html</Path>
               <Anchor>a12332e350ae2e35ccb38e721ec00b47e</Anchor>
@@ -3558,6 +3660,11 @@
             <Name>CPTTradingRangePlot</Name>
             <Path>interface_c_p_t_trading_range_plot.html</Path>
             <Subnodes>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_trading_range_plot.html</Path>
+              <Anchor>aa40b57ba174b345669ea1b142254f8b8</Anchor>
+             </Node>
              <Node>
               <Name>barCornerRadius</Name>
               <Path>group__plot_animation_trading_range_plot.html</Path>
@@ -3610,6 +3717,11 @@
             <Path>interface_c_p_t_x_y_axis.html</Path>
             <Subnodes>
              <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_x_y_axis.html</Path>
+              <Anchor>a8807c07c6e743d5532388aa9d554a2b6</Anchor>
+             </Node>
+             <Node>
               <Name>axisConstraints</Name>
               <Path>interface_c_p_t_x_y_axis.html</Path>
               <Anchor>ac83563c1c74e42c297997e6308ed06d8</Anchor>
@@ -3626,14 +3738,19 @@
             <Path>interface_c_p_t_x_y_axis_set.html</Path>
             <Subnodes>
              <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_x_y_axis_set.html</Path>
+              <Anchor>a26b081432a8e55ae4decedc546201fb7</Anchor>
+             </Node>
+             <Node>
               <Name>xAxis</Name>
               <Path>interface_c_p_t_x_y_axis_set.html</Path>
-              <Anchor>af488a3244f81315bf3be52ee775db104</Anchor>
+              <Anchor>a776a769b5127c0105c92908124d40ad8</Anchor>
              </Node>
              <Node>
               <Name>yAxis</Name>
               <Path>interface_c_p_t_x_y_axis_set.html</Path>
-              <Anchor>a297f2b923873c052966b448b26d5fa94</Anchor>
+              <Anchor>ac3aebb225f7c85d743369575db5b15ac</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3641,6 +3758,11 @@
             <Name>CPTXYGraph</Name>
             <Path>interface_c_p_t_x_y_graph.html</Path>
             <Subnodes>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_x_y_graph.html</Path>
+              <Anchor>a2fcb010c48ceb46a3566e1a2dd9e6dbb</Anchor>
+             </Node>
              <Node>
               <Name>initWithFrame:xScaleType:yScaleType:</Name>
               <Path>interface_c_p_t_x_y_graph.html</Path>
@@ -3652,6 +3774,21 @@
             <Name>CPTXYPlotSpace</Name>
             <Path>interface_c_p_t_x_y_plot_space.html</Path>
             <Subnodes>
+             <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_x_y_plot_space.html</Path>
+              <Anchor>a53eae728e6443a65d50f2720fa34503d</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDraggedEvent:atPoint:</Name>
+              <Path>interface_c_p_t_x_y_plot_space.html</Path>
+              <Anchor>aed72a16e1749da976ce78d94b42f3896</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceUpEvent:atPoint:</Name>
+              <Path>interface_c_p_t_x_y_plot_space.html</Path>
+              <Anchor>a07db9c5f6baa7fbb2b5eb3d3fe1ca153</Anchor>
+             </Node>
              <Node>
               <Name>globalXRange</Name>
               <Path>interface_c_p_t_x_y_plot_space.html</Path>
@@ -3684,17 +3821,6 @@
              </Node>
             </Subnodes>
            </Node>
-           <Node>
-            <Name>NSException(CPTExtensions)</Name>
-            <Path>interface_n_s_exception_07_c_p_t_extensions_08.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>raiseGenericFormat:</Name>
-              <Path>interface_n_s_exception_07_c_p_t_extensions_08.html</Path>
-              <Anchor>a9874faa85ef21314b939bef99acf4d5b</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
           </Subnodes>
          </Node>
          <Node>
@@ -3705,17 +3831,6 @@
           <Name>Class Hierarchy</Name>
           <Path>hierarchy.html</Path>
           <Subnodes>
-           <Node>
-            <Name>_CPTGradientElement</Name>
-            <Path>struct___c_p_t_gradient_element.html</Path>
-           </Node>
-           <Node>
-            <Name>_CPTNumericDataType</Name>
-            <Path>struct___c_p_t_numeric_data_type.html</Path>
-           </Node>
-           <Node>
-            <Name>_CPTRGBAColor</Name>
-            <Path>struct___c_p_t_r_g_b_a_color.html</Path>
             <Subnodes>
               <Subnodes>
                <Node>
@@ -3737,12 +3852,6 @@
                        <Node>
                         <Name>CPTXYGraph</Name>
                         <Path>interface_c_p_t_x_y_graph.html</Path>
-                        <Subnodes>
-                         <Node>
-                          <Name>CPTDerivedXYGraph</Name>
-                          <Path>interface_c_p_t_derived_x_y_graph.html</Path>
-                         </Node>
-                        </Subnodes>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -3832,19 +3941,18 @@
                </Node>
               </Subnodes>
             </Subnodes>
+           <Node>
+            <Name>CPTGradientElement</Name>
+            <Path>struct_c_p_t_gradient_element.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTNumericDataType</Name>
+            <Path>struct_c_p_t_numeric_data_type.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTRGBAColor</Name>
+            <Path>struct_c_p_t_r_g_b_a_color.html</Path>
             <Subnodes>
-             <Node>
-              <Name>_CPTFillColor</Name>
-              <Path>interface___c_p_t_fill_color.html</Path>
-             </Node>
-             <Node>
-              <Name>_CPTFillGradient</Name>
-              <Path>interface___c_p_t_fill_gradient.html</Path>
-             </Node>
-             <Node>
-              <Name>_CPTFillImage</Name>
-              <Path>interface___c_p_t_fill_image.html</Path>
-             </Node>
              <Node>
               <Name>CPTAnnotation</Name>
               <Path>interface_c_p_t_annotation.html</Path>
@@ -3880,34 +3988,10 @@
              <Node>
               <Name>CPTConstraints</Name>
               <Path>interface_c_p_t_constraints.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>_CPTConstraintsFixed</Name>
-                <Path>interface___c_p_t_constraints_fixed.html</Path>
-               </Node>
-               <Node>
-                <Name>_CPTConstraintsRelative</Name>
-                <Path>interface___c_p_t_constraints_relative.html</Path>
-               </Node>
-              </Subnodes>
              </Node>
              <Node>
               <Name>CPTFill</Name>
               <Path>interface_c_p_t_fill.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>_CPTFillColor</Name>
-                <Path>interface___c_p_t_fill_color.html</Path>
-               </Node>
-               <Node>
-                <Name>_CPTFillGradient</Name>
-                <Path>interface___c_p_t_fill_gradient.html</Path>
-               </Node>
-               <Node>
-                <Name>_CPTFillImage</Name>
-                <Path>interface___c_p_t_fill_image.html</Path>
-               </Node>
-              </Subnodes>
              </Node>
              <Node>
               <Name>CPTGradient</Name>
@@ -3997,34 +4081,6 @@
               <Name>CPTTheme</Name>
               <Path>interface_c_p_t_theme.html</Path>
               <Subnodes>
-               <Node>
-                <Name>_CPTXYTheme</Name>
-                <Path>interface___c_p_t_x_y_theme.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>_CPTDarkGradientTheme</Name>
-                  <Path>interface___c_p_t_dark_gradient_theme.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>_CPTPlainBlackTheme</Name>
-                  <Path>interface___c_p_t_plain_black_theme.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>_CPTPlainWhiteTheme</Name>
-                  <Path>interface___c_p_t_plain_white_theme.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>_CPTSlateTheme</Name>
-                  <Path>interface___c_p_t_slate_theme.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>_CPTStocksTheme</Name>
-                  <Path>interface___c_p_t_stocks_theme.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-              <Subnodes>
                 <Subnodes>
                  <Node>
                   <Name>CPTTimeFormatter</Name>
@@ -4035,18 +4091,6 @@
              </Node>
             </Subnodes>
             <Subnodes>
-             <Node>
-              <Name>_CPTFillColor</Name>
-              <Path>interface___c_p_t_fill_color.html</Path>
-             </Node>
-             <Node>
-              <Name>_CPTFillGradient</Name>
-              <Path>interface___c_p_t_fill_gradient.html</Path>
-             </Node>
-             <Node>
-              <Name>_CPTFillImage</Name>
-              <Path>interface___c_p_t_fill_image.html</Path>
-             </Node>
              <Node>
               <Name>CPTColor</Name>
               <Path>interface_c_p_t_color.html</Path>
@@ -4100,10 +4144,6 @@
               <Path>interface_c_p_t_text_style.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>NSException(CPTExtensions)</Name>
-            <Path>interface_n_s_exception_07_c_p_t_extensions_08.html</Path>
             <Subnodes>
              <Node>
               <Name>CPTLineStyle</Name>
@@ -4564,6 +4604,41 @@
           <Path>files.html</Path>
           <Subnodes>
            <Node>
+            <Name>CorePlot-CocoaTouch.h</Name>
+            <Path>_core_plot-_cocoa_touch_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>iPhoneOnly/CPTGraphHostingView.h</Name>
+            <Path>_c_p_t_graph_hosting_view_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>iPhoneOnly/CPTGraphHostingView.m</Name>
+            <Path>_c_p_t_graph_hosting_view_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>iPhoneOnly/CPTPlatformSpecificCategories.h</Name>
+            <Path>_c_p_t_platform_specific_categories_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>iPhoneOnly/CPTPlatformSpecificCategories.m</Name>
+            <Path>_c_p_t_platform_specific_categories_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>iPhoneOnly/CPTPlatformSpecificDefines.h</Name>
+            <Path>_c_p_t_platform_specific_defines_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTNativeImage</Name>
+              <Path>_c_p_t_platform_specific_defines_8h.html</Path>
+              <Anchor>afb0ed1b2315798ff3b665e15769e0379</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>iPhoneOnly/CPTPlatformSpecificDefines.m</Name>
+            <Path>_c_p_t_platform_specific_defines_8m.html</Path>
+           </Node>
+           <Node>
             <Name>iPhoneOnly/CPTPlatformSpecificFunctions.h</Name>
             <Path>_c_p_t_platform_specific_functions_8h.html</Path>
             <Subnodes>
@@ -4585,20 +4660,96 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>iPhoneOnly/CPTPlatformSpecificFunctions.m</Name>
+            <Path>_c_p_t_platform_specific_functions_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTGetCurrentContext</Name>
+              <Path>_c_p_t_platform_specific_functions_8m.html</Path>
+              <Anchor>a3be5490002256d9807df1586581550b9</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTPopCGContext</Name>
+              <Path>_c_p_t_platform_specific_functions_8m.html</Path>
+              <Anchor>af83544397fc336d1c14e66f2b7e473be</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTPushCGContext</Name>
+              <Path>_c_p_t_platform_specific_functions_8m.html</Path>
+              <Anchor>af6d0cffe2f7fd5d5c9b96622d8472eee</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>iPhoneOnly/CPTTextStylePlatformSpecific.h</Name>
+            <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>iPhoneOnly/CPTTextStylePlatformSpecific.m</Name>
+            <Path>_c_p_t_text_style_platform_specific_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAnnotation.h</Name>
+            <Path>_c_p_t_annotation_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAnnotation.m</Name>
+            <Path>_c_p_t_annotation_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAnnotationHostLayer.h</Name>
+            <Path>_c_p_t_annotation_host_layer_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAnnotationHostLayer.m</Name>
+            <Path>_c_p_t_annotation_host_layer_8m.html</Path>
+           </Node>
+           <Node>
             <Name>Source/CPTAxis.h</Name>
             <Path>_c_p_t_axis_8h.html</Path>
             <Subnodes>
              <Node>
               <Name>CPTAxisLabelingPolicy</Name>
               <Path>_c_p_t_axis_8h.html</Path>
-              <Anchor>acc7e6e42dc3af4caa7ce548e7b468bce</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTAxisLabelingPolicy</Name>
-              <Path>_c_p_t_axis_8h.html</Path>
-              <Anchor>a830c2575834ce240f643302d0c502fcb</Anchor>
+              <Anchor>adb9e6ab73e0d2fb79203215861166e6b</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTAxis.m</Name>
+            <Path>_c_p_t_axis_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAxisLabel.h</Name>
+            <Path>_c_p_t_axis_label_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAxisLabel.m</Name>
+            <Path>_c_p_t_axis_label_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAxisLabelGroup.h</Name>
+            <Path>_c_p_t_axis_label_group_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAxisLabelGroup.m</Name>
+            <Path>_c_p_t_axis_label_group_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAxisSet.h</Name>
+            <Path>_c_p_t_axis_set_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAxisSet.m</Name>
+            <Path>_c_p_t_axis_set_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAxisTitle.h</Name>
+            <Path>_c_p_t_axis_title_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTAxisTitle.m</Name>
+            <Path>_c_p_t_axis_title_8m.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTBarPlot.h</Name>
@@ -4607,12 +4758,7 @@
              <Node>
               <Name>CPTBarPlotField</Name>
               <Path>_c_p_t_bar_plot_8h.html</Path>
-              <Anchor>a7751b99ab50e9bfb98acb098f002da2c</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTBarPlotField</Name>
-              <Path>_c_p_t_bar_plot_8h.html</Path>
-              <Anchor>a59cb632a71b898b88ff7fc90b620537b</Anchor>
+              <Anchor>ac9223627a0d5be7eb36b29bcf80ca0b9</Anchor>
              </Node>
              <Node>
               <Name>CPTBarPlotBindingBarBases</Name>
@@ -4630,6 +4776,59 @@
               <Anchor>ac800753044b1b859c32a6213e34c086b</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTBarPlot.m</Name>
+            <Path>_c_p_t_bar_plot_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTBarPlotBindingBarBases</Name>
+              <Path>_c_p_t_bar_plot_8m.html</Path>
+              <Anchor>a3f58e790799e9b4ff8534f5afeef6466</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTBarPlotBindingBarLocations</Name>
+              <Path>_c_p_t_bar_plot_8m.html</Path>
+              <Anchor>acf3b4618e2dd31a43ebbcdc6903daaf5</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTBarPlotBindingBarTips</Name>
+              <Path>_c_p_t_bar_plot_8m.html</Path>
+              <Anchor>ac800753044b1b859c32a6213e34c086b</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTBorderedLayer.h</Name>
+            <Path>_c_p_t_bordered_layer_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTBorderedLayer.m</Name>
+            <Path>_c_p_t_bordered_layer_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTColor.h</Name>
+            <Path>_c_p_t_color_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTColor.m</Name>
+            <Path>_c_p_t_color_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTColorSpace.h</Name>
+            <Path>_c_p_t_color_space_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTColorSpace.m</Name>
+            <Path>_c_p_t_color_space_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTConstraints.h</Name>
+            <Path>_c_p_t_constraints_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTConstraints.m</Name>
+            <Path>_c_p_t_constraints_8m.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTDefinitions.h</Name>
@@ -4653,79 +4852,43 @@
              <Node>
               <Name>CPTAlignment</Name>
               <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>af9221fe6bb5be966fee039fea78c1c36</Anchor>
+              <Anchor>a968901ece413ec4608f1625910ca9a9f</Anchor>
              </Node>
              <Node>
               <Name>CPTCoordinate</Name>
               <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a10709b6abd0a9ee1769345ef51b2fcd7</Anchor>
+              <Anchor>a26e0566373a7a68bbd54e5747d4ece1b</Anchor>
              </Node>
              <Node>
               <Name>CPTErrorBarType</Name>
               <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a12e6ac6202f3843459ef92181c0db3ec</Anchor>
+              <Anchor>ad0c14d655e6470de9a2e79e3eee86988</Anchor>
              </Node>
              <Node>
               <Name>CPTNumericType</Name>
               <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>aae2e4ad8fc74b82e5f09892b75b4fe62</Anchor>
+              <Anchor>a055e92be043279f43b35c460b347e873</Anchor>
              </Node>
              <Node>
               <Name>CPTRectAnchor</Name>
               <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a0712e0324db4c3da17882ca1d91de7cb</Anchor>
-             </Node>
-             <Node>
-              <Name>CPTRGBAColor</Name>
-              <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a722329b2597462efab5dc7fc7057b27c</Anchor>
+              <Anchor>a5b44b53a69133d08c14160311e925040</Anchor>
              </Node>
              <Node>
               <Name>CPTScaleType</Name>
               <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a9564ab0b679e0c37a87f0c8af3a60335</Anchor>
+              <Anchor>a351ca539c18874842ed40ad03225182a</Anchor>
              </Node>
              <Node>
               <Name>CPTSign</Name>
               <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a29f56cced59c093e06eb5abf9be95c35</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTAlignment</Name>
-              <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>aa9f50a31cf6c8275fae895ccb13063d9</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTCoordinate</Name>
-              <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>ab742242615e21a44eeb377c6a80d43cd</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTErrorBarType</Name>
-              <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>ab413a0c5fd6fd7fc31a211606f7655c5</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTNumericType</Name>
-              <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a804c75862c6c745a7badb4ecc86b6016</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTRectAnchor</Name>
-              <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a3fbc1c332d7d218d62aa8715a43e81e4</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTScaleType</Name>
-              <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a6feea278fdabae40d0b58c235df6f7f6</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTSign</Name>
-              <Path>_c_p_t_definitions_8h.html</Path>
-              <Anchor>a98508c2384d4e37d942a418bfbdbed37</Anchor>
+              <Anchor>a3785add118c53a68c6a1838078e17cc5</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTDefinitions.m</Name>
+            <Path>_c_p_t_definitions_8m.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTExceptions.h</Name>
@@ -4749,35 +4912,53 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Source/CPTExceptions.m</Name>
+            <Path>_c_p_t_exceptions_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTDataException</Name>
+              <Path>_c_p_t_exceptions_8m.html</Path>
+              <Anchor>aa3f9816eacc1f18c5da9c627a48026ce</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTException</Name>
+              <Path>_c_p_t_exceptions_8m.html</Path>
+              <Anchor>ac3562c537cd90511d3f4c75420d499af</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTNumericDataException</Name>
+              <Path>_c_p_t_exceptions_8m.html</Path>
+              <Anchor>ac5ed491df8cff631a121dcfeb5c47384</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTFill.h</Name>
+            <Path>_c_p_t_fill_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTFill.m</Name>
+            <Path>_c_p_t_fill_8m.html</Path>
+           </Node>
+           <Node>
             <Name>Source/CPTGradient.h</Name>
             <Path>_c_p_t_gradient_8h.html</Path>
             <Subnodes>
              <Node>
               <Name>CPTGradientBlendingMode</Name>
               <Path>_c_p_t_gradient_8h.html</Path>
-              <Anchor>acd9a0a46ddcc0abdb0eaa7d65243ac92</Anchor>
-             </Node>
-             <Node>
-              <Name>CPTGradientElement</Name>
-              <Path>_c_p_t_gradient_8h.html</Path>
-              <Anchor>aff927dcf5cba534f30dc914c8b4e3e02</Anchor>
+              <Anchor>a906a46d264ab00211f655765a898aad1</Anchor>
              </Node>
              <Node>
               <Name>CPTGradientType</Name>
               <Path>_c_p_t_gradient_8h.html</Path>
-              <Anchor>ac64907fd1ce21901bf3e510334476402</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTBlendingMode</Name>
-              <Path>_c_p_t_gradient_8h.html</Path>
-              <Anchor>a07bf330417ac01bfaecf1d20bae33619</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTGradientType</Name>
-              <Path>_c_p_t_gradient_8h.html</Path>
-              <Anchor>accbb52d6ffff88f5632f0333d3960f67</Anchor>
+              <Anchor>a7b46eb0209e7f6ffbc287917709da743</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTGradient.m</Name>
+            <Path>_c_p_t_gradient_8m.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTGraph.h</Name>
@@ -4786,12 +4967,7 @@
              <Node>
               <Name>CPTGraphLayerType</Name>
               <Path>_c_p_t_graph_8h.html</Path>
-              <Anchor>a516b503d3a0be51b245e936ae5049b07</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTGraphLayerType</Name>
-              <Path>_c_p_t_graph_8h.html</Path>
-              <Anchor>aca563382f979b1467d969276dad69a3b</Anchor>
+              <Anchor>a1d2309258ac9ed5b1a5f226c2d4327ca</Anchor>
              </Node>
              <Node>
               <Name>CPTGraphNeedsRedrawNotification</Name>
@@ -4799,6 +4975,57 @@
               <Anchor>gacdcc79d94fa2215225c836c3b2f04565</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTGraph.m</Name>
+            <Path>_c_p_t_graph_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTGraphNeedsRedrawNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>gacdcc79d94fa2215225c836c3b2f04565</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTGridLineGroup.h</Name>
+            <Path>_c_p_t_grid_line_group_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTGridLineGroup.m</Name>
+            <Path>_c_p_t_grid_line_group_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTGridLines.h</Name>
+            <Path>_c_p_t_grid_lines_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTGridLines.m</Name>
+            <Path>_c_p_t_grid_lines_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTImage.h</Name>
+            <Path>_c_p_t_image_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTImage.m</Name>
+            <Path>_c_p_t_image_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTLayer.h</Name>
+            <Path>_c_p_t_layer_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTLayer.m</Name>
+            <Path>_c_p_t_layer_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTLayerAnnotation.h</Name>
+            <Path>_c_p_t_layer_annotation_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTLayerAnnotation.m</Name>
+            <Path>_c_p_t_layer_annotation_8m.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTLegend.h</Name>
@@ -4822,20 +5049,128 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Source/CPTLegend.m</Name>
+            <Path>_c_p_t_legend_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTLegendNeedsLayoutForPlotNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>ga531a1b173c232bc63c207180d2ebd174</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTLegendNeedsRedrawForPlotNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>gaa902e90db19b08cf4fb6bd1a0d9cfbd9</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTLegendNeedsReloadEntriesForPlotNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>gac6c5bb933c26d69e705301c1290e0450</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTLegendEntry.h</Name>
+            <Path>_c_p_t_legend_entry_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTLegendEntry.m</Name>
+            <Path>_c_p_t_legend_entry_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTLimitBand.h</Name>
+            <Path>_c_p_t_limit_band_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTLimitBand.m</Name>
+            <Path>_c_p_t_limit_band_8m.html</Path>
+           </Node>
+           <Node>
             <Name>Source/CPTLineCap.h</Name>
             <Path>_c_p_t_line_cap_8h.html</Path>
             <Subnodes>
              <Node>
               <Name>CPTLineCapType</Name>
               <Path>_c_p_t_line_cap_8h.html</Path>
-              <Anchor>ace3f90f010f9b2ef82d3fd07789fa2cc</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTLineCapType</Name>
-              <Path>_c_p_t_line_cap_8h.html</Path>
-              <Anchor>aaafff866c33b1723bb3c1161d4e8f571</Anchor>
+              <Anchor>a0929cb493413b456214c0ef80e89ad38</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTLineCap.m</Name>
+            <Path>_c_p_t_line_cap_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTLineStyle.h</Name>
+            <Path>_c_p_t_line_style_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTLineStyle.m</Name>
+            <Path>_c_p_t_line_style_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableLineStyle.h</Name>
+            <Path>_c_p_t_mutable_line_style_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableLineStyle.m</Name>
+            <Path>_c_p_t_mutable_line_style_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableNumericData+TypeConversion.h</Name>
+            <Path>_c_p_t_mutable_numeric_data_09_type_conversion_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableNumericData+TypeConversion.m</Name>
+            <Path>_c_p_t_mutable_numeric_data_09_type_conversion_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableNumericData.h</Name>
+            <Path>_c_p_t_mutable_numeric_data_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableNumericData.m</Name>
+            <Path>_c_p_t_mutable_numeric_data_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutablePlotRange.h</Name>
+            <Path>_c_p_t_mutable_plot_range_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutablePlotRange.m</Name>
+            <Path>_c_p_t_mutable_plot_range_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableShadow.h</Name>
+            <Path>_c_p_t_mutable_shadow_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableShadow.m</Name>
+            <Path>_c_p_t_mutable_shadow_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableTextStyle.h</Name>
+            <Path>_c_p_t_mutable_text_style_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTMutableTextStyle.m</Name>
+            <Path>_c_p_t_mutable_text_style_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTNumericData+TypeConversion.h</Name>
+            <Path>_c_p_t_numeric_data_09_type_conversion_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTNumericData+TypeConversion.m</Name>
+            <Path>_c_p_t_numeric_data_09_type_conversion_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTNumericData.h</Name>
+            <Path>_c_p_t_numeric_data_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTNumericData.m</Name>
+            <Path>_c_p_t_numeric_data_8m.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTNumericDataType.h</Name>
@@ -4844,17 +5179,7 @@
              <Node>
               <Name>CPTDataTypeFormat</Name>
               <Path>_c_p_t_numeric_data_type_8h.html</Path>
-              <Anchor>ab9eb8548b99ca6ad5e1b4646f51f6746</Anchor>
-             </Node>
-             <Node>
-              <Name>CPTNumericDataType</Name>
-              <Path>_c_p_t_numeric_data_type_8h.html</Path>
-              <Anchor>a0b911106a65975081b0063bf419b294b</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTDataTypeFormat</Name>
-              <Path>_c_p_t_numeric_data_type_8h.html</Path>
-              <Anchor>adee16eda6f12a44b4cb974ba9b069b44</Anchor>
+              <Anchor>ac29c0caa2ac30299b2dd472b299ac663</Anchor>
              </Node>
              <Node>
               <Name>CPTDataType</Name>
@@ -4884,6 +5209,52 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Source/CPTNumericDataType.m</Name>
+            <Path>_c_p_t_numeric_data_type_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>ByteOrderForDataTypeString</Name>
+              <Path>_c_p_t_numeric_data_type_8m.html</Path>
+              <Anchor>af30ff96230ff37c1573143ded2b921f8</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDataType</Name>
+              <Path>_c_p_t_numeric_data_type_8m.html</Path>
+              <Anchor>ac00abad966bbdb7e7033cf4fa081ed5a</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDataTypeEqualToDataType</Name>
+              <Path>_c_p_t_numeric_data_type_8m.html</Path>
+              <Anchor>ad93cae77ebeee18937ec36ec28e4d4a9</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDataTypeIsSupported</Name>
+              <Path>_c_p_t_numeric_data_type_8m.html</Path>
+              <Anchor>a940d1fda41fd6ad9da29d26ccc929f25</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDataTypeStringFromDataType</Name>
+              <Path>_c_p_t_numeric_data_type_8m.html</Path>
+              <Anchor>a43fbd7520ce09dd3111ae35b7dfdc99b</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDataTypeWithDataTypeString</Name>
+              <Path>_c_p_t_numeric_data_type_8m.html</Path>
+              <Anchor>a287d220e26a98dd1a8ec009394d07dc9</Anchor>
+             </Node>
+             <Node>
+              <Name>DataTypeForDataTypeString</Name>
+              <Path>_c_p_t_numeric_data_type_8m.html</Path>
+              <Anchor>af674df64d1830cf66691c2927f6ace97</Anchor>
+             </Node>
+             <Node>
+              <Name>SampleBytesForDataTypeString</Name>
+              <Path>_c_p_t_numeric_data_type_8m.html</Path>
+              <Anchor>a3d445f6d87e24f993b0dd5829e44f3b1</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Source/CPTPathExtensions.h</Name>
             <Path>_c_p_t_path_extensions_8h.html</Path>
             <Subnodes>
@@ -4900,32 +5271,54 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Source/CPTPathExtensions.m</Name>
+            <Path>_c_p_t_path_extensions_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>AddRoundedRectPath</Name>
+              <Path>_c_p_t_path_extensions_8m.html</Path>
+              <Anchor>a2ac9a4c4f33c339882f822e536e37401</Anchor>
+             </Node>
+             <Node>
+              <Name>CreateRoundedRectPath</Name>
+              <Path>_c_p_t_path_extensions_8m.html</Path>
+              <Anchor>ad7c2b85f72968e82d61a25876fc7e9e0</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Source/CPTPieChart.h</Name>
             <Path>_c_p_t_pie_chart_8h.html</Path>
             <Subnodes>
              <Node>
               <Name>CPTPieChartField</Name>
               <Path>_c_p_t_pie_chart_8h.html</Path>
-              <Anchor>a3e101c7b4a23fbcaccbbfd9d9c16486d</Anchor>
+              <Anchor>a01483eef4e806811546a45557cdb599b</Anchor>
              </Node>
              <Node>
               <Name>CPTPieDirection</Name>
               <Path>_c_p_t_pie_chart_8h.html</Path>
-              <Anchor>ab1e032df0b818478c893aaa61d4de1eb</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTPieChartField</Name>
-              <Path>_c_p_t_pie_chart_8h.html</Path>
-              <Anchor>afced7aba4d01749552ff7a7e14b8f17a</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTPieDirection</Name>
-              <Path>_c_p_t_pie_chart_8h.html</Path>
-              <Anchor>a6727858c3123c808295c244c532d4f35</Anchor>
+              <Anchor>a0b209ff8a87cc94ca1901c089415e7c1</Anchor>
              </Node>
              <Node>
               <Name>CPTPieChartBindingPieSliceWidthValues</Name>
               <Path>_c_p_t_pie_chart_8h.html</Path>
+              <Anchor>aec9c9b4fd28157a59a8cf195a9b3c99c</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTPieChart.m</Name>
+            <Path>_c_p_t_pie_chart_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>colorLookupTable</Name>
+              <Path>_c_p_t_pie_chart_8m.html</Path>
+              <Anchor>a8cd7d286d0711d335858a26d7c2f5b60</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTPieChartBindingPieSliceWidthValues</Name>
+              <Path>_c_p_t_pie_chart_8m.html</Path>
               <Anchor>aec9c9b4fd28157a59a8cf195a9b3c99c</Anchor>
              </Node>
             </Subnodes>
@@ -4937,14 +5330,44 @@
              <Node>
               <Name>CPTPlotCachePrecision</Name>
               <Path>_c_p_t_plot_8h.html</Path>
-              <Anchor>aef00234f651d15b750b224281f151a88</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTPlotCachePrecision</Name>
-              <Path>_c_p_t_plot_8h.html</Path>
-              <Anchor>a248fb7c931206b47de7c00759fd204e9</Anchor>
+              <Anchor>ad9096339b25b6dc933e810ac2726ca64</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlot.m</Name>
+            <Path>_c_p_t_plot_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotArea.h</Name>
+            <Path>_c_p_t_plot_area_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotArea.m</Name>
+            <Path>_c_p_t_plot_area_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>kCPTNumberOfLayers</Name>
+              <Path>_c_p_t_plot_area_8m.html</Path>
+              <Anchor>a5aad990133f0875eaa283b96b2adbea5</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotAreaFrame.h</Name>
+            <Path>_c_p_t_plot_area_frame_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotAreaFrame.m</Name>
+            <Path>_c_p_t_plot_area_frame_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotGroup.h</Name>
+            <Path>_c_p_t_plot_group_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotGroup.m</Name>
+            <Path>_c_p_t_plot_group_8m.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTPlotRange.h</Name>
@@ -4953,14 +5376,43 @@
              <Node>
               <Name>CPTPlotRangeComparisonResult</Name>
               <Path>_c_p_t_plot_range_8h.html</Path>
-              <Anchor>ad92f84ba04a8d6ee647958d00308cf18</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTPlotRangeComparisonResult</Name>
-              <Path>_c_p_t_plot_range_8h.html</Path>
-              <Anchor>aedea55e2b92f02f441ccf90fa7079a65</Anchor>
+              <Anchor>ae9eb655c44063efd03253fb7f5ed8e34</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotRange.m</Name>
+            <Path>_c_p_t_plot_range_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotSpace.h</Name>
+            <Path>_c_p_t_plot_space_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTPlotSpaceCoordinateMappingDidChangeNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>ga23f2cfa5cf45e2998bd8983b9ee2f5cc</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotSpace.m</Name>
+            <Path>_c_p_t_plot_space_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTPlotSpaceCoordinateMappingDidChangeNotification</Name>
+              <Path>group__notification.html</Path>
+              <Anchor>ga23f2cfa5cf45e2998bd8983b9ee2f5cc</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotSpaceAnnotation.h</Name>
+            <Path>_c_p_t_plot_space_annotation_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotSpaceAnnotation.m</Name>
+            <Path>_c_p_t_plot_space_annotation_8m.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTPlotSymbol.h</Name>
@@ -4969,14 +5421,94 @@
              <Node>
               <Name>CPTPlotSymbolType</Name>
               <Path>_c_p_t_plot_symbol_8h.html</Path>
-              <Anchor>af0167a61306e1078aa1441aa380743d9</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTPlotSymbolType</Name>
-              <Path>_c_p_t_plot_symbol_8h.html</Path>
-              <Anchor>a9ba9b5aa30adef78cfd48cd7be5f5731</Anchor>
+              <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5</Anchor>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTPlotSymbol.m</Name>
+            <Path>_c_p_t_plot_symbol_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTRangePlot.h</Name>
+            <Path>_c_p_t_range_plot_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTRangePlotField</Name>
+              <Path>_c_p_t_range_plot_8h.html</Path>
+              <Anchor>ae960cbc1a7f60add898ddeabb0cf5489</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingHighValues</Name>
+              <Path>_c_p_t_range_plot_8h.html</Path>
+              <Anchor>a88df7d7c5739bef9f7847782adf640c9</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingLeftValues</Name>
+              <Path>_c_p_t_range_plot_8h.html</Path>
+              <Anchor>a56bb63fda4a812b779ea388fdc68787f</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingLowValues</Name>
+              <Path>_c_p_t_range_plot_8h.html</Path>
+              <Anchor>a5fdb3c2fe524a43b0dad31cca96dc371</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingRightValues</Name>
+              <Path>_c_p_t_range_plot_8h.html</Path>
+              <Anchor>abf1b5c831f9bcb7f2f57820f968b7865</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingXValues</Name>
+              <Path>_c_p_t_range_plot_8h.html</Path>
+              <Anchor>a2c9e3d725baa04dc080b6725df20b786</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingYValues</Name>
+              <Path>_c_p_t_range_plot_8h.html</Path>
+              <Anchor>aa1ff8d22cbb0bab62ac405730aa45173</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTRangePlot.m</Name>
+            <Path>_c_p_t_range_plot_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTRangePlotBindingHighValues</Name>
+              <Path>_c_p_t_range_plot_8m.html</Path>
+              <Anchor>a88df7d7c5739bef9f7847782adf640c9</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingLeftValues</Name>
+              <Path>_c_p_t_range_plot_8m.html</Path>
+              <Anchor>a56bb63fda4a812b779ea388fdc68787f</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingLowValues</Name>
+              <Path>_c_p_t_range_plot_8m.html</Path>
+              <Anchor>a5fdb3c2fe524a43b0dad31cca96dc371</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingRightValues</Name>
+              <Path>_c_p_t_range_plot_8m.html</Path>
+              <Anchor>abf1b5c831f9bcb7f2f57820f968b7865</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingXValues</Name>
+              <Path>_c_p_t_range_plot_8m.html</Path>
+              <Anchor>a2c9e3d725baa04dc080b6725df20b786</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingYValues</Name>
+              <Path>_c_p_t_range_plot_8m.html</Path>
+              <Anchor>aa1ff8d22cbb0bab62ac405730aa45173</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTResponder.h</Name>
+            <Path>_c_p_t_responder_8h.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTScatterPlot.h</Name>
@@ -4985,22 +5517,12 @@
              <Node>
               <Name>CPTScatterPlotField</Name>
               <Path>_c_p_t_scatter_plot_8h.html</Path>
-              <Anchor>a2081e49de0266e8a0f1d9e61120620f6</Anchor>
+              <Anchor>a20acbfd01a982bfed56a2681e17126a8</Anchor>
              </Node>
              <Node>
               <Name>CPTScatterPlotInterpolation</Name>
               <Path>_c_p_t_scatter_plot_8h.html</Path>
-              <Anchor>afa84bf01f2d533d0cd4973aabc45c498</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTScatterPlotField</Name>
-              <Path>_c_p_t_scatter_plot_8h.html</Path>
-              <Anchor>af4ff7e5cf854ac325e3328357944b0ea</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTScatterPlotInterpolation</Name>
-              <Path>_c_p_t_scatter_plot_8h.html</Path>
-              <Anchor>ad4aa5aae63ca2e817aeeea09548e955a</Anchor>
+              <Anchor>a0a9d8cdea584afe83809167eedeca8da</Anchor>
              </Node>
              <Node>
               <Name>CPTScatterPlotBindingPlotSymbols</Name>
@@ -5020,6 +5542,35 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Source/CPTScatterPlot.m</Name>
+            <Path>_c_p_t_scatter_plot_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTScatterPlotBindingPlotSymbols</Name>
+              <Path>_c_p_t_scatter_plot_8m.html</Path>
+              <Anchor>ae416eb41cbdffa71534a085dcbb1f206</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTScatterPlotBindingXValues</Name>
+              <Path>_c_p_t_scatter_plot_8m.html</Path>
+              <Anchor>a0681f58616dcb9c1ddf193175c6194ce</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTScatterPlotBindingYValues</Name>
+              <Path>_c_p_t_scatter_plot_8m.html</Path>
+              <Anchor>a07dbc798c8a8758cc7a1770cf670492b</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTShadow.h</Name>
+            <Path>_c_p_t_shadow_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTShadow.m</Name>
+            <Path>_c_p_t_shadow_8m.html</Path>
+           </Node>
+           <Node>
             <Name>Source/CPTTextLayer.h</Name>
             <Path>_c_p_t_text_layer_8h.html</Path>
             <Subnodes>
@@ -5031,18 +5582,70 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Source/CPTTextLayer.m</Name>
+            <Path>_c_p_t_text_layer_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>kCPTTextLayerMarginWidth</Name>
+              <Path>_c_p_t_text_layer_8m.html</Path>
+              <Anchor>aac3e77177bea87569a70ef179cab5291</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Source/CPTTextStyle.h</Name>
             <Path>_c_p_t_text_style_8h.html</Path>
             <Subnodes>
              <Node>
               <Name>CPTTextAlignment</Name>
               <Path>_c_p_t_text_style_8h.html</Path>
-              <Anchor>a10ee342a87bc226dfe0c0c7892201c31</Anchor>
+              <Anchor>a2787a4973068e8d2dd94451f8112dc6d</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTTextStyle.m</Name>
+            <Path>_c_p_t_text_style_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTTheme.h</Name>
+            <Path>_c_p_t_theme_8h.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>kCPTDarkGradientTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>ga5f7f2a396df2807d9df225b546bc83fd</Anchor>
              </Node>
              <Node>
-              <Name>_CPTTextAlignment</Name>
-              <Path>_c_p_t_text_style_8h.html</Path>
-              <Anchor>a0f9e5e7dcd5a81df19155ee7f9d0bd03</Anchor>
+              <Name>kCPTPlainBlackTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>gaee2ee00fc6afe67c17bc2dab26dad06c</Anchor>
+             </Node>
+             <Node>
+              <Name>kCPTPlainWhiteTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>gafe03a5ec2d0a2c236b5b2ae68927b4b6</Anchor>
+             </Node>
+             <Node>
+              <Name>kCPTSlateTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>ga13f6afa3e4abf27f50cf8798ba48f615</Anchor>
+             </Node>
+             <Node>
+              <Name>kCPTStocksTheme</Name>
+              <Path>group__theme_names.html</Path>
+              <Anchor>gad0fd9a9b2a53d2fe4f5ae1c8b580ecac</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTTheme.m</Name>
+            <Path>_c_p_t_theme_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>themes</Name>
+              <Path>_c_p_t_theme_8m.html</Path>
+              <Anchor>ad2e8309d9ffe5a6635f415a9f3a5e69a</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -5051,28 +5654,22 @@
             <Path>_c_p_t_time_formatter_8h.html</Path>
            </Node>
            <Node>
+            <Name>Source/CPTTimeFormatter.m</Name>
+            <Path>_c_p_t_time_formatter_8m.html</Path>
+           </Node>
+           <Node>
             <Name>Source/CPTTradingRangePlot.h</Name>
             <Path>_c_p_t_trading_range_plot_8h.html</Path>
             <Subnodes>
              <Node>
               <Name>CPTTradingRangePlotField</Name>
               <Path>_c_p_t_trading_range_plot_8h.html</Path>
-              <Anchor>a03306b6f525fa0e3d6ea8fd7596a0eee</Anchor>
+              <Anchor>a81f1f0a945c498402cfe046428777624</Anchor>
              </Node>
              <Node>
               <Name>CPTTradingRangePlotStyle</Name>
               <Path>_c_p_t_trading_range_plot_8h.html</Path>
-              <Anchor>a26d1a7fecc0486d22ae69e933933cf3d</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTTradingRangePlotField</Name>
-              <Path>_c_p_t_trading_range_plot_8h.html</Path>
-              <Anchor>af5498c798a16422354fd7161f0abaf06</Anchor>
-             </Node>
-             <Node>
-              <Name>_CPTTradingRangePlotStyle</Name>
-              <Path>_c_p_t_trading_range_plot_8h.html</Path>
-              <Anchor>a0cea22e1a88ce4421003beeb5cd4b66d</Anchor>
+              <Anchor>a45133c80b4a14e2720f25ebcc3d19ea9</Anchor>
              </Node>
              <Node>
               <Name>CPTTradingRangePlotBindingCloseValues</Name>
@@ -5097,6 +5694,37 @@
              <Node>
               <Name>CPTTradingRangePlotBindingXValues</Name>
               <Path>_c_p_t_trading_range_plot_8h.html</Path>
+              <Anchor>a19d17ef5e84a7a36c4c3fc05aa552348</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTTradingRangePlot.m</Name>
+            <Path>_c_p_t_trading_range_plot_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CPTTradingRangePlotBindingCloseValues</Name>
+              <Path>_c_p_t_trading_range_plot_8m.html</Path>
+              <Anchor>afc476a911fbf3eba1e7daf31ad5c5f27</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingHighValues</Name>
+              <Path>_c_p_t_trading_range_plot_8m.html</Path>
+              <Anchor>a306d6a52959ac8bea1230ef5305e8636</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingLowValues</Name>
+              <Path>_c_p_t_trading_range_plot_8m.html</Path>
+              <Anchor>a50d2cb897e004a1cf8d6af5635daaae0</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingOpenValues</Name>
+              <Path>_c_p_t_trading_range_plot_8m.html</Path>
+              <Anchor>a79233b77eb1664118f183720e60cf03a</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingXValues</Name>
+              <Path>_c_p_t_trading_range_plot_8m.html</Path>
               <Anchor>a19d17ef5e84a7a36c4c3fc05aa552348</Anchor>
              </Node>
             </Subnodes>
@@ -5367,6 +5995,354 @@
              </Node>
             </Subnodes>
            </Node>
+           <Node>
+            <Name>Source/CPTUtilities.m</Name>
+            <Path>_c_p_t_utilities_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>kCacheSize</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>ab28dee05417c39b7d6fe814e241e52a3</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTAlignIntegralPointToUserSpace</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>ac3d19ecc95afb616f52344ad45d8c3b3</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTAlignPointToUserSpace</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a0c8d770c2fa665ed305989b481333896</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTAlignRectToUserSpace</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a030acdcbf883d6a16e03258c48c8be19</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTAlignSizeToUserSpace</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a6d82f91117b62e8d17f0b289a2139a8a</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalAdd</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a985b63fe956e796f53954a568487b522</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalCGFloatValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a4cbe3c7b322be2c7fdbe445c1af9b87f</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalCharValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>af1b1773a3749df0597fcdfaca9a93718</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalDivide</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a59d907ee85b5444b8d8f1582dbe130f9</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalDoubleValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a5ed2ce247bc38d2b436ddb5db5f956a0</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalEquals</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>aa0dcfeef1561c28740019f72f9405526</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFloatValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>ae975df8171015ce0f466726e71f26f0d</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromCGFloat</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>ad1a6f7e9240714fecd7ff35661cd1dc6</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromChar</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a81353fb234909d9b7d491210b904f6f4</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromDouble</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a276093946edc6466a5886b116860c2ac</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromFloat</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a0f6ee8401b3f93ded7b132adbda639e7</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromInt</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a1e357f0a18b4d94f218b8a8afeeb3162</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromInteger</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>ac76a8b7404db9f17124e10f3c2d2c715</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromLong</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a7c08754252c04cf22bb375793048e137</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromLongLong</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>ab7d7b876754072c9c41bbbf6890a901a</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromShort</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a18f20748526508d138192c75f490ccdd</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromString</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>ae35782b504e6aa284cc322a40bb5a2fd</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromUnsignedChar</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a059a5020dcbf6d62ce772002e29a8e18</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromUnsignedInt</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>adb5c145464ebbc87bef7b33f2431fdc3</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromUnsignedInteger</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a1970a76e2fccbfcf42c75b6f919220f0</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromUnsignedLong</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a9e0de85cd00d4e874b64037f4c6ca900</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromUnsignedLongLong</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>aef8f88dc07c2d46150198b4d13618308</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalFromUnsignedShort</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a2964d83bf11ac682a07702c466d7d147</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalGreaterThan</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a7e3a75ad957c6a27143640ecf12de2d9</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalGreaterThanOrEqualTo</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>af4e45c66f5240be4a5c9008b9843ce28</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalIntegerValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a72d99fc7ddcdc1006e5e49108d0cd809</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalIntValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a9df871890b9cedb5cae4787775e17252</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalLessThan</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a4cbfa11dc195d68b2676ac45b50977d8</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalLessThanOrEqualTo</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>ad6d13568d3edab7885529a7aeaff9b8f</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalLongLongValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a63cff45777b63382e57cb735018a9a38</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalLongValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>aa77e18a004fab76d1bffa9cb602977b3</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalMultiply</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a66a98d0312337dd95a4f67356d773631</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalNaN</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a60c0cc1078e99634848563d9e69f4efc</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalShortValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>af541b78435bd6954522ea69d59e0549b</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalStringValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a5b35d9676fb874067f556ace3e0e1455</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalSubtract</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a397872f689275f5db199097a5a4bf8ee</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalUnsignedCharValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a72a99bddbab76461d4f2e3b741aab535</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalUnsignedIntegerValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>af9a02673f40413173f4ed6915a107362</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalUnsignedIntValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>adcbdbd10791c880ee51e1c1e47929df1</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalUnsignedLongLongValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>aac297dcc70a6e086654339da0e626a5c</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalUnsignedLongValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a9cde6ebaf91c8fe7f90c0550734586a0</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTDecimalUnsignedShortValue</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a00cd4fa9bc439191406e291fcc1d73cb</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTExpandedRange</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a794f89cd14d4cfb21bf8c050b2df8237</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTOrthogonalCoordinate</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>afeb1ea1e2d6486b67ef47c4bf8e3661f</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRGBAColorFromCGColor</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a344d9cc450b8f69583b387bc0c5d29cd</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTStringFromPoint</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>aedaaa162648bc0dc9f186998fdd67dbb</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTStringFromRect</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a4fe15dc4f56e08d4cb0e6e0480f7a72d</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTStringFromSize</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>adcdd93e329eee9eba136f27ddc2c735f</Anchor>
+             </Node>
+             <Node>
+              <Name>cache</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a3f9109bf255b12c464df2ab0503d8c23</Anchor>
+             </Node>
+             <Node>
+              <Name>cacheValueInitialized</Name>
+              <Path>_c_p_t_utilities_8m.html</Path>
+              <Anchor>a74eae8e1621de40f546fe73db535fc0e</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/CPTXYAxis.h</Name>
+            <Path>_c_p_t_x_y_axis_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTXYAxis.m</Name>
+            <Path>_c_p_t_x_y_axis_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTXYAxisSet.h</Name>
+            <Path>_c_p_t_x_y_axis_set_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTXYAxisSet.m</Name>
+            <Path>_c_p_t_x_y_axis_set_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTXYGraph.h</Name>
+            <Path>_c_p_t_x_y_graph_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTXYGraph.m</Name>
+            <Path>_c_p_t_x_y_graph_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTXYPlotSpace.h</Name>
+            <Path>_c_p_t_x_y_plot_space_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTXYPlotSpace.m</Name>
+            <Path>_c_p_t_x_y_plot_space_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/mainpage.h</Name>
+            <Path>mainpage_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/NSCoderExtensions.h</Name>
+            <Path>_n_s_coder_extensions_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/NSCoderExtensions.m</Name>
+            <Path>_n_s_coder_extensions_8m.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>MyCGPathApplierFunc</Name>
+              <Path>_n_s_coder_extensions_8m.html</Path>
+              <Anchor>a6acc7e360c758ed3ba6dc2a12ceebe3b</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Source/NSDecimalNumberExtensions.h</Name>
+            <Path>_n_s_decimal_number_extensions_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/NSDecimalNumberExtensions.m</Name>
+            <Path>_n_s_decimal_number_extensions_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/NSNumberExtensions.h</Name>
+            <Path>_n_s_number_extensions_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/NSNumberExtensions.m</Name>
+            <Path>_n_s_number_extensions_8m.html</Path>
+           </Node>
           </Subnodes>
          </Node>
          <Node>
@@ -5420,6 +6396,10 @@
              <Node>
               <Name>l</Name>
               <Path>globals_0x6c.html</Path>
+             </Node>
+             <Node>
+              <Name>m</Name>
+              <Path>globals_0x6d.html</Path>
              </Node>
              <Node>
               <Name>n</Name>

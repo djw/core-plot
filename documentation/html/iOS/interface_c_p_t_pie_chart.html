@@ -85,6 +85,8 @@
 <!-- doxytag: class="CPTPieChart" --><!-- doxytag: inherits="CPTPlot" -->
 <p>A pie chart.  
  <a href="interface_c_p_t_pie_chart.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_pie_chart_8h_source.html">CPTPieChart.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTPieChart:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -111,29 +113,30 @@ Public Class Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Factory Methods</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_color.html">CPTColor</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_c_p_t_pie_chart.html#ad2efbb8005aebd12a9801a54edacf1ea">defaultPieSliceColorForIndex:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a <a class="el" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a> that acts as the default color for that pie chart index.  <a href="#ad2efbb8005aebd12a9801a54edacf1ea"></a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a921a8ed64d495233f8ce420f2f69067b"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_pie_chart.html#ac6d95068f152d9e5d8aa076443859544">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.  <a href="#ac6d95068f152d9e5d8aa076443859544"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6bae24e928917347230bab548418ceea"></a><!-- doxytag: member="CPTPieChart::pieRadius" ref="ga6bae24e928917347230bab548418ceea" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea">pieRadius</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The radius of the overall pie chart. Defaults to 80% of the initial frame size. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaaf477318b2ce1ad016c532d386b5379e"></a><!-- doxytag: member="CPTPieChart::pieInnerRadius" ref="gaaf477318b2ce1ad016c532d386b5379e" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e">pieInnerRadius</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The inner radius of the pie chart, used to create a "donut hole". Defaults to 0. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga139122421a061b2ca1622bdebca5b1c3"></a><!-- doxytag: member="CPTPieChart::startAngle" ref="ga139122421a061b2ca1622bdebca5b1c3" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#ga139122421a061b2ca1622bdebca5b1c3">startAngle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting angle for the first slice in radians. Defaults to π/2. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0218003271a042fe4f1d81df50f3bd1"></a><!-- doxytag: member="CPTPieChart::sliceDirection" ref="ad0218003271a042fe4f1d81df50f3bd1" args="" -->
-<a class="el" href="_c_p_t_pie_chart_8h.html#ab1e032df0b818478c893aaa61d4de1eb">CPTPieDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#ad0218003271a042fe4f1d81df50f3bd1">sliceDirection</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the starting point. Defaults to clockwise. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4c665d1eb7b562f8ced08a62d980ee2c"></a><!-- doxytag: member="CPTPieChart::centerAnchor" ref="ga4c665d1eb7b562f8ced08a62d980ee2c" args="" -->
-<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c">centerAnchor</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the center of the pie chart with the x and y coordinates given as a fraction of the width and height, respectively. Defaults to (0.5, 0.5). <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad42ce799d20617a6c9a8879aea31fbb3"></a><!-- doxytag: member="CPTPieChart::borderLineStyle" ref="ad42ce799d20617a6c9a8879aea31fbb3" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3">borderLineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style used to outline the pie slices. If nil, no border is drawn. Defaults to nil. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25deafa6f8e629789652c90789f19b51"></a><!-- doxytag: member="CPTPieChart::overlayFill" ref="a25deafa6f8e629789652c90789f19b51" args="" -->
-<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51">overlayFill</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">A fill drawn on top of the pie chart. Can be used to add shading/gloss effects. Defaults to nil. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea">pieRadius</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The radius of the overall pie chart. Defaults to 80% of the initial frame size.  <a href="group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e">pieInnerRadius</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The inner radius of the pie chart, used to create a "donut hole". Defaults to 0.  <a href="group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#ga139122421a061b2ca1622bdebca5b1c3">startAngle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting angle for the first slice in radians. Defaults to π/2.  <a href="group__plot_animation_pie_chart.html#ga139122421a061b2ca1622bdebca5b1c3"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1">CPTPieDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#ad0218003271a042fe4f1d81df50f3bd1">sliceDirection</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the starting point. Defaults to clockwise.  <a href="#ad0218003271a042fe4f1d81df50f3bd1"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c">centerAnchor</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the center of the pie chart with the x and y coordinates given as a fraction of the width and height, respectively. Defaults to (0.5, 0.5).  <a href="group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3">borderLineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style used to outline the pie slices. If <code>nil</code>, no border is drawn. Defaults to <code>nil</code>.  <a href="#ad42ce799d20617a6c9a8879aea31fbb3"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51">overlayFill</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">A fill drawn on top of the pie chart. Can be used to add shading and/or gloss effects. Defaults to <code>nil</code>.  <a href="#a25deafa6f8e629789652c90789f19b51"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A pie chart. </p>
@@ -165,9 +168,130 @@ CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 
 </div>
 </div>
+<a class="anchor" id="a921a8ed64d495233f8ce420f2f69067b"></a><!-- doxytag: member="CPTPieChart::initWithFrame:" ref="a921a8ed64d495233f8ce420f2f69067b" args="(CGRect newFrame)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b">initWithFrame:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>newFrame</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<ul>
+<li>needsDisplayOnBoundsChange = NO</li>
+<li>opaque = NO</li>
+<li>masksToBounds = NO</li>
+<li>padding = 0 on all four sides</li>
+<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6d95068f152d9e5d8aa076443859544"></a><!-- doxytag: member="CPTPieChart::pointingDeviceDownEvent:atPoint:" ref="ac6d95068f152d9e5d8aa076443859544" args="(id event,[atPoint] CGPoint interactionPoint)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) pointingDeviceDownEvent: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td>
+          <td class="paramname"><em>event</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">atPoint:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td>
+          <td class="paramname"><em>interactionPoint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>Native event object of device. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the event was handled or not. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a2d6014b2ef18d540a36f69e63fbb5382">CPTLayer</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="ad42ce799d20617a6c9a8879aea31fbb3"></a><!-- doxytag: member="CPTPieChart::borderLineStyle" ref="ad42ce799d20617a6c9a8879aea31fbb3" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPieChart:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style used to outline the pie slices. If <code>nil</code>, no border is drawn. Defaults to <code>nil</code>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a25deafa6f8e629789652c90789f19b51"></a><!-- doxytag: member="CPTPieChart::overlayFill" ref="a25deafa6f8e629789652c90789f19b51" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPieChart:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>A fill drawn on top of the pie chart. Can be used to add shading and/or gloss effects. Defaults to <code>nil</code>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad0218003271a042fe4f1d81df50f3bd1"></a><!-- doxytag: member="CPTPieChart::sliceDirection" ref="ad0218003271a042fe4f1d81df50f3bd1" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPieChart:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the starting point. Defaults to clockwise. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_pie_chart_8h_source.html">CPTPieChart.h</a></li>
-<li>Source/CPTPieChart.m</li>
+<li>Source/<a class="el" href="_c_p_t_pie_chart_8m.html">CPTPieChart.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

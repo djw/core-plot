@@ -85,6 +85,8 @@
 <!-- doxytag: class="CPTBarPlot" --><!-- doxytag: inherits="CPTPlot" -->
 <p>A two-dimensional bar plot.  
  <a href="interface_c_p_t_bar_plot.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_bar_plot_8h_source.html">CPTBarPlot.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTBarPlot:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -111,40 +113,38 @@ Public Class Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Factory Methods</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_bar_plot.html">CPTBarPlot</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_c_p_t_bar_plot.html#ac12f1fb03d8762d6e718acb0a2cd077f">tubularBarPlotWithColor:horizontalBars:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a new <a class="el" href="interface_c_p_t_bar_plot.html" title="A two-dimensional bar plot.">CPTBarPlot</a> instance initialized with a bar fill consisting of a linear gradient between black and the given color.  <a href="#ac12f1fb03d8762d6e718acb0a2cd077f"></a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a7029fe2b567b5a4ea9349889e4e17393"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_bar_plot.html#a2a84fda9ac02edf293d51f264436a4f6">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.  <a href="#a2a84fda9ac02edf293d51f264436a4f6"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d1abb45a60f9daa990b9ea7d68d17f7"></a><!-- doxytag: member="CPTBarPlot::barWidthsAreInViewCoordinates" ref="a9d1abb45a60f9daa990b9ea7d68d17f7" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#a9d1abb45a60f9daa990b9ea7d68d17f7">barWidthsAreInViewCoordinates</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the bar width and bar offset is in view coordinates, or in plot coordinates. Default is NO, meaning plot coordinates are used. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#a9d1abb45a60f9daa990b9ea7d68d17f7">barWidthsAreInViewCoordinates</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the bar width and bar offset is in view coordinates, or in plot coordinates. Default is NO, meaning plot coordinates are used.  <a href="#a9d1abb45a60f9daa990b9ea7d68d17f7"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#a82f1434ff5a5b98ef005dca5feee1572">barWidth</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The width of each bar. Either view or plot coordinates can be used.  <a href="#a82f1434ff5a5b98ef005dca5feee1572"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9ccd0b2ed6a06298e6f4585bf3e95279"></a><!-- doxytag: member="CPTBarPlot::barWidthScale" ref="ga9ccd0b2ed6a06298e6f4585bf3e95279" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_bar_plot.html#ga9ccd0b2ed6a06298e6f4585bf3e95279">barWidthScale</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An animatable scaling factor for the bar width. Default is 1.0. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2f71205bdb735ddc2abaebb3e56ff75"></a><!-- doxytag: member="CPTBarPlot::barOffset" ref="aa2f71205bdb735ddc2abaebb3e56ff75" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#aa2f71205bdb735ddc2abaebb3e56ff75">barOffset</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting offset of the first bar in location data units. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacf7d5567082b089e0ddcc5664eecb0db"></a><!-- doxytag: member="CPTBarPlot::barOffsetScale" ref="gacf7d5567082b089e0ddcc5664eecb0db" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_bar_plot.html#gacf7d5567082b089e0ddcc5664eecb0db">barOffsetScale</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An animatable scaling factor for the bar offset. Default is 1.0. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga880361dd6ad4a3e7f1c26f56c7ed84cd"></a><!-- doxytag: member="CPTBarPlot::barCornerRadius" ref="ga880361dd6ad4a3e7f1c26f56c7ed84cd" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_bar_plot.html#ga880361dd6ad4a3e7f1c26f56c7ed84cd">barCornerRadius</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The corner radius for the end of the bars. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada02529fb454bde898da35acaba1ed83"></a><!-- doxytag: member="CPTBarPlot::lineStyle" ref="ada02529fb454bde898da35acaba1ed83" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#ada02529fb454bde898da35acaba1ed83">lineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the bar outline. If nil, the outline is not drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38eeae57017ee0081117b0f1947da3ef"></a><!-- doxytag: member="CPTBarPlot::fill" ref="a38eeae57017ee0081117b0f1947da3ef" args="" -->
-<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#a38eeae57017ee0081117b0f1947da3ef">fill</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The fill style for the bars. If nil, the bars are not filled. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad1734ee6979130d887f2a95cd5081a83"></a><!-- doxytag: member="CPTBarPlot::barsAreHorizontal" ref="ad1734ee6979130d887f2a95cd5081a83" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#ad1734ee6979130d887f2a95cd5081a83">barsAreHorizontal</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If YES, the bars will have a horizontal orientation, otherwise they will be vertical. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a61030b1cf4e726b5d9a67a07b8c78a89"></a><!-- doxytag: member="CPTBarPlot::baseValue" ref="a61030b1cf4e726b5d9a67a07b8c78a89" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#a61030b1cf4e726b5d9a67a07b8c78a89">baseValue</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The coordinate value of the fixed end of the bars. This is only used if barsHaveVariableBases is NO. Otherwise, the data source will be queried for an appropriate value of CPTBarPlotFieldBarBase. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abbd260f801d950fd944638b757597b06"></a><!-- doxytag: member="CPTBarPlot::barBasesVary" ref="abbd260f801d950fd944638b757597b06" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#abbd260f801d950fd944638b757597b06">barBasesVary</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If YES, a constant base value is used for all bars (baseValue). If NO, the data source is queried to supply a base value for each bar. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_bar_plot.html#ga9ccd0b2ed6a06298e6f4585bf3e95279">barWidthScale</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An animatable scaling factor for the bar width. Default is 1.0.  <a href="group__plot_animation_bar_plot.html#ga9ccd0b2ed6a06298e6f4585bf3e95279"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#aa2f71205bdb735ddc2abaebb3e56ff75">barOffset</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting offset of the first bar in location data units.  <a href="#aa2f71205bdb735ddc2abaebb3e56ff75"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_bar_plot.html#gacf7d5567082b089e0ddcc5664eecb0db">barOffsetScale</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An animatable scaling factor for the bar offset. Default is 1.0.  <a href="group__plot_animation_bar_plot.html#gacf7d5567082b089e0ddcc5664eecb0db"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_bar_plot.html#ga880361dd6ad4a3e7f1c26f56c7ed84cd">barCornerRadius</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The corner radius for the end of the bars.  <a href="group__plot_animation_bar_plot.html#ga880361dd6ad4a3e7f1c26f56c7ed84cd"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#ada02529fb454bde898da35acaba1ed83">lineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the bar outline. If <code>nil</code>, the outline is not drawn.  <a href="#ada02529fb454bde898da35acaba1ed83"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#a38eeae57017ee0081117b0f1947da3ef">fill</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The fill style for the bars. If <code>nil</code>, the bars are not filled.  <a href="#a38eeae57017ee0081117b0f1947da3ef"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#ad1734ee6979130d887f2a95cd5081a83">barsAreHorizontal</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If YES, the bars will have a horizontal orientation, otherwise they will be vertical.  <a href="#ad1734ee6979130d887f2a95cd5081a83"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#a61030b1cf4e726b5d9a67a07b8c78a89">baseValue</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The coordinate value of the fixed end of the bars. This is only used if <a class="el" href="interface_c_p_t_bar_plot.html#abbd260f801d950fd944638b757597b06">barBasesVary </a> is NO. Otherwise, the data source will be queried for an appropriate value of <a class="el" href="_c_p_t_bar_plot_8h.html#ac9223627a0d5be7eb36b29bcf80ca0b9aee601b2ab3022b908f2478c8a8e54b77" title="Bar base (used only if barBasesVary is YES).">CPTBarPlotFieldBarBase</a>.  <a href="#a61030b1cf4e726b5d9a67a07b8c78a89"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#abbd260f801d950fd944638b757597b06">barBasesVary</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If NO, a constant base value is used for all bars. If YES, the data source is queried to supply a base value for each bar.  <a href="#abbd260f801d950fd944638b757597b06"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bar_plot.html#afbe47324c211948bcc6554f44cba9740">plotRange</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the plot range for the independent axis.  <a href="#afbe47324c211948bcc6554f44cba9740"></a><br/></td></tr>
 </table>
@@ -154,6 +154,81 @@ CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="g
 <dd>
 See <a class="el" href="group__plot_bindings_bar_plot.html">Bar Plot Bindings</a> for a list of supported binding identifiers. </dd></dl>
 </div><hr/><h2>Method Documentation</h2>
+<a class="anchor" id="a7029fe2b567b5a4ea9349889e4e17393"></a><!-- doxytag: member="CPTBarPlot::initWithFrame:" ref="a7029fe2b567b5a4ea9349889e4e17393" args="(CGRect newFrame)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393">initWithFrame:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>newFrame</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<ul>
+<li>needsDisplayOnBoundsChange = NO</li>
+<li>opaque = NO</li>
+<li>masksToBounds = NO</li>
+<li>padding = 0 on all four sides</li>
+<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2a84fda9ac02edf293d51f264436a4f6"></a><!-- doxytag: member="CPTBarPlot::pointingDeviceDownEvent:atPoint:" ref="a2a84fda9ac02edf293d51f264436a4f6" args="(id event,[atPoint] CGPoint interactionPoint)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) pointingDeviceDownEvent: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td>
+          <td class="paramname"><em>event</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">atPoint:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td>
+          <td class="paramname"><em>interactionPoint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>Native event object of device. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the event was handled or not. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a2d6014b2ef18d540a36f69e63fbb5382">CPTLayer</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ac12f1fb03d8762d6e718acb0a2cd077f"></a><!-- doxytag: member="CPTBarPlot::tubularBarPlotWithColor:horizontalBars:" ref="ac12f1fb03d8762d6e718acb0a2cd077f" args="(CPTColor *color,[horizontalBars] BOOL horizontal)" -->
 <div class="memitem">
 <div class="memproto">
@@ -192,6 +267,52 @@ See <a class="el" href="group__plot_bindings_bar_plot.html">Bar Plot Bindings</a
 </div>
 </div>
 <hr/><h2>Property Documentation</h2>
+<a class="anchor" id="abbd260f801d950fd944638b757597b06"></a><!-- doxytag: member="CPTBarPlot::barBasesVary" ref="abbd260f801d950fd944638b757597b06" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTBarPlot:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>If NO, a constant base value is used for all bars. If YES, the data source is queried to supply a base value for each bar. </p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="interface_c_p_t_bar_plot.html#a61030b1cf4e726b5d9a67a07b8c78a89" title="The coordinate value of the fixed end of the bars. This is only used if barBasesVary  is NO...">baseValue</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa2f71205bdb735ddc2abaebb3e56ff75"></a><!-- doxytag: member="CPTBarPlot::barOffset" ref="aa2f71205bdb735ddc2abaebb3e56ff75" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTBarPlot:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The starting offset of the first bar in location data units. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad1734ee6979130d887f2a95cd5081a83"></a><!-- doxytag: member="CPTBarPlot::barsAreHorizontal" ref="ad1734ee6979130d887f2a95cd5081a83" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTBarPlot:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>If YES, the bars will have a horizontal orientation, otherwise they will be vertical. </p>
+
+</div>
+</div>
 <a class="anchor" id="a82f1434ff5a5b98ef005dca5feee1572"></a><!-- doxytag: member="CPTBarPlot::barWidth" ref="a82f1434ff5a5b98ef005dca5feee1572" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -209,6 +330,66 @@ See <a class="el" href="group__plot_bindings_bar_plot.html">Bar Plot Bindings</a
 
 </div>
 </div>
+<a class="anchor" id="a9d1abb45a60f9daa990b9ea7d68d17f7"></a><!-- doxytag: member="CPTBarPlot::barWidthsAreInViewCoordinates" ref="a9d1abb45a60f9daa990b9ea7d68d17f7" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTBarPlot:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Whether the bar width and bar offset is in view coordinates, or in plot coordinates. Default is NO, meaning plot coordinates are used. </p>
+
+</div>
+</div>
+<a class="anchor" id="a61030b1cf4e726b5d9a67a07b8c78a89"></a><!-- doxytag: member="CPTBarPlot::baseValue" ref="a61030b1cf4e726b5d9a67a07b8c78a89" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTBarPlot:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The coordinate value of the fixed end of the bars. This is only used if <a class="el" href="interface_c_p_t_bar_plot.html#abbd260f801d950fd944638b757597b06">barBasesVary </a> is NO. Otherwise, the data source will be queried for an appropriate value of <a class="el" href="_c_p_t_bar_plot_8h.html#ac9223627a0d5be7eb36b29bcf80ca0b9aee601b2ab3022b908f2478c8a8e54b77" title="Bar base (used only if barBasesVary is YES).">CPTBarPlotFieldBarBase</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a38eeae57017ee0081117b0f1947da3ef"></a><!-- doxytag: member="CPTBarPlot::fill" ref="a38eeae57017ee0081117b0f1947da3ef" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTBarPlot:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The fill style for the bars. If <code>nil</code>, the bars are not filled. </p>
+
+</div>
+</div>
+<a class="anchor" id="ada02529fb454bde898da35acaba1ed83"></a><!-- doxytag: member="CPTBarPlot::lineStyle" ref="ada02529fb454bde898da35acaba1ed83" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTBarPlot:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style for the bar outline. If <code>nil</code>, the outline is not drawn. </p>
+
+</div>
+</div>
 <a class="anchor" id="afbe47324c211948bcc6554f44cba9740"></a><!-- doxytag: member="CPTBarPlot::plotRange" ref="afbe47324c211948bcc6554f44cba9740" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -221,13 +402,13 @@ See <a class="el" href="group__plot_bindings_bar_plot.html">Bar Plot Bindings</a
 <div class="memdoc">
 
 <p>Sets the plot range for the independent axis. </p>
-<p>If a plot range is provided, the bars are spaced evenly throughout the plot range. If plotRange is nil, bar locations are provided by Cocoa bindings or the bar plot datasource. If locations are not provided by either bindings or the datasource, the first bar will be placed at zero (0) and subsequent bars will be at successive positive integer coordinates. </p>
+<p>If a plot range is provided, the bars are spaced evenly throughout the plot range. If <a class="el" href="interface_c_p_t_bar_plot.html#afbe47324c211948bcc6554f44cba9740">plotRange </a> is <code>nil</code>, bar locations are provided by Cocoa bindings or the bar plot datasource. If locations are not provided by either bindings or the datasource, the first bar will be placed at zero (0) and subsequent bars will be at successive positive integer coordinates. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_bar_plot_8h_source.html">CPTBarPlot.h</a></li>
-<li>Source/CPTBarPlot.m</li>
+<li>Source/<a class="el" href="_c_p_t_bar_plot_8m.html">CPTBarPlot.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

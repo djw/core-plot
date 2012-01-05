@@ -83,6 +83,8 @@
 <!-- doxytag: class="CPTMutablePlotRange" --><!-- doxytag: inherits="CPTPlotRange" -->
 <p>Defines a mutable range of plot data.  
  <a href="interface_c_p_t_mutable_plot_range.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_mutable_plot_range_8h_source.html">CPTMutablePlotRange.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTMutablePlotRange:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -122,12 +124,10 @@ Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Range Limits</div></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0b080bf56b8830c38cfe13288b1c874"></a><!-- doxytag: member="CPTMutablePlotRange::location" ref="ac0b080bf56b8830c38cfe13288b1c874" args="" -->
-<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_plot_range.html#ac0b080bf56b8830c38cfe13288b1c874">location</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting value of the range. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8af4c39b1f09fc3b3f68f4183960825c"></a><!-- doxytag: member="CPTMutablePlotRange::length" ref="a8af4c39b1f09fc3b3f68f4183960825c" args="" -->
-<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_plot_range.html#a8af4c39b1f09fc3b3f68f4183960825c">length</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of the range. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_plot_range.html#ac0b080bf56b8830c38cfe13288b1c874">location</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting value of the range.  <a href="#ac0b080bf56b8830c38cfe13288b1c874"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_plot_range.html#a8af4c39b1f09fc3b3f68f4183960825c">length</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of the range.  <a href="#a8af4c39b1f09fc3b3f68f4183960825c"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Defines a mutable range of plot data. </p>
@@ -258,9 +258,44 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="a8af4c39b1f09fc3b3f68f4183960825c"></a><!-- doxytag: member="CPTMutablePlotRange::length" ref="a8af4c39b1f09fc3b3f68f4183960825c" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutablePlotRange:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The length of the range. </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_plot_range.html#a079301917de2e7c77155cea95f6bb93c">CPTPlotRange</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac0b080bf56b8830c38cfe13288b1c874"></a><!-- doxytag: member="CPTMutablePlotRange::location" ref="ac0b080bf56b8830c38cfe13288b1c874" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutablePlotRange:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The starting value of the range. </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_plot_range.html#a4a08297f54ea2d501bd8746f77f06d75">CPTPlotRange</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_mutable_plot_range_8h_source.html">CPTMutablePlotRange.h</a></li>
-<li>Source/CPTMutablePlotRange.m</li>
+<li>Source/<a class="el" href="_c_p_t_mutable_plot_range_8m.html">CPTMutablePlotRange.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

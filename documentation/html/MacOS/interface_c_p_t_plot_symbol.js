@@ -6,6 +6,7 @@ var interface_c_p_t_plot_symbol =
     [ "diamondPlotSymbol", "interface_c_p_t_plot_symbol.html#a111def02bb8eea47521fc85adafad4a9", null ],
     [ "ellipsePlotSymbol", "interface_c_p_t_plot_symbol.html#a6c94ea057bb768f43cdd4174b94877ef", null ],
     [ "hexagonPlotSymbol", "interface_c_p_t_plot_symbol.html#a0221521330d08dbac22401a0f82857ac", null ],
+    [ "newSymbolPath", "interface_c_p_t_plot_symbol.html#aea182b736e8e5828223339ecbaf53d43", null ],
     [ "pentagonPlotSymbol", "interface_c_p_t_plot_symbol.html#aff2e05a3db2a505ff2cce92270e61500", null ],
     [ "plotSymbol", "interface_c_p_t_plot_symbol.html#a5b5b57210487af1251c442a8101b77e2", null ],
     [ "plusPlotSymbol", "interface_c_p_t_plot_symbol.html#a8d7149c060cd1457d417a03d3bdacae0", null ],

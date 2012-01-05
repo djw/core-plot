@@ -85,6 +85,8 @@
 <!-- doxytag: class="CPTXYAxisSet" --><!-- doxytag: inherits="CPTAxisSet" -->
 <p>A set of cartesian (X-Y) axes.  
  <a href="interface_c_p_t_x_y_axis_set.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_x_y_axis_set_8h_source.html">CPTXYAxisSet.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTXYAxisSet:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -106,20 +108,91 @@
 
 <p><a href="class_c_p_t_x_y_axis_set-members.html">List of all members.</a></p>
 <table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_axis_set.html#a26b081432a8e55ae4decedc546201fb7">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a26b081432a8e55ae4decedc546201fb7"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af488a3244f81315bf3be52ee775db104"></a><!-- doxytag: member="CPTXYAxisSet::xAxis" ref="af488a3244f81315bf3be52ee775db104" args="" -->
-<a class="el" href="interface_c_p_t_x_y_axis.html">CPTXYAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_axis_set.html#af488a3244f81315bf3be52ee775db104">xAxis</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The x-axis. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a297f2b923873c052966b448b26d5fa94"></a><!-- doxytag: member="CPTXYAxisSet::yAxis" ref="a297f2b923873c052966b448b26d5fa94" args="" -->
-<a class="el" href="interface_c_p_t_x_y_axis.html">CPTXYAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_axis_set.html#a297f2b923873c052966b448b26d5fa94">yAxis</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The y-axis. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_x_y_axis.html">CPTXYAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_axis_set.html#a776a769b5127c0105c92908124d40ad8">xAxis</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The x-axis.  <a href="#a776a769b5127c0105c92908124d40ad8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_x_y_axis.html">CPTXYAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_axis_set.html#ac3aebb225f7c85d743369575db5b15ac">yAxis</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The y-axis.  <a href="#ac3aebb225f7c85d743369575db5b15ac"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A set of cartesian (X-Y) axes. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><hr/><h2>Method Documentation</h2>
+<a class="anchor" id="a26b081432a8e55ae4decedc546201fb7"></a><!-- doxytag: member="CPTXYAxisSet::initWithFrame:" ref="a26b081432a8e55ae4decedc546201fb7" args="(CGRect newFrame)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_x_y_axis_set.html#a26b081432a8e55ae4decedc546201fb7">initWithFrame:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>newFrame</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<ul>
+<li>needsDisplayOnBoundsChange = NO</li>
+<li>opaque = NO</li>
+<li>masksToBounds = NO</li>
+<li>padding = 0 on all four sides</li>
+<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_axis_set.html#af1b1939683cc055a4489fabdc6c43066">CPTAxisSet</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="a776a769b5127c0105c92908124d40ad8"></a><!-- doxytag: member="CPTXYAxisSet::xAxis" ref="a776a769b5127c0105c92908124d40ad8" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTXYAxisSet:<code> [read, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The x-axis. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac3aebb225f7c85d743369575db5b15ac"></a><!-- doxytag: member="CPTXYAxisSet::yAxis" ref="ac3aebb225f7c85d743369575db5b15ac" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTXYAxisSet:<code> [read, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The y-axis. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_x_y_axis_set_8h_source.html">CPTXYAxisSet.h</a></li>
-<li>Source/CPTXYAxisSet.m</li>
+<li>Source/<a class="el" href="_c_p_t_x_y_axis_set_8m.html">CPTXYAxisSet.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

@@ -83,6 +83,8 @@
 <!-- doxytag: class="CPTAxis" --><!-- doxytag: inherits="CPTLayer" -->
 <p>An abstract axis class.  
  <a href="interface_c_p_t_axis.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_axis_8h_source.html">CPTAxis.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTAxis:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -111,182 +113,136 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any major ticks falling inside the label exclusion ranges from the set of tick locations.  <a href="#a57f71a8b45765ab6fe353d8311a37ee1"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a00bf088cb31b8068b5e369a00d55c270">filteredMinorTickLocations:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any minor ticks falling inside the label exclusion ranges from the set of tick locations.  <a href="#a00bf088cb31b8068b5e369a00d55c270"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a16baaf9ca6edb23fe543f48bb15054b8">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a16baaf9ca6edb23fe543f48bb15054b8"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Coordinate Space Conversions</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#af25bf15f120918facdcd1a73ff0f963c">viewPointForCoordinateDecimalNumber:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a position on the axis to drawing coordinates.  <a href="#af25bf15f120918facdcd1a73ff0f963c"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Axis</div></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3fba6b558c6c3fe8bd10264dc15794ce"></a><!-- doxytag: member="CPTAxis::axisLineStyle" ref="a3fba6b558c6c3fe8bd10264dc15794ce" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a3fba6b558c6c3fe8bd10264dc15794ce">axisLineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the axis line. If nil, the line is not drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa6e872f306f70db0e5cda87f55043ac"></a><!-- doxytag: member="CPTAxis::coordinate" ref="afa6e872f306f70db0e5cda87f55043ac" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#a10709b6abd0a9ee1769345ef51b2fcd7">CPTCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#afa6e872f306f70db0e5cda87f55043ac">coordinate</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis coordinate. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1820c3096af3c8afeb21db0d06076293"></a><!-- doxytag: member="CPTAxis::labelingOrigin" ref="a1820c3096af3c8afeb21db0d06076293" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a1820c3096af3c8afeb21db0d06076293">labelingOrigin</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The origin used for axis labels. The default value is 0. It is only used when the axis labeling policy is CPTAxisLabelingPolicyFixedInterval. The origin is a reference point used to being labeling. Labels are added at the origin, as well as at fixed intervals above and below the origin. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab913b480a46cdc157b7950f64b45fd19"></a><!-- doxytag: member="CPTAxis::tickDirection" ref="ab913b480a46cdc157b7950f64b45fd19" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#a29f56cced59c093e06eb5abf9be95c35">CPTSign</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ab913b480a46cdc157b7950f64b45fd19">tickDirection</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The tick direction. The direction is given as the sign that ticks extend along the axis (e.g., positive, or negative). <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae087326fdfc51acf12e343b28bce80c7"></a><!-- doxytag: member="CPTAxis::visibleRange" ref="ae087326fdfc51acf12e343b28bce80c7" args="" -->
-<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ae087326fdfc51acf12e343b28bce80c7">visibleRange</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot range over which the axis and ticks are visible. Use this to restrict an axis to less than the full plot area width. Set to nil for no restriction. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a3fba6b558c6c3fe8bd10264dc15794ce">axisLineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the axis line. If <code>nil</code>, the line is not drawn.  <a href="#a3fba6b558c6c3fe8bd10264dc15794ce"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b">CPTCoordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#afa6e872f306f70db0e5cda87f55043ac">coordinate</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis coordinate.  <a href="#afa6e872f306f70db0e5cda87f55043ac"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a1820c3096af3c8afeb21db0d06076293">labelingOrigin</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The origin used for axis labels. The default value is 0. It is only used when the axis labeling policy is <a class="el" href="_c_p_t_axis_8h.html#adb9e6ab73e0d2fb79203215861166e6bad4f5b93c9ba53d283bd20624c74d81ca" title="Fixed interval labeling policy.">CPTAxisLabelingPolicyFixedInterval</a>. The origin is a reference point used to being labeling. Labels are added at the origin, as well as at fixed intervals above and below the origin.  <a href="#a1820c3096af3c8afeb21db0d06076293"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#a3785add118c53a68c6a1838078e17cc5">CPTSign</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ab913b480a46cdc157b7950f64b45fd19">tickDirection</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The tick direction. The direction is given as the sign that ticks extend along the axis (e.g., positive or negative).  <a href="#ab913b480a46cdc157b7950f64b45fd19"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ae087326fdfc51acf12e343b28bce80c7">visibleRange</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot range over which the axis and ticks are visible. Use this to restrict an axis to less than the full plot area width. Set to <code>nil</code> for no restriction.  <a href="#ae087326fdfc51acf12e343b28bce80c7"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_cap.html">CPTLineCap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a6a305298938dcce2f406f5a75aadd452">axisLineCapMin</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line cap for the end of the axis line with the minimum value.  <a href="#a6a305298938dcce2f406f5a75aadd452"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_cap.html">CPTLineCap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#aa4f30d716e5d2f97771a44c719b25a84">axisLineCapMax</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line cap for the end of the axis line with the maximum value.  <a href="#aa4f30d716e5d2f97771a44c719b25a84"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Title</div></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d3a6773318b5cf33e3f4273546c547f"></a><!-- doxytag: member="CPTAxis::titleTextStyle" ref="a7d3a6773318b5cf33e3f4273546c547f" args="" -->
-<a class="el" href="interface_c_p_t_text_style.html">CPTTextStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a7d3a6773318b5cf33e3f4273546c547f">titleTextStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The text style used to draw the axis title text. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7926f918e17bb671be30aac6bc2169e7"></a><!-- doxytag: member="CPTAxis::axisTitle" ref="a7926f918e17bb671be30aac6bc2169e7" args="" -->
-<a class="el" href="interface_c_p_t_axis_title.html">CPTAxisTitle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a7926f918e17bb671be30aac6bc2169e7">axisTitle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis title. If nil, no title is drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3d84072327ed4e3694c06149a776a7c0"></a><!-- doxytag: member="CPTAxis::titleOffset" ref="ga3d84072327ed4e3694c06149a776a7c0" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga3d84072327ed4e3694c06149a776a7c0">titleOffset</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The offset distance between the axis title and the axis line. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e742354e637c68dba7beaeb75ba7a37"></a><!-- doxytag: member="CPTAxis::title" ref="a8e742354e637c68dba7beaeb75ba7a37" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a8e742354e637c68dba7beaeb75ba7a37">title</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">A convenience property for setting the text title of the axis. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga340ca2d5f773f6530de7dbfe263906aa"></a><!-- doxytag: member="CPTAxis::titleRotation" ref="ga340ca2d5f773f6530de7dbfe263906aa" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga340ca2d5f773f6530de7dbfe263906aa">titleRotation</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation angle of the axis title in radians. If NaN (the default), the title will be parallel to the axis. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aae16ecb681fe187b78a23e83f55325cb"></a><!-- doxytag: member="CPTAxis::titleLocation" ref="aae16ecb681fe187b78a23e83f55325cb" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#aae16ecb681fe187b78a23e83f55325cb">titleLocation</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The position along the axis where the axis title should be centered. If NaN, the <code>defaultTitleLocation</code> will be used. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace7cf1ff4de08b4f04d564e7779479ec"></a><!-- doxytag: member="CPTAxis::defaultTitleLocation" ref="ace7cf1ff4de08b4f04d564e7779479ec" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ace7cf1ff4de08b4f04d564e7779479ec">defaultTitleLocation</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The position along the axis where the axis title should be centered if <code>titleLocation</code> is NaN. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_text_style.html">CPTTextStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a7d3a6773318b5cf33e3f4273546c547f">titleTextStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The text style used to draw the axis title text.  <a href="#a7d3a6773318b5cf33e3f4273546c547f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_axis_title.html">CPTAxisTitle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#abe4e5f3fad71540c2bab6ffb16dd1f27">axisTitle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis title. If <code>nil</code>, no title is drawn.  <a href="#abe4e5f3fad71540c2bab6ffb16dd1f27"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga3d84072327ed4e3694c06149a776a7c0">titleOffset</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The offset distance between the axis title and the axis line.  <a href="group__axis_animation.html#ga3d84072327ed4e3694c06149a776a7c0"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a8e742354e637c68dba7beaeb75ba7a37">title</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">A convenience property for setting the text title of the axis.  <a href="#a8e742354e637c68dba7beaeb75ba7a37"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga340ca2d5f773f6530de7dbfe263906aa">titleRotation</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation angle of the axis title in radians. If <code>NaN</code> (the default), the title will be parallel to the axis.  <a href="group__axis_animation.html#ga340ca2d5f773f6530de7dbfe263906aa"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a0095ed8259624fada0aebc4f51a98a60">titleLocation</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The position along the axis where the axis title should be centered. If <code>NaN</code> (the default), the <a class="el" href="interface_c_p_t_axis.html#ace7cf1ff4de08b4f04d564e7779479ec">defaultTitleLocation </a> will be used.  <a href="#a0095ed8259624fada0aebc4f51a98a60"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ace7cf1ff4de08b4f04d564e7779479ec">defaultTitleLocation</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The position along the axis where the axis title should be centered if <a class="el" href="interface_c_p_t_axis.html#a0095ed8259624fada0aebc4f51a98a60">titleLocation </a> is <code>NaN</code>.  <a href="#ace7cf1ff4de08b4f04d564e7779479ec"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Major Ticks</div></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46e0abbcfa6f403490a0107f1aec27ec"></a><!-- doxytag: member="CPTAxis::majorIntervalLength" ref="a46e0abbcfa6f403490a0107f1aec27ec" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a46e0abbcfa6f403490a0107f1aec27ec">majorIntervalLength</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The distance between major tick marks expressed in data coordinates. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54f35e8587700b0a6a54193cd139a9d6"></a><!-- doxytag: member="CPTAxis::majorTickLength" ref="a54f35e8587700b0a6a54193cd139a9d6" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a54f35e8587700b0a6a54193cd139a9d6">majorTickLength</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of the major tick marks. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70addfd97dc954aead7da71698c1c794"></a><!-- doxytag: member="CPTAxis::majorTickLineStyle" ref="a70addfd97dc954aead7da71698c1c794" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a70addfd97dc954aead7da71698c1c794">majorTickLineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the major tick marks. If nil, the major ticks are not drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6be1b1b13f460613b25724acd43063a1"></a><!-- doxytag: member="CPTAxis::majorTickLocations" ref="a6be1b1b13f460613b25724acd43063a1" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a6be1b1b13f460613b25724acd43063a1">majorTickLocations</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of axis coordinates for all major tick marks. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa9a0f51aa4558e19948797f01ffc32b"></a><!-- doxytag: member="CPTAxis::preferredNumberOfMajorTicks" ref="afa9a0f51aa4558e19948797f01ffc32b" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#afa9a0f51aa4558e19948797f01ffc32b">preferredNumberOfMajorTicks</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of ticks that should be targeted when autogenerating positions. This property only applies when the CPTAxisLabelingPolicyAutomatic or CPTAxisLabelingEqualDivisions policies are in use. If zero (0) (the default), Core Plot will choose a reasonable number of ticks. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a46e0abbcfa6f403490a0107f1aec27ec">majorIntervalLength</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The distance between major tick marks expressed in data coordinates.  <a href="#a46e0abbcfa6f403490a0107f1aec27ec"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a54f35e8587700b0a6a54193cd139a9d6">majorTickLength</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of the major tick marks.  <a href="#a54f35e8587700b0a6a54193cd139a9d6"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a70addfd97dc954aead7da71698c1c794">majorTickLineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the major tick marks. If <code>nil</code>, the major ticks are not drawn.  <a href="#a70addfd97dc954aead7da71698c1c794"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a6be1b1b13f460613b25724acd43063a1">majorTickLocations</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of axis coordinates for all major tick marks.  <a href="#a6be1b1b13f460613b25724acd43063a1"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#afa9a0f51aa4558e19948797f01ffc32b">preferredNumberOfMajorTicks</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of ticks that should be targeted when autogenerating positions. This property only applies when the <a class="el" href="_c_p_t_axis_8h.html#adb9e6ab73e0d2fb79203215861166e6bab71f9bd98987dddddd6eccfab4cca3f0" title="Automatic labeling policy.">CPTAxisLabelingPolicyAutomatic</a> or <a class="el" href="_c_p_t_axis_8h.html#adb9e6ab73e0d2fb79203215861166e6ba298212410e85c894ef2e6850d9d4c5e2" title="Divide the plot range into equal parts.">CPTAxisLabelingPolicyEqualDivisions</a> policies are in use. If zero (0) (the default), Core Plot will choose a reasonable number of ticks.  <a href="#afa9a0f51aa4558e19948797f01ffc32b"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Minor Ticks</div></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76bd51d1d23bf168b4e604b3558ddec9"></a><!-- doxytag: member="CPTAxis::minorTicksPerInterval" ref="a76bd51d1d23bf168b4e604b3558ddec9" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a76bd51d1d23bf168b4e604b3558ddec9">minorTicksPerInterval</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of minor tick marks drawn in each major tick interval. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7730fc30d9c8f949b686f1e40189946f"></a><!-- doxytag: member="CPTAxis::minorTickLength" ref="a7730fc30d9c8f949b686f1e40189946f" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a7730fc30d9c8f949b686f1e40189946f">minorTickLength</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of the minor tick marks. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5b7fa7407905d464c4bb8da486d85d7e"></a><!-- doxytag: member="CPTAxis::minorTickLineStyle" ref="a5b7fa7407905d464c4bb8da486d85d7e" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a5b7fa7407905d464c4bb8da486d85d7e">minorTickLineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the minor tick marks. If nil, the minor ticks are not drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87a89a6a2ecd134477c0421d8612cef1"></a><!-- doxytag: member="CPTAxis::minorTickLocations" ref="a87a89a6a2ecd134477c0421d8612cef1" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a87a89a6a2ecd134477c0421d8612cef1">minorTickLocations</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of axis coordinates for all minor tick marks. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a76bd51d1d23bf168b4e604b3558ddec9">minorTicksPerInterval</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of minor tick marks drawn in each major tick interval.  <a href="#a76bd51d1d23bf168b4e604b3558ddec9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a7730fc30d9c8f949b686f1e40189946f">minorTickLength</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of the minor tick marks.  <a href="#a7730fc30d9c8f949b686f1e40189946f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a5b7fa7407905d464c4bb8da486d85d7e">minorTickLineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the minor tick marks. If <code>nil</code>, the minor ticks are not drawn.  <a href="#a5b7fa7407905d464c4bb8da486d85d7e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a87a89a6a2ecd134477c0421d8612cef1">minorTickLocations</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of axis coordinates for all minor tick marks.  <a href="#a87a89a6a2ecd134477c0421d8612cef1"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Plot Space</div></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adfb9e1416941248b341ee271698977c4"></a><!-- doxytag: member="CPTAxis::plotSpace" ref="adfb9e1416941248b341ee271698977c4" args="" -->
-<a class="el" href="interface_c_p_t_plot_space.html">CPTPlotSpace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#adfb9e1416941248b341ee271698977c4">plotSpace</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot space for the axis. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_space.html">CPTPlotSpace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#adfb9e1416941248b341ee271698977c4">plotSpace</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot space for the axis.  <a href="#adfb9e1416941248b341ee271698977c4"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Layers</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#aa4b93d42af50930cd2d6d05324bc8108">separateLayers</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Use separate layers for drawing grid lines?  <a href="#aa4b93d42af50930cd2d6d05324bc8108"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b6696f3cd1fc213216b6a4d19e5b983"></a><!-- doxytag: member="CPTAxis::plotArea" ref="a9b6696f3cd1fc213216b6a4d19e5b983" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_plot_area.html">CPTPlotArea</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a9b6696f3cd1fc213216b6a4d19e5b983">plotArea</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot area that the axis belongs to. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbdd690d74732fb712b9a1805f9b0015"></a><!-- doxytag: member="CPTAxis::minorGridLines" ref="adbdd690d74732fb712b9a1805f9b0015" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_grid_lines.html">CPTGridLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#adbdd690d74732fb712b9a1805f9b0015">minorGridLines</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The layer that draws the minor grid lines. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ac54e1bd023d5f1f843d03ff8a8a167"></a><!-- doxytag: member="CPTAxis::majorGridLines" ref="a6ac54e1bd023d5f1f843d03ff8a8a167" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_grid_lines.html">CPTGridLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a6ac54e1bd023d5f1f843d03ff8a8a167">majorGridLines</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The layer that draws the major grid lines. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6102deaadd58e4cad6c109a7bf2c96d6"></a><!-- doxytag: member="CPTAxis::axisSet" ref="a6102deaadd58e4cad6c109a7bf2c96d6" args="" -->
-<a class="el" href="interface_c_p_t_axis_set.html">CPTAxisSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a6102deaadd58e4cad6c109a7bf2c96d6">axisSet</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis set that the axis belongs to. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_plot_area.html">CPTPlotArea</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a9b6696f3cd1fc213216b6a4d19e5b983">plotArea</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot area that the axis belongs to.  <a href="#a9b6696f3cd1fc213216b6a4d19e5b983"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_grid_lines.html">CPTGridLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#adbdd690d74732fb712b9a1805f9b0015">minorGridLines</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The layer that draws the minor grid lines.  <a href="#adbdd690d74732fb712b9a1805f9b0015"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_grid_lines.html">CPTGridLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a6ac54e1bd023d5f1f843d03ff8a8a167">majorGridLines</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The layer that draws the major grid lines.  <a href="#a6ac54e1bd023d5f1f843d03ff8a8a167"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_axis_set.html">CPTAxisSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#af11b8486fa020a323c4720d915498c4f">axisSet</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis set that the axis belongs to.  <a href="#af11b8486fa020a323c4720d915498c4f"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="member-group"></a>
 Labels</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abcaf63268a8bdecb2f9a1dd114c59660"></a><!-- doxytag: member="CPTAxis::labelingPolicy" ref="abcaf63268a8bdecb2f9a1dd114c59660" args="" -->
-<a class="el" href="_c_p_t_axis_8h.html#acc7e6e42dc3af4caa7ce548e7b468bce">CPTAxisLabelingPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#abcaf63268a8bdecb2f9a1dd114c59660">labelingPolicy</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis labeling policy. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga22c8cbbc6caa0c600638da2fccbfb2a7"></a><!-- doxytag: member="CPTAxis::labelOffset" ref="ga22c8cbbc6caa0c600638da2fccbfb2a7" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga22c8cbbc6caa0c600638da2fccbfb2a7">labelOffset</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The offset distance between the tick marks and labels. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga91691988d490b0c2887dd69d1c1697bd"></a><!-- doxytag: member="CPTAxis::minorTickLabelOffset" ref="ga91691988d490b0c2887dd69d1c1697bd" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga91691988d490b0c2887dd69d1c1697bd">minorTickLabelOffset</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The offset distance between the minor tick marks and labels. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad338d4f6cd7c0341d1375b4f9e124876"></a><!-- doxytag: member="CPTAxis::labelRotation" ref="gad338d4f6cd7c0341d1375b4f9e124876" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#gad338d4f6cd7c0341d1375b4f9e124876">labelRotation</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the axis labels in radians. Set this property to M_PI/2.0 to have labels read up the screen, for example. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga25e530fc54647e81e5f612dade755169"></a><!-- doxytag: member="CPTAxis::minorTickLabelRotation" ref="ga25e530fc54647e81e5f612dade755169" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga25e530fc54647e81e5f612dade755169">minorTickLabelRotation</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the axis minor tick labels in radians. Set this property to M_PI/2.0 to have labels read up the screen, for example. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b5a4b6bc6426c6f2dee4a66c216eefd"></a><!-- doxytag: member="CPTAxis::labelAlignment" ref="a4b5a4b6bc6426c6f2dee4a66c216eefd" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#af9221fe6bb5be966fee039fea78c1c36">CPTAlignment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a4b5a4b6bc6426c6f2dee4a66c216eefd">labelAlignment</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The alignment of the axis label with respect to the tick mark. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5903544dbedae98a023492316bba65c9"></a><!-- doxytag: member="CPTAxis::minorTickLabelAlignment" ref="a5903544dbedae98a023492316bba65c9" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#af9221fe6bb5be966fee039fea78c1c36">CPTAlignment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a5903544dbedae98a023492316bba65c9">minorTickLabelAlignment</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The alignment of the axis label with respect to the tick mark. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7a3a4031c959b9c88dc62683183f675"></a><!-- doxytag: member="CPTAxis::labelTextStyle" ref="aa7a3a4031c959b9c88dc62683183f675" args="" -->
-<a class="el" href="interface_c_p_t_text_style.html">CPTTextStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#aa7a3a4031c959b9c88dc62683183f675">labelTextStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The text style used to draw the label text. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a739bbbc1567b8d030882705f0246bfc1"></a><!-- doxytag: member="CPTAxis::minorTickLabelTextStyle" ref="a739bbbc1567b8d030882705f0246bfc1" args="" -->
-<a class="el" href="interface_c_p_t_text_style.html">CPTTextStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a739bbbc1567b8d030882705f0246bfc1">minorTickLabelTextStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The text style used to draw the label text of minor tick labels. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa332507609b0d82ab2d794e53c8b6735"></a><!-- doxytag: member="CPTAxis::labelFormatter" ref="aa332507609b0d82ab2d794e53c8b6735" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html">NSNumberFormatter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#aa332507609b0d82ab2d794e53c8b6735">labelFormatter</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The number formatter used to format the label text. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., "Jan 10, 2010"). The <a class="el" href="interface_c_p_t_time_formatter.html" title="A number formatter that converts time intervals to dates. Useful for formatting labels on an axis...">CPTTimeFormatter</a> is useful for this purpose. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5ccfbf239ee5b62e70d9aa034918ff8"></a><!-- doxytag: member="CPTAxis::minorTickLabelFormatter" ref="ad5ccfbf239ee5b62e70d9aa034918ff8" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html">NSNumberFormatter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ad5ccfbf239ee5b62e70d9aa034918ff8">minorTickLabelFormatter</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The number formatter used to format the label text of minor ticks. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., "Jan 10, 2010"). The <a class="el" href="interface_c_p_t_time_formatter.html" title="A number formatter that converts time intervals to dates. Useful for formatting labels on an axis...">CPTTimeFormatter</a> is useful for this purpose. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a737571abb7f86a1ec722feadbaaeced2"></a><!-- doxytag: member="CPTAxis::axisLabels" ref="a737571abb7f86a1ec722feadbaaeced2" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a737571abb7f86a1ec722feadbaaeced2">axisLabels</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The set of axis labels. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd2eda65d529e5983279c4ed54a574d7"></a><!-- doxytag: member="CPTAxis::minorTickAxisLabels" ref="afd2eda65d529e5983279c4ed54a574d7" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#afd2eda65d529e5983279c4ed54a574d7">minorTickAxisLabels</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The set of minor tick axis labels. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37a6a91d61307419f1bf7070bf6742d2"></a><!-- doxytag: member="CPTAxis::needsRelabel" ref="a37a6a91d61307419f1bf7070bf6742d2" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a37a6a91d61307419f1bf7070bf6742d2">needsRelabel</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If YES, the axis needs to be relabeled before the layer content is drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6fc9d2e89ee5414cc99172e2d84d962"></a><!-- doxytag: member="CPTAxis::labelExclusionRanges" ref="ad6fc9d2e89ee5414cc99172e2d84d962" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ad6fc9d2e89ee5414cc99172e2d84d962">labelExclusionRanges</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of <a class="el" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> objects. Any tick marks and labels falling inside any of the ranges in the array will not be drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a636490894ae09d7ab7436baad238ab87"></a><!-- doxytag: member="CPTAxis::labelShadow" ref="a636490894ae09d7ab7436baad238ab87" args="" -->
-<a class="el" href="interface_c_p_t_shadow.html">CPTShadow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a636490894ae09d7ab7436baad238ab87">labelShadow</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The shadow applied to each axis label. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8142c888e487899aa4816a6b865f5cea"></a><!-- doxytag: member="CPTAxis::relabel" ref="a8142c888e487899aa4816a6b865f5cea" args="()" -->
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a8142c888e487899aa4816a6b865f5cea">relabel</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the axis labels. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab76319c8e162fe4bb190f4e8545e9375"></a><!-- doxytag: member="CPTAxis::setNeedsRelabel" ref="ab76319c8e162fe4bb190f4e8545e9375" args="()" -->
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#ab76319c8e162fe4bb190f4e8545e9375">setNeedsRelabel</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the receiver as needing to update the labels before the content is next drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0309fd80bac45af748560f9341b65e2d"></a><!-- doxytag: member="CPTAxis::updateMajorTickLabels" ref="a0309fd80bac45af748560f9341b65e2d" args="()" -->
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a0309fd80bac45af748560f9341b65e2d">updateMajorTickLabels</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the major tick mark labels. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7769ce93d289793fbec4aecdc080844a"></a><!-- doxytag: member="CPTAxis::updateMinorTickLabels" ref="a7769ce93d289793fbec4aecdc080844a" args="()" -->
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a7769ce93d289793fbec4aecdc080844a">updateMinorTickLabels</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the minor tick mark labels. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_axis_8h.html#adb9e6ab73e0d2fb79203215861166e6b">CPTAxisLabelingPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#abcaf63268a8bdecb2f9a1dd114c59660">labelingPolicy</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis labeling policy.  <a href="#abcaf63268a8bdecb2f9a1dd114c59660"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga22c8cbbc6caa0c600638da2fccbfb2a7">labelOffset</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The offset distance between the tick marks and labels.  <a href="group__axis_animation.html#ga22c8cbbc6caa0c600638da2fccbfb2a7"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga91691988d490b0c2887dd69d1c1697bd">minorTickLabelOffset</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The offset distance between the minor tick marks and labels.  <a href="group__axis_animation.html#ga91691988d490b0c2887dd69d1c1697bd"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#gad338d4f6cd7c0341d1375b4f9e124876">labelRotation</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the axis labels in radians. Set this property to <code>M_PI/2.0</code> to have labels read up the screen, for example.  <a href="group__axis_animation.html#gad338d4f6cd7c0341d1375b4f9e124876"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__axis_animation.html#ga25e530fc54647e81e5f612dade755169">minorTickLabelRotation</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The rotation of the axis minor tick labels in radians. Set this property to <code>M_PI/2.0</code> to have labels read up the screen, for example.  <a href="group__axis_animation.html#ga25e530fc54647e81e5f612dade755169"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#a968901ece413ec4608f1625910ca9a9f">CPTAlignment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a4b5a4b6bc6426c6f2dee4a66c216eefd">labelAlignment</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The alignment of the axis label with respect to the tick mark.  <a href="#a4b5a4b6bc6426c6f2dee4a66c216eefd"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#a968901ece413ec4608f1625910ca9a9f">CPTAlignment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a5903544dbedae98a023492316bba65c9">minorTickLabelAlignment</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The alignment of the axis label with respect to the tick mark.  <a href="#a5903544dbedae98a023492316bba65c9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_text_style.html">CPTTextStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#aa7a3a4031c959b9c88dc62683183f675">labelTextStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The text style used to draw the label text.  <a href="#aa7a3a4031c959b9c88dc62683183f675"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_text_style.html">CPTTextStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a739bbbc1567b8d030882705f0246bfc1">minorTickLabelTextStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The text style used to draw the label text of minor tick labels.  <a href="#a739bbbc1567b8d030882705f0246bfc1"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html">NSNumberFormatter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#aa332507609b0d82ab2d794e53c8b6735">labelFormatter</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The number formatter used to format the label text. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., "Jan 10, 2010"). The <a class="el" href="interface_c_p_t_time_formatter.html" title="A number formatter that converts time intervals to dates. Useful for formatting labels on an axis...">CPTTimeFormatter</a> is useful for this purpose.  <a href="#aa332507609b0d82ab2d794e53c8b6735"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html">NSNumberFormatter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ad5ccfbf239ee5b62e70d9aa034918ff8">minorTickLabelFormatter</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The number formatter used to format the label text of minor ticks. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., "Jan 10, 2010"). The <a class="el" href="interface_c_p_t_time_formatter.html" title="A number formatter that converts time intervals to dates. Useful for formatting labels on an axis...">CPTTimeFormatter</a> is useful for this purpose.  <a href="#ad5ccfbf239ee5b62e70d9aa034918ff8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a737571abb7f86a1ec722feadbaaeced2">axisLabels</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The set of axis labels.  <a href="#a737571abb7f86a1ec722feadbaaeced2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#afd2eda65d529e5983279c4ed54a574d7">minorTickAxisLabels</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The set of minor tick axis labels.  <a href="#afd2eda65d529e5983279c4ed54a574d7"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a37a6a91d61307419f1bf7070bf6742d2">needsRelabel</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If YES, the axis needs to be relabeled before the layer content is drawn.  <a href="#a37a6a91d61307419f1bf7070bf6742d2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ad6fc9d2e89ee5414cc99172e2d84d962">labelExclusionRanges</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of <a class="el" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> objects. Any tick marks and labels falling inside any of the ranges in the array will not be drawn.  <a href="#ad6fc9d2e89ee5414cc99172e2d84d962"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_shadow.html">CPTShadow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a636490894ae09d7ab7436baad238ab87">labelShadow</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The shadow applied to each axis label.  <a href="#a636490894ae09d7ab7436baad238ab87"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a8142c888e487899aa4816a6b865f5cea">relabel</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the axis labels.  <a href="#a8142c888e487899aa4816a6b865f5cea"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#ab76319c8e162fe4bb190f4e8545e9375">setNeedsRelabel</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the receiver as needing to update the labels before the content is next drawn.  <a href="#ab76319c8e162fe4bb190f4e8545e9375"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a0309fd80bac45af748560f9341b65e2d">updateMajorTickLabels</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the major tick mark labels.  <a href="#a0309fd80bac45af748560f9341b65e2d"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a7769ce93d289793fbec4aecdc080844a">updateMinorTickLabels</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the minor tick mark labels.  <a href="#a7769ce93d289793fbec4aecdc080844a"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="member-group"></a>
 Grid Lines</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a250d9a9546a4389815f498200f391175"></a><!-- doxytag: member="CPTAxis::majorGridLineStyle" ref="a250d9a9546a4389815f498200f391175" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a250d9a9546a4389815f498200f391175">majorGridLineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the major grid lines. If nil, the major grid lines are not drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43812cc462a9049534cd06d4fd9aae72"></a><!-- doxytag: member="CPTAxis::minorGridLineStyle" ref="a43812cc462a9049534cd06d4fd9aae72" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a43812cc462a9049534cd06d4fd9aae72">minorGridLineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the minor grid lines. If nil, the minor grid lines are not drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2d2fb977abe05443c24a393faf24e7ac"></a><!-- doxytag: member="CPTAxis::gridLinesRange" ref="a2d2fb977abe05443c24a393faf24e7ac" args="" -->
-<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a2d2fb977abe05443c24a393faf24e7ac">gridLinesRange</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot range over which the grid lines are visible. Note that this range applies to the orthogonal coordinate, not the axis coordinate itself. Set to nil for no restriction. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a250d9a9546a4389815f498200f391175">majorGridLineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the major grid lines. If <code>nil</code>, the major grid lines are not drawn.  <a href="#a250d9a9546a4389815f498200f391175"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a43812cc462a9049534cd06d4fd9aae72">minorGridLineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the minor grid lines. If <code>nil</code>, the minor grid lines are not drawn.  <a href="#a43812cc462a9049534cd06d4fd9aae72"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a2d2fb977abe05443c24a393faf24e7ac">gridLinesRange</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot range over which the grid lines are visible. Note that this range applies to the orthogonal coordinate, not the axis coordinate itself. Set to <code>nil</code> for no restriction.  <a href="#a2d2fb977abe05443c24a393faf24e7ac"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#afc4a9b3419504af68296616ce8a95572">drawGridLinesInContext:isMajor:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws grid lines into the provided graphics context.  <a href="#afc4a9b3419504af68296616ce8a95572"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="member-group"></a>
 Background Bands</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#acedba21de4ba30757d73e26fa8180bc0">alternatingBandFills</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of two or more fills to be drawn between successive major tick marks.  <a href="#acedba21de4ba30757d73e26fa8180bc0"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a7741a5147c5563fbf5248d2efcd59e56">backgroundLimitBands</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of <a class="el" href="interface_c_p_t_limit_band.html" title="Defines a range and fill used to highlight a band of data.">CPTLimitBand</a> objects.  <a href="#a7741a5147c5563fbf5248d2efcd59e56"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a5dc252828aa79a737747efcd7eec704e">backgroundLimitBands</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of <a class="el" href="interface_c_p_t_limit_band.html" title="Defines a range and fill used to highlight a band of data.">CPTLimitBand</a> objects.  <a href="#a5dc252828aa79a737747efcd7eec704e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a4b388c9ddfb2f58fdbc554ee97f03004">addBackgroundLimitBand:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a background limit band.  <a href="#a4b388c9ddfb2f58fdbc554ee97f03004"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#ae963f0bb8651f7dfaa74024a8c179f13">removeBackgroundLimitBand:</a></td></tr>
@@ -463,6 +419,62 @@ Background Bands</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a16baaf9ca6edb23fe543f48bb15054b8"></a><!-- doxytag: member="CPTAxis::initWithFrame:" ref="a16baaf9ca6edb23fe543f48bb15054b8" args="(CGRect newFrame)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_axis.html#a16baaf9ca6edb23fe543f48bb15054b8">initWithFrame:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>newFrame</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<ul>
+<li>needsDisplayOnBoundsChange = NO</li>
+<li>opaque = NO</li>
+<li>masksToBounds = NO</li>
+<li>padding = 0 on all four sides</li>
+<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a42e21f40d25b81ffafdc9940d894876d">CPTLayer</a>.</p>
+
+<p>Reimplemented in <a class="el" href="interface_c_p_t_x_y_axis.html#a8807c07c6e743d5532388aa9d554a2b6">CPTXYAxis</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8142c888e487899aa4816a6b865f5cea"></a><!-- doxytag: member="CPTAxis::relabel" ref="a8142c888e487899aa4816a6b865f5cea" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) <a class="el" href="interface_c_p_t_axis.html#a8142c888e487899aa4816a6b865f5cea">relabel</a> </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Updates the axis labels. </p>
+
+</div>
+</div>
 <a class="anchor" id="ae963f0bb8651f7dfaa74024a8c179f13"></a><!-- doxytag: member="CPTAxis::removeBackgroundLimitBand:" ref="ae963f0bb8651f7dfaa74024a8c179f13" args="(CPTLimitBand *limitBand)" -->
 <div class="memitem">
 <div class="memproto">
@@ -485,6 +497,60 @@ Background Bands</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="ab76319c8e162fe4bb190f4e8545e9375"></a><!-- doxytag: member="CPTAxis::setNeedsRelabel" ref="ab76319c8e162fe4bb190f4e8545e9375" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) <a class="el" href="interface_c_p_t_axis.html#ab76319c8e162fe4bb190f4e8545e9375">setNeedsRelabel</a> </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Marks the receiver as needing to update the labels before the content is next drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0309fd80bac45af748560f9341b65e2d"></a><!-- doxytag: member="CPTAxis::updateMajorTickLabels" ref="a0309fd80bac45af748560f9341b65e2d" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) <a class="el" href="interface_c_p_t_axis.html#a0309fd80bac45af748560f9341b65e2d">updateMajorTickLabels</a> </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Update the major tick mark labels. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7769ce93d289793fbec4aecdc080844a"></a><!-- doxytag: member="CPTAxis::updateMinorTickLabels" ref="a7769ce93d289793fbec4aecdc080844a" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) <a class="el" href="interface_c_p_t_axis.html#a7769ce93d289793fbec4aecdc080844a">updateMinorTickLabels</a> </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Update the minor tick mark labels. </p>
 
 </div>
 </div>
@@ -527,7 +593,22 @@ Background Bands</h2></td></tr>
 <div class="memdoc">
 
 <p>An array of two or more fills to be drawn between successive major tick marks. </p>
-<p>When initializing the fills, provide an <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> containing any combinination of <a class="el" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a>, <a class="el" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a>, <a class="el" href="interface_c_p_t_gradient.html" title="Draws color gradient fills.">CPTGradient</a>, and/or <a class="el" href="interface_c_p_t_image.html" title="An immutable image.">CPTImage</a> objects. Blank (transparent) bands can be created by using [<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a> null] in place of some of the <a class="el" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> objects. </p>
+<p>When initializing the fills, provide an <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> containing any combinination of <a class="el" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a>, <a class="el" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a>, <a class="el" href="interface_c_p_t_gradient.html" title="Draws color gradient fills.">CPTGradient</a>, and/or <a class="el" href="interface_c_p_t_image.html" title="An immutable image.">CPTImage</a> objects. Blank (transparent) bands can be created by using <code>[<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a> null]</code> in place of some of the <a class="el" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> objects. </p>
+
+</div>
+</div>
+<a class="anchor" id="a737571abb7f86a1ec722feadbaaeced2"></a><!-- doxytag: member="CPTAxis::axisLabels" ref="a737571abb7f86a1ec722feadbaaeced2" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The set of axis labels. </p>
 
 </div>
 </div>
@@ -563,12 +644,57 @@ Background Bands</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7741a5147c5563fbf5248d2efcd59e56"></a><!-- doxytag: member="CPTAxis::backgroundLimitBands" ref="a7741a5147c5563fbf5248d2efcd59e56" args="" -->
+<a class="anchor" id="a3fba6b558c6c3fe8bd10264dc15794ce"></a><!-- doxytag: member="CPTAxis::axisLineStyle" ref="a3fba6b558c6c3fe8bd10264dc15794ce" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *) <a class="el" href="interface_c_p_t_axis.html#a7741a5147c5563fbf5248d2efcd59e56">backgroundLimitBands</a><code> [read, retain]</code></td>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style for the axis line. If <code>nil</code>, the line is not drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="af11b8486fa020a323c4720d915498c4f"></a><!-- doxytag: member="CPTAxis::axisSet" ref="af11b8486fa020a323c4720d915498c4f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The axis set that the axis belongs to. </p>
+
+</div>
+</div>
+<a class="anchor" id="abe4e5f3fad71540c2bab6ffb16dd1f27"></a><!-- doxytag: member="CPTAxis::axisTitle" ref="abe4e5f3fad71540c2bab6ffb16dd1f27" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The axis title. If <code>nil</code>, no title is drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5dc252828aa79a737747efcd7eec704e"></a><!-- doxytag: member="CPTAxis::backgroundLimitBands" ref="a5dc252828aa79a737747efcd7eec704e" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, retain]</code></td>
         </tr>
       </table>
 </div>
@@ -576,6 +702,456 @@ Background Bands</h2></td></tr>
 
 <p>An array of <a class="el" href="interface_c_p_t_limit_band.html" title="Defines a range and fill used to highlight a band of data.">CPTLimitBand</a> objects. </p>
 <p>The limit bands are drawn on top of the alternating band fills. </p>
+
+</div>
+</div>
+<a class="anchor" id="afa6e872f306f70db0e5cda87f55043ac"></a><!-- doxytag: member="CPTAxis::coordinate" ref="afa6e872f306f70db0e5cda87f55043ac" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The axis coordinate. </p>
+
+</div>
+</div>
+<a class="anchor" id="ace7cf1ff4de08b4f04d564e7779479ec"></a><!-- doxytag: member="CPTAxis::defaultTitleLocation" ref="ace7cf1ff4de08b4f04d564e7779479ec" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>) <a class="el" href="interface_c_p_t_axis.html#ace7cf1ff4de08b4f04d564e7779479ec">defaultTitleLocation</a><code> [read, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The position along the axis where the axis title should be centered if <a class="el" href="interface_c_p_t_axis.html#a0095ed8259624fada0aebc4f51a98a60">titleLocation </a> is <code>NaN</code>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2d2fb977abe05443c24a393faf24e7ac"></a><!-- doxytag: member="CPTAxis::gridLinesRange" ref="a2d2fb977abe05443c24a393faf24e7ac" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot range over which the grid lines are visible. Note that this range applies to the orthogonal coordinate, not the axis coordinate itself. Set to <code>nil</code> for no restriction. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4b5a4b6bc6426c6f2dee4a66c216eefd"></a><!-- doxytag: member="CPTAxis::labelAlignment" ref="a4b5a4b6bc6426c6f2dee4a66c216eefd" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The alignment of the axis label with respect to the tick mark. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad6fc9d2e89ee5414cc99172e2d84d962"></a><!-- doxytag: member="CPTAxis::labelExclusionRanges" ref="ad6fc9d2e89ee5414cc99172e2d84d962" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>An array of <a class="el" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> objects. Any tick marks and labels falling inside any of the ranges in the array will not be drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa332507609b0d82ab2d794e53c8b6735"></a><!-- doxytag: member="CPTAxis::labelFormatter" ref="aa332507609b0d82ab2d794e53c8b6735" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The number formatter used to format the label text. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., "Jan 10, 2010"). The <a class="el" href="interface_c_p_t_time_formatter.html" title="A number formatter that converts time intervals to dates. Useful for formatting labels on an axis...">CPTTimeFormatter</a> is useful for this purpose. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1820c3096af3c8afeb21db0d06076293"></a><!-- doxytag: member="CPTAxis::labelingOrigin" ref="a1820c3096af3c8afeb21db0d06076293" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The origin used for axis labels. The default value is 0. It is only used when the axis labeling policy is <a class="el" href="_c_p_t_axis_8h.html#adb9e6ab73e0d2fb79203215861166e6bad4f5b93c9ba53d283bd20624c74d81ca" title="Fixed interval labeling policy.">CPTAxisLabelingPolicyFixedInterval</a>. The origin is a reference point used to being labeling. Labels are added at the origin, as well as at fixed intervals above and below the origin. </p>
+
+</div>
+</div>
+<a class="anchor" id="abcaf63268a8bdecb2f9a1dd114c59660"></a><!-- doxytag: member="CPTAxis::labelingPolicy" ref="abcaf63268a8bdecb2f9a1dd114c59660" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The axis labeling policy. </p>
+
+</div>
+</div>
+<a class="anchor" id="a636490894ae09d7ab7436baad238ab87"></a><!-- doxytag: member="CPTAxis::labelShadow" ref="a636490894ae09d7ab7436baad238ab87" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The shadow applied to each axis label. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa7a3a4031c959b9c88dc62683183f675"></a><!-- doxytag: member="CPTAxis::labelTextStyle" ref="aa7a3a4031c959b9c88dc62683183f675" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The text style used to draw the label text. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ac54e1bd023d5f1f843d03ff8a8a167"></a><!-- doxytag: member="CPTAxis::majorGridLines" ref="a6ac54e1bd023d5f1f843d03ff8a8a167" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The layer that draws the major grid lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="a250d9a9546a4389815f498200f391175"></a><!-- doxytag: member="CPTAxis::majorGridLineStyle" ref="a250d9a9546a4389815f498200f391175" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style for the major grid lines. If <code>nil</code>, the major grid lines are not drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="a46e0abbcfa6f403490a0107f1aec27ec"></a><!-- doxytag: member="CPTAxis::majorIntervalLength" ref="a46e0abbcfa6f403490a0107f1aec27ec" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The distance between major tick marks expressed in data coordinates. </p>
+
+</div>
+</div>
+<a class="anchor" id="a54f35e8587700b0a6a54193cd139a9d6"></a><!-- doxytag: member="CPTAxis::majorTickLength" ref="a54f35e8587700b0a6a54193cd139a9d6" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The length of the major tick marks. </p>
+
+</div>
+</div>
+<a class="anchor" id="a70addfd97dc954aead7da71698c1c794"></a><!-- doxytag: member="CPTAxis::majorTickLineStyle" ref="a70addfd97dc954aead7da71698c1c794" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style for the major tick marks. If <code>nil</code>, the major ticks are not drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6be1b1b13f460613b25724acd43063a1"></a><!-- doxytag: member="CPTAxis::majorTickLocations" ref="a6be1b1b13f460613b25724acd43063a1" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>A set of axis coordinates for all major tick marks. </p>
+
+</div>
+</div>
+<a class="anchor" id="adbdd690d74732fb712b9a1805f9b0015"></a><!-- doxytag: member="CPTAxis::minorGridLines" ref="adbdd690d74732fb712b9a1805f9b0015" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The layer that draws the minor grid lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="a43812cc462a9049534cd06d4fd9aae72"></a><!-- doxytag: member="CPTAxis::minorGridLineStyle" ref="a43812cc462a9049534cd06d4fd9aae72" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style for the minor grid lines. If <code>nil</code>, the minor grid lines are not drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="afd2eda65d529e5983279c4ed54a574d7"></a><!-- doxytag: member="CPTAxis::minorTickAxisLabels" ref="afd2eda65d529e5983279c4ed54a574d7" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The set of minor tick axis labels. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5903544dbedae98a023492316bba65c9"></a><!-- doxytag: member="CPTAxis::minorTickLabelAlignment" ref="a5903544dbedae98a023492316bba65c9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The alignment of the axis label with respect to the tick mark. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad5ccfbf239ee5b62e70d9aa034918ff8"></a><!-- doxytag: member="CPTAxis::minorTickLabelFormatter" ref="ad5ccfbf239ee5b62e70d9aa034918ff8" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The number formatter used to format the label text of minor ticks. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., "Jan 10, 2010"). The <a class="el" href="interface_c_p_t_time_formatter.html" title="A number formatter that converts time intervals to dates. Useful for formatting labels on an axis...">CPTTimeFormatter</a> is useful for this purpose. </p>
+
+</div>
+</div>
+<a class="anchor" id="a739bbbc1567b8d030882705f0246bfc1"></a><!-- doxytag: member="CPTAxis::minorTickLabelTextStyle" ref="a739bbbc1567b8d030882705f0246bfc1" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The text style used to draw the label text of minor tick labels. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7730fc30d9c8f949b686f1e40189946f"></a><!-- doxytag: member="CPTAxis::minorTickLength" ref="a7730fc30d9c8f949b686f1e40189946f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The length of the minor tick marks. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5b7fa7407905d464c4bb8da486d85d7e"></a><!-- doxytag: member="CPTAxis::minorTickLineStyle" ref="a5b7fa7407905d464c4bb8da486d85d7e" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style for the minor tick marks. If <code>nil</code>, the minor ticks are not drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="a87a89a6a2ecd134477c0421d8612cef1"></a><!-- doxytag: member="CPTAxis::minorTickLocations" ref="a87a89a6a2ecd134477c0421d8612cef1" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>A set of axis coordinates for all minor tick marks. </p>
+
+</div>
+</div>
+<a class="anchor" id="a76bd51d1d23bf168b4e604b3558ddec9"></a><!-- doxytag: member="CPTAxis::minorTicksPerInterval" ref="a76bd51d1d23bf168b4e604b3558ddec9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The number of minor tick marks drawn in each major tick interval. </p>
+
+</div>
+</div>
+<a class="anchor" id="a37a6a91d61307419f1bf7070bf6742d2"></a><!-- doxytag: member="CPTAxis::needsRelabel" ref="a37a6a91d61307419f1bf7070bf6742d2" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>If YES, the axis needs to be relabeled before the layer content is drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9b6696f3cd1fc213216b6a4d19e5b983"></a><!-- doxytag: member="CPTAxis::plotArea" ref="a9b6696f3cd1fc213216b6a4d19e5b983" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot area that the axis belongs to. </p>
+
+</div>
+</div>
+<a class="anchor" id="adfb9e1416941248b341ee271698977c4"></a><!-- doxytag: member="CPTAxis::plotSpace" ref="adfb9e1416941248b341ee271698977c4" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot space for the axis. </p>
+
+</div>
+</div>
+<a class="anchor" id="afa9a0f51aa4558e19948797f01ffc32b"></a><!-- doxytag: member="CPTAxis::preferredNumberOfMajorTicks" ref="afa9a0f51aa4558e19948797f01ffc32b" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The number of ticks that should be targeted when autogenerating positions. This property only applies when the <a class="el" href="_c_p_t_axis_8h.html#adb9e6ab73e0d2fb79203215861166e6bab71f9bd98987dddddd6eccfab4cca3f0" title="Automatic labeling policy.">CPTAxisLabelingPolicyAutomatic</a> or <a class="el" href="_c_p_t_axis_8h.html#adb9e6ab73e0d2fb79203215861166e6ba298212410e85c894ef2e6850d9d4c5e2" title="Divide the plot range into equal parts.">CPTAxisLabelingPolicyEqualDivisions</a> policies are in use. If zero (0) (the default), Core Plot will choose a reasonable number of ticks. </p>
 
 </div>
 </div>
@@ -595,9 +1171,84 @@ Background Bands</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab913b480a46cdc157b7950f64b45fd19"></a><!-- doxytag: member="CPTAxis::tickDirection" ref="ab913b480a46cdc157b7950f64b45fd19" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The tick direction. The direction is given as the sign that ticks extend along the axis (e.g., positive or negative). </p>
+
+</div>
+</div>
+<a class="anchor" id="a8e742354e637c68dba7beaeb75ba7a37"></a><!-- doxytag: member="CPTAxis::title" ref="a8e742354e637c68dba7beaeb75ba7a37" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>A convenience property for setting the text title of the axis. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0095ed8259624fada0aebc4f51a98a60"></a><!-- doxytag: member="CPTAxis::titleLocation" ref="a0095ed8259624fada0aebc4f51a98a60" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The position along the axis where the axis title should be centered. If <code>NaN</code> (the default), the <a class="el" href="interface_c_p_t_axis.html#ace7cf1ff4de08b4f04d564e7779479ec">defaultTitleLocation </a> will be used. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7d3a6773318b5cf33e3f4273546c547f"></a><!-- doxytag: member="CPTAxis::titleTextStyle" ref="a7d3a6773318b5cf33e3f4273546c547f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The text style used to draw the axis title text. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae087326fdfc51acf12e343b28bce80c7"></a><!-- doxytag: member="CPTAxis::visibleRange" ref="ae087326fdfc51acf12e343b28bce80c7" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot range over which the axis and ticks are visible. Use this to restrict an axis to less than the full plot area width. Set to <code>nil</code> for no restriction. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_axis_8h_source.html">CPTAxis.h</a></li>
-<li>Source/CPTAxis.m</li>
+<li>Source/<a class="el" href="_c_p_t_axis_8m.html">CPTAxis.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

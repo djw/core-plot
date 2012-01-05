@@ -85,6 +85,8 @@
 <!-- doxytag: class="CPTPlotSpace" --><!-- doxytag: inherits="NSObject,CPTResponder-p,NSCoding-p-p" -->
 <p>Defines the coordinate system of a plot.  
  <a href="interface_c_p_t_plot_space.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_plot_space_8h_source.html">CPTPlotSpace.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTPlotSpace:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -108,6 +110,15 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#a5f621e3f307ef440d9b4a9ecbb877f64">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.  <a href="#a5f621e3f307ef440d9b4a9ecbb877f64"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#aac92939c1f1b4121f2e78f0bcdfaee8c">pointingDeviceUpEvent:atPoint:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger up event.  <a href="#aac92939c1f1b4121f2e78f0bcdfaee8c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#ac96f5040ddddc97b4a1c03f97f2db235">pointingDeviceDraggedEvent:atPoint:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event.  <a href="#ac96f5040ddddc97b4a1c03f97f2db235"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#a643dcec3439e87950e59ab0648a4422c">pointingDeviceCancelledEvent:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Mouse or finger event cancelled.  <a href="#a643dcec3439e87950e59ab0648a4422c"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Coordinate Space Conversions</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#a44bfc5a4d3e11c01346759df6973b00a">plotAreaViewPointForPlotPoint:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a data point to plot area drawing coordinates.  <a href="#a44bfc5a4d3e11c01346759df6973b00a"></a><br/></td></tr>
@@ -125,7 +136,7 @@ Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Scale Types</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#aed4e84809aaa825c2e50f83b2a2c34a5">setScaleType:forCoordinate:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scale type for a given coordinate.  <a href="#aed4e84809aaa825c2e50f83b2a2c34a5"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="_c_p_t_definitions_8h.html#a9564ab0b679e0c37a87f0c8af3a60335">CPTScaleType</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#a418989b268a9fa93f37f48e4cba42044">scaleTypeForCoordinate:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a">CPTScaleType</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#a418989b268a9fa93f37f48e4cba42044">scaleTypeForCoordinate:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the scale type for a given coordinate.  <a href="#a418989b268a9fa93f37f48e4cba42044"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Adjusting Ranges</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#ac98bd7995f1096cdd32a9df350574daa">scaleToFitPlots:</a></td></tr>
@@ -134,19 +145,15 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Zooms the plot space equally in each dimension.  <a href="#a769547a1f95a562d9f88bb6967815174"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad97e327cd52cd5086023efebd5b94c31"></a><!-- doxytag: member="CPTPlotSpace::identifier" ref="ad97e327cd52cd5086023efebd5b94c31" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>&lt; NSCopying, NSCoding, <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space.html#ad97e327cd52cd5086023efebd5b94c31">identifier</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An object used to identify the plot in collections. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d1dd4c7e319458df25aff1fa5872df9"></a><!-- doxytag: member="CPTPlotSpace::allowsUserInteraction" ref="a0d1dd4c7e319458df25aff1fa5872df9" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space.html#a0d1dd4c7e319458df25aff1fa5872df9">allowsUserInteraction</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether user can interactively change plot range and/or zoom. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1338ed4172b2eca55291a79096bade8f"></a><!-- doxytag: member="CPTPlotSpace::graph" ref="a1338ed4172b2eca55291a79096bade8f" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_graph.html">CPTGraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space.html#a1338ed4172b2eca55291a79096bade8f">graph</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The graph of the space. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2a3aed439077b13bd070b573c29ca4a9"></a><!-- doxytag: member="CPTPlotSpace::delegate" ref="a2a3aed439077b13bd070b573c29ca4a9" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a><br class="typebreak"/>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>&lt; NSCopying, NSCoding, <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space.html#ad97e327cd52cd5086023efebd5b94c31">identifier</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An object used to identify the plot in collections.  <a href="#ad97e327cd52cd5086023efebd5b94c31"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space.html#a0d1dd4c7e319458df25aff1fa5872df9">allowsUserInteraction</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether user can interactively change plot range and/or zoom.  <a href="#a0d1dd4c7e319458df25aff1fa5872df9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_graph.html">CPTGraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space.html#a1338ed4172b2eca55291a79096bade8f">graph</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The graph of the space.  <a href="#a1338ed4172b2eca55291a79096bade8f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a><br class="typebreak"/>
 &lt; <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html">CPTPlotSpaceDelegate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space.html#a2a3aed439077b13bd070b573c29ca4a9">delegate</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot space delegate. <br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot space delegate.  <a href="#a2a3aed439077b13bd070b573c29ca4a9"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Defines the coordinate system of a plot. </p>
@@ -283,7 +290,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">- (<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *) <a class="el" href="interface_c_p_t_plot_space.html#a3aa2997fb48c06d37e50ff1d114ad7df">plotRangeForCoordinate:</a> </td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a10709b6abd0a9ee1769345ef51b2fcd7">CPTCoordinate</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b">CPTCoordinate</a>)&#160;</td>
           <td class="paramname"><em>coordinate</em></td>
           <td></td>
         </tr>
@@ -299,6 +306,157 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The range of values. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a643dcec3439e87950e59ab0648a4422c"></a><!-- doxytag: member="CPTPlotSpace::pointingDeviceCancelledEvent:" ref="a643dcec3439e87950e59ab0648a4422c" args="(id event)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) <a class="el" href="interface_c_p_t_plot_space.html#a643dcec3439e87950e59ab0648a4422c">pointingDeviceCancelledEvent:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td>
+          <td class="paramname"><em>event</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Abstraction of Mac and iPhone event handling. Mouse or finger event cancelled. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>The OS event. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the plot space handled the event or not. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="protocol_c_p_t_responder-p.html#a97e29015661d8cdfba700fc6aca55401">&lt;CPTResponder&gt;</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5f621e3f307ef440d9b4a9ecbb877f64"></a><!-- doxytag: member="CPTPlotSpace::pointingDeviceDownEvent:atPoint:" ref="a5f621e3f307ef440d9b4a9ecbb877f64" args="(id event,[atPoint] CGPoint interactionPoint)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) pointingDeviceDownEvent: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td>
+          <td class="paramname"><em>event</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">atPoint:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td>
+          <td class="paramname"><em>interactionPoint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>The OS event. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the plot space handled the event or not. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="protocol_c_p_t_responder-p.html#a906fdd49f91a3cc2a9cadf0a1f7dd515">&lt;CPTResponder&gt;</a>.</p>
+
+<p>Reimplemented in <a class="el" href="interface_c_p_t_x_y_plot_space.html#a53eae728e6443a65d50f2720fa34503d">CPTXYPlotSpace</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac96f5040ddddc97b4a1c03f97f2db235"></a><!-- doxytag: member="CPTPlotSpace::pointingDeviceDraggedEvent:atPoint:" ref="ac96f5040ddddc97b4a1c03f97f2db235" args="(id event,[atPoint] CGPoint interactionPoint)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) pointingDeviceDraggedEvent: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td>
+          <td class="paramname"><em>event</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">atPoint:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td>
+          <td class="paramname"><em>interactionPoint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>The OS event. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the plot space handled the event or not. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="protocol_c_p_t_responder-p.html#a1d1dbd6f9e1e0336f0b6ef91015a26cf">&lt;CPTResponder&gt;</a>.</p>
+
+<p>Reimplemented in <a class="el" href="interface_c_p_t_x_y_plot_space.html#aed72a16e1749da976ce78d94b42f3896">CPTXYPlotSpace</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac92939c1f1b4121f2e78f0bcdfaee8c"></a><!-- doxytag: member="CPTPlotSpace::pointingDeviceUpEvent:atPoint:" ref="aac92939c1f1b4121f2e78f0bcdfaee8c" args="(id event,[atPoint] CGPoint interactionPoint)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) pointingDeviceUpEvent: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td>
+          <td class="paramname"><em>event</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">atPoint:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td>
+          <td class="paramname"><em>interactionPoint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger up event. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>The OS event. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the plot space handled the event or not. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="protocol_c_p_t_responder-p.html#a10e0833efd588f761098eb8aa6ba9a9b">&lt;CPTResponder&gt;</a>.</p>
+
+<p>Reimplemented in <a class="el" href="interface_c_p_t_x_y_plot_space.html#a07db9c5f6baa7fbb2b5eb3d3fe1ca153">CPTXYPlotSpace</a>.</p>
 
 </div>
 </div>
@@ -368,9 +526,9 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">- (<a class="el" href="_c_p_t_definitions_8h.html#a9564ab0b679e0c37a87f0c8af3a60335">CPTScaleType</a>) <a class="el" href="interface_c_p_t_plot_space.html#a418989b268a9fa93f37f48e4cba42044">scaleTypeForCoordinate:</a> </td>
+          <td class="memname">- (<a class="el" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a">CPTScaleType</a>) <a class="el" href="interface_c_p_t_plot_space.html#a418989b268a9fa93f37f48e4cba42044">scaleTypeForCoordinate:</a> </td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a10709b6abd0a9ee1769345ef51b2fcd7">CPTCoordinate</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b">CPTCoordinate</a>)&#160;</td>
           <td class="paramname"><em>coordinate</em></td>
           <td></td>
         </tr>
@@ -402,7 +560,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey">forCoordinate:</td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a10709b6abd0a9ee1769345ef51b2fcd7">CPTCoordinate</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b">CPTCoordinate</a>)&#160;</td>
           <td class="paramname"><em>coordinate</em>&#160;</td>
         </tr>
         <tr>
@@ -432,13 +590,13 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">- (void) setScaleType: </td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a9564ab0b679e0c37a87f0c8af3a60335">CPTScaleType</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a">CPTScaleType</a>)&#160;</td>
           <td class="paramname"><em>newType</em></td>
         </tr>
         <tr>
           <td class="paramkey">forCoordinate:</td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a10709b6abd0a9ee1769345ef51b2fcd7">CPTCoordinate</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b">CPTCoordinate</a>)&#160;</td>
           <td class="paramname"><em>coordinate</em>&#160;</td>
         </tr>
         <tr>
@@ -461,9 +619,70 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="a0d1dd4c7e319458df25aff1fa5872df9"></a><!-- doxytag: member="CPTPlotSpace::allowsUserInteraction" ref="a0d1dd4c7e319458df25aff1fa5872df9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotSpace:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Determines whether user can interactively change plot range and/or zoom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2a3aed439077b13bd070b573c29ca4a9"></a><!-- doxytag: member="CPTPlotSpace::delegate" ref="a2a3aed439077b13bd070b573c29ca4a9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotSpace:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot space delegate. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1338ed4172b2eca55291a79096bade8f"></a><!-- doxytag: member="CPTPlotSpace::graph" ref="a1338ed4172b2eca55291a79096bade8f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotSpace:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The graph of the space. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad97e327cd52cd5086023efebd5b94c31"></a><!-- doxytag: member="CPTPlotSpace::identifier" ref="ad97e327cd52cd5086023efebd5b94c31" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotSpace:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>An object used to identify the plot in collections. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_plot_space_8h_source.html">CPTPlotSpace.h</a></li>
-<li>Source/CPTPlotSpace.m</li>
+<li>Source/<a class="el" href="_c_p_t_plot_space_8m.html">CPTPlotSpace.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

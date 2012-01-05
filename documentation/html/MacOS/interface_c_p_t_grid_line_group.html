@@ -85,6 +85,8 @@
 <!-- doxytag: class="CPTGridLineGroup" --><!-- doxytag: inherits="CPTLayer" -->
 <p>A group of grid line layers.  
  <a href="interface_c_p_t_grid_line_group.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_grid_line_group_8h_source.html">CPTGridLineGroup.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTGridLineGroup:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -106,21 +108,92 @@
 
 <p><a href="class_c_p_t_grid_line_group-members.html">List of all members.</a></p>
 <table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_grid_line_group.html#a333bc1319e96f0e033bf6825b53f6e06">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a333bc1319e96f0e033bf6825b53f6e06"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af99040609ba282440a924222c1ad00ba"></a><!-- doxytag: member="CPTGridLineGroup::plotArea" ref="af99040609ba282440a924222c1ad00ba" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_plot_area.html">CPTPlotArea</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_grid_line_group.html#af99040609ba282440a924222c1ad00ba">plotArea</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot area that this grid line group belongs to. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92fac9b94f2d34f56a03fd629086307d"></a><!-- doxytag: member="CPTGridLineGroup::major" ref="a92fac9b94f2d34f56a03fd629086307d" args="" -->
-<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_grid_line_group.html#a92fac9b94f2d34f56a03fd629086307d">major</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If YES, draw the major grid lines, else draw the minor grid lines. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_plot_area.html">CPTPlotArea</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_grid_line_group.html#af99040609ba282440a924222c1ad00ba">plotArea</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot area that this grid line group belongs to.  <a href="#af99040609ba282440a924222c1ad00ba"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_grid_line_group.html#a92fac9b94f2d34f56a03fd629086307d">major</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">If YES, draw the major grid lines, else draw the minor grid lines.  <a href="#a92fac9b94f2d34f56a03fd629086307d"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A group of grid line layers. </p>
 <p>When using separate axis layers, this layer serves as the common superlayer for the grid line layers. Otherwise, this layer handles the drawing for the grid lines. It supports mixing the two modes; some axes can use separate grid line layers while others are handled by the grid line group. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><hr/><h2>Method Documentation</h2>
+<a class="anchor" id="a333bc1319e96f0e033bf6825b53f6e06"></a><!-- doxytag: member="CPTGridLineGroup::initWithFrame:" ref="a333bc1319e96f0e033bf6825b53f6e06" args="(CGRect newFrame)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_grid_line_group.html#a333bc1319e96f0e033bf6825b53f6e06">initWithFrame:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>newFrame</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<ul>
+<li>needsDisplayOnBoundsChange = NO</li>
+<li>opaque = NO</li>
+<li>masksToBounds = NO</li>
+<li>padding = 0 on all four sides</li>
+<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a42e21f40d25b81ffafdc9940d894876d">CPTLayer</a>.</p>
+
+</div>
+</div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="a92fac9b94f2d34f56a03fd629086307d"></a><!-- doxytag: member="CPTGridLineGroup::major" ref="a92fac9b94f2d34f56a03fd629086307d" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTGridLineGroup:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>If YES, draw the major grid lines, else draw the minor grid lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="af99040609ba282440a924222c1ad00ba"></a><!-- doxytag: member="CPTGridLineGroup::plotArea" ref="af99040609ba282440a924222c1ad00ba" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTGridLineGroup:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot area that this grid line group belongs to. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_grid_line_group_8h_source.html">CPTGridLineGroup.h</a></li>
-<li>Source/CPTGridLineGroup.m</li>
+<li>Source/<a class="el" href="_c_p_t_grid_line_group_8m.html">CPTGridLineGroup.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

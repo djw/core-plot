@@ -78,9 +78,9 @@
 <div class="title">Source/CPTPlotArea.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#import &quot;CPTAnnotationHostLayer.h&quot;</span>
+<a href="_c_p_t_plot_area_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_annotation_host_layer_8h.html">CPTAnnotationHostLayer.h</a>&quot;</span>
 <a name="l00002"></a>00002 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_graph_8h.html">CPTGraph.h</a>&quot;</span>
-<a name="l00003"></a>00003 <span class="preprocessor">#import &quot;CPTLayer.h&quot;</span>
+<a name="l00003"></a>00003 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_layer_8h.html">CPTLayer.h</a>&quot;</span>
 <a name="l00004"></a>00004 <span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span>
 <a name="l00005"></a>00005 
 <a name="l00006"></a>00006 <span class="keyword">@class</span> <a class="code" href="interface_c_p_t_axis.html" title="An abstract axis class.">CPTAxis</a>;
@@ -101,7 +101,7 @@
 <a name="l00021"></a><a class="code" href="interface_c_p_t_plot_area.html#a5ab0f70db90e5e164e7fa440790af49a">00021</a>     <a class="code" href="interface_c_p_t_axis_label_group.html" title="A container layer for the axis labels.">CPTAxisLabelGroup</a> *<a class="code" href="interface_c_p_t_plot_area.html#a5ab0f70db90e5e164e7fa440790af49a" title="The parent layer for all axis titles.">axisTitleGroup</a>;
 <a name="l00022"></a><a class="code" href="interface_c_p_t_plot_area.html#a38950c31448c74d346eb8f7fcee91ff9">00022</a>     <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *<a class="code" href="interface_c_p_t_plot_area.html#a38950c31448c74d346eb8f7fcee91ff9" title="The fill for the layer background. If nil, the layer background is not filled.">fill</a>;
 <a name="l00023"></a><a class="code" href="interface_c_p_t_plot_area.html#a9e425efc7501c6463ca2a05c7ae4d72f">00023</a>     <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *<a class="code" href="interface_c_p_t_plot_area.html#a9e425efc7501c6463ca2a05c7ae4d72f" title="An array of graph layers to be drawn in an order other than the default.">topDownLayerOrder</a>;
-<a name="l00024"></a>00024     <a class="code" href="_c_p_t_graph_8h.html#a516b503d3a0be51b245e936ae5049b07" title="Enumeration of graph layers.">CPTGraphLayerType</a> *bottomUpLayerOrder;
+<a name="l00024"></a>00024     <a class="code" href="_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327ca" title="Enumeration of graph layers.">CPTGraphLayerType</a> *bottomUpLayerOrder;
 <a name="l00025"></a>00025     <a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a> updatingLayers;
 <a name="l00026"></a>00026 }
 <a name="l00027"></a>00027 
@@ -114,19 +114,19 @@
 <a name="l00037"></a>00037 
 <a name="l00040"></a>00040 <span class="keyword">@property</span> (nonatomic, readwrite, retain) <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *topDownLayerOrder;
 <a name="l00042"></a>00042 
-<a name="l00045"></a><a class="code" href="interface_c_p_t_plot_area.html#ab77ea92ee3ce64f2a8507324f4048290">00045</a> <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *borderLineStyle;
+<a name="l00045"></a><a class="code" href="interface_c_p_t_plot_area.html#a411447ebe982ef535d931e464466765d">00045</a> <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *borderLineStyle;
 <a name="l00046"></a>00046 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *fill;
 <a name="l00048"></a>00048 
-<a name="l00051"></a>00051 -(void)updateAxisSetLayersForType:(<a class="code" href="_c_p_t_graph_8h.html#a516b503d3a0be51b245e936ae5049b07" title="Enumeration of graph layers.">CPTGraphLayerType</a>)layerType;
-<a name="l00052"></a>00052 -(void)setAxisSetLayersForType:(<a class="code" href="_c_p_t_graph_8h.html#a516b503d3a0be51b245e936ae5049b07" title="Enumeration of graph layers.">CPTGraphLayerType</a>)layerType;
-<a name="l00053"></a>00053 -(unsigned)sublayerIndexForAxis:(<a class="code" href="interface_c_p_t_axis.html" title="An abstract axis class.">CPTAxis</a> *)axis layerType:(<a class="code" href="_c_p_t_graph_8h.html#a516b503d3a0be51b245e936ae5049b07" title="Enumeration of graph layers.">CPTGraphLayerType</a>)layerType;
+<a name="l00051"></a>00051 -(void)updateAxisSetLayersForType:(<a class="code" href="_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327ca" title="Enumeration of graph layers.">CPTGraphLayerType</a>)layerType;
+<a name="l00052"></a>00052 -(void)setAxisSetLayersForType:(<a class="code" href="_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327ca" title="Enumeration of graph layers.">CPTGraphLayerType</a>)layerType;
+<a name="l00053"></a>00053 -(unsigned)sublayerIndexForAxis:(<a class="code" href="interface_c_p_t_axis.html" title="An abstract axis class.">CPTAxis</a> *)axis layerType:(<a class="code" href="_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327ca" title="Enumeration of graph layers.">CPTGraphLayerType</a>)layerType;
 <a name="l00055"></a>00055 
 <a name="l00056"></a>00056 <span class="keyword">@end</span>
 </pre></div></div><!-- contents -->
 </div>
   <div id="nav-path" class="navpath">
     <ul>
-      <li class="navelem"><b>CPTPlotArea.h</b>      </li>
+      <li class="navelem"><a class="el" href="_c_p_t_plot_area_8h.html">CPTPlotArea.h</a>      </li>
 
     <li class="footer">Generated by <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a></li>

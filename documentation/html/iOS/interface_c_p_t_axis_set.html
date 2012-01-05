@@ -86,6 +86,8 @@
 <!-- doxytag: class="CPTAxisSet" --><!-- doxytag: inherits="CPTLayer" -->
 <p>A container layer for the set of axes for a graph.  
  <a href="interface_c_p_t_axis_set.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_axis_set_8h_source.html">CPTAxisSet.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTAxisSet:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,23 +111,111 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a084e35c08a07398370fff8248dc99634"></a><!-- doxytag: member="CPTAxisSet::relabelAxes" ref="a084e35c08a07398370fff8248dc99634" args="()" -->
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis_set.html#a084e35c08a07398370fff8248dc99634">relabelAxes</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the axis labels for each axis in the axis set. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis_set.html#a084e35c08a07398370fff8248dc99634">relabelAxes</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the axis labels for each axis in the axis set.  <a href="#a084e35c08a07398370fff8248dc99634"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis_set.html#af1b1939683cc055a4489fabdc6c43066">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#af1b1939683cc055a4489fabdc6c43066"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a423143c5af60618ddd65b05029bbfe26"></a><!-- doxytag: member="CPTAxisSet::axes" ref="a423143c5af60618ddd65b05029bbfe26" args="" -->
-<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis_set.html#a423143c5af60618ddd65b05029bbfe26">axes</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axes in the axis set. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed441bd687c7de87f7794b20d99bb144"></a><!-- doxytag: member="CPTAxisSet::borderLineStyle" ref="aed441bd687c7de87f7794b20d99bb144" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis_set.html#aed441bd687c7de87f7794b20d99bb144">borderLineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the layer border. If nil, the border is not drawn. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis_set.html#a423143c5af60618ddd65b05029bbfe26">axes</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axes in the axis set.  <a href="#a423143c5af60618ddd65b05029bbfe26"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis_set.html#aed441bd687c7de87f7794b20d99bb144">borderLineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the layer border. If <code>nil</code>, the border is not drawn.  <a href="#aed441bd687c7de87f7794b20d99bb144"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A container layer for the set of axes for a graph. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><hr/><h2>Method Documentation</h2>
+<a class="anchor" id="af1b1939683cc055a4489fabdc6c43066"></a><!-- doxytag: member="CPTAxisSet::initWithFrame:" ref="af1b1939683cc055a4489fabdc6c43066" args="(CGRect newFrame)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_axis_set.html#af1b1939683cc055a4489fabdc6c43066">initWithFrame:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>newFrame</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<ul>
+<li>needsDisplayOnBoundsChange = NO</li>
+<li>opaque = NO</li>
+<li>masksToBounds = NO</li>
+<li>padding = 0 on all four sides</li>
+<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a42e21f40d25b81ffafdc9940d894876d">CPTLayer</a>.</p>
+
+<p>Reimplemented in <a class="el" href="interface_c_p_t_x_y_axis_set.html#a26b081432a8e55ae4decedc546201fb7">CPTXYAxisSet</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a084e35c08a07398370fff8248dc99634"></a><!-- doxytag: member="CPTAxisSet::relabelAxes" ref="a084e35c08a07398370fff8248dc99634" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) <a class="el" href="interface_c_p_t_axis_set.html#a084e35c08a07398370fff8248dc99634">relabelAxes</a> </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Updates the axis labels for each axis in the axis set. </p>
+
+</div>
+</div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="a423143c5af60618ddd65b05029bbfe26"></a><!-- doxytag: member="CPTAxisSet::axes" ref="a423143c5af60618ddd65b05029bbfe26" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxisSet:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The axes in the axis set. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed441bd687c7de87f7794b20d99bb144"></a><!-- doxytag: member="CPTAxisSet::borderLineStyle" ref="aed441bd687c7de87f7794b20d99bb144" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxisSet:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style for the layer border. If <code>nil</code>, the border is not drawn. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_axis_set_8h_source.html">CPTAxisSet.h</a></li>
-<li>Source/CPTAxisSet.m</li>
+<li>Source/<a class="el" href="_c_p_t_axis_set_8m.html">CPTAxisSet.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

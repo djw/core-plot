@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$interface_c_p_t_bordered_layer.html" title="A layer with rounded corners." alt="" coords="321,406,460,437"/>
+<area shape="rect" id="node2" href="$interface_c_p_t_bordered_layer.html" title="A layer with a border line and background fill." alt="" coords="321,406,460,437"/>
 <area shape="rect" id="node4" href="$interface_c_p_t_annotation_host_layer.html" title="A container layer for annotations." alt="" coords="300,326,481,357"/>
 <area shape="rect" id="node6" href="$interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot." alt="" coords="350,246,431,277"/>
 <area shape="rect" id="node8" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html" title="CALayer" alt="" coords="251,166,324,197"/>

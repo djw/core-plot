@@ -77,7 +77,6 @@
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Instance Methods</a> &#124;
 <a href="#properties">Properties</a>  </div>
   <div class="headertitle">
 <div class="title">CPTScatterPlot Class Reference</div>  </div>
@@ -86,6 +85,8 @@
 <!-- doxytag: class="CPTScatterPlot" --><!-- doxytag: inherits="CPTPlot" -->
 <p>A two-dimensional scatter plot.  
  <a href="interface_c_p_t_scatter_plot.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_scatter_plot_8h_source.html">CPTScatterPlot.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTScatterPlot:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,33 +110,36 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Visible Points</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_scatter_plot.html#a57eacc8261a4d4a1399f1196be786cff">indexOfVisiblePointClosestToPlotAreaPoint:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the closest visible point to the point passed in.  <a href="#a57eacc8261a4d4a1399f1196be786cff"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_scatter_plot.html#a3dfa49dc1c7aae889ca0834ae63dba45">plotAreaPointOfVisiblePointAtIndex:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the plot area view point of a visible point.  <a href="#a3dfa49dc1c7aae889ca0834ae63dba45"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Plot Symbols</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_plot_symbol.html">CPTPlotSymbol</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_scatter_plot.html#a9f74ed3bfedfb98fc91ce0e485d9b2b9">plotSymbolForRecordIndex:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the plot symbol to use for a given index.  <a href="#a9f74ed3bfedfb98fc91ce0e485d9b2b9"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_scatter_plot.html#aa04e58896f986681b57b1443838fe4ba">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#aa04e58896f986681b57b1443838fe4ba"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_scatter_plot.html#a4601ba30081adefe769621da95329dd5">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.  <a href="#a4601ba30081adefe769621da95329dd5"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab90031ebb57908a953e9e0a10e1a43f2"></a><!-- doxytag: member="CPTScatterPlot::dataLineStyle" ref="ab90031ebb57908a953e9e0a10e1a43f2" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#ab90031ebb57908a953e9e0a10e1a43f2">dataLineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the data line. If nil, the line is not drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a059677ae2aa9d15fcde552e2a0dd0f7d"></a><!-- doxytag: member="CPTScatterPlot::plotSymbol" ref="a059677ae2aa9d15fcde552e2a0dd0f7d" args="" -->
-<a class="el" href="interface_c_p_t_plot_symbol.html">CPTPlotSymbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#a059677ae2aa9d15fcde552e2a0dd0f7d">plotSymbol</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot symbol drawn at each point if the data source does not provide symbols. If nil, no symbol is drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a955037267ca08091d5ca7f2baab4e746"></a><!-- doxytag: member="CPTScatterPlot::areaFill" ref="a955037267ca08091d5ca7f2baab4e746" args="" -->
-<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#a955037267ca08091d5ca7f2baab4e746">areaFill</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The fill style for the area underneath the data line. If nil, the area is not filled. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37c6bfb2c808b631c0031855c1b306bf"></a><!-- doxytag: member="CPTScatterPlot::areaFill2" ref="a37c6bfb2c808b631c0031855c1b306bf" args="" -->
-<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#a37c6bfb2c808b631c0031855c1b306bf">areaFill2</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The fill style for the area above the data line. If nil, the area is not filled. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#ab90031ebb57908a953e9e0a10e1a43f2">dataLineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the data line. If <code>nil</code>, the line is not drawn.  <a href="#ab90031ebb57908a953e9e0a10e1a43f2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_symbol.html">CPTPlotSymbol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#a059677ae2aa9d15fcde552e2a0dd0f7d">plotSymbol</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot symbol drawn at each point if the data source does not provide symbols. If <code>nil</code>, no symbol is drawn.  <a href="#a059677ae2aa9d15fcde552e2a0dd0f7d"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#a955037267ca08091d5ca7f2baab4e746">areaFill</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The fill style for the area underneath the data line. If <code>nil</code>, the area is not filled.  <a href="#a955037267ca08091d5ca7f2baab4e746"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#a37c6bfb2c808b631c0031855c1b306bf">areaFill2</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The fill style for the area above the data line. If <code>nil</code>, the area is not filled.  <a href="#a37c6bfb2c808b631c0031855c1b306bf"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#aea48c69d7c599ca618b0a0612abaeb59">areaBaseValue</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The Y coordinate of the straight boundary of the area fill. If not a number, the area is not filled.  <a href="#aea48c69d7c599ca618b0a0612abaeb59"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#afffaa2ceecb2df07f0215f59511a2659">areaBaseValue2</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The Y coordinate of the straight boundary of the secondary area fill. If not a number, the area is not filled.  <a href="#afffaa2ceecb2df07f0215f59511a2659"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af809383099574f528fef47497ac913b8"></a><!-- doxytag: member="CPTScatterPlot::interpolation" ref="af809383099574f528fef47497ac913b8" args="" -->
-<a class="el" href="_c_p_t_scatter_plot_8h.html#afa84bf01f2d533d0cd4973aabc45c498">CPTScatterPlotInterpolation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#af809383099574f528fef47497ac913b8">interpolation</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The interpolation algorithm used for lines between data points. Default is CPTScatterPlotInterpolationLinear. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_scatter_plot_8h.html#a0a9d8cdea584afe83809167eedeca8da">CPTScatterPlotInterpolation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#af809383099574f528fef47497ac913b8">interpolation</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The interpolation algorithm used for lines between data points. Default is <a class="el" href="_c_p_t_scatter_plot_8h.html#a0a9d8cdea584afe83809167eedeca8daaa0dcba8b82569841d1599aa5507f2957" title="Linear interpolation.">CPTScatterPlotInterpolationLinear</a>.  <a href="#af809383099574f528fef47497ac913b8"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_scatter_plot.html#ae2889d87641d64cd97f87ed3128514e7">plotSymbolMarginForHitDetection</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">A margin added to each side of a symbol when determining whether it has been hit.  <a href="#ae2889d87641d64cd97f87ed3128514e7"></a><br/></td></tr>
 </table>
@@ -168,6 +172,42 @@ See <a class="el" href="group__plot_bindings_scatter_plot.html">Scatter Plot Bin
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The index of the closest point, or NSNotFound if there is no visible point. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa04e58896f986681b57b1443838fe4ba"></a><!-- doxytag: member="CPTScatterPlot::initWithFrame:" ref="aa04e58896f986681b57b1443838fe4ba" args="(CGRect newFrame)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_scatter_plot.html#aa04e58896f986681b57b1443838fe4ba">initWithFrame:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>newFrame</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<ul>
+<li>needsDisplayOnBoundsChange = NO</li>
+<li>opaque = NO</li>
+<li>masksToBounds = NO</li>
+<li>padding = 0 on all four sides</li>
+<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>.</p>
 
 </div>
 </div>
@@ -223,6 +263,45 @@ See <a class="el" href="group__plot_bindings_scatter_plot.html">Scatter Plot Bin
 
 </div>
 </div>
+<a class="anchor" id="a4601ba30081adefe769621da95329dd5"></a><!-- doxytag: member="CPTScatterPlot::pointingDeviceDownEvent:atPoint:" ref="a4601ba30081adefe769621da95329dd5" args="(id event,[atPoint] CGPoint interactionPoint)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) pointingDeviceDownEvent: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td>
+          <td class="paramname"><em>event</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">atPoint:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td>
+          <td class="paramname"><em>interactionPoint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>Native event object of device. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the event was handled or not. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a2d6014b2ef18d540a36f69e63fbb5382">CPTLayer</a>.</p>
+
+</div>
+</div>
 <hr/><h2>Property Documentation</h2>
 <a class="anchor" id="aea48c69d7c599ca618b0a0612abaeb59"></a><!-- doxytag: member="CPTScatterPlot::areaBaseValue" ref="aea48c69d7c599ca618b0a0612abaeb59" args="" -->
 <div class="memitem">
@@ -256,6 +335,81 @@ See <a class="el" href="group__plot_bindings_scatter_plot.html">Scatter Plot Bin
 
 </div>
 </div>
+<a class="anchor" id="a955037267ca08091d5ca7f2baab4e746"></a><!-- doxytag: member="CPTScatterPlot::areaFill" ref="a955037267ca08091d5ca7f2baab4e746" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTScatterPlot:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The fill style for the area underneath the data line. If <code>nil</code>, the area is not filled. </p>
+
+</div>
+</div>
+<a class="anchor" id="a37c6bfb2c808b631c0031855c1b306bf"></a><!-- doxytag: member="CPTScatterPlot::areaFill2" ref="a37c6bfb2c808b631c0031855c1b306bf" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTScatterPlot:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The fill style for the area above the data line. If <code>nil</code>, the area is not filled. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab90031ebb57908a953e9e0a10e1a43f2"></a><!-- doxytag: member="CPTScatterPlot::dataLineStyle" ref="ab90031ebb57908a953e9e0a10e1a43f2" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTScatterPlot:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style for the data line. If <code>nil</code>, the line is not drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="af809383099574f528fef47497ac913b8"></a><!-- doxytag: member="CPTScatterPlot::interpolation" ref="af809383099574f528fef47497ac913b8" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTScatterPlot:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The interpolation algorithm used for lines between data points. Default is <a class="el" href="_c_p_t_scatter_plot_8h.html#a0a9d8cdea584afe83809167eedeca8daaa0dcba8b82569841d1599aa5507f2957" title="Linear interpolation.">CPTScatterPlotInterpolationLinear</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a059677ae2aa9d15fcde552e2a0dd0f7d"></a><!-- doxytag: member="CPTScatterPlot::plotSymbol" ref="a059677ae2aa9d15fcde552e2a0dd0f7d" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTScatterPlot:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot symbol drawn at each point if the data source does not provide symbols. If <code>nil</code>, no symbol is drawn. </p>
+
+</div>
+</div>
 <a class="anchor" id="ae2889d87641d64cd97f87ed3128514e7"></a><!-- doxytag: member="CPTScatterPlot::plotSymbolMarginForHitDetection" ref="ae2889d87641d64cd97f87ed3128514e7" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +428,7 @@ See <a class="el" href="group__plot_bindings_scatter_plot.html">Scatter Plot Bin
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_scatter_plot_8h_source.html">CPTScatterPlot.h</a></li>
-<li>Source/CPTScatterPlot.m</li>
+<li>Source/<a class="el" href="_c_p_t_scatter_plot_8m.html">CPTScatterPlot.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

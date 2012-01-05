@@ -10,6 +10,7 @@ var interface_c_p_t_plot =
     [ "drawSwatchForLegend:atIndex:inRect:inContext:", "interface_c_p_t_plot.html#abe4e69caf2e8163449edf9a85916bbf9", null ],
     [ "fieldIdentifiers", "interface_c_p_t_plot.html#a2d76f1890e3cc9406526f3cf853d3b02", null ],
     [ "fieldIdentifiersForCoordinate:", "interface_c_p_t_plot.html#a0467a2b65d0204c0cfb4eeeb59e8ba40", null ],
+    [ "initWithFrame:", "interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c", null ],
     [ "insertDataAtIndex:numberOfRecords:", "interface_c_p_t_plot.html#ab3c45087d014d31a56d8911b3db89040", null ],
     [ "numberOfFields", "interface_c_p_t_plot.html#a7095b4dca95e6e93fb222aa5c0a96bce", null ],
     [ "numberOfLegendEntries", "interface_c_p_t_plot.html#a26d4458527479b7b55bbd9cfcfadd5d6", null ],
@@ -42,7 +43,7 @@ var interface_c_p_t_plot =
     [ "labelShadow", "interface_c_p_t_plot.html#a376158970f696bfccddc8be660153d8d", null ],
     [ "labelTextStyle", "interface_c_p_t_plot.html#a9f0cd0ab1010293496ac51b1e2069069", null ],
     [ "needsRelabel", "interface_c_p_t_plot.html#a19e9597f65f86a5116761c28a93fd177", null ],
-    [ "plotArea", "interface_c_p_t_plot.html#ac9a1a50376c4de43d67516317a60620a", null ],
+    [ "plotArea", "interface_c_p_t_plot.html#aaf90e5f9891ced5481300e2562f9ce48", null ],
     [ "plotSpace", "interface_c_p_t_plot.html#aedbe912b2c94255949e9b6468f9d84c2", null ],
     [ "title", "interface_c_p_t_plot.html#a3776bf9d88331714e8dde311c571e4b9", null ]
 ];

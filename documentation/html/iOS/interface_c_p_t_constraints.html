@@ -83,6 +83,8 @@
 <!-- doxytag: class="CPTConstraints" --><!-- doxytag: inherits="NSObject,NSCoding-p-p,NSCopying-p-p" -->
 <p>Implements a one-dimensional constrained position within a given numeric range.  
  <a href="interface_c_p_t_constraints.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_constraints_8h_source.html">CPTConstraints.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTConstraints:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -90,7 +92,7 @@
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="interface_c_p_t_constraints__inherit__graph.png" border="0" usemap="#_c_p_t_constraints_inherit__map" alt="Inheritance graph"/></div>
 <map name="_c_p_t_constraints_inherit__map" id="_c_p_t_constraints_inherit__map">
-<area shape="rect" id="node11" href="interface___c_p_t_constraints_fixed.html" title="Implements a one&#45;dimensional constrained position within a given numeric range." alt="" coords="12,246,173,277"/><area shape="rect" id="node13" href="interface___c_p_t_constraints_relative.html" title="Implements a one&#45;dimensional constrained position within a given numeric range." alt="" coords="198,246,375,277"/><area shape="rect" id="node2" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="24,86,104,117"/><area shape="rect" id="node4" href="http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="5,6,123,37"/><area shape="rect" id="node6" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html" title="\&lt;NSCoding&#45;p\&gt;" alt="" coords="128,86,249,117"/><area shape="rect" id="node8" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html" title="\&lt;NSCopying&#45;p\&gt;" alt="" coords="274,86,403,117"/></map>
+<area shape="rect" id="node2" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="24,86,104,117"/><area shape="rect" id="node4" href="http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="5,6,123,37"/><area shape="rect" id="node6" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html" title="\&lt;NSCoding&#45;p\&gt;" alt="" coords="128,86,249,117"/><area shape="rect" id="node8" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html" title="\&lt;NSCopying&#45;p\&gt;" alt="" coords="274,86,403,117"/></map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for CPTConstraints:</div>
@@ -236,8 +238,6 @@ Public Instance Methods</h2></td></tr>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_constraints.html" title="Implements a one-dimensional constrained position within a given numeric range.">CPTConstraints</a> object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="interface___c_p_t_constraints_fixed.html#a55d32e2823b0812f184c0bba8c2374e0">_CPTConstraintsFixed</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ab976a0b91ab45e268f31b37a1d3a9c00"></a><!-- doxytag: member="CPTConstraints::initWithRelativeOffset:" ref="ab976a0b91ab45e268f31b37a1d3a9c00" args="(CGFloat newOffset)" -->
@@ -265,8 +265,6 @@ Public Instance Methods</h2></td></tr>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_constraints.html" title="Implements a one-dimensional constrained position within a given numeric range.">CPTConstraints</a> object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="interface___c_p_t_constraints_relative.html#a505e4d3a35ac98d636f96d5981f162ca">_CPTConstraintsRelative</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a0188b6fa9cb67fb8cc3b3ef0f8181af4"></a><!-- doxytag: member="CPTConstraints::initWithUpperOffset:" ref="a0188b6fa9cb67fb8cc3b3ef0f8181af4" args="(CGFloat newOffset)" -->
@@ -292,8 +290,6 @@ Public Instance Methods</h2></td></tr>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_constraints.html" title="Implements a one-dimensional constrained position within a given numeric range.">CPTConstraints</a> object. </dd></dl>
-
-<p>Reimplemented in <a class="el" href="interface___c_p_t_constraints_fixed.html#a4204b170b13eedcaa490b035ccf603d6">_CPTConstraintsFixed</a>.</p>
 
 </div>
 </div>
@@ -351,8 +347,8 @@ Public Instance Methods</h2></td></tr>
 <p>Compute the position given a range of values. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">lowerBound</td><td>The lower bound; must be less than or equal to the upperBound. </td></tr>
-    <tr><td class="paramname">upperBound</td><td>The upper bound; must be greater than or equal to the lowerBound. </td></tr>
+    <tr><td class="paramname">lowerBound</td><td>The lower bound; must be less than or equal to the <code>upperBound</code>. </td></tr>
+    <tr><td class="paramname">upperBound</td><td>The upper bound; must be greater than or equal to the <code>lowerBound</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -362,7 +358,7 @@ Public Instance Methods</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_constraints_8h_source.html">CPTConstraints.h</a></li>
-<li>Source/CPTConstraints.m</li>
+<li>Source/<a class="el" href="_c_p_t_constraints_8m.html">CPTConstraints.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

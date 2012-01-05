@@ -76,8 +76,6 @@
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Instance Methods</a>  </div>
   <div class="headertitle">
 <div class="title">&lt;CPTPlotDataSource&gt; Protocol Reference</div>  </div>
 </div><!--header-->
@@ -110,22 +108,22 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Data Values</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a4f88c11590a2ec86a41bab421d207744">numberOfRecordsForPlot:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Required) The number of data points for the plot.  <a href="#a4f88c11590a2ec86a41bab421d207744"></a><br/></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Implement one of the following</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a9dbeec1441957bf8b8b64e553499eaf9">numbersForPlot:field:recordIndexRange:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field.  <a href="#a9dbeec1441957bf8b8b64e553499eaf9"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a9dbeec1441957bf8b8b64e553499eaf9"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNumber_Class/Reference/Reference.html">NSNumber</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a7402b4e0aa6cf2376e1f335acb55ec66">numberForPlot:field:recordIndex:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a plot data value for the given plot and field.  <a href="#a7402b4e0aa6cf2376e1f335acb55ec66"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a7402b4e0aa6cf2376e1f335acb55ec66"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(double *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#af3dd375ee459541f0a8b53c700bff9a3">doublesForPlot:field:recordIndexRange:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field.  <a href="#af3dd375ee459541f0a8b53c700bff9a3"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#af3dd375ee459541f0a8b53c700bff9a3"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(double)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a751d55385f637298442d0fdaad503da7">doubleForPlot:field:recordIndex:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a plot data value for the given plot and field.  <a href="#a751d55385f637298442d0fdaad503da7"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a751d55385f637298442d0fdaad503da7"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_numeric_data.html">CPTNumericData</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a43a84ec249a526948d1f45bf4634d289">dataForPlot:field:recordIndexRange:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field.  <a href="#a43a84ec249a526948d1f45bf4634d289"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a43a84ec249a526948d1f45bf4634d289"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Data Labels</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_layer.html">CPTLayer</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#ac1bda304421f3bff21f4db54282620d9">dataLabelForPlot:recordIndex:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot. This method is optional.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A plot data source. </p>
@@ -155,13 +153,13 @@ Public Instance Methods</h2></td></tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td><td></td>
+          <td></td><td><code> [optional]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>(Optional) Gets a range of plot data for the given plot and field. </p>
+<p>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The plot. </td></tr>
@@ -199,7 +197,7 @@ Public Instance Methods</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>(Optional) Gets a data label for the given plot. This method is optional. </p>
+<p>(Optional) Gets a data label for the given plot. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The plot. </td></tr>
@@ -236,13 +234,13 @@ Public Instance Methods</h2></td></tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td><td></td>
+          <td></td><td><code> [optional]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>(Optional) Gets a plot data value for the given plot and field. </p>
+<p>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the optional methods in this section. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The plot. </td></tr>
@@ -280,13 +278,13 @@ Public Instance Methods</h2></td></tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td><td></td>
+          <td></td><td><code> [optional]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>(Optional) Gets a range of plot data for the given plot and field. </p>
+<p>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The plot. </td></tr>
@@ -324,13 +322,13 @@ Public Instance Methods</h2></td></tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td><td></td>
+          <td></td><td><code> [optional]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>(Optional) Gets a plot data value for the given plot and field. </p>
+<p>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the optional methods in this section. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The plot. </td></tr>
@@ -394,13 +392,13 @@ Public Instance Methods</h2></td></tr>
         <tr>
           <td></td>
           <td></td>
-          <td></td><td></td>
+          <td></td><td><code> [optional]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>(Optional) Gets a range of plot data for the given plot and field. </p>
+<p>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The plot. </td></tr>

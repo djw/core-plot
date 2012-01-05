@@ -85,6 +85,8 @@
 <!-- doxytag: class="CPTTheme" --><!-- doxytag: inherits="NSObject,NSCoding-p-p" -->
 <p>Creates a <a class="el" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a> instance formatted with a predefined style.  
  <a href="interface_c_p_t_theme.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_theme_8h_source.html">CPTTheme.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTTheme:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -92,7 +94,7 @@
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="interface_c_p_t_theme__inherit__graph.png" border="0" usemap="#_c_p_t_theme_inherit__map" alt="Inheritance graph"/></div>
 <map name="_c_p_t_theme_inherit__map" id="_c_p_t_theme_inherit__map">
-<area shape="rect" id="node9" href="interface___c_p_t_x_y_theme.html" title="Creates a CPTXYGraph instance formatted with padding of 60 on each side and X and Y plot ranges of +/..." alt="" coords="480,114,594,145"/><area shape="rect" id="node2" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="192,86,272,117"/><area shape="rect" id="node4" href="http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="5,86,123,117"/><area shape="rect" id="node6" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html" title="\&lt;NSCoding&#45;p\&gt;" alt="" coords="171,141,293,171"/><area shape="rect" id="node11" href="interface___c_p_t_dark_gradient_theme.html" title="Creates a CPTXYGraph instance formatted with dark gray gradient backgrounds and light gray lines..." alt="" coords="643,5,826,35"/><area shape="rect" id="node13" href="interface___c_p_t_plain_black_theme.html" title="Creates a CPTXYGraph instance formatted with black backgrounds and white lines." alt="" coords="654,59,815,90"/><area shape="rect" id="node15" href="interface___c_p_t_plain_white_theme.html" title="Creates a CPTXYGraph instance formatted with white backgrounds and black lines." alt="" coords="653,114,817,145"/><area shape="rect" id="node17" href="interface___c_p_t_slate_theme.html" title="Creates a CPTXYGraph instance with colors that match the default iPhone navigation bar..." alt="" coords="671,169,799,199"/><area shape="rect" id="node19" href="interface___c_p_t_stocks_theme.html" title="Creates a CPTXYGraph instance formatted with a gradient background and white lines." alt="" coords="665,223,804,254"/></map>
+<area shape="rect" id="node2" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="24,86,104,117"/><area shape="rect" id="node4" href="http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="5,6,123,37"/><area shape="rect" id="node6" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html" title="\&lt;NSCoding&#45;p\&gt;" alt="" coords="128,86,249,117"/></map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for CPTTheme:</div>
@@ -132,9 +134,8 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the theme to the provided axis set.  <a href="#a109d674d79ec6908ab860b58a1e6cbe5"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72dbc05172faa4acded92f6a7cc56df6"></a><!-- doxytag: member="CPTTheme::graphClass" ref="a72dbc05172faa4acded92f6a7cc56df6" args="" -->
-Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_theme.html#a72dbc05172faa4acded92f6a7cc56df6">graphClass</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The class used to create new graphs. Must be a subclass of <a class="el" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a>. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_theme.html#a72dbc05172faa4acded92f6a7cc56df6">graphClass</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The class used to create new graphs. Must be a subclass of <a class="el" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a>.  <a href="#a72dbc05172faa4acded92f6a7cc56df6"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Creates a <a class="el" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a> instance formatted with a predefined style. </p>
@@ -349,9 +350,25 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="int
 
 </div>
 </div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="a72dbc05172faa4acded92f6a7cc56df6"></a><!-- doxytag: member="CPTTheme::graphClass" ref="a72dbc05172faa4acded92f6a7cc56df6" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTTheme:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The class used to create new graphs. Must be a subclass of <a class="el" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a>. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_theme_8h_source.html">CPTTheme.h</a></li>
-<li>Source/CPTTheme.m</li>
+<li>Source/<a class="el" href="_c_p_t_theme_8m.html">CPTTheme.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

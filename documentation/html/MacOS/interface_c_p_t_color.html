@@ -85,6 +85,8 @@
 <!-- doxytag: class="CPTColor" --><!-- doxytag: inherits="NSObject,NSCopying-p-p,NSCoding-p-p" -->
 <p>An immutable color.  
  <a href="interface_c_p_t_color.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_color_8h_source.html">CPTColor.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTColor:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -156,12 +158,10 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and returns a new <a class="el" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a> instance having color components identical to the current object but having the provided alpha component.  <a href="#aaa74d0120cea7d93c4a95a9a3e667a19"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adaef81a9410c85048357a67670a7f733"></a><!-- doxytag: member="CPTColor::cgColor" ref="adaef81a9410c85048357a67670a7f733" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGColor/Reference/reference.html#//apple_ref/doc/c_ref/CGColorRef.html">CGColorRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_color.html#adaef81a9410c85048357a67670a7f733">cgColor</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The CGColor to wrap around. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab17b4b208316a1f55f8be4896a8b04e9"></a><!-- doxytag: member="CPTColor::nsColor" ref="ab17b4b208316a1f55f8be4896a8b04e9" args="" -->
-<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSColor_Class/Reference/Reference.html">NSColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_color.html#ab17b4b208316a1f55f8be4896a8b04e9">nsColor</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the color value as an <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSColor_Class/Reference/Reference.html">NSColor</a>. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGColor/Reference/reference.html#//apple_ref/doc/c_ref/CGColorRef.html">CGColorRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_color.html#adaef81a9410c85048357a67670a7f733">cgColor</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGColor/Reference/reference.html#//apple_ref/doc/c_ref/CGColorRef.html">CGColorRef</a> to wrap around.  <a href="#adaef81a9410c85048357a67670a7f733"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSColor_Class/Reference/Reference.html">NSColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_color.html#ab17b4b208316a1f55f8be4896a8b04e9">nsColor</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the color value as an <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSColor_Class/Reference/Reference.html">NSColor</a>.  <a href="#ab17b4b208316a1f55f8be4896a8b04e9"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>An immutable color. </p>
@@ -658,9 +658,40 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="adaef81a9410c85048357a67670a7f733"></a><!-- doxytag: member="CPTColor::cgColor" ref="adaef81a9410c85048357a67670a7f733" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTColor:<code> [read, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGColor/Reference/reference.html#//apple_ref/doc/c_ref/CGColorRef.html">CGColorRef</a> to wrap around. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab17b4b208316a1f55f8be4896a8b04e9"></a><!-- doxytag: member="CPTColor::nsColor" ref="ab17b4b208316a1f55f8be4896a8b04e9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSColor_Class/Reference/Reference.html">NSColor</a> *) <a class="el" href="interface_c_p_t_color.html#ab17b4b208316a1f55f8be4896a8b04e9">nsColor</a><code> [read, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Gets the color value as an <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSColor_Class/Reference/Reference.html">NSColor</a>. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_color_8h_source.html">CPTColor.h</a></li>
-<li>Source/CPTColor.m</li>
+<li>Source/<a class="el" href="_c_p_t_color_8m.html">CPTColor.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

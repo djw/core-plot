@@ -108,9 +108,18 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Scrolling</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Scaling</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#a1a843136901996431030fdd0b1c80912">plotSpace:shouldScaleBy:aboutPoint:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Informs the receiver that it should uniformly scale (e.g., in response to a pinch on iOS)  <a href="#a1a843136901996431030fdd0b1c80912"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Informs the receiver that it should uniformly scale (e.g., in response to a pinch on iOS).  <a href="#a1a843136901996431030fdd0b1c80912"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Scrolling</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#ae40134caba3131a51133b2da00fd10e9">plotSpace:willDisplaceBy:</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Notifies that plot space is going to scroll.  <a href="#ae40134caba3131a51133b2da00fd10e9"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Plot Range Changes</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#a9a3198807fe7c9c20cd741750482a530">plotSpace:willChangePlotRangeTo:forCoordinate:</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Notifies that plot space is going to change a plot range.  <a href="#a9a3198807fe7c9c20cd741750482a530"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#a2c84c596a90b7a503e318e3b17f3fece">plotSpace:didChangePlotRangeForCoordinate:</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Notifies that plot space has changed a plot range.  <a href="#a2c84c596a90b7a503e318e3b17f3fece"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#aa9a87e9bec8780a584777a379f06b73f">plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Notifies that plot space intercepted a device down event.  <a href="#aa9a87e9bec8780a584777a379f06b73f"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#ac5024ee6422537523acedb0b94d21a9f">plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:</a></td></tr>
@@ -119,12 +128,6 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Notifies that plot space intercepted a device cancelled event.  <a href="#a627105f0a2fd2b10e5b95a8eae67a355"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#aa5d46c4cae89c924a4df89a061082631">plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Notifies that plot space intercepted a device up event.  <a href="#aa5d46c4cae89c924a4df89a061082631"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#ae40134caba3131a51133b2da00fd10e9">plotSpace:willDisplaceBy:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Notifies that plot space is going to scroll.  <a href="#ae40134caba3131a51133b2da00fd10e9"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#a9a3198807fe7c9c20cd741750482a530">plotSpace:willChangePlotRangeTo:forCoordinate:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Notifies that plot space is going to change a plot range.  <a href="#a9a3198807fe7c9c20cd741750482a530"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_space_delegate-p.html#a2c84c596a90b7a503e318e3b17f3fece">plotSpace:didChangePlotRangeForCoordinate:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Notifies that plot space has changed a plot range.  <a href="#a2c84c596a90b7a503e318e3b17f3fece"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Plot space delegate. </p>
@@ -142,7 +145,7 @@ Public Instance Methods</h2></td></tr>
         <tr>
           <td class="paramkey">didChangePlotRangeForCoordinate:</td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a10709b6abd0a9ee1769345ef51b2fcd7">CPTCoordinate</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b">CPTCoordinate</a>)&#160;</td>
           <td class="paramname"><em>coordinate</em>&#160;</td>
         </tr>
         <tr>
@@ -365,7 +368,7 @@ Public Instance Methods</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>(Optional) Informs the receiver that it should uniformly scale (e.g., in response to a pinch on iOS) </p>
+<p>(Optional) Informs the receiver that it should uniformly scale (e.g., in response to a pinch on iOS). </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">space</td><td>The plot space. </td></tr>
@@ -397,7 +400,7 @@ Public Instance Methods</h2></td></tr>
         <tr>
           <td class="paramkey">forCoordinate:</td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a10709b6abd0a9ee1769345ef51b2fcd7">CPTCoordinate</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b">CPTCoordinate</a>)&#160;</td>
           <td class="paramname"><em>coordinate</em>&#160;</td>
         </tr>
         <tr>
@@ -451,7 +454,7 @@ Public Instance Methods</h2></td></tr>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">space</td><td>The plot space. </td></tr>
-    <tr><td class="paramname">proposedDisplacementVector</td><td>The proposed amount by which the plot space will shift </td></tr>
+    <tr><td class="paramname">proposedDisplacementVector</td><td>The proposed amount by which the plot space will shift. </td></tr>
   </table>
   </dd>
 </dl>

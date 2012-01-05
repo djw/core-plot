@@ -6,5 +6,5 @@ var interface_c_p_t_legend_entry =
     [ "plot", "interface_c_p_t_legend_entry.html#aba754fa1dd6e59c892eef94715eabfc7", null ],
     [ "row", "interface_c_p_t_legend_entry.html#af0478a3dfa3c92e94542e36e5119c9a7", null ],
     [ "textStyle", "interface_c_p_t_legend_entry.html#a5f4dde93002e42ab2b89e7165d9e69a2", null ],
-    [ "titleSize", "interface_c_p_t_legend_entry.html#ad5c0200e139f8a75490055341fe3e8a7", null ]
+    [ "titleSize", "interface_c_p_t_legend_entry.html#a0f14e13c0a1256bac7dd10d0e7c5f13c", null ]
 ];

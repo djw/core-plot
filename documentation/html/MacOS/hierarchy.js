@@ -1,18 +1,12 @@
 var hierarchy =
 [
-    [ "_CPTContextNode", "struct___c_p_t_context_node.html", null ],
-    [ "_CPTGradientElement", "struct___c_p_t_gradient_element.html", null ],
-    [ "_CPTNumericDataType", "struct___c_p_t_numeric_data_type.html", null ],
-    [ "_CPTRGBAColor", "struct___c_p_t_r_g_b_a_color.html", null ],
     [ "<CAMediaTiming-p>", "http://developer.apple.com/documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html", [
       [ "CALayer", "http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html", [
         [ "CPTLayer", "interface_c_p_t_layer.html", [
           [ "CPTAnnotationHostLayer", "interface_c_p_t_annotation_host_layer.html", [
             [ "CPTBorderedLayer", "interface_c_p_t_bordered_layer.html", [
               [ "CPTGraph", "interface_c_p_t_graph.html", [
-                [ "CPTXYGraph", "interface_c_p_t_x_y_graph.html", [
-                  [ "CPTDerivedXYGraph", "interface_c_p_t_derived_x_y_graph.html", null ]
-                ] ]
+                [ "CPTXYGraph", "interface_c_p_t_x_y_graph.html", null ]
               ] ],
               [ "CPTLegend", "interface_c_p_t_legend.html", null ],
               [ "CPTPlotAreaFrame", "interface_c_p_t_plot_area_frame.html", null ]
@@ -40,10 +34,11 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "CPTContextNode", "struct_c_p_t_context_node.html", null ],
+    [ "CPTGradientElement", "struct_c_p_t_gradient_element.html", null ],
+    [ "CPTNumericDataType", "struct_c_p_t_numeric_data_type.html", null ],
+    [ "CPTRGBAColor", "struct_c_p_t_r_g_b_a_color.html", null ],
     [ "<NSCoding-p>", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html", [
-      [ "_CPTFillColor", "interface___c_p_t_fill_color.html", null ],
-      [ "_CPTFillGradient", "interface___c_p_t_fill_gradient.html", null ],
-      [ "_CPTFillImage", "interface___c_p_t_fill_image.html", null ],
       [ "CALayer", "http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html", null ],
       [ "CPTAnnotation", "interface_c_p_t_annotation.html", [
         [ "CPTLayerAnnotation", "interface_c_p_t_layer_annotation.html", null ],
@@ -54,15 +49,8 @@ var hierarchy =
       ] ],
       [ "CPTColor", "interface_c_p_t_color.html", null ],
       [ "CPTColorSpace", "interface_c_p_t_color_space.html", null ],
-      [ "CPTConstraints", "interface_c_p_t_constraints.html", [
-        [ "_CPTConstraintsFixed", "interface___c_p_t_constraints_fixed.html", null ],
-        [ "_CPTConstraintsRelative", "interface___c_p_t_constraints_relative.html", null ]
-      ] ],
-      [ "CPTFill", "interface_c_p_t_fill.html", [
-        [ "_CPTFillColor", "interface___c_p_t_fill_color.html", null ],
-        [ "_CPTFillGradient", "interface___c_p_t_fill_gradient.html", null ],
-        [ "_CPTFillImage", "interface___c_p_t_fill_image.html", null ]
-      ] ],
+      [ "CPTConstraints", "interface_c_p_t_constraints.html", null ],
+      [ "CPTFill", "interface_c_p_t_fill.html", null ],
       [ "CPTGradient", "interface_c_p_t_gradient.html", null ],
       [ "CPTImage", "interface_c_p_t_image.html", null ],
       [ "CPTLegendEntry", "interface_c_p_t_legend_entry.html", null ],
@@ -87,15 +75,7 @@ var hierarchy =
       [ "CPTTextStyle", "interface_c_p_t_text_style.html", [
         [ "CPTMutableTextStyle", "interface_c_p_t_mutable_text_style.html", null ]
       ] ],
-      [ "CPTTheme", "interface_c_p_t_theme.html", [
-        [ "_CPTXYTheme", "interface___c_p_t_x_y_theme.html", [
-          [ "_CPTDarkGradientTheme", "interface___c_p_t_dark_gradient_theme.html", null ],
-          [ "_CPTPlainBlackTheme", "interface___c_p_t_plain_black_theme.html", null ],
-          [ "_CPTPlainWhiteTheme", "interface___c_p_t_plain_white_theme.html", null ],
-          [ "_CPTSlateTheme", "interface___c_p_t_slate_theme.html", null ],
-          [ "_CPTStocksTheme", "interface___c_p_t_stocks_theme.html", null ]
-        ] ]
-      ] ],
+      [ "CPTTheme", "interface_c_p_t_theme.html", null ],
       [ "NSFormatter", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", [
         [ "NSNumberFormatter", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html", [
           [ "CPTTimeFormatter", "interface_c_p_t_time_formatter.html", null ]
@@ -108,9 +88,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "<NSCopying-p>", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html", [
-      [ "_CPTFillColor", "interface___c_p_t_fill_color.html", null ],
-      [ "_CPTFillGradient", "interface___c_p_t_fill_gradient.html", null ],
-      [ "_CPTFillImage", "interface___c_p_t_fill_image.html", null ],
       [ "CPTColor", "interface_c_p_t_color.html", null ],
       [ "CPTConstraints", "interface_c_p_t_constraints.html", null ],
       [ "CPTFill", "interface_c_p_t_fill.html", null ],
@@ -126,7 +103,6 @@ var hierarchy =
       [ "CPTTextStyle", "interface_c_p_t_text_style.html", null ],
       [ "NSFormatter", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", null ]
     ] ],
-    [ "NSException(CPTExtensions)", "interface_n_s_exception_07_c_p_t_extensions_08.html", null ],
     [ "<NSKeyValueBindingCreation-p>", "http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Protocols/NSKeyValueBindingCreation_Protocol/Reference/Reference.html", [
       [ "NSObject", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", [
         [ "CALayer", "http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html", null ],

@@ -78,8 +78,8 @@
 <div class="title">Source/CPTXYPlotSpace.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_definitions_8h.html">CPTDefinitions.h</a>&quot;</span>
-<a name="l00002"></a>00002 <span class="preprocessor">#import &quot;CPTPlotSpace.h&quot;</span>
+<a href="_c_p_t_x_y_plot_space_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_definitions_8h.html">CPTDefinitions.h</a>&quot;</span>
+<a name="l00002"></a>00002 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_plot_space_8h.html">CPTPlotSpace.h</a>&quot;</span>
 <a name="l00003"></a>00003 
 <a name="l00004"></a>00004 <span class="keyword">@class</span> <a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a>;
 <a name="l00005"></a>00005 
@@ -89,8 +89,8 @@
 <a name="l00009"></a><a class="code" href="interface_c_p_t_x_y_plot_space.html#a26ded2764b895a4c656136b581f8d67c">00009</a>     <a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *<a class="code" href="interface_c_p_t_x_y_plot_space.html#a26ded2764b895a4c656136b581f8d67c" title="The range of the y coordinate. Defaults to a range with location zero (0) and a length of one (1)...">yRange</a>;
 <a name="l00010"></a><a class="code" href="interface_c_p_t_x_y_plot_space.html#a04f609abf6a4072daa47b93848a8312a">00010</a>     <a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *<a class="code" href="interface_c_p_t_x_y_plot_space.html#a04f609abf6a4072daa47b93848a8312a" title="The global range of the x coordinate to which the xRange  is constrained.">globalXRange</a>;
 <a name="l00011"></a><a class="code" href="interface_c_p_t_x_y_plot_space.html#a80bf9e8987247bbe4dc0b5fc07a1214d">00011</a>     <a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *<a class="code" href="interface_c_p_t_x_y_plot_space.html#a80bf9e8987247bbe4dc0b5fc07a1214d" title="The global range of the y coordinate to which the yRange  is constrained.">globalYRange</a>;
-<a name="l00012"></a><a class="code" href="interface_c_p_t_x_y_plot_space.html#a6fdb32ef229694a87af877d54933300a">00012</a>     <a class="code" href="_c_p_t_definitions_8h.html#a9564ab0b679e0c37a87f0c8af3a60335" title="Enumeration of axis scale types.">CPTScaleType</a> <a class="code" href="interface_c_p_t_x_y_plot_space.html#a6fdb32ef229694a87af877d54933300a" title="The scale type of the x coordinate. Defaults to CPTScaleTypeLinear .">xScaleType</a>;
-<a name="l00013"></a><a class="code" href="interface_c_p_t_x_y_plot_space.html#a5713690a3015d43e5136a751d7c3635d">00013</a>     <a class="code" href="_c_p_t_definitions_8h.html#a9564ab0b679e0c37a87f0c8af3a60335" title="Enumeration of axis scale types.">CPTScaleType</a> <a class="code" href="interface_c_p_t_x_y_plot_space.html#a5713690a3015d43e5136a751d7c3635d" title="The scale type of the y coordinate. Defaults to CPTScaleTypeLinear .">yScaleType</a>;
+<a name="l00012"></a><a class="code" href="interface_c_p_t_x_y_plot_space.html#a6fdb32ef229694a87af877d54933300a">00012</a>     <a class="code" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a" title="Enumeration of axis scale types.">CPTScaleType</a> <a class="code" href="interface_c_p_t_x_y_plot_space.html#a6fdb32ef229694a87af877d54933300a" title="The scale type of the x coordinate. Defaults to CPTScaleTypeLinear .">xScaleType</a>;
+<a name="l00013"></a><a class="code" href="interface_c_p_t_x_y_plot_space.html#a5713690a3015d43e5136a751d7c3635d">00013</a>     <a class="code" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a" title="Enumeration of axis scale types.">CPTScaleType</a> <a class="code" href="interface_c_p_t_x_y_plot_space.html#a5713690a3015d43e5136a751d7c3635d" title="The scale type of the y coordinate. Defaults to CPTScaleTypeLinear .">yScaleType</a>;
 <a name="l00014"></a>00014     <a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a> lastDragPoint;
 <a name="l00015"></a>00015     <a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a> isDragging;
 <a name="l00016"></a>00016 }
@@ -99,15 +99,15 @@
 <a name="l00019"></a>00019 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *yRange;
 <a name="l00020"></a>00020 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *globalXRange;
 <a name="l00021"></a>00021 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *globalYRange;
-<a name="l00022"></a>00022 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="code" href="_c_p_t_definitions_8h.html#a9564ab0b679e0c37a87f0c8af3a60335" title="Enumeration of axis scale types.">CPTScaleType</a> xScaleType;
-<a name="l00023"></a>00023 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="code" href="_c_p_t_definitions_8h.html#a9564ab0b679e0c37a87f0c8af3a60335" title="Enumeration of axis scale types.">CPTScaleType</a> yScaleType;
+<a name="l00022"></a>00022 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="code" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a" title="Enumeration of axis scale types.">CPTScaleType</a> xScaleType;
+<a name="l00023"></a>00023 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="code" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a" title="Enumeration of axis scale types.">CPTScaleType</a> yScaleType;
 <a name="l00024"></a>00024 
 <a name="l00025"></a>00025 <span class="keyword">@end</span>
 </pre></div></div><!-- contents -->
 </div>
   <div id="nav-path" class="navpath">
     <ul>
-      <li class="navelem"><b>CPTXYPlotSpace.h</b>      </li>
+      <li class="navelem"><a class="el" href="_c_p_t_x_y_plot_space_8h.html">CPTXYPlotSpace.h</a>      </li>
 
     <li class="footer">Generated by <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a></li>

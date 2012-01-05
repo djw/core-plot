@@ -77,7 +77,6 @@
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Instance Methods</a> &#124;
 <a href="#properties">Properties</a>  </div>
   <div class="headertitle">
 <div class="title">CPTPlotSpaceAnnotation Class Reference</div>  </div>
@@ -86,6 +85,8 @@
 <!-- doxytag: class="CPTPlotSpaceAnnotation" --><!-- doxytag: inherits="CPTAnnotation" -->
 <p>Positions a content layer relative to some anchor point in a plot space.  
  <a href="interface_c_p_t_plot_space_annotation.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_plot_space_annotation_8h_source.html">CPTPlotSpaceAnnotation.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTPlotSpaceAnnotation:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,16 +110,15 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space_annotation.html#a92899ae4363eb0de1ecbde97835f1667">initWithPlotSpace:anchorPlotPoint:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_plot_space_annotation.html" title="Positions a content layer relative to some anchor point in a plot space.">CPTPlotSpaceAnnotation</a> object.  <a href="#a92899ae4363eb0de1ecbde97835f1667"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7efcef42cb6fcc892b7094198a10b24e"></a><!-- doxytag: member="CPTPlotSpaceAnnotation::anchorPlotPoint" ref="a7efcef42cb6fcc892b7094198a10b24e" args="" -->
-<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space_annotation.html#a7efcef42cb6fcc892b7094198a10b24e">anchorPlotPoint</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of NSDecimalNumbers giving the anchor plot coordinates. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1241d616f0e63c2a1624456085a1dcce"></a><!-- doxytag: member="CPTPlotSpaceAnnotation::plotSpace" ref="a1241d616f0e63c2a1624456085a1dcce" args="" -->
-<a class="el" href="interface_c_p_t_plot_space.html">CPTPlotSpace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space_annotation.html#a1241d616f0e63c2a1624456085a1dcce">plotSpace</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot space which the anchor is defined in. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space_annotation.html#a7efcef42cb6fcc892b7094198a10b24e">anchorPlotPoint</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSDecimalNumber_Class/Reference/Reference.html">NSDecimalNumber</a> objects giving the anchor plot coordinates.  <a href="#a7efcef42cb6fcc892b7094198a10b24e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_space.html">CPTPlotSpace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space_annotation.html#a1241d616f0e63c2a1624456085a1dcce">plotSpace</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot space which the anchor is defined in.  <a href="#a1241d616f0e63c2a1624456085a1dcce"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Positions a content layer relative to some anchor point in a plot space. </p>
@@ -154,7 +154,7 @@ Properties</h2></td></tr>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">newPlotSpace</td><td>The plot space which the anchor is defined in. Must be non-nil. </td></tr>
-    <tr><td class="paramname">newPlotPoint</td><td>An array of NSDecimalNumbers giving the anchor plot coordinates. </td></tr>
+    <tr><td class="paramname">newPlotPoint</td><td>An array of <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSDecimalNumber_Class/Reference/Reference.html">NSDecimalNumber</a> objects giving the anchor plot coordinates. </td></tr>
   </table>
   </dd>
 </dl>
@@ -162,9 +162,40 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="a7efcef42cb6fcc892b7094198a10b24e"></a><!-- doxytag: member="CPTPlotSpaceAnnotation::anchorPlotPoint" ref="a7efcef42cb6fcc892b7094198a10b24e" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotSpaceAnnotation:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>An array of <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSDecimalNumber_Class/Reference/Reference.html">NSDecimalNumber</a> objects giving the anchor plot coordinates. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1241d616f0e63c2a1624456085a1dcce"></a><!-- doxytag: member="CPTPlotSpaceAnnotation::plotSpace" ref="a1241d616f0e63c2a1624456085a1dcce" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotSpaceAnnotation:<code> [read, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot space which the anchor is defined in. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_plot_space_annotation_8h_source.html">CPTPlotSpaceAnnotation.h</a></li>
-<li>Source/CPTPlotSpaceAnnotation.m</li>
+<li>Source/<a class="el" href="_c_p_t_plot_space_annotation_8m.html">CPTPlotSpaceAnnotation.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

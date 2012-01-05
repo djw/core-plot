@@ -78,8 +78,8 @@
 <div class="title">Source/CPTLayer.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_definitions_8h.html">CPTDefinitions.h</a>&quot;</span>
-<a name="l00002"></a>00002 <span class="preprocessor">#import &quot;CPTResponder.h&quot;</span>
+<a href="_c_p_t_layer_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_definitions_8h.html">CPTDefinitions.h</a>&quot;</span>
+<a name="l00002"></a>00002 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_responder_8h.html">CPTResponder.h</a>&quot;</span>
 <a name="l00003"></a>00003 <span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span>
 <a name="l00004"></a>00004 <span class="preprocessor">#import &lt;QuartzCore/QuartzCore.h&gt;</span>
 <a name="l00005"></a>00005 
@@ -108,7 +108,7 @@
 <a name="l00033"></a>00033 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingRight;
 <a name="l00034"></a>00034 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingBottom;
 <a name="l00036"></a>00036 
-<a name="l00039"></a><a class="code" href="interface_c_p_t_layer.html#ad95ea54a7ebf06e98e6ae9dd99d9b86a">00039</a> <span class="keyword">@property</span> (readwrite, assign) CGFloat contentsScale;
+<a name="l00039"></a><a class="code" href="interface_c_p_t_layer.html#a49229cf561fb183c982cf7ad8ed78bca">00039</a> <span class="keyword">@property</span> (readwrite, assign) CGFloat contentsScale;
 <a name="l00040"></a>00040 <span class="keyword">@property</span> (nonatomic, readonly, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a> useFastRendering;
 <a name="l00041"></a>00041 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_shadow.html" title="Immutable wrapper for various shadow drawing properties.">CPTShadow</a> *shadow;
 <a name="l00043"></a>00043 
@@ -133,27 +133,27 @@
 <a name="l00079"></a>00079 -(void)pixelAlign;
 <a name="l00080"></a>00080 -(void)sublayerMarginLeft:(CGFloat *)left top:(CGFloat *)top right:(CGFloat *)right bottom:(CGFloat *)bottom;
 <a name="l00082"></a>00082 
-<a name="l00083"></a>00083 -(void)logLayers;
-<a name="l00084"></a>00084 
-<a name="l00085"></a>00085 <span class="keyword">@end</span>
-<a name="l00086"></a>00086 
-<a name="l00088"></a>00088 <span class="comment">// for MacOS 10.6 SDK compatibility</span>
-<a name="l00089"></a>00089 <span class="preprocessor">#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE</span>
-<a name="l00090"></a>00090 <span class="preprocessor"></span><span class="preprocessor">#else</span>
-<a name="l00091"></a>00091 <span class="preprocessor"></span><span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED &lt; 1070</span>
-<a name="l00092"></a>00092 <span class="preprocessor"></span><span class="keyword">@interface </span><a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>(CPTExtensions)
-<a name="l00093"></a>00093 
-<a name="l00094"></a>00094 <span class="keyword">@property</span> (readwrite) CGFloat contentsScale;
-<a name="l00095"></a>00095 
-<a name="l00096"></a>00096 <span class="keyword">@end</span>
-<a name="l00097"></a>00097 <span class="preprocessor">#endif</span>
-<a name="l00098"></a>00098 <span class="preprocessor"></span><span class="preprocessor">#endif</span>
-<a name="l00099"></a>00099 <span class="preprocessor"></span>
+<a name="l00085"></a>00085 -(void)logLayers;
+<a name="l00087"></a>00087 
+<a name="l00088"></a>00088 <span class="keyword">@end</span>
+<a name="l00089"></a>00089 
+<a name="l00091"></a>00091 <span class="comment">// for MacOS 10.6 SDK compatibility</span>
+<a name="l00092"></a>00092 <span class="preprocessor">#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE</span>
+<a name="l00093"></a>00093 <span class="preprocessor"></span><span class="preprocessor">#else</span>
+<a name="l00094"></a>00094 <span class="preprocessor"></span><span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED &lt; 1070</span>
+<a name="l00095"></a>00095 <span class="preprocessor"></span><span class="keyword">@interface </span><a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>(CPTExtensions)
+<a name="l00096"></a>00096 
+<a name="l00097"></a>00097 <span class="keyword">@property</span> (readwrite) CGFloat contentsScale;
+<a name="l00098"></a>00098 
+<a name="l00099"></a>00099 <span class="keyword">@end</span>
+<a name="l00100"></a>00100 <span class="preprocessor">#endif</span>
+<a name="l00101"></a>00101 <span class="preprocessor"></span><span class="preprocessor">#endif</span>
+<a name="l00102"></a>00102 <span class="preprocessor"></span>
 </pre></div></div><!-- contents -->
 </div>
   <div id="nav-path" class="navpath">
     <ul>
-      <li class="navelem"><b>CPTLayer.h</b>      </li>
+      <li class="navelem"><a class="el" href="_c_p_t_layer_8h.html">CPTLayer.h</a>      </li>
 
     <li class="footer">Generated by <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a></li>

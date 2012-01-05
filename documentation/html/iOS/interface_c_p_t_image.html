@@ -85,6 +85,8 @@
 <!-- doxytag: class="CPTImage" --><!-- doxytag: inherits="NSObject,NSCoding-p-p,NSCopying-p-p" -->
 <p>An immutable image.  
  <a href="interface_c_p_t_image.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_image_8h_source.html">CPTImage.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTImage:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -129,12 +131,10 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the image into the given graphics context.  <a href="#aab29f34450ad6c1f232e54f31c1d6517"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef3e7d639bcd9b66153b2e29269de8ec"></a><!-- doxytag: member="CPTImage::image" ref="aef3e7d639bcd9b66153b2e29269de8ec" args="" -->
-<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGImage/Reference/reference.html#//apple_ref/doc/c_ref/CGImageRef.html">CGImageRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_image.html#aef3e7d639bcd9b66153b2e29269de8ec">image</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGImage/Reference/reference.html#//apple_ref/doc/c_ref/CGImageRef.html">CGImageRef</a> to wrap around. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a23c96cab6dad05c21bf5476c5b39920e"></a><!-- doxytag: member="CPTImage::scale" ref="a23c96cab6dad05c21bf5476c5b39920e" args="" -->
-CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_image.html#a23c96cab6dad05c21bf5476c5b39920e">scale</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The image scale. Must be greater than zero. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGImage/Reference/reference.html#//apple_ref/doc/c_ref/CGImageRef.html">CGImageRef</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_image.html#aef3e7d639bcd9b66153b2e29269de8ec">image</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGImage/Reference/reference.html#//apple_ref/doc/c_ref/CGImageRef.html">CGImageRef</a> to wrap around.  <a href="#aef3e7d639bcd9b66153b2e29269de8ec"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_image.html#a23c96cab6dad05c21bf5476c5b39920e">scale</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The image scale. Must be greater than zero.  <a href="#a23c96cab6dad05c21bf5476c5b39920e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_image.html#a181f660a50ca3488f89531cd9fefe487">tiled</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw as a tiled image?  <a href="#a181f660a50ca3488f89531cd9fefe487"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_image.html#acdec03c0e81a97e3b326c852840682e4">tileAnchoredToContext</a></td></tr>
@@ -363,6 +363,36 @@ CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i
 </div>
 </div>
 <hr/><h2>Property Documentation</h2>
+<a class="anchor" id="aef3e7d639bcd9b66153b2e29269de8ec"></a><!-- doxytag: member="CPTImage::image" ref="aef3e7d639bcd9b66153b2e29269de8ec" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTImage:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGImage/Reference/reference.html#//apple_ref/doc/c_ref/CGImageRef.html">CGImageRef</a> to wrap around. </p>
+
+</div>
+</div>
+<a class="anchor" id="a23c96cab6dad05c21bf5476c5b39920e"></a><!-- doxytag: member="CPTImage::scale" ref="a23c96cab6dad05c21bf5476c5b39920e" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTImage:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The image scale. Must be greater than zero. </p>
+
+</div>
+</div>
 <a class="anchor" id="acdec03c0e81a97e3b326c852840682e4"></a><!-- doxytag: member="CPTImage::tileAnchoredToContext" ref="acdec03c0e81a97e3b326c852840682e4" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -397,7 +427,7 @@ CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="i
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_image_8h_source.html">CPTImage.h</a></li>
-<li>Source/CPTImage.m</li>
+<li>Source/<a class="el" href="_c_p_t_image_8m.html">CPTImage.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

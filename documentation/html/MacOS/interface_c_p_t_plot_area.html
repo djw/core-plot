@@ -83,6 +83,8 @@
 <!-- doxytag: class="CPTPlotArea" --><!-- doxytag: inherits="CPTAnnotationHostLayer" -->
 <p>A layer representing the actual plotting area of a graph.  
  <a href="interface_c_p_t_plot_area.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_plot_area_8h_source.html">CPTPlotArea.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTPlotArea:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -106,44 +108,39 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Axis set layer management</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Axis Set Layer Management</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_area.html#a5eab7932d8e866d0169b3d1dbc33201b">updateAxisSetLayersForType:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for the presence of the specified layer group and adds or removes it as needed.  <a href="#a5eab7932d8e866d0169b3d1dbc33201b"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_area.html#a0066c0b6b579af4650d53270e1e82381">setAxisSetLayersForType:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensures that a group layer is set for the given layer type.  <a href="#a0066c0b6b579af4650d53270e1e82381"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(unsigned)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_area.html#a86af66098849fb0d8ecf08d224150023">sublayerIndexForAxis:layerType:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sublayer index for the given layer type and axis.  <a href="#a86af66098849fb0d8ecf08d224150023"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_area.html#afb45475ab1131edc13db789963420736">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#afb45475ab1131edc13db789963420736"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Layers</div></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b44df832f65790aa95016d809172745"></a><!-- doxytag: member="CPTPlotArea::minorGridLineGroup" ref="a3b44df832f65790aa95016d809172745" args="" -->
-<a class="el" href="interface_c_p_t_grid_line_group.html">CPTGridLineGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a3b44df832f65790aa95016d809172745">minorGridLineGroup</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent layer for all minor grid lines. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab3d620f1ed1328411d1c35830ccfb854"></a><!-- doxytag: member="CPTPlotArea::majorGridLineGroup" ref="ab3d620f1ed1328411d1c35830ccfb854" args="" -->
-<a class="el" href="interface_c_p_t_grid_line_group.html">CPTGridLineGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#ab3d620f1ed1328411d1c35830ccfb854">majorGridLineGroup</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent layer for all major grid lines. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7dafaa321e099f83ac93605e885443da"></a><!-- doxytag: member="CPTPlotArea::axisSet" ref="a7dafaa321e099f83ac93605e885443da" args="" -->
-<a class="el" href="interface_c_p_t_axis_set.html">CPTAxisSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a7dafaa321e099f83ac93605e885443da">axisSet</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis set. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedf092dfd6a572e23442111e9a1affd8"></a><!-- doxytag: member="CPTPlotArea::plotGroup" ref="aedf092dfd6a572e23442111e9a1affd8" args="" -->
-<a class="el" href="interface_c_p_t_plot_group.html">CPTPlotGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#aedf092dfd6a572e23442111e9a1affd8">plotGroup</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot group. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0a0b57d1deb8f02ebabfc34793cd579"></a><!-- doxytag: member="CPTPlotArea::axisLabelGroup" ref="ac0a0b57d1deb8f02ebabfc34793cd579" args="" -->
-<a class="el" href="interface_c_p_t_axis_label_group.html">CPTAxisLabelGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#ac0a0b57d1deb8f02ebabfc34793cd579">axisLabelGroup</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent layer for all axis labels. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ab0f70db90e5e164e7fa440790af49a"></a><!-- doxytag: member="CPTPlotArea::axisTitleGroup" ref="a5ab0f70db90e5e164e7fa440790af49a" args="" -->
-<a class="el" href="interface_c_p_t_axis_label_group.html">CPTAxisLabelGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a5ab0f70db90e5e164e7fa440790af49a">axisTitleGroup</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent layer for all axis titles. <br/></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Layer ordering</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_grid_line_group.html">CPTGridLineGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a3b44df832f65790aa95016d809172745">minorGridLineGroup</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent layer for all minor grid lines.  <a href="#a3b44df832f65790aa95016d809172745"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_grid_line_group.html">CPTGridLineGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#ab3d620f1ed1328411d1c35830ccfb854">majorGridLineGroup</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent layer for all major grid lines.  <a href="#ab3d620f1ed1328411d1c35830ccfb854"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_axis_set.html">CPTAxisSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a7dafaa321e099f83ac93605e885443da">axisSet</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis set.  <a href="#a7dafaa321e099f83ac93605e885443da"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_group.html">CPTPlotGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#aedf092dfd6a572e23442111e9a1affd8">plotGroup</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot group.  <a href="#aedf092dfd6a572e23442111e9a1affd8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_axis_label_group.html">CPTAxisLabelGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#ac0a0b57d1deb8f02ebabfc34793cd579">axisLabelGroup</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent layer for all axis labels.  <a href="#ac0a0b57d1deb8f02ebabfc34793cd579"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_axis_label_group.html">CPTAxisLabelGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a5ab0f70db90e5e164e7fa440790af49a">axisTitleGroup</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent layer for all axis titles.  <a href="#a5ab0f70db90e5e164e7fa440790af49a"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Layer Ordering</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a9e425efc7501c6463ca2a05c7ae4d72f">topDownLayerOrder</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of graph layers to be drawn in an order other than the default.  <a href="#a9e425efc7501c6463ca2a05c7ae4d72f"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Decorations</div></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab77ea92ee3ce64f2a8507324f4048290"></a><!-- doxytag: member="CPTPlotArea::borderLineStyle" ref="ab77ea92ee3ce64f2a8507324f4048290" args="" -->
-<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#ab77ea92ee3ce64f2a8507324f4048290">borderLineStyle</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the layer border. If nil, the border is not drawn. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a38950c31448c74d346eb8f7fcee91ff9"></a><!-- doxytag: member="CPTPlotArea::fill" ref="a38950c31448c74d346eb8f7fcee91ff9" args="" -->
-<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a38950c31448c74d346eb8f7fcee91ff9">fill</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The fill for the layer background. If nil, the layer background is not filled. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a411447ebe982ef535d931e464466765d">borderLineStyle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the layer border. If <code>nil</code>, the border is not drawn.  <a href="#a411447ebe982ef535d931e464466765d"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_area.html#a38950c31448c74d346eb8f7fcee91ff9">fill</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The fill for the layer background. If <code>nil</code>, the layer background is not filled.  <a href="#a38950c31448c74d346eb8f7fcee91ff9"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A layer representing the actual plotting area of a graph. </p>
@@ -159,6 +156,42 @@ Properties</h2></td></tr>
 <li>Axis titles </li>
 </ol>
 </div><hr/><h2>Method Documentation</h2>
+<a class="anchor" id="afb45475ab1131edc13db789963420736"></a><!-- doxytag: member="CPTPlotArea::initWithFrame:" ref="afb45475ab1131edc13db789963420736" args="(CGRect newFrame)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_plot_area.html#afb45475ab1131edc13db789963420736">initWithFrame:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>newFrame</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<ul>
+<li>needsDisplayOnBoundsChange = NO</li>
+<li>opaque = NO</li>
+<li>masksToBounds = NO</li>
+<li>padding = 0 on all four sides</li>
+<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_annotation_host_layer.html#ac807d655c49f678cfb5db1411506cbb5">CPTAnnotationHostLayer</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a0066c0b6b579af4650d53270e1e82381"></a><!-- doxytag: member="CPTPlotArea::setAxisSetLayersForType:" ref="a0066c0b6b579af4650d53270e1e82381" args="(CPTGraphLayerType layerType)" -->
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +199,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">- (void) <a class="el" href="interface_c_p_t_plot_area.html#a0066c0b6b579af4650d53270e1e82381">setAxisSetLayersForType:</a> </td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_graph_8h.html#a516b503d3a0be51b245e936ae5049b07">CPTGraphLayerType</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327ca">CPTGraphLayerType</a>)&#160;</td>
           <td class="paramname"><em>layerType</em></td>
           <td></td>
         </tr>
@@ -197,7 +230,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey">layerType:</td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_graph_8h.html#a516b503d3a0be51b245e936ae5049b07">CPTGraphLayerType</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327ca">CPTGraphLayerType</a>)&#160;</td>
           <td class="paramname"><em>layerType</em>&#160;</td>
         </tr>
         <tr>
@@ -228,7 +261,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">- (void) <a class="el" href="interface_c_p_t_plot_area.html#a5eab7932d8e866d0169b3d1dbc33201b">updateAxisSetLayersForType:</a> </td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="_c_p_t_graph_8h.html#a516b503d3a0be51b245e936ae5049b07">CPTGraphLayerType</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327ca">CPTGraphLayerType</a>)&#160;</td>
           <td class="paramname"><em>layerType</em></td>
           <td></td>
         </tr>
@@ -247,6 +280,126 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Property Documentation</h2>
+<a class="anchor" id="ac0a0b57d1deb8f02ebabfc34793cd579"></a><!-- doxytag: member="CPTPlotArea::axisLabelGroup" ref="ac0a0b57d1deb8f02ebabfc34793cd579" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotArea:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The parent layer for all axis labels. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7dafaa321e099f83ac93605e885443da"></a><!-- doxytag: member="CPTPlotArea::axisSet" ref="a7dafaa321e099f83ac93605e885443da" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotArea:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The axis set. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5ab0f70db90e5e164e7fa440790af49a"></a><!-- doxytag: member="CPTPlotArea::axisTitleGroup" ref="a5ab0f70db90e5e164e7fa440790af49a" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotArea:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The parent layer for all axis titles. </p>
+
+</div>
+</div>
+<a class="anchor" id="a411447ebe982ef535d931e464466765d"></a><!-- doxytag: member="CPTPlotArea::borderLineStyle" ref="a411447ebe982ef535d931e464466765d" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotArea:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The line style for the layer border. If <code>nil</code>, the border is not drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="a38950c31448c74d346eb8f7fcee91ff9"></a><!-- doxytag: member="CPTPlotArea::fill" ref="a38950c31448c74d346eb8f7fcee91ff9" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotArea:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The fill for the layer background. If <code>nil</code>, the layer background is not filled. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab3d620f1ed1328411d1c35830ccfb854"></a><!-- doxytag: member="CPTPlotArea::majorGridLineGroup" ref="ab3d620f1ed1328411d1c35830ccfb854" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotArea:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The parent layer for all major grid lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3b44df832f65790aa95016d809172745"></a><!-- doxytag: member="CPTPlotArea::minorGridLineGroup" ref="a3b44df832f65790aa95016d809172745" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotArea:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The parent layer for all minor grid lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="aedf092dfd6a572e23442111e9a1affd8"></a><!-- doxytag: member="CPTPlotArea::plotGroup" ref="aedf092dfd6a572e23442111e9a1affd8" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPlotArea:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot group. </p>
+
+</div>
+</div>
 <a class="anchor" id="a9e425efc7501c6463ca2a05c7ae4d72f"></a><!-- doxytag: member="CPTPlotArea::topDownLayerOrder" ref="a9e425efc7501c6463ca2a05c7ae4d72f" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -259,8 +412,8 @@ Properties</h2></td></tr>
 <div class="memdoc">
 
 <p>An array of graph layers to be drawn in an order other than the default. </p>
-<p>The array should reference the layers using the constants defined in <a class="el" href="_c_p_t_graph_8h.html#a516b503d3a0be51b245e936ae5049b07" title="Enumeration of graph layers.">CPTGraphLayerType</a>. Layers should be specified in order starting from the top layer. Only the layers drawn out of the default order need be specified; all others will automatically be placed at the bottom of the view in their default order.</p>
-<p>If this property is nil, the layers will be drawn in the default order (bottom to top):</p>
+<p>The array should reference the layers using the constants defined in <a class="el" href="_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327ca" title="Enumeration of graph layers.">CPTGraphLayerType</a>. Layers should be specified in order starting from the top layer. Only the layers drawn out of the default order need be specified; all others will automatically be placed at the bottom of the view in their default order.</p>
+<p>If this property is <code>nil</code>, the layers will be drawn in the default order (bottom to top):</p>
 <ol type="1">
 <li>Minor grid lines</li>
 <li>Major grid lines</li>
@@ -275,7 +428,7 @@ Properties</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_plot_area_8h_source.html">CPTPlotArea.h</a></li>
-<li>Source/CPTPlotArea.m</li>
+<li>Source/<a class="el" href="_c_p_t_plot_area_8m.html">CPTPlotArea.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>

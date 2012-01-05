@@ -78,29 +78,29 @@
 <div class="title">Source/CPTRangePlot.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_definitions_8h.html">CPTDefinitions.h</a>&quot;</span>
+<a href="_c_p_t_range_plot_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_definitions_8h.html">CPTDefinitions.h</a>&quot;</span>
 <a name="l00002"></a>00002 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_plot_8h.html">CPTPlot.h</a>&quot;</span>
 <a name="l00003"></a>00003 <span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span>
 <a name="l00004"></a>00004 
 <a name="l00005"></a>00005 <span class="keyword">@class</span> <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a>;
 <a name="l00006"></a>00006 <span class="keyword">@class</span> <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a>;
 <a name="l00007"></a>00007 
-<a name="l00010"></a>00010 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> CPTRangePlotBindingXValues;
-<a name="l00011"></a>00011 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> CPTRangePlotBindingYValues;
-<a name="l00012"></a>00012 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> CPTRangePlotBindingHighValues;
-<a name="l00013"></a>00013 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> CPTRangePlotBindingLowValues;
-<a name="l00014"></a>00014 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> CPTRangePlotBindingLeftValues;
-<a name="l00015"></a>00015 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> CPTRangePlotBindingRightValues;
+<a name="l00010"></a>00010 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> <a class="code" href="_c_p_t_range_plot_8h.html#a2c9e3d725baa04dc080b6725df20b786" title="X values.">CPTRangePlotBindingXValues</a>;
+<a name="l00011"></a>00011 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> <a class="code" href="_c_p_t_range_plot_8h.html#aa1ff8d22cbb0bab62ac405730aa45173" title="Y values.">CPTRangePlotBindingYValues</a>;
+<a name="l00012"></a>00012 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> <a class="code" href="_c_p_t_range_plot_8h.html#a88df7d7c5739bef9f7847782adf640c9" title="high values.">CPTRangePlotBindingHighValues</a>;
+<a name="l00013"></a>00013 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> <a class="code" href="_c_p_t_range_plot_8h.html#a5fdb3c2fe524a43b0dad31cca96dc371" title="low values.">CPTRangePlotBindingLowValues</a>;
+<a name="l00014"></a>00014 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> <a class="code" href="_c_p_t_range_plot_8h.html#a56bb63fda4a812b779ea388fdc68787f" title="left price values.">CPTRangePlotBindingLeftValues</a>;
+<a name="l00015"></a>00015 <span class="keyword">extern</span> <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *<span class="keyword">const</span> <a class="code" href="_c_p_t_range_plot_8h.html#abf1b5c831f9bcb7f2f57820f968b7865" title="right price values.">CPTRangePlotBindingRightValues</a>;
 <a name="l00017"></a>00017 
-<a name="l00021"></a>00021 <span class="keyword">typedef</span> <span class="keyword">enum</span> _CPTRangePlotField {
-<a name="l00022"></a>00022     CPTRangePlotFieldX,     
-<a name="l00023"></a>00023     CPTRangePlotFieldY,     
-<a name="l00024"></a>00024     CPTRangePlotFieldHigh,  
-<a name="l00025"></a>00025     CPTRangePlotFieldLow,   
-<a name="l00026"></a>00026     CPTRangePlotFieldLeft,  
-<a name="l00027"></a>00027     CPTRangePlotFieldRight, 
+<a name="l00021"></a><a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489">00021</a> <span class="keyword">typedef</span> <span class="keyword">enum</span> _CPTRangePlotField {
+<a name="l00022"></a><a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489a9a2815272b24e921fd610badac921a01">00022</a>     <a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489a9a2815272b24e921fd610badac921a01" title="X values.">CPTRangePlotFieldX</a>,     
+<a name="l00023"></a><a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489aea372ceeeec9fbd9accb5268e00d37b2">00023</a>     <a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489aea372ceeeec9fbd9accb5268e00d37b2" title="Y values.">CPTRangePlotFieldY</a>,     
+<a name="l00024"></a><a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489a67d6ff02eafc4dcbb67c3613a8730b03">00024</a>     <a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489a67d6ff02eafc4dcbb67c3613a8730b03" title="relative High values.">CPTRangePlotFieldHigh</a>,  
+<a name="l00025"></a><a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489a99635a451410f023853bba65189bcca7">00025</a>     <a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489a99635a451410f023853bba65189bcca7" title="relative Low values.">CPTRangePlotFieldLow</a>,   
+<a name="l00026"></a><a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489adbfe3be0caecbed6cc7325a44993fb53">00026</a>     <a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489adbfe3be0caecbed6cc7325a44993fb53" title="relative Left values.">CPTRangePlotFieldLeft</a>,  
+<a name="l00027"></a><a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489a74e695001b141f0fcad014d309a11244">00027</a>     <a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489a74e695001b141f0fcad014d309a11244" title="relative Right values.">CPTRangePlotFieldRight</a>, 
 <a name="l00028"></a>00028 }
-<a name="l00029"></a>00029 CPTRangePlotField;
+<a name="l00029"></a>00029 <a class="code" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489" title="Enumeration of range plot data source field types.">CPTRangePlotField</a>;
 <a name="l00030"></a>00030 
 <a name="l00031"></a><a class="code" href="interface_c_p_t_range_plot.html">00031</a> <span class="keyword">@interface </span><a class="code" href="interface_c_p_t_range_plot.html" title="A plot class representing a range of values in one coordinate, such as typically used to show errors...">CPTRangePlot</a> : <a class="code" href="interface_c_p_t_plot.html" title="An abstract plot class.">CPTPlot</a> {
 <a name="l00032"></a><a class="code" href="interface_c_p_t_range_plot.html#a1bdcb86f0882515c5e4927171773a1ed">00032</a>     <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *<a class="code" href="interface_c_p_t_range_plot.html#a1bdcb86f0882515c5e4927171773a1ed" title="The line style of the range bars. Set to nil to have no bars. Default is a black line style...">barLineStyle</a>;
@@ -120,7 +120,7 @@
 </div>
   <div id="nav-path" class="navpath">
     <ul>
-      <li class="navelem"><b>CPTRangePlot.h</b>      </li>
+      <li class="navelem"><a class="el" href="_c_p_t_range_plot_8h.html">CPTRangePlot.h</a>      </li>
 
     <li class="footer">Generated by <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a></li>

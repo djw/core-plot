@@ -77,7 +77,6 @@
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Instance Methods</a> &#124;
 <a href="#properties">Properties</a>  </div>
   <div class="headertitle">
 <div class="title">CPTLayerAnnotation Class Reference</div>  </div>
@@ -86,6 +85,8 @@
 <!-- doxytag: class="CPTLayerAnnotation" --><!-- doxytag: inherits="CPTAnnotation" -->
 <p>Positions a content layer relative to an anchor point in a reference layer.  
  <a href="interface_c_p_t_layer_annotation.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_c_p_t_layer_annotation_8h_source.html">CPTLayerAnnotation.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CPTLayerAnnotation:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,16 +110,15 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_layer_annotation.html#ade63e250ce4a5645c7b85bfa5fb66619">initWithAnchorLayer:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer_annotation.html" title="Positions a content layer relative to an anchor point in a reference layer.">CPTLayerAnnotation</a> object with the provided reference layer.  <a href="#ade63e250ce4a5645c7b85bfa5fb66619"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a854abd8fcc3455d5461a52392d45bdab"></a><!-- doxytag: member="CPTLayerAnnotation::anchorLayer" ref="a854abd8fcc3455d5461a52392d45bdab" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_layer.html">CPTLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer_annotation.html#a854abd8fcc3455d5461a52392d45bdab">anchorLayer</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The reference layer. <br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02072ca63a4c60d764a045d44e88b935"></a><!-- doxytag: member="CPTLayerAnnotation::rectAnchor" ref="a02072ca63a4c60d764a045d44e88b935" args="" -->
-<a class="el" href="_c_p_t_definitions_8h.html#a0712e0324db4c3da17882ca1d91de7cb">CPTRectAnchor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer_annotation.html#a02072ca63a4c60d764a045d44e88b935">rectAnchor</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The anchor position for the annotation. <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_layer.html">CPTLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer_annotation.html#a854abd8fcc3455d5461a52392d45bdab">anchorLayer</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The reference layer.  <a href="#a854abd8fcc3455d5461a52392d45bdab"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#a5b44b53a69133d08c14160311e925040">CPTRectAnchor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer_annotation.html#a02072ca63a4c60d764a045d44e88b935">rectAnchor</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The anchor position for the annotation.  <a href="#a02072ca63a4c60d764a045d44e88b935"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Positions a content layer relative to an anchor point in a reference layer. </p>
@@ -140,7 +140,7 @@ Properties</h2></td></tr>
 <div class="memdoc">
 
 <p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer_annotation.html" title="Positions a content layer relative to an anchor point in a reference layer.">CPTLayerAnnotation</a> object with the provided reference layer. </p>
-<p>This is the designated initializer. The initialized layer will be anchored to <a class="el" href="_c_p_t_definitions_8h.html#a3fbc1c332d7d218d62aa8715a43e81e4abf3106bc899e0927d2edb5f6b407ddf9">CPTRectAnchorTop </a> by default.</p>
+<p>This is the designated initializer. The initialized layer will be anchored to <a class="el" href="_c_p_t_definitions_8h.html#a5b44b53a69133d08c14160311e925040abf3106bc899e0927d2edb5f6b407ddf9">CPTRectAnchorTop </a> by default.</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">newAnchorLayer</td><td>The reference layer. Must be non-nil. </td></tr>
@@ -151,9 +151,40 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<hr/><h2>Property Documentation</h2>
+<a class="anchor" id="a854abd8fcc3455d5461a52392d45bdab"></a><!-- doxytag: member="CPTLayerAnnotation::anchorLayer" ref="a854abd8fcc3455d5461a52392d45bdab" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTLayerAnnotation:<code> [read, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The reference layer. </p>
+
+</div>
+</div>
+<a class="anchor" id="a02072ca63a4c60d764a045d44e88b935"></a><!-- doxytag: member="CPTLayerAnnotation::rectAnchor" ref="a02072ca63a4c60d764a045d44e88b935" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTLayerAnnotation:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The anchor position for the annotation. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_layer_annotation_8h_source.html">CPTLayerAnnotation.h</a></li>
-<li>Source/CPTLayerAnnotation.m</li>
+<li>Source/<a class="el" href="_c_p_t_layer_annotation_8m.html">CPTLayerAnnotation.m</a></li>
 </ul>
 </div><!-- contents -->
 </div>
