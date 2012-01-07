@@ -115,7 +115,7 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the axis labels for each axis in the axis set.  <a href="#a084e35c08a07398370fff8248dc99634"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis_set.html#af1b1939683cc055a4489fabdc6c43066">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#af1b1939683cc055a4489fabdc6c43066"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_axis_set.html" title="A container layer for the set of axes for a graph.">CPTAxisSet</a> object with the provided frame rectangle.  <a href="#af1b1939683cc055a4489fabdc6c43066"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis_set.html#a423143c5af60618ddd65b05029bbfe26">axes</a></td></tr>
@@ -141,14 +141,12 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_axis_set.html" title="A container layer for the set of axes for a graph.">CPTAxisSet</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties:</p>
 <ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+<li><a class="el" href="interface_c_p_t_axis_set.html#a423143c5af60618ddd65b05029bbfe26">axes </a> = empty array</li>
+<li><a class="el" href="interface_c_p_t_axis_set.html#aed441bd687c7de87f7794b20d99bb144">borderLineStyle </a> = <code>nil</code></li>
+<li><code>needsDisplayOnBoundsChange</code> = <code>YES</code></li>
 </ul>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -156,7 +154,7 @@ Properties</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_axis_set.html" title="A container layer for the set of axes for a graph.">CPTAxisSet</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a42e21f40d25b81ffafdc9940d894876d">CPTLayer</a>.</p>
 

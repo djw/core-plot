@@ -76,8 +76,6 @@
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Instance Methods</a>  </div>
   <div class="headertitle">
 <div class="title">CPTAxisLabelGroup Class Reference</div>  </div>
 </div><!--header-->
@@ -107,44 +105,9 @@
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="class_c_p_t_axis_label_group-members.html">List of all members.</a></p>
-<table class="memberdecls">
-<tr><td colspan="2"><h2><a name="pub-methods"></a>
-Public Instance Methods</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis_label_group.html#a44f977559acc619d1f91ca70a68e7a22">renderAsVectorInContext:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws layer content into the provided graphics context.  <a href="#a44f977559acc619d1f91ca70a68e7a22"></a><br/></td></tr>
-</table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A container layer for the axis labels. </p>
-</div><hr/><h2>Method Documentation</h2>
-<a class="anchor" id="a44f977559acc619d1f91ca70a68e7a22"></a><!-- doxytag: member="CPTAxisLabelGroup::renderAsVectorInContext:" ref="a44f977559acc619d1f91ca70a68e7a22" args="(CGContextRef context)" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">- (void) <a class="el" href="interface_c_p_t_axis_label_group.html#a44f977559acc619d1f91ca70a68e7a22">renderAsVectorInContext:</a> </td>
-          <td></td>
-          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)&#160;</td>
-          <td class="paramname"><em>context</em></td>
-          <td><code> [implementation]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Draws layer content into the provided graphics context. </p>
-<p>This method replaces the <code>-[<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a> drawInContext:]</code> method to ensure that layer content is always drawn as vectors and objects rather than as a cached bitmapped image representation. Subclasses should do all drawing here and must call super to set up the clipping path.</p>
-<dl class="params"><dt><b>Parameters:</b></dt><dd>
-  <table class="params">
-    <tr><td class="paramname">context</td><td>The graphics context to draw into. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a9eefed89fc5f8d4c748ea81f82ef33f1">CPTLayer</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+</div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>Source/<a class="el" href="_c_p_t_axis_label_group_8h_source.html">CPTAxisLabelGroup.h</a></li>
 <li>Source/<a class="el" href="_c_p_t_axis_label_group_8m.html">CPTAxisLabelGroup.m</a></li>
 </ul>

@@ -77,7 +77,6 @@
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Instance Methods</a> &#124;
 <a href="#properties">Properties</a>  </div>
   <div class="headertitle">
 <div class="title">CPTAnnotationHostLayer Class Reference</div>  </div>
@@ -111,14 +110,16 @@
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Annotations</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_annotation_host_layer.html#ae7118f2ca923d0b34c7cd917cf5cdfa1">addAnnotation:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an annotation to the receiver.  <a href="#ae7118f2ca923d0b34c7cd917cf5cdfa1"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_annotation_host_layer.html#ad748afbf51ccfb2c93e5fda2cdd6a11d">removeAnnotation:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an annotation from the receiver.  <a href="#ad748afbf51ccfb2c93e5fda2cdd6a11d"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_annotation_host_layer.html#abe6aabd7481a42ff239da13851c56b76">removeAllAnnotations</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all annotations from the receiver.  <a href="#abe6aabd7481a42ff239da13851c56b76"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_annotation_host_layer.html#ac807d655c49f678cfb5db1411506cbb5">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#ac807d655c49f678cfb5db1411506cbb5"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_annotation_host_layer.html" title="A container layer for annotations.">CPTAnnotationHostLayer</a> object with the provided frame rectangle.  <a href="#ac807d655c49f678cfb5db1411506cbb5"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_annotation_host_layer.html#a6f43db8818fe93657867ceffcde6e529">annotations</a></td></tr>
@@ -162,22 +163,15 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
-<ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
-</ul>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_annotation_host_layer.html" title="A container layer for annotations.">CPTAnnotationHostLayer</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have an empty <a class="el" href="interface_c_p_t_annotation_host_layer.html#a6f43db8818fe93657867ceffcde6e529">annotations </a> array.</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_annotation_host_layer.html" title="A container layer for annotations.">CPTAnnotationHostLayer</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a42e21f40d25b81ffafdc9940d894876d">CPTLayer</a>.</p>
 

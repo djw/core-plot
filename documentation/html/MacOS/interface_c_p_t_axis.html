@@ -115,7 +115,7 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any minor ticks falling inside the label exclusion ranges from the set of tick locations.  <a href="#a00bf088cb31b8068b5e369a00d55c270"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a16baaf9ca6edb23fe543f48bb15054b8">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a16baaf9ca6edb23fe543f48bb15054b8"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_axis.html" title="An abstract axis class.">CPTAxis</a> object with the provided frame rectangle.  <a href="#a16baaf9ca6edb23fe543f48bb15054b8"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Coordinate Space Conversions</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#af25bf15f120918facdcd1a73ff0f963c">viewPointForCoordinateDecimalNumber:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a position on the axis to drawing coordinates.  <a href="#af25bf15f120918facdcd1a73ff0f963c"></a><br/></td></tr>
@@ -434,14 +434,55 @@ Background Bands</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_axis.html" title="An abstract axis class.">CPTAxis</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties:</p>
 <ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+<li><a class="el" href="interface_c_p_t_axis.html#adfb9e1416941248b341ee271698977c4">plotSpace </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a6be1b1b13f460613b25724acd43063a1">majorTickLocations </a> = empty set</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a87a89a6a2ecd134477c0421d8612cef1">minorTickLocations </a> = empty set</li>
+<li><a class="el" href="interface_c_p_t_axis.html#afa9a0f51aa4558e19948797f01ffc32b">preferredNumberOfMajorTicks </a> = 0</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a7730fc30d9c8f949b686f1e40189946f">minorTickLength </a> = 3.0</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a54f35e8587700b0a6a54193cd139a9d6">majorTickLength </a> = 5.0</li>
+<li><a class="el" href="group__axis_animation.html#ga22c8cbbc6caa0c600638da2fccbfb2a7">labelOffset </a> = 2.0</li>
+<li><a class="el" href="group__axis_animation.html#ga91691988d490b0c2887dd69d1c1697bd">minorTickLabelOffset </a> = 2.0</li>
+<li><a class="el" href="group__axis_animation.html#gad338d4f6cd7c0341d1375b4f9e124876">labelRotation </a>= 0.0</li>
+<li><a class="el" href="group__axis_animation.html#ga25e530fc54647e81e5f612dade755169">minorTickLabelRotation </a>= 0.0</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a4b5a4b6bc6426c6f2dee4a66c216eefd">labelAlignment </a> = <a class="el" href="_c_p_t_definitions_8h.html#a968901ece413ec4608f1625910ca9a9fa4648db9a75f1c0e92a90b65e18e49704" title="Align horizontally to the center.">CPTAlignmentCenter</a></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a5903544dbedae98a023492316bba65c9">minorTickLabelAlignment </a> = <a class="el" href="_c_p_t_definitions_8h.html#a968901ece413ec4608f1625910ca9a9fa4648db9a75f1c0e92a90b65e18e49704" title="Align horizontally to the center.">CPTAlignmentCenter</a></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a8e742354e637c68dba7beaeb75ba7a37">title </a> = <code>nil</code></li>
+<li><a class="el" href="group__axis_animation.html#ga3d84072327ed4e3694c06149a776a7c0">titleOffset </a> = 30.0</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a3fba6b558c6c3fe8bd10264dc15794ce">axisLineStyle </a> = default line style</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a70addfd97dc954aead7da71698c1c794">majorTickLineStyle </a> = default line style</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a5b7fa7407905d464c4bb8da486d85d7e">minorTickLineStyle </a> = default line style</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a250d9a9546a4389815f498200f391175">majorGridLineStyle </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a43812cc462a9049534cd06d4fd9aae72">minorGridLineStyle </a>= <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a6a305298938dcce2f406f5a75aadd452">axisLineCapMin </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#aa4f30d716e5d2f97771a44c719b25a84">axisLineCapMax </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a1820c3096af3c8afeb21db0d06076293">labelingOrigin </a> = 0</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a46e0abbcfa6f403490a0107f1aec27ec">majorIntervalLength </a> = 1</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a76bd51d1d23bf168b4e604b3558ddec9">minorTicksPerInterval </a> = 1</li>
+<li><a class="el" href="interface_c_p_t_axis.html#afa6e872f306f70db0e5cda87f55043ac">coordinate </a> = <a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1bad76f12c25a1d9581c7ad04af277b9006" title="X axis.">CPTCoordinateX</a></li>
+<li><a class="el" href="interface_c_p_t_axis.html#abcaf63268a8bdecb2f9a1dd114c59660">labelingPolicy </a> = <a class="el" href="_c_p_t_axis_8h.html#adb9e6ab73e0d2fb79203215861166e6bad4f5b93c9ba53d283bd20624c74d81ca" title="Fixed interval labeling policy.">CPTAxisLabelingPolicyFixedInterval</a></li>
+<li><a class="el" href="interface_c_p_t_axis.html#aa7a3a4031c959b9c88dc62683183f675">labelTextStyle </a> = default text style</li>
+<li><a class="el" href="interface_c_p_t_axis.html#aa332507609b0d82ab2d794e53c8b6735">labelFormatter </a> = number formatter that displays one fraction digit and at least one integer digit</li>
+<li><a class="el" href="interface_c_p_t_axis.html#a739bbbc1567b8d030882705f0246bfc1">minorTickLabelTextStyle </a> = default text style</li>
+<li><a class="el" href="interface_c_p_t_axis.html#ad5ccfbf239ee5b62e70d9aa034918ff8">minorTickLabelFormatter </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a737571abb7f86a1ec722feadbaaeced2">axisLabels </a> = empty set</li>
+<li><a class="el" href="interface_c_p_t_axis.html#afd2eda65d529e5983279c4ed54a574d7">minorTickAxisLabels </a> = empty set</li>
+<li><a class="el" href="interface_c_p_t_axis.html#ab913b480a46cdc157b7950f64b45fd19">tickDirection </a> = <a class="el" href="_c_p_t_definitions_8h.html#a3785add118c53a68c6a1838078e17cc5a8cce324dd6b2465f8c0d9bf0af62e42c" title="No offset.">CPTSignNone</a></li>
+<li><a class="el" href="interface_c_p_t_axis.html#abe4e5f3fad71540c2bab6ffb16dd1f27">axisTitle </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a7d3a6773318b5cf33e3f4273546c547f">titleTextStyle </a> = default text style</li>
+<li><a class="el" href="group__axis_animation.html#ga340ca2d5f773f6530de7dbfe263906aa">titleRotation </a> = <code>NAN</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a0095ed8259624fada0aebc4f51a98a60">titleLocation </a> = <code>NAN</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a37a6a91d61307419f1bf7070bf6742d2">needsRelabel </a> = <code>YES</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#ad6fc9d2e89ee5414cc99172e2d84d962">labelExclusionRanges </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a9b6696f3cd1fc213216b6a4d19e5b983">plotArea </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#aa4b93d42af50930cd2d6d05324bc8108">separateLayers </a> = <code>NO</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a636490894ae09d7ab7436baad238ab87">labelShadow </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#acedba21de4ba30757d73e26fa8180bc0">alternatingBandFills </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#adbdd690d74732fb712b9a1805f9b0015">minorGridLines </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_axis.html#a6ac54e1bd023d5f1f843d03ff8a8a167">majorGridLines </a> = <code>nil</code></li>
+<li><code>needsDisplayOnBoundsChange</code> = <code>YES</code></li>
 </ul>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -449,7 +490,7 @@ Background Bands</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_axis.html" title="An abstract axis class.">CPTAxis</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a42e21f40d25b81ffafdc9940d894876d">CPTLayer</a>.</p>
 

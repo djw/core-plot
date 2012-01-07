@@ -110,7 +110,7 @@
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_axis.html#a8807c07c6e743d5532388aa9d554a2b6">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a8807c07c6e743d5532388aa9d554a2b6"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_x_y_axis.html" title="A 2-dimensional cartesian (X-Y) axis class.">CPTXYAxis</a> object with the provided frame rectangle.  <a href="#a8807c07c6e743d5532388aa9d554a2b6"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Positioning</div></td></tr>
@@ -137,14 +137,11 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_x_y_axis.html" title="A 2-dimensional cartesian (X-Y) axis class.">CPTXYAxis</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties:</p>
 <ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+<li><a class="el" href="interface_c_p_t_x_y_axis.html#a458209e2a748c498f787b313815a49f3">orthogonalCoordinateDecimal </a> = 0</li>
+<li><a class="el" href="interface_c_p_t_x_y_axis.html#ac83563c1c74e42c297997e6308ed06d8">axisConstraints </a> = <code>nil</code></li>
 </ul>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -152,7 +149,7 @@ Properties</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_x_y_axis.html" title="A 2-dimensional cartesian (X-Y) axis class.">CPTXYAxis</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_axis.html#a16baaf9ca6edb23fe543f48bb15054b8">CPTAxis</a>.</p>
 

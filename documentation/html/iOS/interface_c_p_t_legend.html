@@ -121,7 +121,7 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_legend.html#aec7cd86be98703face8fdae14ea86321">initWithGraph:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_legend.html" title="A graph legend.">CPTLegend</a> object and adds legend entries for each plot in the given graph.  <a href="#aec7cd86be98703face8fdae14ea86321"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_legend.html#a57670747c45fe73a9a540e9a886b393f">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a57670747c45fe73a9a540e9a886b393f"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_legend.html" title="A graph legend.">CPTLegend</a> object with the provided frame rectangle.  <a href="#a57670747c45fe73a9a540e9a886b393f"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Plots</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_legend.html#adf6acf1db67d39797186477afc5f8be2">allPlots</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">All plots associated with the legend.  <a href="#adf6acf1db67d39797186477afc5f8be2"></a><br/></td></tr>
@@ -244,14 +244,31 @@ Layout</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_legend.html" title="A graph legend.">CPTLegend</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties:</p>
 <ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+<li><a class="el" href="interface_c_p_t_legend.html#a9e4acf8dc17e77827dfad7836878229f">layoutChanged </a> = <code>YES</code></li>
+<li><a class="el" href="interface_c_p_t_legend.html#a9b60c25e2d5d49d342f3a3e562e90454">textStyle </a> = default text style</li>
+<li><a class="el" href="interface_c_p_t_legend.html#ab813e52ec5aab85bccb89d1d6d3308ea">swatchSize </a> = <code>CGSizeZero</code></li>
+<li><a class="el" href="interface_c_p_t_legend.html#a7fc90787371445c50d495efe767bd77f">swatchBorderLineStyle </a> = <code>nil</code></li>
+<li><a class="el" href="group__legend_animation.html#gac6ed09fb1c435f879d006cfb33536861">swatchCornerRadius </a> = 0</li>
+<li><a class="el" href="interface_c_p_t_legend.html#a3d18369e817fc379f39032269aba70c5">swatchFill </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_legend.html#af5ea166f66c3606dee40786fa0d7c9a3">numberOfRows </a> = 0</li>
+<li><a class="el" href="interface_c_p_t_legend.html#abcd7272e693f571b90f1e962a81b90e1">numberOfColumns </a> = 0</li>
+<li><a class="el" href="interface_c_p_t_legend.html#a927726252bab5887a24447516e85ae56">equalRows </a> = <code>YES</code></li>
+<li><a class="el" href="interface_c_p_t_legend.html#a46f18330d8aac6eed93fedd124ad68e9">equalColumns </a> = <code>NO</code></li>
+<li><a class="el" href="interface_c_p_t_legend.html#a03ab8a150c0127d18e458386e0f2cc0e">rowHeights </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_legend.html#ab66af80986871299b1ce15acb7193f1d">rowHeightsThatFit </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_legend.html#aa3e60ac4f993f563f296f960e312fb3d">columnWidths </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_legend.html#a3c61a74385acc4e92f7fceb61a083d4e">columnWidthsThatFit </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_legend.html#abb399203b06781b785122a4f80029a0e">columnMargin </a> = 10.0</li>
+<li><a class="el" href="interface_c_p_t_legend.html#a439fd2339a91f649cbaf8cef9c780512">rowMargin </a> = 5.0</li>
+<li><a class="el" href="interface_c_p_t_legend.html#adc4ef7ce3c95c69d3d03be080f274c9b">titleOffset </a> = 5.0</li>
+<li><a class="el" href="interface_c_p_t_layer.html#ac962eb515958c49389f88f5c206a590c">paddingLeft </a> = 5.0</li>
+<li><a class="el" href="interface_c_p_t_layer.html#ad1a81c5bfc9c5f7b97dc5d0f5f7be970">paddingTop </a> = 5.0</li>
+<li><a class="el" href="interface_c_p_t_layer.html#aeb94b6248a686698a7b592a270d4a3b3">paddingRight </a> = 5.0</li>
+<li><a class="el" href="interface_c_p_t_layer.html#a119c53f983101e645de4584f2230383e">paddingBottom </a> = 5.0</li>
+<li><code>needsDisplayOnBoundsChange</code> = <code>YES</code></li>
 </ul>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -259,7 +276,7 @@ Layout</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_legend.html" title="A graph legend.">CPTLegend</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_bordered_layer.html#ab7d3984b53ff3a3c545b55e176e4296f">CPTBorderedLayer</a>.</p>
 

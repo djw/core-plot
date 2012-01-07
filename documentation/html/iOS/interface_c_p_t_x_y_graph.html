@@ -112,7 +112,7 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_graph.html#a4d94e3162f7f98283ea4a81e6f01d639">initWithFrame:xScaleType:yScaleType:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_x_y_graph.html" title="A graph using a cartesian (X-Y) plot space.">CPTXYGraph</a> object with the provided frame rectangle and scale types.  <a href="#a4d94e3162f7f98283ea4a81e6f01d639"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_graph.html#a2fcb010c48ceb46a3566e1a2dd9e6dbb">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a2fcb010c48ceb46a3566e1a2dd9e6dbb"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_x_y_graph.html" title="A graph using a cartesian (X-Y) plot space.">CPTXYGraph</a> object with the provided frame rectangle.  <a href="#a2fcb010c48ceb46a3566e1a2dd9e6dbb"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A graph using a cartesian (X-Y) plot space. </p>
@@ -132,14 +132,11 @@ Public Instance Methods</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_x_y_graph.html" title="A graph using a cartesian (X-Y) plot space.">CPTXYGraph</a> object with the provided frame rectangle. </p>
+<p>The initialized layer will have the following properties:</p>
 <ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+<li>xScaleType = <a class="el" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182aad834e3496afe3f6a4e898a88e272d40e" title="Linear axis scale.">CPTScaleTypeLinear</a></li>
+<li>yScaleType = <a class="el" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182aad834e3496afe3f6a4e898a88e272d40e" title="Linear axis scale.">CPTScaleTypeLinear</a></li>
 </ul>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -147,7 +144,8 @@ Public Instance Methods</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_x_y_graph.html" title="A graph using a cartesian (X-Y) plot space.">CPTXYGraph</a> object. </dd></dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="interface_c_p_t_x_y_graph.html#a4d94e3162f7f98283ea4a81e6f01d639">-initWithFrame:xScaleType:yScaleType: </a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_graph.html#ace4102f394be79c88fb0a1c0d0fd1022">CPTGraph</a>.</p>
 

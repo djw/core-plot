@@ -112,7 +112,7 @@
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_axis_set.html#a26b081432a8e55ae4decedc546201fb7">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a26b081432a8e55ae4decedc546201fb7"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_x_y_axis_set.html" title="A set of cartesian (X-Y) axes.">CPTXYAxisSet</a> object with the provided frame rectangle.  <a href="#a26b081432a8e55ae4decedc546201fb7"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_x_y_axis.html">CPTXYAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_axis_set.html#a776a769b5127c0105c92908124d40ad8">xAxis</a></td></tr>
@@ -138,22 +138,23 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
-<ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
-</ul>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_x_y_axis_set.html" title="A set of cartesian (X-Y) axes.">CPTXYAxisSet</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The <a class="el" href="interface_c_p_t_axis_set.html#a423143c5af60618ddd65b05029bbfe26">axes </a> array will contain two new axes with the following properties:</p>
+<table class="doxtable">
+<tr>
+<td>Axis</td><td><a class="el" href="interface_c_p_t_axis.html#afa6e872f306f70db0e5cda87f55043ac">coordinate </a></td><td><a class="el" href="interface_c_p_t_axis.html#ab913b480a46cdc157b7950f64b45fd19">tickDirection </a> </td></tr>
+<tr>
+<td><a class="el" href="interface_c_p_t_x_y_axis_set.html#a776a769b5127c0105c92908124d40ad8">xAxis </a></td><td><a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1bad76f12c25a1d9581c7ad04af277b9006" title="X axis.">CPTCoordinateX</a></td><td><a class="el" href="_c_p_t_definitions_8h.html#a3785add118c53a68c6a1838078e17cc5a55e774477ca03c91507faeac62e88ac4" title="Negative offset.">CPTSignNegative</a> </td></tr>
+<tr>
+<td><a class="el" href="interface_c_p_t_x_y_axis_set.html#ac3aebb225f7c85d743369575db5b15ac">yAxis </a></td><td><a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1ba28a6b8aaf54ac0f8c1a89d66c5505620" title="Y axis.">CPTCoordinateY</a></td><td><a class="el" href="_c_p_t_definitions_8h.html#a3785add118c53a68c6a1838078e17cc5a55e774477ca03c91507faeac62e88ac4" title="Negative offset.">CPTSignNegative</a> </td></tr>
+</table>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_x_y_axis_set.html" title="A set of cartesian (X-Y) axes.">CPTXYAxisSet</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_axis_set.html#af1b1939683cc055a4489fabdc6c43066">CPTAxisSet</a>.</p>
 

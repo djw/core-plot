@@ -83,7 +83,7 @@
 </div><!--header-->
 <div class="contents">
 <!-- doxytag: class="CPTTextLayer" --><!-- doxytag: inherits="CPTLayer" -->
-<p>A Core Animation layer that displays a single line of text drawn in a uniform style.  
+<p>A Core Animation layer that displays text drawn in a uniform style.  
  <a href="interface_c_p_t_text_layer.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="_c_p_t_text_layer_8h_source.html">CPTTextLayer.h</a>&gt;</code></p>
@@ -112,9 +112,11 @@
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_text_layer.html#a61b461a62a37b824c58a8244219cf899">initWithText:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays a single line of text drawn in a uniform style.">CPTTextLayer</a> object with the provided text and the default text style.  <a href="#a61b461a62a37b824c58a8244219cf899"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style.">CPTTextLayer</a> object with the provided text and the default text style.  <a href="#a61b461a62a37b824c58a8244219cf899"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_text_layer.html#a703ae49f2a2127c2e582850a731e6753">initWithText:style:</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays a single line of text drawn in a uniform style.">CPTTextLayer</a> object with the provided text and style. This is the designated initializer.  <a href="#a703ae49f2a2127c2e582850a731e6753"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style.">CPTTextLayer</a> object with the provided text and style. This is the designated initializer.  <a href="#a703ae49f2a2127c2e582850a731e6753"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_text_layer.html#aa7f4721ec788e3c981083b78b958b0b1">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style.">CPTTextLayer</a> object with the provided frame rectangle.  <a href="#aa7f4721ec788e3c981083b78b958b0b1"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Layout</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGSize.html">CGSize</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_text_layer.html#a3e35097b8e8ca6b74126ae985d8ea9fc">sizeThatFits</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine the minimum size needed to fit the text.  <a href="#a3e35097b8e8ca6b74126ae985d8ea9fc"></a><br/></td></tr>
@@ -123,13 +125,46 @@ Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_text_layer.html#a9a1649e6264e67f6e6743d4d098ef310">text</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The text to display.  <a href="#a9a1649e6264e67f6e6743d4d098ef310"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The text to display. Inset newline characters (<code>'\n'</code>) at the line breaks to display multi-line text.  <a href="#a9a1649e6264e67f6e6743d4d098ef310"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_text_style.html">CPTTextStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_text_layer.html#a68395b4c7461f2c7c4d881194fb63969">textStyle</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The text style used to draw the text.  <a href="#a68395b4c7461f2c7c4d881194fb63969"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>A Core Animation layer that displays a single line of text drawn in a uniform style. </p>
+<div class="textblock"><p>A Core Animation layer that displays text drawn in a uniform style. </p>
 </div><hr/><h2>Method Documentation</h2>
+<a class="anchor" id="aa7f4721ec788e3c981083b78b958b0b1"></a><!-- doxytag: member="CPTTextLayer::initWithFrame:" ref="aa7f4721ec788e3c981083b78b958b0b1" args="(CGRect newFrame)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_text_layer.html#aa7f4721ec788e3c981083b78b958b0b1">initWithFrame:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>newFrame</em></td>
+          <td><code> [implementation]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style.">CPTTextLayer</a> object with the provided frame rectangle. </p>
+<p>The initialized layer will have the following properties:</p>
+<ul>
+<li><a class="el" href="interface_c_p_t_text_layer.html#a9a1649e6264e67f6e6743d4d098ef310">text </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_text_layer.html#a68395b4c7461f2c7c4d881194fb63969">textStyle </a> = <code>nil</code></li>
+</ul>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style.">CPTTextLayer</a> object. </dd></dl>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a42e21f40d25b81ffafdc9940d894876d">CPTLayer</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a61b461a62a37b824c58a8244219cf899"></a><!-- doxytag: member="CPTTextLayer::initWithText:" ref="a61b461a62a37b824c58a8244219cf899" args="(NSString *newText)" -->
 <div class="memitem">
 <div class="memproto">
@@ -145,14 +180,14 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays a single line of text drawn in a uniform style.">CPTTextLayer</a> object with the provided text and the default text style. </p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style.">CPTTextLayer</a> object with the provided text and the default text style. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">newText</td><td>The text to display. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays a single line of text drawn in a uniform style.">CPTTextLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style.">CPTTextLayer</a> object. </dd></dl>
 
 </div>
 </div>
@@ -181,7 +216,7 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays a single line of text drawn in a uniform style.">CPTTextLayer</a> object with the provided text and style. This is the designated initializer. </p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style.">CPTTextLayer</a> object with the provided text and style. This is the designated initializer. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">newText</td><td>The text to display. </td></tr>
@@ -189,7 +224,7 @@ Properties</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays a single line of text drawn in a uniform style.">CPTTextLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style.">CPTTextLayer</a> object. </dd></dl>
 
 </div>
 </div>
@@ -241,7 +276,7 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>The text to display. </p>
+<p>The text to display. Inset newline characters (<code>'\n'</code>) at the line breaks to display multi-line text. </p>
 
 </div>
 </div>

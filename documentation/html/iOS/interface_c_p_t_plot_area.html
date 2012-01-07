@@ -117,7 +117,7 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sublayer index for the given layer type and axis.  <a href="#a86af66098849fb0d8ecf08d224150023"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_area.html#afb45475ab1131edc13db789963420736">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#afb45475ab1131edc13db789963420736"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_plot_area.html" title="A layer representing the actual plotting area of a graph.">CPTPlotArea</a> object with the provided frame rectangle.  <a href="#afb45475ab1131edc13db789963420736"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Layers</div></td></tr>
@@ -171,14 +171,19 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_plot_area.html" title="A layer representing the actual plotting area of a graph.">CPTPlotArea</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties:</p>
 <ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+<li><a class="el" href="interface_c_p_t_plot_area.html#a3b44df832f65790aa95016d809172745">minorGridLineGroup </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_plot_area.html#ab3d620f1ed1328411d1c35830ccfb854">majorGridLineGroup </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_plot_area.html#a7dafaa321e099f83ac93605e885443da">axisSet </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_plot_area.html#aedf092dfd6a572e23442111e9a1affd8">plotGroup </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_plot_area.html#ac0a0b57d1deb8f02ebabfc34793cd579">axisLabelGroup </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_plot_area.html#a5ab0f70db90e5e164e7fa440790af49a">axisTitleGroup </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_plot_area.html#a38950c31448c74d346eb8f7fcee91ff9">fill </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_plot_area.html#a9e425efc7501c6463ca2a05c7ae4d72f">topDownLayerOrder </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_plot_area.html#aedf092dfd6a572e23442111e9a1affd8">plotGroup </a> = a new <a class="el" href="interface_c_p_t_plot_group.html" title="Defines the coordinate system of a plot.">CPTPlotGroup</a> with the same frame rectangle</li>
+<li><code>needsDisplayOnBoundsChange</code> = <code>YES</code></li>
 </ul>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -186,7 +191,7 @@ Properties</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_plot_area.html" title="A layer representing the actual plotting area of a graph.">CPTPlotArea</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_annotation_host_layer.html#ac807d655c49f678cfb5db1411506cbb5">CPTAnnotationHostLayer</a>.</p>
 

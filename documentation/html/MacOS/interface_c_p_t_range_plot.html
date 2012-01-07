@@ -110,7 +110,7 @@
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_range_plot.html#aaa362f21ff912ab51d4c5b1c315e5400">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#aaa362f21ff912ab51d4c5b1c315e5400"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_range_plot.html" title="A plot class representing a range of values in one coordinate, such as typically used to show errors...">CPTRangePlot</a> object with the provided frame rectangle.  <a href="#aaa362f21ff912ab51d4c5b1c315e5400"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Bar Appearance</div></td></tr>
@@ -147,14 +147,12 @@ See <a class="el" href="group__plot_bindings_range_plot.html">Range Plot Binding
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_range_plot.html" title="A plot class representing a range of values in one coordinate, such as typically used to show errors...">CPTRangePlot</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties:</p>
 <ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+<li><a class="el" href="interface_c_p_t_range_plot.html#a1bdcb86f0882515c5e4927171773a1ed">barLineStyle </a> = default line style</li>
+<li><a class="el" href="interface_c_p_t_range_plot.html#aac1321dad4d9536ba4df80b46446291a">areaFill </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_plot.html#a81a914a9ee10c3dad42d4f62581345ee">labelField </a> = <a class="el" href="_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489a9a2815272b24e921fd610badac921a01" title="X values.">CPTRangePlotFieldX</a></li>
 </ul>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -162,7 +160,7 @@ See <a class="el" href="group__plot_bindings_range_plot.html">Range Plot Binding
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_range_plot.html" title="A plot class representing a range of values in one coordinate, such as typically used to show errors...">CPTRangePlot</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>.</p>
 

@@ -627,13 +627,6 @@
            <Node>
             <Name>CPTAxisLabelGroup</Name>
             <Path>interface_c_p_t_axis_label_group.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>renderAsVectorInContext:</Name>
-              <Path>interface_c_p_t_axis_label_group.html</Path>
-              <Anchor>a44f977559acc619d1f91ca70a68e7a22</Anchor>
-             </Node>
-            </Subnodes>
            </Node>
            <Node>
             <Name>CPTAxisSet</Name>
@@ -3511,6 +3504,11 @@
             <Name>CPTTextLayer</Name>
             <Path>interface_c_p_t_text_layer.html</Path>
             <Subnodes>
+             <Node>
+              <Name>initWithFrame:</Name>
+              <Path>interface_c_p_t_text_layer.html</Path>
+              <Anchor>aa7f4721ec788e3c981083b78b958b0b1</Anchor>
+             </Node>
              <Node>
               <Name>initWithText:</Name>
               <Path>interface_c_p_t_text_layer.html</Path>

@@ -120,7 +120,7 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the plot symbol to use for a given index.  <a href="#a9f74ed3bfedfb98fc91ce0e485d9b2b9"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_scatter_plot.html#aa04e58896f986681b57b1443838fe4ba">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#aa04e58896f986681b57b1443838fe4ba"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_scatter_plot.html" title="A two-dimensional scatter plot.">CPTScatterPlot</a> object with the provided frame rectangle.  <a href="#aa04e58896f986681b57b1443838fe4ba"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_scatter_plot.html#a4601ba30081adefe769621da95329dd5">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.  <a href="#a4601ba30081adefe769621da95329dd5"></a><br/></td></tr>
@@ -188,14 +188,18 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_scatter_plot.html" title="A two-dimensional scatter plot.">CPTScatterPlot</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties:</p>
 <ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+<li><a class="el" href="interface_c_p_t_scatter_plot.html#ab90031ebb57908a953e9e0a10e1a43f2">dataLineStyle </a> = default line style</li>
+<li><a class="el" href="interface_c_p_t_scatter_plot.html#a059677ae2aa9d15fcde552e2a0dd0f7d">plotSymbol </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_scatter_plot.html#a955037267ca08091d5ca7f2baab4e746">areaFill </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_scatter_plot.html#a37c6bfb2c808b631c0031855c1b306bf">areaFill2 </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_scatter_plot.html#aea48c69d7c599ca618b0a0612abaeb59">areaBaseValue </a> = NAN</li>
+<li><a class="el" href="interface_c_p_t_scatter_plot.html#afffaa2ceecb2df07f0215f59511a2659">areaBaseValue2 </a> = NAN</li>
+<li><a class="el" href="interface_c_p_t_scatter_plot.html#ae2889d87641d64cd97f87ed3128514e7">plotSymbolMarginForHitDetection </a> = 0.0</li>
+<li><a class="el" href="interface_c_p_t_scatter_plot.html#af809383099574f528fef47497ac913b8">interpolation </a> = <a class="el" href="_c_p_t_scatter_plot_8h.html#a0a9d8cdea584afe83809167eedeca8daaa0dcba8b82569841d1599aa5507f2957" title="Linear interpolation.">CPTScatterPlotInterpolationLinear</a></li>
+<li><a class="el" href="interface_c_p_t_plot.html#a81a914a9ee10c3dad42d4f62581345ee">labelField </a> = <a class="el" href="_c_p_t_scatter_plot_8h.html#a20acbfd01a982bfed56a2681e17126a8afe5068b0719ce6f450911178dab9bafd" title="Y values.">CPTScatterPlotFieldY</a></li>
 </ul>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -203,7 +207,7 @@ Properties</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_scatter_plot.html" title="A two-dimensional scatter plot.">CPTScatterPlot</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>.</p>
 

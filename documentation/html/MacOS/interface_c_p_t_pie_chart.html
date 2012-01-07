@@ -117,7 +117,7 @@ Public Class Methods</h2></td></tr>
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle.  <a href="#a921a8ed64d495233f8ce420f2f69067b"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_pie_chart.html" title="A pie chart.">CPTPieChart</a> object with the provided frame rectangle.  <a href="#a921a8ed64d495233f8ce420f2f69067b"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_pie_chart.html#ac6d95068f152d9e5d8aa076443859544">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.  <a href="#ac6d95068f152d9e5d8aa076443859544"></a><br/></td></tr>
@@ -185,14 +185,18 @@ See <a class="el" href="group__plot_bindings_pie_chart.html">Pie Chart Bindings<
 </div>
 <div class="memdoc">
 
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties that are different than a <a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>:</p>
+<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_pie_chart.html" title="A pie chart.">CPTPieChart</a> object with the provided frame rectangle. </p>
+<p>This is the designated initializer. The initialized layer will have the following properties:</p>
 <ul>
-<li>needsDisplayOnBoundsChange = NO</li>
-<li>opaque = NO</li>
-<li>masksToBounds = NO</li>
-<li>padding = 0 on all four sides</li>
-<li>Default animations for changes in position, bounds, and sublayers are turned off.</li>
+<li><a class="el" href="group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea">pieRadius </a> = 40% of the minimum of the width and height of the frame rectangle</li>
+<li><a class="el" href="group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e">pieInnerRadius </a> = 0.0</li>
+<li><a class="el" href="group__plot_animation_pie_chart.html#ga139122421a061b2ca1622bdebca5b1c3">startAngle </a> = π/2</li>
+<li><a class="el" href="interface_c_p_t_pie_chart.html#ad0218003271a042fe4f1d81df50f3bd1">sliceDirection </a> = <a class="el" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1aa1b4df7575240af272a52cc0d9401185" title="Pie slices are drawn in a clockwise direction.">CPTPieDirectionClockwise</a></li>
+<li><a class="el" href="group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c">centerAnchor </a> = (0.5, 0.5)</li>
+<li><a class="el" href="interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3">borderLineStyle </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51">overlayFill </a> = <code>nil</code></li>
+<li><a class="el" href="group__plot_animation_all_plots.html#ga9e258bb5f1e2385674299200c4eed799">labelOffset </a> = 10.0</li>
+<li><a class="el" href="interface_c_p_t_plot.html#a81a914a9ee10c3dad42d4f62581345ee">labelField </a> = <a class="el" href="_c_p_t_pie_chart_8h.html#a01483eef4e806811546a45557cdb599ba15db0cd33b30788aa50b97aa726f6dc9" title="Pie slice width.">CPTPieChartFieldSliceWidth</a></li>
 </ul>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
@@ -200,7 +204,7 @@ See <a class="el" href="group__plot_bindings_pie_chart.html">Pie Chart Bindings<
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_pie_chart.html" title="A pie chart.">CPTPieChart</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>.</p>
 

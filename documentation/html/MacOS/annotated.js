@@ -5,7 +5,7 @@ var annotated =
     [ "CPTAxis", "interface_c_p_t_axis.html", "interface_c_p_t_axis" ],
     [ "<CPTAxisDelegate>", "protocol_c_p_t_axis_delegate-p.html", "protocol_c_p_t_axis_delegate-p" ],
     [ "CPTAxisLabel", "interface_c_p_t_axis_label.html", "interface_c_p_t_axis_label" ],
-    [ "CPTAxisLabelGroup", "interface_c_p_t_axis_label_group.html", "interface_c_p_t_axis_label_group" ],
+    [ "CPTAxisLabelGroup", "interface_c_p_t_axis_label_group.html", null ],
     [ "CPTAxisSet", "interface_c_p_t_axis_set.html", "interface_c_p_t_axis_set" ],
     [ "CPTAxisTitle", "interface_c_p_t_axis_title.html", "interface_c_p_t_axis_title" ],
     [ "CPTBarPlot", "interface_c_p_t_bar_plot.html", "interface_c_p_t_bar_plot" ],

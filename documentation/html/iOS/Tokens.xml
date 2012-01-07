@@ -3612,7 +3612,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_annotation_host_layer.html</Path>
     <Anchor>ac807d655c49f678cfb5db1411506cbb5</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTAnnotationHostLayer object with the provided frame rectangle...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3667,7 +3667,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a16baaf9ca6edb23fe543f48bb15054b8</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTAxis object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4507,17 +4507,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderAsVectorInContext:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTAxisLabelGroup</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis_label_group.html</Path>
-    <Anchor>a44f977559acc619d1f91ca70a68e7a22</Anchor>
-    <Abstract>Draws layer content into the provided graphics context.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>CPTAxisSet</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -4547,7 +4536,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_axis_set.html</Path>
     <Anchor>af1b1939683cc055a4489fabdc6c43066</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTAxisSet object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4635,7 +4624,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_bar_plot.html</Path>
     <Anchor>a7029fe2b567b5a4ea9349889e4e17393</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTBarPlot object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4855,7 +4844,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
     <Anchor>ab7d3984b53ff3a3c545b55e176e4296f</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTBorderedLayer object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -5944,7 +5933,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>ace4102f394be79c88fb0a1c0d0fd1022</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTPlotGroup object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6207,7 +6196,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_grid_line_group.html</Path>
     <Anchor>a333bc1319e96f0e033bf6825b53f6e06</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTGridLineGroup object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6251,7 +6240,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_grid_lines.html</Path>
     <Anchor>ad454422cc5da098837c48963c989ad7e</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTGridLines object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6845,7 +6834,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_legend.html</Path>
     <Anchor>a57670747c45fe73a9a540e9a886b393f</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTLegend object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8385,7 +8374,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_pie_chart.html</Path>
     <Anchor>a921a8ed64d495233f8ce420f2f69067b</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTPieChart object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8627,7 +8616,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a44f525ed96c9819b64fedc766feec98c</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTPlot object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9111,7 +9100,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_area.html</Path>
     <Anchor>afb45475ab1131edc13db789963420736</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTPlotArea object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9232,7 +9221,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_area_frame.html</Path>
     <Anchor>a24eba376f907c560dd33f86a63c80dc2</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTPlotAreaFrame object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9397,7 +9386,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_group.html</Path>
     <Anchor>ab2d4d31b878ccfdf1be298c49449a802</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTPlotGroup object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10276,7 +10265,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_range_plot.html</Path>
     <Anchor>aaa362f21ff912ab51d4c5b1c315e5400</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTRangePlot object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10496,7 +10485,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_scatter_plot.html</Path>
     <Anchor>aa04e58896f986681b57b1443838fe4ba</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTScatterPlot object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10726,7 +10715,7 @@
       <Scope>CPTTextLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_text_layer.html</Path>
-    <Abstract>A Core Animation layer that displays a single line of text drawn in a uniform style.</Abstract>
+    <Abstract>A Core Animation layer that displays text drawn in a uniform style.</Abstract>
     <DeclaredIn>CPTTextLayer.h</DeclaredIn>
   </Token>
   <Token>
@@ -10750,6 +10739,17 @@
     <Path>interface_c_p_t_text_layer.html</Path>
     <Anchor>a703ae49f2a2127c2e582850a731e6753</Anchor>
     <Abstract>Initializes a newly allocated CPTTextLayer object with the provided text and style. This is the designated initializer.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithFrame:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTTextLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_layer.html</Path>
+    <Anchor>aa7f4721ec788e3c981083b78b958b0b1</Anchor>
+    <Abstract>Initializes a newly allocated CPTTextLayer object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10782,7 +10782,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_text_layer.html</Path>
     <Anchor>a9a1649e6264e67f6e6743d4d098ef310</Anchor>
-    <Abstract>The text to display.</Abstract>
+    <Abstract>The text to display. Inset newline characters (&amp;#39;\n&amp;#39;) at the line breaks to display multi-line text...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11057,7 +11057,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_trading_range_plot.html</Path>
     <Anchor>aa40b57ba174b345669ea1b142254f8b8</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTTradingRangePlot object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11178,7 +11178,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_axis.html</Path>
     <Anchor>a8807c07c6e743d5532388aa9d554a2b6</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTXYAxis object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11222,7 +11222,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_axis_set.html</Path>
     <Anchor>a26b081432a8e55ae4decedc546201fb7</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTXYAxisSet object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11277,7 +11277,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_graph.html</Path>
     <Anchor>a2fcb010c48ceb46a3566e1a2dd9e6dbb</Anchor>
-    <Abstract>Initializes a newly allocated CPTLayer object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTXYGraph object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

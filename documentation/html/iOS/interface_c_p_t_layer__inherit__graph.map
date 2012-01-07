@@ -6,7 +6,7 @@
 <area shape="rect" id="node50" href="$interface_c_p_t_grid_line_group.html" title="A group of grid line layers." alt="" coords="718,498,858,529"/>
 <area shape="rect" id="node52" href="$interface_c_p_t_grid_lines.html" title="An abstract class that draws grid lines for an axis." alt="" coords="734,553,842,583"/>
 <area shape="rect" id="node54" href="$interface_c_p_t_plot_group.html" title="Defines the coordinate system of a plot." alt="" coords="733,607,843,638"/>
-<area shape="rect" id="node56" href="$interface_c_p_t_text_layer.html" title="A Core Animation layer that displays a single line of text drawn in a uniform style." alt="" coords="733,662,843,693"/>
+<area shape="rect" id="node56" href="$interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style." alt="" coords="733,662,843,693"/>
 <area shape="rect" id="node2" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html" title="CALayer" alt="" coords="412,443,486,474"/>
 <area shape="rect" id="node4" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="212,390,292,421"/>
 <area shape="rect" id="node6" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="5,445,123,475"/>

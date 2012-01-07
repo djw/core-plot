@@ -9,7 +9,7 @@
 <area shape="rect" id="node43" href="$interface_c_p_t_grid_line_group.html" title="A group of grid line layers." alt="" coords="1129,497,1269,527"/>
 <area shape="rect" id="node45" href="$interface_c_p_t_grid_lines.html" title="An abstract class that draws grid lines for an axis." alt="" coords="1145,551,1252,582"/>
 <area shape="rect" id="node47" href="$interface_c_p_t_plot_group.html" title="Defines the coordinate system of a plot." alt="" coords="1143,606,1254,637"/>
-<area shape="rect" id="node49" href="$interface_c_p_t_text_layer.html" title="A Core Animation layer that displays a single line of text drawn in a uniform style." alt="" coords="1144,223,1254,254"/>
+<area shape="rect" id="node49" href="$interface_c_p_t_text_layer.html" title="A Core Animation layer that displays text drawn in a uniform style." alt="" coords="1144,223,1254,254"/>
 <area shape="rect" id="node9" href="$interface_c_p_t_bordered_layer.html" title="A layer with a border line and background fill." alt="" coords="1338,306,1478,337"/>
 <area shape="rect" id="node19" href="$interface_c_p_t_plot.html" title="An abstract plot class." alt="" coords="1373,142,1443,173"/>
 <area shape="rect" id="node31" href="$interface_c_p_t_plot_area.html" title="A layer representing the actual plotting area of a graph." alt="" coords="1358,251,1458,282"/>
