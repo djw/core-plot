@@ -4904,7 +4904,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_bar_plot.html</Path>
     <Anchor>a2a84fda9ac02edf293d51f264436a4f6</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.</Abstract>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6267,7 +6267,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>ace4102f394be79c88fb0a1c0d0fd1022</Anchor>
-    <Abstract>Initializes a newly allocated CPTPlotGroup object with the provided frame rectangle.</Abstract>
+    <Abstract>Initializes a newly allocated CPTGraph object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6278,7 +6278,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>a9080d854d6172aee9b6c87eddf6ca210</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.</Abstract>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6289,7 +6289,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>afc9913d2f9d2b629757522ac514d5754</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger up event.</Abstract>
+    <Abstract>Informs the receiver that the user has released the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6300,7 +6300,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>ac9500271ddce0fd231fdadab1d1f54fb</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event.</Abstract>
+    <Abstract>Informs the receiver that the user has moved the mouse with the button pressed.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6311,7 +6311,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>a28bd4bb9bb1403625bc827471290be30</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Mouse or finger event cancelled.</Abstract>
+    <Abstract>Informs the receiver that tracking of mouse moves has been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6740,7 +6740,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a2d6014b2ef18d540a36f69e63fbb5382</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.</Abstract>
+    <Abstract>(Required) Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6751,7 +6751,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ae2fc98d78633968cb65822fe6346bfac</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger up event.</Abstract>
+    <Abstract>(Required) Informs the receiver that the user has released the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6762,7 +6762,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ae7b4be656ed917f72457d4a57ecc360e</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event.</Abstract>
+    <Abstract>(Required) Informs the receiver that the user has moved the mouse with the button pressed...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6773,7 +6773,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ae47cd0a21d45a10aa6144f4a3eb3733e</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Mouse or finger event cancelled.</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7851,7 +7851,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_line_style.html</Path>
     <Anchor>aa2010258cc8e768ac59954a8b7d8f3f0</Anchor>
-    <Abstract>The style for the endpoints of lines drawn in a graphics context.</Abstract>
+    <Abstract>The style for the endpoints of lines drawn in a graphics context. Default is kCGLineCapButt.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7862,7 +7862,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_line_style.html</Path>
     <Anchor>a5b41674be302ef1801d33ce079da3b42</Anchor>
-    <Abstract>The style for the joins of connected lines in a graphics context.</Abstract>
+    <Abstract>The style for the joins of connected lines in a graphics context. Default is kCGLineJoinMiter.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7873,7 +7873,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_line_style.html</Path>
     <Anchor>a7fba8edf2d131f6baad56635381a946b</Anchor>
-    <Abstract>The miter limit for the joins of connected lines in a graphics context.</Abstract>
+    <Abstract>The miter limit for the joins of connected lines in a graphics context. Default is 10...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7884,7 +7884,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_line_style.html</Path>
     <Anchor>ad742282d977c6ec6cd251b2cd8f7c1de</Anchor>
-    <Abstract>The line width for a graphics context.</Abstract>
+    <Abstract>The line width for a graphics context. Default is 1.0.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7895,7 +7895,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_line_style.html</Path>
     <Anchor>a6053a92df9fbf4f49fd9c727efca2f94</Anchor>
-    <Abstract>The dash-and-space pattern for the line.</Abstract>
+    <Abstract>The dash-and-space pattern for the line. Default is nil.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7906,7 +7906,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_line_style.html</Path>
     <Anchor>aafbb5316e2ad7a41708b55b45619397b</Anchor>
-    <Abstract>The starting phase of the line dash pattern.</Abstract>
+    <Abstract>The starting phase of the line dash pattern. Default is 0.0.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7917,7 +7917,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_line_style.html</Path>
     <Anchor>abbbc1a4147e36b4473da4ed9859ccd9a</Anchor>
-    <Abstract>The current stroke color in a context.</Abstract>
+    <Abstract>The current stroke color in a context. Default is solid black.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7939,7 +7939,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_line_style.html</Path>
     <Anchor>af231969b4a3217a18be3614a48dcaeba</Anchor>
-    <Abstract>The style for the endpoints of lines drawn in a graphics context.</Abstract>
+    <Abstract>The style for the endpoints of lines drawn in a graphics context. Default is kCGLineCapButt.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7950,7 +7950,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_line_style.html</Path>
     <Anchor>a07d08f155bca14b3f58576aa343bf820</Anchor>
-    <Abstract>The style for the joins of connected lines in a graphics context.</Abstract>
+    <Abstract>The style for the joins of connected lines in a graphics context. Default is kCGLineJoinMiter.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7961,7 +7961,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_line_style.html</Path>
     <Anchor>a096fc5b9cfbc3f00aac8737697a08fac</Anchor>
-    <Abstract>The miter limit for the joins of connected lines in a graphics context.</Abstract>
+    <Abstract>The miter limit for the joins of connected lines in a graphics context. Default is 10...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7972,7 +7972,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_line_style.html</Path>
     <Anchor>a20855fe525057f23b3e78123e0c62646</Anchor>
-    <Abstract>The line width for a graphics context.</Abstract>
+    <Abstract>The line width for a graphics context. Default is 1.0.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7983,7 +7983,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_line_style.html</Path>
     <Anchor>a25a51dace9986d161a8c5795270418e4</Anchor>
-    <Abstract>The dash-and-space pattern for the line.</Abstract>
+    <Abstract>The dash-and-space pattern for the line. Default is nil.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7994,7 +7994,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_line_style.html</Path>
     <Anchor>a5fdac0b469975626a0bcffa702f6318d</Anchor>
-    <Abstract>The starting phase of the line dash pattern.</Abstract>
+    <Abstract>The starting phase of the line dash pattern. Default is 0.0.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8005,7 +8005,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_line_style.html</Path>
     <Anchor>ab1773bf482e6f08590680906038c7d16</Anchor>
-    <Abstract>The current stroke color in a context.</Abstract>
+    <Abstract>The current stroke color in a context. Default is solid black.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8280,7 +8280,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_text_style.html</Path>
     <Anchor>a72d87a5cd4d8450da8766e2bdf959f51</Anchor>
-    <Abstract>The font name.</Abstract>
+    <Abstract>The font name. Default is &amp;quot;Helvetica&amp;quot;.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8291,7 +8291,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_text_style.html</Path>
     <Anchor>a0507bbf6d4c1f7283761152945cdbdbb</Anchor>
-    <Abstract>The font size.</Abstract>
+    <Abstract>The font size. Default is 12.0.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8302,7 +8302,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_text_style.html</Path>
     <Anchor>a4a62ee6be38a0a0c0621b57984c06182</Anchor>
-    <Abstract>The current text color.</Abstract>
+    <Abstract>The current text color. Default is solid black.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8313,7 +8313,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_mutable_text_style.html</Path>
     <Anchor>a68f983819f763e5ce470785eeeda9fcb</Anchor>
-    <Abstract>The paragraph alignment for multi-line text.</Abstract>
+    <Abstract>The paragraph alignment for multi-line text. Default is CPTTextAlignmentLeft.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8687,7 +8687,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_pie_chart.html</Path>
     <Anchor>ac6d95068f152d9e5d8aa076443859544</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.</Abstract>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9952,7 +9952,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
     <Anchor>a5f621e3f307ef440d9b4a9ecbb877f64</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.</Abstract>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9963,7 +9963,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
     <Anchor>aac92939c1f1b4121f2e78f0bcdfaee8c</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger up event.</Abstract>
+    <Abstract>Informs the receiver that the user has released the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9974,7 +9974,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
     <Anchor>ac96f5040ddddc97b4a1c03f97f2db235</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event.</Abstract>
+    <Abstract>Informs the receiver that the user has moved the mouse with the button pressed.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9985,7 +9985,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
     <Anchor>a643dcec3439e87950e59ab0648a4422c</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Mouse or finger event cancelled.</Abstract>
+    <Abstract>Informs the receiver that tracking of mouse moves has been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10440,16 +10440,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>newSymbolPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTPlotSymbol</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot_symbol.html</Path>
-    <Anchor>aea182b736e8e5828223339ecbaf53d43</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>renderInContext:atPoint:scale:alignToPixels:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -10798,7 +10788,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_scatter_plot.html</Path>
     <Anchor>a4601ba30081adefe769621da95329dd5</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.</Abstract>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11128,7 +11118,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_text_style.html</Path>
     <Anchor>a1f07f59cd389ee9949d4eaebe958c93d</Anchor>
-    <Abstract>The font name.</Abstract>
+    <Abstract>The font name. Default is &amp;quot;Helvetica&amp;quot;.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11139,7 +11129,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_text_style.html</Path>
     <Anchor>a0872790294f130e35db0ffd5f120b257</Anchor>
-    <Abstract>The font size.</Abstract>
+    <Abstract>The font size. Default is 12.0.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11150,7 +11140,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_text_style.html</Path>
     <Anchor>a837db7bc43385d432de548b4301136b6</Anchor>
-    <Abstract>The current text color.</Abstract>
+    <Abstract>The current text color. Default is solid black.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11161,7 +11151,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_text_style.html</Path>
     <Anchor>a3e23c88e859acc44c8dce76c2d7f0c4d</Anchor>
-    <Abstract>The paragraph alignment for multi-line text.</Abstract>
+    <Abstract>The paragraph alignment for multi-line text. Default is CPTTextAlignmentLeft.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11601,7 +11591,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a53eae728e6443a65d50f2720fa34503d</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.</Abstract>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11612,7 +11602,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a07db9c5f6baa7fbb2b5eb3d3fe1ca153</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger up event.</Abstract>
+    <Abstract>Informs the receiver that the user has released the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11623,7 +11613,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>aed72a16e1749da976ce78d94b42f3896</Anchor>
-    <Abstract>Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event.</Abstract>
+    <Abstract>Informs the receiver that the user has moved the mouse with the button pressed.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

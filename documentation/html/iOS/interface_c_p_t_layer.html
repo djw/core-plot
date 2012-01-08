@@ -116,13 +116,13 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs this layer and all of its sublayers.  <a href="#aeb212c9b1cc7cd17a285e713920988d7"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_layer.html#a2d6014b2ef18d540a36f69e63fbb5382">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.  <a href="#a2d6014b2ef18d540a36f69e63fbb5382"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Required) Informs the receiver that the user has touched the screen.  <a href="#a2d6014b2ef18d540a36f69e63fbb5382"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_layer.html#ae2fc98d78633968cb65822fe6346bfac">pointingDeviceUpEvent:atPoint:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger up event.  <a href="#ae2fc98d78633968cb65822fe6346bfac"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Required) Informs the receiver that the user has lifted their finger off the screen.  <a href="#ae2fc98d78633968cb65822fe6346bfac"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_layer.html#ae7b4be656ed917f72457d4a57ecc360e">pointingDeviceDraggedEvent:atPoint:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event.  <a href="#ae7b4be656ed917f72457d4a57ecc360e"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Required) Informs the receiver that the user has moved their finger while touching the screen.  <a href="#ae7b4be656ed917f72457d4a57ecc360e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_layer.html#ae47cd0a21d45a10aa6144f4a3eb3733e">pointingDeviceCancelledEvent:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Mouse or finger event cancelled.  <a href="#ae47cd0a21d45a10aa6144f4a3eb3733e"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">(Required) Informs the receiver that tracking of touches has been cancelled for any reason.  <a href="#ae47cd0a21d45a10aa6144f4a3eb3733e"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Images</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="_c_p_t_platform_specific_defines_8h.html#afb0ed1b2315798ff3b665e15769e0379">CPTNativeImage</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_layer.html#a8090476a4b0d5ce1ef54803af81e81d1">imageOfLayer</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an image of the layer contents.  <a href="#a8090476a4b0d5ce1ef54803af81e81d1"></a><br/></td></tr>
@@ -413,10 +413,10 @@ Layout</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Abstraction of Mac and iPhone event handling. Mouse or finger event cancelled. </p>
+<p>(Required) Informs the receiver that tracking of touches has been cancelled for any reason. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">event</td><td>Native event object of device. </td></tr>
+    <tr><td class="paramname">event</td><td>The OS event. </td></tr>
   </table>
   </dd>
 </dl>
@@ -453,11 +453,11 @@ Layout</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event. </p>
+<p>(Required) Informs the receiver that the user has touched the screen. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">event</td><td>Native event object of device. </td></tr>
-    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+    <tr><td class="paramname">event</td><td>The OS event. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the interaction. </td></tr>
   </table>
   </dd>
 </dl>
@@ -494,11 +494,11 @@ Layout</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event. </p>
+<p>(Required) Informs the receiver that the user has moved their finger while touching the screen. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">event</td><td>Native event object of device. </td></tr>
-    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+    <tr><td class="paramname">event</td><td>The OS event. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the interaction. </td></tr>
   </table>
   </dd>
 </dl>
@@ -535,11 +535,11 @@ Layout</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger up event. </p>
+<p>(Required) Informs the receiver that the user has lifted their finger off the screen. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
-    <tr><td class="paramname">event</td><td>Native event object of device. </td></tr>
-    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+    <tr><td class="paramname">event</td><td>The OS event. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the interaction. </td></tr>
   </table>
   </dd>
 </dl>

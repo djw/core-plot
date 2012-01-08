@@ -121,19 +121,19 @@ Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">CGLineCap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#aa2010258cc8e768ac59954a8b7d8f3f0">lineCap</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The style for the endpoints of lines drawn in a graphics context.  <a href="#aa2010258cc8e768ac59954a8b7d8f3f0"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The style for the endpoints of lines drawn in a graphics context. Default is <code>kCGLineCapButt</code>.  <a href="#aa2010258cc8e768ac59954a8b7d8f3f0"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">CGLineJoin&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#a5b41674be302ef1801d33ce079da3b42">lineJoin</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The style for the joins of connected lines in a graphics context.  <a href="#a5b41674be302ef1801d33ce079da3b42"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The style for the joins of connected lines in a graphics context. Default is <code>kCGLineJoinMiter</code>.  <a href="#a5b41674be302ef1801d33ce079da3b42"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#a7fba8edf2d131f6baad56635381a946b">miterLimit</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The miter limit for the joins of connected lines in a graphics context.  <a href="#a7fba8edf2d131f6baad56635381a946b"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The miter limit for the joins of connected lines in a graphics context. Default is 10.0.  <a href="#a7fba8edf2d131f6baad56635381a946b"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#ad742282d977c6ec6cd251b2cd8f7c1de">lineWidth</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line width for a graphics context.  <a href="#ad742282d977c6ec6cd251b2cd8f7c1de"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The line width for a graphics context. Default is 1.0.  <a href="#ad742282d977c6ec6cd251b2cd8f7c1de"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#a6053a92df9fbf4f49fd9c727efca2f94">dashPattern</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The dash-and-space pattern for the line.  <a href="#a6053a92df9fbf4f49fd9c727efca2f94"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The dash-and-space pattern for the line. Default is <code>nil</code>.  <a href="#a6053a92df9fbf4f49fd9c727efca2f94"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#aafbb5316e2ad7a41708b55b45619397b">patternPhase</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting phase of the line dash pattern.  <a href="#aafbb5316e2ad7a41708b55b45619397b"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting phase of the line dash pattern. Default is 0.0.  <a href="#aafbb5316e2ad7a41708b55b45619397b"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_color.html">CPTColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#abbbc1a4147e36b4473da4ed9859ccd9a">lineColor</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The current stroke color in a context.  <a href="#abbbc1a4147e36b4473da4ed9859ccd9a"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The current stroke color in a context. Default is solid black.  <a href="#abbbc1a4147e36b4473da4ed9859ccd9a"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Immutable wrapper for various line drawing properties. </p>
@@ -196,7 +196,7 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>The dash-and-space pattern for the line. </p>
+<p>The dash-and-space pattern for the line. Default is <code>nil</code>. </p>
 
 <p>Reimplemented in <a class="el" href="interface_c_p_t_mutable_line_style.html#a25a51dace9986d161a8c5795270418e4">CPTMutableLineStyle</a>.</p>
 
@@ -213,7 +213,7 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>The style for the endpoints of lines drawn in a graphics context. </p>
+<p>The style for the endpoints of lines drawn in a graphics context. Default is <code>kCGLineCapButt</code>. </p>
 
 <p>Reimplemented in <a class="el" href="interface_c_p_t_mutable_line_style.html#af231969b4a3217a18be3614a48dcaeba">CPTMutableLineStyle</a>.</p>
 
@@ -230,7 +230,7 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>The current stroke color in a context. </p>
+<p>The current stroke color in a context. Default is solid black. </p>
 
 <p>Reimplemented in <a class="el" href="interface_c_p_t_mutable_line_style.html#ab1773bf482e6f08590680906038c7d16">CPTMutableLineStyle</a>.</p>
 
@@ -247,7 +247,7 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>The style for the joins of connected lines in a graphics context. </p>
+<p>The style for the joins of connected lines in a graphics context. Default is <code>kCGLineJoinMiter</code>. </p>
 
 <p>Reimplemented in <a class="el" href="interface_c_p_t_mutable_line_style.html#a07d08f155bca14b3f58576aa343bf820">CPTMutableLineStyle</a>.</p>
 
@@ -264,7 +264,7 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>The line width for a graphics context. </p>
+<p>The line width for a graphics context. Default is 1.0. </p>
 
 <p>Reimplemented in <a class="el" href="interface_c_p_t_mutable_line_style.html#a20855fe525057f23b3e78123e0c62646">CPTMutableLineStyle</a>.</p>
 
@@ -281,7 +281,7 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>The miter limit for the joins of connected lines in a graphics context. </p>
+<p>The miter limit for the joins of connected lines in a graphics context. Default is 10.0. </p>
 
 <p>Reimplemented in <a class="el" href="interface_c_p_t_mutable_line_style.html#a096fc5b9cfbc3f00aac8737697a08fac">CPTMutableLineStyle</a>.</p>
 
@@ -298,7 +298,7 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>The starting phase of the line dash pattern. </p>
+<p>The starting phase of the line dash pattern. Default is 0.0. </p>
 
 <p>Reimplemented in <a class="el" href="interface_c_p_t_mutable_line_style.html#a5fdac0b469975626a0bcffa702f6318d">CPTMutableLineStyle</a>.</p>
 

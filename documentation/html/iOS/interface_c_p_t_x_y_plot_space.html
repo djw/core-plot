@@ -112,11 +112,11 @@
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_plot_space.html#a53eae728e6443a65d50f2720fa34503d">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger down event.  <a href="#a53eae728e6443a65d50f2720fa34503d"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the receiver that the user has touched the screen.  <a href="#a53eae728e6443a65d50f2720fa34503d"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_plot_space.html#a07db9c5f6baa7fbb2b5eb3d3fe1ca153">pointingDeviceUpEvent:atPoint:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger up event.  <a href="#a07db9c5f6baa7fbb2b5eb3d3fe1ca153"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the receiver that the user has lifted their finger off the screen.  <a href="#a07db9c5f6baa7fbb2b5eb3d3fe1ca153"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_plot_space.html#aed72a16e1749da976ce78d94b42f3896">pointingDeviceDraggedEvent:atPoint:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event.  <a href="#aed72a16e1749da976ce78d94b42f3896"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the receiver that the user has moved their finger while touching the screen.  <a href="#aed72a16e1749da976ce78d94b42f3896"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_plot_space.html#a6752a5841fd3789019bf18986e7398f6">xRange</a></td></tr>
@@ -162,15 +162,16 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger down event. </p>
+<p>Informs the receiver that the user has touched the screen. </p>
+<p>If the receiver has a <a class="el" href="interface_c_p_t_plot_space.html#a2a3aed439077b13bd070b573c29ca4a9">delegate </a> and the delegate handles the event, this method always returns <code>YES</code>. If <a class="el" href="interface_c_p_t_plot_space.html#a0d1dd4c7e319458df25aff1fa5872df9">allowsUserInteraction </a> is <code>NO</code> or the graph does not have a <a class="el" href="interface_c_p_t_graph.html#a0a20f07fd5ea7f8d9377234d19ce58b0">plotAreaFrame </a> layer, this method always returns <code>NO</code>. Otherwise, if the <code>interactionPoint</code> is within the bounds of the <a class="el" href="interface_c_p_t_graph.html#a0a20f07fd5ea7f8d9377234d19ce58b0">plotAreaFrame </a>, a drag operation starts and this method returns <code>YES</code>.</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">event</td><td>The OS event. </td></tr>
-    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the interaction. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the plot space handled the event or not. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the event was handled or not. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_plot_space.html#a5f621e3f307ef440d9b4a9ecbb877f64">CPTPlotSpace</a>.</p>
 
@@ -201,15 +202,16 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger dragged event. </p>
+<p>Informs the receiver that the user has moved their finger while touching the screen. </p>
+<p>If the receiver has a <a class="el" href="interface_c_p_t_plot_space.html#a2a3aed439077b13bd070b573c29ca4a9">delegate </a> and the delegate handles the event, this method always returns <code>YES</code>. If <a class="el" href="interface_c_p_t_plot_space.html#a0d1dd4c7e319458df25aff1fa5872df9">allowsUserInteraction </a> is <code>NO</code> or the graph does not have a <a class="el" href="interface_c_p_t_graph.html#a0a20f07fd5ea7f8d9377234d19ce58b0">plotAreaFrame </a> layer, this method always returns <code>NO</code>. Otherwise, if a drag operation is in progress, the <a class="el" href="interface_c_p_t_x_y_plot_space.html#a6752a5841fd3789019bf18986e7398f6">xRange </a> and <a class="el" href="interface_c_p_t_x_y_plot_space.html#a26ded2764b895a4c656136b581f8d67c">yRange </a> are shifted to follow the drag and this method returns <code>YES</code>.</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">event</td><td>The OS event. </td></tr>
-    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the interaction. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the plot space handled the event or not. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the event was handled or not. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_plot_space.html#ac96f5040ddddc97b4a1c03f97f2db235">CPTPlotSpace</a>.</p>
 
@@ -240,15 +242,16 @@ Properties</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Abstraction of Mac and iPhone event handling. Handles mouse or finger up event. </p>
+<p>Informs the receiver that the user has lifted their finger off the screen. </p>
+<p>If the receiver has a <a class="el" href="interface_c_p_t_plot_space.html#a2a3aed439077b13bd070b573c29ca4a9">delegate </a> and the delegate handles the event, this method always returns <code>YES</code>. If <a class="el" href="interface_c_p_t_plot_space.html#a0d1dd4c7e319458df25aff1fa5872df9">allowsUserInteraction </a> is <code>NO</code> or the graph does not have a <a class="el" href="interface_c_p_t_graph.html#a0a20f07fd5ea7f8d9377234d19ce58b0">plotAreaFrame </a> layer, this method always returns <code>NO</code>. Otherwise, if a drag operation is in progress, it ends and this method returns <code>YES</code>.</p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
     <tr><td class="paramname">event</td><td>The OS event. </td></tr>
-    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the event in the host view. </td></tr>
+    <tr><td class="paramname">interactionPoint</td><td>The coordinates of the interaction. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the plot space handled the event or not. </dd></dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Whether the event was handled or not. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_plot_space.html#aac92939c1f1b4121f2e78f0bcdfaee8c">CPTPlotSpace</a>.</p>
 
