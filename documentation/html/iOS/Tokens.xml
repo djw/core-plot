@@ -6541,6 +6541,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>identifier</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>aefd2bff008854888013f3e1fa17a58ec</Anchor>
+    <Abstract>An object used to identify the layer in collections.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>contentsScale</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -8664,17 +8675,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>identifier</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a2986294ed55c924b3264415d92db14a8</Anchor>
-    <Abstract>An object used to identify the plot in collections.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>title</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -9376,28 +9376,6 @@
     <Path>interface_c_p_t_plot_group.html</Path>
     <Anchor>ab8606e231f1f95161e5b1589b853c493</Anchor>
     <Abstract>Remove a plot from this plot group.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithFrame:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTPlotGroup</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot_group.html</Path>
-    <Anchor>ab2d4d31b878ccfdf1be298c49449a802</Anchor>
-    <Abstract>Initializes a newly allocated CPTPlotGroup object with the provided frame rectangle.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>identifier</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTPlotGroup</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot_group.html</Path>
-    <Anchor>a401638c21cb6ecf215a8d0bbe0a7fca5</Anchor>
-    <Abstract>An object used to identify the plot group in collections.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

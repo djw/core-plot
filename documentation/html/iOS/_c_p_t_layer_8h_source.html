@@ -99,56 +99,59 @@
 <a name="l00019"></a><a class="code" href="interface_c_p_t_layer.html#a8d4794c9b39b95e0339b40deb71981b8">00019</a>     <a class="code" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576" title="A custom definition for ARC weak references that falls back to unsafe unretained values on older plat...">__cpt_weak</a> <a class="code" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a> *<a class="code" href="interface_c_p_t_layer.html#a8d4794c9b39b95e0339b40deb71981b8" title="The graph for the layer.">graph</a>;
 <a name="l00020"></a><a class="code" href="interface_c_p_t_layer.html#a01374b55dfe10bbe13159fe0b31ab894">00020</a>     <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> <a class="code" href="interface_c_p_t_layer.html#a01374b55dfe10bbe13159fe0b31ab894" title="A drawing path that encompasses the outer boundary of the layer border.">outerBorderPath</a>;
 <a name="l00021"></a><a class="code" href="interface_c_p_t_layer.html#a13d9e668da9cd969860f963e194e38ea">00021</a>     <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> <a class="code" href="interface_c_p_t_layer.html#a13d9e668da9cd969860f963e194e38ea" title="A drawing path that encompasses the inner boundary of the layer border.">innerBorderPath</a>;
-<a name="l00022"></a>00022 }
-<a name="l00023"></a>00023 
-<a name="l00026"></a>00026 <span class="keyword">@property</span> (nonatomic, readwrite, <a class="code" href="_c_p_t_definitions_8h.html#a1133842e0f1c9446242d6a2ce34728ee" title="A custom definition for ARC weak properties that falls back to assign on older platforms.">cpt_weak_property</a>) <a class="code" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576" title="A custom definition for ARC weak references that falls back to unsafe unretained values on older plat...">__cpt_weak</a> <a class="code" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a> *graph;
-<a name="l00028"></a>00028 
-<a name="l00031"></a>00031 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingLeft;
-<a name="l00032"></a>00032 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingTop;
-<a name="l00033"></a>00033 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingRight;
-<a name="l00034"></a>00034 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingBottom;
-<a name="l00036"></a>00036 
-<a name="l00039"></a><a class="code" href="interface_c_p_t_layer.html#a49229cf561fb183c982cf7ad8ed78bca">00039</a> <span class="keyword">@property</span> (readwrite, assign) CGFloat contentsScale;
-<a name="l00040"></a>00040 <span class="keyword">@property</span> (nonatomic, readonly, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a> useFastRendering;
-<a name="l00041"></a>00041 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_shadow.html" title="Immutable wrapper for various shadow drawing properties.">CPTShadow</a> *shadow;
-<a name="l00043"></a>00043 
-<a name="l00046"></a>00046 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a> masksToBorder;
-<a name="l00047"></a>00047 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> outerBorderPath;
-<a name="l00048"></a>00048 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> innerBorderPath;
-<a name="l00049"></a><a class="code" href="interface_c_p_t_layer.html#a00eb8c95b69aa830cead6cb9dd62d549">00049</a> <span class="keyword">@property</span> (nonatomic, readonly, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> maskingPath;
-<a name="l00050"></a><a class="code" href="interface_c_p_t_layer.html#acead64e0d841d758aa3f5d94b1e56825">00050</a> <span class="keyword">@property</span> (nonatomic, readonly, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> sublayerMaskingPath;
-<a name="l00052"></a>00052 
-<a name="l00055"></a><a class="code" href="interface_c_p_t_layer.html#a38dd48786a040cdb102fa481d2aff263">00055</a> <span class="keyword">@property</span> (readonly) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *sublayersExcludedFromAutomaticLayout;
-<a name="l00057"></a>00057 
-<a name="l00060"></a>00060 -(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)initWithFrame:(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)newFrame;
-<a name="l00062"></a>00062 
-<a name="l00065"></a>00065 -(void)renderAsVectorInContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context;
-<a name="l00066"></a>00066 -(void)recursivelyRenderInContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context;
-<a name="l00067"></a>00067 -(void)layoutAndRenderInContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context;
-<a name="l00068"></a>00068 -(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSData_Class/Reference/Reference.html">NSData</a> *)dataForPDFRepresentationOfLayer;
-<a name="l00070"></a>00070 
-<a name="l00073"></a>00073 -(void)applySublayerMaskToContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context forSublayer:(<a class="code" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> *)sublayer withOffset:(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)offset;
-<a name="l00074"></a>00074 -(void)applyMaskToContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context;
+<a name="l00022"></a><a class="code" href="interface_c_p_t_layer.html#aefd2bff008854888013f3e1fa17a58ec">00022</a>     <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id&lt;NSCopying, NSCoding, NSObject&gt;</a> <a class="code" href="interface_c_p_t_layer.html#aefd2bff008854888013f3e1fa17a58ec" title="An object used to identify the layer in collections.">identifier</a>;
+<a name="l00023"></a>00023 }
+<a name="l00024"></a>00024 
+<a name="l00027"></a>00027 <span class="keyword">@property</span> (nonatomic, readwrite, <a class="code" href="_c_p_t_definitions_8h.html#a1133842e0f1c9446242d6a2ce34728ee" title="A custom definition for ARC weak properties that falls back to assign on older platforms.">cpt_weak_property</a>) <a class="code" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576" title="A custom definition for ARC weak references that falls back to unsafe unretained values on older plat...">__cpt_weak</a> <a class="code" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a> *graph;
+<a name="l00029"></a>00029 
+<a name="l00032"></a>00032 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingLeft;
+<a name="l00033"></a>00033 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingTop;
+<a name="l00034"></a>00034 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingRight;
+<a name="l00035"></a>00035 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat paddingBottom;
+<a name="l00037"></a>00037 
+<a name="l00040"></a><a class="code" href="interface_c_p_t_layer.html#a49229cf561fb183c982cf7ad8ed78bca">00040</a> <span class="keyword">@property</span> (readwrite, assign) CGFloat contentsScale;
+<a name="l00041"></a>00041 <span class="keyword">@property</span> (nonatomic, readonly, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a> useFastRendering;
+<a name="l00042"></a>00042 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_shadow.html" title="Immutable wrapper for various shadow drawing properties.">CPTShadow</a> *shadow;
+<a name="l00044"></a>00044 
+<a name="l00047"></a>00047 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a> masksToBorder;
+<a name="l00048"></a>00048 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> outerBorderPath;
+<a name="l00049"></a>00049 <span class="keyword">@property</span> (nonatomic, readwrite, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> innerBorderPath;
+<a name="l00050"></a><a class="code" href="interface_c_p_t_layer.html#a00eb8c95b69aa830cead6cb9dd62d549">00050</a> <span class="keyword">@property</span> (nonatomic, readonly, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> maskingPath;
+<a name="l00051"></a><a class="code" href="interface_c_p_t_layer.html#acead64e0d841d758aa3f5d94b1e56825">00051</a> <span class="keyword">@property</span> (nonatomic, readonly, assign) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html#//apple_ref/doc/c_ref/CGPathRef.html">CGPathRef</a> sublayerMaskingPath;
+<a name="l00053"></a>00053 
+<a name="l00056"></a>00056 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id&lt;NSCopying, NSCoding, NSObject&gt;</a> identifier;
+<a name="l00058"></a>00058 
+<a name="l00061"></a><a class="code" href="interface_c_p_t_layer.html#a38dd48786a040cdb102fa481d2aff263">00061</a> <span class="keyword">@property</span> (readonly) <a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *sublayersExcludedFromAutomaticLayout;
+<a name="l00063"></a>00063 
+<a name="l00066"></a>00066 -(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)initWithFrame:(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)newFrame;
+<a name="l00068"></a>00068 
+<a name="l00071"></a>00071 -(void)renderAsVectorInContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context;
+<a name="l00072"></a>00072 -(void)recursivelyRenderInContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context;
+<a name="l00073"></a>00073 -(void)layoutAndRenderInContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context;
+<a name="l00074"></a>00074 -(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSData_Class/Reference/Reference.html">NSData</a> *)dataForPDFRepresentationOfLayer;
 <a name="l00076"></a>00076 
-<a name="l00079"></a>00079 -(void)pixelAlign;
-<a name="l00080"></a>00080 -(void)sublayerMarginLeft:(CGFloat *)left top:(CGFloat *)top right:(CGFloat *)right bottom:(CGFloat *)bottom;
+<a name="l00079"></a>00079 -(void)applySublayerMaskToContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context forSublayer:(<a class="code" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> *)sublayer withOffset:(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)offset;
+<a name="l00080"></a>00080 -(void)applyMaskToContext:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)context;
 <a name="l00082"></a>00082 
-<a name="l00085"></a>00085 -(void)logLayers;
-<a name="l00087"></a>00087 
-<a name="l00088"></a>00088 <span class="keyword">@end</span>
-<a name="l00089"></a>00089 
-<a name="l00091"></a>00091 <span class="comment">// for MacOS 10.6 SDK compatibility</span>
-<a name="l00092"></a>00092 <span class="preprocessor">#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE</span>
-<a name="l00093"></a>00093 <span class="preprocessor"></span><span class="preprocessor">#else</span>
-<a name="l00094"></a>00094 <span class="preprocessor"></span><span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED &lt; 1070</span>
-<a name="l00095"></a>00095 <span class="preprocessor"></span><span class="keyword">@interface </span><a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>(CPTExtensions)
-<a name="l00096"></a>00096 
-<a name="l00097"></a>00097 <span class="keyword">@property</span> (readwrite) CGFloat contentsScale;
-<a name="l00098"></a>00098 
-<a name="l00099"></a>00099 <span class="keyword">@end</span>
-<a name="l00100"></a>00100 <span class="preprocessor">#endif</span>
-<a name="l00101"></a>00101 <span class="preprocessor"></span><span class="preprocessor">#endif</span>
-<a name="l00102"></a>00102 <span class="preprocessor"></span>
+<a name="l00085"></a>00085 -(void)pixelAlign;
+<a name="l00086"></a>00086 -(void)sublayerMarginLeft:(CGFloat *)left top:(CGFloat *)top right:(CGFloat *)right bottom:(CGFloat *)bottom;
+<a name="l00088"></a>00088 
+<a name="l00091"></a>00091 -(void)logLayers;
+<a name="l00093"></a>00093 
+<a name="l00094"></a>00094 <span class="keyword">@end</span>
+<a name="l00095"></a>00095 
+<a name="l00097"></a>00097 <span class="comment">// for MacOS 10.6 SDK compatibility</span>
+<a name="l00098"></a>00098 <span class="preprocessor">#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE</span>
+<a name="l00099"></a>00099 <span class="preprocessor"></span><span class="preprocessor">#else</span>
+<a name="l00100"></a>00100 <span class="preprocessor"></span><span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED &lt; 1070</span>
+<a name="l00101"></a>00101 <span class="preprocessor"></span><span class="keyword">@interface </span><a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html">CALayer</a>(CPTExtensions)
+<a name="l00102"></a>00102 
+<a name="l00103"></a>00103 <span class="keyword">@property</span> (readwrite) CGFloat contentsScale;
+<a name="l00104"></a>00104 
+<a name="l00105"></a>00105 <span class="keyword">@end</span>
+<a name="l00106"></a>00106 <span class="preprocessor">#endif</span>
+<a name="l00107"></a>00107 <span class="preprocessor"></span><span class="preprocessor">#endif</span>
+<a name="l00108"></a>00108 <span class="preprocessor"></span>
 </pre></div></div><!-- contents -->
 </div>
   <div id="nav-path" class="navpath">

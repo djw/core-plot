@@ -140,6 +140,9 @@ Properties</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount to inset the right side of each sublayer.  <a href="#aeb94b6248a686698a7b592a270d4a3b3"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer.html#a119c53f983101e645de4584f2230383e">paddingBottom</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount to inset the bottom of each sublayer.  <a href="#a119c53f983101e645de4584f2230383e"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Identification</div></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>&lt; NSCopying, NSCoding, <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer.html#aefd2bff008854888013f3e1fa17a58ec">identifier</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An object used to identify the layer in collections.  <a href="#aefd2bff008854888013f3e1fa17a58ec"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="member-group"></a>
 Drawing</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer.html#a49229cf561fb183c982cf7ad8ed78bca">contentsScale</a></td></tr>
@@ -321,6 +324,7 @@ Layout</h2></td></tr>
 <li><a class="el" href="interface_c_p_t_layer.html#a8d4794c9b39b95e0339b40deb71981b8">graph </a> = <code>nil</code></li>
 <li><a class="el" href="interface_c_p_t_layer.html#a01374b55dfe10bbe13159fe0b31ab894">outerBorderPath </a> = <code>NULL</code></li>
 <li><a class="el" href="interface_c_p_t_layer.html#a13d9e668da9cd969860f963e194e38ea">innerBorderPath </a> = <code>NULL</code></li>
+<li><a class="el" href="interface_c_p_t_layer.html#aefd2bff008854888013f3e1fa17a58ec">identifier </a> = <code>nil</code></li>
 <li><code>needsDisplayOnBoundsChange</code> = <code>NO</code></li>
 <li><code>opaque</code> = <code>NO</code></li>
 <li><code>masksToBounds</code> = <code>NO</code></li>
@@ -333,7 +337,7 @@ Layout</h2></td></tr>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> object. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="interface_c_p_t_axis.html#a16baaf9ca6edb23fe543f48bb15054b8">CPTAxis</a>, <a class="el" href="interface_c_p_t_legend.html#a57670747c45fe73a9a540e9a886b393f">CPTLegend</a>, <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>, <a class="el" href="interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393">CPTBarPlot</a>, <a class="el" href="interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b">CPTPieChart</a>, <a class="el" href="interface_c_p_t_graph.html#ace4102f394be79c88fb0a1c0d0fd1022">CPTGraph</a>, <a class="el" href="interface_c_p_t_scatter_plot.html#aa04e58896f986681b57b1443838fe4ba">CPTScatterPlot</a>, <a class="el" href="interface_c_p_t_trading_range_plot.html#aa40b57ba174b345669ea1b142254f8b8">CPTTradingRangePlot</a>, <a class="el" href="interface_c_p_t_range_plot.html#aaa362f21ff912ab51d4c5b1c315e5400">CPTRangePlot</a>, <a class="el" href="interface_c_p_t_plot_area.html#afb45475ab1131edc13db789963420736">CPTPlotArea</a>, <a class="el" href="interface_c_p_t_text_layer.html#aa7f4721ec788e3c981083b78b958b0b1">CPTTextLayer</a>, <a class="el" href="interface_c_p_t_x_y_graph.html#a2fcb010c48ceb46a3566e1a2dd9e6dbb">CPTXYGraph</a>, <a class="el" href="interface_c_p_t_x_y_axis.html#a8807c07c6e743d5532388aa9d554a2b6">CPTXYAxis</a>, <a class="el" href="interface_c_p_t_plot_area_frame.html#a24eba376f907c560dd33f86a63c80dc2">CPTPlotAreaFrame</a>, <a class="el" href="interface_c_p_t_annotation_host_layer.html#ac807d655c49f678cfb5db1411506cbb5">CPTAnnotationHostLayer</a>, <a class="el" href="interface_c_p_t_bordered_layer.html#ab7d3984b53ff3a3c545b55e176e4296f">CPTBorderedLayer</a>, <a class="el" href="interface_c_p_t_x_y_axis_set.html#a26b081432a8e55ae4decedc546201fb7">CPTXYAxisSet</a>, <a class="el" href="interface_c_p_t_grid_line_group.html#a333bc1319e96f0e033bf6825b53f6e06">CPTGridLineGroup</a>, <a class="el" href="interface_c_p_t_axis_set.html#af1b1939683cc055a4489fabdc6c43066">CPTAxisSet</a>, <a class="el" href="interface_c_p_t_grid_lines.html#ad454422cc5da098837c48963c989ad7e">CPTGridLines</a>, and <a class="el" href="interface_c_p_t_plot_group.html#ab2d4d31b878ccfdf1be298c49449a802">CPTPlotGroup</a>.</p>
+<p>Reimplemented in <a class="el" href="interface_c_p_t_axis.html#a16baaf9ca6edb23fe543f48bb15054b8">CPTAxis</a>, <a class="el" href="interface_c_p_t_legend.html#a57670747c45fe73a9a540e9a886b393f">CPTLegend</a>, <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>, <a class="el" href="interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393">CPTBarPlot</a>, <a class="el" href="interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b">CPTPieChart</a>, <a class="el" href="interface_c_p_t_graph.html#ace4102f394be79c88fb0a1c0d0fd1022">CPTGraph</a>, <a class="el" href="interface_c_p_t_scatter_plot.html#aa04e58896f986681b57b1443838fe4ba">CPTScatterPlot</a>, <a class="el" href="interface_c_p_t_trading_range_plot.html#aa40b57ba174b345669ea1b142254f8b8">CPTTradingRangePlot</a>, <a class="el" href="interface_c_p_t_range_plot.html#aaa362f21ff912ab51d4c5b1c315e5400">CPTRangePlot</a>, <a class="el" href="interface_c_p_t_plot_area.html#afb45475ab1131edc13db789963420736">CPTPlotArea</a>, <a class="el" href="interface_c_p_t_text_layer.html#aa7f4721ec788e3c981083b78b958b0b1">CPTTextLayer</a>, <a class="el" href="interface_c_p_t_x_y_graph.html#a2fcb010c48ceb46a3566e1a2dd9e6dbb">CPTXYGraph</a>, <a class="el" href="interface_c_p_t_x_y_axis.html#a8807c07c6e743d5532388aa9d554a2b6">CPTXYAxis</a>, <a class="el" href="interface_c_p_t_plot_area_frame.html#a24eba376f907c560dd33f86a63c80dc2">CPTPlotAreaFrame</a>, <a class="el" href="interface_c_p_t_annotation_host_layer.html#ac807d655c49f678cfb5db1411506cbb5">CPTAnnotationHostLayer</a>, <a class="el" href="interface_c_p_t_bordered_layer.html#ab7d3984b53ff3a3c545b55e176e4296f">CPTBorderedLayer</a>, <a class="el" href="interface_c_p_t_x_y_axis_set.html#a26b081432a8e55ae4decedc546201fb7">CPTXYAxisSet</a>, <a class="el" href="interface_c_p_t_grid_line_group.html#a333bc1319e96f0e033bf6825b53f6e06">CPTGridLineGroup</a>, <a class="el" href="interface_c_p_t_axis_set.html#af1b1939683cc055a4489fabdc6c43066">CPTAxisSet</a>, and <a class="el" href="interface_c_p_t_grid_lines.html#ad454422cc5da098837c48963c989ad7e">CPTGridLines</a>.</p>
 
 </div>
 </div>
@@ -682,6 +686,21 @@ Layout</h2></td></tr>
 <div class="memdoc">
 
 <p>The graph for the layer. </p>
+
+</div>
+</div>
+<a class="anchor" id="aefd2bff008854888013f3e1fa17a58ec"></a><!-- doxytag: member="CPTLayer::identifier" ref="aefd2bff008854888013f3e1fa17a58ec" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTLayer:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>An object used to identify the layer in collections. </p>
 
 </div>
 </div>

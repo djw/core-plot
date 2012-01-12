@@ -17,6 +17,7 @@ var interface_c_p_t_layer =
     [ "sublayerMarginLeft:top:right:bottom:", "interface_c_p_t_layer.html#abceadfd3aa964794f6ec708190ee817c", null ],
     [ "contentsScale", "interface_c_p_t_layer.html#a49229cf561fb183c982cf7ad8ed78bca", null ],
     [ "graph", "interface_c_p_t_layer.html#a8d4794c9b39b95e0339b40deb71981b8", null ],
+    [ "identifier", "interface_c_p_t_layer.html#aefd2bff008854888013f3e1fa17a58ec", null ],
     [ "innerBorderPath", "interface_c_p_t_layer.html#a13d9e668da9cd969860f963e194e38ea", null ],
     [ "maskingPath", "interface_c_p_t_layer.html#a00eb8c95b69aa830cead6cb9dd62d549", null ],
     [ "masksToBorder", "interface_c_p_t_layer.html#aa09d6c69b5856b5c95d88d8008858481", null ],

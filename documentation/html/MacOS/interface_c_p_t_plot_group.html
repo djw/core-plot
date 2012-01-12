@@ -76,8 +76,6 @@
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#properties">Properties</a>  </div>
   <div class="headertitle">
 <div class="title">CPTPlotGroup Class Reference</div>  </div>
 </div><!--header-->
@@ -115,13 +113,6 @@ Public Instance Methods</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a plot to this plot group.  <a href="#a370f190cc488434b9f89130af26b2774"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_group.html#ab8606e231f1f95161e5b1589b853c493">removePlot:</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a plot from this plot group.  <a href="#ab8606e231f1f95161e5b1589b853c493"></a><br/></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_group.html#ab2d4d31b878ccfdf1be298c49449a802">initWithFrame:</a><code> [implementation]</code></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_plot_group.html" title="Defines the coordinate system of a plot.">CPTPlotGroup</a> object with the provided frame rectangle.  <a href="#ab2d4d31b878ccfdf1be298c49449a802"></a><br/></td></tr>
-<tr><td colspan="2"><h2><a name="properties"></a>
-Properties</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>&lt; NSCopying, NSCoding, <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_group.html#a401638c21cb6ecf215a8d0bbe0a7fca5">identifier</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">An object used to identify the plot group in collections.  <a href="#a401638c21cb6ecf215a8d0bbe0a7fca5"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Defines the coordinate system of a plot. </p>
@@ -151,38 +142,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab2d4d31b878ccfdf1be298c49449a802"></a><!-- doxytag: member="CPTPlotGroup::initWithFrame:" ref="ab2d4d31b878ccfdf1be298c49449a802" args="(CGRect newFrame)" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>) <a class="el" href="interface_c_p_t_plot_group.html#ab2d4d31b878ccfdf1be298c49449a802">initWithFrame:</a> </td>
-          <td></td>
-          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
-          <td class="paramname"><em>newFrame</em></td>
-          <td><code> [implementation]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Initializes a newly allocated <a class="el" href="interface_c_p_t_plot_group.html" title="Defines the coordinate system of a plot.">CPTPlotGroup</a> object with the provided frame rectangle. </p>
-<p>This is the designated initializer. The initialized layer will have the following properties:</p>
-<ul>
-<li><a class="el" href="interface_c_p_t_plot_group.html#a401638c21cb6ecf215a8d0bbe0a7fca5">identifier </a> = <code>nil</code></li>
-</ul>
-<dl class="params"><dt><b>Parameters:</b></dt><dd>
-  <table class="params">
-    <tr><td class="paramname">newFrame</td><td>The frame rectangle. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="return"><dt><b>Returns:</b></dt><dd>The initialized <a class="el" href="interface_c_p_t_plot_group.html" title="Defines the coordinate system of a plot.">CPTPlotGroup</a> object. </dd></dl>
-
-<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a42e21f40d25b81ffafdc9940d894876d">CPTLayer</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ab8606e231f1f95161e5b1589b853c493"></a><!-- doxytag: member="CPTPlotGroup::removePlot:" ref="ab8606e231f1f95161e5b1589b853c493" args="(CPTPlot *plot)" -->
 <div class="memitem">
 <div class="memproto">
@@ -205,22 +164,6 @@ Properties</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<hr/><h2>Property Documentation</h2>
-<a class="anchor" id="a401638c21cb6ecf215a8d0bbe0a7fca5"></a><!-- doxytag: member="CPTPlotGroup::identifier" ref="a401638c21cb6ecf215a8d0bbe0a7fca5" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">- CPTPlotGroup:<code> [read, write, copy]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>An object used to identify the plot group in collections. </p>
 
 </div>
 </div>

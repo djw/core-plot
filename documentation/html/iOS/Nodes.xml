@@ -1595,6 +1595,11 @@
               <Anchor>a8d4794c9b39b95e0339b40deb71981b8</Anchor>
              </Node>
              <Node>
+              <Name>identifier</Name>
+              <Path>interface_c_p_t_layer.html</Path>
+              <Anchor>aefd2bff008854888013f3e1fa17a58ec</Anchor>
+             </Node>
+             <Node>
               <Name>innerBorderPath</Name>
               <Path>interface_c_p_t_layer.html</Path>
               <Anchor>a13d9e668da9cd969860f963e194e38ea</Anchor>
@@ -2673,11 +2678,6 @@
               <Anchor>a8ea1af2352130e3f994fb57340222331</Anchor>
              </Node>
              <Node>
-              <Name>identifier</Name>
-              <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>a2986294ed55c924b3264415d92db14a8</Anchor>
-             </Node>
-             <Node>
               <Name>labelField</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>a81a914a9ee10c3dad42d4f62581345ee</Anchor>
@@ -2877,19 +2877,9 @@
               <Anchor>a370f190cc488434b9f89130af26b2774</Anchor>
              </Node>
              <Node>
-              <Name>initWithFrame:</Name>
-              <Path>interface_c_p_t_plot_group.html</Path>
-              <Anchor>ab2d4d31b878ccfdf1be298c49449a802</Anchor>
-             </Node>
-             <Node>
               <Name>removePlot:</Name>
               <Path>interface_c_p_t_plot_group.html</Path>
               <Anchor>ab8606e231f1f95161e5b1589b853c493</Anchor>
-             </Node>
-             <Node>
-              <Name>identifier</Name>
-              <Path>interface_c_p_t_plot_group.html</Path>
-              <Anchor>a401638c21cb6ecf215a8d0bbe0a7fca5</Anchor>
              </Node>
             </Subnodes>
            </Node>

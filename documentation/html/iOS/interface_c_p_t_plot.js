@@ -35,7 +35,6 @@ var interface_c_p_t_plot =
     [ "decimalDataType", "interface_c_p_t_plot.html#a3d4a0347d075ee17c058739438dc32ba", null ],
     [ "doubleDataType", "interface_c_p_t_plot.html#aaca5aa7610aa5d694f83cfaaa39f2bb0", null ],
     [ "doublePrecisionCache", "interface_c_p_t_plot.html#a8ea1af2352130e3f994fb57340222331", null ],
-    [ "identifier", "interface_c_p_t_plot.html#a2986294ed55c924b3264415d92db14a8", null ],
     [ "labelField", "interface_c_p_t_plot.html#a81a914a9ee10c3dad42d4f62581345ee", null ],
     [ "labelFormatter", "interface_c_p_t_plot.html#a1e9aa3377d735ea084dc4b8882a4a061", null ],
     [ "labelOffset", "group__plot_animation_all_plots.html#ga9e258bb5f1e2385674299200c4eed799", null ],
