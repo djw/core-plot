@@ -218,7 +218,7 @@
     </TokenIdentifier>
     <Path>_c_p_t_bar_plot_8h.html</Path>
     <Anchor>ac9223627a0d5be7eb36b29bcf80ca0b9aee601b2ab3022b908f2478c8a8e54b77</Anchor>
-    <Abstract>Bar base (used only if barBasesVary is YES).</Abstract>
+    <Abstract>Bar base (used only if barBasesVary  is YES).</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
