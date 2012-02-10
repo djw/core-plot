@@ -4804,6 +4804,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>legendTitleForBarPlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTBarPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+    <Anchor>a0260f990d08ebb0addd11b376bc814ed</Anchor>
+    <Abstract>(Optional) Gets the legend title for the given bar plot bar.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTBarPlotDelegate</Name>
       <APILanguage>c</APILanguage>
       <Type>intf</Type>
