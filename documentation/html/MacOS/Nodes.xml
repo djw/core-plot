@@ -21,18 +21,63 @@
             <Name>Axes</Name>
             <Path>group__axis_animation.html</Path>
             <Subnodes>
+             <Node>
+              <Name>labelOffset</Name>
+              <Path>group__axis_animation.html</Path>
+              <Anchor>ga22c8cbbc6caa0c600638da2fccbfb2a7</Anchor>
+             </Node>
+             <Node>
+              <Name>labelRotation</Name>
+              <Path>group__axis_animation.html</Path>
+              <Anchor>gad338d4f6cd7c0341d1375b4f9e124876</Anchor>
+             </Node>
+             <Node>
+              <Name>minorTickLabelOffset</Name>
+              <Path>group__axis_animation.html</Path>
+              <Anchor>ga91691988d490b0c2887dd69d1c1697bd</Anchor>
+             </Node>
+             <Node>
+              <Name>minorTickLabelRotation</Name>
+              <Path>group__axis_animation.html</Path>
+              <Anchor>ga25e530fc54647e81e5f612dade755169</Anchor>
+             </Node>
+             <Node>
+              <Name>titleOffset</Name>
+              <Path>group__axis_animation.html</Path>
+              <Anchor>ga3d84072327ed4e3694c06149a776a7c0</Anchor>
+             </Node>
+             <Node>
+              <Name>titleRotation</Name>
+              <Path>group__axis_animation.html</Path>
+              <Anchor>ga340ca2d5f773f6530de7dbfe263906aa</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
             <Name>Graphs</Name>
             <Path>group__graph_animation.html</Path>
             <Subnodes>
+             <Node>
+              <Name>legendDisplacement</Name>
+              <Path>group__graph_animation.html</Path>
+              <Anchor>ga9a789e5f5d1eeaa5428b940515dd8987</Anchor>
+             </Node>
+             <Node>
+              <Name>titleDisplacement</Name>
+              <Path>group__graph_animation.html</Path>
+              <Anchor>ga0c07fa6435ce2971b3eabbdd636d1f2d</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
             <Name>Legends</Name>
             <Path>group__legend_animation.html</Path>
             <Subnodes>
+             <Node>
+              <Name>swatchCornerRadius</Name>
+              <Path>group__legend_animation.html</Path>
+              <Anchor>gac6ed09fb1c435f879d006cfb33536861</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -43,24 +88,84 @@
               <Name>All Plots</Name>
               <Path>group__plot_animation_all_plots.html</Path>
               <Subnodes>
+               <Node>
+                <Name>labelOffset</Name>
+                <Path>group__plot_animation_all_plots.html</Path>
+                <Anchor>ga9e258bb5f1e2385674299200c4eed799</Anchor>
+               </Node>
+               <Node>
+                <Name>labelRotation</Name>
+                <Path>group__plot_animation_all_plots.html</Path>
+                <Anchor>ga1e0c675adacdd43c50517622154f6301</Anchor>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
               <Name>Bar Plot</Name>
               <Path>group__plot_animation_bar_plot.html</Path>
               <Subnodes>
+               <Node>
+                <Name>barCornerRadius</Name>
+                <Path>group__plot_animation_bar_plot.html</Path>
+                <Anchor>ga880361dd6ad4a3e7f1c26f56c7ed84cd</Anchor>
+               </Node>
+               <Node>
+                <Name>barOffsetScale</Name>
+                <Path>group__plot_animation_bar_plot.html</Path>
+                <Anchor>gacf7d5567082b089e0ddcc5664eecb0db</Anchor>
+               </Node>
+               <Node>
+                <Name>barWidthScale</Name>
+                <Path>group__plot_animation_bar_plot.html</Path>
+                <Anchor>ga9ccd0b2ed6a06298e6f4585bf3e95279</Anchor>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
               <Name>Pie Chart</Name>
               <Path>group__plot_animation_pie_chart.html</Path>
               <Subnodes>
+               <Node>
+                <Name>centerAnchor</Name>
+                <Path>group__plot_animation_pie_chart.html</Path>
+                <Anchor>ga4c665d1eb7b562f8ced08a62d980ee2c</Anchor>
+               </Node>
+               <Node>
+                <Name>pieInnerRadius</Name>
+                <Path>group__plot_animation_pie_chart.html</Path>
+                <Anchor>gaaf477318b2ce1ad016c532d386b5379e</Anchor>
+               </Node>
+               <Node>
+                <Name>pieRadius</Name>
+                <Path>group__plot_animation_pie_chart.html</Path>
+                <Anchor>ga6bae24e928917347230bab548418ceea</Anchor>
+               </Node>
+               <Node>
+                <Name>startAngle</Name>
+                <Path>group__plot_animation_pie_chart.html</Path>
+                <Anchor>ga139122421a061b2ca1622bdebca5b1c3</Anchor>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
               <Name>Range Plot</Name>
               <Path>group__plot_animation_range_plot.html</Path>
               <Subnodes>
+               <Node>
+                <Name>barWidth</Name>
+                <Path>group__plot_animation_range_plot.html</Path>
+                <Anchor>ga2980f30a9d38415b430137d7d23d607c</Anchor>
+               </Node>
+               <Node>
+                <Name>gapHeight</Name>
+                <Path>group__plot_animation_range_plot.html</Path>
+                <Anchor>ga1b244c91e12dc4e161712dc9669cb75f</Anchor>
+               </Node>
+               <Node>
+                <Name>gapWidth</Name>
+                <Path>group__plot_animation_range_plot.html</Path>
+                <Anchor>ga165db5f03bb140f1e84b27e680412689</Anchor>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -73,6 +178,21 @@
               <Name>Trading Range Plot</Name>
               <Path>group__plot_animation_trading_range_plot.html</Path>
               <Subnodes>
+               <Node>
+                <Name>barCornerRadius</Name>
+                <Path>group__plot_animation_trading_range_plot.html</Path>
+                <Anchor>ga13215c9ee64730284c7b395c285e92db</Anchor>
+               </Node>
+               <Node>
+                <Name>barWidth</Name>
+                <Path>group__plot_animation_trading_range_plot.html</Path>
+                <Anchor>ga17e4c2a24773233219fced333997f013</Anchor>
+               </Node>
+               <Node>
+                <Name>stickLength</Name>
+                <Path>group__plot_animation_trading_range_plot.html</Path>
+                <Anchor>gac504792fc8939f47a00812a385afb3a0</Anchor>
+               </Node>
               </Subnodes>
              </Node>
             </Subnodes>
@@ -84,35 +204,29 @@
           <Path>group__notification.html</Path>
           <Subnodes>
            <Node>
-            <Name>Variables</Name>
+            <Name>CPTGraphNeedsRedrawNotification</Name>
             <Path>group__notification.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>CPTGraphNeedsRedrawNotification</Name>
-              <Path>group__notification.html</Path>
-              <Anchor>gacdcc79d94fa2215225c836c3b2f04565</Anchor>
-             </Node>
-             <Node>
-              <Name>CPTLegendNeedsLayoutForPlotNotification</Name>
-              <Path>group__notification.html</Path>
-              <Anchor>ga531a1b173c232bc63c207180d2ebd174</Anchor>
-             </Node>
-             <Node>
-              <Name>CPTLegendNeedsRedrawForPlotNotification</Name>
-              <Path>group__notification.html</Path>
-              <Anchor>gaa902e90db19b08cf4fb6bd1a0d9cfbd9</Anchor>
-             </Node>
-             <Node>
-              <Name>CPTLegendNeedsReloadEntriesForPlotNotification</Name>
-              <Path>group__notification.html</Path>
-              <Anchor>gac6c5bb933c26d69e705301c1290e0450</Anchor>
-             </Node>
-             <Node>
-              <Name>CPTPlotSpaceCoordinateMappingDidChangeNotification</Name>
-              <Path>group__notification.html</Path>
-              <Anchor>ga23f2cfa5cf45e2998bd8983b9ee2f5cc</Anchor>
-             </Node>
-            </Subnodes>
+            <Anchor>gacdcc79d94fa2215225c836c3b2f04565</Anchor>
+           </Node>
+           <Node>
+            <Name>CPTLegendNeedsLayoutForPlotNotification</Name>
+            <Path>group__notification.html</Path>
+            <Anchor>ga531a1b173c232bc63c207180d2ebd174</Anchor>
+           </Node>
+           <Node>
+            <Name>CPTLegendNeedsRedrawForPlotNotification</Name>
+            <Path>group__notification.html</Path>
+            <Anchor>gaa902e90db19b08cf4fb6bd1a0d9cfbd9</Anchor>
+           </Node>
+           <Node>
+            <Name>CPTLegendNeedsReloadEntriesForPlotNotification</Name>
+            <Path>group__notification.html</Path>
+            <Anchor>gac6c5bb933c26d69e705301c1290e0450</Anchor>
+           </Node>
+           <Node>
+            <Name>CPTPlotSpaceCoordinateMappingDidChangeNotification</Name>
+            <Path>group__notification.html</Path>
+            <Anchor>ga23f2cfa5cf45e2998bd8983b9ee2f5cc</Anchor>
            </Node>
           </Subnodes>
          </Node>
@@ -125,25 +239,19 @@
             <Path>group__plot_bindings_bar_plot.html</Path>
             <Subnodes>
              <Node>
-              <Name>Variables</Name>
+              <Name>CPTBarPlotBindingBarBases</Name>
               <Path>group__plot_bindings_bar_plot.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTBarPlotBindingBarBases</Name>
-                <Path>group__plot_bindings_bar_plot.html</Path>
-                <Anchor>ga3f58e790799e9b4ff8534f5afeef6466</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTBarPlotBindingBarLocations</Name>
-                <Path>group__plot_bindings_bar_plot.html</Path>
-                <Anchor>gacf3b4618e2dd31a43ebbcdc6903daaf5</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTBarPlotBindingBarTips</Name>
-                <Path>group__plot_bindings_bar_plot.html</Path>
-                <Anchor>gac800753044b1b859c32a6213e34c086b</Anchor>
-               </Node>
-              </Subnodes>
+              <Anchor>ga3f58e790799e9b4ff8534f5afeef6466</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTBarPlotBindingBarLocations</Name>
+              <Path>group__plot_bindings_bar_plot.html</Path>
+              <Anchor>gacf3b4618e2dd31a43ebbcdc6903daaf5</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTBarPlotBindingBarTips</Name>
+              <Path>group__plot_bindings_bar_plot.html</Path>
+              <Anchor>gac800753044b1b859c32a6213e34c086b</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -152,15 +260,9 @@
             <Path>group__plot_bindings_pie_chart.html</Path>
             <Subnodes>
              <Node>
-              <Name>Variables</Name>
+              <Name>CPTPieChartBindingPieSliceWidthValues</Name>
               <Path>group__plot_bindings_pie_chart.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTPieChartBindingPieSliceWidthValues</Name>
-                <Path>group__plot_bindings_pie_chart.html</Path>
-                <Anchor>gaec9c9b4fd28157a59a8cf195a9b3c99c</Anchor>
-               </Node>
-              </Subnodes>
+              <Anchor>gaec9c9b4fd28157a59a8cf195a9b3c99c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -169,40 +271,34 @@
             <Path>group__plot_bindings_range_plot.html</Path>
             <Subnodes>
              <Node>
-              <Name>Variables</Name>
+              <Name>CPTRangePlotBindingHighValues</Name>
               <Path>group__plot_bindings_range_plot.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTRangePlotBindingHighValues</Name>
-                <Path>group__plot_bindings_range_plot.html</Path>
-                <Anchor>ga88df7d7c5739bef9f7847782adf640c9</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTRangePlotBindingLeftValues</Name>
-                <Path>group__plot_bindings_range_plot.html</Path>
-                <Anchor>ga56bb63fda4a812b779ea388fdc68787f</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTRangePlotBindingLowValues</Name>
-                <Path>group__plot_bindings_range_plot.html</Path>
-                <Anchor>ga5fdb3c2fe524a43b0dad31cca96dc371</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTRangePlotBindingRightValues</Name>
-                <Path>group__plot_bindings_range_plot.html</Path>
-                <Anchor>gabf1b5c831f9bcb7f2f57820f968b7865</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTRangePlotBindingXValues</Name>
-                <Path>group__plot_bindings_range_plot.html</Path>
-                <Anchor>ga2c9e3d725baa04dc080b6725df20b786</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTRangePlotBindingYValues</Name>
-                <Path>group__plot_bindings_range_plot.html</Path>
-                <Anchor>gaa1ff8d22cbb0bab62ac405730aa45173</Anchor>
-               </Node>
-              </Subnodes>
+              <Anchor>ga88df7d7c5739bef9f7847782adf640c9</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingLeftValues</Name>
+              <Path>group__plot_bindings_range_plot.html</Path>
+              <Anchor>ga56bb63fda4a812b779ea388fdc68787f</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingLowValues</Name>
+              <Path>group__plot_bindings_range_plot.html</Path>
+              <Anchor>ga5fdb3c2fe524a43b0dad31cca96dc371</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingRightValues</Name>
+              <Path>group__plot_bindings_range_plot.html</Path>
+              <Anchor>gabf1b5c831f9bcb7f2f57820f968b7865</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingXValues</Name>
+              <Path>group__plot_bindings_range_plot.html</Path>
+              <Anchor>ga2c9e3d725baa04dc080b6725df20b786</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTRangePlotBindingYValues</Name>
+              <Path>group__plot_bindings_range_plot.html</Path>
+              <Anchor>gaa1ff8d22cbb0bab62ac405730aa45173</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -211,25 +307,19 @@
             <Path>group__plot_bindings_scatter_plot.html</Path>
             <Subnodes>
              <Node>
-              <Name>Variables</Name>
+              <Name>CPTScatterPlotBindingPlotSymbols</Name>
               <Path>group__plot_bindings_scatter_plot.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTScatterPlotBindingPlotSymbols</Name>
-                <Path>group__plot_bindings_scatter_plot.html</Path>
-                <Anchor>gae416eb41cbdffa71534a085dcbb1f206</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTScatterPlotBindingXValues</Name>
-                <Path>group__plot_bindings_scatter_plot.html</Path>
-                <Anchor>ga0681f58616dcb9c1ddf193175c6194ce</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTScatterPlotBindingYValues</Name>
-                <Path>group__plot_bindings_scatter_plot.html</Path>
-                <Anchor>ga07dbc798c8a8758cc7a1770cf670492b</Anchor>
-               </Node>
-              </Subnodes>
+              <Anchor>gae416eb41cbdffa71534a085dcbb1f206</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTScatterPlotBindingXValues</Name>
+              <Path>group__plot_bindings_scatter_plot.html</Path>
+              <Anchor>ga0681f58616dcb9c1ddf193175c6194ce</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTScatterPlotBindingYValues</Name>
+              <Path>group__plot_bindings_scatter_plot.html</Path>
+              <Anchor>ga07dbc798c8a8758cc7a1770cf670492b</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -238,35 +328,29 @@
             <Path>group__plot_bindings_trading_range_plot.html</Path>
             <Subnodes>
              <Node>
-              <Name>Variables</Name>
+              <Name>CPTTradingRangePlotBindingCloseValues</Name>
               <Path>group__plot_bindings_trading_range_plot.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTTradingRangePlotBindingCloseValues</Name>
-                <Path>group__plot_bindings_trading_range_plot.html</Path>
-                <Anchor>gafc476a911fbf3eba1e7daf31ad5c5f27</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTTradingRangePlotBindingHighValues</Name>
-                <Path>group__plot_bindings_trading_range_plot.html</Path>
-                <Anchor>ga306d6a52959ac8bea1230ef5305e8636</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTTradingRangePlotBindingLowValues</Name>
-                <Path>group__plot_bindings_trading_range_plot.html</Path>
-                <Anchor>ga50d2cb897e004a1cf8d6af5635daaae0</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTTradingRangePlotBindingOpenValues</Name>
-                <Path>group__plot_bindings_trading_range_plot.html</Path>
-                <Anchor>ga79233b77eb1664118f183720e60cf03a</Anchor>
-               </Node>
-               <Node>
-                <Name>CPTTradingRangePlotBindingXValues</Name>
-                <Path>group__plot_bindings_trading_range_plot.html</Path>
-                <Anchor>ga19d17ef5e84a7a36c4c3fc05aa552348</Anchor>
-               </Node>
-              </Subnodes>
+              <Anchor>gafc476a911fbf3eba1e7daf31ad5c5f27</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingHighValues</Name>
+              <Path>group__plot_bindings_trading_range_plot.html</Path>
+              <Anchor>ga306d6a52959ac8bea1230ef5305e8636</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingLowValues</Name>
+              <Path>group__plot_bindings_trading_range_plot.html</Path>
+              <Anchor>ga50d2cb897e004a1cf8d6af5635daaae0</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingOpenValues</Name>
+              <Path>group__plot_bindings_trading_range_plot.html</Path>
+              <Anchor>ga79233b77eb1664118f183720e60cf03a</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingXValues</Name>
+              <Path>group__plot_bindings_trading_range_plot.html</Path>
+              <Anchor>ga19d17ef5e84a7a36c4c3fc05aa552348</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -277,35 +361,29 @@
           <Path>group__theme_names.html</Path>
           <Subnodes>
            <Node>
-            <Name>Variables</Name>
+            <Name>kCPTDarkGradientTheme</Name>
             <Path>group__theme_names.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>kCPTDarkGradientTheme</Name>
-              <Path>group__theme_names.html</Path>
-              <Anchor>ga5f7f2a396df2807d9df225b546bc83fd</Anchor>
-             </Node>
-             <Node>
-              <Name>kCPTPlainBlackTheme</Name>
-              <Path>group__theme_names.html</Path>
-              <Anchor>gaee2ee00fc6afe67c17bc2dab26dad06c</Anchor>
-             </Node>
-             <Node>
-              <Name>kCPTPlainWhiteTheme</Name>
-              <Path>group__theme_names.html</Path>
-              <Anchor>gafe03a5ec2d0a2c236b5b2ae68927b4b6</Anchor>
-             </Node>
-             <Node>
-              <Name>kCPTSlateTheme</Name>
-              <Path>group__theme_names.html</Path>
-              <Anchor>ga13f6afa3e4abf27f50cf8798ba48f615</Anchor>
-             </Node>
-             <Node>
-              <Name>kCPTStocksTheme</Name>
-              <Path>group__theme_names.html</Path>
-              <Anchor>gad0fd9a9b2a53d2fe4f5ae1c8b580ecac</Anchor>
-             </Node>
-            </Subnodes>
+            <Anchor>ga5f7f2a396df2807d9df225b546bc83fd</Anchor>
+           </Node>
+           <Node>
+            <Name>kCPTPlainBlackTheme</Name>
+            <Path>group__theme_names.html</Path>
+            <Anchor>gaee2ee00fc6afe67c17bc2dab26dad06c</Anchor>
+           </Node>
+           <Node>
+            <Name>kCPTPlainWhiteTheme</Name>
+            <Path>group__theme_names.html</Path>
+            <Anchor>gafe03a5ec2d0a2c236b5b2ae68927b4b6</Anchor>
+           </Node>
+           <Node>
+            <Name>kCPTSlateTheme</Name>
+            <Path>group__theme_names.html</Path>
+            <Anchor>ga13f6afa3e4abf27f50cf8798ba48f615</Anchor>
+           </Node>
+           <Node>
+            <Name>kCPTStocksTheme</Name>
+            <Path>group__theme_names.html</Path>
+            <Anchor>gad0fd9a9b2a53d2fe4f5ae1c8b580ecac</Anchor>
            </Node>
           </Subnodes>
          </Node>
