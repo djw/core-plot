@@ -8825,7 +8825,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a8ea1af2352130e3f994fb57340222331</Anchor>
-    <Abstract>If YES, the cache holds data of type &amp;#39;double&amp;#39;, otherwise it holds NSNumber.</Abstract>
+    <Abstract>If YES, the cache holds data of type &amp;#39;double&amp;#39;, otherwise it holds NSDecimal.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
