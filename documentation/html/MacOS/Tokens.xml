@@ -1722,6 +1722,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTScatterPlotInterpolationCurved</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_scatter_plot_8h.html</Path>
+    <Anchor>a0a9d8cdea584afe83809167eedeca8daaaa0ba9a6e0e682794e28c6640bdee064</Anchor>
+    <Abstract>Bezier curve interpolation.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTScatterPlotBindingXValues</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
