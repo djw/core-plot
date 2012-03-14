@@ -85,11 +85,13 @@
 <a name="l00005"></a><a class="code" href="interface_c_p_t_graph_hosting_view.html">00005</a> <span class="keyword">@interface </span><a class="code" href="interface_c_p_t_graph_hosting_view.html" title="A container view for displaying a CPTGraph.">CPTGraphHostingView</a> : <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSView_Class/Reference/NSView.html">NSView</a> {
 <a name="l00006"></a>00006     <span class="keyword">@private</span>
 <a name="l00007"></a><a class="code" href="interface_c_p_t_graph_hosting_view.html#a009ea355bc684c3872c98e460b89f644">00007</a>     <a class="code" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a> *<a class="code" href="interface_c_p_t_graph_hosting_view.html#a009ea355bc684c3872c98e460b89f644" title="The CPTGraph hosted inside this view.">hostedGraph</a>;
-<a name="l00008"></a>00008 }
-<a name="l00009"></a>00009 
-<a name="l00010"></a>00010 <span class="keyword">@property</span> (nonatomic, readwrite, retain) <a class="code" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a> *hostedGraph;
-<a name="l00011"></a>00011 
-<a name="l00012"></a>00012 <span class="keyword">@end</span>
+<a name="l00008"></a><a class="code" href="interface_c_p_t_graph_hosting_view.html#aa5f853281eb400f940a0440f7ec171d9">00008</a>     NSRect <a class="code" href="interface_c_p_t_graph_hosting_view.html#aa5f853281eb400f940a0440f7ec171d9" title="The bounding rectangle used when printing this view.">printRect</a>;
+<a name="l00009"></a>00009 }
+<a name="l00010"></a>00010 
+<a name="l00011"></a>00011 <span class="keyword">@property</span> (nonatomic, readwrite, retain) <a class="code" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a> *hostedGraph;
+<a name="l00012"></a>00012 <span class="keyword">@property</span> (nonatomic, readwrite, assign) NSRect printRect;
+<a name="l00013"></a>00013 
+<a name="l00014"></a>00014 <span class="keyword">@end</span>
 </pre></div></div><!-- contents -->
 </div>
   <div id="nav-path" class="navpath">

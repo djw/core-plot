@@ -6501,6 +6501,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>printRect</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTGraphHostingView</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_graph_hosting_view.html</Path>
+    <Anchor>aa5f853281eb400f940a0440f7ec171d9</Anchor>
+    <Abstract>The bounding rectangle used when printing this view.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTGridLineGroup</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
