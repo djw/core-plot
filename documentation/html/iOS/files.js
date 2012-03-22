@@ -29,6 +29,8 @@ var files =
     [ "Source/CPTBarPlot.m", "_c_p_t_bar_plot_8m.html", "_c_p_t_bar_plot_8m" ],
     [ "Source/CPTBorderedLayer.h", "_c_p_t_bordered_layer_8h.html", null ],
     [ "Source/CPTBorderedLayer.m", "_c_p_t_bordered_layer_8m.html", null ],
+    [ "Source/CPTCalendarFormatter.h", "_c_p_t_calendar_formatter_8h.html", null ],
+    [ "Source/CPTCalendarFormatter.m", "_c_p_t_calendar_formatter_8m.html", null ],
     [ "Source/CPTColor.h", "_c_p_t_color_8h.html", null ],
     [ "Source/CPTColor.m", "_c_p_t_color_8m.html", null ],
     [ "Source/CPTColorSpace.h", "_c_p_t_color_space_8h.html", null ],

@@ -5171,6 +5171,83 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTCalendarFormatter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>CPTCalendarFormatter</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_calendar_formatter.html</Path>
+    <Abstract>A number formatter that converts calendar intervals to dates. Useful for formatting labels on an axis...</Abstract>
+    <DeclaredIn>CPTCalendarFormatter.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithDateFormatter:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTCalendarFormatter</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_calendar_formatter.html</Path>
+    <Anchor>ab6ad8cd0f0bf399e05d7b779a3b1638a</Anchor>
+    <Abstract>Initializes new instance with the date formatter passed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringForObjectValue:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTCalendarFormatter</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_calendar_formatter.html</Path>
+    <Anchor>aa2e143d41e0c51cda348abf2f7a53638</Anchor>
+    <Abstract>Converts decimal number for the time into a date string. Uses the date formatter to do the conversion...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dateFormatter</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTCalendarFormatter</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_calendar_formatter.html</Path>
+    <Anchor>a53fa78450fc2ed376d20f01a45a9d08a</Anchor>
+    <Abstract>The date formatter used to generate strings from date calculations.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>referenceDate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTCalendarFormatter</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_calendar_formatter.html</Path>
+    <Anchor>ae1da329e1385b4c425f8b52d1073a1ae</Anchor>
+    <Abstract>Date from which time intervals are computed. If nil, the standard reference date (1 January 2001...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>referenceCalendar</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTCalendarFormatter</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_calendar_formatter.html</Path>
+    <Anchor>ac9668df950a2374ad5f812d6b2dd6118</Anchor>
+    <Abstract>Calendar which is used for date calculations. If nil, the current calendar is used.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>referenceCalendarUnit</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTCalendarFormatter</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_calendar_formatter.html</Path>
+    <Anchor>a2403c2187637254c9f39aadd732c3b0a</Anchor>
+    <Abstract>Calendar unit which is incremented in the date calculation. If 0, the date is incremented.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTColor</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>

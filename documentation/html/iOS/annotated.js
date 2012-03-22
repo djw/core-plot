@@ -12,6 +12,7 @@ var annotated =
     [ "<CPTBarPlotDataSource>", "protocol_c_p_t_bar_plot_data_source-p.html", "protocol_c_p_t_bar_plot_data_source-p" ],
     [ "<CPTBarPlotDelegate>", "protocol_c_p_t_bar_plot_delegate-p.html", "protocol_c_p_t_bar_plot_delegate-p" ],
     [ "CPTBorderedLayer", "interface_c_p_t_bordered_layer.html", "interface_c_p_t_bordered_layer" ],
+    [ "CPTCalendarFormatter", "interface_c_p_t_calendar_formatter.html", "interface_c_p_t_calendar_formatter" ],
     [ "CPTColor", "interface_c_p_t_color.html", "interface_c_p_t_color" ],
     [ "CPTColorSpace", "interface_c_p_t_color_space.html", "interface_c_p_t_color_space" ],
     [ "CPTConstraints", "interface_c_p_t_constraints.html", "interface_c_p_t_constraints" ],

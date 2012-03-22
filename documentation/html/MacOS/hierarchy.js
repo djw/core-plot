@@ -78,6 +78,7 @@ var hierarchy =
       [ "CPTTheme", "interface_c_p_t_theme.html", null ],
       [ "NSFormatter", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", [
         [ "NSNumberFormatter", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html", [
+          [ "CPTCalendarFormatter", "interface_c_p_t_calendar_formatter.html", null ],
           [ "CPTTimeFormatter", "interface_c_p_t_time_formatter.html", null ]
         ] ]
       ] ],

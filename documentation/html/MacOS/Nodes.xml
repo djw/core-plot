@@ -1044,6 +1044,42 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTCalendarFormatter</Name>
+            <Path>interface_c_p_t_calendar_formatter.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>initWithDateFormatter:</Name>
+              <Path>interface_c_p_t_calendar_formatter.html</Path>
+              <Anchor>ab6ad8cd0f0bf399e05d7b779a3b1638a</Anchor>
+             </Node>
+             <Node>
+              <Name>stringForObjectValue:</Name>
+              <Path>interface_c_p_t_calendar_formatter.html</Path>
+              <Anchor>aa2e143d41e0c51cda348abf2f7a53638</Anchor>
+             </Node>
+             <Node>
+              <Name>dateFormatter</Name>
+              <Path>interface_c_p_t_calendar_formatter.html</Path>
+              <Anchor>a53fa78450fc2ed376d20f01a45a9d08a</Anchor>
+             </Node>
+             <Node>
+              <Name>referenceCalendar</Name>
+              <Path>interface_c_p_t_calendar_formatter.html</Path>
+              <Anchor>ac9668df950a2374ad5f812d6b2dd6118</Anchor>
+             </Node>
+             <Node>
+              <Name>referenceCalendarUnit</Name>
+              <Path>interface_c_p_t_calendar_formatter.html</Path>
+              <Anchor>a2403c2187637254c9f39aadd732c3b0a</Anchor>
+             </Node>
+             <Node>
+              <Name>referenceDate</Name>
+              <Path>interface_c_p_t_calendar_formatter.html</Path>
+              <Anchor>ae1da329e1385b4c425f8b52d1073a1ae</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CPTColor</Name>
             <Path>interface_c_p_t_color.html</Path>
             <Subnodes>
@@ -4331,6 +4367,10 @@
               <Subnodes>
                 <Subnodes>
                  <Node>
+                  <Name>CPTCalendarFormatter</Name>
+                  <Path>interface_c_p_t_calendar_formatter.html</Path>
+                 </Node>
+                 <Node>
                   <Name>CPTTimeFormatter</Name>
                   <Path>interface_c_p_t_time_formatter.html</Path>
                  </Node>
@@ -5094,6 +5134,14 @@
            <Node>
             <Name>Source/CPTBorderedLayer.m</Name>
             <Path>_c_p_t_bordered_layer_8m.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTCalendarFormatter.h</Name>
+            <Path>_c_p_t_calendar_formatter_8h.html</Path>
+           </Node>
+           <Node>
+            <Name>Source/CPTCalendarFormatter.m</Name>
+            <Path>_c_p_t_calendar_formatter_8m.html</Path>
            </Node>
            <Node>
             <Name>Source/CPTColor.h</Name>
