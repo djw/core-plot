@@ -142,20 +142,22 @@ var hierarchy =
     ] ],
     [ "<NSObject-p>", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html", [
       [ "<CPTAxisDelegate>", "protocol_c_p_t_axis_delegate-p.html", null ],
-      [ "<CPTBarPlotDelegate>", "protocol_c_p_t_bar_plot_delegate-p.html", null ],
       [ "<CPTLegendDelegate>", "protocol_c_p_t_legend_delegate-p.html", null ],
-      [ "<CPTPieChartDelegate>", "protocol_c_p_t_pie_chart_delegate-p.html", null ],
       [ "<CPTPlotDataSource>", "protocol_c_p_t_plot_data_source-p.html", [
         [ "<CPTBarPlotDataSource>", "protocol_c_p_t_bar_plot_data_source-p.html", null ],
         [ "<CPTPieChartDataSource>", "protocol_c_p_t_pie_chart_data_source-p.html", null ],
         [ "<CPTScatterPlotDataSource>", "protocol_c_p_t_scatter_plot_data_source-p.html", null ]
+      ] ],
+      [ "<CPTPlotDelegate>", "protocol_c_p_t_plot_delegate-p.html", [
+        [ "<CPTBarPlotDelegate>", "protocol_c_p_t_bar_plot_delegate-p.html", null ],
+        [ "<CPTPieChartDelegate>", "protocol_c_p_t_pie_chart_delegate-p.html", null ],
+        [ "<CPTScatterPlotDelegate>", "protocol_c_p_t_scatter_plot_delegate-p.html", null ]
       ] ],
       [ "<CPTPlotSpaceDelegate>", "protocol_c_p_t_plot_space_delegate-p.html", null ],
       [ "<CPTResponder>", "protocol_c_p_t_responder-p.html", [
         [ "CPTLayer", "interface_c_p_t_layer.html", null ],
         [ "CPTPlotSpace", "interface_c_p_t_plot_space.html", null ]
       ] ],
-      [ "<CPTScatterPlotDelegate>", "protocol_c_p_t_scatter_plot_delegate-p.html", null ],
       [ "NSObject", "http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", null ]
     ] ]
 ];

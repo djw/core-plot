@@ -2737,6 +2737,11 @@
               <Anchor>aa82038cde6e710a65e2d04d12f727602</Anchor>
              </Node>
              <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>a0a667416c027447846109f1180aa30a1</Anchor>
+             </Node>
+             <Node>
               <Name>positionLabelAnnotation:forIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
@@ -3013,6 +3018,17 @@
               <Name>numbersForPlot:field:recordIndexRange:</Name>
               <Path>protocol_c_p_t_plot_data_source-p.html</Path>
               <Anchor>a9dbeec1441957bf8b8b64e553499eaf9</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>&lt;CPTPlotDelegate&gt;</Name>
+            <Path>protocol_c_p_t_plot_delegate-p.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>plot:dataLabelWasSelectedAtRecordIndex:</Name>
+              <Path>protocol_c_p_t_plot_delegate-p.html</Path>
+              <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4308,16 +4324,8 @@
               <Path>protocol_c_p_t_axis_delegate-p.html</Path>
              </Node>
              <Node>
-              <Name>&lt;CPTBarPlotDelegate&gt;</Name>
-              <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
-             </Node>
-             <Node>
               <Name>&lt;CPTLegendDelegate&gt;</Name>
               <Path>protocol_c_p_t_legend_delegate-p.html</Path>
-             </Node>
-             <Node>
-              <Name>&lt;CPTPieChartDelegate&gt;</Name>
-              <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
              </Node>
              <Node>
               <Name>&lt;CPTPlotDataSource&gt;</Name>
@@ -4338,6 +4346,24 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>&lt;CPTPlotDelegate&gt;</Name>
+              <Path>protocol_c_p_t_plot_delegate-p.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>&lt;CPTBarPlotDelegate&gt;</Name>
+                <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
+               </Node>
+               <Node>
+                <Name>&lt;CPTPieChartDelegate&gt;</Name>
+                <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
+               </Node>
+               <Node>
+                <Name>&lt;CPTScatterPlotDelegate&gt;</Name>
+                <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>&lt;CPTPlotSpaceDelegate&gt;</Name>
               <Path>protocol_c_p_t_plot_space_delegate-p.html</Path>
              </Node>
@@ -4354,10 +4380,6 @@
                 <Path>interface_c_p_t_plot_space.html</Path>
                </Node>
               </Subnodes>
-             </Node>
-             <Node>
-              <Name>&lt;CPTScatterPlotDelegate&gt;</Name>
-              <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
               <Subnodes>
                <Node>
                 <Name>CPTAnnotation</Name>

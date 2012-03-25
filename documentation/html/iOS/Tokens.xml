@@ -4843,7 +4843,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
     <Anchor>a045bf92ef3b534c9b367aadbb155d086</Anchor>
-    <Abstract>(Optional) Informs delegate that a point was touched.</Abstract>
+    <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8637,7 +8637,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
     <Anchor>af6c6cf7f61a0cd35fd05928e45a8e2ca</Anchor>
-    <Abstract>(Optional) Informs the delegate that a pie slice was touched or clicked.</Abstract>
+    <Abstract>(Optional) Informs the delegate that a pie slice was touched.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8726,6 +8726,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a44f525ed96c9819b64fedc766feec98c</Anchor>
     <Abstract>Initializes a newly allocated CPTPlot object with the provided frame rectangle.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointingDeviceDownEvent:atPoint:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a0a667416c027447846109f1180aa30a1</Anchor>
+    <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9441,6 +9452,28 @@
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
     <Abstract>(Optional) Gets a data label for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTPlotDelegate</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+      <Scope>CPTPlotDelegate</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_delegate-p.html</Path>
+    <Abstract>Plot delegate.</Abstract>
+    <DeclaredIn>CPTPlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>plot:dataLabelWasSelectedAtRecordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_delegate-p.html</Path>
+    <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+    <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10705,7 +10738,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
     <Anchor>adb2b5b0dc2c027e3056d645ddff2420e</Anchor>
-    <Abstract>(Optional) Informs delegate that a point was touched.</Abstract>
+    <Abstract>(Optional) Informs the delegate that a data point was touched.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
