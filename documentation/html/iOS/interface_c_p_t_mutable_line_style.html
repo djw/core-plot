@@ -124,6 +124,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:a5fdac0b469975626a0bcffa702f6318d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting phase of the line dash pattern. Default is 0.0.  <a href="#a5fdac0b469975626a0bcffa702f6318d"></a><br/></td></tr>
 <tr class="memitem:ab1773bf482e6f08590680906038c7d16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_color.html">CPTColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#ab1773bf482e6f08590680906038c7d16">lineColor</a></td></tr>
 <tr class="memdesc:ab1773bf482e6f08590680906038c7d16"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current stroke color in a context. Default is solid black.  <a href="#ab1773bf482e6f08590680906038c7d16"></a><br/></td></tr>
+<tr class="memitem:a81b7edfb789ee52f6523b144137f1b3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_mutable_line_style.html#a81b7edfb789ee52f6523b144137f1b3a">lineFill</a></td></tr>
+<tr class="memdesc:a81b7edfb789ee52f6523b144137f1b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current line fill. Default is <code>nil</code>.  <a href="#a81b7edfb789ee52f6523b144137f1b3a"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Mutable wrapper for various line drawing properties. </p>
@@ -177,6 +179,24 @@ Properties</h2></td></tr>
 <p>The current stroke color in a context. Default is solid black. </p>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_line_style.html#abbbc1a4147e36b4473da4ed9859ccd9a">CPTLineStyle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81b7edfb789ee52f6523b144137f1b3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTMutableLineStyle:<code> [read, write, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The current line fill. Default is <code>nil</code>. </p>
+<p>If <code>nil</code>, the line is drawn using the <a class="el" href="interface_c_p_t_mutable_line_style.html#ab1773bf482e6f08590680906038c7d16">lineColor </a> . </p>
+
+<p>Reimplemented from <a class="el" href="interface_c_p_t_line_style.html#a8c3a86e4d6154458777bb280e3a6485d">CPTLineStyle</a>.</p>
 
 </div>
 </div>

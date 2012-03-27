@@ -82,33 +82,38 @@
 <a name="l00002"></a>00002 <span class="preprocessor">#import &lt;QuartzCore/QuartzCore.h&gt;</span>
 <a name="l00003"></a>00003 
 <a name="l00004"></a>00004 <span class="keyword">@class</span> <a class="code" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a>;
-<a name="l00005"></a>00005 
-<a name="l00006"></a><a class="code" href="interface_c_p_t_line_style.html">00006</a> <span class="keyword">@interface </span><a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> : <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a>&lt;<a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html">NSCoding</a>, <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html">NSCopying</a>, <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference.html">NSMutableCopying</a>&gt; {
-<a name="l00007"></a>00007     <span class="keyword">@private</span>
-<a name="l00008"></a><a class="code" href="interface_c_p_t_line_style.html#aa2010258cc8e768ac59954a8b7d8f3f0">00008</a>     CGLineCap <a class="code" href="interface_c_p_t_line_style.html#aa2010258cc8e768ac59954a8b7d8f3f0" title="The style for the endpoints of lines drawn in a graphics context. Default is kCGLineCapButt.">lineCap</a>;
-<a name="l00009"></a>00009 <span class="comment">//  CGLineDash lineDash; // We should make a struct to keep this information</span>
-<a name="l00010"></a><a class="code" href="interface_c_p_t_line_style.html#a5b41674be302ef1801d33ce079da3b42">00010</a>     CGLineJoin <a class="code" href="interface_c_p_t_line_style.html#a5b41674be302ef1801d33ce079da3b42" title="The style for the joins of connected lines in a graphics context. Default is kCGLineJoinMiter.">lineJoin</a>;
-<a name="l00011"></a><a class="code" href="interface_c_p_t_line_style.html#a7fba8edf2d131f6baad56635381a946b">00011</a>     CGFloat <a class="code" href="interface_c_p_t_line_style.html#a7fba8edf2d131f6baad56635381a946b" title="The miter limit for the joins of connected lines in a graphics context. Default is 10...">miterLimit</a>;
-<a name="l00012"></a><a class="code" href="interface_c_p_t_line_style.html#ad742282d977c6ec6cd251b2cd8f7c1de">00012</a>     CGFloat <a class="code" href="interface_c_p_t_line_style.html#ad742282d977c6ec6cd251b2cd8f7c1de" title="The line width for a graphics context. Default is 1.0.">lineWidth</a>;
-<a name="l00013"></a><a class="code" href="interface_c_p_t_line_style.html#a6053a92df9fbf4f49fd9c727efca2f94">00013</a>     <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *<a class="code" href="interface_c_p_t_line_style.html#a6053a92df9fbf4f49fd9c727efca2f94" title="The dash-and-space pattern for the line. Default is nil.">dashPattern</a>;
-<a name="l00014"></a><a class="code" href="interface_c_p_t_line_style.html#aafbb5316e2ad7a41708b55b45619397b">00014</a>     CGFloat <a class="code" href="interface_c_p_t_line_style.html#aafbb5316e2ad7a41708b55b45619397b" title="The starting phase of the line dash pattern. Default is 0.0.">patternPhase</a>;
-<a name="l00015"></a>00015 <span class="comment">//  StrokePattern; // We should make a struct to keep this information</span>
-<a name="l00016"></a><a class="code" href="interface_c_p_t_line_style.html#abbbc1a4147e36b4473da4ed9859ccd9a">00016</a>     <a class="code" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a> *<a class="code" href="interface_c_p_t_line_style.html#abbbc1a4147e36b4473da4ed9859ccd9a" title="The current stroke color in a context. Default is solid black.">lineColor</a>;
-<a name="l00017"></a>00017 }
-<a name="l00018"></a>00018 
-<a name="l00019"></a>00019 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGLineCap lineCap;
-<a name="l00020"></a>00020 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGLineJoin lineJoin;
-<a name="l00021"></a>00021 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGFloat miterLimit;
-<a name="l00022"></a>00022 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGFloat lineWidth;
-<a name="l00023"></a>00023 <span class="keyword">@property</span> (nonatomic, readonly, retain) <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *dashPattern;
-<a name="l00024"></a>00024 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGFloat patternPhase;
-<a name="l00025"></a>00025 <span class="keyword">@property</span> (nonatomic, readonly, retain) <a class="code" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a> *lineColor;
-<a name="l00026"></a>00026 
-<a name="l00029"></a>00029 +(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)lineStyle;
-<a name="l00031"></a>00031 
-<a name="l00034"></a>00034 -(void)setLineStyleInContext:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)theContext;
-<a name="l00036"></a>00036 
-<a name="l00037"></a>00037 <span class="keyword">@end</span>
+<a name="l00005"></a>00005 <span class="keyword">@class</span> <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a>;
+<a name="l00006"></a>00006 
+<a name="l00007"></a><a class="code" href="interface_c_p_t_line_style.html">00007</a> <span class="keyword">@interface </span><a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> : <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a>&lt;<a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html">NSCoding</a>, <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html">NSCopying</a>, <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference.html">NSMutableCopying</a>&gt; {
+<a name="l00008"></a>00008     <span class="keyword">@private</span>
+<a name="l00009"></a><a class="code" href="interface_c_p_t_line_style.html#aa2010258cc8e768ac59954a8b7d8f3f0">00009</a>     CGLineCap <a class="code" href="interface_c_p_t_line_style.html#aa2010258cc8e768ac59954a8b7d8f3f0" title="The style for the endpoints of lines drawn in a graphics context. Default is kCGLineCapButt.">lineCap</a>;
+<a name="l00010"></a>00010 <span class="comment">//  CGLineDash lineDash; // We should make a struct to keep this information</span>
+<a name="l00011"></a><a class="code" href="interface_c_p_t_line_style.html#a5b41674be302ef1801d33ce079da3b42">00011</a>     CGLineJoin <a class="code" href="interface_c_p_t_line_style.html#a5b41674be302ef1801d33ce079da3b42" title="The style for the joins of connected lines in a graphics context. Default is kCGLineJoinMiter.">lineJoin</a>;
+<a name="l00012"></a><a class="code" href="interface_c_p_t_line_style.html#a7fba8edf2d131f6baad56635381a946b">00012</a>     CGFloat <a class="code" href="interface_c_p_t_line_style.html#a7fba8edf2d131f6baad56635381a946b" title="The miter limit for the joins of connected lines in a graphics context. Default is 10...">miterLimit</a>;
+<a name="l00013"></a><a class="code" href="interface_c_p_t_line_style.html#ad742282d977c6ec6cd251b2cd8f7c1de">00013</a>     CGFloat <a class="code" href="interface_c_p_t_line_style.html#ad742282d977c6ec6cd251b2cd8f7c1de" title="The line width for a graphics context. Default is 1.0.">lineWidth</a>;
+<a name="l00014"></a><a class="code" href="interface_c_p_t_line_style.html#a6053a92df9fbf4f49fd9c727efca2f94">00014</a>     <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *<a class="code" href="interface_c_p_t_line_style.html#a6053a92df9fbf4f49fd9c727efca2f94" title="The dash-and-space pattern for the line. Default is nil.">dashPattern</a>;
+<a name="l00015"></a><a class="code" href="interface_c_p_t_line_style.html#aafbb5316e2ad7a41708b55b45619397b">00015</a>     CGFloat <a class="code" href="interface_c_p_t_line_style.html#aafbb5316e2ad7a41708b55b45619397b" title="The starting phase of the line dash pattern. Default is 0.0.">patternPhase</a>;
+<a name="l00016"></a>00016 <span class="comment">//  StrokePattern; // We should make a struct to keep this information</span>
+<a name="l00017"></a><a class="code" href="interface_c_p_t_line_style.html#abbbc1a4147e36b4473da4ed9859ccd9a">00017</a>     <a class="code" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a> *<a class="code" href="interface_c_p_t_line_style.html#abbbc1a4147e36b4473da4ed9859ccd9a" title="The current stroke color in a context. Default is solid black.">lineColor</a>;
+<a name="l00018"></a><a class="code" href="interface_c_p_t_line_style.html#a8c3a86e4d6154458777bb280e3a6485d">00018</a>     <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *<a class="code" href="interface_c_p_t_line_style.html#a8c3a86e4d6154458777bb280e3a6485d" title="The current line fill. Default is nil.">lineFill</a>;
+<a name="l00019"></a>00019 }
+<a name="l00020"></a>00020 
+<a name="l00021"></a>00021 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGLineCap lineCap;
+<a name="l00022"></a>00022 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGLineJoin lineJoin;
+<a name="l00023"></a>00023 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGFloat miterLimit;
+<a name="l00024"></a>00024 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGFloat lineWidth;
+<a name="l00025"></a>00025 <span class="keyword">@property</span> (nonatomic, readonly, retain) <a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *dashPattern;
+<a name="l00026"></a>00026 <span class="keyword">@property</span> (nonatomic, readonly, assign) CGFloat patternPhase;
+<a name="l00027"></a>00027 <span class="keyword">@property</span> (nonatomic, readonly, retain) <a class="code" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a> *lineColor;
+<a name="l00028"></a>00028 <span class="keyword">@property</span> (nonatomic, readonly, retain) <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *lineFill;
+<a name="l00029"></a>00029 
+<a name="l00032"></a>00032 +(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)lineStyle;
+<a name="l00034"></a>00034 
+<a name="l00037"></a>00037 -(void)setLineStyleInContext:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)theContext;
+<a name="l00038"></a>00038 -(void)strokePathInContext:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)theContext;
+<a name="l00039"></a>00039 -(void)strokeRect:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)rect inContext:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)theContext;
+<a name="l00041"></a>00041 
+<a name="l00042"></a>00042 <span class="keyword">@end</span>
 </pre></div></div><!-- contents -->
 </div>
   <div id="nav-path" class="navpath">

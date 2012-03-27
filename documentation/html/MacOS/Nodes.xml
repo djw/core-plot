@@ -2334,6 +2334,16 @@
               <Anchor>a27d395a192f79ba1031afa479449cb4e</Anchor>
              </Node>
              <Node>
+              <Name>strokePathInContext:</Name>
+              <Path>interface_c_p_t_line_style.html</Path>
+              <Anchor>a31cb12062448c32ddcaa3b3dde1359e7</Anchor>
+             </Node>
+             <Node>
+              <Name>strokeRect:inContext:</Name>
+              <Path>interface_c_p_t_line_style.html</Path>
+              <Anchor>aba2c51249ad491853ca896a76633236f</Anchor>
+             </Node>
+             <Node>
               <Name>dashPattern</Name>
               <Path>interface_c_p_t_line_style.html</Path>
               <Anchor>a6053a92df9fbf4f49fd9c727efca2f94</Anchor>
@@ -2347,6 +2357,11 @@
               <Name>lineColor</Name>
               <Path>interface_c_p_t_line_style.html</Path>
               <Anchor>abbbc1a4147e36b4473da4ed9859ccd9a</Anchor>
+             </Node>
+             <Node>
+              <Name>lineFill</Name>
+              <Path>interface_c_p_t_line_style.html</Path>
+              <Anchor>a8c3a86e4d6154458777bb280e3a6485d</Anchor>
              </Node>
              <Node>
               <Name>lineJoin</Name>
@@ -2388,6 +2403,11 @@
               <Name>lineColor</Name>
               <Path>interface_c_p_t_mutable_line_style.html</Path>
               <Anchor>ab1773bf482e6f08590680906038c7d16</Anchor>
+             </Node>
+             <Node>
+              <Name>lineFill</Name>
+              <Path>interface_c_p_t_mutable_line_style.html</Path>
+              <Anchor>a81b7edfb789ee52f6523b144137f1b3a</Anchor>
              </Node>
              <Node>
               <Name>lineJoin</Name>

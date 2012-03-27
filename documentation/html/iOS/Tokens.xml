@@ -7651,6 +7651,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>strokePathInContext:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_line_style.html</Path>
+    <Anchor>a31cb12062448c32ddcaa3b3dde1359e7</Anchor>
+    <Abstract>Stroke the current path in the given graphics context. Call -setLineStyleInContext:  first to set up ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strokeRect:inContext:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_line_style.html</Path>
+    <Anchor>aba2c51249ad491853ca896a76633236f</Anchor>
+    <Abstract>Stroke a rectangular path in the given graphics context. Call -setLineStyleInContext:  first to set u...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>lineCap</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -7725,6 +7747,17 @@
     <Path>interface_c_p_t_line_style.html</Path>
     <Anchor>abbbc1a4147e36b4473da4ed9859ccd9a</Anchor>
     <Abstract>The current stroke color in a context. Default is solid black.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineFill</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_line_style.html</Path>
+    <Anchor>a8c3a86e4d6154458777bb280e3a6485d</Anchor>
+    <Abstract>The current line fill. Default is nil.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7813,6 +7846,17 @@
     <Path>interface_c_p_t_mutable_line_style.html</Path>
     <Anchor>ab1773bf482e6f08590680906038c7d16</Anchor>
     <Abstract>The current stroke color in a context. Default is solid black.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineFill</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTMutableLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_mutable_line_style.html</Path>
+    <Anchor>a81b7edfb789ee52f6523b144137f1b3a</Anchor>
+    <Abstract>The current line fill. Default is nil.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

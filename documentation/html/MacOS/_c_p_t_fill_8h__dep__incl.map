@@ -6,12 +6,13 @@
 <area shape="rect" id="node11" href="$_c_p_t_graph_8m.html" title="Source/CPTGraph.m" alt="" coords="740,86,892,117"/>
 <area shape="rect" id="node13" href="$_c_p_t_limit_band_8m.html" title="Source/CPTLimitBand.m" alt="" coords="917,86,1093,117"/>
 <area shape="rect" id="node15" href="$_c_p_t_line_cap_8m.html" title="Source/CPTLineCap.m" alt="" coords="1117,86,1281,117"/>
-<area shape="rect" id="node17" href="$_c_p_t_pie_chart_8m.html" title="Source/CPTPieChart.m" alt="" coords="1307,86,1473,117"/>
-<area shape="rect" id="node19" href="$_c_p_t_plot_8m.html" title="Source/CPTPlot.m" alt="" coords="1498,86,1635,117"/>
-<area shape="rect" id="node21" href="$_c_p_t_plot_area_8m.html" title="Source/CPTPlotArea.m" alt="" coords="1659,86,1825,117"/>
-<area shape="rect" id="node23" href="$_c_p_t_plot_symbol_8m.html" title="Source/CPTPlotSymbol.m" alt="" coords="1850,86,2035,117"/>
-<area shape="rect" id="node25" href="$_c_p_t_range_plot_8m.html" title="Source/CPTRangePlot.m" alt="" coords="2059,86,2236,117"/>
-<area shape="rect" id="node27" href="$_c_p_t_scatter_plot_8m.html" title="Source/CPTScatterPlot.m" alt="" coords="2261,86,2443,117"/>
-<area shape="rect" id="node29" href="$_c_p_t_trading_range_plot_8m.html" title="Source/CPTTradingRangePlot.m" alt="" coords="2467,86,2695,117"/>
-<area shape="rect" id="node31" href="$_c_p_t_x_y_axis_8m.html" title="Source/CPTXYAxis.m" alt="" coords="2720,86,2877,117"/>
+<area shape="rect" id="node17" href="$_c_p_t_line_style_8m.html" title="Source/CPTLineStyle.m" alt="" coords="1307,86,1476,117"/>
+<area shape="rect" id="node19" href="$_c_p_t_pie_chart_8m.html" title="Source/CPTPieChart.m" alt="" coords="1502,86,1668,117"/>
+<area shape="rect" id="node21" href="$_c_p_t_plot_8m.html" title="Source/CPTPlot.m" alt="" coords="1692,86,1829,117"/>
+<area shape="rect" id="node23" href="$_c_p_t_plot_area_8m.html" title="Source/CPTPlotArea.m" alt="" coords="1854,86,2020,117"/>
+<area shape="rect" id="node25" href="$_c_p_t_plot_symbol_8m.html" title="Source/CPTPlotSymbol.m" alt="" coords="2045,86,2229,117"/>
+<area shape="rect" id="node27" href="$_c_p_t_range_plot_8m.html" title="Source/CPTRangePlot.m" alt="" coords="2254,86,2431,117"/>
+<area shape="rect" id="node29" href="$_c_p_t_scatter_plot_8m.html" title="Source/CPTScatterPlot.m" alt="" coords="2456,86,2637,117"/>
+<area shape="rect" id="node31" href="$_c_p_t_trading_range_plot_8m.html" title="Source/CPTTradingRangePlot.m" alt="" coords="2662,86,2889,117"/>
+<area shape="rect" id="node33" href="$_c_p_t_x_y_axis_8m.html" title="Source/CPTXYAxis.m" alt="" coords="2914,86,3072,117"/>
 </map>

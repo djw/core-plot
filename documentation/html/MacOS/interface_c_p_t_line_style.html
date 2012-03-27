@@ -118,6 +118,10 @@ Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Drawing</div></td></tr>
 <tr class="memitem:a27d395a192f79ba1031afa479449cb4e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_line_style.html#a27d395a192f79ba1031afa479449cb4e">setLineStyleInContext:</a></td></tr>
 <tr class="memdesc:a27d395a192f79ba1031afa479449cb4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all of the line drawing properties in the given graphics context.  <a href="#a27d395a192f79ba1031afa479449cb4e"></a><br/></td></tr>
+<tr class="memitem:a31cb12062448c32ddcaa3b3dde1359e7"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_line_style.html#a31cb12062448c32ddcaa3b3dde1359e7">strokePathInContext:</a></td></tr>
+<tr class="memdesc:a31cb12062448c32ddcaa3b3dde1359e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stroke the current path in the given graphics context. Call <a class="el" href="interface_c_p_t_line_style.html#a27d395a192f79ba1031afa479449cb4e">-setLineStyleInContext: </a> first to set up the drawing properties.  <a href="#a31cb12062448c32ddcaa3b3dde1359e7"></a><br/></td></tr>
+<tr class="memitem:aba2c51249ad491853ca896a76633236f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_line_style.html#aba2c51249ad491853ca896a76633236f">strokeRect:inContext:</a></td></tr>
+<tr class="memdesc:aba2c51249ad491853ca896a76633236f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stroke a rectangular path in the given graphics context. Call <a class="el" href="interface_c_p_t_line_style.html#a27d395a192f79ba1031afa479449cb4e">-setLineStyleInContext: </a> first to set up the drawing properties.  <a href="#aba2c51249ad491853ca896a76633236f"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aa2010258cc8e768ac59954a8b7d8f3f0"><td class="memItemLeft" align="right" valign="top">CGLineCap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#aa2010258cc8e768ac59954a8b7d8f3f0">lineCap</a></td></tr>
@@ -134,6 +138,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:aafbb5316e2ad7a41708b55b45619397b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The starting phase of the line dash pattern. Default is 0.0.  <a href="#aafbb5316e2ad7a41708b55b45619397b"></a><br/></td></tr>
 <tr class="memitem:abbbc1a4147e36b4473da4ed9859ccd9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_color.html">CPTColor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#abbbc1a4147e36b4473da4ed9859ccd9a">lineColor</a></td></tr>
 <tr class="memdesc:abbbc1a4147e36b4473da4ed9859ccd9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current stroke color in a context. Default is solid black.  <a href="#abbbc1a4147e36b4473da4ed9859ccd9a"></a><br/></td></tr>
+<tr class="memitem:a8c3a86e4d6154458777bb280e3a6485d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#a8c3a86e4d6154458777bb280e3a6485d">lineFill</a></td></tr>
+<tr class="memdesc:a8c3a86e4d6154458777bb280e3a6485d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current line fill. Default is <code>nil</code>.  <a href="#a8c3a86e4d6154458777bb280e3a6485d"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Immutable wrapper for various line drawing properties. </p>
@@ -177,6 +183,67 @@ Properties</h2></td></tr>
 <p>Sets all of the line drawing properties in the given graphics context. </p>
 <dl class="params"><dt><b>Parameters:</b></dt><dd>
   <table class="params">
+    <tr><td class="paramname">theContext</td><td>The graphics context. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a31cb12062448c32ddcaa3b3dde1359e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) <a class="el" href="interface_c_p_t_line_style.html#a31cb12062448c32ddcaa3b3dde1359e7">strokePathInContext:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)&#160;</td>
+          <td class="paramname"><em>theContext</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Stroke the current path in the given graphics context. Call <a class="el" href="interface_c_p_t_line_style.html#a27d395a192f79ba1031afa479449cb4e">-setLineStyleInContext: </a> first to set up the drawing properties. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">theContext</td><td>The graphics context. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aba2c51249ad491853ca896a76633236f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) strokeRect: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>)&#160;</td>
+          <td class="paramname"><em>rect</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inContext:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>)&#160;</td>
+          <td class="paramname"><em>theContext</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Stroke a rectangular path in the given graphics context. Call <a class="el" href="interface_c_p_t_line_style.html#a27d395a192f79ba1031afa479449cb4e">-setLineStyleInContext: </a> first to set up the drawing properties. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rect</td><td>The rectangle to draw. </td></tr>
     <tr><td class="paramname">theContext</td><td>The graphics context. </td></tr>
   </table>
   </dd>
@@ -233,6 +300,24 @@ Properties</h2></td></tr>
 <p>The current stroke color in a context. Default is solid black. </p>
 
 <p>Reimplemented in <a class="el" href="interface_c_p_t_mutable_line_style.html#ab1773bf482e6f08590680906038c7d16">CPTMutableLineStyle</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8c3a86e4d6154458777bb280e3a6485d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTLineStyle:<code> [read, retain]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The current line fill. Default is <code>nil</code>. </p>
+<p>If <code>nil</code>, the line is drawn using the <a class="el" href="interface_c_p_t_line_style.html#abbbc1a4147e36b4473da4ed9859ccd9a">lineColor </a> . </p>
+
+<p>Reimplemented in <a class="el" href="interface_c_p_t_mutable_line_style.html#a81b7edfb789ee52f6523b144137f1b3a">CPTMutableLineStyle</a>.</p>
 
 </div>
 </div>
