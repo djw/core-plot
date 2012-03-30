@@ -1,5 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$_c_p_t_plot_area_8m.html" title="Source/CPTPlotArea.m" alt="" coords="4,86,171,117"/>
-<area shape="rect" id="node5" href="$_c_p_t_plot_area_frame_8m.html" title="Source/CPTPlotAreaFrame.m" alt="" coords="195,86,401,117"/>
-<area shape="rect" id="node7" href="$_c_p_t_plot_group_8m.html" title="Source/CPTPlotGroup.m" alt="" coords="426,86,603,117"/>
+<area shape="rect" id="node3" href="$_c_p_t_graph_8m.html" title="Source/CPTGraph.m" alt="" coords="5,86,157,117"/>
+<area shape="rect" id="node5" href="$_c_p_t_plot_area_8m.html" title="Source/CPTPlotArea.m" alt="" coords="182,86,348,117"/>
+<area shape="rect" id="node7" href="$_c_p_t_plot_area_frame_8m.html" title="Source/CPTPlotAreaFrame.m" alt="" coords="372,86,579,117"/>
+<area shape="rect" id="node9" href="$_c_p_t_plot_group_8m.html" title="Source/CPTPlotGroup.m" alt="" coords="603,86,780,117"/>
 </map>

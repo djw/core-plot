@@ -3210,6 +3210,11 @@
               <Anchor>a370f190cc488434b9f89130af26b2774</Anchor>
              </Node>
              <Node>
+              <Name>insertPlot:atIndex:</Name>
+              <Path>interface_c_p_t_plot_group.html</Path>
+              <Anchor>ab100faf209cb5f6819c9d4ffdcdd2441</Anchor>
+             </Node>
+             <Node>
               <Name>removePlot:</Name>
               <Path>interface_c_p_t_plot_group.html</Path>
               <Anchor>ab8606e231f1f95161e5b1589b853c493</Anchor>

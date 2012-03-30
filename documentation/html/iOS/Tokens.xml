@@ -9554,6 +9554,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>insertPlot:atIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlotGroup</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot_group.html</Path>
+    <Anchor>ab100faf209cb5f6819c9d4ffdcdd2441</Anchor>
+    <Abstract>Add a plot to this plot group at the given index.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTPlotRange</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
