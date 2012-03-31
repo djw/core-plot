@@ -62,5 +62,6 @@ var interface_c_p_t_axis =
     [ "titleOffset", "group__axis_animation.html#ga3d84072327ed4e3694c06149a776a7c0", null ],
     [ "titleRotation", "group__axis_animation.html#ga340ca2d5f773f6530de7dbfe263906aa", null ],
     [ "titleTextStyle", "interface_c_p_t_axis.html#a7d3a6773318b5cf33e3f4273546c547f", null ],
+    [ "visibleAxisRange", "interface_c_p_t_axis.html#a0b718982294bb232e3e020deff7a4a3e", null ],
     [ "visibleRange", "interface_c_p_t_axis.html#ae087326fdfc51acf12e343b28bce80c7", null ]
 ];

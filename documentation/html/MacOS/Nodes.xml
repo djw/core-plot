@@ -775,6 +775,11 @@
               <Anchor>a7d3a6773318b5cf33e3f4273546c547f</Anchor>
              </Node>
              <Node>
+              <Name>visibleAxisRange</Name>
+              <Path>interface_c_p_t_axis.html</Path>
+              <Anchor>a0b718982294bb232e3e020deff7a4a3e</Anchor>
+             </Node>
+             <Node>
               <Name>visibleRange</Name>
               <Path>interface_c_p_t_axis.html</Path>
               <Anchor>ae087326fdfc51acf12e343b28bce80c7</Anchor>

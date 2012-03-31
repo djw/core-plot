@@ -131,7 +131,9 @@ Properties</h2></td></tr>
 <tr class="memitem:ab913b480a46cdc157b7950f64b45fd19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#a3785add118c53a68c6a1838078e17cc5">CPTSign</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ab913b480a46cdc157b7950f64b45fd19">tickDirection</a></td></tr>
 <tr class="memdesc:ab913b480a46cdc157b7950f64b45fd19"><td class="mdescLeft">&#160;</td><td class="mdescRight">The tick direction. The direction is given as the sign that ticks extend along the axis (e.g., positive or negative).  <a href="#ab913b480a46cdc157b7950f64b45fd19"></a><br/></td></tr>
 <tr class="memitem:ae087326fdfc51acf12e343b28bce80c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ae087326fdfc51acf12e343b28bce80c7">visibleRange</a></td></tr>
-<tr class="memdesc:ae087326fdfc51acf12e343b28bce80c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot range over which the axis and ticks are visible. Use this to restrict an axis to less than the full plot area width. Set to <code>nil</code> for no restriction.  <a href="#ae087326fdfc51acf12e343b28bce80c7"></a><br/></td></tr>
+<tr class="memdesc:ae087326fdfc51acf12e343b28bce80c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot range over which the axis and ticks are visible. Use this to restrict an axis and its grid lines to less than the full plot area width. Use the <a class="el" href="interface_c_p_t_axis.html#a0b718982294bb232e3e020deff7a4a3e">visibleAxisRange </a> to specify a separate range for the axis line, if needed. Set to <code>nil</code> for no restriction.  <a href="#ae087326fdfc51acf12e343b28bce80c7"></a><br/></td></tr>
+<tr class="memitem:a0b718982294bb232e3e020deff7a4a3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a0b718982294bb232e3e020deff7a4a3e">visibleAxisRange</a></td></tr>
+<tr class="memdesc:a0b718982294bb232e3e020deff7a4a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The plot range over which the axis itself is visible. Use this to restrict an axis line to less than the full plot area width. This range is independent of the <a class="el" href="interface_c_p_t_axis.html#ae087326fdfc51acf12e343b28bce80c7">visibleRange </a> and overrides it for the axis line and line cap. Set to <code>nil</code> to use the <a class="el" href="interface_c_p_t_axis.html#ae087326fdfc51acf12e343b28bce80c7">visibleRange </a> instead.  <a href="#a0b718982294bb232e3e020deff7a4a3e"></a><br/></td></tr>
 <tr class="memitem:a6a305298938dcce2f406f5a75aadd452"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_cap.html">CPTLineCap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#a6a305298938dcce2f406f5a75aadd452">axisLineCapMin</a></td></tr>
 <tr class="memdesc:a6a305298938dcce2f406f5a75aadd452"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line cap for the end of the axis line with the minimum value.  <a href="#a6a305298938dcce2f406f5a75aadd452"></a><br/></td></tr>
 <tr class="memitem:aa4f30d716e5d2f97771a44c719b25a84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_cap.html">CPTLineCap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#aa4f30d716e5d2f97771a44c719b25a84">axisLineCapMax</a></td></tr>
@@ -1272,6 +1274,21 @@ Background Bands</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a0b718982294bb232e3e020deff7a4a3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTAxis:<code> [read, write, copy]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The plot range over which the axis itself is visible. Use this to restrict an axis line to less than the full plot area width. This range is independent of the <a class="el" href="interface_c_p_t_axis.html#ae087326fdfc51acf12e343b28bce80c7">visibleRange </a> and overrides it for the axis line and line cap. Set to <code>nil</code> to use the <a class="el" href="interface_c_p_t_axis.html#ae087326fdfc51acf12e343b28bce80c7">visibleRange </a> instead. </p>
+
+</div>
+</div>
 <a class="anchor" id="ae087326fdfc51acf12e343b28bce80c7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1283,7 +1300,7 @@ Background Bands</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>The plot range over which the axis and ticks are visible. Use this to restrict an axis to less than the full plot area width. Set to <code>nil</code> for no restriction. </p>
+<p>The plot range over which the axis and ticks are visible. Use this to restrict an axis and its grid lines to less than the full plot area width. Use the <a class="el" href="interface_c_p_t_axis.html#a0b718982294bb232e3e020deff7a4a3e">visibleAxisRange </a> to specify a separate range for the axis line, if needed. Set to <code>nil</code> for no restriction. </p>
 
 </div>
 </div>

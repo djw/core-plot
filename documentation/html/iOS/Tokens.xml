@@ -3743,7 +3743,18 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>ae087326fdfc51acf12e343b28bce80c7</Anchor>
-    <Abstract>The plot range over which the axis and ticks are visible. Use this to restrict an axis to less than t...</Abstract>
+    <Abstract>The plot range over which the axis and ticks are visible. Use this to restrict an axis and its grid l...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>visibleAxisRange</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a0b718982294bb232e3e020deff7a4a3e</Anchor>
+    <Abstract>The plot range over which the axis itself is visible. Use this to restrict an axis line to less than ...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
