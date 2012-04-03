@@ -9955,6 +9955,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>containsRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlotRange</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot_range.html</Path>
+    <Anchor>ab28a7a89cff91e49653777f7ceb40154</Anchor>
+    <Abstract>Determines whether the receiver entirely contains another range.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>intersectsRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlotRange</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot_range.html</Path>
+    <Anchor>af57683e90998288b8d330fc0dd88ce39</Anchor>
+    <Abstract>Determines whether a given range intersects the receiver.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>compareToNumber:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>

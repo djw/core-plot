@@ -123,6 +123,10 @@ Public Instance Methods</h2></td></tr>
 <tr class="memdesc:ac9f8c06f95de6f58a7970b0bd1a0d4d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether a given number is inside the range.  <a href="#ac9f8c06f95de6f58a7970b0bd1a0d4d5"></a><br/></td></tr>
 <tr class="memitem:ac57ed5a93c31a89f95eaf392087286e9"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_range.html#ac57ed5a93c31a89f95eaf392087286e9">isEqualToRange:</a></td></tr>
 <tr class="memdesc:ac57ed5a93c31a89f95eaf392087286e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether a given range is equal to the range of the receiver.  <a href="#ac57ed5a93c31a89f95eaf392087286e9"></a><br/></td></tr>
+<tr class="memitem:ab28a7a89cff91e49653777f7ceb40154"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_range.html#ab28a7a89cff91e49653777f7ceb40154">containsRange:</a></td></tr>
+<tr class="memdesc:ab28a7a89cff91e49653777f7ceb40154"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the receiver entirely contains another range.  <a href="#ab28a7a89cff91e49653777f7ceb40154"></a><br/></td></tr>
+<tr class="memitem:af57683e90998288b8d330fc0dd88ce39"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_range.html#af57683e90998288b8d330fc0dd88ce39">intersectsRange:</a></td></tr>
+<tr class="memdesc:af57683e90998288b8d330fc0dd88ce39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether a given range intersects the receiver.  <a href="#af57683e90998288b8d330fc0dd88ce39"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Range Comparison</div></td></tr>
 <tr class="memitem:a45e8fa6852f7d3bc5c021aae072a216c"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="_c_p_t_plot_range_8h.html#ae9eb655c44063efd03253fb7f5ed8e34">CPTPlotRangeComparisonResult</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_range.html#a45e8fa6852f7d3bc5c021aae072a216c">compareToNumber:</a></td></tr>
 <tr class="memdesc:a45e8fa6852f7d3bc5c021aae072a216c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a number to the range, determining if it is in the range, or above or below it.  <a href="#a45e8fa6852f7d3bc5c021aae072a216c"></a><br/></td></tr>
@@ -291,6 +295,32 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab28a7a89cff91e49653777f7ceb40154"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) <a class="el" href="interface_c_p_t_plot_range.html#ab28a7a89cff91e49653777f7ceb40154">containsRange:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *)&#160;</td>
+          <td class="paramname"><em>otherRange</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Determines whether the receiver entirely contains another range. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">otherRange</td><td>The range to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>True if the other range fits entirely within the range of the receiver. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a954aa1c4e17d07c9cc3ec37ae9bbd0cc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -325,6 +355,32 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>The initialized <a class="el" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> object. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af57683e90998288b8d330fc0dd88ce39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) <a class="el" href="interface_c_p_t_plot_range.html#af57683e90998288b8d330fc0dd88ce39">intersectsRange:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *)&#160;</td>
+          <td class="paramname"><em>otherRange</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Determines whether a given range intersects the receiver. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">otherRange</td><td>The range to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>True if the ranges intersect. </dd></dl>
 
 </div>
 </div>
