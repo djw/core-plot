@@ -10969,7 +10969,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_text_layer.html</Path>
     <Anchor>a9a1649e6264e67f6e6743d4d098ef310</Anchor>
-    <Abstract>The text to display. Inset newline characters (&amp;#39;\n&amp;#39;) at the line breaks to display multi-line text...</Abstract>
+    <Abstract>The text to display. Insert newline characters (&amp;#39;\n&amp;#39;) at the line breaks to display multi-line text...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

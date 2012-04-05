@@ -9,7 +9,8 @@ var hierarchy =
                 [ "CPTXYGraph", "interface_c_p_t_x_y_graph.html", null ]
               ] ],
               [ "CPTLegend", "interface_c_p_t_legend.html", null ],
-              [ "CPTPlotAreaFrame", "interface_c_p_t_plot_area_frame.html", null ]
+              [ "CPTPlotAreaFrame", "interface_c_p_t_plot_area_frame.html", null ],
+              [ "CPTTextLayer", "interface_c_p_t_text_layer.html", null ]
             ] ],
             [ "CPTPlot", "interface_c_p_t_plot.html", [
               [ "CPTBarPlot", "interface_c_p_t_bar_plot.html", null ],
@@ -29,8 +30,7 @@ var hierarchy =
           ] ],
           [ "CPTGridLineGroup", "interface_c_p_t_grid_line_group.html", null ],
           [ "CPTGridLines", "interface_c_p_t_grid_lines.html", null ],
-          [ "CPTPlotGroup", "interface_c_p_t_plot_group.html", null ],
-          [ "CPTTextLayer", "interface_c_p_t_text_layer.html", null ]
+          [ "CPTPlotGroup", "interface_c_p_t_plot_group.html", null ]
         ] ]
       ] ]
     ] ],

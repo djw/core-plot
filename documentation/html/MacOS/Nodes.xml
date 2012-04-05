@@ -4199,6 +4199,10 @@
                       <Name>CPTPlotAreaFrame</Name>
                       <Path>interface_c_p_t_plot_area_frame.html</Path>
                      </Node>
+                     <Node>
+                      <Name>CPTTextLayer</Name>
+                      <Path>interface_c_p_t_text_layer.html</Path>
+                     </Node>
                     </Subnodes>
                    </Node>
                    <Node>
@@ -4268,10 +4272,6 @@
                  <Node>
                   <Name>CPTPlotGroup</Name>
                   <Path>interface_c_p_t_plot_group.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>CPTTextLayer</Name>
-                  <Path>interface_c_p_t_text_layer.html</Path>
                  </Node>
                 </Subnodes>
                </Node>
