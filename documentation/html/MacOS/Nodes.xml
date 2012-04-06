@@ -2742,6 +2742,11 @@
               <Anchor>ad2efbb8005aebd12a9801a54edacf1ea</Anchor>
              </Node>
              <Node>
+              <Name>indexFromPoint:</Name>
+              <Path>interface_c_p_t_pie_chart.html</Path>
+              <Anchor>a5a6b73aa0f43552c4d39d7b01c461e7e</Anchor>
+             </Node>
+             <Node>
               <Name>initWithFrame:</Name>
               <Path>interface_c_p_t_pie_chart.html</Path>
               <Anchor>a921a8ed64d495233f8ce420f2f69067b</Anchor>

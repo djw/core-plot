@@ -8531,14 +8531,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>initWithFrame:</Name>
+      <Name>indexFromPoint:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTPieChart</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_pie_chart.html</Path>
-    <Anchor>a921a8ed64d495233f8ce420f2f69067b</Anchor>
-    <Abstract>Initializes a newly allocated CPTPieChart object with the provided frame rectangle.</Abstract>
+    <Anchor>a5a6b73aa0f43552c4d39d7b01c461e7e</Anchor>
+    <Abstract>Determines the index of the pie slice that&amp;#39;s currently under the given point.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8550,6 +8550,17 @@
     <Path>interface_c_p_t_pie_chart.html</Path>
     <Anchor>ac6d95068f152d9e5d8aa076443859544</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithFrame:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPieChart</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_pie_chart.html</Path>
+    <Anchor>a921a8ed64d495233f8ce420f2f69067b</Anchor>
+    <Abstract>Initializes a newly allocated CPTPieChart object with the provided frame rectangle.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
