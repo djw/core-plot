@@ -6,6 +6,7 @@ var interface_c_p_t_plot =
     [ "cachedNumbersForField:", "interface_c_p_t_plot.html#aff032ba633d5eb1766ee8849bcd19fb0", null ],
     [ "cacheNumbers:forField:", "interface_c_p_t_plot.html#adaeec1786488ff9517549ea5df9e1619", null ],
     [ "cacheNumbers:forField:atRecordIndex:", "interface_c_p_t_plot.html#a585e6360378a42760007251b07acade7", null ],
+    [ "dataIndexFromInteractionPoint:", "interface_c_p_t_plot.html#a84a31dbe697c028b41ffda5083daac65", null ],
     [ "deleteDataInIndexRange:", "interface_c_p_t_plot.html#aeda28869b1ab7bbcee58ced6635098bd", null ],
     [ "drawSwatchForLegend:atIndex:inRect:inContext:", "interface_c_p_t_plot.html#abe4e69caf2e8163449edf9a85916bbf9", null ],
     [ "fieldIdentifiers", "interface_c_p_t_plot.html#a2d76f1890e3cc9406526f3cf853d3b02", null ],

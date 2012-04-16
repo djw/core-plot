@@ -115,7 +115,9 @@ var hierarchy =
       [ "<CPTPlotDelegate>", "protocol_c_p_t_plot_delegate-p.html", [
         [ "<CPTBarPlotDelegate>", "protocol_c_p_t_bar_plot_delegate-p.html", null ],
         [ "<CPTPieChartDelegate>", "protocol_c_p_t_pie_chart_delegate-p.html", null ],
-        [ "<CPTScatterPlotDelegate>", "protocol_c_p_t_scatter_plot_delegate-p.html", null ]
+        [ "<CPTRangePlotDelegate>", "protocol_c_p_t_range_plot_delegate-p.html", null ],
+        [ "<CPTScatterPlotDelegate>", "protocol_c_p_t_scatter_plot_delegate-p.html", null ],
+        [ "<CPTTradingRangePlotDelegate>", "protocol_c_p_t_trading_range_plot_delegate-p.html", null ]
       ] ],
       [ "<CPTPlotSpaceDelegate>", "protocol_c_p_t_plot_space_delegate-p.html", null ],
       [ "<CPTResponder>", "protocol_c_p_t_responder-p.html", [

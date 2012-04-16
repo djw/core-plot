@@ -217,6 +217,9 @@ Functions</h2></td></tr>
 <tr class="memdesc:adcdd93e329eee9eba136f27ddc2c735f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a string representation of the given size.  <a href="#adcdd93e329eee9eba136f27ddc2c735f"></a><br/></td></tr>
 <tr class="memitem:a4fe15dc4f56e08d4cb0e6e0480f7a72d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_p_t_utilities_8h.html#a4fe15dc4f56e08d4cb0e6e0480f7a72d">CPTStringFromRect</a> (<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a> r)</td></tr>
 <tr class="memdesc:a4fe15dc4f56e08d4cb0e6e0480f7a72d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a string representation of the given rectangle.  <a href="#a4fe15dc4f56e08d4cb0e6e0480f7a72d"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">CGPoint Utilities</div></td></tr>
+<tr class="memitem:a4e2f173fa3724527e7af5d3a091b1563"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_p_t_utilities_8h.html#a4e2f173fa3724527e7af5d3a091b1563">squareOfDistanceBetweenPoints</a> (<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a> point1, <a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a> point2)</td></tr>
+<tr class="memdesc:a4e2f173fa3724527e7af5d3a091b1563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the square of the distance between two points.  <a href="#a4e2f173fa3724527e7af5d3a091b1563"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"></div><hr/><h2>Function Documentation</h2>
@@ -1726,6 +1729,43 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>A string with the format <code> {width, height}</code>. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4e2f173fa3724527e7af5d3a091b1563"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CGFloat <a class="el" href="_c_p_t_utilities_8m.html#a4e2f173fa3724527e7af5d3a091b1563">squareOfDistanceBetweenPoints</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>&#160;</td>
+          <td class="paramname"><em>point1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>&#160;</td>
+          <td class="paramname"><em>point2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Computes the square of the distance between two points. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">point1</td><td>The first point. </td></tr>
+    <tr><td class="paramname">point2</td><td>The second point. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>The square of the distance between the two points. </dd></dl>
 
 </div>
 </div>

@@ -129,6 +129,8 @@ Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
 <tr class="memitem:a0a667416c027447846109f1180aa30a1"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot.html#a0a667416c027447846109f1180aa30a1">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
 <tr class="memdesc:a0a667416c027447846109f1180aa30a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the receiver that the user has pressed the mouse button.  <a href="#a0a667416c027447846109f1180aa30a1"></a><br/></td></tr>
+<tr class="memitem:a84a31dbe697c028b41ffda5083daac65"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot.html#a84a31dbe697c028b41ffda5083daac65">dataIndexFromInteractionPoint:</a></td></tr>
+<tr class="memdesc:a84a31dbe697c028b41ffda5083daac65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the index of the data element that's under the given point.  <a href="#a84a31dbe697c028b41ffda5083daac65"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Fields</div></td></tr>
 <tr class="memitem:a7095b4dca95e6e93fb222aa5c0a96bce"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot.html#a7095b4dca95e6e93fb222aa5c0a96bce">numberOfFields</a></td></tr>
 <tr class="memdesc:a7095b4dca95e6e93fb222aa5c0a96bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of fields in a plot data record.  <a href="#a7095b4dca95e6e93fb222aa5c0a96bce"></a><br/></td></tr>
@@ -451,6 +453,32 @@ See <a class="el" href="group__plot_bindings.html">Plot Bindings</a> for a list 
 
 </div>
 </div>
+<a class="anchor" id="a84a31dbe697c028b41ffda5083daac65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>) <a class="el" href="interface_c_p_t_plot.html#a84a31dbe697c028b41ffda5083daac65">dataIndexFromInteractionPoint:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)&#160;</td>
+          <td class="paramname"><em>point</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Determines the index of the data element that's under the given point. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">point</td><td>The coordinates of the interaction. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>The index of the data point that's under the given point or NSNotFound if none was found. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aeda28869b1ab7bbcee58ced6635098bd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -616,7 +644,7 @@ See <a class="el" href="group__plot_bindings.html">Plot Bindings</a> for a list 
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_annotation_host_layer.html#ac807d655c49f678cfb5db1411506cbb5">CPTAnnotationHostLayer</a>.</p>
 
-<p>Reimplemented in <a class="el" href="interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393">CPTBarPlot</a>, <a class="el" href="interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b">CPTPieChart</a>, <a class="el" href="interface_c_p_t_scatter_plot.html#aa04e58896f986681b57b1443838fe4ba">CPTScatterPlot</a>, <a class="el" href="interface_c_p_t_trading_range_plot.html#aa40b57ba174b345669ea1b142254f8b8">CPTTradingRangePlot</a>, and <a class="el" href="interface_c_p_t_range_plot.html#aaa362f21ff912ab51d4c5b1c315e5400">CPTRangePlot</a>.</p>
+<p>Reimplemented in <a class="el" href="interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393">CPTBarPlot</a>, <a class="el" href="interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b">CPTPieChart</a>, <a class="el" href="interface_c_p_t_trading_range_plot.html#aa40b57ba174b345669ea1b142254f8b8">CPTTradingRangePlot</a>, <a class="el" href="interface_c_p_t_scatter_plot.html#aa04e58896f986681b57b1443838fe4ba">CPTScatterPlot</a>, and <a class="el" href="interface_c_p_t_range_plot.html#aaa362f21ff912ab51d4c5b1c315e5400">CPTRangePlot</a>.</p>
 
 </div>
 </div>
@@ -821,7 +849,7 @@ See <a class="el" href="group__plot_bindings.html">Plot Bindings</a> for a list 
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a2d6014b2ef18d540a36f69e63fbb5382">CPTLayer</a>.</p>
 
-<p>Reimplemented in <a class="el" href="interface_c_p_t_bar_plot.html#a2a84fda9ac02edf293d51f264436a4f6">CPTBarPlot</a>, <a class="el" href="interface_c_p_t_scatter_plot.html#a4601ba30081adefe769621da95329dd5">CPTScatterPlot</a>, and <a class="el" href="interface_c_p_t_pie_chart.html#ac6d95068f152d9e5d8aa076443859544">CPTPieChart</a>.</p>
+<p>Reimplemented in <a class="el" href="interface_c_p_t_trading_range_plot.html#af8ac0ddfb828f8d5f307285bc1cdb2c6">CPTTradingRangePlot</a>, <a class="el" href="interface_c_p_t_bar_plot.html#a2a84fda9ac02edf293d51f264436a4f6">CPTBarPlot</a>, <a class="el" href="interface_c_p_t_scatter_plot.html#a4601ba30081adefe769621da95329dd5">CPTScatterPlot</a>, <a class="el" href="interface_c_p_t_range_plot.html#aeedd5ba8460f0ebe119acdea5abf613c">CPTRangePlot</a>, and <a class="el" href="interface_c_p_t_pie_chart.html#ac6d95068f152d9e5d8aa076443859544">CPTPieChart</a>.</p>
 
 </div>
 </div>
