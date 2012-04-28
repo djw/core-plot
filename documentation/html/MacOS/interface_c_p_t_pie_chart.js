@@ -2,7 +2,7 @@ var interface_c_p_t_pie_chart =
 [
     [ "defaultPieSliceColorForIndex:", "interface_c_p_t_pie_chart.html#ad2efbb8005aebd12a9801a54edacf1ea", null ],
     [ "initWithFrame:", "interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b", null ],
-    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_pie_chart.html#ac6d95068f152d9e5d8aa076443859544", null ],
+    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_pie_chart.html#a01efe9e766b46553537673d947da309e", null ],
     [ "borderLineStyle", "interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3", null ],
     [ "centerAnchor", "group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c", null ],
     [ "endAngle", "group__plot_animation_pie_chart.html#ga1ec146fb288f43545adfd617014d7c94", null ],

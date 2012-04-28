@@ -1,7 +1,7 @@
 var interface_c_p_t_trading_range_plot =
 [
     [ "initWithFrame:", "interface_c_p_t_trading_range_plot.html#aa40b57ba174b345669ea1b142254f8b8", null ],
-    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_trading_range_plot.html#af8ac0ddfb828f8d5f307285bc1cdb2c6", null ],
+    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_trading_range_plot.html#adf3bb632f49fded3b806629623999bc6", null ],
     [ "barCornerRadius", "group__plot_animation_trading_range_plot.html#ga13215c9ee64730284c7b395c285e92db", null ],
     [ "barWidth", "group__plot_animation_trading_range_plot.html#ga17e4c2a24773233219fced333997f013", null ],
     [ "decreaseFill", "interface_c_p_t_trading_range_plot.html#ab27176fc26ab8914e3e1475d4b92cabe", null ],

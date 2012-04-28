@@ -1,8 +1,9 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="221,406,349,437"/>
-<area shape="rect" id="node13" href="$_c_p_t_graph_8h.html" title="CPTGraph.h" alt="" coords="378,86,475,117"/>
-<area shape="rect" id="node15" href="$_c_p_t_bordered_layer_8h.html" title="CPTBorderedLayer.h" alt="" coords="404,166,555,197"/>
-<area shape="rect" id="node18" href="$_c_p_t_annotation_host_layer_8h.html" title="CPTAnnotationHostLayer.h" alt="" coords="383,246,576,277"/>
-<area shape="rect" id="node20" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="433,326,525,357"/>
-<area shape="rect" id="node22" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="424,406,551,437"/>
+<area shape="rect" id="node3" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="395,406,524,437"/>
+<area shape="rect" id="node13" href="$_c_p_t_graph_8h.html" title="CPTGraph.h" alt="" coords="556,86,653,117"/>
+<area shape="rect" id="node15" href="$_c_p_t_bordered_layer_8h.html" title="CPTBorderedLayer.h" alt="" coords="587,166,737,197"/>
+<area shape="rect" id="node18" href="$_c_p_t_annotation_host_layer_8h.html" title="CPTAnnotationHostLayer.h" alt="" coords="565,246,759,277"/>
+<area shape="rect" id="node20" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="616,326,708,357"/>
+<area shape="rect" id="node22" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="618,406,744,437"/>
+<area shape="rect" id="node25" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="578,486,789,517"/>
 </map>

@@ -127,8 +127,8 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:a44f525ed96c9819b64fedc766feec98c"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">initWithFrame:</a><code> [implementation]</code></td></tr>
 <tr class="memdesc:a44f525ed96c9819b64fedc766feec98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_plot.html" title="An abstract plot class.">CPTPlot</a> object with the provided frame rectangle.  <a href="#a44f525ed96c9819b64fedc766feec98c"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">User Interaction</div></td></tr>
-<tr class="memitem:a0a667416c027447846109f1180aa30a1"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot.html#a0a667416c027447846109f1180aa30a1">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
-<tr class="memdesc:a0a667416c027447846109f1180aa30a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the receiver that the user has pressed the mouse button.  <a href="#a0a667416c027447846109f1180aa30a1"></a><br/></td></tr>
+<tr class="memitem:aa8b3f962b5b957dbdcb4df287b9b33bc"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot.html#aa8b3f962b5b957dbdcb4df287b9b33bc">pointingDeviceDownEvent:atPoint:</a><code> [implementation]</code></td></tr>
+<tr class="memdesc:aa8b3f962b5b957dbdcb4df287b9b33bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the receiver that the user has pressed the mouse button.  <a href="#aa8b3f962b5b957dbdcb4df287b9b33bc"></a><br/></td></tr>
 <tr class="memitem:a84a31dbe697c028b41ffda5083daac65"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot.html#a84a31dbe697c028b41ffda5083daac65">dataIndexFromInteractionPoint:</a></td></tr>
 <tr class="memdesc:a84a31dbe697c028b41ffda5083daac65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the index of the data element that's under the given point.  <a href="#a84a31dbe697c028b41ffda5083daac65"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Fields</div></td></tr>
@@ -811,14 +811,14 @@ See <a class="el" href="group__plot_bindings.html">Plot Bindings</a> for a list 
 
 </div>
 </div>
-<a class="anchor" id="a0a667416c027447846109f1180aa30a1"></a>
+<a class="anchor" id="aa8b3f962b5b957dbdcb4df287b9b33bc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">- (<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) pointingDeviceDownEvent: </td>
           <td></td>
-          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_platform_specific_defines_8h.html#a083121a0367e861b460a0007c779d422">CPTNativeEvent</a> *)&#160;</td>
           <td class="paramname"><em>event</em></td>
         </tr>
         <tr>
@@ -847,9 +847,9 @@ See <a class="el" href="group__plot_bindings.html">Plot Bindings</a> for a list 
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>Whether the event was handled or not. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a2d6014b2ef18d540a36f69e63fbb5382">CPTLayer</a>.</p>
+<p>Reimplemented from <a class="el" href="interface_c_p_t_layer.html#a01d9a8ac339b89631c3ce8f4fc785d46">CPTLayer</a>.</p>
 
-<p>Reimplemented in <a class="el" href="interface_c_p_t_trading_range_plot.html#af8ac0ddfb828f8d5f307285bc1cdb2c6">CPTTradingRangePlot</a>, <a class="el" href="interface_c_p_t_bar_plot.html#a2a84fda9ac02edf293d51f264436a4f6">CPTBarPlot</a>, <a class="el" href="interface_c_p_t_scatter_plot.html#a4601ba30081adefe769621da95329dd5">CPTScatterPlot</a>, <a class="el" href="interface_c_p_t_range_plot.html#aeedd5ba8460f0ebe119acdea5abf613c">CPTRangePlot</a>, and <a class="el" href="interface_c_p_t_pie_chart.html#ac6d95068f152d9e5d8aa076443859544">CPTPieChart</a>.</p>
+<p>Reimplemented in <a class="el" href="interface_c_p_t_trading_range_plot.html#adf3bb632f49fded3b806629623999bc6">CPTTradingRangePlot</a>, <a class="el" href="interface_c_p_t_bar_plot.html#a61249cfee58b15eea564fa0667c23b42">CPTBarPlot</a>, <a class="el" href="interface_c_p_t_scatter_plot.html#a20b580ab2ba747f8dcf116ebd78dbba6">CPTScatterPlot</a>, <a class="el" href="interface_c_p_t_range_plot.html#a2412c210d3fbdd64fe2a3fc0cd4a8749">CPTRangePlot</a>, and <a class="el" href="interface_c_p_t_pie_chart.html#a01efe9e766b46553537673d947da309e">CPTPieChart</a>.</p>
 
 </div>
 </div>

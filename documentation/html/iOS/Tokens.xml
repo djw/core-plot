@@ -11,6 +11,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTNativeEvent</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_platform_specific_defines_8h.html</Path>
+    <Anchor>a11ae78e634b63fe8bbf175f8db715c26</Anchor>
+    <Abstract>Platform-native OS event.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTPushCGContext</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -4704,7 +4714,7 @@
       <Scope>CPTBarPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bar_plot.html</Path>
-    <Anchor>a2a84fda9ac02edf293d51f264436a4f6</Anchor>
+    <Anchor>a61249cfee58b15eea564fa0667c23b42</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -6101,7 +6111,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>a9080d854d6172aee9b6c87eddf6ca210</Anchor>
+    <Anchor>a3a243e265538fcd389c5aebc50cfa79e</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -6112,7 +6122,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>afc9913d2f9d2b629757522ac514d5754</Anchor>
+    <Anchor>a90c1076be18edc004da37ed9bcd8895e</Anchor>
     <Abstract>Informs the receiver that the user has lifted their finger off the screen.</Abstract>
   </Token>
   <Token>
@@ -6123,7 +6133,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>ac9500271ddce0fd231fdadab1d1f54fb</Anchor>
+    <Anchor>abaedc2c315f45953c09a485c84bd79ab</Anchor>
     <Abstract>Informs the receiver that the user has moved their finger while touching the screen.</Abstract>
   </Token>
   <Token>
@@ -6134,7 +6144,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>a28bd4bb9bb1403625bc827471290be30</Anchor>
+    <Anchor>ade1996ed526f4e64cb770c7a92e1a8b7</Anchor>
     <Abstract>Informs the receiver that tracking of touches has been cancelled for any reason.</Abstract>
   </Token>
   <Token>
@@ -6595,7 +6605,7 @@
       <Scope>CPTLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2d6014b2ef18d540a36f69e63fbb5382</Anchor>
+    <Anchor>a01d9a8ac339b89631c3ce8f4fc785d46</Anchor>
     <Abstract>(Required) Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -6606,7 +6616,7 @@
       <Scope>CPTLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ae2fc98d78633968cb65822fe6346bfac</Anchor>
+    <Anchor>af6dc2ef2ad6aec078871ba8e933ec15d</Anchor>
     <Abstract>(Required) Informs the receiver that the user has lifted their finger off the screen.</Abstract>
   </Token>
   <Token>
@@ -6617,7 +6627,7 @@
       <Scope>CPTLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ae7b4be656ed917f72457d4a57ecc360e</Anchor>
+    <Anchor>a1726497f805f2ea612aa22ced9b04f19</Anchor>
     <Abstract>(Required) Informs the receiver that the user has moved their finger while touching the screen...</Abstract>
   </Token>
   <Token>
@@ -6628,7 +6638,7 @@
       <Scope>CPTLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ae47cd0a21d45a10aa6144f4a3eb3733e</Anchor>
+    <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
     <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
   </Token>
   <Token>
@@ -8597,7 +8607,7 @@
       <Scope>CPTPieChart</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_pie_chart.html</Path>
-    <Anchor>ac6d95068f152d9e5d8aa076443859544</Anchor>
+    <Anchor>a01efe9e766b46553537673d947da309e</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -8850,7 +8860,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a0a667416c027447846109f1180aa30a1</Anchor>
+    <Anchor>aa8b3f962b5b957dbdcb4df287b9b33bc</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -9928,7 +9938,7 @@
       <Scope>CPTPlotSpace</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
-    <Anchor>a5f621e3f307ef440d9b4a9ecbb877f64</Anchor>
+    <Anchor>af673f11ab0bbcbd03a84345b22646e6d</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -9939,7 +9949,7 @@
       <Scope>CPTPlotSpace</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
-    <Anchor>aac92939c1f1b4121f2e78f0bcdfaee8c</Anchor>
+    <Anchor>a47270a6ca503dc7e691bda3811d90724</Anchor>
     <Abstract>Informs the receiver that the user has lifted their finger off the screen.</Abstract>
   </Token>
   <Token>
@@ -9950,7 +9960,7 @@
       <Scope>CPTPlotSpace</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
-    <Anchor>ac96f5040ddddc97b4a1c03f97f2db235</Anchor>
+    <Anchor>ae943541548f44a0e96398c6331d5991f</Anchor>
     <Abstract>Informs the receiver that the user has moved their finger while touching the screen.</Abstract>
   </Token>
   <Token>
@@ -9961,7 +9971,7 @@
       <Scope>CPTPlotSpace</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
-    <Anchor>a643dcec3439e87950e59ab0648a4422c</Anchor>
+    <Anchor>ac13506e5cd0a592d71a822a711ed7b10</Anchor>
     <Abstract>Informs the receiver that tracking of touches has been cancelled for any reason.</Abstract>
   </Token>
   <Token>
@@ -10225,7 +10235,7 @@
       <Scope>CPTPlotSpaceDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_space_delegate-p.html</Path>
-    <Anchor>aa9a87e9bec8780a584777a379f06b73f</Anchor>
+    <Anchor>a7f9e7ef1e8d69786324efec6719f4684</Anchor>
     <Abstract>(Optional) Notifies that plot space intercepted a device down event.</Abstract>
   </Token>
   <Token>
@@ -10236,7 +10246,7 @@
       <Scope>CPTPlotSpaceDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_space_delegate-p.html</Path>
-    <Anchor>ac5024ee6422537523acedb0b94d21a9f</Anchor>
+    <Anchor>ad5cab960f1ecace02b8fc97d90dbe457</Anchor>
     <Abstract>(Optional) Notifies that plot space intercepted a device dragged event.</Abstract>
   </Token>
   <Token>
@@ -10247,7 +10257,7 @@
       <Scope>CPTPlotSpaceDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_space_delegate-p.html</Path>
-    <Anchor>a627105f0a2fd2b10e5b95a8eae67a355</Anchor>
+    <Anchor>a3af0a98f1335e004059e01628e9708c4</Anchor>
     <Abstract>(Optional) Notifies that plot space intercepted a device cancelled event.</Abstract>
   </Token>
   <Token>
@@ -10258,7 +10268,7 @@
       <Scope>CPTPlotSpaceDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_space_delegate-p.html</Path>
-    <Anchor>aa5d46c4cae89c924a4df89a061082631</Anchor>
+    <Anchor>a4aed90d7f6f54d4412a21aaac9e3e1f3</Anchor>
     <Abstract>(Optional) Notifies that plot space intercepted a device up event.</Abstract>
   </Token>
   <Token>
@@ -10544,7 +10554,7 @@
       <Scope>CPTRangePlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_range_plot.html</Path>
-    <Anchor>aeedd5ba8460f0ebe119acdea5abf613c</Anchor>
+    <Anchor>a2412c210d3fbdd64fe2a3fc0cd4a8749</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -10643,7 +10653,7 @@
       <Scope>CPTResponder-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_responder-p.html</Path>
-    <Anchor>a906fdd49f91a3cc2a9cadf0a1f7dd515</Anchor>
+    <Anchor>a8143e6f59b4f71b890aff1c53bd1deda</Anchor>
     <Abstract>(Required) Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -10654,7 +10664,7 @@
       <Scope>CPTResponder-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_responder-p.html</Path>
-    <Anchor>a10e0833efd588f761098eb8aa6ba9a9b</Anchor>
+    <Anchor>a74027c4e76c91673bc2919ac3160b838</Anchor>
     <Abstract>(Required) Informs the receiver that the user has lifted their finger off the screen.</Abstract>
   </Token>
   <Token>
@@ -10665,7 +10675,7 @@
       <Scope>CPTResponder-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_responder-p.html</Path>
-    <Anchor>a1d1dbd6f9e1e0336f0b6ef91015a26cf</Anchor>
+    <Anchor>af08fabf6e38adeff3178b955ec09f9c4</Anchor>
     <Abstract>(Required) Informs the receiver that the user has moved their finger while touching the screen...</Abstract>
   </Token>
   <Token>
@@ -10676,7 +10686,7 @@
       <Scope>CPTResponder-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_responder-p.html</Path>
-    <Anchor>a97e29015661d8cdfba700fc6aca55401</Anchor>
+    <Anchor>ae1e168c2cf883e9567e18a2ec7c1554c</Anchor>
     <Abstract>(Required) Informs the receiver that tracking of touches has been cancelled for any reason...</Abstract>
   </Token>
   <Token>
@@ -10797,7 +10807,7 @@
       <Scope>CPTScatterPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_scatter_plot.html</Path>
-    <Anchor>a4601ba30081adefe769621da95329dd5</Anchor>
+    <Anchor>a20b580ab2ba747f8dcf116ebd78dbba6</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -11369,7 +11379,7 @@
       <Scope>CPTTradingRangePlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_trading_range_plot.html</Path>
-    <Anchor>af8ac0ddfb828f8d5f307285bc1cdb2c6</Anchor>
+    <Anchor>adf3bb632f49fded3b806629623999bc6</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -11633,7 +11643,7 @@
       <Scope>CPTXYPlotSpace</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
-    <Anchor>a53eae728e6443a65d50f2720fa34503d</Anchor>
+    <Anchor>a2063259d8a95c15c563b67a30c271315</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
@@ -11644,7 +11654,7 @@
       <Scope>CPTXYPlotSpace</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
-    <Anchor>a07db9c5f6baa7fbb2b5eb3d3fe1ca153</Anchor>
+    <Anchor>a354a115c6fe52cefb705f2defe9dd462</Anchor>
     <Abstract>Informs the receiver that the user has lifted their finger off the screen.</Abstract>
   </Token>
   <Token>
@@ -11655,7 +11665,7 @@
       <Scope>CPTXYPlotSpace</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
-    <Anchor>aed72a16e1749da976ce78d94b42f3896</Anchor>
+    <Anchor>afe0c31b5a5442c2ec1b3b36584f6cefc</Anchor>
     <Abstract>Informs the receiver that the user has moved their finger while touching the screen.</Abstract>
   </Token>
   <Token>

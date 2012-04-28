@@ -81,18 +81,20 @@
 <a href="_c_p_t_responder_8h.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span>
 <a name="l00002"></a>00002 <span class="preprocessor">#import &lt;QuartzCore/QuartzCore.h&gt;</span>
 <a name="l00003"></a>00003 
-<a name="l00007"></a><a class="code" href="protocol_c_p_t_responder-p.html">00007</a> <span class="keyword">@protocol </span><a class="code" href="protocol_c_p_t_responder-p.html" title="The basis of all event processing in Core Plot.">CPTResponder</a>&lt;<a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a>&gt;
-<a name="l00008"></a>00008 
-<a name="l00011"></a>00011 
-<a name="l00020"></a>00020 -(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)pointingDeviceDownEvent:(<span class="keywordtype">id</span>)event atPoint:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)interactionPoint;
-<a name="l00021"></a>00021 
-<a name="l00030"></a>00030 -(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)pointingDeviceUpEvent:(<span class="keywordtype">id</span>)event atPoint:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)interactionPoint;
-<a name="l00031"></a>00031 
-<a name="l00040"></a>00040 -(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)pointingDeviceDraggedEvent:(<span class="keywordtype">id</span>)event atPoint:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)interactionPoint;
-<a name="l00041"></a>00041 
-<a name="l00050"></a>00050 -(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)pointingDeviceCancelledEvent:(<span class="keywordtype">id</span>)event;
-<a name="l00052"></a>00052 
-<a name="l00053"></a>00053 <span class="keyword">@end</span>
+<a name="l00004"></a>00004 <span class="preprocessor">#import &quot;<a class="code" href="_c_p_t_platform_specific_defines_8h.html">CPTPlatformSpecificDefines.h</a>&quot;</span>
+<a name="l00005"></a>00005 
+<a name="l00009"></a><a class="code" href="protocol_c_p_t_responder-p.html">00009</a> <span class="keyword">@protocol </span><a class="code" href="protocol_c_p_t_responder-p.html" title="The basis of all event processing in Core Plot.">CPTResponder</a>&lt;<a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a>&gt;
+<a name="l00010"></a>00010 
+<a name="l00013"></a>00013 
+<a name="l00022"></a>00022 -(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)pointingDeviceDownEvent:(<a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSEvent_Class/Reference/Reference.html">CPTNativeEvent</a> *)event atPoint:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)interactionPoint;
+<a name="l00023"></a>00023 
+<a name="l00032"></a>00032 -(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)pointingDeviceUpEvent:(<a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSEvent_Class/Reference/Reference.html">CPTNativeEvent</a> *)event atPoint:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)interactionPoint;
+<a name="l00033"></a>00033 
+<a name="l00042"></a>00042 -(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)pointingDeviceDraggedEvent:(<a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSEvent_Class/Reference/Reference.html">CPTNativeEvent</a> *)event atPoint:(<a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)interactionPoint;
+<a name="l00043"></a>00043 
+<a name="l00052"></a>00052 -(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)pointingDeviceCancelledEvent:(<a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSEvent_Class/Reference/Reference.html">CPTNativeEvent</a> *)event;
+<a name="l00054"></a>00054 
+<a name="l00055"></a>00055 <span class="keyword">@end</span>
 </pre></div></div><!-- contents -->
 </div>
   <div id="nav-path" class="navpath">

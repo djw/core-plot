@@ -1,7 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$_c_p_t_plot_space_8h.html" title="CPTPlotSpace.h" alt="" coords="329,166,449,197"/>
-<area shape="rect" id="node19" href="$_c_p_t_axis_set_8h.html" title="CPTAxisSet.h" alt="" coords="537,86,643,117"/>
-<area shape="rect" id="node22" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="473,166,565,197"/>
-<area shape="rect" id="node5" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="355,246,481,277"/>
-<area shape="rect" id="node11" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="202,246,331,277"/>
+<area shape="rect" id="node3" href="$_c_p_t_plot_space_8h.html" title="CPTPlotSpace.h" alt="" coords="362,166,483,197"/>
+<area shape="rect" id="node24" href="$_c_p_t_axis_set_8h.html" title="CPTAxisSet.h" alt="" coords="571,86,676,117"/>
+<area shape="rect" id="node27" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="507,166,599,197"/>
+<area shape="rect" id="node5" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="287,246,413,277"/>
+<area shape="rect" id="node16" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="489,246,617,277"/>
+<area shape="rect" id="node9" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="5,326,216,357"/>
 </map>

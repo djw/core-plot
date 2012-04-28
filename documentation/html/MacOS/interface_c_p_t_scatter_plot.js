@@ -4,7 +4,7 @@ var interface_c_p_t_scatter_plot =
     [ "initWithFrame:", "interface_c_p_t_scatter_plot.html#aa04e58896f986681b57b1443838fe4ba", null ],
     [ "plotAreaPointOfVisiblePointAtIndex:", "interface_c_p_t_scatter_plot.html#a3dfa49dc1c7aae889ca0834ae63dba45", null ],
     [ "plotSymbolForRecordIndex:", "interface_c_p_t_scatter_plot.html#a9f74ed3bfedfb98fc91ce0e485d9b2b9", null ],
-    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_scatter_plot.html#a4601ba30081adefe769621da95329dd5", null ],
+    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_scatter_plot.html#a20b580ab2ba747f8dcf116ebd78dbba6", null ],
     [ "areaBaseValue", "interface_c_p_t_scatter_plot.html#aea48c69d7c599ca618b0a0612abaeb59", null ],
     [ "areaBaseValue2", "interface_c_p_t_scatter_plot.html#afffaa2ceecb2df07f0215f59511a2659", null ],
     [ "areaFill", "interface_c_p_t_scatter_plot.html#a955037267ca08091d5ca7f2baab4e746", null ],
