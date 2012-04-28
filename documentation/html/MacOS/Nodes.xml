@@ -3214,6 +3214,11 @@
             <Path>protocol_c_p_t_plot_delegate-p.html</Path>
             <Subnodes>
              <Node>
+              <Name>didFinishDrawing:</Name>
+              <Path>protocol_c_p_t_plot_delegate-p.html</Path>
+              <Anchor>af68ded0e9746646e581c32b1aa999573</Anchor>
+             </Node>
+             <Node>
               <Name>plot:dataLabelWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_plot_delegate-p.html</Path>
               <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>

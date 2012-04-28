@@ -9603,6 +9603,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>didFinishDrawing:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_delegate-p.html</Path>
+    <Anchor>af68ded0e9746646e581c32b1aa999573</Anchor>
+    <Abstract>Informs the delegate that plot drawing is finished.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTPlotGroup</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
