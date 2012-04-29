@@ -111,6 +111,9 @@ Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Point Selection</div></td></tr>
 <tr class="memitem:ad6ca9ed72b54b2715f01c95d086eb78b"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_delegate-p.html#ad6ca9ed72b54b2715f01c95d086eb78b">plot:dataLabelWasSelectedAtRecordIndex:</a></td></tr>
 <tr class="memdesc:ad6ca9ed72b54b2715f01c95d086eb78b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Informs the delegate that a data label was touched.  <a href="#ad6ca9ed72b54b2715f01c95d086eb78b"></a><br/></td></tr>
+<tr class="memitem:aca6e11525937a7d62f66694d5915eb9e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_delegate-p.html#aca6e11525937a7d62f66694d5915eb9e">plot:dataLabelWasSelectedAtRecordIndex:withEvent:</a></td></tr>
+<tr class="memdesc:aca6e11525937a7d62f66694d5915eb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Informs the delegate that a data label was touched.  <a href="#aca6e11525937a7d62f66694d5915eb9e"></a><br/></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Drawing</div></td></tr>
 <tr class="memitem:af68ded0e9746646e581c32b1aa999573"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_delegate-p.html#af68ded0e9746646e581c32b1aa999573">didFinishDrawing:</a></td></tr>
 <tr class="memdesc:af68ded0e9746646e581c32b1aa999573"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the delegate that plot drawing is finished.  <a href="#af68ded0e9746646e581c32b1aa999573"></a><br/></td></tr>
 </table>
@@ -172,6 +175,49 @@ Public Instance Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The plot. </td></tr>
     <tr><td class="paramname">index</td><td>The index of the touched data label. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aca6e11525937a7d62f66694d5915eb9e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) plot: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot.html">CPTPlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">dataLabelWasSelectedAtRecordIndex:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)&#160;</td>
+          <td class="paramname"><em>index</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withEvent:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_platform_specific_defines_8h.html#a11ae78e634b63fe8bbf175f8db715c26">CPTNativeEvent</a> *)&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>(Optional) Informs the delegate that a data label was touched. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plot</td><td>The plot. </td></tr>
+    <tr><td class="paramname">index</td><td>The index of the touched data label. </td></tr>
+    <tr><td class="paramname">event</td><td>The event that triggered the selection. </td></tr>
   </table>
   </dd>
 </dl>

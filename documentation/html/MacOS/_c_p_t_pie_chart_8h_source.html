@@ -133,35 +133,37 @@
 <a name="l00095"></a>00095 
 <a name="l00104"></a>00104 -(void)pieChart:(<a class="code" href="interface_c_p_t_pie_chart.html" title="A pie chart.">CPTPieChart</a> *)plot sliceWasSelectedAtRecordIndex:(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)index;
 <a name="l00105"></a>00105 
-<a name="l00107"></a>00107 
-<a name="l00108"></a>00108 <span class="keyword">@end</span>
-<a name="l00109"></a>00109 
-<a name="l00110"></a>00110 <span class="preprocessor">#pragma mark -</span>
-<a name="l00111"></a>00111 <span class="preprocessor"></span>
-<a name="l00112"></a><a class="code" href="interface_c_p_t_pie_chart.html">00112</a> <span class="keyword">@interface </span><a class="code" href="interface_c_p_t_pie_chart.html" title="A pie chart.">CPTPieChart</a> : <a class="code" href="interface_c_p_t_plot.html" title="An abstract plot class.">CPTPlot</a> {
-<a name="l00113"></a>00113     <span class="keyword">@private</span>
-<a name="l00114"></a><a class="code" href="group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea">00114</a>     CGFloat <a class="code" href="group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea" title="The radius of the overall pie chart. Defaults to 80% of the initial frame size.">pieRadius</a>;
-<a name="l00115"></a><a class="code" href="group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e">00115</a>     CGFloat <a class="code" href="group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e" title="The inner radius of the pie chart, used to create a &quot;donut hole&quot;. Defaults to 0.">pieInnerRadius</a>;
-<a name="l00116"></a><a class="code" href="group__plot_animation_pie_chart.html#ga139122421a061b2ca1622bdebca5b1c3">00116</a>     CGFloat <a class="code" href="group__plot_animation_pie_chart.html#ga139122421a061b2ca1622bdebca5b1c3" title="The starting angle for the first slice in radians. Defaults to π/2.">startAngle</a>;
-<a name="l00117"></a><a class="code" href="group__plot_animation_pie_chart.html#ga1ec146fb288f43545adfd617014d7c94">00117</a>     CGFloat <a class="code" href="group__plot_animation_pie_chart.html#ga1ec146fb288f43545adfd617014d7c94" title="The ending angle for the last slice in radians. If NAN, the ending angle is the same as the start ang...">endAngle</a>;
-<a name="l00118"></a><a class="code" href="interface_c_p_t_pie_chart.html#ad0218003271a042fe4f1d81df50f3bd1">00118</a>     <a class="code" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1" title="Enumeration of pie slice drawing directions.">CPTPieDirection</a> <a class="code" href="interface_c_p_t_pie_chart.html#ad0218003271a042fe4f1d81df50f3bd1" title="Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the st...">sliceDirection</a>;
-<a name="l00119"></a><a class="code" href="group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c">00119</a>     <a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a> <a class="code" href="group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c" title="The position of the center of the pie chart with the x and y coordinates given as a fraction of the w...">centerAnchor</a>;
-<a name="l00120"></a><a class="code" href="interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3">00120</a>     <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *<a class="code" href="interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3" title="The line style used to outline the pie slices. If nil, no border is drawn. Defaults to nil...">borderLineStyle</a>;
-<a name="l00121"></a><a class="code" href="interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51">00121</a>     <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *<a class="code" href="interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51" title="A fill drawn on top of the pie chart. Can be used to add shading and/or gloss effects. Defaults to nil.">overlayFill</a>;
-<a name="l00122"></a>00122 }
-<a name="l00123"></a>00123 
-<a name="l00124"></a>00124 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat pieRadius;
-<a name="l00125"></a>00125 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat pieInnerRadius;
-<a name="l00126"></a>00126 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat startAngle;
-<a name="l00127"></a>00127 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat endAngle;
-<a name="l00128"></a>00128 <span class="keyword">@property</span> (nonatomic, readwrite) <a class="code" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1" title="Enumeration of pie slice drawing directions.">CPTPieDirection</a> sliceDirection;
-<a name="l00129"></a>00129 <span class="keyword">@property</span> (nonatomic, readwrite) <a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a> centerAnchor;
-<a name="l00130"></a>00130 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *borderLineStyle;
-<a name="l00131"></a>00131 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *overlayFill;
-<a name="l00132"></a>00132 
-<a name="l00135"></a>00135 +(<a class="code" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a> *)defaultPieSliceColorForIndex:(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)pieSliceIndex;
-<a name="l00137"></a>00137 
-<a name="l00138"></a>00138 <span class="keyword">@end</span>
+<a name="l00115"></a>00115 -(void)pieChart:(<a class="code" href="interface_c_p_t_pie_chart.html" title="A pie chart.">CPTPieChart</a> *)plot sliceWasSelectedAtRecordIndex:(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)index withEvent:(<a class="codeRef" href="http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSEvent_Class/Reference/Reference.html">CPTNativeEvent</a> *)event;
+<a name="l00116"></a>00116 
+<a name="l00118"></a>00118 
+<a name="l00119"></a>00119 <span class="keyword">@end</span>
+<a name="l00120"></a>00120 
+<a name="l00121"></a>00121 <span class="preprocessor">#pragma mark -</span>
+<a name="l00122"></a>00122 <span class="preprocessor"></span>
+<a name="l00123"></a><a class="code" href="interface_c_p_t_pie_chart.html">00123</a> <span class="keyword">@interface </span><a class="code" href="interface_c_p_t_pie_chart.html" title="A pie chart.">CPTPieChart</a> : <a class="code" href="interface_c_p_t_plot.html" title="An abstract plot class.">CPTPlot</a> {
+<a name="l00124"></a>00124     <span class="keyword">@private</span>
+<a name="l00125"></a><a class="code" href="group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea">00125</a>     CGFloat <a class="code" href="group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea" title="The radius of the overall pie chart. Defaults to 80% of the initial frame size.">pieRadius</a>;
+<a name="l00126"></a><a class="code" href="group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e">00126</a>     CGFloat <a class="code" href="group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e" title="The inner radius of the pie chart, used to create a &quot;donut hole&quot;. Defaults to 0.">pieInnerRadius</a>;
+<a name="l00127"></a><a class="code" href="group__plot_animation_pie_chart.html#ga139122421a061b2ca1622bdebca5b1c3">00127</a>     CGFloat <a class="code" href="group__plot_animation_pie_chart.html#ga139122421a061b2ca1622bdebca5b1c3" title="The starting angle for the first slice in radians. Defaults to π/2.">startAngle</a>;
+<a name="l00128"></a><a class="code" href="group__plot_animation_pie_chart.html#ga1ec146fb288f43545adfd617014d7c94">00128</a>     CGFloat <a class="code" href="group__plot_animation_pie_chart.html#ga1ec146fb288f43545adfd617014d7c94" title="The ending angle for the last slice in radians. If NAN, the ending angle is the same as the start ang...">endAngle</a>;
+<a name="l00129"></a><a class="code" href="interface_c_p_t_pie_chart.html#ad0218003271a042fe4f1d81df50f3bd1">00129</a>     <a class="code" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1" title="Enumeration of pie slice drawing directions.">CPTPieDirection</a> <a class="code" href="interface_c_p_t_pie_chart.html#ad0218003271a042fe4f1d81df50f3bd1" title="Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the st...">sliceDirection</a>;
+<a name="l00130"></a><a class="code" href="group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c">00130</a>     <a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a> <a class="code" href="group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c" title="The position of the center of the pie chart with the x and y coordinates given as a fraction of the w...">centerAnchor</a>;
+<a name="l00131"></a><a class="code" href="interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3">00131</a>     <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *<a class="code" href="interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3" title="The line style used to outline the pie slices. If nil, no border is drawn. Defaults to nil...">borderLineStyle</a>;
+<a name="l00132"></a><a class="code" href="interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51">00132</a>     <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *<a class="code" href="interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51" title="A fill drawn on top of the pie chart. Can be used to add shading and/or gloss effects. Defaults to nil.">overlayFill</a>;
+<a name="l00133"></a>00133 }
+<a name="l00134"></a>00134 
+<a name="l00135"></a>00135 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat pieRadius;
+<a name="l00136"></a>00136 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat pieInnerRadius;
+<a name="l00137"></a>00137 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat startAngle;
+<a name="l00138"></a>00138 <span class="keyword">@property</span> (nonatomic, readwrite) CGFloat endAngle;
+<a name="l00139"></a>00139 <span class="keyword">@property</span> (nonatomic, readwrite) <a class="code" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1" title="Enumeration of pie slice drawing directions.">CPTPieDirection</a> sliceDirection;
+<a name="l00140"></a>00140 <span class="keyword">@property</span> (nonatomic, readwrite) <a class="codeRef" href="http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a> centerAnchor;
+<a name="l00141"></a>00141 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *borderLineStyle;
+<a name="l00142"></a>00142 <span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *overlayFill;
+<a name="l00143"></a>00143 
+<a name="l00146"></a>00146 +(<a class="code" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a> *)defaultPieSliceColorForIndex:(<a class="codeRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)pieSliceIndex;
+<a name="l00148"></a>00148 
+<a name="l00149"></a>00149 <span class="keyword">@end</span>
 </pre></div></div><!-- contents -->
 </div>
   <div id="nav-path" class="navpath">

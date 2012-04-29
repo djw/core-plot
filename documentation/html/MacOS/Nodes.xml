@@ -1025,6 +1025,11 @@
               <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
               <Anchor>a045bf92ef3b534c9b367aadbb155d086</Anchor>
              </Node>
+             <Node>
+              <Name>barPlot:barWasSelectedAtRecordIndex:withEvent:</Name>
+              <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
+              <Anchor>aa730508fe533648e040d3b15afd80001</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -2828,6 +2833,11 @@
               <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
               <Anchor>af6c6cf7f61a0cd35fd05928e45a8e2ca</Anchor>
              </Node>
+             <Node>
+              <Name>pieChart:sliceWasSelectedAtRecordIndex:withEvent:</Name>
+              <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
+              <Anchor>a3a32631d407cd002bdafe97ee0af60db</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -3222,6 +3232,11 @@
               <Name>plot:dataLabelWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_plot_delegate-p.html</Path>
               <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+             </Node>
+             <Node>
+              <Name>plot:dataLabelWasSelectedAtRecordIndex:withEvent:</Name>
+              <Path>protocol_c_p_t_plot_delegate-p.html</Path>
+              <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3691,6 +3706,11 @@
               <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
               <Anchor>a74b148579f4033d70be59a2a6ebc5463</Anchor>
              </Node>
+             <Node>
+              <Name>rangePlot:rangeWasSelectedAtRecordIndex:withEvent:</Name>
+              <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
+              <Anchor>a8dbdfb7e0fa0ca835d0cb3e3c99501b0</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -3840,6 +3860,11 @@
               <Name>scatterPlot:plotSymbolWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
               <Anchor>adb2b5b0dc2c027e3056d645ddff2420e</Anchor>
+             </Node>
+             <Node>
+              <Name>scatterPlot:plotSymbolWasSelectedAtRecordIndex:withEvent:</Name>
+              <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
+              <Anchor>a56d4c1d60f795575229583b649f55ef5</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4097,6 +4122,11 @@
               <Name>tradingRangePlot:barWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
               <Anchor>a93ea9a1210ada3f0921a3a57274bc3d7</Anchor>
+             </Node>
+             <Node>
+              <Name>tradingRangePlot:barWasSelectedAtRecordIndex:withEvent:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
+              <Anchor>abd79cb81cdbbb29776e9e4e146271202</Anchor>
              </Node>
             </Subnodes>
            </Node>

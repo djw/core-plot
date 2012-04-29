@@ -4917,6 +4917,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>barPlot:barWasSelectedAtRecordIndex:withEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTBarPlotDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
+    <Anchor>aa730508fe533648e040d3b15afd80001</Anchor>
+    <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTBorderedLayer</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -8766,6 +8777,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>pieChart:sliceWasSelectedAtRecordIndex:withEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPieChartDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
+    <Anchor>a3a32631d407cd002bdafe97ee0af60db</Anchor>
+    <Abstract>(Optional) Informs the delegate that a pie slice was touched.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTPlot</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -9609,6 +9631,17 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
     <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+    <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>plot:dataLabelWasSelectedAtRecordIndex:withEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_delegate-p.html</Path>
+    <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
   </Token>
   <Token>
@@ -10636,6 +10669,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>rangePlot:rangeWasSelectedAtRecordIndex:withEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTRangePlotDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
+    <Anchor>a8dbdfb7e0fa0ca835d0cb3e3c99501b0</Anchor>
+    <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTResponder</Name>
       <APILanguage>c</APILanguage>
       <Type>intf</Type>
@@ -10951,6 +10995,17 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
     <Anchor>adb2b5b0dc2c027e3056d645ddff2420e</Anchor>
+    <Abstract>(Optional) Informs the delegate that a data point was touched.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scatterPlot:plotSymbolWasSelectedAtRecordIndex:withEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTScatterPlotDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
+    <Anchor>a56d4c1d60f795575229583b649f55ef5</Anchor>
     <Abstract>(Optional) Informs the delegate that a data point was touched.</Abstract>
   </Token>
   <Token>
@@ -11501,6 +11556,17 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
     <Anchor>a93ea9a1210ada3f0921a3a57274bc3d7</Anchor>
+    <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tradingRangePlot:barWasSelectedAtRecordIndex:withEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
+    <Anchor>abd79cb81cdbbb29776e9e4e146271202</Anchor>
     <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
   </Token>
   <Token>
