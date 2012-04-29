@@ -145,17 +145,21 @@
 <a name="l00143"></a>00143 -(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)plotAreaViewPointForDoublePrecisionPlotPoint:(<span class="keywordtype">double</span> *)plotPoint;
 <a name="l00144"></a>00144 -(void)plotPoint:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a> *)plotPoint forPlotAreaViewPoint:(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)point;
 <a name="l00145"></a>00145 -(void)doublePrecisionPlotPoint:(<span class="keywordtype">double</span> *)plotPoint forPlotAreaViewPoint:(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)point;
-<a name="l00147"></a>00147 
-<a name="l00150"></a>00150 -(void)setPlotRange:(<a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *)newRange forCoordinate:(<a class="code" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b" title="Enumeration of axis coordinates.">CPTCoordinate</a>)coordinate;
-<a name="l00151"></a>00151 -(<a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *)plotRangeForCoordinate:(<a class="code" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b" title="Enumeration of axis coordinates.">CPTCoordinate</a>)coordinate;
-<a name="l00153"></a>00153 
-<a name="l00156"></a>00156 -(void)setScaleType:(<a class="code" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a" title="Enumeration of axis scale types.">CPTScaleType</a>)newType forCoordinate:(<a class="code" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b" title="Enumeration of axis coordinates.">CPTCoordinate</a>)coordinate;
-<a name="l00157"></a>00157 -(<a class="code" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a" title="Enumeration of axis scale types.">CPTScaleType</a>)scaleTypeForCoordinate:(<a class="code" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b" title="Enumeration of axis coordinates.">CPTCoordinate</a>)coordinate;
-<a name="l00159"></a>00159 
-<a name="l00162"></a>00162 -(void)scaleToFitPlots:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)plots;
-<a name="l00163"></a>00163 -(void)scaleBy:(CGFloat)interactionScale aboutPoint:(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)interactionPoint;
-<a name="l00165"></a>00165 
-<a name="l00166"></a>00166 <span class="keyword">@end</span>
+<a name="l00146"></a>00146 
+<a name="l00147"></a>00147 -(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)plotAreaViewPointForEvent:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/UIKit/Reference/UIEvent_Class/Reference/Reference.html">CPTNativeEvent</a> *)event;
+<a name="l00148"></a>00148 -(void)plotPoint:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSDecimal</a> *)plotPoint forEvent:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/UIKit/Reference/UIEvent_Class/Reference/Reference.html">CPTNativeEvent</a> *)event;
+<a name="l00149"></a>00149 -(void)doublePrecisionPlotPoint:(<span class="keywordtype">double</span> *)plotPoint forEvent:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/UIKit/Reference/UIEvent_Class/Reference/Reference.html">CPTNativeEvent</a> *)event;
+<a name="l00151"></a>00151 
+<a name="l00154"></a>00154 -(void)setPlotRange:(<a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *)newRange forCoordinate:(<a class="code" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b" title="Enumeration of axis coordinates.">CPTCoordinate</a>)coordinate;
+<a name="l00155"></a>00155 -(<a class="code" href="interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data.">CPTPlotRange</a> *)plotRangeForCoordinate:(<a class="code" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b" title="Enumeration of axis coordinates.">CPTCoordinate</a>)coordinate;
+<a name="l00157"></a>00157 
+<a name="l00160"></a>00160 -(void)setScaleType:(<a class="code" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a" title="Enumeration of axis scale types.">CPTScaleType</a>)newType forCoordinate:(<a class="code" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b" title="Enumeration of axis coordinates.">CPTCoordinate</a>)coordinate;
+<a name="l00161"></a>00161 -(<a class="code" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a" title="Enumeration of axis scale types.">CPTScaleType</a>)scaleTypeForCoordinate:(<a class="code" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b" title="Enumeration of axis coordinates.">CPTCoordinate</a>)coordinate;
+<a name="l00163"></a>00163 
+<a name="l00166"></a>00166 -(void)scaleToFitPlots:(<a class="codeRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)plots;
+<a name="l00167"></a>00167 -(void)scaleBy:(CGFloat)interactionScale aboutPoint:(<a class="codeRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>)interactionPoint;
+<a name="l00169"></a>00169 
+<a name="l00170"></a>00170 <span class="keyword">@end</span>
 </pre></div></div><!-- contents -->
 </div>
   <div id="nav-path" class="navpath">

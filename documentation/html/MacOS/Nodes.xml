@@ -1652,6 +1652,11 @@
               <Anchor>a26cfc91a892e027a0b48f59f9a8cdf0a</Anchor>
              </Node>
              <Node>
+              <Name>hostingView</Name>
+              <Path>interface_c_p_t_graph.html</Path>
+              <Anchor>a1e8a9340b4ddc3228797cceabb382b48</Anchor>
+             </Node>
+             <Node>
               <Name>legend</Name>
               <Path>interface_c_p_t_graph.html</Path>
               <Anchor>a1ba308c58863ea5ee170852297f39443</Anchor>
@@ -3382,6 +3387,11 @@
             <Path>interface_c_p_t_plot_space.html</Path>
             <Subnodes>
              <Node>
+              <Name>doublePrecisionPlotPoint:forEvent:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>a603876ee6cf8bcef05d08dafaca238a1</Anchor>
+             </Node>
+             <Node>
               <Name>doublePrecisionPlotPoint:forPlotAreaViewPoint:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
               <Anchor>a82b5a9d6a4ec2e1c26852136dafec971</Anchor>
@@ -3392,9 +3402,19 @@
               <Anchor>a067fe72a5a6181ee7251db05aff0522f</Anchor>
              </Node>
              <Node>
+              <Name>plotAreaViewPointForEvent:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>ab0e0b6301e1b13e6461b62cfbd2b69da</Anchor>
+             </Node>
+             <Node>
               <Name>plotAreaViewPointForPlotPoint:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
               <Anchor>a44bfc5a4d3e11c01346759df6973b00a</Anchor>
+             </Node>
+             <Node>
+              <Name>plotPoint:forEvent:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>ae30850cdd0463cf64596383e6020b08f</Anchor>
              </Node>
              <Node>
               <Name>plotPoint:forPlotAreaViewPoint:</Name>

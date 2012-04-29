@@ -1,3 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$_c_p_t_graph_hosting_view_8m.html" title="MacOnly/CPTGraphHostingView.m" alt="" coords="4,86,248,117"/>
+<area shape="rect" id="node3" href="$_c_p_t_graph_8m.html" title="Source/CPTGraph.m" alt="" coords="5,86,157,117"/>
+<area shape="rect" id="node5" href="$_c_p_t_x_y_plot_space_8m.html" title="Source/CPTXYPlotSpace.m" alt="" coords="182,86,372,117"/>
+<area shape="rect" id="node7" href="$_c_p_t_graph_hosting_view_8m.html" title="MacOnly/CPTGraphHostingView.m" alt="" coords="398,86,641,117"/>
 </map>

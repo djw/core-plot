@@ -6182,6 +6182,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>hostingView</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTGraph</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_graph.html</Path>
+    <Anchor>a1e8a9340b4ddc3228797cceabb382b48</Anchor>
+    <Abstract>The hosting view that contains the graph.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>title</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -10050,6 +10061,39 @@
     <Path>interface_c_p_t_plot_space.html</Path>
     <Anchor>a82b5a9d6a4ec2e1c26852136dafec971</Anchor>
     <Abstract>Converts a point given in drawing coordinates to the data coordinate space.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>plotAreaViewPointForEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlotSpace</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot_space.html</Path>
+    <Anchor>ab0e0b6301e1b13e6461b62cfbd2b69da</Anchor>
+    <Abstract>Converts the interaction point of an OS event to plot area drawing coordinates.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>plotPoint:forEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlotSpace</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot_space.html</Path>
+    <Anchor>ae30850cdd0463cf64596383e6020b08f</Anchor>
+    <Abstract>Converts the interaction point of an OS event to the data coordinate space.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>doublePrecisionPlotPoint:forEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlotSpace</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot_space.html</Path>
+    <Anchor>a603876ee6cf8bcef05d08dafaca238a1</Anchor>
+    <Abstract>Converts the interaction point of an OS event to the data coordinate space.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -26,6 +26,7 @@ var interface_c_p_t_graph =
     [ "removePlotWithIdentifier:", "interface_c_p_t_graph.html#a435400c6b127ec31e8bfb8f2eeb5a5ff", null ],
     [ "axisSet", "interface_c_p_t_graph.html#a9e9ffee305f5db7dd1084f3f7bd1c6b2", null ],
     [ "defaultPlotSpace", "interface_c_p_t_graph.html#a26cfc91a892e027a0b48f59f9a8cdf0a", null ],
+    [ "hostingView", "interface_c_p_t_graph.html#a1e8a9340b4ddc3228797cceabb382b48", null ],
     [ "legend", "interface_c_p_t_graph.html#a1ba308c58863ea5ee170852297f39443", null ],
     [ "legendAnchor", "interface_c_p_t_graph.html#a8a257064dc5f639ccf8a9ec1a96e2156", null ],
     [ "legendDisplacement", "group__graph_animation.html#ga9a789e5f5d1eeaa5428b940515dd8987", null ],

@@ -167,6 +167,9 @@ Public Instance Methods</h2></td></tr>
 <tr class="memdesc:ad29ea84f5fb77006c0d0a6860401450e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new axis set for the graph.  <a href="#ad29ea84f5fb77006c0d0a6860401450e"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="properties"></a>
 Properties</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Hosting View</div></td></tr>
+<tr class="memitem:a1e8a9340b4ddc3228797cceabb382b48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576">__cpt_weak</a> <a class="el" href="interface_c_p_t_graph_hosting_view.html">CPTGraphHostingView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_graph.html#a1e8a9340b4ddc3228797cceabb382b48">hostingView</a></td></tr>
+<tr class="memdesc:a1e8a9340b4ddc3228797cceabb382b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">The hosting view that contains the graph.  <a href="#a1e8a9340b4ddc3228797cceabb382b48"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Title</div></td></tr>
 <tr class="memitem:aa1cb1af066b4049a559ab7d511e85cd7"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_graph.html#aa1cb1af066b4049a559ab7d511e85cd7">title</a></td></tr>
 <tr class="memdesc:aa1cb1af066b4049a559ab7d511e85cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The title string. Default is <code>nil</code>.  <a href="#aa1cb1af066b4049a559ab7d511e85cd7"></a><br/></td></tr>
@@ -367,6 +370,7 @@ Properties</h2></td></tr>
 <p>Initializes a newly allocated <a class="el" href="interface_c_p_t_graph.html" title="An abstract graph class.">CPTGraph</a> object with the provided frame rectangle. </p>
 <p>This is the designated initializer. The initialized layer will have the following properties:</p>
 <ul>
+<li><a class="el" href="interface_c_p_t_graph.html#a1e8a9340b4ddc3228797cceabb382b48">hostingView </a> = <code>nil</code></li>
 <li><a class="el" href="interface_c_p_t_graph.html#aa1cb1af066b4049a559ab7d511e85cd7">title </a> = <code>nil</code></li>
 <li><a class="el" href="interface_c_p_t_graph.html#acfbe62cd094b4ab049b7676bbedcc523">titlePlotAreaFrameAnchor </a> = <a class="el" href="_c_p_t_definitions_8h.html#a5b44b53a69133d08c14160311e925040abf3106bc899e0927d2edb5f6b407ddf9" title="The top center.">CPTRectAnchorTop</a></li>
 <li><a class="el" href="interface_c_p_t_graph.html#a9e2606fb9a5656b03ff2f80be2c942bf">titleTextStyle </a> = default text style</li>
@@ -928,6 +932,21 @@ Properties</h2></td></tr>
 <div class="memdoc">
 
 <p>The default plot space. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1e8a9340b4ddc3228797cceabb382b48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTGraph:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>The hosting view that contains the graph. </p>
 
 </div>
 </div>

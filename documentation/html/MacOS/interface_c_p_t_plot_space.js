@@ -1,8 +1,11 @@
 var interface_c_p_t_plot_space =
 [
+    [ "doublePrecisionPlotPoint:forEvent:", "interface_c_p_t_plot_space.html#a603876ee6cf8bcef05d08dafaca238a1", null ],
     [ "doublePrecisionPlotPoint:forPlotAreaViewPoint:", "interface_c_p_t_plot_space.html#a82b5a9d6a4ec2e1c26852136dafec971", null ],
     [ "plotAreaViewPointForDoublePrecisionPlotPoint:", "interface_c_p_t_plot_space.html#a067fe72a5a6181ee7251db05aff0522f", null ],
+    [ "plotAreaViewPointForEvent:", "interface_c_p_t_plot_space.html#ab0e0b6301e1b13e6461b62cfbd2b69da", null ],
     [ "plotAreaViewPointForPlotPoint:", "interface_c_p_t_plot_space.html#a44bfc5a4d3e11c01346759df6973b00a", null ],
+    [ "plotPoint:forEvent:", "interface_c_p_t_plot_space.html#ae30850cdd0463cf64596383e6020b08f", null ],
     [ "plotPoint:forPlotAreaViewPoint:", "interface_c_p_t_plot_space.html#a111b243e99d0e85c32f28d216aa6a3ed", null ],
     [ "plotRangeForCoordinate:", "interface_c_p_t_plot_space.html#a3aa2997fb48c06d37e50ff1d114ad7df", null ],
     [ "pointingDeviceCancelledEvent:", "interface_c_p_t_plot_space.html#ac13506e5cd0a592d71a822a711ed7b10", null ],
