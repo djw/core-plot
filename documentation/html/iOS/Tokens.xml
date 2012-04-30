@@ -10526,6 +10526,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>anchorPoint</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlotSymbol</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot_symbol.html</Path>
+    <Anchor>ad771f7c46e12964505d1e0e93ea78112</Anchor>
+    <Abstract>The anchor point for the plot symbol. Defaults to (0.5, 0.5) which centers the symbol on the plot poi...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>size</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>

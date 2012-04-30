@@ -15,6 +15,7 @@ var interface_c_p_t_plot_symbol =
     [ "snowPlotSymbol", "interface_c_p_t_plot_symbol.html#ad37168ea22df9dccda63efcdd8f34555", null ],
     [ "starPlotSymbol", "interface_c_p_t_plot_symbol.html#a7bab94b965c138b5b17b1d2f425a1eff", null ],
     [ "trianglePlotSymbol", "interface_c_p_t_plot_symbol.html#a90309e41b8fb0a83b7f55166392fb3be", null ],
+    [ "anchorPoint", "interface_c_p_t_plot_symbol.html#ad771f7c46e12964505d1e0e93ea78112", null ],
     [ "customSymbolPath", "interface_c_p_t_plot_symbol.html#a7fb7203d82b3912d2509bd153b656ced", null ],
     [ "fill", "interface_c_p_t_plot_symbol.html#a33b1fe3c851abbfb2e64bf15fc0791db", null ],
     [ "lineStyle", "interface_c_p_t_plot_symbol.html#af97656cacb3f1dc31c6fb2b0f3b2b166", null ],

@@ -3492,6 +3492,11 @@
               <Anchor>a90309e41b8fb0a83b7f55166392fb3be</Anchor>
              </Node>
              <Node>
+              <Name>anchorPoint</Name>
+              <Path>interface_c_p_t_plot_symbol.html</Path>
+              <Anchor>ad771f7c46e12964505d1e0e93ea78112</Anchor>
+             </Node>
+             <Node>
               <Name>customSymbolPath</Name>
               <Path>interface_c_p_t_plot_symbol.html</Path>
               <Anchor>a7fb7203d82b3912d2509bd153b656ced</Anchor>
