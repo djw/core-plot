@@ -2782,6 +2782,11 @@
               <Anchor>ga1ec146fb288f43545adfd617014d7c94</Anchor>
              </Node>
              <Node>
+              <Name>labelRotationRelativeToRadius</Name>
+              <Path>interface_c_p_t_pie_chart.html</Path>
+              <Anchor>a696510978f4d118239d2d90e96c65e1c</Anchor>
+             </Node>
+             <Node>
               <Name>overlayFill</Name>
               <Path>interface_c_p_t_pie_chart.html</Path>
               <Anchor>a25deafa6f8e629789652c90789f19b51</Anchor>

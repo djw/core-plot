@@ -9035,6 +9035,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>labelRotationRelativeToRadius</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPieChart</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_pie_chart.html</Path>
+    <Anchor>a696510978f4d118239d2d90e96c65e1c</Anchor>
+    <Abstract>If NO, the default, the data labels are rotated relative to the default coordinate system (the positi...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTPieChartDataSource</Name>
       <APILanguage>c</APILanguage>
       <Type>intf</Type>

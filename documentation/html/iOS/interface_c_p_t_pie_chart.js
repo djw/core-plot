@@ -6,6 +6,7 @@ var interface_c_p_t_pie_chart =
     [ "borderLineStyle", "interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3", null ],
     [ "centerAnchor", "group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c", null ],
     [ "endAngle", "group__plot_animation_pie_chart.html#ga1ec146fb288f43545adfd617014d7c94", null ],
+    [ "labelRotationRelativeToRadius", "interface_c_p_t_pie_chart.html#a696510978f4d118239d2d90e96c65e1c", null ],
     [ "overlayFill", "interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51", null ],
     [ "pieInnerRadius", "group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e", null ],
     [ "pieRadius", "group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea", null ],

@@ -139,6 +139,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:ad42ce799d20617a6c9a8879aea31fbb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style used to outline the pie slices. If <code>nil</code>, no border is drawn. Defaults to <code>nil</code>.  <a href="#ad42ce799d20617a6c9a8879aea31fbb3"></a><br/></td></tr>
 <tr class="memitem:a25deafa6f8e629789652c90789f19b51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51">overlayFill</a></td></tr>
 <tr class="memdesc:a25deafa6f8e629789652c90789f19b51"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fill drawn on top of the pie chart. Can be used to add shading and/or gloss effects. Defaults to <code>nil</code>.  <a href="#a25deafa6f8e629789652c90789f19b51"></a><br/></td></tr>
+<tr class="memitem:a696510978f4d118239d2d90e96c65e1c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#a696510978f4d118239d2d90e96c65e1c">labelRotationRelativeToRadius</a></td></tr>
+<tr class="memdesc:a696510978f4d118239d2d90e96c65e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <code>NO</code>, the default, the data labels are rotated relative to the default coordinate system (the positive x-axis is zero rotation). If <code>YES</code>, the labels are rotated relative to the radius of the pie chart (zero rotation is parallel to the radius).  <a href="#a696510978f4d118239d2d90e96c65e1c"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A pie chart. </p>
@@ -196,6 +198,7 @@ Properties</h2></td></tr>
 <li><a class="el" href="group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c">centerAnchor </a> = (0.5, 0.5)</li>
 <li><a class="el" href="interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3">borderLineStyle </a> = <code>nil</code></li>
 <li><a class="el" href="interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51">overlayFill </a> = <code>nil</code></li>
+<li><a class="el" href="interface_c_p_t_pie_chart.html#a696510978f4d118239d2d90e96c65e1c">labelRotationRelativeToRadius </a> = <code>NO</code></li>
 <li><a class="el" href="group__plot_animation_all_plots.html#ga9e258bb5f1e2385674299200c4eed799">labelOffset </a> = 10.0</li>
 <li><a class="el" href="interface_c_p_t_plot.html#a81a914a9ee10c3dad42d4f62581345ee">labelField </a> = <a class="el" href="_c_p_t_pie_chart_8h.html#a01483eef4e806811546a45557cdb599ba15db0cd33b30788aa50b97aa726f6dc9" title="Pie slice width.">CPTPieChartFieldSliceWidth</a></li>
 </ul>
@@ -264,6 +267,21 @@ Properties</h2></td></tr>
 <div class="memdoc">
 
 <p>The line style used to outline the pie slices. If <code>nil</code>, no border is drawn. Defaults to <code>nil</code>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a696510978f4d118239d2d90e96c65e1c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- CPTPieChart:<code> [read, write, assign]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>If <code>NO</code>, the default, the data labels are rotated relative to the default coordinate system (the positive x-axis is zero rotation). If <code>YES</code>, the labels are rotated relative to the radius of the pie chart (zero rotation is parallel to the radius). </p>
 
 </div>
 </div>
