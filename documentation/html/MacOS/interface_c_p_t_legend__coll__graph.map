@@ -1,12 +1,42 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$interface_c_p_t_bordered_layer.html" title="A layer with a border line and background fill." alt="" coords="321,406,460,437"/>
-<area shape="rect" id="node4" href="$interface_c_p_t_annotation_host_layer.html" title="A container layer for annotations." alt="" coords="300,326,481,357"/>
-<area shape="rect" id="node6" href="$interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot." alt="" coords="350,246,431,277"/>
-<area shape="rect" id="node8" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html" title="CALayer" alt="" coords="251,166,324,197"/>
-<area shape="rect" id="node10" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="84,86,164,117"/>
-<area shape="rect" id="node12" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="369,6,487,37"/>
-<area shape="rect" id="node20" href="$protocol_c_p_t_responder-p.html" title="The basis of all event processing in Core Plot." alt="" coords="425,166,561,197"/>
-<area shape="rect" id="node14" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Protocols/NSKeyValueBindingCreation_Protocol/Reference/Reference.html" title="\&lt;NSKeyValueBindingCreation&#45;p\&gt;" alt="" coords="5,6,243,37"/>
-<area shape="rect" id="node16" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html" title="\&lt;NSCoding&#45;p\&gt;" alt="" coords="188,86,309,117"/>
-<area shape="rect" id="node18" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html" title="\&lt;CAMediaTiming&#45;p\&gt;" alt="" coords="334,86,495,117"/>
+<area shape="rect" id="node48" href="$interface_c_p_t_graph.html" title="An abstract graph class." alt="" coords="1640,420,1725,451"/>
+<area shape="rect" id="node2" href="$interface_c_p_t_bordered_layer.html" title="A layer with a border line and background fill." alt="" coords="2520,544,2659,575"/>
+<area shape="rect" id="node96" href="$interface_c_p_t_plot_area_frame.html" title="A layer drawn on top of the graph layer and behind all plot elements." alt="" coords="2843,751,2983,782"/>
+<area shape="rect" id="node4" href="$interface_c_p_t_annotation_host_layer.html" title="A container layer for annotations." alt="" coords="2188,1008,2370,1039"/>
+<area shape="rect" id="node100" href="$interface_c_p_t_plot_area.html" title="A layer representing the actual plotting area of a graph." alt="" coords="2539,967,2639,998"/>
+<area shape="rect" id="node6" href="$interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot." alt="" coords="2013,1308,2094,1339"/>
+<area shape="rect" id="node73" href="$interface_c_p_t_axis_set.html" title="A container layer for the set of axes for a graph." alt="" coords="2232,779,2326,810"/>
+<area shape="rect" id="node103" href="$interface_c_p_t_grid_line_group.html" title="A group of grid line layers." alt="" coords="2843,1243,2983,1274"/>
+<area shape="rect" id="node112" href="$interface_c_p_t_axis_label_group.html" title="A container layer for the axis labels." alt="" coords="2204,1218,2353,1248"/>
+<area shape="rect" id="node115" href="$interface_c_p_t_plot_group.html" title="Defines the coordinate system of a plot." alt="" coords="2223,1067,2334,1098"/>
+<area shape="rect" id="node8" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html" title="CALayer" alt="" coords="598,1324,672,1355"/>
+<area shape="rect" id="node10" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="345,1028,426,1059"/>
+<area shape="rect" id="node23" href="$interface_c_p_t_shadow.html" title="Immutable wrapper for various shadow drawing properties." alt="" coords="849,663,945,694"/>
+<area shape="rect" id="node33" href="$interface_c_p_t_color.html" title="An immutable color." alt="" coords="594,166,675,196"/>
+<area shape="rect" id="node40" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html" title="NSSet" alt="" coords="606,1044,664,1075"/>
+<area shape="rect" id="node51" href="$interface_c_p_t_text_style.html" title="Immutable wrapper for various text style properties." alt="" coords="844,154,950,184"/>
+<area shape="rect" id="node57" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html" title="NSString" alt="" coords="596,272,673,303"/>
+<area shape="rect" id="node68" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSResponder_Class/Reference/Reference.html" title="NSResponder" alt="" coords="581,1124,688,1155"/>
+<area shape="rect" id="node76" href="$interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties." alt="" coords="846,384,949,415"/>
+<area shape="rect" id="node82" href="$interface_c_p_t_fill.html" title="Draws area fills." alt="" coords="602,578,667,608"/>
+<area shape="rect" id="node88" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html" title="NSArray" alt="" coords="598,938,671,968"/>
+<area shape="rect" id="node121" href="$interface_c_p_t_plot_space.html" title="Defines the coordinate system of a plot." alt="" coords="1999,1122,2107,1152"/>
+<area shape="rect" id="node12" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="65,1502,183,1532"/>
+<area shape="rect" id="node20" href="$protocol_c_p_t_responder-p.html" title="The basis of all event processing in Core Plot." alt="" coords="1614,1646,1751,1676"/>
+<area shape="rect" id="node14" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Protocols/NSKeyValueBindingCreation_Protocol/Reference/Reference.html" title="\&lt;NSKeyValueBindingCreation&#45;p\&gt;" alt="" coords="5,1028,243,1059"/>
+<area shape="rect" id="node16" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html" title="\&lt;NSCoding&#45;p\&gt;" alt="" coords="324,778,446,808"/>
+<area shape="rect" id="node18" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html" title="\&lt;CAMediaTiming&#45;p\&gt;" alt="" coords="305,1359,466,1390"/>
+<area shape="rect" id="node27" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html" title="\&lt;NSCopying&#45;p\&gt;" alt="" coords="321,244,450,275"/>
+<area shape="rect" id="node29" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference.html" title="\&lt;NSMutableCopying&#45;p\&gt;" alt="" coords="295,511,476,542"/>
+<area shape="rect" id="node31" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html.html#//apple_ref/doc/c_ref/CGSize" title="CGSize" alt="" coords="602,882,668,912"/>
+<area shape="rect" id="node38" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/GraphicsImaging/Reference/CGColor/Reference/reference.html.html#//apple_ref/doc/c_ref/CGColorRef" title="CGColorRef" alt="" coords="337,100,433,131"/>
+<area shape="rect" id="node45" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/NSFastEnumeration_protocol/Reference/NSFastEnumeration.html" title="\&lt;NSFastEnumeration&#45;p\&gt;" alt="" coords="293,1186,477,1216"/>
+<area shape="rect" id="node64" href="$interface_c_p_t_graph_hosting_view.html" title="A container view for displaying a CPTGraph." alt="" coords="1970,518,2136,548"/>
+<area shape="rect" id="node66" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSView_Class/Reference/NSView.html" title="NSView" alt="" coords="1030,987,1098,1018"/>
+<area shape="rect" id="node106" href="doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html" title="BOOL" alt="" coords="869,1432,926,1463"/>
+<area shape="rect" id="node126" href="doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html" title="id\&lt; CPTPlotSpaceDelegate \&gt;" alt="" coords="1579,1066,1786,1096"/>
+<area shape="rect" id="node130" href="doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html" title="id\&lt; NSCopying, NSCoding,\l NSObject \&gt;" alt="" coords="1585,1274,1780,1323"/>
+<area shape="rect" id="node134" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html.html#//apple_ref/doc/c_ref/CGPoint" title="CGPoint" alt="" coords="1238,420,1311,451"/>
+<area shape="rect" id="node138" href="doxygen-cocoa-tags.xml$http://developer.apple.com/documentation/GraphicsImaging/Reference/CGPath/Reference/reference.html.html#//apple_ref/doc/c_ref/CGPathRef" title="CGPathRef" alt="" coords="1638,1472,1727,1503"/>
+<area shape="rect" id="node143" href="doxygen-cocoa-tags.xml$http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html" title="NSUInteger" alt="" coords="851,439,944,470"/>
 </map>

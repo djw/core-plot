@@ -1,5 +1,6 @@
 var _c_p_t_numeric_data_type_8h =
 [
+    [ "CPTNumericDataType", "struct_c_p_t_numeric_data_type.html", "struct_c_p_t_numeric_data_type" ],
     [ "CPTDataTypeFormat", "_c_p_t_numeric_data_type_8h.html#ac29c0caa2ac30299b2dd472b299ac663", null ],
     [ "CPTDataType", "_c_p_t_numeric_data_type_8h.html#ac00abad966bbdb7e7033cf4fa081ed5a", null ],
     [ "CPTDataTypeEqualToDataType", "_c_p_t_numeric_data_type_8h.html#ad93cae77ebeee18937ec36ec28e4d4a9", null ],

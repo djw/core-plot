@@ -1,5 +1,6 @@
 var _c_p_t_platform_specific_functions_8m =
 [
+    [ "CPTContextNode", "struct_c_p_t_context_node.html", "struct_c_p_t_context_node" ],
     [ "CPTCreateCGColorFromNSColor", "_c_p_t_platform_specific_functions_8m.html#a3580904e417acab705123a9d25c03a8c", null ],
     [ "CPTGetCurrentContext", "_c_p_t_platform_specific_functions_8m.html#a3be5490002256d9807df1586581550b9", null ],
     [ "CPTPopCGContext", "_c_p_t_platform_specific_functions_8m.html#af83544397fc336d1c14e66f2b7e473be", null ],
