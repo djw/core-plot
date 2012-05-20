@@ -1,6 +1,7 @@
 var _c_p_t_utilities_8h =
 [
     [ "CPTAlignIntegralPointToUserSpace", "_c_p_t_utilities_8h.html#ac3d19ecc95afb616f52344ad45d8c3b3", null ],
+    [ "CPTAlignIntegralRectToUserSpace", "_c_p_t_utilities_8h.html#aee30c91aa86bc772b294505ab1b81840", null ],
     [ "CPTAlignPointToUserSpace", "_c_p_t_utilities_8h.html#a0c8d770c2fa665ed305989b481333896", null ],
     [ "CPTAlignRectToUserSpace", "_c_p_t_utilities_8h.html#a030acdcbf883d6a16e03258c48c8be19", null ],
     [ "CPTAlignSizeToUserSpace", "_c_p_t_utilities_8h.html#a6d82f91117b62e8d17f0b289a2139a8a", null ],

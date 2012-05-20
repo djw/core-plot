@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"group__plot_animation_trading_range_plot.html#ga13215c9ee64730284c7b395c285e92db":[2,0,65,2],
+"group__plot_animation_trading_range_plot.html#ga17e4c2a24773233219fced333997f013":[2,0,65,3],
 "group__plot_animation_trading_range_plot.html#gac504792fc8939f47a00812a385afb3a0":[2,0,65,10],
 "group__theme_names.html":[1,2],
 "hierarchy.html":[2,2],
@@ -248,6 +250,4 @@ var NAVTREEINDEX2 =
 "interface_c_p_t_image.html#a1a3f7e09b1b0c7c5a3d3c46fca9e02ea":[2,0,23,6],
 "interface_c_p_t_image.html#a23c96cab6dad05c21bf5476c5b39920e":[2,0,23,8],
 "interface_c_p_t_image.html#a2456200e77db5c651696fbb8be097492":[2,0,23,1],
-"interface_c_p_t_image.html#a42f9e2cc9877c3b672c6706dc9157962":[2,0,23,5],
-"interface_c_p_t_image.html#a69a63ea3a3bec2284a5c60c426d7fbcc":[2,0,23,3],
 };

@@ -182,6 +182,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a030acdcbf883d6a16e03258c48c8be19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aligns a rectangle in user space to integral coordinates in device space.  <a href="#a030acdcbf883d6a16e03258c48c8be19"></a><br/></td></tr>
 <tr class="memitem:ac3d19ecc95afb616f52344ad45d8c3b3"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_p_t_utilities_8m.html#ac3d19ecc95afb616f52344ad45d8c3b3">CPTAlignIntegralPointToUserSpace</a> (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a> context, <a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a> p)</td></tr>
 <tr class="memdesc:ac3d19ecc95afb616f52344ad45d8c3b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aligns a point in user space between integral coordinates in device space.  <a href="#ac3d19ecc95afb616f52344ad45d8c3b3"></a><br/></td></tr>
+<tr class="memitem:aee30c91aa86bc772b294505ab1b81840"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_p_t_utilities_8m.html#aee30c91aa86bc772b294505ab1b81840">CPTAlignIntegralRectToUserSpace</a> (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a> context, <a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a> r)</td></tr>
+<tr class="memdesc:aee30c91aa86bc772b294505ab1b81840"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aligns a rectangle in user space between integral coordinates in device space.  <a href="#aee30c91aa86bc772b294505ab1b81840"></a><br/></td></tr>
 <tr class="memitem:aedaaa162648bc0dc9f186998fdd67dbb"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_p_t_utilities_8m.html#aedaaa162648bc0dc9f186998fdd67dbb">CPTStringFromPoint</a> (<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGPoint.html">CGPoint</a> p)</td></tr>
 <tr class="memdesc:aedaaa162648bc0dc9f186998fdd67dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a string representation of the given point.  <a href="#aedaaa162648bc0dc9f186998fdd67dbb"></a><br/></td></tr>
 <tr class="memitem:adcdd93e329eee9eba136f27ddc2c735f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_p_t_utilities_8m.html#adcdd93e329eee9eba136f27ddc2c735f">CPTStringFromSize</a> (<a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGSize.html">CGSize</a> s)</td></tr>
@@ -239,6 +241,43 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>The device aligned point in user space. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aee30c91aa86bc772b294505ab1b81840"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a> CPTAlignIntegralRectToUserSpace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/doc/c_ref/CGContextRef.html">CGContextRef</a>&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" href="http://developer.apple.com/iPhone/library/documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/c_ref/CGRect.html">CGRect</a>&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Aligns a rectangle in user space between integral coordinates in device space. </p>
+<p>Ensures that the x and y coordinates are between pixels in device space and the width and height are an integer number of device pixels.</p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">context</td><td>The graphics context. </td></tr>
+    <tr><td class="paramname">r</td><td>The rectangle in user space. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>The device aligned rectangle in user space. </dd></dl>
 
 </div>
 </div>
@@ -305,7 +344,6 @@ Functions</h2></td></tr>
 
 <p>Aligns a rectangle in user space to integral coordinates in device space. </p>
 <p>Ensures that the x and y coordinates are at a pixel corner in device space and the width and height are an integer number of device pixels. Drawn from <em>Programming with Quartz</em> by D. Gelphman, B. Laden.</p>
-<dl class="section note"><dt>Note:</dt><dd>This function produces a width and height that is less than or equal to the original width. </dd></dl>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">context</td><td>The graphics context. </td></tr>

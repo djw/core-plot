@@ -2545,6 +2545,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTAlignIntegralRectToUserSpace</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>aee30c91aa86bc772b294505ab1b81840</Anchor>
+    <Abstract>Aligns a rectangle in user space between integral coordinates in device space.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTStringFromPoint</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -3081,6 +3091,16 @@
     <Path>_c_p_t_utilities_8m.html</Path>
     <Anchor>ac3d19ecc95afb616f52344ad45d8c3b3</Anchor>
     <Abstract>Aligns a point in user space between integral coordinates in device space.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTAlignIntegralRectToUserSpace</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8m.html</Path>
+    <Anchor>aee30c91aa86bc772b294505ab1b81840</Anchor>
+    <Abstract>Aligns a rectangle in user space between integral coordinates in device space.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

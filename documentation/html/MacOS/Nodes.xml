@@ -10623,6 +10623,11 @@
                 <Anchor>ac3d19ecc95afb616f52344ad45d8c3b3</Anchor>
                </Node>
                <Node>
+                <Name>CPTAlignIntegralRectToUserSpace</Name>
+                <Path>_c_p_t_utilities_8h.html</Path>
+                <Anchor>aee30c91aa86bc772b294505ab1b81840</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTAlignPointToUserSpace</Name>
                 <Path>_c_p_t_utilities_8h.html</Path>
                 <Anchor>a0c8d770c2fa665ed305989b481333896</Anchor>
@@ -10897,6 +10902,11 @@
                 <Name>CPTAlignIntegralPointToUserSpace</Name>
                 <Path>_c_p_t_utilities_8m.html</Path>
                 <Anchor>ac3d19ecc95afb616f52344ad45d8c3b3</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTAlignIntegralRectToUserSpace</Name>
+                <Path>_c_p_t_utilities_8m.html</Path>
+                <Anchor>aee30c91aa86bc772b294505ab1b81840</Anchor>
                </Node>
                <Node>
                 <Name>CPTAlignPointToUserSpace</Name>

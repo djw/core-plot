@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e":[2,0,41,8],
+"group__plot_animation_range_plot.html":[1,0,3,3],
 "group__plot_animation_range_plot.html#ga165db5f03bb140f1e84b27e680412689":[2,0,55,6],
 "group__plot_animation_range_plot.html#ga1b244c91e12dc4e161712dc9669cb75f":[2,0,55,5],
 "group__plot_animation_range_plot.html#ga2980f30a9d38415b430137d7d23d607c":[2,0,55,4],
@@ -248,6 +250,4 @@ var NAVTREEINDEX2 =
 "interface_c_p_t_graph_hosting_view.html":[2,0,22],
 "interface_c_p_t_graph_hosting_view.html#a009ea355bc684c3872c98e460b89f644":[2,0,22,0],
 "interface_c_p_t_graph_hosting_view.html#aa5f853281eb400f940a0440f7ec171d9":[2,0,22,1],
-"interface_c_p_t_grid_line_group.html":[2,0,23],
-"interface_c_p_t_grid_line_group.html#a333bc1319e96f0e033bf6825b53f6e06":[2,0,23,0],
 };

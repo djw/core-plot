@@ -246,8 +246,8 @@ var NAVTREEINDEX0 =
 "_c_p_t_trading_range_plot_8m.html#afc476a911fbf3eba1e7daf31ad5c5f27":[3,0,1,110,0],
 "_c_p_t_trading_range_plot_8m.html#ga19d17ef5e84a7a36c4c3fc05aa552348":[3,0,1,110,4],
 "_c_p_t_utilities_8h.html":[3,0,1,111],
-"_c_p_t_utilities_8h.html#a00cd4fa9bc439191406e291fcc1d73cb":[3,0,1,111,45],
-"_c_p_t_utilities_8h.html#a030acdcbf883d6a16e03258c48c8be19":[3,0,1,111,2],
-"_c_p_t_utilities_8h.html#a059a5020dcbf6d62ce772002e29a8e18":[3,0,1,111,21],
-"_c_p_t_utilities_8h.html#a0c8d770c2fa665ed305989b481333896":[3,0,1,111,1],
+"_c_p_t_utilities_8h.html#a00cd4fa9bc439191406e291fcc1d73cb":[3,0,1,111,46],
+"_c_p_t_utilities_8h.html#a030acdcbf883d6a16e03258c48c8be19":[3,0,1,111,3],
+"_c_p_t_utilities_8h.html#a059a5020dcbf6d62ce772002e29a8e18":[3,0,1,111,22],
+"_c_p_t_utilities_8h.html#a0c8d770c2fa665ed305989b481333896":[3,0,1,111,2],
 };
