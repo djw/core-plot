@@ -3,6 +3,7 @@ var interface_c_p_t_bar_plot =
     [ "initWithFrame:", "interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393", null ],
     [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_bar_plot.html#a61249cfee58b15eea564fa0667c23b42", null ],
     [ "tubularBarPlotWithColor:horizontalBars:", "interface_c_p_t_bar_plot.html#ac12f1fb03d8762d6e718acb0a2cd077f", null ],
+    [ "barBaseCornerRadius", "group__plot_animation_bar_plot.html#ga340ebd556d13a8e5d3c7d709de2c588a", null ],
     [ "barBasesVary", "interface_c_p_t_bar_plot.html#abbd260f801d950fd944638b757597b06", null ],
     [ "barCornerRadius", "group__plot_animation_bar_plot.html#ga880361dd6ad4a3e7f1c26f56c7ed84cd", null ],
     [ "barOffset", "interface_c_p_t_bar_plot.html#aa2f71205bdb735ddc2abaebb3e56ff75", null ],

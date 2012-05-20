@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"interface_c_p_t_graph_hosting_view.html#aa5f853281eb400f940a0440f7ec171d9":[2,0,22,1],
 "interface_c_p_t_grid_line_group.html":[2,0,23],
 "interface_c_p_t_grid_line_group.html#a333bc1319e96f0e033bf6825b53f6e06":[2,0,23,0],
 "interface_c_p_t_grid_line_group.html#a92fac9b94f2d34f56a03fd629086307d":[2,0,23,1],
@@ -249,5 +250,4 @@ var NAVTREEINDEX3 =
 "interface_c_p_t_plot.html#aeda28869b1ab7bbcee58ced6635098bd":[2,0,44,7],
 "interface_c_p_t_plot.html#aedbe912b2c94255949e9b6468f9d84c2":[2,0,44,45],
 "interface_c_p_t_plot.html#aff032ba633d5eb1766ee8849bcd19fb0":[2,0,44,3],
-"interface_c_p_t_plot_area.html":[2,0,45],
 };

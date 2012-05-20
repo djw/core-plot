@@ -105,6 +105,11 @@
               <Path>group__plot_animation_bar_plot.html</Path>
               <Subnodes>
                <Node>
+                <Name>barBaseCornerRadius</Name>
+                <Path>group__plot_animation_bar_plot.html</Path>
+                <Anchor>ga340ebd556d13a8e5d3c7d709de2c588a</Anchor>
+               </Node>
+               <Node>
                 <Name>barCornerRadius</Name>
                 <Path>group__plot_animation_bar_plot.html</Path>
                 <Anchor>ga880361dd6ad4a3e7f1c26f56c7ed84cd</Anchor>
@@ -932,6 +937,11 @@
               <Name>tubularBarPlotWithColor:horizontalBars:</Name>
               <Path>interface_c_p_t_bar_plot.html</Path>
               <Anchor>ac12f1fb03d8762d6e718acb0a2cd077f</Anchor>
+             </Node>
+             <Node>
+              <Name>barBaseCornerRadius</Name>
+              <Path>group__plot_animation_bar_plot.html</Path>
+              <Anchor>ga340ebd556d13a8e5d3c7d709de2c588a</Anchor>
              </Node>
              <Node>
               <Name>barBasesVary</Name>
@@ -6424,6 +6434,11 @@
                   <Name>tubularBarPlotWithColor:horizontalBars:</Name>
                   <Path>interface_c_p_t_bar_plot.html</Path>
                   <Anchor>ac12f1fb03d8762d6e718acb0a2cd077f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>barBaseCornerRadius</Name>
+                  <Path>group__plot_animation_bar_plot.html</Path>
+                  <Anchor>ga340ebd556d13a8e5d3c7d709de2c588a</Anchor>
                  </Node>
                  <Node>
                   <Name>barBasesVary</Name>

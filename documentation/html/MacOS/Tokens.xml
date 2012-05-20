@@ -3241,7 +3241,18 @@
     </TokenIdentifier>
     <Path>group__plot_animation_bar_plot.html</Path>
     <Anchor>ga880361dd6ad4a3e7f1c26f56c7ed84cd</Anchor>
-    <Abstract>The corner radius for the end of the bars.</Abstract>
+    <Abstract>The corner radius for the end of the bars. Default is 0.0 for square corners.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>barBaseCornerRadius</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTBarPlot</Scope>
+    </TokenIdentifier>
+    <Path>group__plot_animation_bar_plot.html</Path>
+    <Anchor>ga340ebd556d13a8e5d3c7d709de2c588a</Anchor>
+    <Abstract>The corner radius for the end of the bars drawn at the base value. Default is 0.0 for square corners...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7437,7 +7448,18 @@
     </TokenIdentifier>
     <Path>group__plot_animation_bar_plot.html</Path>
     <Anchor>ga880361dd6ad4a3e7f1c26f56c7ed84cd</Anchor>
-    <Abstract>The corner radius for the end of the bars.</Abstract>
+    <Abstract>The corner radius for the end of the bars. Default is 0.0 for square corners.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>barBaseCornerRadius</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTBarPlot</Scope>
+    </TokenIdentifier>
+    <Path>group__plot_animation_bar_plot.html</Path>
+    <Anchor>ga340ebd556d13a8e5d3c7d709de2c588a</Anchor>
+    <Abstract>The corner radius for the end of the bars drawn at the base value. Default is 0.0 for square corners...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
