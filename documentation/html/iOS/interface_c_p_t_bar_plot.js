@@ -1,6 +1,7 @@
 var interface_c_p_t_bar_plot =
 [
     [ "initWithFrame:", "interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393", null ],
+    [ "plotRangeEnclosingBars", "interface_c_p_t_bar_plot.html#a77dcf8f2baf7d190c198d5a12e3eaad6", null ],
     [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_bar_plot.html#a61249cfee58b15eea564fa0667c23b42", null ],
     [ "tubularBarPlotWithColor:horizontalBars:", "interface_c_p_t_bar_plot.html#ac12f1fb03d8762d6e718acb0a2cd077f", null ],
     [ "barBaseCornerRadius", "group__plot_animation_bar_plot.html#ga340ebd556d13a8e5d3c7d709de2c588a", null ],

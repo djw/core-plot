@@ -6821,6 +6821,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>plotRangeEnclosingBars</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTBarPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_bar_plot.html</Path>
+    <Anchor>a77dcf8f2baf7d190c198d5a12e3eaad6</Anchor>
+    <Abstract>Computes a plot range that completely encloses all of the bars.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>initWithFrame:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>

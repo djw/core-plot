@@ -1,16 +1,16 @@
 <map id="G" name="G">
 <area shape="rect" id="node3" href="$_c_p_t_bar_plot_8h.html" title="CPTBarPlot.h" alt="" coords="1093,166,1196,197"/>
-<area shape="rect" id="node18" href="$_c_p_t_mutable_text_style_8h.html" title="CPTMutableTextStyle.h" alt="" coords="288,326,457,357"/>
+<area shape="rect" id="node18" href="$_c_p_t_mutable_text_style_8h.html" title="CPTMutableTextStyle.h" alt="" coords="282,326,451,357"/>
 <area shape="rect" id="node28" href="$_c_p_t_plot_range_8h.html" title="CPTPlotRange.h" alt="" coords="1286,326,1409,357"/>
 <area shape="rect" id="node49" href="$_c_p_t_color_8h.html" title="CPTColor.h" alt="" coords="42,486,136,517"/>
-<area shape="rect" id="node53" href="$_c_p_t_exceptions_8h.html" title="CPTExceptions.h" alt="" coords="2109,86,2237,117"/>
+<area shape="rect" id="node53" href="$_c_p_t_exceptions_8h.html" title="CPTExceptions.h" alt="" coords="1977,86,2105,117"/>
 <area shape="rect" id="node56" href="$_c_p_t_fill_8h.html" title="CPTFill.h" alt="" coords="211,486,288,517"/>
 <area shape="rect" id="node60" href="$_c_p_t_gradient_8h.html" title="CPTGradient.h" alt="" coords="1775,406,1888,437"/>
 <area shape="rect" id="node64" href="$_c_p_t_legend_8h.html" title="CPTLegend.h" alt="" coords="262,166,367,197"/>
 <area shape="rect" id="node71" href="$_c_p_t_mutable_line_style_8h.html" title="CPTMutableLineStyle.h" alt="" coords="1913,406,2080,437"/>
-<area shape="rect" id="node78" href="$_c_p_t_mutable_numeric_data_8h.html" title="CPTMutableNumericData.h" alt="" coords="1976,166,2169,197"/>
+<area shape="rect" id="node78" href="$_c_p_t_mutable_numeric_data_8h.html" title="CPTMutableNumericData.h" alt="" coords="1959,166,2152,197"/>
 <area shape="rect" id="node82" href="$_c_p_t_numeric_data_8h.html" title="CPTNumericData.h" alt="" coords="1905,246,2047,277"/>
-<area shape="rect" id="node86" href="$_c_p_t_mutable_plot_range_8h.html" title="CPTMutablePlotRange.h" alt="" coords="1338,86,1512,117"/>
+<area shape="rect" id="node86" href="$_c_p_t_mutable_plot_range_8h.html" title="CPTMutablePlotRange.h" alt="" coords="1338,246,1512,277"/>
 <area shape="rect" id="node91" href="$_c_p_t_path_extensions_8h.html" title="CPTPathExtensions.h" alt="" coords="1192,486,1348,517"/>
 <area shape="rect" id="node95" href="$_c_p_t_plot_area_8h.html" title="CPTPlotArea.h" alt="" coords="780,86,892,117"/>
 <area shape="rect" id="node105" href="$_c_p_t_plot_space_annotation_8h.html" title="CPTPlotSpaceAnnotation.h" alt="" coords="1508,326,1700,357"/>

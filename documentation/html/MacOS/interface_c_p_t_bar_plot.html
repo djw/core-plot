@@ -101,6 +101,9 @@ Public Class Methods</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Data Ranges</div></td></tr>
+<tr class="memitem:a77dcf8f2baf7d190c198d5a12e3eaad6"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_bar_plot.html#a77dcf8f2baf7d190c198d5a12e3eaad6">plotRangeEnclosingBars</a></td></tr>
+<tr class="memdesc:a77dcf8f2baf7d190c198d5a12e3eaad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a plot range that completely encloses all of the bars.  <a href="#a77dcf8f2baf7d190c198d5a12e3eaad6"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr class="memitem:a7029fe2b567b5a4ea9349889e4e17393"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393">initWithFrame:</a><code> [implementation]</code></td></tr>
 <tr class="memdesc:a7029fe2b567b5a4ea9349889e4e17393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_bar_plot.html" title="A two-dimensional bar plot.">CPTBarPlot</a> object with the provided frame rectangle.  <a href="#a7029fe2b567b5a4ea9349889e4e17393"></a><br/></td></tr>
@@ -364,6 +367,25 @@ See <a class="el" href="group__plot_bindings_bar_plot.html">Bar Plot Bindings</a
 <dl class="section return"><dt>Returns:</dt><dd>The initialized <a class="el" href="interface_c_p_t_bar_plot.html" title="A two-dimensional bar plot.">CPTBarPlot</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a77dcf8f2baf7d190c198d5a12e3eaad6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *) plotRangeEnclosingBars </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes a plot range that completely encloses all of the bars. </p>
+<p>For a horizontal bar plot, this range starts at the left edge of the first bar and continues to the right edge of the last bar. Similarly, this range starts at the bottom edge of the first bar and continues to the top edge of the last bar for vertical bar plots. The length will have the same sign as the corresponding plot range from the plot space.</p>
+<dl class="section return"><dt>Returns:</dt><dd>A plot range that completely encloses all of the bars. </dd></dl>
 
 </div>
 </div>

@@ -929,6 +929,11 @@
               <Anchor>a7029fe2b567b5a4ea9349889e4e17393</Anchor>
              </Node>
              <Node>
+              <Name>plotRangeEnclosingBars</Name>
+              <Path>interface_c_p_t_bar_plot.html</Path>
+              <Anchor>a77dcf8f2baf7d190c198d5a12e3eaad6</Anchor>
+             </Node>
+             <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_bar_plot.html</Path>
               <Anchor>a61249cfee58b15eea564fa0667c23b42</Anchor>
@@ -6424,6 +6429,11 @@
                   <Name>initWithFrame:</Name>
                   <Path>interface_c_p_t_bar_plot.html</Path>
                   <Anchor>a7029fe2b567b5a4ea9349889e4e17393</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotRangeEnclosingBars</Name>
+                  <Path>interface_c_p_t_bar_plot.html</Path>
+                  <Anchor>a77dcf8f2baf7d190c198d5a12e3eaad6</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
