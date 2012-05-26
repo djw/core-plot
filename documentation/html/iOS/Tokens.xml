@@ -1781,6 +1781,7 @@
     </TokenIdentifier>
     <Path>group__theme_names.html</Path>
     <Anchor>ga5f7f2a396df2807d9df225b546bc83fd</Anchor>
+    <Abstract>A graph theme with dark gray gradient backgrounds and light gray lines.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1790,6 +1791,7 @@
     </TokenIdentifier>
     <Path>group__theme_names.html</Path>
     <Anchor>gaee2ee00fc6afe67c17bc2dab26dad06c</Anchor>
+    <Abstract>A graph theme with black backgrounds and white lines.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1799,6 +1801,7 @@
     </TokenIdentifier>
     <Path>group__theme_names.html</Path>
     <Anchor>gafe03a5ec2d0a2c236b5b2ae68927b4b6</Anchor>
+    <Abstract>A graph theme with white backgrounds and black lines.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1808,6 +1811,7 @@
     </TokenIdentifier>
     <Path>group__theme_names.html</Path>
     <Anchor>ga13f6afa3e4abf27f50cf8798ba48f615</Anchor>
+    <Abstract>A graph theme with colors that match the default iPhone navigation bar, toolbar buttons, and table views.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3184,6 +3188,7 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>group__plot_animation_bar_plot.html</Path>
+    <Abstract>Bar plot properties that can be animated using Core Animation.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3350,6 +3355,7 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>group__plot_animation_pie_chart.html</Path>
+    <Abstract>Pie chart properties that can be animated using Core Animation.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3420,6 +3426,7 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>group__plot_animation_all_plots.html</Path>
+    <Abstract>Plot properties that can be animated using Core Animation for all plot types.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3449,6 +3456,7 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>group__plot_animation_range_plot.html</Path>
+    <Abstract>Range plot properties that can be animated using Core Animation.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3489,6 +3497,7 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>group__plot_animation_scatter_plot.html</Path>
+    <Abstract>Scatter plot properties that can be animated using Core Animation.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3496,6 +3505,7 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>group__theme_names.html</Path>
+    <Abstract>Names of the predefined themes.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3505,6 +3515,7 @@
     </TokenIdentifier>
     <Path>group__theme_names.html</Path>
     <Anchor>ga5f7f2a396df2807d9df225b546bc83fd</Anchor>
+    <Abstract>A graph theme with dark gray gradient backgrounds and light gray lines.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3514,6 +3525,7 @@
     </TokenIdentifier>
     <Path>group__theme_names.html</Path>
     <Anchor>gaee2ee00fc6afe67c17bc2dab26dad06c</Anchor>
+    <Abstract>A graph theme with black backgrounds and white lines.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3523,6 +3535,7 @@
     </TokenIdentifier>
     <Path>group__theme_names.html</Path>
     <Anchor>gafe03a5ec2d0a2c236b5b2ae68927b4b6</Anchor>
+    <Abstract>A graph theme with white backgrounds and black lines.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3532,6 +3545,7 @@
     </TokenIdentifier>
     <Path>group__theme_names.html</Path>
     <Anchor>ga13f6afa3e4abf27f50cf8798ba48f615</Anchor>
+    <Abstract>A graph theme with colors that match the default iPhone navigation bar, toolbar buttons, and table views.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3548,6 +3562,7 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>group__plot_animation_trading_range_plot.html</Path>
+    <Abstract>Trading range plot properties that can be animated using Core Animation.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
