@@ -1,7 +1,8 @@
 <map id="structs" name="structs">
-<area shape="rect" id="node2" href="$group__plot_bindings_trading_range_plot.html" title="Binding identifiers for trading range plots." alt="" coords="227,4,371,54"/>
-<area shape="rect" id="node3" href="$group__plot_bindings_range_plot.html" title="Binding identifiers for range plots." alt="" coords="224,78,373,109"/>
-<area shape="rect" id="node4" href="$group__plot_bindings_scatter_plot.html" title="Binding identifiers for scatter plots." alt="" coords="222,133,376,163"/>
-<area shape="rect" id="node5" href="$group__plot_bindings_pie_chart.html" title="Binding identifiers for pie charts." alt="" coords="229,187,368,218"/>
-<area shape="rect" id="node6" href="$group__plot_bindings_bar_plot.html" title="Binding identifiers for bar plots." alt="" coords="234,242,364,273"/>
+<area shape="rect" id="node2" href="$group__plot_bindings_all_plots.html" title="Binding identifiers for all plots." alt="" coords="222,5,380,35"/>
+<area shape="rect" id="node3" href="$group__plot_bindings_trading_range_plot.html" title="Binding identifiers for trading range plots." alt="" coords="229,59,373,109"/>
+<area shape="rect" id="node4" href="$group__plot_bindings_range_plot.html" title="Binding identifiers for range plots." alt="" coords="227,133,376,163"/>
+<area shape="rect" id="node5" href="$group__plot_bindings_scatter_plot.html" title="Binding identifiers for scatter plots." alt="" coords="224,187,378,218"/>
+<area shape="rect" id="node6" href="$group__plot_bindings_pie_chart.html" title="Binding identifiers for pie charts." alt="" coords="232,242,371,273"/>
+<area shape="rect" id="node7" href="$group__plot_bindings_bar_plot.html" title="Binding identifiers for bar plots." alt="" coords="236,297,366,327"/>
 </map>

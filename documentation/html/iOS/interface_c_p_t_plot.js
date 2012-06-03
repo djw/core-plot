@@ -1,9 +1,13 @@
 var interface_c_p_t_plot =
 [
+    [ "cacheArray:forKey:", "interface_c_p_t_plot.html#ad2dd1bbb5f56791dac2d5192a32f3657", null ],
+    [ "cacheArray:forKey:atRecordIndex:", "interface_c_p_t_plot.html#a1e1b223ae1c7e740c7b4ac72cec9d887", null ],
+    [ "cachedArrayForKey:", "interface_c_p_t_plot.html#acc4f970c4eb5f0630f86552f7f85ed5d", null ],
     [ "cachedDecimalForField:recordIndex:", "interface_c_p_t_plot.html#a66bfafb7ca36a701fcc02adf3c10e301", null ],
     [ "cachedDoubleForField:recordIndex:", "interface_c_p_t_plot.html#a2094588e0c3777b7f722a197ed413943", null ],
     [ "cachedNumberForField:recordIndex:", "interface_c_p_t_plot.html#a992adf7119df39d7f10320c48084dbe6", null ],
     [ "cachedNumbersForField:", "interface_c_p_t_plot.html#aff032ba633d5eb1766ee8849bcd19fb0", null ],
+    [ "cachedValueForKey:recordIndex:", "interface_c_p_t_plot.html#a582dfb6712a17743f62993d2e2a578e7", null ],
     [ "cacheNumbers:forField:", "interface_c_p_t_plot.html#adaeec1786488ff9517549ea5df9e1619", null ],
     [ "cacheNumbers:forField:atRecordIndex:", "interface_c_p_t_plot.html#a585e6360378a42760007251b07acade7", null ],
     [ "dataIndexFromInteractionPoint:", "interface_c_p_t_plot.html#a84a31dbe697c028b41ffda5083daac65", null ],
@@ -13,6 +17,7 @@ var interface_c_p_t_plot =
     [ "fieldIdentifiersForCoordinate:", "interface_c_p_t_plot.html#a0467a2b65d0204c0cfb4eeeb59e8ba40", null ],
     [ "initWithFrame:", "interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c", null ],
     [ "insertDataAtIndex:numberOfRecords:", "interface_c_p_t_plot.html#ab3c45087d014d31a56d8911b3db89040", null ],
+    [ "nilData", "interface_c_p_t_plot.html#a9911432fff3af672a45bfe5e8b02d268", null ],
     [ "numberOfFields", "interface_c_p_t_plot.html#a7095b4dca95e6e93fb222aa5c0a96bce", null ],
     [ "numberOfLegendEntries", "interface_c_p_t_plot.html#a26d4458527479b7b55bbd9cfcfadd5d6", null ],
     [ "numbersFromDataSourceForField:recordIndexRange:", "interface_c_p_t_plot.html#a9c0c497a111974900062776de03b3738", null ],

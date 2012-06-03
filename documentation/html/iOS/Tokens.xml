@@ -155,6 +155,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTBarPlotBindingBarFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_bar_plot_8h.html</Path>
+    <Anchor>a5b227b465784038ed8417991a8793c61</Anchor>
+    <Abstract>Bar fills.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTBarPlotBindingBarLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_bar_plot_8h.html</Path>
+    <Anchor>a7e559352b05889787600bf263c1a7c39</Anchor>
+    <Abstract>Bar line styles.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTBarPlotFieldBarLocation</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -212,6 +232,26 @@
     <Path>_c_p_t_bar_plot_8m.html</Path>
     <Anchor>a3f58e790799e9b4ff8534f5afeef6466</Anchor>
     <Abstract>Bar bases.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTBarPlotBindingBarFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_bar_plot_8m.html</Path>
+    <Anchor>a5b227b465784038ed8417991a8793c61</Anchor>
+    <Abstract>Bar fills.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTBarPlotBindingBarLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_bar_plot_8m.html</Path>
+    <Anchor>a7e559352b05889787600bf263c1a7c39</Anchor>
+    <Abstract>Bar line styles.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1155,6 +1195,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTPieChartBindingPieSliceFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_pie_chart_8h.html</Path>
+    <Anchor>a669ff2bea50080be885d4eab0a8776e3</Anchor>
+    <Abstract>Pie slice interior fills.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTPieChartBindingPieSliceRadialOffsets</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_pie_chart_8h.html</Path>
+    <Anchor>a555f962bbc83f50c82ea227f02792027</Anchor>
+    <Abstract>Pie slice radial offsets.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTPieChartFieldSliceWidth</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -1215,6 +1275,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTPieChartBindingPieSliceFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_pie_chart_8m.html</Path>
+    <Anchor>a669ff2bea50080be885d4eab0a8776e3</Anchor>
+    <Abstract>Pie slice interior fills.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTPieChartBindingPieSliceRadialOffsets</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_pie_chart_8m.html</Path>
+    <Anchor>a555f962bbc83f50c82ea227f02792027</Anchor>
+    <Abstract>Pie slice radial offsets.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTPlotBindingDataLabels</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_plot_8h.html</Path>
+    <Anchor>afc2c14b05a72fa272ad34cb0925a4e9d</Anchor>
+    <Abstract>Plot data labels.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTPlotCachePrecisionAuto</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -1242,6 +1332,16 @@
     <Path>_c_p_t_plot_8h.html</Path>
     <Anchor>ad9096339b25b6dc933e810ac2726ca64a7d555f74e772b887e79d60ce66f8b2e6</Anchor>
     <Abstract>All cached data will be converted to NSDecimal.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTPlotBindingDataLabels</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_plot_8m.html</Path>
+    <Anchor>afc2c14b05a72fa272ad34cb0925a4e9d</Anchor>
+    <Abstract>Plot data labels.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6217,6 +6317,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nilData</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
+    <Abstract>A unique marker object used in collections to indicate that the datasource returned nil...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>plotRangeEnclosingBars</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -6247,17 +6358,6 @@
     <Path>interface_c_p_t_bar_plot.html</Path>
     <Anchor>a61249cfee58b15eea564fa0667c23b42</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
-    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6470,6 +6570,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cachedArrayForKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>acc4f970c4eb5f0630f86552f7f85ed5d</Anchor>
+    <Abstract>Retrieves an array of values from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cachedValueForKey:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Abstract>Retrieves a single value from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cacheNumbers:forField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -6489,6 +6611,28 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a585e6360378a42760007251b07acade7</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ad2dd1bbb5f56791dac2d5192a32f3657</Anchor>
+    <Abstract>Copies an array of arbitrary values to the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:atRecordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6544,6 +6688,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
+    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -13721,6 +13876,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nilData</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
+    <Abstract>A unique marker object used in collections to indicate that the datasource returned nil...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>initWithFrame:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -13740,17 +13906,6 @@
     <Path>interface_c_p_t_pie_chart.html</Path>
     <Anchor>a01efe9e766b46553537673d947da309e</Anchor>
     <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
-    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -13963,6 +14118,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cachedArrayForKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>acc4f970c4eb5f0630f86552f7f85ed5d</Anchor>
+    <Abstract>Retrieves an array of values from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cachedValueForKey:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Abstract>Retrieves a single value from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cacheNumbers:forField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -13982,6 +14159,28 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a585e6360378a42760007251b07acade7</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ad2dd1bbb5f56791dac2d5192a32f3657</Anchor>
+    <Abstract>Copies an array of arbitrary values to the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:atRecordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -14037,6 +14236,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
+    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -14907,17 +15117,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
-    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>plotRangeForField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -15642,6 +15841,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cachedArrayForKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>acc4f970c4eb5f0630f86552f7f85ed5d</Anchor>
+    <Abstract>Retrieves an array of values from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cachedValueForKey:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Abstract>Retrieves a single value from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cacheNumbers:forField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -15661,6 +15882,28 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a585e6360378a42760007251b07acade7</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ad2dd1bbb5f56791dac2d5192a32f3657</Anchor>
+    <Abstract>Copies an array of arbitrary values to the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:atRecordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15793,6 +16036,28 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
+    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nilData</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
+    <Abstract>A unique marker object used in collections to indicate that the datasource returned nil...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18360,17 +18625,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
-    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>plotRangeForField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -18580,6 +18834,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cachedArrayForKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>acc4f970c4eb5f0630f86552f7f85ed5d</Anchor>
+    <Abstract>Retrieves an array of values from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cachedValueForKey:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Abstract>Retrieves a single value from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cacheNumbers:forField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -18599,6 +18875,28 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a585e6360378a42760007251b07acade7</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ad2dd1bbb5f56791dac2d5192a32f3657</Anchor>
+    <Abstract>Copies an array of arbitrary values to the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:atRecordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18654,6 +18952,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
+    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -19282,6 +19591,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>nilData</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
+    <Abstract>A unique marker object used in collections to indicate that the datasource returned nil...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTRangePlotDelegate</Name>
       <APILanguage>c</APILanguage>
       <Type>intf</Type>
@@ -19524,17 +19844,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
-    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>plotRangeForField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -19744,6 +20053,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cachedArrayForKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>acc4f970c4eb5f0630f86552f7f85ed5d</Anchor>
+    <Abstract>Retrieves an array of values from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cachedValueForKey:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Abstract>Retrieves a single value from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cacheNumbers:forField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -19763,6 +20094,28 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a585e6360378a42760007251b07acade7</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ad2dd1bbb5f56791dac2d5192a32f3657</Anchor>
+    <Abstract>Copies an array of arbitrary values to the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:atRecordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -19818,6 +20171,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
+    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20476,6 +20840,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a38dd48786a040cdb102fa481d2aff263</Anchor>
     <Abstract>A set of sublayers that should be excluded from the automatic sublayer layout.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nilData</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
+    <Abstract>A unique marker object used in collections to indicate that the datasource returned nil...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21519,17 +21894,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
-    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>plotRangeForField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -21739,6 +22103,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cachedArrayForKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>acc4f970c4eb5f0630f86552f7f85ed5d</Anchor>
+    <Abstract>Retrieves an array of values from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cachedValueForKey:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Abstract>Retrieves a single value from the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cacheNumbers:forField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -21758,6 +22144,28 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a585e6360378a42760007251b07acade7</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ad2dd1bbb5f56791dac2d5192a32f3657</Anchor>
+    <Abstract>Copies an array of arbitrary values to the cache.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cacheArray:forKey:atRecordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21813,6 +22221,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numbersFromDataSourceForField:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
+    <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22482,6 +22901,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a38dd48786a040cdb102fa481d2aff263</Anchor>
     <Abstract>A set of sublayers that should be excluded from the automatic sublayer layout.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nilData</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
+    <Abstract>A unique marker object used in collections to indicate that the datasource returned nil...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

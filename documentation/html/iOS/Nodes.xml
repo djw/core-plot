@@ -2722,6 +2722,21 @@
             <Path>interface_c_p_t_plot.html</Path>
             <Subnodes>
              <Node>
+              <Name>cacheArray:forKey:</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>ad2dd1bbb5f56791dac2d5192a32f3657</Anchor>
+             </Node>
+             <Node>
+              <Name>cacheArray:forKey:atRecordIndex:</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+             </Node>
+             <Node>
+              <Name>cachedArrayForKey:</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>acc4f970c4eb5f0630f86552f7f85ed5d</Anchor>
+             </Node>
+             <Node>
               <Name>cachedDecimalForField:recordIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
@@ -2740,6 +2755,11 @@
               <Name>cachedNumbersForField:</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>aff032ba633d5eb1766ee8849bcd19fb0</Anchor>
+             </Node>
+             <Node>
+              <Name>cachedValueForKey:recordIndex:</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
              </Node>
              <Node>
               <Name>cacheNumbers:forField:</Name>
@@ -2785,6 +2805,11 @@
               <Name>insertDataAtIndex:numberOfRecords:</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+             </Node>
+             <Node>
+              <Name>nilData</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
              </Node>
              <Node>
               <Name>numberOfFields</Name>
@@ -6294,6 +6319,16 @@
                 <Anchor>a3f58e790799e9b4ff8534f5afeef6466</Anchor>
                </Node>
                <Node>
+                <Name>CPTBarPlotBindingBarFills</Name>
+                <Path>_c_p_t_bar_plot_8h.html</Path>
+                <Anchor>a5b227b465784038ed8417991a8793c61</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTBarPlotBindingBarLineStyles</Name>
+                <Path>_c_p_t_bar_plot_8h.html</Path>
+                <Anchor>a7e559352b05889787600bf263c1a7c39</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTBarPlotBindingBarLocations</Name>
                 <Path>_c_p_t_bar_plot_8h.html</Path>
                 <Anchor>acf3b4618e2dd31a43ebbcdc6903daaf5</Anchor>
@@ -6313,6 +6348,16 @@
                 <Name>CPTBarPlotBindingBarBases</Name>
                 <Path>_c_p_t_bar_plot_8m.html</Path>
                 <Anchor>a3f58e790799e9b4ff8534f5afeef6466</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTBarPlotBindingBarFills</Name>
+                <Path>_c_p_t_bar_plot_8m.html</Path>
+                <Anchor>a5b227b465784038ed8417991a8793c61</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTBarPlotBindingBarLineStyles</Name>
+                <Path>_c_p_t_bar_plot_8m.html</Path>
+                <Anchor>a7e559352b05889787600bf263c1a7c39</Anchor>
                </Node>
                <Node>
                 <Name>CPTBarPlotBindingBarLocations</Name>
@@ -8673,6 +8718,16 @@
                 <Anchor>a0b209ff8a87cc94ca1901c089415e7c1</Anchor>
                </Node>
                <Node>
+                <Name>CPTPieChartBindingPieSliceFills</Name>
+                <Path>_c_p_t_pie_chart_8h.html</Path>
+                <Anchor>a669ff2bea50080be885d4eab0a8776e3</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTPieChartBindingPieSliceRadialOffsets</Name>
+                <Path>_c_p_t_pie_chart_8h.html</Path>
+                <Anchor>a555f962bbc83f50c82ea227f02792027</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTPieChartBindingPieSliceWidthValues</Name>
                 <Path>_c_p_t_pie_chart_8h.html</Path>
                 <Anchor>aec9c9b4fd28157a59a8cf195a9b3c99c</Anchor>
@@ -8687,6 +8742,16 @@
                 <Name>colorLookupTable</Name>
                 <Path>_c_p_t_pie_chart_8m.html</Path>
                 <Anchor>a8cd7d286d0711d335858a26d7c2f5b60</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTPieChartBindingPieSliceFills</Name>
+                <Path>_c_p_t_pie_chart_8m.html</Path>
+                <Anchor>a669ff2bea50080be885d4eab0a8776e3</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTPieChartBindingPieSliceRadialOffsets</Name>
+                <Path>_c_p_t_pie_chart_8m.html</Path>
+                <Anchor>a555f962bbc83f50c82ea227f02792027</Anchor>
                </Node>
                <Node>
                 <Name>CPTPieChartBindingPieSliceWidthValues</Name>
@@ -8766,6 +8831,21 @@
                 <Path>interface_c_p_t_plot.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>cacheArray:forKey:</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>ad2dd1bbb5f56791dac2d5192a32f3657</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cacheArray:forKey:atRecordIndex:</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cachedArrayForKey:</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>acc4f970c4eb5f0630f86552f7f85ed5d</Anchor>
+                 </Node>
+                 <Node>
                   <Name>cachedDecimalForField:recordIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
@@ -8784,6 +8864,11 @@
                   <Name>cachedNumbersForField:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>aff032ba633d5eb1766ee8849bcd19fb0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cachedValueForKey:recordIndex:</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
                  </Node>
                  <Node>
                   <Name>cacheNumbers:forField:</Name>
@@ -8829,6 +8914,11 @@
                   <Name>insertDataAtIndex:numberOfRecords:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>nilData</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
                  </Node>
                  <Node>
                   <Name>numberOfFields</Name>
@@ -9007,11 +9097,23 @@
                 <Path>_c_p_t_plot_8h.html</Path>
                 <Anchor>ad9096339b25b6dc933e810ac2726ca64</Anchor>
                </Node>
+               <Node>
+                <Name>CPTPlotBindingDataLabels</Name>
+                <Path>_c_p_t_plot_8h.html</Path>
+                <Anchor>afc2c14b05a72fa272ad34cb0925a4e9d</Anchor>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
               <Name>CPTPlot.m</Name>
               <Path>_c_p_t_plot_8m.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>CPTPlotBindingDataLabels</Name>
+                <Path>_c_p_t_plot_8m.html</Path>
+                <Anchor>afc2c14b05a72fa272ad34cb0925a4e9d</Anchor>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>CPTPlotArea.h</Name>

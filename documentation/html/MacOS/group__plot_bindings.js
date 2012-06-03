@@ -1,6 +1,7 @@
 var group__plot_bindings =
 [
     [ "Bar Plot Bindings", "group__plot_bindings_bar_plot.html", "group__plot_bindings_bar_plot" ],
+    [ "Bindings For All Plots", "group__plot_bindings_all_plots.html", "group__plot_bindings_all_plots" ],
     [ "Pie Chart Bindings", "group__plot_bindings_pie_chart.html", "group__plot_bindings_pie_chart" ],
     [ "Range Plot Bindings", "group__plot_bindings_range_plot.html", "group__plot_bindings_range_plot" ],
     [ "Scatter Plot Bindings", "group__plot_bindings_scatter_plot.html", "group__plot_bindings_scatter_plot" ],

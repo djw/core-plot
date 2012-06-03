@@ -131,7 +131,7 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
     [ "CPTPieChart.h", "_c_p_t_pie_chart_8h.html", "_c_p_t_pie_chart_8h" ],
     [ "CPTPieChart.m", "_c_p_t_pie_chart_8m.html", "_c_p_t_pie_chart_8m" ],
     [ "CPTPlot.h", "_c_p_t_plot_8h.html", "_c_p_t_plot_8h" ],
-    [ "CPTPlot.m", "_c_p_t_plot_8m.html", null ],
+    [ "CPTPlot.m", "_c_p_t_plot_8m.html", "_c_p_t_plot_8m" ],
     [ "CPTPlotArea.h", "_c_p_t_plot_area_8h.html", [
       [ "CPTPlotArea", "interface_c_p_t_plot_area.html", "interface_c_p_t_plot_area" ]
     ] ],
