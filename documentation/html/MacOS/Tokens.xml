@@ -1598,7 +1598,7 @@
     </TokenIdentifier>
     <Path>group__plot_bindings_range_plot.html</Path>
     <Anchor>ga88df7d7c5739bef9f7847782adf640c9</Anchor>
-    <Abstract>high values.</Abstract>
+    <Abstract>High values.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1608,7 +1608,7 @@
     </TokenIdentifier>
     <Path>group__plot_bindings_range_plot.html</Path>
     <Anchor>ga5fdb3c2fe524a43b0dad31cca96dc371</Anchor>
-    <Abstract>low values.</Abstract>
+    <Abstract>Low values.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1618,7 +1618,7 @@
     </TokenIdentifier>
     <Path>group__plot_bindings_range_plot.html</Path>
     <Anchor>ga56bb63fda4a812b779ea388fdc68787f</Anchor>
-    <Abstract>left price values.</Abstract>
+    <Abstract>Left price values.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1628,7 +1628,17 @@
     </TokenIdentifier>
     <Path>group__plot_bindings_range_plot.html</Path>
     <Anchor>gabf1b5c831f9bcb7f2f57820f968b7865</Anchor>
-    <Abstract>right price values.</Abstract>
+    <Abstract>Right price values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTRangePlotBindingBarLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_range_plot.html</Path>
+    <Anchor>gaed64f0e0d49887fbb2db282adadb9477</Anchor>
+    <Abstract>Bar line styles.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1718,7 +1728,7 @@
     </TokenIdentifier>
     <Path>_c_p_t_range_plot_8m.html</Path>
     <Anchor>a88df7d7c5739bef9f7847782adf640c9</Anchor>
-    <Abstract>high values.</Abstract>
+    <Abstract>High values.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1728,7 +1738,7 @@
     </TokenIdentifier>
     <Path>_c_p_t_range_plot_8m.html</Path>
     <Anchor>a5fdb3c2fe524a43b0dad31cca96dc371</Anchor>
-    <Abstract>low values.</Abstract>
+    <Abstract>Low values.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1738,7 +1748,7 @@
     </TokenIdentifier>
     <Path>_c_p_t_range_plot_8m.html</Path>
     <Anchor>a56bb63fda4a812b779ea388fdc68787f</Anchor>
-    <Abstract>left price values.</Abstract>
+    <Abstract>Left price values.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1748,7 +1758,17 @@
     </TokenIdentifier>
     <Path>_c_p_t_range_plot_8m.html</Path>
     <Anchor>abf1b5c831f9bcb7f2f57820f968b7865</Anchor>
-    <Abstract>right price values.</Abstract>
+    <Abstract>Right price values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTRangePlotBindingBarLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_range_plot_8m.html</Path>
+    <Anchor>aed64f0e0d49887fbb2db282adadb9477</Anchor>
+    <Abstract>Bar line styles.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2021,6 +2041,56 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingIncreaseFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>ga5c3e3e9b06e7ba491ecd5bd98aac091c</Anchor>
+    <Abstract>Fills used with a candlestick plot when close &amp;gt;= open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingDecreaseFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>ga823dd852225cb78ef545d50fa74c0097</Anchor>
+    <Abstract>Fills used with a candlestick plot when close &amp;lt; open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>ga0365781ece8d658eb0eaf822dbd6dcd6</Anchor>
+    <Abstract>Line styles used to draw candlestick or OHLC symbols.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingIncreaseLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>ga6d25c69831bde5aedd4564bccc13b734</Anchor>
+    <Abstract>Line styles used to outline candlestick symbols when close &amp;gt;= open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingDecreaseLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>gad63deec419ad5017e7a677de4cef450a</Anchor>
+    <Abstract>Line styles used to outline candlestick symbols when close &amp;lt; open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTTradingRangePlotFieldX</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -2138,6 +2208,56 @@
     <Path>_c_p_t_trading_range_plot_8m.html</Path>
     <Anchor>afc476a911fbf3eba1e7daf31ad5c5f27</Anchor>
     <Abstract>Close price values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingIncreaseFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_trading_range_plot_8m.html</Path>
+    <Anchor>a5c3e3e9b06e7ba491ecd5bd98aac091c</Anchor>
+    <Abstract>Fills used with a candlestick plot when close &amp;gt;= open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingDecreaseFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_trading_range_plot_8m.html</Path>
+    <Anchor>a823dd852225cb78ef545d50fa74c0097</Anchor>
+    <Abstract>Fills used with a candlestick plot when close &amp;lt; open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_trading_range_plot_8m.html</Path>
+    <Anchor>a0365781ece8d658eb0eaf822dbd6dcd6</Anchor>
+    <Abstract>Line styles used to draw candlestick or OHLC symbols.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingIncreaseLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_trading_range_plot_8m.html</Path>
+    <Anchor>a6d25c69831bde5aedd4564bccc13b734</Anchor>
+    <Abstract>Line styles used to outline candlestick symbols when close &amp;gt;= open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingDecreaseLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_trading_range_plot_8m.html</Path>
+    <Anchor>ad63deec419ad5017e7a677de4cef450a</Anchor>
+    <Abstract>Line styles used to outline candlestick symbols when close &amp;lt; open.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3796,7 +3916,7 @@
     </TokenIdentifier>
     <Path>group__plot_bindings_range_plot.html</Path>
     <Anchor>ga88df7d7c5739bef9f7847782adf640c9</Anchor>
-    <Abstract>high values.</Abstract>
+    <Abstract>High values.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3806,7 +3926,7 @@
     </TokenIdentifier>
     <Path>group__plot_bindings_range_plot.html</Path>
     <Anchor>ga5fdb3c2fe524a43b0dad31cca96dc371</Anchor>
-    <Abstract>low values.</Abstract>
+    <Abstract>Low values.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3816,7 +3936,7 @@
     </TokenIdentifier>
     <Path>group__plot_bindings_range_plot.html</Path>
     <Anchor>ga56bb63fda4a812b779ea388fdc68787f</Anchor>
-    <Abstract>left price values.</Abstract>
+    <Abstract>Left price values.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3826,7 +3946,17 @@
     </TokenIdentifier>
     <Path>group__plot_bindings_range_plot.html</Path>
     <Anchor>gabf1b5c831f9bcb7f2f57820f968b7865</Anchor>
-    <Abstract>right price values.</Abstract>
+    <Abstract>Right price values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTRangePlotBindingBarLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_range_plot.html</Path>
+    <Anchor>gaed64f0e0d49887fbb2db282adadb9477</Anchor>
+    <Abstract>Bar line styles.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4029,6 +4159,56 @@
     <Path>group__plot_bindings_trading_range_plot.html</Path>
     <Anchor>gafc476a911fbf3eba1e7daf31ad5c5f27</Anchor>
     <Abstract>Close price values.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingIncreaseFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>ga5c3e3e9b06e7ba491ecd5bd98aac091c</Anchor>
+    <Abstract>Fills used with a candlestick plot when close &amp;gt;= open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingDecreaseFills</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>ga823dd852225cb78ef545d50fa74c0097</Anchor>
+    <Abstract>Fills used with a candlestick plot when close &amp;lt; open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>ga0365781ece8d658eb0eaf822dbd6dcd6</Anchor>
+    <Abstract>Line styles used to draw candlestick or OHLC symbols.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingIncreaseLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>ga6d25c69831bde5aedd4564bccc13b734</Anchor>
+    <Abstract>Line styles used to outline candlestick symbols when close &amp;gt;= open.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotBindingDecreaseLineStyles</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__plot_bindings_trading_range_plot.html</Path>
+    <Anchor>gad63deec419ad5017e7a677de4cef450a</Anchor>
+    <Abstract>Line styles used to outline candlestick symbols when close &amp;lt; open.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21979,6 +22159,105 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTRangePlotDataSource</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+      <Scope>CPTRangePlotDataSource</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+    <Abstract>A range plot data source.</Abstract>
+    <DeclaredIn>CPTRangePlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>barLineStyleForRangePlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+    <Anchor>a316457d724e002e906cbff8b58b985e3</Anchor>
+    <Abstract>(Optional) Gets a bar line style for the given range plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numberOfRecordsForPlot:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a4f88c11590a2ec86a41bab421d207744</Anchor>
+    <Abstract>(Required) The number of data points for the plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numbersForPlot:field:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a9dbeec1441957bf8b8b64e553499eaf9</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numberForPlot:field:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+    <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>doublesForPlot:field:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>af3dd375ee459541f0a8b53c700bff9a3</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>doubleForPlot:field:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+    <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataForPlot:field:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a43a84ec249a526948d1f45bf4634d289</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataLabelForPlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+    <Abstract>(Optional) Gets a data label for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTRangePlotDelegate</Name>
       <APILanguage>c</APILanguage>
       <Type>intf</Type>
@@ -25589,6 +25868,149 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
     <Abstract>A unique marker object used in collections to indicate that the datasource returned nil...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTradingRangePlotDataSource</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+      <Scope>CPTTradingRangePlotDataSource</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Abstract>A trading range plot data source.</Abstract>
+    <DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>increaseFillForTradingRangePlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>ae9b7253b7ae91d00dce3a0f04d45af0d</Anchor>
+    <Abstract>(Optional) Gets the fill used with a candlestick plot when close &amp;gt;= open for the given trading range ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>decreaseFillForTradingRangePlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>acacf0574c8b1029e73fdd67c209cfa73</Anchor>
+    <Abstract>(Optional) Gets the fill used with a candlestick plot when close &amp;lt; open for the given trading range p...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineStyleForTradingRangePlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>ab9ca3f94634e86d5c5fb74c36b875179</Anchor>
+    <Abstract>(Optional) Gets the line style used to draw candlestick or OHLC symbols for the given trading range p...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>increaseLineStyleForTradingRangePlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>a99a001076e83f7d70794528fdc5f54f4</Anchor>
+    <Abstract>(Optional) Gets the line style used to outline candlestick symbols when close &amp;gt;= open for the given t...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>decreaseLineStyleForTradingRangePlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>a435a89ee8c17f9cbb040e9c5f2cf195d</Anchor>
+    <Abstract>(Optional) Gets the line style used to outline candlestick symbols when close &amp;lt; open for the given tr...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numberOfRecordsForPlot:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a4f88c11590a2ec86a41bab421d207744</Anchor>
+    <Abstract>(Required) The number of data points for the plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numbersForPlot:field:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a9dbeec1441957bf8b8b64e553499eaf9</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numberForPlot:field:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+    <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>doublesForPlot:field:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>af3dd375ee459541f0a8b53c700bff9a3</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>doubleForPlot:field:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+    <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataForPlot:field:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>a43a84ec249a526948d1f45bf4634d289</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataLabelForPlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+    <Abstract>(Optional) Gets a data label for the given plot.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

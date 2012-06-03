@@ -1,8 +1,10 @@
 var _c_p_t_range_plot_8h =
 [
+    [ "CPTRangePlotDataSource-p", "protocol_c_p_t_range_plot_data_source-p.html", "protocol_c_p_t_range_plot_data_source-p" ],
     [ "CPTRangePlotDelegate-p", "protocol_c_p_t_range_plot_delegate-p.html", "protocol_c_p_t_range_plot_delegate-p" ],
     [ "CPTRangePlot", "interface_c_p_t_range_plot.html", "interface_c_p_t_range_plot" ],
     [ "CPTRangePlotField", "_c_p_t_range_plot_8h.html#ae960cbc1a7f60add898ddeabb0cf5489", null ],
+    [ "CPTRangePlotBindingBarLineStyles", "_c_p_t_range_plot_8h.html#gaed64f0e0d49887fbb2db282adadb9477", null ],
     [ "CPTRangePlotBindingHighValues", "_c_p_t_range_plot_8h.html#ga88df7d7c5739bef9f7847782adf640c9", null ],
     [ "CPTRangePlotBindingLeftValues", "_c_p_t_range_plot_8h.html#ga56bb63fda4a812b779ea388fdc68787f", null ],
     [ "CPTRangePlotBindingLowValues", "_c_p_t_range_plot_8h.html#ga5fdb3c2fe524a43b0dad31cca96dc371", null ],

@@ -110,7 +110,9 @@ var hierarchy =
       [ "<CPTPlotDataSource>", "protocol_c_p_t_plot_data_source-p.html", [
         [ "<CPTBarPlotDataSource>", "protocol_c_p_t_bar_plot_data_source-p.html", null ],
         [ "<CPTPieChartDataSource>", "protocol_c_p_t_pie_chart_data_source-p.html", null ],
-        [ "<CPTScatterPlotDataSource>", "protocol_c_p_t_scatter_plot_data_source-p.html", null ]
+        [ "<CPTRangePlotDataSource>", "protocol_c_p_t_range_plot_data_source-p.html", null ],
+        [ "<CPTScatterPlotDataSource>", "protocol_c_p_t_scatter_plot_data_source-p.html", null ],
+        [ "<CPTTradingRangePlotDataSource>", "protocol_c_p_t_trading_range_plot_data_source-p.html", null ]
       ] ],
       [ "<CPTPlotDelegate>", "protocol_c_p_t_plot_delegate-p.html", [
         [ "<CPTBarPlotDelegate>", "protocol_c_p_t_bar_plot_delegate-p.html", null ],

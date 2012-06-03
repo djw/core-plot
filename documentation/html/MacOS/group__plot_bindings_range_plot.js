@@ -1,5 +1,6 @@
 var group__plot_bindings_range_plot =
 [
+    [ "CPTRangePlotBindingBarLineStyles", "group__plot_bindings_range_plot.html#gaed64f0e0d49887fbb2db282adadb9477", null ],
     [ "CPTRangePlotBindingHighValues", "group__plot_bindings_range_plot.html#ga88df7d7c5739bef9f7847782adf640c9", null ],
     [ "CPTRangePlotBindingLeftValues", "group__plot_bindings_range_plot.html#ga56bb63fda4a812b779ea388fdc68787f", null ],
     [ "CPTRangePlotBindingLowValues", "group__plot_bindings_range_plot.html#ga5fdb3c2fe524a43b0dad31cca96dc371", null ],

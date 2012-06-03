@@ -59,23 +59,25 @@
 <area shape="rect" id="node114" href="$interface_c_p_t_time_formatter.html" title="A number formatter that converts time intervals to dates. Useful for formatting labels on an axis..." alt="" coords="944,1043,1086,1074"/>
 <area shape="rect" id="node115" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html" title="\&lt;NSCopying&#45;p\&gt;" alt="" coords="200,1315,328,1346"/>
 <area shape="rect" id="node130" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference.html" title="\&lt;NSMutableCopying&#45;p\&gt;" alt="" coords="174,1561,354,1591"/>
-<area shape="rect" id="node136" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="5,1725,123,1755"/>
-<area shape="rect" id="node138" href="$protocol_c_p_t_axis_delegate-p.html" title="Axis labeling delegate." alt="" coords="188,1670,340,1701"/>
-<area shape="rect" id="node140" href="$protocol_c_p_t_legend_delegate-p.html" title="Axis labeling delegate." alt="" coords="178,1725,350,1755"/>
-<area shape="rect" id="node142" href="$protocol_c_p_t_plot_data_source-p.html" title="A plot data source." alt="" coords="181,1779,347,1810"/>
-<area shape="rect" id="node150" href="$protocol_c_p_t_plot_delegate-p.html" title="Plot delegate." alt="" coords="190,1943,338,1974"/>
-<area shape="rect" id="node162" href="$protocol_c_p_t_plot_space_delegate-p.html" title="Plot space delegate." alt="" coords="171,1998,357,2029"/>
-<area shape="rect" id="node164" href="$protocol_c_p_t_responder-p.html" title="The basis of all event processing in Core Plot." alt="" coords="196,577,332,607"/>
-<area shape="rect" id="node168" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="224,1123,304,1154"/>
+<area shape="rect" id="node136" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="5,1779,123,1810"/>
+<area shape="rect" id="node138" href="$protocol_c_p_t_axis_delegate-p.html" title="Axis labeling delegate." alt="" coords="188,1725,340,1755"/>
+<area shape="rect" id="node140" href="$protocol_c_p_t_legend_delegate-p.html" title="Axis labeling delegate." alt="" coords="178,1779,350,1810"/>
+<area shape="rect" id="node142" href="$protocol_c_p_t_plot_data_source-p.html" title="A plot data source." alt="" coords="181,1834,347,1865"/>
+<area shape="rect" id="node154" href="$protocol_c_p_t_plot_delegate-p.html" title="Plot delegate." alt="" coords="190,2071,338,2102"/>
+<area shape="rect" id="node166" href="$protocol_c_p_t_plot_space_delegate-p.html" title="Plot space delegate." alt="" coords="171,2126,357,2157"/>
+<area shape="rect" id="node168" href="$protocol_c_p_t_responder-p.html" title="The basis of all event processing in Core Plot." alt="" coords="196,577,332,607"/>
+<area shape="rect" id="node172" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="224,1123,304,1154"/>
 <area shape="rect" id="node144" href="$protocol_c_p_t_bar_plot_data_source-p.html" title="A bar plot data source." alt="" coords="433,1725,618,1755"/>
 <area shape="rect" id="node146" href="$protocol_c_p_t_pie_chart_data_source-p.html" title="A pie chart data source." alt="" coords="428,1779,623,1810"/>
-<area shape="rect" id="node148" href="$protocol_c_p_t_scatter_plot_data_source-p.html" title="A scatter plot data source." alt="" coords="421,1834,630,1865"/>
-<area shape="rect" id="node152" href="$protocol_c_p_t_bar_plot_delegate-p.html" title="Bar plot delegate." alt="" coords="441,1889,610,1919"/>
-<area shape="rect" id="node154" href="$protocol_c_p_t_pie_chart_delegate-p.html" title="Pie chart delegate." alt="" coords="436,1943,614,1974"/>
-<area shape="rect" id="node156" href="$protocol_c_p_t_range_plot_delegate-p.html" title="Range plot delegate." alt="" coords="431,1998,620,2029"/>
-<area shape="rect" id="node158" href="$protocol_c_p_t_scatter_plot_delegate-p.html" title="Scatter plot delegate." alt="" coords="429,2053,622,2083"/>
-<area shape="rect" id="node160" href="$protocol_c_p_t_trading_range_plot_delegate-p.html" title="Trading range plot delegate." alt="" coords="406,2107,645,2138"/>
-<area shape="rect" id="node191" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/UIKit/Reference/UIResponder_Class/Reference/Reference.html.html#//apple_ref/occ/cl/UIResponder" title="UIResponder" alt="" coords="474,741,577,771"/>
-<area shape="rect" id="node193" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/UIKit/Reference/UIView_Class/UIView/UIView.html" title="UIView" alt="" coords="752,1098,816,1129"/>
-<area shape="rect" id="node195" href="$interface_c_p_t_graph_hosting_view.html" title="A container view for displaying a CPTGraph." alt="" coords="932,1098,1098,1129"/>
+<area shape="rect" id="node148" href="$protocol_c_p_t_range_plot_data_source-p.html" title="A range plot data source." alt="" coords="423,1834,628,1865"/>
+<area shape="rect" id="node150" href="$protocol_c_p_t_scatter_plot_data_source-p.html" title="A scatter plot data source." alt="" coords="421,1889,630,1919"/>
+<area shape="rect" id="node152" href="$protocol_c_p_t_trading_range_plot_data_source-p.html" title="A trading range plot data source." alt="" coords="425,1943,626,1993"/>
+<area shape="rect" id="node156" href="$protocol_c_p_t_bar_plot_delegate-p.html" title="Bar plot delegate." alt="" coords="441,2017,610,2047"/>
+<area shape="rect" id="node158" href="$protocol_c_p_t_pie_chart_delegate-p.html" title="Pie chart delegate." alt="" coords="436,2071,614,2102"/>
+<area shape="rect" id="node160" href="$protocol_c_p_t_range_plot_delegate-p.html" title="Range plot delegate." alt="" coords="431,2126,620,2157"/>
+<area shape="rect" id="node162" href="$protocol_c_p_t_scatter_plot_delegate-p.html" title="Scatter plot delegate." alt="" coords="429,2181,622,2211"/>
+<area shape="rect" id="node164" href="$protocol_c_p_t_trading_range_plot_delegate-p.html" title="Trading range plot delegate." alt="" coords="406,2235,645,2266"/>
+<area shape="rect" id="node195" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/UIKit/Reference/UIResponder_Class/Reference/Reference.html.html#//apple_ref/occ/cl/UIResponder" title="UIResponder" alt="" coords="474,741,577,771"/>
+<area shape="rect" id="node197" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/UIKit/Reference/UIView_Class/UIView/UIView.html" title="UIView" alt="" coords="752,1098,816,1129"/>
+<area shape="rect" id="node199" href="$interface_c_p_t_graph_hosting_view.html" title="A container view for displaying a CPTGraph." alt="" coords="932,1098,1098,1129"/>
 </map>

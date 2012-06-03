@@ -1,5 +1,12 @@
 var NAVTREEINDEX1 =
 {
+"_c_p_t_trading_range_plot_8m.html#a79233b77eb1664118f183720e60cf03a":[3,0,1,110,8],
+"_c_p_t_trading_range_plot_8m.html#a823dd852225cb78ef545d50fa74c0097":[3,0,1,110,1],
+"_c_p_t_trading_range_plot_8m.html#ab50ad83f89e50228658675b75849092a":[3,0,1,110,11],
+"_c_p_t_trading_range_plot_8m.html#ad63deec419ad5017e7a677de4cef450a":[3,0,1,110,2],
+"_c_p_t_trading_range_plot_8m.html#afc476a911fbf3eba1e7daf31ad5c5f27":[3,0,1,110,0],
+"_c_p_t_utilities_8h.html":[3,0,1,111],
+"_c_p_t_utilities_8h.html#a00cd4fa9bc439191406e291fcc1d73cb":[3,0,1,111,46],
 "_c_p_t_utilities_8h.html#a030acdcbf883d6a16e03258c48c8be19":[3,0,1,111,3],
 "_c_p_t_utilities_8h.html#a059a5020dcbf6d62ce772002e29a8e18":[3,0,1,111,22],
 "_c_p_t_utilities_8h.html#a0c8d770c2fa665ed305989b481333896":[3,0,1,111,2],
@@ -243,11 +250,4 @@ var NAVTREEINDEX1 =
 "group__plot_animation.html":[1,0,3],
 "group__plot_animation_all_plots.html":[1,0,3,0],
 "group__plot_animation_all_plots.html#ga1e0c675adacdd43c50517622154f6301":[2,0,42,45],
-"group__plot_animation_all_plots.html#ga9e258bb5f1e2385674299200c4eed799":[2,0,42,44],
-"group__plot_animation_bar_plot.html":[1,0,3,1],
-"group__plot_animation_bar_plot.html#ga340ebd556d13a8e5d3c7d709de2c588a":[2,0,8,4],
-"group__plot_animation_bar_plot.html#ga880361dd6ad4a3e7f1c26f56c7ed84cd":[2,0,8,6],
-"group__plot_animation_bar_plot.html#ga9ccd0b2ed6a06298e6f4585bf3e95279":[2,0,8,12],
-"group__plot_animation_bar_plot.html#gacf7d5567082b089e0ddcc5664eecb0db":[2,0,8,8],
-"group__plot_animation_pie_chart.html":[1,0,3,2],
 };

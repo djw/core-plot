@@ -1,6 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="node5" href="$protocol_c_p_t_bar_plot_data_source-p.html" title="A bar plot data source." alt="" coords="5,166,189,197"/>
-<area shape="rect" id="node7" href="$protocol_c_p_t_pie_chart_data_source-p.html" title="A pie chart data source." alt="" coords="215,166,408,197"/>
-<area shape="rect" id="node9" href="$protocol_c_p_t_scatter_plot_data_source-p.html" title="A scatter plot data source." alt="" coords="433,166,641,197"/>
-<area shape="rect" id="node2" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="253,6,371,37"/>
+<area shape="rect" id="node5" href="$protocol_c_p_t_bar_plot_data_source-p.html" title="A bar plot data source." alt="" coords="397,5,582,35"/>
+<area shape="rect" id="node7" href="$protocol_c_p_t_pie_chart_data_source-p.html" title="A pie chart data source." alt="" coords="392,59,587,90"/>
+<area shape="rect" id="node9" href="$protocol_c_p_t_range_plot_data_source-p.html" title="A range plot data source." alt="" coords="387,114,592,145"/>
+<area shape="rect" id="node11" href="$protocol_c_p_t_scatter_plot_data_source-p.html" title="A scatter plot data source." alt="" coords="385,169,594,199"/>
+<area shape="rect" id="node13" href="$protocol_c_p_t_trading_range_plot_data_source-p.html" title="A trading range plot data source." alt="" coords="389,223,590,273"/>
+<area shape="rect" id="node2" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="5,114,123,145"/>
 </map>

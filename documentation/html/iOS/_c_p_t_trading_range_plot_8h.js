@@ -1,5 +1,6 @@
 var _c_p_t_trading_range_plot_8h =
 [
+    [ "CPTTradingRangePlotDataSource-p", "protocol_c_p_t_trading_range_plot_data_source-p.html", "protocol_c_p_t_trading_range_plot_data_source-p" ],
     [ "CPTTradingRangePlotDelegate-p", "protocol_c_p_t_trading_range_plot_delegate-p.html", "protocol_c_p_t_trading_range_plot_delegate-p" ],
     [ "CPTTradingRangePlot", "interface_c_p_t_trading_range_plot.html", "interface_c_p_t_trading_range_plot" ],
     [ "CPTTradingRangePlotField", "_c_p_t_trading_range_plot_8h.html#a81f1f0a945c498402cfe046428777624", null ],

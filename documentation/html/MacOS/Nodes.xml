@@ -312,6 +312,11 @@
             <Path>group__plot_bindings_range_plot.html</Path>
             <Subnodes>
              <Node>
+              <Name>CPTRangePlotBindingBarLineStyles</Name>
+              <Path>group__plot_bindings_range_plot.html</Path>
+              <Anchor>gaed64f0e0d49887fbb2db282adadb9477</Anchor>
+             </Node>
+             <Node>
               <Name>CPTRangePlotBindingHighValues</Name>
               <Path>group__plot_bindings_range_plot.html</Path>
               <Anchor>ga88df7d7c5739bef9f7847782adf640c9</Anchor>
@@ -374,9 +379,34 @@
               <Anchor>gafc476a911fbf3eba1e7daf31ad5c5f27</Anchor>
              </Node>
              <Node>
+              <Name>CPTTradingRangePlotBindingDecreaseFills</Name>
+              <Path>group__plot_bindings_trading_range_plot.html</Path>
+              <Anchor>ga823dd852225cb78ef545d50fa74c0097</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingDecreaseLineStyles</Name>
+              <Path>group__plot_bindings_trading_range_plot.html</Path>
+              <Anchor>gad63deec419ad5017e7a677de4cef450a</Anchor>
+             </Node>
+             <Node>
               <Name>CPTTradingRangePlotBindingHighValues</Name>
               <Path>group__plot_bindings_trading_range_plot.html</Path>
               <Anchor>ga306d6a52959ac8bea1230ef5305e8636</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingIncreaseFills</Name>
+              <Path>group__plot_bindings_trading_range_plot.html</Path>
+              <Anchor>ga5c3e3e9b06e7ba491ecd5bd98aac091c</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingIncreaseLineStyles</Name>
+              <Path>group__plot_bindings_trading_range_plot.html</Path>
+              <Anchor>ga6d25c69831bde5aedd4564bccc13b734</Anchor>
+             </Node>
+             <Node>
+              <Name>CPTTradingRangePlotBindingLineStyles</Name>
+              <Path>group__plot_bindings_trading_range_plot.html</Path>
+              <Anchor>ga0365781ece8d658eb0eaf822dbd6dcd6</Anchor>
              </Node>
              <Node>
               <Name>CPTTradingRangePlotBindingLowValues</Name>
@@ -3799,6 +3829,17 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTRangePlotDataSource-p</Name>
+            <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>barLineStyleForRangePlot:recordIndex:</Name>
+              <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+              <Anchor>a316457d724e002e906cbff8b58b985e3</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CPTRangePlotDelegate-p</Name>
             <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
             <Subnodes>
@@ -4212,6 +4253,37 @@
               <Name>stickLength</Name>
               <Path>group__plot_animation_trading_range_plot.html</Path>
               <Anchor>gac504792fc8939f47a00812a385afb3a0</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTTradingRangePlotDataSource-p</Name>
+            <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>decreaseFillForTradingRangePlot:recordIndex:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>acacf0574c8b1029e73fdd67c209cfa73</Anchor>
+             </Node>
+             <Node>
+              <Name>decreaseLineStyleForTradingRangePlot:recordIndex:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>a435a89ee8c17f9cbb040e9c5f2cf195d</Anchor>
+             </Node>
+             <Node>
+              <Name>increaseFillForTradingRangePlot:recordIndex:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>ae9b7253b7ae91d00dce3a0f04d45af0d</Anchor>
+             </Node>
+             <Node>
+              <Name>increaseLineStyleForTradingRangePlot:recordIndex:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>a99a001076e83f7d70794528fdc5f54f4</Anchor>
+             </Node>
+             <Node>
+              <Name>lineStyleForTradingRangePlot:recordIndex:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>ab9ca3f94634e86d5c5fb74c36b875179</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4805,8 +4877,16 @@
                 <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
                </Node>
                <Node>
+                <Name>&lt;CPTRangePlotDataSource&gt;</Name>
+                <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+               </Node>
+               <Node>
                 <Name>&lt;CPTScatterPlotDataSource&gt;</Name>
                 <Path>protocol_c_p_t_scatter_plot_data_source-p.html</Path>
+               </Node>
+               <Node>
+                <Name>&lt;CPTTradingRangePlotDataSource&gt;</Name>
+                <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
                </Node>
               </Subnodes>
              </Node>
@@ -5321,8 +5401,16 @@
                 <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
                </Node>
                <Node>
+                <Name>&lt;CPTRangePlotDataSource&gt;</Name>
+                <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+               </Node>
+               <Node>
                 <Name>&lt;CPTScatterPlotDataSource&gt;</Name>
                 <Path>protocol_c_p_t_scatter_plot_data_source-p.html</Path>
+               </Node>
+               <Node>
+                <Name>&lt;CPTTradingRangePlotDataSource&gt;</Name>
+                <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
                </Node>
               </Subnodes>
              </Node>
@@ -10012,6 +10100,17 @@
               <Path>_c_p_t_range_plot_8h.html</Path>
               <Subnodes>
                <Node>
+                <Name>CPTRangePlotDataSource-p</Name>
+                <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>barLineStyleForRangePlot:recordIndex:</Name>
+                  <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+                  <Anchor>a316457d724e002e906cbff8b58b985e3</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>CPTRangePlotDelegate-p</Name>
                 <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
                 <Subnodes>
@@ -10074,6 +10173,11 @@
                 <Anchor>ae960cbc1a7f60add898ddeabb0cf5489</Anchor>
                </Node>
                <Node>
+                <Name>CPTRangePlotBindingBarLineStyles</Name>
+                <Path>_c_p_t_range_plot_8h.html</Path>
+                <Anchor>gaed64f0e0d49887fbb2db282adadb9477</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTRangePlotBindingHighValues</Name>
                 <Path>_c_p_t_range_plot_8h.html</Path>
                 <Anchor>ga88df7d7c5739bef9f7847782adf640c9</Anchor>
@@ -10109,6 +10213,11 @@
               <Name>CPTRangePlot.m</Name>
               <Path>_c_p_t_range_plot_8m.html</Path>
               <Subnodes>
+               <Node>
+                <Name>CPTRangePlotBindingBarLineStyles</Name>
+                <Path>_c_p_t_range_plot_8m.html</Path>
+                <Anchor>aed64f0e0d49887fbb2db282adadb9477</Anchor>
+               </Node>
                <Node>
                 <Name>CPTRangePlotBindingHighValues</Name>
                 <Path>_c_p_t_range_plot_8m.html</Path>
@@ -10617,6 +10726,37 @@
               <Path>_c_p_t_trading_range_plot_8h.html</Path>
               <Subnodes>
                <Node>
+                <Name>CPTTradingRangePlotDataSource-p</Name>
+                <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>decreaseFillForTradingRangePlot:recordIndex:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>acacf0574c8b1029e73fdd67c209cfa73</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>decreaseLineStyleForTradingRangePlot:recordIndex:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>a435a89ee8c17f9cbb040e9c5f2cf195d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>increaseFillForTradingRangePlot:recordIndex:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>ae9b7253b7ae91d00dce3a0f04d45af0d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>increaseLineStyleForTradingRangePlot:recordIndex:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>a99a001076e83f7d70794528fdc5f54f4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>lineStyleForTradingRangePlot:recordIndex:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>ab9ca3f94634e86d5c5fb74c36b875179</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>CPTTradingRangePlotDelegate-p</Name>
                 <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
                 <Subnodes>
@@ -10709,9 +10849,34 @@
                 <Anchor>gafc476a911fbf3eba1e7daf31ad5c5f27</Anchor>
                </Node>
                <Node>
+                <Name>CPTTradingRangePlotBindingDecreaseFills</Name>
+                <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                <Anchor>ga823dd852225cb78ef545d50fa74c0097</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTTradingRangePlotBindingDecreaseLineStyles</Name>
+                <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                <Anchor>gad63deec419ad5017e7a677de4cef450a</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTTradingRangePlotBindingHighValues</Name>
                 <Path>_c_p_t_trading_range_plot_8h.html</Path>
                 <Anchor>ga306d6a52959ac8bea1230ef5305e8636</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTTradingRangePlotBindingIncreaseFills</Name>
+                <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                <Anchor>ga5c3e3e9b06e7ba491ecd5bd98aac091c</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTTradingRangePlotBindingIncreaseLineStyles</Name>
+                <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                <Anchor>ga6d25c69831bde5aedd4564bccc13b734</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTTradingRangePlotBindingLineStyles</Name>
+                <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                <Anchor>ga0365781ece8d658eb0eaf822dbd6dcd6</Anchor>
                </Node>
                <Node>
                 <Name>CPTTradingRangePlotBindingLowValues</Name>
@@ -10740,9 +10905,34 @@
                 <Anchor>afc476a911fbf3eba1e7daf31ad5c5f27</Anchor>
                </Node>
                <Node>
+                <Name>CPTTradingRangePlotBindingDecreaseFills</Name>
+                <Path>_c_p_t_trading_range_plot_8m.html</Path>
+                <Anchor>a823dd852225cb78ef545d50fa74c0097</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTTradingRangePlotBindingDecreaseLineStyles</Name>
+                <Path>_c_p_t_trading_range_plot_8m.html</Path>
+                <Anchor>ad63deec419ad5017e7a677de4cef450a</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTTradingRangePlotBindingHighValues</Name>
                 <Path>_c_p_t_trading_range_plot_8m.html</Path>
                 <Anchor>a306d6a52959ac8bea1230ef5305e8636</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTTradingRangePlotBindingIncreaseFills</Name>
+                <Path>_c_p_t_trading_range_plot_8m.html</Path>
+                <Anchor>a5c3e3e9b06e7ba491ecd5bd98aac091c</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTTradingRangePlotBindingIncreaseLineStyles</Name>
+                <Path>_c_p_t_trading_range_plot_8m.html</Path>
+                <Anchor>a6d25c69831bde5aedd4564bccc13b734</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTTradingRangePlotBindingLineStyles</Name>
+                <Path>_c_p_t_trading_range_plot_8m.html</Path>
+                <Anchor>a0365781ece8d658eb0eaf822dbd6dcd6</Anchor>
                </Node>
                <Node>
                 <Name>CPTTradingRangePlotBindingLowValues</Name>
