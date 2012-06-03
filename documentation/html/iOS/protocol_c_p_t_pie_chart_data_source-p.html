@@ -94,11 +94,15 @@ $(document).ready(function(){initNavTree('protocol_c_p_t_pie_chart_data_source-p
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Slice Style</div></td></tr>
+<tr class="memitem:af9c25806f09dafc9ceab229da5dddab1"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#af9c25806f09dafc9ceab229da5dddab1">sliceFillsForPieChart:recordIndexRange:</a></td></tr>
+<tr class="memdesc:af9c25806f09dafc9ceab229da5dddab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of slice fills for the given pie chart.  <a href="#af9c25806f09dafc9ceab229da5dddab1"></a><br/></td></tr>
 <tr class="memitem:a1a14dc189512fde5a0ce1148f50364ac"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#a1a14dc189512fde5a0ce1148f50364ac">sliceFillForPieChart:recordIndex:</a></td></tr>
-<tr class="memdesc:a1a14dc189512fde5a0ce1148f50364ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a fill for the given pie chart slice.  <a href="#a1a14dc189512fde5a0ce1148f50364ac"></a><br/></td></tr>
+<tr class="memdesc:a1a14dc189512fde5a0ce1148f50364ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a fill for the given pie chart slice. This method will not be called if <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#af9c25806f09dafc9ceab229da5dddab1">-sliceFillsForPieChart:recordIndexRange: </a> is also implemented in the datasource.  <a href="#a1a14dc189512fde5a0ce1148f50364ac"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Slice Layout</div></td></tr>
+<tr class="memitem:a897d23a0ce6e4f4e12e3e99271049f02"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#a897d23a0ce6e4f4e12e3e99271049f02">radialOffsetsForPieChart:recordIndexRange:</a></td></tr>
+<tr class="memdesc:a897d23a0ce6e4f4e12e3e99271049f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of slice offsets for the given pie chart.  <a href="#a897d23a0ce6e4f4e12e3e99271049f02"></a><br/></td></tr>
 <tr class="memitem:a5e1c479464fc6bdde26d5fc50e044c1a"><td class="memItemLeft" align="right" valign="top">(CGFloat)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#a5e1c479464fc6bdde26d5fc50e044c1a">radialOffsetForPieChart:recordIndex:</a></td></tr>
-<tr class="memdesc:a5e1c479464fc6bdde26d5fc50e044c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Offsets the slice radially from the center point. Can be used to "explode" the chart.  <a href="#a5e1c479464fc6bdde26d5fc50e044c1a"></a><br/></td></tr>
+<tr class="memdesc:a5e1c479464fc6bdde26d5fc50e044c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Offsets the slice radially from the center point. Can be used to "explode" the chart. This method will not be called if <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#a897d23a0ce6e4f4e12e3e99271049f02">-radialOffsetsForPieChart:recordIndexRange: </a> is also implemented in the datasource.  <a href="#a5e1c479464fc6bdde26d5fc50e044c1a"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Legends</div></td></tr>
 <tr class="memitem:a8c3e883e352b9e1091747b44355d1c1a"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#a8c3e883e352b9e1091747b44355d1c1a">legendTitleForPieChart:recordIndex:</a></td></tr>
 <tr class="memdesc:a8c3e883e352b9e1091747b44355d1c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the legend title for the given pie chart slice.  <a href="#a8c3e883e352b9e1091747b44355d1c1a"></a><br/></td></tr>
@@ -115,8 +119,10 @@ Public Instance Methods</h2></td></tr>
 <tr class="memdesc:a751d55385f637298442d0fdaad503da7 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a751d55385f637298442d0fdaad503da7"></a><br/></td></tr>
 <tr class="memitem:a43a84ec249a526948d1f45bf4634d289 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_numeric_data.html">CPTNumericData</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a43a84ec249a526948d1f45bf4634d289">dataForPlot:field:recordIndexRange:</a></td></tr>
 <tr class="memdesc:a43a84ec249a526948d1f45bf4634d289 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a43a84ec249a526948d1f45bf4634d289"></a><br/></td></tr>
+<tr class="memitem:abc9085d1b4dd104b130f362e21ff00ea inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea">dataLabelsForPlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:abc9085d1b4dd104b130f362e21ff00ea inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of data labels for the given plot.  <a href="#abc9085d1b4dd104b130f362e21ff00ea"></a><br/></td></tr>
 <tr class="memitem:ac1bda304421f3bff21f4db54282620d9 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_layer.html">CPTLayer</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#ac1bda304421f3bff21f4db54282620d9">dataLabelForPlot:recordIndex:</a></td></tr>
-<tr class="memdesc:ac1bda304421f3bff21f4db54282620d9 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
+<tr class="memdesc:ac1bda304421f3bff21f4db54282620d9 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot. This method will not be called if <a class="el" href="protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea">-dataLabelsForPlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A pie chart data source. </p>
@@ -181,7 +187,7 @@ Public Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>(Optional) Offsets the slice radially from the center point. Can be used to "explode" the chart. </p>
+<p>(Optional) Offsets the slice radially from the center point. Can be used to "explode" the chart. This method will not be called if <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#a897d23a0ce6e4f4e12e3e99271049f02">-radialOffsetsForPieChart:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">pieChart</td><td>The pie chart. </td></tr>
@@ -190,6 +196,42 @@ Public Instance Methods</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>The radial offset in view coordinates. Zero is no offset. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a897d23a0ce6e4f4e12e3e99271049f02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *) radialOffsetsForPieChart: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_pie_chart.html">CPTPieChart</a> *)&#160;</td>
+          <td class="paramname"><em>pieChart</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndexRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Optional) Gets a range of slice offsets for the given pie chart. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pieChart</td><td>The pie chart. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>An array of radial offsets. </dd></dl>
 
 </div>
 </div>
@@ -217,11 +259,47 @@ Public Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>(Optional) Gets a fill for the given pie chart slice. </p>
+<p>(Optional) Gets a fill for the given pie chart slice. This method will not be called if <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#af9c25806f09dafc9ceab229da5dddab1">-sliceFillsForPieChart:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">pieChart</td><td>The pie chart. </td></tr>
     <tr><td class="paramname">index</td><td>The data index of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>The pie slice fill for the slice with the given index. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af9c25806f09dafc9ceab229da5dddab1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *) sliceFillsForPieChart: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_pie_chart.html">CPTPieChart</a> *)&#160;</td>
+          <td class="paramname"><em>pieChart</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndexRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Optional) Gets a range of slice fills for the given pie chart. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pieChart</td><td>The pie chart. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
   </table>
   </dd>
 </dl>

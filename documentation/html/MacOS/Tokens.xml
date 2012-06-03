@@ -8339,6 +8339,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>barFillsForBarPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTBarPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+    <Anchor>a52b0270ac18842c46544bbf3b085df74</Anchor>
+    <Abstract>(Optional) Gets an array of bar fills for the given bar plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>barFillForBarPlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -8346,7 +8357,18 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
     <Anchor>a5cd27b080cd53123a5ae42ec779d5f3b</Anchor>
-    <Abstract>(Optional) Gets a bar fill for the given bar plot.</Abstract>
+    <Abstract>(Optional) Gets a bar fill for the given bar plot. This method will not be called if -barFillsForBarP...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>barLineStylesForBarPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTBarPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+    <Anchor>a03beba8be2db7660228bb88427ab325a</Anchor>
+    <Abstract>(Optional) Gets an array of bar line styles for the given bar plot.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8357,7 +8379,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
     <Anchor>ad23834118ed616eba4b33fd88703fe2c</Anchor>
-    <Abstract>(Optional) Gets a bar line style for the given bar plot.</Abstract>
+    <Abstract>(Optional) Gets a bar line style for the given bar plot. This method will not be called if -barLineSt...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8438,6 +8460,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>dataLabelsForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>abc9085d1b4dd104b130f362e21ff00ea</Anchor>
+    <Abstract>(Optional) Gets a range of data labels for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>dataLabelForPlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -8445,7 +8478,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
-    <Abstract>(Optional) Gets a data label for the given plot.</Abstract>
+    <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17037,6 +17070,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sliceFillsForPieChart:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPieChartDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
+    <Anchor>af9c25806f09dafc9ceab229da5dddab1</Anchor>
+    <Abstract>(Optional) Gets a range of slice fills for the given pie chart.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sliceFillForPieChart:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -17044,7 +17088,18 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
     <Anchor>a1a14dc189512fde5a0ce1148f50364ac</Anchor>
-    <Abstract>(Optional) Gets a fill for the given pie chart slice.</Abstract>
+    <Abstract>(Optional) Gets a fill for the given pie chart slice. This method will not be called if -sliceFillsFo...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>radialOffsetsForPieChart:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPieChartDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
+    <Anchor>a897d23a0ce6e4f4e12e3e99271049f02</Anchor>
+    <Abstract>(Optional) Gets a range of slice offsets for the given pie chart.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17136,6 +17191,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>dataLabelsForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>abc9085d1b4dd104b130f362e21ff00ea</Anchor>
+    <Abstract>(Optional) Gets a range of data labels for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>dataLabelForPlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -17143,7 +17209,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
-    <Abstract>(Optional) Gets a data label for the given plot.</Abstract>
+    <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -19392,6 +19458,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>dataLabelsForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>abc9085d1b4dd104b130f362e21ff00ea</Anchor>
+    <Abstract>(Optional) Gets a range of data labels for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>dataLabelForPlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -19399,7 +19476,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
-    <Abstract>(Optional) Gets a data label for the given plot.</Abstract>
+    <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22170,6 +22247,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>barLineStylesForRangePlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+    <Anchor>a79dfa9b1988d8e9ce642e03cd3ccb484</Anchor>
+    <Abstract>(Optional) Gets a range of bar line styles for the given range plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>barLineStyleForRangePlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -22177,7 +22265,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
     <Anchor>a316457d724e002e906cbff8b58b985e3</Anchor>
-    <Abstract>(Optional) Gets a bar line style for the given range plot.</Abstract>
+    <Abstract>(Optional) Gets a bar line style for the given range plot. This method will not be called if -barLine...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22247,6 +22335,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>dataLabelsForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>abc9085d1b4dd104b130f362e21ff00ea</Anchor>
+    <Abstract>(Optional) Gets a range of data labels for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>dataLabelForPlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -22254,7 +22353,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
-    <Abstract>(Optional) Gets a data label for the given plot.</Abstract>
+    <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -23659,6 +23758,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>dataLabelsForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>abc9085d1b4dd104b130f362e21ff00ea</Anchor>
+    <Abstract>(Optional) Gets a range of data labels for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>dataLabelForPlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -23666,7 +23776,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
-    <Abstract>(Optional) Gets a data label for the given plot.</Abstract>
+    <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25882,6 +25992,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>increaseFillsForTradingRangePlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>acf8f90b75862cea16b180761db7ab6ac</Anchor>
+    <Abstract>(Optional) Gets a range of fills used with a candlestick plot when close &amp;gt;= open for the given plot...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>increaseFillForTradingRangePlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -25889,7 +26010,18 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
     <Anchor>ae9b7253b7ae91d00dce3a0f04d45af0d</Anchor>
-    <Abstract>(Optional) Gets the fill used with a candlestick plot when close &amp;gt;= open for the given trading range ...</Abstract>
+    <Abstract>(Optional) Gets the fill used with a candlestick plot when close &amp;gt;= open for the given plot...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>decreaseFillsForTradingRangePlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>aab81434371c3f13b01452eb6fe4c3683</Anchor>
+    <Abstract>(Optional) Gets a range of fills used with a candlestick plot when close &amp;lt; open for the given plot...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25900,7 +26032,18 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
     <Anchor>acacf0574c8b1029e73fdd67c209cfa73</Anchor>
-    <Abstract>(Optional) Gets the fill used with a candlestick plot when close &amp;lt; open for the given trading range p...</Abstract>
+    <Abstract>(Optional) Gets the fill used with a candlestick plot when close &amp;lt; open for the given plot...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineStylesForTradingRangePlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>a8f9edafb0c8264c62bea1aeadc709b54</Anchor>
+    <Abstract>(Optional) Gets a range of line styles used to draw candlestick or OHLC symbols for the given trading...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25915,6 +26058,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>increaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>ab6020f62891e2e6ecba51bd5f67d446a</Anchor>
+    <Abstract>(Optional) Gets a range of line styles used to outline candlestick symbols when close &amp;gt;= open for the...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>increaseLineStyleForTradingRangePlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -25923,6 +26077,17 @@
     <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
     <Anchor>a99a001076e83f7d70794528fdc5f54f4</Anchor>
     <Abstract>(Optional) Gets the line style used to outline candlestick symbols when close &amp;gt;= open for the given t...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>decreaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTTradingRangePlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+    <Anchor>ad304432600cde24946858e2bed07b89a</Anchor>
+    <Abstract>(Optional) Gets a range of line styles used to outline candlestick symbols when close &amp;lt; open for the ...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26003,6 +26168,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>dataLabelsForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>abc9085d1b4dd104b130f362e21ff00ea</Anchor>
+    <Abstract>(Optional) Gets a range of data labels for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>dataLabelForPlot:recordIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -26010,7 +26186,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
-    <Abstract>(Optional) Gets a data label for the given plot.</Abstract>
+    <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

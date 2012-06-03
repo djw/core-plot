@@ -94,8 +94,10 @@ $(document).ready(function(){initNavTree('protocol_c_p_t_range_plot_data_source-
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Bar Style</div></td></tr>
+<tr class="memitem:a79dfa9b1988d8e9ce642e03cd3ccb484"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_range_plot_data_source-p.html#a79dfa9b1988d8e9ce642e03cd3ccb484">barLineStylesForRangePlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:a79dfa9b1988d8e9ce642e03cd3ccb484"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of bar line styles for the given range plot.  <a href="#a79dfa9b1988d8e9ce642e03cd3ccb484"></a><br/></td></tr>
 <tr class="memitem:a316457d724e002e906cbff8b58b985e3"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_range_plot_data_source-p.html#a316457d724e002e906cbff8b58b985e3">barLineStyleForRangePlot:recordIndex:</a></td></tr>
-<tr class="memdesc:a316457d724e002e906cbff8b58b985e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a bar line style for the given range plot.  <a href="#a316457d724e002e906cbff8b58b985e3"></a><br/></td></tr>
+<tr class="memdesc:a316457d724e002e906cbff8b58b985e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a bar line style for the given range plot. This method will not be called if <a class="el" href="protocol_c_p_t_range_plot_data_source-p.html#a79dfa9b1988d8e9ce642e03cd3ccb484">-barLineStylesForRangePlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#a316457d724e002e906cbff8b58b985e3"></a><br/></td></tr>
 <tr class="inherit_header pub_methods_protocol_c_p_t_plot_data_source-p"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_protocol_c_p_t_plot_data_source-p')"><img src="closed.png" alt="-"/>&nbsp;Public Instance Methods inherited from <a class="el" href="protocol_c_p_t_plot_data_source-p.html"><CPTPlotDataSource></a></td></tr>
 <tr class="memitem:a4f88c11590a2ec86a41bab421d207744 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a4f88c11590a2ec86a41bab421d207744">numberOfRecordsForPlot:</a></td></tr>
 <tr class="memdesc:a4f88c11590a2ec86a41bab421d207744 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Required) The number of data points for the plot.  <a href="#a4f88c11590a2ec86a41bab421d207744"></a><br/></td></tr>
@@ -109,8 +111,10 @@ Public Instance Methods</h2></td></tr>
 <tr class="memdesc:a751d55385f637298442d0fdaad503da7 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a751d55385f637298442d0fdaad503da7"></a><br/></td></tr>
 <tr class="memitem:a43a84ec249a526948d1f45bf4634d289 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_numeric_data.html">CPTNumericData</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a43a84ec249a526948d1f45bf4634d289">dataForPlot:field:recordIndexRange:</a></td></tr>
 <tr class="memdesc:a43a84ec249a526948d1f45bf4634d289 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a43a84ec249a526948d1f45bf4634d289"></a><br/></td></tr>
+<tr class="memitem:abc9085d1b4dd104b130f362e21ff00ea inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea">dataLabelsForPlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:abc9085d1b4dd104b130f362e21ff00ea inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of data labels for the given plot.  <a href="#abc9085d1b4dd104b130f362e21ff00ea"></a><br/></td></tr>
 <tr class="memitem:ac1bda304421f3bff21f4db54282620d9 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_layer.html">CPTLayer</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#ac1bda304421f3bff21f4db54282620d9">dataLabelForPlot:recordIndex:</a></td></tr>
-<tr class="memdesc:ac1bda304421f3bff21f4db54282620d9 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
+<tr class="memdesc:ac1bda304421f3bff21f4db54282620d9 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot. This method will not be called if <a class="el" href="protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea">-dataLabelsForPlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A range plot data source. </p>
@@ -139,7 +143,7 @@ Public Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>(Optional) Gets a bar line style for the given range plot. </p>
+<p>(Optional) Gets a bar line style for the given range plot. This method will not be called if <a class="el" href="protocol_c_p_t_range_plot_data_source-p.html#a79dfa9b1988d8e9ce642e03cd3ccb484">-barLineStylesForRangePlot:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The range plot. </td></tr>
@@ -148,6 +152,42 @@ Public Instance Methods</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>The bar line style for the bar with the given index. If the data source returns <code>nil</code>, the default line style is used. If the data source returns an <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a> object, no line is drawn. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a79dfa9b1988d8e9ce642e03cd3ccb484"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *) barLineStylesForRangePlot: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_range_plot.html">CPTRangePlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndexRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Optional) Gets a range of bar line styles for the given range plot. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plot</td><td>The range plot. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>An array of line styles. </dd></dl>
 
 </div>
 </div>

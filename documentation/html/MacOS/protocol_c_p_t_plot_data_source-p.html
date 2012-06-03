@@ -107,8 +107,10 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:a43a84ec249a526948d1f45bf4634d289"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_numeric_data.html">CPTNumericData</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a43a84ec249a526948d1f45bf4634d289">dataForPlot:field:recordIndexRange:</a></td></tr>
 <tr class="memdesc:a43a84ec249a526948d1f45bf4634d289"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a43a84ec249a526948d1f45bf4634d289"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Data Labels</div></td></tr>
+<tr class="memitem:abc9085d1b4dd104b130f362e21ff00ea"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea">dataLabelsForPlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:abc9085d1b4dd104b130f362e21ff00ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of data labels for the given plot.  <a href="#abc9085d1b4dd104b130f362e21ff00ea"></a><br/></td></tr>
 <tr class="memitem:ac1bda304421f3bff21f4db54282620d9"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_layer.html">CPTLayer</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#ac1bda304421f3bff21f4db54282620d9">dataLabelForPlot:recordIndex:</a></td></tr>
-<tr class="memdesc:ac1bda304421f3bff21f4db54282620d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
+<tr class="memdesc:ac1bda304421f3bff21f4db54282620d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot. This method will not be called if <a class="el" href="protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea">-dataLabelsForPlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A plot data source. </p>
@@ -188,7 +190,7 @@ Public Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>(Optional) Gets a data label for the given plot. </p>
+<p>(Optional) Gets a data label for the given plot. This method will not be called if <a class="el" href="protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea">-dataLabelsForPlot:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The plot. </td></tr>
@@ -196,7 +198,43 @@ Public Instance Methods</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns:</dt><dd>The data label for the point with the given index. If you return nil, the default data label will be used. If you return an instance of <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a>, no label will be shown for the index in question. </dd></dl>
+<dl class="section return"><dt>Returns:</dt><dd>The data label for the point with the given index. If you return <code>nil</code>, the default data label will be used. If you return an instance of <a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a>, no label will be shown for the index in question. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abc9085d1b4dd104b130f362e21ff00ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *) dataLabelsForPlot: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot.html">CPTPlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndexRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/mac/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Optional) Gets a range of data labels for the given plot. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plot</td><td>The plot. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>An array of data labels. </dd></dl>
 
 </div>
 </div>

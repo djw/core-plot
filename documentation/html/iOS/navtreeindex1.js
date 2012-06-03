@@ -1,5 +1,10 @@
 var NAVTREEINDEX1 =
 {
+"_c_p_t_trading_range_plot_8m.html#a306d6a52959ac8bea1230ef5305e8636":[3,0,1,110,3],
+"_c_p_t_trading_range_plot_8m.html#a46bfa15f3a2affab2022948e869c54a4":[3,0,1,110,10],
+"_c_p_t_trading_range_plot_8m.html#a50d2cb897e004a1cf8d6af5635daaae0":[3,0,1,110,7],
+"_c_p_t_trading_range_plot_8m.html#a5c3e3e9b06e7ba491ecd5bd98aac091c":[3,0,1,110,4],
+"_c_p_t_trading_range_plot_8m.html#a6d25c69831bde5aedd4564bccc13b734":[3,0,1,110,5],
 "_c_p_t_trading_range_plot_8m.html#a79233b77eb1664118f183720e60cf03a":[3,0,1,110,8],
 "_c_p_t_trading_range_plot_8m.html#a823dd852225cb78ef545d50fa74c0097":[3,0,1,110,1],
 "_c_p_t_trading_range_plot_8m.html#ab50ad83f89e50228658675b75849092a":[3,0,1,110,11],
@@ -245,9 +250,4 @@ var NAVTREEINDEX1 =
 "group__graph_animation.html#ga0c07fa6435ce2971b3eabbdd636d1f2d":[2,0,19,32],
 "group__graph_animation.html#ga9a789e5f5d1eeaa5428b940515dd8987":[2,0,19,29],
 "group__legend_animation.html":[1,0,2],
-"group__legend_animation.html#gac6ed09fb1c435f879d006cfb33536861":[2,0,26,25],
-"group__notification.html":[1,1],
-"group__plot_animation.html":[1,0,3],
-"group__plot_animation_all_plots.html":[1,0,3,0],
-"group__plot_animation_all_plots.html#ga1e0c675adacdd43c50517622154f6301":[2,0,42,45],
 };

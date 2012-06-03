@@ -1081,9 +1081,19 @@
               <Anchor>a5cd27b080cd53123a5ae42ec779d5f3b</Anchor>
              </Node>
              <Node>
+              <Name>barFillsForBarPlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+              <Anchor>a52b0270ac18842c46544bbf3b085df74</Anchor>
+             </Node>
+             <Node>
               <Name>barLineStyleForBarPlot:recordIndex:</Name>
               <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
               <Anchor>ad23834118ed616eba4b33fd88703fe2c</Anchor>
+             </Node>
+             <Node>
+              <Name>barLineStylesForBarPlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+              <Anchor>a03beba8be2db7660228bb88427ab325a</Anchor>
              </Node>
              <Node>
               <Name>legendTitleForBarPlot:recordIndex:</Name>
@@ -2904,9 +2914,19 @@
               <Anchor>a5e1c479464fc6bdde26d5fc50e044c1a</Anchor>
              </Node>
              <Node>
+              <Name>radialOffsetsForPieChart:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
+              <Anchor>a897d23a0ce6e4f4e12e3e99271049f02</Anchor>
+             </Node>
+             <Node>
               <Name>sliceFillForPieChart:recordIndex:</Name>
               <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
               <Anchor>a1a14dc189512fde5a0ce1148f50364ac</Anchor>
+             </Node>
+             <Node>
+              <Name>sliceFillsForPieChart:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
+              <Anchor>af9c25806f09dafc9ceab229da5dddab1</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3302,6 +3322,11 @@
               <Name>dataLabelForPlot:recordIndex:</Name>
               <Path>protocol_c_p_t_plot_data_source-p.html</Path>
               <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+             </Node>
+             <Node>
+              <Name>dataLabelsForPlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+              <Anchor>abc9085d1b4dd104b130f362e21ff00ea</Anchor>
              </Node>
              <Node>
               <Name>doubleForPlot:field:recordIndex:</Name>
@@ -3837,6 +3862,11 @@
               <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
               <Anchor>a316457d724e002e906cbff8b58b985e3</Anchor>
              </Node>
+             <Node>
+              <Name>barLineStylesForRangePlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+              <Anchor>a79dfa9b1988d8e9ce642e03cd3ccb484</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -4266,9 +4296,19 @@
               <Anchor>acacf0574c8b1029e73fdd67c209cfa73</Anchor>
              </Node>
              <Node>
+              <Name>decreaseFillsForTradingRangePlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>aab81434371c3f13b01452eb6fe4c3683</Anchor>
+             </Node>
+             <Node>
               <Name>decreaseLineStyleForTradingRangePlot:recordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
               <Anchor>a435a89ee8c17f9cbb040e9c5f2cf195d</Anchor>
+             </Node>
+             <Node>
+              <Name>decreaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>ad304432600cde24946858e2bed07b89a</Anchor>
              </Node>
              <Node>
               <Name>increaseFillForTradingRangePlot:recordIndex:</Name>
@@ -4276,14 +4316,29 @@
               <Anchor>ae9b7253b7ae91d00dce3a0f04d45af0d</Anchor>
              </Node>
              <Node>
+              <Name>increaseFillsForTradingRangePlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>acf8f90b75862cea16b180761db7ab6ac</Anchor>
+             </Node>
+             <Node>
               <Name>increaseLineStyleForTradingRangePlot:recordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
               <Anchor>a99a001076e83f7d70794528fdc5f54f4</Anchor>
              </Node>
              <Node>
+              <Name>increaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>ab6020f62891e2e6ecba51bd5f67d446a</Anchor>
+             </Node>
+             <Node>
               <Name>lineStyleForTradingRangePlot:recordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
               <Anchor>ab9ca3f94634e86d5c5fb74c36b875179</Anchor>
+             </Node>
+             <Node>
+              <Name>lineStylesForTradingRangePlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+              <Anchor>a8f9edafb0c8264c62bea1aeadc709b54</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -6538,9 +6593,19 @@
                   <Anchor>a5cd27b080cd53123a5ae42ec779d5f3b</Anchor>
                  </Node>
                  <Node>
+                  <Name>barFillsForBarPlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+                  <Anchor>a52b0270ac18842c46544bbf3b085df74</Anchor>
+                 </Node>
+                 <Node>
                   <Name>barLineStyleForBarPlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
                   <Anchor>ad23834118ed616eba4b33fd88703fe2c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>barLineStylesForBarPlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+                  <Anchor>a03beba8be2db7660228bb88427ab325a</Anchor>
                  </Node>
                  <Node>
                   <Name>legendTitleForBarPlot:recordIndex:</Name>
@@ -8967,9 +9032,19 @@
                   <Anchor>a5e1c479464fc6bdde26d5fc50e044c1a</Anchor>
                  </Node>
                  <Node>
+                  <Name>radialOffsetsForPieChart:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
+                  <Anchor>a897d23a0ce6e4f4e12e3e99271049f02</Anchor>
+                 </Node>
+                 <Node>
                   <Name>sliceFillForPieChart:recordIndex:</Name>
                   <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
                   <Anchor>a1a14dc189512fde5a0ce1148f50364ac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sliceFillsForPieChart:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
+                  <Anchor>af9c25806f09dafc9ceab229da5dddab1</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -9125,6 +9200,11 @@
                   <Name>dataLabelForPlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_plot_data_source-p.html</Path>
                   <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataLabelsForPlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+                  <Anchor>abc9085d1b4dd104b130f362e21ff00ea</Anchor>
                  </Node>
                  <Node>
                   <Name>doubleForPlot:field:recordIndex:</Name>
@@ -10108,6 +10188,11 @@
                   <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
                   <Anchor>a316457d724e002e906cbff8b58b985e3</Anchor>
                  </Node>
+                 <Node>
+                  <Name>barLineStylesForRangePlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
+                  <Anchor>a79dfa9b1988d8e9ce642e03cd3ccb484</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -10735,9 +10820,19 @@
                   <Anchor>acacf0574c8b1029e73fdd67c209cfa73</Anchor>
                  </Node>
                  <Node>
+                  <Name>decreaseFillsForTradingRangePlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>aab81434371c3f13b01452eb6fe4c3683</Anchor>
+                 </Node>
+                 <Node>
                   <Name>decreaseLineStyleForTradingRangePlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
                   <Anchor>a435a89ee8c17f9cbb040e9c5f2cf195d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>decreaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>ad304432600cde24946858e2bed07b89a</Anchor>
                  </Node>
                  <Node>
                   <Name>increaseFillForTradingRangePlot:recordIndex:</Name>
@@ -10745,14 +10840,29 @@
                   <Anchor>ae9b7253b7ae91d00dce3a0f04d45af0d</Anchor>
                  </Node>
                  <Node>
+                  <Name>increaseFillsForTradingRangePlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>acf8f90b75862cea16b180761db7ab6ac</Anchor>
+                 </Node>
+                 <Node>
                   <Name>increaseLineStyleForTradingRangePlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
                   <Anchor>a99a001076e83f7d70794528fdc5f54f4</Anchor>
                  </Node>
                  <Node>
+                  <Name>increaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>ab6020f62891e2e6ecba51bd5f67d446a</Anchor>
+                 </Node>
+                 <Node>
                   <Name>lineStyleForTradingRangePlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
                   <Anchor>ab9ca3f94634e86d5c5fb74c36b875179</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>lineStylesForTradingRangePlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
+                  <Anchor>a8f9edafb0c8264c62bea1aeadc709b54</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

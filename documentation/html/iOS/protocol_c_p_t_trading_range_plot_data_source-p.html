@@ -94,17 +94,27 @@ $(document).ready(function(){initNavTree('protocol_c_p_t_trading_range_plot_data
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Bar Fills</div></td></tr>
+<tr class="memitem:acf8f90b75862cea16b180761db7ab6ac"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#acf8f90b75862cea16b180761db7ab6ac">increaseFillsForTradingRangePlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:acf8f90b75862cea16b180761db7ab6ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of fills used with a candlestick plot when close &gt;= open for the given plot.  <a href="#acf8f90b75862cea16b180761db7ab6ac"></a><br/></td></tr>
 <tr class="memitem:ae9b7253b7ae91d00dce3a0f04d45af0d"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#ae9b7253b7ae91d00dce3a0f04d45af0d">increaseFillForTradingRangePlot:recordIndex:</a></td></tr>
-<tr class="memdesc:ae9b7253b7ae91d00dce3a0f04d45af0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the fill used with a candlestick plot when close &gt;= open for the given trading range plot.  <a href="#ae9b7253b7ae91d00dce3a0f04d45af0d"></a><br/></td></tr>
+<tr class="memdesc:ae9b7253b7ae91d00dce3a0f04d45af0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the fill used with a candlestick plot when close &gt;= open for the given plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#acf8f90b75862cea16b180761db7ab6ac">-increaseFillsForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#ae9b7253b7ae91d00dce3a0f04d45af0d"></a><br/></td></tr>
+<tr class="memitem:aab81434371c3f13b01452eb6fe4c3683"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#aab81434371c3f13b01452eb6fe4c3683">decreaseFillsForTradingRangePlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:aab81434371c3f13b01452eb6fe4c3683"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of fills used with a candlestick plot when close &lt; open for the given plot.  <a href="#aab81434371c3f13b01452eb6fe4c3683"></a><br/></td></tr>
 <tr class="memitem:acacf0574c8b1029e73fdd67c209cfa73"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#acacf0574c8b1029e73fdd67c209cfa73">decreaseFillForTradingRangePlot:recordIndex:</a></td></tr>
-<tr class="memdesc:acacf0574c8b1029e73fdd67c209cfa73"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the fill used with a candlestick plot when close &lt; open for the given trading range plot.  <a href="#acacf0574c8b1029e73fdd67c209cfa73"></a><br/></td></tr>
+<tr class="memdesc:acacf0574c8b1029e73fdd67c209cfa73"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the fill used with a candlestick plot when close &lt; open for the given plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#aab81434371c3f13b01452eb6fe4c3683">-decreaseFillsForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#acacf0574c8b1029e73fdd67c209cfa73"></a><br/></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Bar Line Styles</div></td></tr>
+<tr class="memitem:a8f9edafb0c8264c62bea1aeadc709b54"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#a8f9edafb0c8264c62bea1aeadc709b54">lineStylesForTradingRangePlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:a8f9edafb0c8264c62bea1aeadc709b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of line styles used to draw candlestick or OHLC symbols for the given trading range plot.  <a href="#a8f9edafb0c8264c62bea1aeadc709b54"></a><br/></td></tr>
 <tr class="memitem:ab9ca3f94634e86d5c5fb74c36b875179"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#ab9ca3f94634e86d5c5fb74c36b875179">lineStyleForTradingRangePlot:recordIndex:</a></td></tr>
-<tr class="memdesc:ab9ca3f94634e86d5c5fb74c36b875179"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the line style used to draw candlestick or OHLC symbols for the given trading range plot.  <a href="#ab9ca3f94634e86d5c5fb74c36b875179"></a><br/></td></tr>
+<tr class="memdesc:ab9ca3f94634e86d5c5fb74c36b875179"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the line style used to draw candlestick or OHLC symbols for the given trading range plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#a8f9edafb0c8264c62bea1aeadc709b54">-lineStylesForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#ab9ca3f94634e86d5c5fb74c36b875179"></a><br/></td></tr>
+<tr class="memitem:ab6020f62891e2e6ecba51bd5f67d446a"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#ab6020f62891e2e6ecba51bd5f67d446a">increaseLineStylesForTradingRangePlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:ab6020f62891e2e6ecba51bd5f67d446a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of line styles used to outline candlestick symbols when close &gt;= open for the given trading range plot.  <a href="#ab6020f62891e2e6ecba51bd5f67d446a"></a><br/></td></tr>
 <tr class="memitem:a99a001076e83f7d70794528fdc5f54f4"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#a99a001076e83f7d70794528fdc5f54f4">increaseLineStyleForTradingRangePlot:recordIndex:</a></td></tr>
-<tr class="memdesc:a99a001076e83f7d70794528fdc5f54f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the line style used to outline candlestick symbols when close &gt;= open for the given trading range plot.  <a href="#a99a001076e83f7d70794528fdc5f54f4"></a><br/></td></tr>
+<tr class="memdesc:a99a001076e83f7d70794528fdc5f54f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the line style used to outline candlestick symbols when close &gt;= open for the given trading range plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#ab6020f62891e2e6ecba51bd5f67d446a">-increaseLineStylesForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#a99a001076e83f7d70794528fdc5f54f4"></a><br/></td></tr>
+<tr class="memitem:ad304432600cde24946858e2bed07b89a"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#ad304432600cde24946858e2bed07b89a">decreaseLineStylesForTradingRangePlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:ad304432600cde24946858e2bed07b89a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of line styles used to outline candlestick symbols when close &lt; open for the given trading range plot.  <a href="#ad304432600cde24946858e2bed07b89a"></a><br/></td></tr>
 <tr class="memitem:a435a89ee8c17f9cbb040e9c5f2cf195d"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#a435a89ee8c17f9cbb040e9c5f2cf195d">decreaseLineStyleForTradingRangePlot:recordIndex:</a></td></tr>
-<tr class="memdesc:a435a89ee8c17f9cbb040e9c5f2cf195d"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the line style used to outline candlestick symbols when close &lt; open for the given trading range plot.  <a href="#a435a89ee8c17f9cbb040e9c5f2cf195d"></a><br/></td></tr>
+<tr class="memdesc:a435a89ee8c17f9cbb040e9c5f2cf195d"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets the line style used to outline candlestick symbols when close &lt; open for the given trading range plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#ad304432600cde24946858e2bed07b89a">-decreaseLineStylesForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#a435a89ee8c17f9cbb040e9c5f2cf195d"></a><br/></td></tr>
 <tr class="inherit_header pub_methods_protocol_c_p_t_plot_data_source-p"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_protocol_c_p_t_plot_data_source-p')"><img src="closed.png" alt="-"/>&nbsp;Public Instance Methods inherited from <a class="el" href="protocol_c_p_t_plot_data_source-p.html"><CPTPlotDataSource></a></td></tr>
 <tr class="memitem:a4f88c11590a2ec86a41bab421d207744 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSUInteger</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a4f88c11590a2ec86a41bab421d207744">numberOfRecordsForPlot:</a></td></tr>
 <tr class="memdesc:a4f88c11590a2ec86a41bab421d207744 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Required) The number of data points for the plot.  <a href="#a4f88c11590a2ec86a41bab421d207744"></a><br/></td></tr>
@@ -118,8 +128,10 @@ Public Instance Methods</h2></td></tr>
 <tr class="memdesc:a751d55385f637298442d0fdaad503da7 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a751d55385f637298442d0fdaad503da7"></a><br/></td></tr>
 <tr class="memitem:a43a84ec249a526948d1f45bf4634d289 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_numeric_data.html">CPTNumericData</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a43a84ec249a526948d1f45bf4634d289">dataForPlot:field:recordIndexRange:</a></td></tr>
 <tr class="memdesc:a43a84ec249a526948d1f45bf4634d289 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the optional methods in this section.  <a href="#a43a84ec249a526948d1f45bf4634d289"></a><br/></td></tr>
+<tr class="memitem:abc9085d1b4dd104b130f362e21ff00ea inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea">dataLabelsForPlot:recordIndexRange:</a></td></tr>
+<tr class="memdesc:abc9085d1b4dd104b130f362e21ff00ea inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a range of data labels for the given plot.  <a href="#abc9085d1b4dd104b130f362e21ff00ea"></a><br/></td></tr>
 <tr class="memitem:ac1bda304421f3bff21f4db54282620d9 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_layer.html">CPTLayer</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#ac1bda304421f3bff21f4db54282620d9">dataLabelForPlot:recordIndex:</a></td></tr>
-<tr class="memdesc:ac1bda304421f3bff21f4db54282620d9 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
+<tr class="memdesc:ac1bda304421f3bff21f4db54282620d9 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Optional) Gets a data label for the given plot. This method will not be called if <a class="el" href="protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea">-dataLabelsForPlot:recordIndexRange: </a> is also implemented in the datasource.  <a href="#ac1bda304421f3bff21f4db54282620d9"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A trading range plot data source. </p>
@@ -148,7 +160,7 @@ Public Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>(Optional) Gets the fill used with a candlestick plot when close &lt; open for the given trading range plot. </p>
+<p>(Optional) Gets the fill used with a candlestick plot when close &lt; open for the given plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#aab81434371c3f13b01452eb6fe4c3683">-decreaseFillsForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
@@ -157,6 +169,42 @@ Public Instance Methods</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>The bar fill for the bar with the given index. If the data source returns <code>nil</code>, the default decrease fill is used. If the data source returns an <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a> object, no fill is drawn. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aab81434371c3f13b01452eb6fe4c3683"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *) decreaseFillsForTradingRangePlot: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_trading_range_plot.html">CPTTradingRangePlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndexRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Optional) Gets a range of fills used with a candlestick plot when close &lt; open for the given plot. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -184,7 +232,7 @@ Public Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>(Optional) Gets the line style used to outline candlestick symbols when close &lt; open for the given trading range plot. </p>
+<p>(Optional) Gets the line style used to outline candlestick symbols when close &lt; open for the given trading range plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#ad304432600cde24946858e2bed07b89a">-decreaseLineStylesForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
@@ -193,6 +241,42 @@ Public Instance Methods</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>The line line style for the symbol with the given index. If the data source returns <code>nil</code>, the default decrease line style is used. If the data source returns an <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a> object, no line is drawn. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad304432600cde24946858e2bed07b89a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *) decreaseLineStylesForTradingRangePlot: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_trading_range_plot.html">CPTTradingRangePlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndexRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Optional) Gets a range of line styles used to outline candlestick symbols when close &lt; open for the given trading range plot. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>An array of line styles. </dd></dl>
 
 </div>
 </div>
@@ -220,7 +304,7 @@ Public Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>(Optional) Gets the fill used with a candlestick plot when close &gt;= open for the given trading range plot. </p>
+<p>(Optional) Gets the fill used with a candlestick plot when close &gt;= open for the given plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#acf8f90b75862cea16b180761db7ab6ac">-increaseFillsForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
@@ -229,6 +313,42 @@ Public Instance Methods</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>The bar fill for the bar with the given index. If the data source returns <code>nil</code>, the default increase fill is used. If the data source returns an <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a> object, no fill is drawn. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="acf8f90b75862cea16b180761db7ab6ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *) increaseFillsForTradingRangePlot: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_trading_range_plot.html">CPTTradingRangePlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndexRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Optional) Gets a range of fills used with a candlestick plot when close &gt;= open for the given plot. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>An array of fills. </dd></dl>
 
 </div>
 </div>
@@ -256,7 +376,7 @@ Public Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>(Optional) Gets the line style used to outline candlestick symbols when close &gt;= open for the given trading range plot. </p>
+<p>(Optional) Gets the line style used to outline candlestick symbols when close &gt;= open for the given trading range plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#ab6020f62891e2e6ecba51bd5f67d446a">-increaseLineStylesForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
@@ -265,6 +385,42 @@ Public Instance Methods</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>The line line style for the symbol with the given index. If the data source returns <code>nil</code>, the default increase line style is used. If the data source returns an <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a> object, no line is drawn. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab6020f62891e2e6ecba51bd5f67d446a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *) increaseLineStylesForTradingRangePlot: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_trading_range_plot.html">CPTTradingRangePlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndexRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Optional) Gets a range of line styles used to outline candlestick symbols when close &gt;= open for the given trading range plot. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>An array of line styles. </dd></dl>
 
 </div>
 </div>
@@ -292,7 +448,7 @@ Public Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>(Optional) Gets the line style used to draw candlestick or OHLC symbols for the given trading range plot. </p>
+<p>(Optional) Gets the line style used to draw candlestick or OHLC symbols for the given trading range plot. This method will not be called if <a class="el" href="protocol_c_p_t_trading_range_plot_data_source-p.html#a8f9edafb0c8264c62bea1aeadc709b54">-lineStylesForTradingRangePlot:recordIndexRange: </a> is also implemented in the datasource. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
@@ -301,6 +457,42 @@ Public Instance Methods</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>The line style for the symbol with the given index. If the data source returns <code>nil</code>, the default line style is used. If the data source returns an <a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSNull_Class/Reference/Reference.html">NSNull</a> object, no line is drawn. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8f9edafb0c8264c62bea1aeadc709b54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/NSArray.html">NSArray</a> *) lineStylesForTradingRangePlot: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_trading_range_plot.html">CPTTradingRangePlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndexRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Optional) Gets a range of line styles used to draw candlestick or OHLC symbols for the given trading range plot. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plot</td><td>The trading range plot. </td></tr>
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>An array of line styles. </dd></dl>
 
 </div>
 </div>
