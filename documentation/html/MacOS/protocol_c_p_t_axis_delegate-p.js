@@ -1,4 +1,4 @@
-var protocol_c_p_t_axis_delegate-p =
+var protocol_c_p_t_axis_delegate_p =
 [
     [ "axis:shouldUpdateAxisLabelsAtLocations:", "protocol_c_p_t_axis_delegate-p.html#ab27bd14305245d42377355695025920e", null ],
     [ "axis:shouldUpdateMinorAxisLabelsAtLocations:", "protocol_c_p_t_axis_delegate-p.html#ab102ae99efcaf69b4ae7371ddc39cf25", null ],

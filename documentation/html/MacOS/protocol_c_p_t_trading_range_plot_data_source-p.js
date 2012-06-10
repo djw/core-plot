@@ -1,4 +1,4 @@
-var protocol_c_p_t_trading_range_plot_data_source-p =
+var protocol_c_p_t_trading_range_plot_data_source_p =
 [
     [ "decreaseFillForTradingRangePlot:recordIndex:", "protocol_c_p_t_trading_range_plot_data_source-p.html#acacf0574c8b1029e73fdd67c209cfa73", null ],
     [ "decreaseFillsForTradingRangePlot:recordIndexRange:", "protocol_c_p_t_trading_range_plot_data_source-p.html#aab81434371c3f13b01452eb6fe4c3683", null ],

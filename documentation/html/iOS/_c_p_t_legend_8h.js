@@ -1,6 +1,6 @@
 var _c_p_t_legend_8h =
 [
-    [ "CPTLegendDelegate-p", "protocol_c_p_t_legend_delegate-p.html", "protocol_c_p_t_legend_delegate-p" ],
+    [ "<CPTLegendDelegate>", "protocol_c_p_t_legend_delegate-p.html", "protocol_c_p_t_legend_delegate-p" ],
     [ "CPTLegend", "interface_c_p_t_legend.html", "interface_c_p_t_legend" ],
     [ "CPTLegendNeedsLayoutForPlotNotification", "_c_p_t_legend_8h.html#ga531a1b173c232bc63c207180d2ebd174", null ],
     [ "CPTLegendNeedsRedrawForPlotNotification", "_c_p_t_legend_8h.html#gaa902e90db19b08cf4fb6bd1a0d9cfbd9", null ],

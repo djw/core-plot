@@ -1,4 +1,4 @@
-var protocol_c_p_t_responder-p =
+var protocol_c_p_t_responder_p =
 [
     [ "pointingDeviceCancelledEvent:", "protocol_c_p_t_responder-p.html#ae1e168c2cf883e9567e18a2ec7c1554c", null ],
     [ "pointingDeviceDownEvent:atPoint:", "protocol_c_p_t_responder-p.html#a8143e6f59b4f71b890aff1c53bd1deda", null ],

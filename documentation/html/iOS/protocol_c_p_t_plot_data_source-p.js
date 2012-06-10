@@ -1,4 +1,4 @@
-var protocol_c_p_t_plot_data_source-p =
+var protocol_c_p_t_plot_data_source_p =
 [
     [ "dataForPlot:field:recordIndexRange:", "protocol_c_p_t_plot_data_source-p.html#a43a84ec249a526948d1f45bf4634d289", null ],
     [ "dataLabelForPlot:recordIndex:", "protocol_c_p_t_plot_data_source-p.html#ac1bda304421f3bff21f4db54282620d9", null ],

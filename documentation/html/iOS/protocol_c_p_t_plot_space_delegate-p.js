@@ -1,4 +1,4 @@
-var protocol_c_p_t_plot_space_delegate-p =
+var protocol_c_p_t_plot_space_delegate_p =
 [
     [ "plotSpace:didChangePlotRangeForCoordinate:", "protocol_c_p_t_plot_space_delegate-p.html#a2c84c596a90b7a503e318e3b17f3fece", null ],
     [ "plotSpace:shouldHandlePointingDeviceCancelledEvent:", "protocol_c_p_t_plot_space_delegate-p.html#a3af0a98f1335e004059e01628e9708c4", null ],

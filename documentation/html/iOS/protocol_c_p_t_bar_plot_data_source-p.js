@@ -1,4 +1,4 @@
-var protocol_c_p_t_bar_plot_data_source-p =
+var protocol_c_p_t_bar_plot_data_source_p =
 [
     [ "barFillForBarPlot:recordIndex:", "protocol_c_p_t_bar_plot_data_source-p.html#a5cd27b080cd53123a5ae42ec779d5f3b", null ],
     [ "barFillsForBarPlot:recordIndexRange:", "protocol_c_p_t_bar_plot_data_source-p.html#a52b0270ac18842c46544bbf3b085df74", null ],

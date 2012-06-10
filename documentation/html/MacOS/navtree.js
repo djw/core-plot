@@ -5,7 +5,7 @@ var NAVTREE =
     [ "Animation & Constants", "modules.html", "modules" ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
-      [ "Class Index", "classes.html", "classes" ],
+      [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
@@ -29,14 +29,23 @@ var NAVTREE =
   ] ]
 ];
 
-var navTreeIndex;
+var NAVTREEINDEX =
+[
+"_c_p_t_annotation_8h.html",
+"_c_p_t_plot_8m.html#gafc2c14b05a72fa272ad34cb0925a4e9d",
+"_c_p_t_x_y_graph_8h.html",
+"interface_c_p_t_axis.html#a3fba6b558c6c3fe8bd10264dc15794ce",
+"interface_c_p_t_layer.html#ad4fefbcecda0705cb0f525540d0f9eb8",
+"interface_c_p_t_plot_range.html#ac9f8c06f95de6f58a7970b0bd1a0d4d5",
+];
+
 var navTreeSubIndices = new Array();
 
 function getData(varName)
 {
   var i = varName.lastIndexOf('/');
   var n = i>=0 ? varName.substring(i+1) : varName;
-  return eval(n);
+  return eval(n.replace(/\-/g,'_'));
 }
 
 function stripPath(uri)
@@ -277,11 +286,13 @@ function highlightAnchor()
   if (anchor.parent().attr('class')=='memItemLeft'){
     var rows = $('.memberdecls tr[class$="'+
                window.location.hash.substring(1)+'"]');
-    glowEffect(rows.children(),300);
+    glowEffect(rows.children(),300); // member without details
+  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
+    glowEffect(anchor.parents('div.memitem'),1000); // enum value
   } else if (anchor.parent().is(":header")) {
-    glowEffect(anchor.parent(),1000);
+    glowEffect(anchor.parent(),1000); // section header
   } else {
-    glowEffect(anchor.next(),1000);
+    glowEffect(anchor.next(),1000); // normal member
   }
 }
 
@@ -360,50 +371,41 @@ function getNode(o, po)
   }
 }
 
-function gotoNode(o,subIndex,root,hash)
+function gotoNode(o,subIndex,root,hash,relpath)
 {
   var nti = navTreeSubIndices[subIndex][root+hash];
   o.breadcrumbs = nti ? nti : navTreeSubIndices[subIndex][root];
-  if (o.breadcrumbs)
-  {
+  if (!o.breadcrumbs && root!=NAVTREE[0][1]) { // fallback: show index
+    navTo(o,NAVTREE[0][1],"",relpath);
+    $('.item').removeClass('selected');
+    $('.item').removeAttr('id');
+  }
+  if (o.breadcrumbs) {
     o.breadcrumbs.unshift(0); // add 0 for root node
     showNode(o, o.node, 0);
   }
 }
 
-function gotoSubIndex(o,root,hash,relpath)
+function navTo(o,root,hash,relpath)
 {
-  if (hash.match(/^#l\d+$/)) 
-  {
+  if (hash.match(/^#l\d+$/)) {
+    var anchor=$('a[name='+hash.substring(1)+']');
+    glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
   }
   var url=root+hash;
   var i=-1;
-  while (navTreeIndex[i+1]<=url) i++;
+  while (NAVTREEINDEX[i+1]<=url) i++;
   if (navTreeSubIndices[i]) {
-    gotoNode(o,i,root,hash)
+    gotoNode(o,i,root,hash,relpath)
   } else {
     getScript(relpath+'navtreeindex'+i,function(){
       navTreeSubIndices[i] = eval('NAVTREEINDEX'+i);
       if (navTreeSubIndices[i]) {
-        gotoNode(o,i,root,hash);
+        gotoNode(o,i,root,hash,relpath);
       }
     },true);
   }
-}
-
-function navTo(o,root,hash,relpath)
-{
-  if (navTreeIndex){
-    gotoSubIndex(o,root,hash,relpath);
-  } else {
-    getScript(relpath+"navtreeindex",function(){
-      navTreeIndex = eval('NAVTREEINDEX');
-      if (navTreeIndex){
-        gotoSubIndex(o,root,hash,relpath);
-      }
-    },true);
-  } 
 }
 
 function initNavTree(toroot,relpath)

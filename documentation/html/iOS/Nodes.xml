@@ -671,7 +671,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTAxisDelegate-p</Name>
+            <Name>&lt;CPTAxisDelegate&gt;</Name>
             <Path>protocol_c_p_t_axis_delegate-p.html</Path>
             <Subnodes>
              <Node>
@@ -885,7 +885,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTBarPlotDataSource-p</Name>
+            <Name>&lt;CPTBarPlotDataSource&gt;</Name>
             <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
             <Subnodes>
              <Node>
@@ -916,7 +916,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTBarPlotDelegate-p</Name>
+            <Name>&lt;CPTBarPlotDelegate&gt;</Name>
             <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
             <Subnodes>
              <Node>
@@ -2033,7 +2033,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTLegendDelegate-p</Name>
+            <Name>&lt;CPTLegendDelegate&gt;</Name>
             <Path>protocol_c_p_t_legend_delegate-p.html</Path>
             <Subnodes>
              <Node>
@@ -2691,7 +2691,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTPieChartDataSource-p</Name>
+            <Name>&lt;CPTPieChartDataSource&gt;</Name>
             <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
             <Subnodes>
              <Node>
@@ -2722,7 +2722,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTPieChartDelegate-p</Name>
+            <Name>&lt;CPTPieChartDelegate&gt;</Name>
             <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
             <Subnodes>
              <Node>
@@ -3101,7 +3101,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTPlotDataSource-p</Name>
+            <Name>&lt;CPTPlotDataSource&gt;</Name>
             <Path>protocol_c_p_t_plot_data_source-p.html</Path>
             <Subnodes>
              <Node>
@@ -3147,7 +3147,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTPlotDelegate-p</Name>
+            <Name>&lt;CPTPlotDelegate&gt;</Name>
             <Path>protocol_c_p_t_plot_delegate-p.html</Path>
             <Subnodes>
              <Node>
@@ -3437,7 +3437,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTPlotSpaceDelegate-p</Name>
+            <Name>&lt;CPTPlotSpaceDelegate&gt;</Name>
             <Path>protocol_c_p_t_plot_space_delegate-p.html</Path>
             <Subnodes>
              <Node>
@@ -3645,7 +3645,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTRangePlotDataSource-p</Name>
+            <Name>&lt;CPTRangePlotDataSource&gt;</Name>
             <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
             <Subnodes>
              <Node>
@@ -3661,7 +3661,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTRangePlotDelegate-p</Name>
+            <Name>&lt;CPTRangePlotDelegate&gt;</Name>
             <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
             <Subnodes>
              <Node>
@@ -3677,7 +3677,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTResponder-p</Name>
+            <Name>&lt;CPTResponder&gt;</Name>
             <Path>protocol_c_p_t_responder-p.html</Path>
             <Subnodes>
              <Node>
@@ -3800,7 +3800,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTScatterPlotDataSource-p</Name>
+            <Name>&lt;CPTScatterPlotDataSource&gt;</Name>
             <Path>protocol_c_p_t_scatter_plot_data_source-p.html</Path>
             <Subnodes>
              <Node>
@@ -3816,7 +3816,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTScatterPlotDelegate-p</Name>
+            <Name>&lt;CPTScatterPlotDelegate&gt;</Name>
             <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
             <Subnodes>
              <Node>
@@ -4078,7 +4078,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTTradingRangePlotDataSource-p</Name>
+            <Name>&lt;CPTTradingRangePlotDataSource&gt;</Name>
             <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
             <Subnodes>
              <Node>
@@ -4134,7 +4134,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CPTTradingRangePlotDelegate-p</Name>
+            <Name>&lt;CPTTradingRangePlotDelegate&gt;</Name>
             <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
             <Subnodes>
              <Node>
@@ -4263,514 +4263,6 @@
          <Node>
           <Name>Class Index</Name>
           <Path>classes.html</Path>
-          <Subnodes>
-            <Subnodes>
-              <Subnodes>
-               <Node>
-                <Name>CPTLayer</Name>
-                <Path>interface_c_p_t_layer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>CPTAnnotationHostLayer</Name>
-                  <Path>interface_c_p_t_annotation_host_layer.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>CPTBorderedLayer</Name>
-                    <Path>interface_c_p_t_bordered_layer.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>CPTGraph</Name>
-                      <Path>interface_c_p_t_graph.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>CPTXYGraph</Name>
-                        <Path>interface_c_p_t_x_y_graph.html</Path>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                     <Node>
-                      <Name>CPTLegend</Name>
-                      <Path>interface_c_p_t_legend.html</Path>
-                     </Node>
-                     <Node>
-                      <Name>CPTPlotAreaFrame</Name>
-                      <Path>interface_c_p_t_plot_area_frame.html</Path>
-                     </Node>
-                     <Node>
-                      <Name>CPTTextLayer</Name>
-                      <Path>interface_c_p_t_text_layer.html</Path>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>CPTPlot</Name>
-                    <Path>interface_c_p_t_plot.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>CPTBarPlot</Name>
-                      <Path>interface_c_p_t_bar_plot.html</Path>
-                     </Node>
-                     <Node>
-                      <Name>CPTPieChart</Name>
-                      <Path>interface_c_p_t_pie_chart.html</Path>
-                     </Node>
-                     <Node>
-                      <Name>CPTRangePlot</Name>
-                      <Path>interface_c_p_t_range_plot.html</Path>
-                     </Node>
-                     <Node>
-                      <Name>CPTScatterPlot</Name>
-                      <Path>interface_c_p_t_scatter_plot.html</Path>
-                     </Node>
-                     <Node>
-                      <Name>CPTTradingRangePlot</Name>
-                      <Path>interface_c_p_t_trading_range_plot.html</Path>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>CPTPlotArea</Name>
-                    <Path>interface_c_p_t_plot_area.html</Path>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>CPTAxis</Name>
-                  <Path>interface_c_p_t_axis.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>CPTXYAxis</Name>
-                    <Path>interface_c_p_t_x_y_axis.html</Path>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>CPTAxisLabelGroup</Name>
-                  <Path>interface_c_p_t_axis_label_group.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>CPTAxisSet</Name>
-                  <Path>interface_c_p_t_axis_set.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>CPTXYAxisSet</Name>
-                    <Path>interface_c_p_t_x_y_axis_set.html</Path>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>CPTGridLineGroup</Name>
-                  <Path>interface_c_p_t_grid_line_group.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>CPTGridLines</Name>
-                  <Path>interface_c_p_t_grid_lines.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>CPTPlotGroup</Name>
-                  <Path>interface_c_p_t_plot_group.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-            </Subnodes>
-           <Node>
-            <Name>CPTGradientElement</Name>
-            <Path>struct_c_p_t_gradient_element.html</Path>
-           </Node>
-           <Node>
-            <Name>CPTNumericDataType</Name>
-            <Path>struct_c_p_t_numeric_data_type.html</Path>
-           </Node>
-           <Node>
-            <Name>CPTRGBAColor</Name>
-            <Path>struct_c_p_t_r_g_b_a_color.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>CPTAnnotation</Name>
-              <Path>interface_c_p_t_annotation.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTLayerAnnotation</Name>
-                <Path>interface_c_p_t_layer_annotation.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTPlotSpaceAnnotation</Name>
-                <Path>interface_c_p_t_plot_space_annotation.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CPTAxisLabel</Name>
-              <Path>interface_c_p_t_axis_label.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTAxisTitle</Name>
-                <Path>interface_c_p_t_axis_title.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CPTColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTColorSpace</Name>
-              <Path>interface_c_p_t_color_space.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTConstraints</Name>
-              <Path>interface_c_p_t_constraints.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTFill</Name>
-              <Path>interface_c_p_t_fill.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTImage</Name>
-              <Path>interface_c_p_t_image.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTLegendEntry</Name>
-              <Path>interface_c_p_t_legend_entry.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTLimitBand</Name>
-              <Path>interface_c_p_t_limit_band.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTLineStyle</Name>
-              <Path>interface_c_p_t_line_style.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTMutableLineStyle</Name>
-                <Path>interface_c_p_t_mutable_line_style.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CPTNumericData</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTMutableNumericData</Name>
-                <Path>interface_c_p_t_mutable_numeric_data.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CPTPlotRange</Name>
-              <Path>interface_c_p_t_plot_range.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTMutablePlotRange</Name>
-                <Path>interface_c_p_t_mutable_plot_range.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CPTPlotSpace</Name>
-              <Path>interface_c_p_t_plot_space.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTXYPlotSpace</Name>
-                <Path>interface_c_p_t_x_y_plot_space.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CPTPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTShadow</Name>
-              <Path>interface_c_p_t_shadow.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTMutableShadow</Name>
-                <Path>interface_c_p_t_mutable_shadow.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CPTTextStyle</Name>
-              <Path>interface_c_p_t_text_style.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTMutableTextStyle</Name>
-                <Path>interface_c_p_t_mutable_text_style.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>CPTTheme</Name>
-              <Path>interface_c_p_t_theme.html</Path>
-              <Subnodes>
-                <Subnodes>
-                 <Node>
-                  <Name>CPTCalendarFormatter</Name>
-                  <Path>interface_c_p_t_calendar_formatter.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>CPTTimeFormatter</Name>
-                  <Path>interface_c_p_t_time_formatter.html</Path>
-                 </Node>
-                </Subnodes>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-            <Subnodes>
-             <Node>
-              <Name>CPTColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTConstraints</Name>
-              <Path>interface_c_p_t_constraints.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTFill</Name>
-              <Path>interface_c_p_t_fill.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTImage</Name>
-              <Path>interface_c_p_t_image.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTLimitBand</Name>
-              <Path>interface_c_p_t_limit_band.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTLineStyle</Name>
-              <Path>interface_c_p_t_line_style.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTNumericData</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTPlotRange</Name>
-              <Path>interface_c_p_t_plot_range.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTShadow</Name>
-              <Path>interface_c_p_t_shadow.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTTextStyle</Name>
-              <Path>interface_c_p_t_text_style.html</Path>
-             </Node>
-            </Subnodes>
-            <Subnodes>
-             <Node>
-              <Name>CPTLineStyle</Name>
-              <Path>interface_c_p_t_line_style.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTNumericData</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTPlotRange</Name>
-              <Path>interface_c_p_t_plot_range.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTShadow</Name>
-              <Path>interface_c_p_t_shadow.html</Path>
-             </Node>
-             <Node>
-              <Name>CPTTextStyle</Name>
-              <Path>interface_c_p_t_text_style.html</Path>
-             </Node>
-            </Subnodes>
-            <Subnodes>
-             <Node>
-              <Name>&lt;CPTAxisDelegate&gt;</Name>
-              <Path>protocol_c_p_t_axis_delegate-p.html</Path>
-             </Node>
-             <Node>
-              <Name>&lt;CPTLegendDelegate&gt;</Name>
-              <Path>protocol_c_p_t_legend_delegate-p.html</Path>
-             </Node>
-             <Node>
-              <Name>&lt;CPTPlotDataSource&gt;</Name>
-              <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>&lt;CPTBarPlotDataSource&gt;</Name>
-                <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-               </Node>
-               <Node>
-                <Name>&lt;CPTPieChartDataSource&gt;</Name>
-                <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-               </Node>
-               <Node>
-                <Name>&lt;CPTRangePlotDataSource&gt;</Name>
-                <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
-               </Node>
-               <Node>
-                <Name>&lt;CPTScatterPlotDataSource&gt;</Name>
-                <Path>protocol_c_p_t_scatter_plot_data_source-p.html</Path>
-               </Node>
-               <Node>
-                <Name>&lt;CPTTradingRangePlotDataSource&gt;</Name>
-                <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>&lt;CPTPlotDelegate&gt;</Name>
-              <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>&lt;CPTBarPlotDelegate&gt;</Name>
-                <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
-               </Node>
-               <Node>
-                <Name>&lt;CPTPieChartDelegate&gt;</Name>
-                <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
-               </Node>
-               <Node>
-                <Name>&lt;CPTRangePlotDelegate&gt;</Name>
-                <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
-               </Node>
-               <Node>
-                <Name>&lt;CPTScatterPlotDelegate&gt;</Name>
-                <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
-               </Node>
-               <Node>
-                <Name>&lt;CPTTradingRangePlotDelegate&gt;</Name>
-                <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>&lt;CPTPlotSpaceDelegate&gt;</Name>
-              <Path>protocol_c_p_t_plot_space_delegate-p.html</Path>
-             </Node>
-             <Node>
-              <Name>&lt;CPTResponder&gt;</Name>
-              <Path>protocol_c_p_t_responder-p.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CPTLayer</Name>
-                <Path>interface_c_p_t_layer.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTPlotSpace</Name>
-                <Path>interface_c_p_t_plot_space.html</Path>
-               </Node>
-              </Subnodes>
-              <Subnodes>
-               <Node>
-                <Name>CPTAnnotation</Name>
-                <Path>interface_c_p_t_annotation.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTAxisLabel</Name>
-                <Path>interface_c_p_t_axis_label.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTColor</Name>
-                <Path>interface_c_p_t_color.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTColorSpace</Name>
-                <Path>interface_c_p_t_color_space.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTConstraints</Name>
-                <Path>interface_c_p_t_constraints.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTFill</Name>
-                <Path>interface_c_p_t_fill.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTGradient</Name>
-                <Path>interface_c_p_t_gradient.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTImage</Name>
-                <Path>interface_c_p_t_image.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTLegendEntry</Name>
-                <Path>interface_c_p_t_legend_entry.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTLimitBand</Name>
-                <Path>interface_c_p_t_limit_band.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTLineCap</Name>
-                <Path>interface_c_p_t_line_cap.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTLineStyle</Name>
-                <Path>interface_c_p_t_line_style.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTNumericData</Name>
-                <Path>interface_c_p_t_numeric_data.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTPlotRange</Name>
-                <Path>interface_c_p_t_plot_range.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTPlotSpace</Name>
-                <Path>interface_c_p_t_plot_space.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTPlotSymbol</Name>
-                <Path>interface_c_p_t_plot_symbol.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTShadow</Name>
-                <Path>interface_c_p_t_shadow.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTTextStyle</Name>
-                <Path>interface_c_p_t_text_style.html</Path>
-               </Node>
-               <Node>
-                <Name>CPTTheme</Name>
-                <Path>interface_c_p_t_theme.html</Path>
-                <Subnodes>
-                  <Subnodes>
-                   <Node>
-                    <Name>CPTGraphHostingView</Name>
-                    <Path>interface_c_p_t_graph_hosting_view.html</Path>
-                   </Node>
-                  </Subnodes>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-          </Subnodes>
          </Node>
          <Node>
           <Name>Class Hierarchy</Name>
@@ -5790,7 +5282,7 @@
               <Path>_c_p_t_axis_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTAxisDelegate-p</Name>
+                <Name>&lt;CPTAxisDelegate&gt;</Name>
                 <Path>protocol_c_p_t_axis_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -6145,6 +5637,33 @@
                 <Name>CPTAxisLabelingPolicy</Name>
                 <Path>_c_p_t_axis_8h.html</Path>
                 <Anchor>adb9e6ab73e0d2fb79203215861166e6b</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTAxisLabelingPolicyNone</Name>
+                  <Path>_c_p_t_axis_8h.html</Path>
+                  <Anchor>adb9e6ab73e0d2fb79203215861166e6ba51cc69c2ca14bf5f56393221199662dc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTAxisLabelingPolicyLocationsProvided</Name>
+                  <Path>_c_p_t_axis_8h.html</Path>
+                  <Anchor>adb9e6ab73e0d2fb79203215861166e6ba5dd9fb31e556007ab8441d8084ad18a3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTAxisLabelingPolicyFixedInterval</Name>
+                  <Path>_c_p_t_axis_8h.html</Path>
+                  <Anchor>adb9e6ab73e0d2fb79203215861166e6bad4f5b93c9ba53d283bd20624c74d81ca</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTAxisLabelingPolicyAutomatic</Name>
+                  <Path>_c_p_t_axis_8h.html</Path>
+                  <Anchor>adb9e6ab73e0d2fb79203215861166e6bab71f9bd98987dddddd6eccfab4cca3f0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTAxisLabelingPolicyEqualDivisions</Name>
+                  <Path>_c_p_t_axis_8h.html</Path>
+                  <Anchor>adb9e6ab73e0d2fb79203215861166e6ba298212410e85c894ef2e6850d9d4c5e2</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -6294,7 +5813,7 @@
               <Path>_c_p_t_bar_plot_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTBarPlotDataSource-p</Name>
+                <Name>&lt;CPTBarPlotDataSource&gt;</Name>
                 <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -6325,7 +5844,7 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>CPTBarPlotDelegate-p</Name>
+                <Name>&lt;CPTBarPlotDelegate&gt;</Name>
                 <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -6435,6 +5954,23 @@
                 <Name>CPTBarPlotField</Name>
                 <Path>_c_p_t_bar_plot_8h.html</Path>
                 <Anchor>ac9223627a0d5be7eb36b29bcf80ca0b9</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTBarPlotFieldBarLocation</Name>
+                  <Path>_c_p_t_bar_plot_8h.html</Path>
+                  <Anchor>ac9223627a0d5be7eb36b29bcf80ca0b9a15093e2d8660234e8e5c6ba617c93c26</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTBarPlotFieldBarTip</Name>
+                  <Path>_c_p_t_bar_plot_8h.html</Path>
+                  <Anchor>ac9223627a0d5be7eb36b29bcf80ca0b9a1ac5d4129d906bbd168460369edc0ea1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTBarPlotFieldBarBase</Name>
+                  <Path>_c_p_t_bar_plot_8h.html</Path>
+                  <Anchor>ac9223627a0d5be7eb36b29bcf80ca0b9aee601b2ab3022b908f2478c8a8e54b77</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTBarPlotBindingBarBases</Name>
@@ -6843,36 +6379,210 @@
                 <Name>CPTAlignment</Name>
                 <Path>_c_p_t_definitions_8h.html</Path>
                 <Anchor>a968901ece413ec4608f1625910ca9a9f</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTAlignmentLeft</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a968901ece413ec4608f1625910ca9a9fae8f682a93e3fc9cfbf5e41109763e9c9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTAlignmentCenter</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a968901ece413ec4608f1625910ca9a9fa4648db9a75f1c0e92a90b65e18e49704</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTAlignmentRight</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a968901ece413ec4608f1625910ca9a9fabd01ab611358d7fcc262302dfba101d4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTAlignmentTop</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a968901ece413ec4608f1625910ca9a9fad8ebccedd5f703d6cadd0393b1772709</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTAlignmentMiddle</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a968901ece413ec4608f1625910ca9a9fa977ac1d4cd862bf76ea129d8e253445d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTAlignmentBottom</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a968901ece413ec4608f1625910ca9a9facc9350f88a219b50a631fb0b295218c7</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTCoordinate</Name>
                 <Path>_c_p_t_definitions_8h.html</Path>
                 <Anchor>a26e0566373a7a68bbd54e5747d4ece1b</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTCoordinateX</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a26e0566373a7a68bbd54e5747d4ece1bad76f12c25a1d9581c7ad04af277b9006</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTCoordinateY</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a26e0566373a7a68bbd54e5747d4ece1ba28a6b8aaf54ac0f8c1a89d66c5505620</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTCoordinateZ</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a26e0566373a7a68bbd54e5747d4ece1ba25da9e1c3ea0a1c2a9ed2039fcde58ca</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTErrorBarType</Name>
                 <Path>_c_p_t_definitions_8h.html</Path>
                 <Anchor>ad0c14d655e6470de9a2e79e3eee86988</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTErrorBarTypeCustom</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>ad0c14d655e6470de9a2e79e3eee86988ac29f4fc82ecc0fd4cf5dfc0e8ad6cf36</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTErrorBarTypeConstantRatio</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>ad0c14d655e6470de9a2e79e3eee86988abc2e1ce5cfe44745755287d199b62a23</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTErrorBarTypeConstantValue</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>ad0c14d655e6470de9a2e79e3eee86988a75a31a1a1fb06651712c7d5b7ad4e18a</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTNumericType</Name>
                 <Path>_c_p_t_definitions_8h.html</Path>
                 <Anchor>a055e92be043279f43b35c460b347e873</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTNumericTypeInteger</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a055e92be043279f43b35c460b347e873af40d0c42fd60a5c63ef289f92ef0ebe7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTNumericTypeFloat</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a055e92be043279f43b35c460b347e873a7cde12fab37f52d68fb1cc8ba98e18b4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTNumericTypeDouble</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a055e92be043279f43b35c460b347e873a0d2f24f4fb83161c04e7c84d14ca2759</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTRectAnchor</Name>
                 <Path>_c_p_t_definitions_8h.html</Path>
                 <Anchor>a5b44b53a69133d08c14160311e925040</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTRectAnchorBottomLeft</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a5b44b53a69133d08c14160311e925040afe7d122e6ccd4304c8af226d22933903</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRectAnchorBottom</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a5b44b53a69133d08c14160311e925040a5e0a3e40be82ff5b0f013196c1d3889e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRectAnchorBottomRight</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a5b44b53a69133d08c14160311e925040ad1d6035dae8f5bd333bf350639f38f9b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRectAnchorLeft</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a5b44b53a69133d08c14160311e925040aab088f095a26b467569bea2c38a61760</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRectAnchorRight</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a5b44b53a69133d08c14160311e925040a3ef4fbaaf6ecf0a7fb759b12fb8510da</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRectAnchorTopLeft</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a5b44b53a69133d08c14160311e925040ac2822f36431693db3259efecd3868309</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRectAnchorTop</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a5b44b53a69133d08c14160311e925040abf3106bc899e0927d2edb5f6b407ddf9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRectAnchorTopRight</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a5b44b53a69133d08c14160311e925040aec725707b8ad07c6c035c5b9235345ca</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRectAnchorCenter</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a5b44b53a69133d08c14160311e925040a9afc730d3282984e0b0362f31738c962</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTScaleType</Name>
                 <Path>_c_p_t_definitions_8h.html</Path>
                 <Anchor>a351ca539c18874842ed40ad03225182a</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTScaleTypeLinear</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a351ca539c18874842ed40ad03225182aad834e3496afe3f6a4e898a88e272d40e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTScaleTypeLog</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a351ca539c18874842ed40ad03225182aa09a6cf5bed15a02bb28fb11769fc0660</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTScaleTypeAngular</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a351ca539c18874842ed40ad03225182aaabb231130933c64ebc297665b6e0faf6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTScaleTypeDateTime</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a351ca539c18874842ed40ad03225182aaa4be70857faac370a8f507c381ea0a89</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTScaleTypeCategory</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a351ca539c18874842ed40ad03225182aa23d2e9e1a69491afe683eb3f2d1ecfa4</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTSign</Name>
                 <Path>_c_p_t_definitions_8h.html</Path>
                 <Anchor>a3785add118c53a68c6a1838078e17cc5</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTSignNone</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a3785add118c53a68c6a1838078e17cc5a8cce324dd6b2465f8c0d9bf0af62e42c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTSignPositive</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a3785add118c53a68c6a1838078e17cc5aeea4679decf5729d657f3ed36cc8a1f2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTSignNegative</Name>
+                  <Path>_c_p_t_definitions_8h.html</Path>
+                  <Anchor>a3785add118c53a68c6a1838078e17cc5a55e774477ca03c91507faeac62e88ac4</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -7143,11 +6853,40 @@
                 <Name>CPTGradientBlendingMode</Name>
                 <Path>_c_p_t_gradient_8h.html</Path>
                 <Anchor>a906a46d264ab00211f655765a898aad1</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTLinearBlendingMode</Name>
+                  <Path>_c_p_t_gradient_8h.html</Path>
+                  <Anchor>a906a46d264ab00211f655765a898aad1a90ac9ca14cac307bc1b8fb21d61d1913</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTChromaticBlendingMode</Name>
+                  <Path>_c_p_t_gradient_8h.html</Path>
+                  <Anchor>a906a46d264ab00211f655765a898aad1a5c6e58fafc070c26202927a9d9e90b36</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTInverseChromaticBlendingMode</Name>
+                  <Path>_c_p_t_gradient_8h.html</Path>
+                  <Anchor>a906a46d264ab00211f655765a898aad1aaa47531c3ab634a5ab6dea9c347661a3</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTGradientType</Name>
                 <Path>_c_p_t_gradient_8h.html</Path>
                 <Anchor>a7b46eb0209e7f6ffbc287917709da743</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTGradientTypeAxial</Name>
+                  <Path>_c_p_t_gradient_8h.html</Path>
+                  <Anchor>a7b46eb0209e7f6ffbc287917709da743ad1726d6fe325a9f43ff0b211e1ac325c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTGradientTypeRadial</Name>
+                  <Path>_c_p_t_gradient_8h.html</Path>
+                  <Anchor>a7b46eb0209e7f6ffbc287917709da743a5cf7d8b13430d8256c52ef339fe53fb7</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -7349,6 +7088,38 @@
                 <Name>CPTGraphLayerType</Name>
                 <Path>_c_p_t_graph_8h.html</Path>
                 <Anchor>a1d2309258ac9ed5b1a5f226c2d4327ca</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTGraphLayerTypeMinorGridLines</Name>
+                  <Path>_c_p_t_graph_8h.html</Path>
+                  <Anchor>a1d2309258ac9ed5b1a5f226c2d4327caa4fa13d7c45e1756ac5d4526315470952</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTGraphLayerTypeMajorGridLines</Name>
+                  <Path>_c_p_t_graph_8h.html</Path>
+                  <Anchor>a1d2309258ac9ed5b1a5f226c2d4327caaf185ce3d1ce612a32f2a365d1397e891</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTGraphLayerTypeAxisLines</Name>
+                  <Path>_c_p_t_graph_8h.html</Path>
+                  <Anchor>a1d2309258ac9ed5b1a5f226c2d4327caa5bcad2c4e8c2acdffc4f63215ee50ad3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTGraphLayerTypePlots</Name>
+                  <Path>_c_p_t_graph_8h.html</Path>
+                  <Anchor>a1d2309258ac9ed5b1a5f226c2d4327caac5f3fdb7540e1a62cd2b5fb1b5c04188</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTGraphLayerTypeAxisLabels</Name>
+                  <Path>_c_p_t_graph_8h.html</Path>
+                  <Anchor>a1d2309258ac9ed5b1a5f226c2d4327caa04f9e01bb43e8478f43b50e4bdae807c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTGraphLayerTypeAxisTitles</Name>
+                  <Path>_c_p_t_graph_8h.html</Path>
+                  <Anchor>a1d2309258ac9ed5b1a5f226c2d4327caaae98d09207dbb1b83a3da3fdc546fc01</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTGraphNeedsRedrawNotification</Name>
@@ -7703,7 +7474,7 @@
               <Path>_c_p_t_legend_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTLegendDelegate-p</Name>
+                <Name>&lt;CPTLegendDelegate&gt;</Name>
                 <Path>protocol_c_p_t_legend_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -8108,6 +7879,73 @@
                 <Name>CPTLineCapType</Name>
                 <Path>_c_p_t_line_cap_8h.html</Path>
                 <Anchor>a0929cb493413b456214c0ef80e89ad38</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTLineCapTypeNone</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38a9caefeb971c83f06866c28026d402392</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeOpenArrow</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38a2e1451998e51513cee6424da98e7bcac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeSolidArrow</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38ae9171dc5b0e26ae4c2b67557a16be6af</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeSweptArrow</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38aaca27fe7e6ca6cf3f2900f9008677021</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeRectangle</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38a813bc735b8b85018b7a3c2124be5bf9e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeEllipse</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38a637ee1c6a0231f8a708c7e78aba942c4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeDiamond</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38ab39fb2a49f626db5fec078209129cd23</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypePentagon</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38a6d824497b3932f8c2da4d00396e47905</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeHexagon</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38ae29ca3c0793784acb0dac2ceed5250c2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeBar</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38af97248a474e8796c4283c2b010d1a392</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeCross</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38a45684ac7120eb0993f9f1b94a4ea07fa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeSnow</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38a5fac803b81061bf3daa4481f2f5d535f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTLineCapTypeCustom</Name>
+                  <Path>_c_p_t_line_cap_8h.html</Path>
+                  <Anchor>a0929cb493413b456214c0ef80e89ad38a4b9a49e595fcfb838a99774a021a4a4d</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -8617,6 +8455,38 @@
                 <Name>CPTDataTypeFormat</Name>
                 <Path>_c_p_t_numeric_data_type_8h.html</Path>
                 <Anchor>ac29c0caa2ac30299b2dd472b299ac663</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTUndefinedDataType</Name>
+                  <Path>_c_p_t_numeric_data_type_8h.html</Path>
+                  <Anchor>ac29c0caa2ac30299b2dd472b299ac663a179322c0c23b05b71e7ce4e9963571a8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTIntegerDataType</Name>
+                  <Path>_c_p_t_numeric_data_type_8h.html</Path>
+                  <Anchor>ac29c0caa2ac30299b2dd472b299ac663a32b8a41515f307d26fbaf8ac43ebd765</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTUnsignedIntegerDataType</Name>
+                  <Path>_c_p_t_numeric_data_type_8h.html</Path>
+                  <Anchor>ac29c0caa2ac30299b2dd472b299ac663ac84ca449afa8daa1e350f6c0a6fdaf4a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTFloatingPointDataType</Name>
+                  <Path>_c_p_t_numeric_data_type_8h.html</Path>
+                  <Anchor>ac29c0caa2ac30299b2dd472b299ac663a5b13dc803df1657891a1970566529073</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTComplexFloatingPointDataType</Name>
+                  <Path>_c_p_t_numeric_data_type_8h.html</Path>
+                  <Anchor>ac29c0caa2ac30299b2dd472b299ac663a3fe422102ee1d81b2f2b5c97ab820816</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTDecimalDataType</Name>
+                  <Path>_c_p_t_numeric_data_type_8h.html</Path>
+                  <Anchor>ac29c0caa2ac30299b2dd472b299ac663a9934e0ca146fdeb7f258b36f06fcf1b2</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTDataType</Name>
@@ -8728,7 +8598,7 @@
               <Path>_c_p_t_pie_chart_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTPieChartDataSource-p</Name>
+                <Name>&lt;CPTPieChartDataSource&gt;</Name>
                 <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -8759,7 +8629,7 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>CPTPieChartDelegate-p</Name>
+                <Name>&lt;CPTPieChartDelegate&gt;</Name>
                 <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -8844,11 +8714,40 @@
                 <Name>CPTPieChartField</Name>
                 <Path>_c_p_t_pie_chart_8h.html</Path>
                 <Anchor>a01483eef4e806811546a45557cdb599b</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTPieChartFieldSliceWidth</Name>
+                  <Path>_c_p_t_pie_chart_8h.html</Path>
+                  <Anchor>a01483eef4e806811546a45557cdb599ba15db0cd33b30788aa50b97aa726f6dc9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPieChartFieldSliceWidthNormalized</Name>
+                  <Path>_c_p_t_pie_chart_8h.html</Path>
+                  <Anchor>a01483eef4e806811546a45557cdb599bac3b70183d44bfb77f55e254499b78948</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPieChartFieldSliceWidthSum</Name>
+                  <Path>_c_p_t_pie_chart_8h.html</Path>
+                  <Anchor>a01483eef4e806811546a45557cdb599bab2c5f26ce518f63f13716b236df21540</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTPieDirection</Name>
                 <Path>_c_p_t_pie_chart_8h.html</Path>
                 <Anchor>a0b209ff8a87cc94ca1901c089415e7c1</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTPieDirectionClockwise</Name>
+                  <Path>_c_p_t_pie_chart_8h.html</Path>
+                  <Anchor>a0b209ff8a87cc94ca1901c089415e7c1aa1b4df7575240af272a52cc0d9401185</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPieDirectionCounterClockwise</Name>
+                  <Path>_c_p_t_pie_chart_8h.html</Path>
+                  <Anchor>a0b209ff8a87cc94ca1901c089415e7c1a455c3e146d805d59058112f6bcf73301</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTPieChartBindingPieSliceFills</Name>
@@ -8898,7 +8797,7 @@
               <Path>_c_p_t_plot_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTPlotDataSource-p</Name>
+                <Name>&lt;CPTPlotDataSource&gt;</Name>
                 <Path>protocol_c_p_t_plot_data_source-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -8944,7 +8843,7 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>CPTPlotDelegate-p</Name>
+                <Name>&lt;CPTPlotDelegate&gt;</Name>
                 <Path>protocol_c_p_t_plot_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -9234,6 +9133,23 @@
                 <Name>CPTPlotCachePrecision</Name>
                 <Path>_c_p_t_plot_8h.html</Path>
                 <Anchor>ad9096339b25b6dc933e810ac2726ca64</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTPlotCachePrecisionAuto</Name>
+                  <Path>_c_p_t_plot_8h.html</Path>
+                  <Anchor>ad9096339b25b6dc933e810ac2726ca64a37a3b4359c1744f20f72b052804ffaa8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotCachePrecisionDouble</Name>
+                  <Path>_c_p_t_plot_8h.html</Path>
+                  <Anchor>ad9096339b25b6dc933e810ac2726ca64a2b615eae0bd10fb48c485c24efc9fa5d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotCachePrecisionDecimal</Name>
+                  <Path>_c_p_t_plot_8h.html</Path>
+                  <Anchor>ad9096339b25b6dc933e810ac2726ca64a7d555f74e772b887e79d60ce66f8b2e6</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTPlotBindingDataLabels</Name>
@@ -9532,6 +9448,23 @@
                 <Name>CPTPlotRangeComparisonResult</Name>
                 <Path>_c_p_t_plot_range_8h.html</Path>
                 <Anchor>ae9eb655c44063efd03253fb7f5ed8e34</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTPlotRangeComparisonResultNumberBelowRange</Name>
+                  <Path>_c_p_t_plot_range_8h.html</Path>
+                  <Anchor>ae9eb655c44063efd03253fb7f5ed8e34a0df0dfdbdaac682ab8222931c2edcc43</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotRangeComparisonResultNumberInRange</Name>
+                  <Path>_c_p_t_plot_range_8h.html</Path>
+                  <Anchor>ae9eb655c44063efd03253fb7f5ed8e34aaeca9805478134f36dd1ec1dd0372f35</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotRangeComparisonResultNumberAboveRange</Name>
+                  <Path>_c_p_t_plot_range_8h.html</Path>
+                  <Anchor>ae9eb655c44063efd03253fb7f5ed8e34a11f1d4e2513b89d49806e52a3e2472ca</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -9544,7 +9477,7 @@
               <Path>_c_p_t_plot_space_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTPlotSpaceDelegate-p</Name>
+                <Name>&lt;CPTPlotSpaceDelegate&gt;</Name>
                 <Path>protocol_c_p_t_plot_space_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -9878,6 +9811,73 @@
                 <Name>CPTPlotSymbolType</Name>
                 <Path>_c_p_t_plot_symbol_8h.html</Path>
                 <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeNone</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5a8ff5c6532afe05954d0e4d6828bea178</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeRectangle</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5ad73759c2e064a1f5a6df2d688566e6fd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeEllipse</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5ad22c3002e62675b9e9d72af7dcdfff81</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeDiamond</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5a2d07189388ec1f3752df9267626766a7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeTriangle</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5a09c86c559919063451d4b298a5e80948</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeStar</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5a9b01d456dac995b0b12d8e8cd184d1e8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypePentagon</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5a64460dea8941fc51fbdce57d551223e0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeHexagon</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5a9015d7af814116f3e65e7b71957e63d0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeCross</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5ac0b0b460743b6e7771bd3c504b4d8137</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypePlus</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5a9fdaa3634b97225f6ad22466741624fc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeDash</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5ae8eb79c4a54916f7b500414381213ea1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeSnow</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5a0f0cbc193d0833a3c3d03dc87d89360e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTPlotSymbolTypeCustom</Name>
+                  <Path>_c_p_t_plot_symbol_8h.html</Path>
+                  <Anchor>a9ee52fbfed188e22e03884fa3d6e4ae5a309cefcaf77d29cdb07ead34d6749945</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -9890,7 +9890,7 @@
               <Path>_c_p_t_range_plot_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTRangePlotDataSource-p</Name>
+                <Name>&lt;CPTRangePlotDataSource&gt;</Name>
                 <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -9906,7 +9906,7 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>CPTRangePlotDelegate-p</Name>
+                <Name>&lt;CPTRangePlotDelegate&gt;</Name>
                 <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -9966,6 +9966,38 @@
                 <Name>CPTRangePlotField</Name>
                 <Path>_c_p_t_range_plot_8h.html</Path>
                 <Anchor>ae960cbc1a7f60add898ddeabb0cf5489</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTRangePlotFieldX</Name>
+                  <Path>_c_p_t_range_plot_8h.html</Path>
+                  <Anchor>ae960cbc1a7f60add898ddeabb0cf5489a9a2815272b24e921fd610badac921a01</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRangePlotFieldY</Name>
+                  <Path>_c_p_t_range_plot_8h.html</Path>
+                  <Anchor>ae960cbc1a7f60add898ddeabb0cf5489aea372ceeeec9fbd9accb5268e00d37b2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRangePlotFieldHigh</Name>
+                  <Path>_c_p_t_range_plot_8h.html</Path>
+                  <Anchor>ae960cbc1a7f60add898ddeabb0cf5489a67d6ff02eafc4dcbb67c3613a8730b03</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRangePlotFieldLow</Name>
+                  <Path>_c_p_t_range_plot_8h.html</Path>
+                  <Anchor>ae960cbc1a7f60add898ddeabb0cf5489a99635a451410f023853bba65189bcca7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRangePlotFieldLeft</Name>
+                  <Path>_c_p_t_range_plot_8h.html</Path>
+                  <Anchor>ae960cbc1a7f60add898ddeabb0cf5489adbfe3be0caecbed6cc7325a44993fb53</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTRangePlotFieldRight</Name>
+                  <Path>_c_p_t_range_plot_8h.html</Path>
+                  <Anchor>ae960cbc1a7f60add898ddeabb0cf5489a74e695001b141f0fcad014d309a11244</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTRangePlotBindingBarLineStyles</Name>
@@ -10050,7 +10082,7 @@
               <Path>_c_p_t_responder_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTResponder-p</Name>
+                <Name>&lt;CPTResponder&gt;</Name>
                 <Path>protocol_c_p_t_responder-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -10082,7 +10114,7 @@
               <Path>_c_p_t_scatter_plot_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTScatterPlotDataSource-p</Name>
+                <Name>&lt;CPTScatterPlotDataSource&gt;</Name>
                 <Path>protocol_c_p_t_scatter_plot_data_source-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -10098,7 +10130,7 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>CPTScatterPlotDelegate-p</Name>
+                <Name>&lt;CPTScatterPlotDelegate&gt;</Name>
                 <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -10188,11 +10220,45 @@
                 <Name>CPTScatterPlotField</Name>
                 <Path>_c_p_t_scatter_plot_8h.html</Path>
                 <Anchor>a20acbfd01a982bfed56a2681e17126a8</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTScatterPlotFieldX</Name>
+                  <Path>_c_p_t_scatter_plot_8h.html</Path>
+                  <Anchor>a20acbfd01a982bfed56a2681e17126a8ace7a95b26de1883d8f69dafc57cf0a1d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTScatterPlotFieldY</Name>
+                  <Path>_c_p_t_scatter_plot_8h.html</Path>
+                  <Anchor>a20acbfd01a982bfed56a2681e17126a8afe5068b0719ce6f450911178dab9bafd</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTScatterPlotInterpolation</Name>
                 <Path>_c_p_t_scatter_plot_8h.html</Path>
                 <Anchor>a0a9d8cdea584afe83809167eedeca8da</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTScatterPlotInterpolationLinear</Name>
+                  <Path>_c_p_t_scatter_plot_8h.html</Path>
+                  <Anchor>a0a9d8cdea584afe83809167eedeca8daaa0dcba8b82569841d1599aa5507f2957</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTScatterPlotInterpolationStepped</Name>
+                  <Path>_c_p_t_scatter_plot_8h.html</Path>
+                  <Anchor>a0a9d8cdea584afe83809167eedeca8daa61b6b90b68d1b6c1ba6330683ed700df</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTScatterPlotInterpolationHistogram</Name>
+                  <Path>_c_p_t_scatter_plot_8h.html</Path>
+                  <Anchor>a0a9d8cdea584afe83809167eedeca8daa56c2cfd36a6b5b8b1ccb61d1ef6e37eb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTScatterPlotInterpolationCurved</Name>
+                  <Path>_c_p_t_scatter_plot_8h.html</Path>
+                  <Anchor>a0a9d8cdea584afe83809167eedeca8daaaa0ba9a6e0e682794e28c6640bdee064</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTScatterPlotBindingPlotSymbols</Name>
@@ -10375,6 +10441,23 @@
                 <Name>CPTTextAlignment</Name>
                 <Path>_c_p_t_text_style_8h.html</Path>
                 <Anchor>a2787a4973068e8d2dd94451f8112dc6d</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTTextAlignmentLeft</Name>
+                  <Path>_c_p_t_text_style_8h.html</Path>
+                  <Anchor>a2787a4973068e8d2dd94451f8112dc6da058e0ba57754aa691a0be22e464fab95</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTextAlignmentCenter</Name>
+                  <Path>_c_p_t_text_style_8h.html</Path>
+                  <Anchor>a2787a4973068e8d2dd94451f8112dc6daa23e7da29ea5917a7d23abde9198acd1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTextAlignmentRight</Name>
+                  <Path>_c_p_t_text_style_8h.html</Path>
+                  <Anchor>a2787a4973068e8d2dd94451f8112dc6dac04cbc48b6dd21897678451ece032298</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -10521,7 +10604,7 @@
               <Path>_c_p_t_trading_range_plot_8h.html</Path>
               <Subnodes>
                <Node>
-                <Name>CPTTradingRangePlotDataSource-p</Name>
+                <Name>&lt;CPTTradingRangePlotDataSource&gt;</Name>
                 <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -10577,7 +10660,7 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>CPTTradingRangePlotDelegate-p</Name>
+                <Name>&lt;CPTTradingRangePlotDelegate&gt;</Name>
                 <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
@@ -10657,11 +10740,50 @@
                 <Name>CPTTradingRangePlotField</Name>
                 <Path>_c_p_t_trading_range_plot_8h.html</Path>
                 <Anchor>a81f1f0a945c498402cfe046428777624</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTTradingRangePlotFieldX</Name>
+                  <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                  <Anchor>a81f1f0a945c498402cfe046428777624a4bacbd0b64733a17914687b2d4d3fcda</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTradingRangePlotFieldOpen</Name>
+                  <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                  <Anchor>a81f1f0a945c498402cfe046428777624a655989fbfd87a5c60558d059ccce3445</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTradingRangePlotFieldHigh</Name>
+                  <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                  <Anchor>a81f1f0a945c498402cfe046428777624afde22423a8e033af1a92af7714fafbff</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTradingRangePlotFieldLow</Name>
+                  <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                  <Anchor>a81f1f0a945c498402cfe046428777624adaf48dd581316e023847d12e65ad9c2b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTradingRangePlotFieldClose</Name>
+                  <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                  <Anchor>a81f1f0a945c498402cfe046428777624a17b56d2f5fd676f2f40a32c707a0600c</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTTradingRangePlotStyle</Name>
                 <Path>_c_p_t_trading_range_plot_8h.html</Path>
                 <Anchor>a45133c80b4a14e2720f25ebcc3d19ea9</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTTradingRangePlotStyleOHLC</Name>
+                  <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                  <Anchor>a45133c80b4a14e2720f25ebcc3d19ea9a1577be7fb34f7364efc4006066bb6d88</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTradingRangePlotStyleCandleStick</Name>
+                  <Path>_c_p_t_trading_range_plot_8h.html</Path>
+                  <Anchor>a45133c80b4a14e2720f25ebcc3d19ea9a3d54a828cf54db92e940948bfe7d3076</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>CPTTradingRangePlotBindingCloseValues</Name>

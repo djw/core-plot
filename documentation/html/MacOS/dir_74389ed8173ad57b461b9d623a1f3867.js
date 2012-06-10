@@ -157,7 +157,7 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
     [ "CPTRangePlot.h", "_c_p_t_range_plot_8h.html", "_c_p_t_range_plot_8h" ],
     [ "CPTRangePlot.m", "_c_p_t_range_plot_8m.html", "_c_p_t_range_plot_8m" ],
     [ "CPTResponder.h", "_c_p_t_responder_8h.html", [
-      [ "CPTResponder-p", "protocol_c_p_t_responder-p.html", "protocol_c_p_t_responder-p" ]
+      [ "<CPTResponder>", "protocol_c_p_t_responder-p.html", "protocol_c_p_t_responder-p" ]
     ] ],
     [ "CPTScatterPlot.h", "_c_p_t_scatter_plot_8h.html", "_c_p_t_scatter_plot_8h" ],
     [ "CPTScatterPlot.m", "_c_p_t_scatter_plot_8m.html", "_c_p_t_scatter_plot_8m" ],
