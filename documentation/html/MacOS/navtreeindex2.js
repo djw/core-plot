@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"_c_p_t_x_y_axis_8m.html":[3,0,1,114],
+"_c_p_t_x_y_axis_set_8h.html":[3,0,1,115],
+"_c_p_t_x_y_axis_set_8m.html":[3,0,1,116],
 "_c_p_t_x_y_graph_8h.html":[3,0,1,117],
 "_c_p_t_x_y_graph_8m.html":[3,0,1,118],
 "_c_p_t_x_y_plot_space_8h.html":[3,0,1,119],
@@ -85,8 +88,8 @@ var NAVTREEINDEX2 =
 "functions_prop_0x78.html":[2,3,3,19],
 "functions_prop_0x79.html":[2,3,3,20],
 "functions_vars.html":[2,3,2],
-"globals.html":[3,1,0,0],
 "globals.html":[3,1,0],
+"globals.html":[3,1,0,0],
 "globals_0x61.html":[3,1,0,1],
 "globals_0x62.html":[3,1,0,2],
 "globals_0x63.html":[3,1,0,3],
@@ -141,8 +144,8 @@ var NAVTREEINDEX2 =
 "group__notification.html#gacdcc79d94fa2215225c836c3b2f04565":[1,1,0],
 "group__plot_animation.html":[1,0,3],
 "group__plot_animation_all_plots.html":[1,0,3,0],
-"group__plot_animation_all_plots.html#ga1e0c675adacdd43c50517622154f6301":[1,0,3,0,1],
 "group__plot_animation_all_plots.html#ga1e0c675adacdd43c50517622154f6301":[2,0,44,45],
+"group__plot_animation_all_plots.html#ga1e0c675adacdd43c50517622154f6301":[1,0,3,0,1],
 "group__plot_animation_all_plots.html#ga9e258bb5f1e2385674299200c4eed799":[1,0,3,0,0],
 "group__plot_animation_all_plots.html#ga9e258bb5f1e2385674299200c4eed799":[2,0,44,44],
 "group__plot_animation_bar_plot.html":[1,0,3,1],
@@ -247,7 +250,4 @@ var NAVTREEINDEX2 =
 "interface_c_p_t_axis.html#a1820c3096af3c8afeb21db0d06076293":[2,0,2,27],
 "interface_c_p_t_axis.html#a250d9a9546a4389815f498200f391175":[2,0,2,34],
 "interface_c_p_t_axis.html#a26e0b9f86de20b0fd293e98e6850154b":[2,0,2,1],
-"interface_c_p_t_axis.html#a2d2fb977abe05443c24a393faf24e7ac":[2,0,2,23],
-"interface_c_p_t_axis.html#a37a6a91d61307419f1bf7070bf6742d2":[2,0,2,51],
-"interface_c_p_t_axis.html#a3a7f29c9c8f34165fd3b1635fcac3114":[2,0,2,2],
 };

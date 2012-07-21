@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"_core_plot-_cocoa_touch_8h.html":[3,0,2],
+"_n_s_coder_extensions_8h.html":[3,0,1,122],
+"_n_s_coder_extensions_8m.html":[3,0,1,123],
 "_n_s_coder_extensions_8m.html#a6acc7e360c758ed3ba6dc2a12ceebe3b":[3,0,1,123,0],
 "_n_s_decimal_number_extensions_8h.html":[3,0,1,124],
 "_n_s_decimal_number_extensions_8m.html":[3,0,1,125],
@@ -143,8 +146,8 @@ var NAVTREEINDEX2 =
 "group__plot_animation_bar_plot.html#ga340ebd556d13a8e5d3c7d709de2c588a":[1,0,3,1,0],
 "group__plot_animation_bar_plot.html#ga880361dd6ad4a3e7f1c26f56c7ed84cd":[2,0,8,6],
 "group__plot_animation_bar_plot.html#ga880361dd6ad4a3e7f1c26f56c7ed84cd":[1,0,3,1,1],
-"group__plot_animation_bar_plot.html#ga9ccd0b2ed6a06298e6f4585bf3e95279":[1,0,3,1,3],
 "group__plot_animation_bar_plot.html#ga9ccd0b2ed6a06298e6f4585bf3e95279":[2,0,8,12],
+"group__plot_animation_bar_plot.html#ga9ccd0b2ed6a06298e6f4585bf3e95279":[1,0,3,1,3],
 "group__plot_animation_bar_plot.html#gacf7d5567082b089e0ddcc5664eecb0db":[2,0,8,8],
 "group__plot_animation_bar_plot.html#gacf7d5567082b089e0ddcc5664eecb0db":[1,0,3,1,2],
 "group__plot_animation_pie_chart.html":[1,0,3,2],
@@ -247,7 +250,4 @@ var NAVTREEINDEX2 =
 "interface_c_p_t_axis.html#adbdd690d74732fb712b9a1805f9b0015":[2,0,2,39],
 "interface_c_p_t_axis.html#adfb9e1416941248b341ee271698977c4":[2,0,2,53],
 "interface_c_p_t_axis.html#ae087326fdfc51acf12e343b28bce80c7":[2,0,2,63],
-"interface_c_p_t_axis.html#ae963f0bb8651f7dfaa74024a8c179f13":[2,0,2,8],
-"interface_c_p_t_axis.html#af11b8486fa020a323c4720d915498c4f":[2,0,2,18],
-"interface_c_p_t_axis.html#af25bf15f120918facdcd1a73ff0f963c":[2,0,2,12],
 };

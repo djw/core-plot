@@ -1082,6 +1082,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTDataOrderRowsFirst</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_numeric_data_type_8h.html</Path>
+    <Anchor>a9c632c9ba17aa2e880e84dbaeb1a107fa91a18da194315513f1f35283bbf5b3ef</Anchor>
+    <Abstract>Numeric data is arranged in row-major order.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTDataOrderColumnsFirst</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_numeric_data_type_8h.html</Path>
+    <Anchor>a9c632c9ba17aa2e880e84dbaeb1a107faad93b951102cb88b3cc27ed927bfd1fb</Anchor>
+    <Abstract>Numeric data is arranged in column-major order.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTUndefinedDataType</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -14593,61 +14613,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>numericDataWithData:dataType:shape:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>clm</Type>
-      <Scope>CPTMutableNumericData</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_mutable_numeric_data.html</Path>
-    <Anchor>a11628187374953b7bb2f0f905ebf28bc</Anchor>
-    <Abstract>Creates and returns a new CPTMutableNumericData instance.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>numericDataWithData:dataTypeString:shape:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>clm</Type>
-      <Scope>CPTMutableNumericData</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_mutable_numeric_data.html</Path>
-    <Anchor>a37ac676d6a348f8e7c12b651de1cc009</Anchor>
-    <Abstract>Creates and returns a new CPTMutableNumericData instance.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>numericDataWithArray:dataType:shape:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>clm</Type>
-      <Scope>CPTNumericData</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>a87c60c52fb300752901d903118c8ea78</Anchor>
-    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>numericDataWithArray:dataTypeString:shape:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>clm</Type>
-      <Scope>CPTNumericData</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>aaf45afacfe94d7ba05110105a847673a</Anchor>
-    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithData:dataType:shape:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTMutableNumericData</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_mutable_numeric_data.html</Path>
-    <Anchor>af096619a65ba30e18f89d9756bfc13a7</Anchor>
-    <Abstract>Initializes a newly allocated CPTMutableNumericData object with the provided data. This is the designated initializer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>convertToType:sampleBytes:byteOrder:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -14656,6 +14621,17 @@
     <Path>interface_c_p_t_mutable_numeric_data.html</Path>
     <Anchor>a9a4aacdf750422717667c63ee84e2e1a</Anchor>
     <Abstract>Converts the current numeric data to a new data type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithData:dataType:shape:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a2955411f83bb68caee9bb994153b70a8</Anchor>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -14692,6 +14668,61 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>initWithData:dataType:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a95aedc8f78ea5874efcc7825ec74a61c</Anchor>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data. This is the designated in...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithData:dataTypeString:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a355575cf6aa1fe32a18a90c46b782391</Anchor>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithArray:dataType:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>ad84979356b4a7283b205ac6fab417181</Anchor>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithArray:dataTypeString:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a2e097f3f0d9403fda101e8238b1d9308</Anchor>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sampleIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>ab23d66d8894d7177139326eb50c8376a</Anchor>
+    <Abstract>Gets the offset of a given sample in the data buffer.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>samplePointer:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -14703,6 +14734,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>samplePointerAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a212bc12e3d60d199400de338f061d3bf</Anchor>
+    <Abstract>Gets a pointer to a given sample in the data buffer.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sampleValue:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -14710,6 +14752,17 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
     <Anchor>a12ba5e6606e543c6e213f9570c19deba</Anchor>
+    <Abstract>Gets the value of a given sample in the data buffer.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sampleValueAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>acc5d8b0ee2134440aff791a852b17f49</Anchor>
     <Abstract>Gets the value of a given sample in the data buffer.</Abstract>
   </Token>
   <Token>
@@ -14991,6 +15044,105 @@
     <Path>interface_c_p_t_numeric_data.html</Path>
     <Anchor>a0f0f5a081a9642d36ba28a94d4df3175</Anchor>
     <Abstract>The number of samples of dataType stored in the data buffer.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataOrder</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a3ba3b72f900a9868b2cd2c8ed2bd7ecd</Anchor>
+    <Abstract>The order that numbers are stored in a multi-dimensional data array.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithData:dataType:shape:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>adb15b1ebe1e5d858f121a6a1eda3877e</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithData:dataTypeString:shape:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a87a6819fa9a13c0d4766e1f9f2f2f2e3</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithArray:dataType:shape:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>ad89d93869720b7ac8107de74e76d3dc6</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithArray:dataTypeString:shape:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>aa781a92879b57f0482f705675b4acdf3</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithData:dataType:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a9873c0f264936215ef1ac818dedbbbff</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithData:dataTypeString:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a0cb2309701fd5c7cc1d58d5168d8c7aa</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithArray:dataType:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>adf140fe6539051c44c8780c90044387b</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithArray:dataTypeString:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a42e699b8452bd439ae59933c90f69f88</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15571,7 +15723,7 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>ab328d59298166bd594c1c194fe2fee4f</Anchor>
+    <Anchor>adb15b1ebe1e5d858f121a6a1eda3877e</Anchor>
     <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
   </Token>
   <Token>
@@ -15582,7 +15734,7 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>abf3beef67fb393e4d0feba9a5d962f8e</Anchor>
+    <Anchor>a87a6819fa9a13c0d4766e1f9f2f2f2e3</Anchor>
     <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
   </Token>
   <Token>
@@ -15593,7 +15745,7 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>a87c60c52fb300752901d903118c8ea78</Anchor>
+    <Anchor>ad89d93869720b7ac8107de74e76d3dc6</Anchor>
     <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
   </Token>
   <Token>
@@ -15604,7 +15756,51 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>aaf45afacfe94d7ba05110105a847673a</Anchor>
+    <Anchor>aa781a92879b57f0482f705675b4acdf3</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithData:dataType:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a9873c0f264936215ef1ac818dedbbbff</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithData:dataTypeString:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a0cb2309701fd5c7cc1d58d5168d8c7aa</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithArray:dataType:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>adf140fe6539051c44c8780c90044387b</Anchor>
+    <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numericDataWithArray:dataTypeString:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a42e699b8452bd439ae59933c90f69f88</Anchor>
     <Abstract>Creates and returns a new CPTNumericData instance.</Abstract>
   </Token>
   <Token>
@@ -15616,7 +15812,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
     <Anchor>a2955411f83bb68caee9bb994153b70a8</Anchor>
-    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data. This is the designated in...</Abstract>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15653,6 +15849,61 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>initWithData:dataType:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a95aedc8f78ea5874efcc7825ec74a61c</Anchor>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data. This is the designated in...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithData:dataTypeString:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a355575cf6aa1fe32a18a90c46b782391</Anchor>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithArray:dataType:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>ad84979356b4a7283b205ac6fab417181</Anchor>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithArray:dataTypeString:shape:dataOrder:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a2e097f3f0d9403fda101e8238b1d9308</Anchor>
+    <Abstract>Initializes a newly allocated CPTNumericData object with the provided data.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sampleIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>ab23d66d8894d7177139326eb50c8376a</Anchor>
+    <Abstract>Gets the offset of a given sample in the data buffer.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>samplePointer:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -15664,6 +15915,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>samplePointerAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a212bc12e3d60d199400de338f061d3bf</Anchor>
+    <Abstract>Gets a pointer to a given sample in the data buffer.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sampleValue:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -15671,6 +15933,17 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
     <Anchor>a12ba5e6606e543c6e213f9570c19deba</Anchor>
+    <Abstract>Gets the value of a given sample in the data buffer.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sampleValueAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>acc5d8b0ee2134440aff791a852b17f49</Anchor>
     <Abstract>Gets the value of a given sample in the data buffer.</Abstract>
   </Token>
   <Token>
@@ -15897,6 +16170,17 @@
     <Path>interface_c_p_t_numeric_data.html</Path>
     <Anchor>a0f0f5a081a9642d36ba28a94d4df3175</Anchor>
     <Abstract>The number of samples of dataType stored in the data buffer.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataOrder</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTNumericData</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_numeric_data.html</Path>
+    <Anchor>a3ba3b72f900a9868b2cd2c8ed2bd7ecd</Anchor>
+    <Abstract>The order that numbers are stored in a multi-dimensional data array.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

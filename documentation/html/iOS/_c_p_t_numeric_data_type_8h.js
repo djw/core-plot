@@ -1,6 +1,10 @@
 var _c_p_t_numeric_data_type_8h =
 [
     [ "CPTNumericDataType", "struct_c_p_t_numeric_data_type.html", "struct_c_p_t_numeric_data_type" ],
+    [ "CPTDataOrder", "_c_p_t_numeric_data_type_8h.html#a9c632c9ba17aa2e880e84dbaeb1a107f", [
+      [ "CPTDataOrderRowsFirst", "_c_p_t_numeric_data_type_8h.html#a9c632c9ba17aa2e880e84dbaeb1a107fa91a18da194315513f1f35283bbf5b3ef", null ],
+      [ "CPTDataOrderColumnsFirst", "_c_p_t_numeric_data_type_8h.html#a9c632c9ba17aa2e880e84dbaeb1a107faad93b951102cb88b3cc27ed927bfd1fb", null ]
+    ] ],
     [ "CPTDataTypeFormat", "_c_p_t_numeric_data_type_8h.html#ac29c0caa2ac30299b2dd472b299ac663", [
       [ "CPTUndefinedDataType", "_c_p_t_numeric_data_type_8h.html#ac29c0caa2ac30299b2dd472b299ac663a179322c0c23b05b71e7ce4e9963571a8", null ],
       [ "CPTIntegerDataType", "_c_p_t_numeric_data_type_8h.html#ac29c0caa2ac30299b2dd472b299ac663a32b8a41515f307d26fbaf8ac43ebd765", null ],

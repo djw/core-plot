@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"_c_p_t_plot_8h.html#ad9096339b25b6dc933e810ac2726ca64a7d555f74e772b887e79d60ce66f8b2e6":[3,0,1,78,3,2],
+"_c_p_t_plot_8h.html#gafc2c14b05a72fa272ad34cb0925a4e9d":[3,0,1,78,4],
+"_c_p_t_plot_8m.html":[3,0,1,79],
 "_c_p_t_plot_8m.html#gafc2c14b05a72fa272ad34cb0925a4e9d":[3,0,1,79,0],
 "_c_p_t_plot_area_8h.html":[3,0,1,80],
 "_c_p_t_plot_area_8m.html":[3,0,1,81],
@@ -247,7 +250,4 @@ var NAVTREEINDEX1 =
 "_c_p_t_utilities_8m.html#af9a02673f40413173f4ed6915a107362":[3,0,1,112,43],
 "_c_p_t_utilities_8m.html#afeb1ea1e2d6486b67ef47c4bf8e3661f":[3,0,1,112,49],
 "_c_p_t_x_y_axis_8h.html":[3,0,1,113],
-"_c_p_t_x_y_axis_8m.html":[3,0,1,114],
-"_c_p_t_x_y_axis_set_8h.html":[3,0,1,115],
-"_c_p_t_x_y_axis_set_8m.html":[3,0,1,116],
 };

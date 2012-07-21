@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"_c_p_t_plot_area_frame_8h.html":[3,0,1,82],
+"_c_p_t_plot_area_frame_8m.html":[3,0,1,83],
+"_c_p_t_plot_group_8h.html":[3,0,1,84],
 "_c_p_t_plot_group_8m.html":[3,0,1,85],
 "_c_p_t_plot_range_8h.html":[3,0,1,86],
 "_c_p_t_plot_range_8h.html#ae9eb655c44063efd03253fb7f5ed8e34":[3,0,1,86,1],
@@ -247,7 +250,4 @@ var NAVTREEINDEX1 =
 "_c_p_t_x_y_graph_8m.html":[3,0,1,118],
 "_c_p_t_x_y_plot_space_8h.html":[3,0,1,119],
 "_c_p_t_x_y_plot_space_8m.html":[3,0,1,120],
-"_core_plot-_cocoa_touch_8h.html":[3,0,2],
-"_n_s_coder_extensions_8h.html":[3,0,1,122],
-"_n_s_coder_extensions_8m.html":[3,0,1,123],
 };

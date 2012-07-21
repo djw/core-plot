@@ -32,11 +32,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_c_p_t_annotation_8h.html",
-"_c_p_t_plot_group_8m.html",
-"_n_s_coder_extensions_8m.html#a6acc7e360c758ed3ba6dc2a12ceebe3b",
-"interface_c_p_t_axis.html#afa6e872f306f70db0e5cda87f55043ac",
-"interface_c_p_t_legend_entry.html#a5f4dde93002e42ab2b89e7165d9e69a2",
-"interface_c_p_t_plot_symbol.html#a8d7149c060cd1457d417a03d3bdacae0",
+"_c_p_t_plot_area_frame_8h.html",
+"_core_plot-_cocoa_touch_8h.html",
+"interface_c_p_t_axis.html#ae963f0bb8651f7dfaa74024a8c179f13",
+"interface_c_p_t_legend_entry.html",
+"interface_c_p_t_plot_symbol.html",
 ];
 
 var navTreeSubIndices = new Array();
