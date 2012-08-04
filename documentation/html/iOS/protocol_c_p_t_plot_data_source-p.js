@@ -1,6 +1,7 @@
 var protocol_c_p_t_plot_data_source_p =
 [
     [ "dataForPlot:field:recordIndexRange:", "protocol_c_p_t_plot_data_source-p.html#a43a84ec249a526948d1f45bf4634d289", null ],
+    [ "dataForPlot:recordIndexRange:", "protocol_c_p_t_plot_data_source-p.html#afd985f5b9616bed3bb52046c62d44483", null ],
     [ "dataLabelForPlot:recordIndex:", "protocol_c_p_t_plot_data_source-p.html#ac1bda304421f3bff21f4db54282620d9", null ],
     [ "dataLabelsForPlot:recordIndexRange:", "protocol_c_p_t_plot_data_source-p.html#abc9085d1b4dd104b130f362e21ff00ea", null ],
     [ "doubleForPlot:field:recordIndex:", "protocol_c_p_t_plot_data_source-p.html#a751d55385f637298442d0fdaad503da7", null ],

@@ -36,7 +36,7 @@ var NAVTREEINDEX =
 "_core_plot-_cocoa_touch_8h.html",
 "interface_c_p_t_axis.html#ae963f0bb8651f7dfaa74024a8c179f13",
 "interface_c_p_t_legend_entry.html",
-"interface_c_p_t_plot_symbol.html",
+"interface_c_p_t_plot_space_annotation.html#a92899ae4363eb0de1ecbde97835f1667",
 ];
 
 var navTreeSubIndices = new Array();

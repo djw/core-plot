@@ -7585,6 +7585,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
+    <Abstract>Gets a range of plot data for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>addAnnotation:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -8477,6 +8488,17 @@
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>a43a84ec249a526948d1f45bf4634d289</Anchor>
     <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>afd985f5b9616bed3bb52046c62d44483</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for all fields of the given plot simultaneously. Implement one and only one of the optional methods in this section.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16624,6 +16646,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
+    <Abstract>Gets a range of plot data for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>addAnnotation:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -17472,6 +17505,17 @@
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>a43a84ec249a526948d1f45bf4634d289</Anchor>
     <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>afd985f5b9616bed3bb52046c62d44483</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for all fields of the given plot simultaneously. Implement one and only one of the optional methods in this section.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18554,6 +18598,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
     <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
+    <Abstract>Gets a range of plot data for the given plot.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -19739,6 +19794,17 @@
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>a43a84ec249a526948d1f45bf4634d289</Anchor>
     <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>afd985f5b9616bed3bb52046c62d44483</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for all fields of the given plot simultaneously. Implement one and only one of the optional methods in this section.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21834,6 +21900,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
+    <Abstract>Gets a range of plot data for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>addAnnotation:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -22619,6 +22696,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>dataForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>afd985f5b9616bed3bb52046c62d44483</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for all fields of the given plot simultaneously. Implement one and only one of the optional methods in this section.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>dataLabelsForPlot:recordIndexRange:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -23221,6 +23309,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a9c0c497a111974900062776de03b3738</Anchor>
     <Abstract>Gets a range of plot data for the given plot and field.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
+    <Abstract>Gets a range of plot data for the given plot.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -24039,6 +24138,17 @@
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>a43a84ec249a526948d1f45bf4634d289</Anchor>
     <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>afd985f5b9616bed3bb52046c62d44483</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for all fields of the given plot simultaneously. Implement one and only one of the optional methods in this section.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25535,6 +25645,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
+    <Abstract>Gets a range of plot data for the given plot.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>addAnnotation:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -26449,6 +26570,17 @@
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
     <Anchor>a43a84ec249a526948d1f45bf4634d289</Anchor>
     <Abstract>(Optional) Gets a range of plot data for the given plot and field. Implement one and only one of the ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataForPlot:recordIndexRange:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+    <Anchor>afd985f5b9616bed3bb52046c62d44483</Anchor>
+    <Abstract>(Optional) Gets a range of plot data for all fields of the given plot simultaneously. Implement one and only one of the optional methods in this section.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

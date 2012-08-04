@@ -2872,6 +2872,11 @@
               <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
              </Node>
              <Node>
+              <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
+             </Node>
+             <Node>
               <Name>nilData</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
@@ -3153,6 +3158,11 @@
               <Name>dataForPlot:field:recordIndexRange:</Name>
               <Path>protocol_c_p_t_plot_data_source-p.html</Path>
               <Anchor>a43a84ec249a526948d1f45bf4634d289</Anchor>
+             </Node>
+             <Node>
+              <Name>dataForPlot:recordIndexRange:</Name>
+              <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+              <Anchor>afd985f5b9616bed3bb52046c62d44483</Anchor>
              </Node>
              <Node>
               <Name>dataLabelForPlot:recordIndex:</Name>
@@ -8913,6 +8923,11 @@
                   <Anchor>a43a84ec249a526948d1f45bf4634d289</Anchor>
                  </Node>
                  <Node>
+                  <Name>dataForPlot:recordIndexRange:</Name>
+                  <Path>protocol_c_p_t_plot_data_source-p.html</Path>
+                  <Anchor>afd985f5b9616bed3bb52046c62d44483</Anchor>
+                 </Node>
+                 <Node>
                   <Name>dataLabelForPlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_plot_data_source-p.html</Path>
                   <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
@@ -9058,6 +9073,11 @@
                   <Name>insertDataAtIndex:numberOfRecords:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
                  </Node>
                  <Node>
                   <Name>nilData</Name>

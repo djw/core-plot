@@ -293,6 +293,8 @@ Data Labels</h2></td></tr>
 Plot Data</h2></td></tr>
 <tr class="memitem:a9c0c497a111974900062776de03b3738"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot.html#a9c0c497a111974900062776de03b3738">numbersFromDataSourceForField:recordIndexRange:</a></td></tr>
 <tr class="memdesc:a9c0c497a111974900062776de03b3738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a range of plot data for the given plot and field.  <a href="#a9c0c497a111974900062776de03b3738"></a><br/></td></tr>
+<tr class="memitem:add94c343f3b3a52ae770087520b62d4e"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot.html#add94c343f3b3a52ae770087520b62d4e">loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</a></td></tr>
+<tr class="memdesc:add94c343f3b3a52ae770087520b62d4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a range of plot data for the given plot.  <a href="#add94c343f3b3a52ae770087520b62d4e"></a><br/></td></tr>
 <tr class="memitem:a9911432fff3af672a45bfe5e8b02d268"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">id</a>)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_c_p_t_plot.html#a9911432fff3af672a45bfe5e8b02d268">nilData</a></td></tr>
 <tr class="memdesc:a9911432fff3af672a45bfe5e8b02d268"><td class="mdescLeft">&#160;</td><td class="mdescRight">A unique marker object used in collections to indicate that the datasource returned <code>nil</code>.  <a href="#a9911432fff3af672a45bfe5e8b02d268"></a><br/></td></tr>
 </table>
@@ -886,6 +888,31 @@ Plot Data</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="add94c343f3b3a52ae770087520b62d4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html">BOOL</a>) loadNumbersForAllFieldsFromDataSourceInRecordIndexRange: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html">NSRange</a>)&#160;</td>
+          <td class="paramname"><em>indexRange</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a range of plot data for the given plot. </p>
+<dl class="params"><dt>Parameters:</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indexRange</td><td>The range of the data indexes of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns:</dt><dd>Returns <code>YES</code> if the datasource implements the <a class="el" href="protocol_c_p_t_plot_data_source-p.html#afd985f5b9616bed3bb52046c62d44483">-dataForPlot:recordIndexRange: </a> method and it returns valid data. </dd></dl>
 
 </div>
 </div>
