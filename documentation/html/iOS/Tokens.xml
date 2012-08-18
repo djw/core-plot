@@ -6337,17 +6337,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>positionRelativeToViewPoint:forCoordinate:inDirection:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTAxisTitle</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis_title.html</Path>
-    <Anchor>afee7837cb6510ee5270234effc968a61</Anchor>
-    <Abstract>Positions the axis label relative to the given point. The algorithm for positioning is different when...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>initWithText:textStyle:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -6356,6 +6345,17 @@
     <Path>interface_c_p_t_axis_label.html</Path>
     <Anchor>a956058856b90fc92a108ec3b6e425b65</Anchor>
     <Abstract>Initializes a newly allocated text-based CPTAxisLabel object with the provided text and style...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>positionRelativeToViewPoint:forCoordinate:inDirection:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxisLabel</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis_label.html</Path>
+    <Anchor>ac05596d481daa7c69327ea7ef86f8ba7</Anchor>
+    <Abstract>Positions the axis label relative to the given point. The algorithm for positioning is different when...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

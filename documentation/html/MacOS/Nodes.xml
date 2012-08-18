@@ -973,11 +973,6 @@
               <Path>interface_c_p_t_axis_title.html</Path>
               <Anchor>a255fc7c882641db93fde481749aa2c40</Anchor>
              </Node>
-             <Node>
-              <Name>positionRelativeToViewPoint:forCoordinate:inDirection:</Name>
-              <Path>interface_c_p_t_axis_title.html</Path>
-              <Anchor>afee7837cb6510ee5270234effc968a61</Anchor>
-             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -6127,11 +6122,6 @@
                   <Name>initWithContentLayer:</Name>
                   <Path>interface_c_p_t_axis_title.html</Path>
                   <Anchor>a255fc7c882641db93fde481749aa2c40</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>positionRelativeToViewPoint:forCoordinate:inDirection:</Name>
-                  <Path>interface_c_p_t_axis_title.html</Path>
-                  <Anchor>afee7837cb6510ee5270234effc968a61</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

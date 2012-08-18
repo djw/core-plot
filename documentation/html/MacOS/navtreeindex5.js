@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"interface_c_p_t_plot_range.html#a193ff5eddba438e2080866220cdb0516":[2,0,50,1],
 "interface_c_p_t_plot_range.html#a21cac5697f6494c1f68c492ffc222a5f":[2,0,50,19],
 "interface_c_p_t_plot_range.html#a447a54ef48bca11fcbae18587d6a424f":[2,0,50,15],
 "interface_c_p_t_plot_range.html#a45e8fa6852f7d3bc5c021aae072a216c":[2,0,50,2],
@@ -250,4 +249,5 @@ var NAVTREEINDEX5 =
 "struct_c_p_t_r_g_b_a_color.html":[2,0,59],
 "struct_c_p_t_r_g_b_a_color.html#aa0a747fd8d521399dde552fff8cbd974":[2,0,59,1],
 "struct_c_p_t_r_g_b_a_color.html#aa71c02270e204b91762a63ffba293ccf":[2,0,59,0],
+"struct_c_p_t_r_g_b_a_color.html#aac4408d03ce0a0b26ff3ff4fa5c60318":[2,0,59,2],
 };

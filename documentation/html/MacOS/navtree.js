@@ -35,9 +35,9 @@ var NAVTREEINDEX =
 "_c_p_t_plot_8h.html#ad9096339b25b6dc933e810ac2726ca64a7d555f74e772b887e79d60ce66f8b2e6",
 "_c_p_t_x_y_axis_8m.html",
 "interface_c_p_t_axis.html#a2d2fb977abe05443c24a393faf24e7ac",
-"interface_c_p_t_layer.html#ac962eb515958c49389f88f5c206a590c",
-"interface_c_p_t_plot_range.html#a193ff5eddba438e2080866220cdb0516",
-"struct_c_p_t_r_g_b_a_color.html#aac4408d03ce0a0b26ff3ff4fa5c60318",
+"interface_c_p_t_layer.html#acead64e0d841d758aa3f5d94b1e56825",
+"interface_c_p_t_plot_range.html#a21cac5697f6494c1f68c492ffc222a5f",
+"struct_c_p_t_r_g_b_a_color.html#ac1ecf7e0d03dcc366ec1059f9563eaef",
 ];
 
 var navTreeSubIndices = new Array();
