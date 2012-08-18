@@ -1,7 +1,8 @@
 var dir_74389ed8173ad57b461b9d623a1f3867 =
 [
     [ "CPTAnnotation.h", "_c_p_t_annotation_8h.html", [
-      [ "CPTAnnotation", "interface_c_p_t_annotation.html", "interface_c_p_t_annotation" ]
+      [ "CPTAnnotation", "interface_c_p_t_annotation.html", "interface_c_p_t_annotation" ],
+      [ "CPTAnnotation(AbstractMethods)", "category_c_p_t_annotation_07_abstract_methods_08.html", "category_c_p_t_annotation_07_abstract_methods_08" ]
     ] ],
     [ "CPTAnnotation.m", "_c_p_t_annotation_8m.html", null ],
     [ "CPTAnnotationHostLayer.h", "_c_p_t_annotation_host_layer_8h.html", [
@@ -45,7 +46,8 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
     ] ],
     [ "CPTColorSpace.m", "_c_p_t_color_space_8m.html", null ],
     [ "CPTConstraints.h", "_c_p_t_constraints_8h.html", [
-      [ "CPTConstraints", "interface_c_p_t_constraints.html", "interface_c_p_t_constraints" ]
+      [ "CPTConstraints", "interface_c_p_t_constraints.html", "interface_c_p_t_constraints" ],
+      [ "CPTConstraints(AbstractMethods)", "category_c_p_t_constraints_07_abstract_methods_08.html", "category_c_p_t_constraints_07_abstract_methods_08" ]
     ] ],
     [ "CPTConstraints.m", "_c_p_t_constraints_8m.html", null ],
     [ "CPTDefinitions.h", "_c_p_t_definitions_8h.html", "_c_p_t_definitions_8h" ],
@@ -53,7 +55,8 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
     [ "CPTExceptions.h", "_c_p_t_exceptions_8h.html", "_c_p_t_exceptions_8h" ],
     [ "CPTExceptions.m", "_c_p_t_exceptions_8m.html", "_c_p_t_exceptions_8m" ],
     [ "CPTFill.h", "_c_p_t_fill_8h.html", [
-      [ "CPTFill", "interface_c_p_t_fill.html", "interface_c_p_t_fill" ]
+      [ "CPTFill", "interface_c_p_t_fill.html", "interface_c_p_t_fill" ],
+      [ "CPTFill(AbstractMethods)", "category_c_p_t_fill_07_abstract_methods_08.html", "category_c_p_t_fill_07_abstract_methods_08" ]
     ] ],
     [ "CPTFill.m", "_c_p_t_fill_8m.html", null ],
     [ "CPTGradient.h", "_c_p_t_gradient_8h.html", "_c_p_t_gradient_8h" ],
@@ -100,7 +103,9 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
       [ "CPTMutableLineStyle", "interface_c_p_t_mutable_line_style.html", "interface_c_p_t_mutable_line_style" ]
     ] ],
     [ "CPTMutableLineStyle.m", "_c_p_t_mutable_line_style_8m.html", null ],
-    [ "CPTMutableNumericData+TypeConversion.h", "_c_p_t_mutable_numeric_data_09_type_conversion_8h.html", null ],
+    [ "CPTMutableNumericData+TypeConversion.h", "_c_p_t_mutable_numeric_data_09_type_conversion_8h.html", [
+      [ "CPTMutableNumericData(TypeConversion)", "category_c_p_t_mutable_numeric_data_07_type_conversion_08.html", "category_c_p_t_mutable_numeric_data_07_type_conversion_08" ]
+    ] ],
     [ "CPTMutableNumericData+TypeConversion.m", "_c_p_t_mutable_numeric_data_09_type_conversion_8m.html", null ],
     [ "CPTMutableNumericData.h", "_c_p_t_mutable_numeric_data_8h.html", [
       [ "CPTMutableNumericData", "interface_c_p_t_mutable_numeric_data.html", "interface_c_p_t_mutable_numeric_data" ]
@@ -118,7 +123,9 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
       [ "CPTMutableTextStyle", "interface_c_p_t_mutable_text_style.html", "interface_c_p_t_mutable_text_style" ]
     ] ],
     [ "CPTMutableTextStyle.m", "_c_p_t_mutable_text_style_8m.html", null ],
-    [ "CPTNumericData+TypeConversion.h", "_c_p_t_numeric_data_09_type_conversion_8h.html", null ],
+    [ "CPTNumericData+TypeConversion.h", "_c_p_t_numeric_data_09_type_conversion_8h.html", [
+      [ "CPTNumericData(TypeConversion)", "category_c_p_t_numeric_data_07_type_conversion_08.html", "category_c_p_t_numeric_data_07_type_conversion_08" ]
+    ] ],
     [ "CPTNumericData+TypeConversion.m", "_c_p_t_numeric_data_09_type_conversion_8m.html", null ],
     [ "CPTNumericData.h", "_c_p_t_numeric_data_8h.html", [
       [ "CPTNumericData", "interface_c_p_t_numeric_data.html", "interface_c_p_t_numeric_data" ]
@@ -196,10 +203,16 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
     ] ],
     [ "CPTXYPlotSpace.m", "_c_p_t_x_y_plot_space_8m.html", null ],
     [ "mainpage.h", "mainpage_8h.html", null ],
-    [ "NSCoderExtensions.h", "_n_s_coder_extensions_8h.html", null ],
+    [ "NSCoderExtensions.h", "_n_s_coder_extensions_8h.html", [
+      [ "NSCoder(CPTExtensions)", "category_n_s_coder_07_c_p_t_extensions_08.html", "category_n_s_coder_07_c_p_t_extensions_08" ]
+    ] ],
     [ "NSCoderExtensions.m", "_n_s_coder_extensions_8m.html", "_n_s_coder_extensions_8m" ],
-    [ "NSDecimalNumberExtensions.h", "_n_s_decimal_number_extensions_8h.html", null ],
+    [ "NSDecimalNumberExtensions.h", "_n_s_decimal_number_extensions_8h.html", [
+      [ "NSDecimalNumber(CPTExtensions)", "category_n_s_decimal_number_07_c_p_t_extensions_08.html", "category_n_s_decimal_number_07_c_p_t_extensions_08" ]
+    ] ],
     [ "NSDecimalNumberExtensions.m", "_n_s_decimal_number_extensions_8m.html", null ],
-    [ "NSNumberExtensions.h", "_n_s_number_extensions_8h.html", null ],
+    [ "NSNumberExtensions.h", "_n_s_number_extensions_8h.html", [
+      [ "NSNumber(CPTExtensions)", "category_n_s_number_07_c_p_t_extensions_08.html", "category_n_s_number_07_c_p_t_extensions_08" ]
+    ] ],
     [ "NSNumberExtensions.m", "_n_s_number_extensions_8m.html", null ]
 ];

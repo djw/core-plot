@@ -32,13 +32,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_c_p_t_annotation_8h.html",
-"_c_p_t_plot_area_frame_8h.html",
-"_core_plot-_cocoa_touch_8h.html",
-"interface_c_p_t_axis.html#ae963f0bb8651f7dfaa74024a8c179f13",
-"interface_c_p_t_legend_entry.html#a0f14e13c0a1256bac7dd10d0e7c5f13c",
-"interface_c_p_t_plot_symbol.html",
+"_c_p_t_pie_chart_8h.html#a01483eef4e806811546a45557cdb599ba15db0cd33b30788aa50b97aa726f6dc9",
+"_c_p_t_utilities_8m.html#a0c8d770c2fa665ed305989b481333896",
+"globals_0x69.html",
+"interface_c_p_t_fill.html#a26f512db109911c6099df80bc36dda74",
+"interface_c_p_t_numeric_data.html#a206732e4577018deeb958304bbfb1230",
+"interface_c_p_t_trading_range_plot.html#ab6e6d4365f2edcca48eed9abf7c1c948"
 ];
 
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
 
 function getData(varName)
@@ -59,6 +62,40 @@ function stripPath2(uri)
   var s = uri.substring(i+1);
   var m = uri.substring(0,i+1).match(/\/d\w\/d\w\w\/$/);
   return m ? uri.substring(i-6) : s;
+}
+
+function localStorageSupported()
+{
+  try {
+    return 'localStorage' in window && window['localStorage'] !== null && window.localStorage.getItem;
+  }
+  catch(e) {
+    return false;
+  }
+}
+
+
+function storeLink(link)
+{
+  if (!$("#nav-sync").hasClass('sync') && localStorageSupported()) {
+      window.localStorage.setItem('navpath',link);
+  }
+}
+
+function deleteLink()
+{
+  if (localStorageSupported()) {
+    window.localStorage.setItem('navpath','');
+  } 
+}
+
+function cachedLink()
+{
+  if (localStorageSupported()) {
+    return window.localStorage.getItem('navpath');
+  } else {
+    return '';
+  }
 }
 
 function getScript(scriptName,func,show)
@@ -179,6 +216,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : '#';
       a.onclick = function(){
+        storeLink(link);
         if (!$(a).parent().parent().hasClass('selected'))
         {
           $('.item').removeClass('selected');
@@ -206,6 +244,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
       };
     } else {
       a.href = url;
+      a.onclick = function() { storeLink(link); }
     }
   } else {
     if (childrenData != null) 
@@ -289,6 +328,8 @@ function highlightAnchor()
     glowEffect(rows.children(),300); // member without details
   } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
     glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldtype'){
+    glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
     glowEffect(anchor.parent(),1000); // section header
   } else {
@@ -296,12 +337,11 @@ function highlightAnchor()
   }
 }
 
-function selectAndHighlight(n)
+function selectAndHighlight(hash,n)
 {
   var a;
-  if ($(location).attr('hash')) {
-    var link=stripPath($(location).attr('pathname'))+':'+
-      $(location).attr('hash').substring(1);
+  if (hash) {
+    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -315,14 +355,14 @@ function selectAndHighlight(n)
   showRoot();
 }
 
-function showNode(o, node, index)
+function showNode(o, node, index, hash)
 {
   if (node && node.childrenData) {
     if (typeof(node.childrenData)==='string') {
       var varName    = node.childrenData;
       getScript(node.relpath+varName,function(){
         node.childrenData = getData(varName);
-        showNode(o,node,index);
+        showNode(o,node,index,hash);
       },true);
     } else {
       if (!node.childrenVisited) {
@@ -337,26 +377,26 @@ function showNode(o, node, index)
       node.expanded = true;
       var n = node.children[o.breadcrumbs[index]];
       if (index+1<o.breadcrumbs.length) {
-        showNode(o,n,index+1);
+        showNode(o,n,index+1,hash);
       } else {
         if (typeof(n.childrenData)==='string') {
           var varName = n.childrenData;
           getScript(n.relpath+varName,function(){
             n.childrenData = getData(varName);
             node.expanded=false;
-            showNode(o,node,index); // retry with child node expanded
+            showNode(o,node,index,hash); // retry with child node expanded
           },true);
         } else {
-          var rootBase = o.toroot.replace(/\..+$/, '');
+          var rootBase = stripPath(o.toroot.replace(/\..+$/, ''));
           if (rootBase=="index" || rootBase=="pages") {
             expandNode(o, n, true, true);
           }
-          selectAndHighlight(n);
+          selectAndHighlight(hash,n);
         }
       }
     }
   } else {
-    selectAndHighlight();
+    selectAndHighlight(hash);
   }
 }
 
@@ -374,7 +414,7 @@ function getNode(o, po)
 function gotoNode(o,subIndex,root,hash,relpath)
 {
   var nti = navTreeSubIndices[subIndex][root+hash];
-  o.breadcrumbs = nti ? nti : navTreeSubIndices[subIndex][root];
+  o.breadcrumbs = $.extend(true, [], nti ? nti : navTreeSubIndices[subIndex][root]);
   if (!o.breadcrumbs && root!=NAVTREE[0][1]) { // fallback: show index
     navTo(o,NAVTREE[0][1],"",relpath);
     $('.item').removeClass('selected');
@@ -382,16 +422,29 @@ function gotoNode(o,subIndex,root,hash,relpath)
   }
   if (o.breadcrumbs) {
     o.breadcrumbs.unshift(0); // add 0 for root node
-    showNode(o, o.node, 0);
+    showNode(o, o.node, 0, hash);
   }
 }
 
 function navTo(o,root,hash,relpath)
 {
+  var link = cachedLink();
+  if (link) {
+    var parts = link.split('#');
+    root = parts[0];
+    if (parts.length>1) hash = '#'+parts[1];
+    else hash='';
+  }
+  if (root==NAVTREE[0][1]) {
+    $('#nav-sync').css('top','30px');
+  } else {
+    $('#nav-sync').css('top','5px');
+  }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
+    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -405,6 +458,30 @@ function navTo(o,root,hash,relpath)
         gotoNode(o,i,root,hash,relpath);
       }
     },true);
+  }
+}
+
+function showSyncOff(n,relpath)
+{
+    n.html('<img src="'+relpath+'sync_off.png" title="'+SYNCOFFMSG+'"/>');
+}
+
+function showSyncOn(n,relpath)
+{
+    n.html('<img src="'+relpath+'sync_on.png"/ title="'+SYNCONMSG+'">');
+}
+
+function toggleSyncButton(relpath)
+{
+  var navSync = $('#nav-sync');
+  if (navSync.hasClass('sync')) {
+    navSync.removeClass('sync');
+    showSyncOff(navSync,relpath);
+    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+  } else {
+    navSync.addClass('sync');
+    showSyncOn(navSync,relpath);
+    deleteLink();
   }
 }
 
@@ -427,6 +504,17 @@ function initNavTree(toroot,relpath)
   o.node.plus_img.src = relpath+"ftv2pnode.png";
   o.node.plus_img.width = 16;
   o.node.plus_img.height = 22;
+
+  if (localStorageSupported()) {
+    var navSync = $('#nav-sync');
+    if (cachedLink()) {
+      showSyncOff(navSync,relpath);
+      navSync.removeClass('sync');
+    } else {
+      showSyncOn(navSync,relpath);
+    }
+    navSync.click(function(){ toggleSyncButton(relpath); });
+  }
 
   navTo(o,toroot,window.location.hash,relpath);
 

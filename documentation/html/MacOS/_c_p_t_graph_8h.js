@@ -1,6 +1,7 @@
 var _c_p_t_graph_8h =
 [
     [ "CPTGraph", "interface_c_p_t_graph.html", "interface_c_p_t_graph" ],
+    [ "CPTGraph(AbstractFactoryMethods)", "category_c_p_t_graph_07_abstract_factory_methods_08.html", "category_c_p_t_graph_07_abstract_factory_methods_08" ],
     [ "CPTGraphLayerType", "_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327ca", [
       [ "CPTGraphLayerTypeMinorGridLines", "_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327caa4fa13d7c45e1756ac5d4526315470952", null ],
       [ "CPTGraphLayerTypeMajorGridLines", "_c_p_t_graph_8h.html#a1d2309258ac9ed5b1a5f226c2d4327caaf185ce3d1ce612a32f2a365d1397e891", null ],

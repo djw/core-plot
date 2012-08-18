@@ -459,6 +459,10 @@
           </Subnodes>
          </Node>
         </Subnodes>
+       </Node>
+       <Node>
+        <Name>Classes</Name>
+        <Path></Path>
         <Subnodes>
          <Node>
           <Name>Class List</Name>
@@ -497,6 +501,17 @@
               <Name>rotation</Name>
               <Path>interface_c_p_t_annotation.html</Path>
               <Anchor>a86f7661eed5afb57595138db89f8c1e9</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTAnnotation(AbstractMethods)</Name>
+            <Path>category_c_p_t_annotation_07_abstract_methods_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>positionContentLayer</Name>
+              <Path>category_c_p_t_annotation_07_abstract_methods_08.html</Path>
+              <Anchor>a58d3fabc850353e8e386af2d835eade2</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -854,6 +869,32 @@
               <Name>visibleRange</Name>
               <Path>interface_c_p_t_axis.html</Path>
               <Anchor>ae087326fdfc51acf12e343b28bce80c7</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTAxis(AbstractMethods)</Name>
+            <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>drawBackgroundBandsInContext:</Name>
+              <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+              <Anchor>a26e0b9f86de20b0fd293e98e6850154b</Anchor>
+             </Node>
+             <Node>
+              <Name>drawBackgroundLimitsInContext:</Name>
+              <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+              <Anchor>a3a7f29c9c8f34165fd3b1635fcac3114</Anchor>
+             </Node>
+             <Node>
+              <Name>drawGridLinesInContext:isMajor:</Name>
+              <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+              <Anchor>afc4a9b3419504af68296616ce8a95572</Anchor>
+             </Node>
+             <Node>
+              <Name>viewPointForCoordinateDecimalNumber:</Name>
+              <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+              <Anchor>af25bf15f120918facdcd1a73ff0f963c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1297,6 +1338,17 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTColor(CPTPlatformSpecificColorExtensions)</Name>
+            <Path>category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>nsColor</Name>
+              <Path>category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08.html</Path>
+              <Anchor>ab17b4b208316a1f55f8be4896a8b04e9</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CPTColorSpace</Name>
             <Path>interface_c_p_t_color_space.html</Path>
             <Subnodes>
@@ -1359,6 +1411,22 @@
              <Node>
               <Name>positionForLowerBound:upperBound:</Name>
               <Path>interface_c_p_t_constraints.html</Path>
+              <Anchor>a1acc2b64398c613591a0b316822c9c3c</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTConstraints(AbstractMethods)</Name>
+            <Path>category_c_p_t_constraints_07_abstract_methods_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>isEqualToConstraint:</Name>
+              <Path>category_c_p_t_constraints_07_abstract_methods_08.html</Path>
+              <Anchor>abfb058646b0a84ec182fad04bda0f91f</Anchor>
+             </Node>
+             <Node>
+              <Name>positionForLowerBound:upperBound:</Name>
+              <Path>category_c_p_t_constraints_07_abstract_methods_08.html</Path>
               <Anchor>a1acc2b64398c613591a0b316822c9c3c</Anchor>
              </Node>
             </Subnodes>
@@ -1438,6 +1506,22 @@
               <Name>initWithImage:</Name>
               <Path>interface_c_p_t_fill.html</Path>
               <Anchor>a4603b21b905949d7bba491f97443ed11</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTFill(AbstractMethods)</Name>
+            <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>fillPathInContext:</Name>
+              <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+              <Anchor>a49257e4d49a04ec51b6dbafca8597add</Anchor>
+             </Node>
+             <Node>
+              <Name>fillRect:inContext:</Name>
+              <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+              <Anchor>a26f512db109911c6099df80bc36dda74</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1663,9 +1747,19 @@
               <Anchor>afb261cb61ce7a4bffc5032b1bfc6db6b</Anchor>
              </Node>
              <Node>
+              <Name>plots</Name>
+              <Path>interface_c_p_t_graph.html</Path>
+              <Anchor>af6c24073069e951d0e11a8d97bbaa390</Anchor>
+             </Node>
+             <Node>
               <Name>plotSpaceAtIndex:</Name>
               <Path>interface_c_p_t_graph.html</Path>
               <Anchor>a73f8ce0d973faa74fd36cc68e3c2eb6d</Anchor>
+             </Node>
+             <Node>
+              <Name>plotSpaces</Name>
+              <Path>interface_c_p_t_graph.html</Path>
+              <Anchor>a0e7522d4c0496bf31c4a34b7172a0fdd</Anchor>
              </Node>
              <Node>
               <Name>plotSpaceWithIdentifier:</Name>
@@ -1781,6 +1875,22 @@
               <Name>topDownLayerOrder</Name>
               <Path>interface_c_p_t_graph.html</Path>
               <Anchor>acc6600a5f74da011378d67cf472ce3c3</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTGraph(AbstractFactoryMethods)</Name>
+            <Path>category_c_p_t_graph_07_abstract_factory_methods_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>newAxisSet</Name>
+              <Path>category_c_p_t_graph_07_abstract_factory_methods_08.html</Path>
+              <Anchor>ad29ea84f5fb77006c0d0a6860401450e</Anchor>
+             </Node>
+             <Node>
+              <Name>newPlotSpace</Name>
+              <Path>category_c_p_t_graph_07_abstract_factory_methods_08.html</Path>
+              <Anchor>ad79661155d109f17acf4b39cb11b7a56</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2060,6 +2170,17 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTLayer(CPTPlatformSpecificLayerExtensions)</Name>
+            <Path>category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>imageOfLayer</Name>
+              <Path>category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08.html</Path>
+              <Anchor>a8090476a4b0d5ce1ef54803af81e81d1</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CPTLayerAnnotation</Name>
             <Path>interface_c_p_t_layer_annotation.html</Path>
             <Subnodes>
@@ -2115,6 +2236,11 @@
               <Anchor>af1bc62e474d875286086fff2cc3da80e</Anchor>
              </Node>
              <Node>
+              <Name>legendEntries</Name>
+              <Path>interface_c_p_t_legend.html</Path>
+              <Anchor>ac26630dd9d52ec54a95c41b1ce4f1e0b</Anchor>
+             </Node>
+             <Node>
               <Name>legendWithGraph:</Name>
               <Path>interface_c_p_t_legend.html</Path>
               <Anchor>a2e62adb6a9f1a8db77e86908a4bc9041</Anchor>
@@ -2128,6 +2254,11 @@
               <Name>plotAtIndex:</Name>
               <Path>interface_c_p_t_legend.html</Path>
               <Anchor>a606ad66705362ba17e8376dd28197e41</Anchor>
+             </Node>
+             <Node>
+              <Name>plots</Name>
+              <Path>interface_c_p_t_legend.html</Path>
+              <Anchor>a813f9f824a714c99d321a7924642e3af</Anchor>
              </Node>
              <Node>
               <Name>plotWithIdentifier:</Name>
@@ -2574,6 +2705,37 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTMutableNumericData(TypeConversion)</Name>
+            <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>convertToType:sampleBytes:byteOrder:</Name>
+              <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+              <Anchor>a9a4aacdf750422717667c63ee84e2e1a</Anchor>
+             </Node>
+             <Node>
+              <Name>byteOrder</Name>
+              <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+              <Anchor>aba816791a6cd320251b7a54f1c504f32</Anchor>
+             </Node>
+             <Node>
+              <Name>dataType</Name>
+              <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+              <Anchor>a88cbe822cba4e66d1d46c27a7f47defc</Anchor>
+             </Node>
+             <Node>
+              <Name>dataTypeFormat</Name>
+              <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+              <Anchor>ad2d079c12eb0faccdf055508e41888d0</Anchor>
+             </Node>
+             <Node>
+              <Name>sampleBytes</Name>
+              <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+              <Anchor>a13c887d1f90790cfb5cee1571d1d933b</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CPTMutablePlotRange</Name>
             <Path>interface_c_p_t_mutable_plot_range.html</Path>
             <Subnodes>
@@ -2849,6 +3011,32 @@
               <Name>shape</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
               <Anchor>a229be1e11221032087ca4544b67a869d</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTNumericData(TypeConversion)</Name>
+            <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>convertData:dataType:toData:dataType:</Name>
+              <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+              <Anchor>a363bb66468930747a1960786ee1b9925</Anchor>
+             </Node>
+             <Node>
+              <Name>dataByConvertingToDataType:</Name>
+              <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+              <Anchor>a3eb25c56b573de7f3b6e90c82c94a15f</Anchor>
+             </Node>
+             <Node>
+              <Name>dataByConvertingToType:sampleBytes:byteOrder:</Name>
+              <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+              <Anchor>a4eeb1ac8d6a63ad6b14a7ed67ef51a70</Anchor>
+             </Node>
+             <Node>
+              <Name>swapByteOrderForData:sampleSize:</Name>
+              <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+              <Anchor>a9d9b6aad253261c6d1f81715653a26d3</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3254,6 +3442,37 @@
               <Name>title</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>a3776bf9d88331714e8dde311c571e4b9</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTPlot(AbstractMethods)</Name>
+            <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>dataIndexFromInteractionPoint:</Name>
+              <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+              <Anchor>a84a31dbe697c028b41ffda5083daac65</Anchor>
+             </Node>
+             <Node>
+              <Name>fieldIdentifiers</Name>
+              <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+              <Anchor>a2d76f1890e3cc9406526f3cf853d3b02</Anchor>
+             </Node>
+             <Node>
+              <Name>fieldIdentifiersForCoordinate:</Name>
+              <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+              <Anchor>a0467a2b65d0204c0cfb4eeeb59e8ba40</Anchor>
+             </Node>
+             <Node>
+              <Name>numberOfFields</Name>
+              <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+              <Anchor>a7095b4dca95e6e93fb222aa5c0a96bce</Anchor>
+             </Node>
+             <Node>
+              <Name>positionLabelAnnotation:forIndex:</Name>
+              <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+              <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3671,6 +3890,77 @@
               <Name>identifier</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
               <Anchor>ad97e327cd52cd5086023efebd5b94c31</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTPlotSpace(AbstractMethods)</Name>
+            <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>doublePrecisionPlotPoint:forEvent:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a603876ee6cf8bcef05d08dafaca238a1</Anchor>
+             </Node>
+             <Node>
+              <Name>doublePrecisionPlotPoint:forPlotAreaViewPoint:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a82b5a9d6a4ec2e1c26852136dafec971</Anchor>
+             </Node>
+             <Node>
+              <Name>plotAreaViewPointForDoublePrecisionPlotPoint:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a067fe72a5a6181ee7251db05aff0522f</Anchor>
+             </Node>
+             <Node>
+              <Name>plotAreaViewPointForEvent:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>ab0e0b6301e1b13e6461b62cfbd2b69da</Anchor>
+             </Node>
+             <Node>
+              <Name>plotAreaViewPointForPlotPoint:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a44bfc5a4d3e11c01346759df6973b00a</Anchor>
+             </Node>
+             <Node>
+              <Name>plotPoint:forEvent:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>ae30850cdd0463cf64596383e6020b08f</Anchor>
+             </Node>
+             <Node>
+              <Name>plotPoint:forPlotAreaViewPoint:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a111b243e99d0e85c32f28d216aa6a3ed</Anchor>
+             </Node>
+             <Node>
+              <Name>plotRangeForCoordinate:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a3aa2997fb48c06d37e50ff1d114ad7df</Anchor>
+             </Node>
+             <Node>
+              <Name>scaleBy:aboutPoint:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a769547a1f95a562d9f88bb6967815174</Anchor>
+             </Node>
+             <Node>
+              <Name>scaleToFitPlots:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>ac98bd7995f1096cdd32a9df350574daa</Anchor>
+             </Node>
+             <Node>
+              <Name>scaleTypeForCoordinate:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a418989b268a9fa93f37f48e4cba42044</Anchor>
+             </Node>
+             <Node>
+              <Name>setPlotRange:forCoordinate:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a709089f3d44fbe7466910f6bcdf2193e</Anchor>
+             </Node>
+             <Node>
+              <Name>setScaleType:forCoordinate:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>aed4e84809aaa825c2e50f83b2a2c34a5</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4250,6 +4540,32 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTTheme(AbstractMethods)</Name>
+            <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>applyThemeToAxisSet:</Name>
+              <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+              <Anchor>a109d674d79ec6908ab860b58a1e6cbe5</Anchor>
+             </Node>
+             <Node>
+              <Name>applyThemeToBackground:</Name>
+              <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+              <Anchor>a4ec9e92f0a8f194ec4f73882cfbb8cef</Anchor>
+             </Node>
+             <Node>
+              <Name>applyThemeToPlotArea:</Name>
+              <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+              <Anchor>a9b8a05bfd892bac23f5f5af636caf71d</Anchor>
+             </Node>
+             <Node>
+              <Name>newGraph</Name>
+              <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+              <Anchor>a62847df437e0cb5e1f00251f9e5f3ff7</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CPTTimeFormatter</Name>
             <Path>interface_c_p_t_time_formatter.html</Path>
             <Subnodes>
@@ -4464,6 +4780,16 @@
               <Path>interface_c_p_t_x_y_graph.html</Path>
               <Anchor>a4d94e3162f7f98283ea4a81e6f01d639</Anchor>
              </Node>
+             <Node>
+              <Name>xScaleType</Name>
+              <Path>interface_c_p_t_x_y_graph.html</Path>
+              <Anchor>ad379e27014617c9df2e841113009d099</Anchor>
+             </Node>
+             <Node>
+              <Name>yScaleType</Name>
+              <Path>interface_c_p_t_x_y_graph.html</Path>
+              <Anchor>ac374248219d7455fe9188158680b453b</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -4514,6 +4840,150 @@
               <Name>yScaleType</Name>
               <Path>interface_c_p_t_x_y_plot_space.html</Path>
               <Anchor>a5713690a3015d43e5136a751d7c3635d</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>NSCoder(CPTExtensions)</Name>
+            <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>decodeCGFloatForKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>aa56e9710449020066b0cf670abd36568</Anchor>
+             </Node>
+             <Node>
+              <Name>decodeCPTPointForKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a0cebac9fd6a8b7f6ca49156c62f94e5a</Anchor>
+             </Node>
+             <Node>
+              <Name>decodeCPTRectForKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a5dffff66c769ad28defdab2471d50e21</Anchor>
+             </Node>
+             <Node>
+              <Name>decodeCPTSizeForKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>aa669b446bc273da8c70412b848b4fe02</Anchor>
+             </Node>
+             <Node>
+              <Name>decodeDecimalForKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>adcf827ca1ed6af7a65b9e247e45a42c2</Anchor>
+             </Node>
+             <Node>
+              <Name>encodeCGColorSpace:forKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>aa0ea5a33e266c10c72472b8efd940872</Anchor>
+             </Node>
+             <Node>
+              <Name>encodeCGFloat:forKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a989674ab519e8ba874aa27422764dfa7</Anchor>
+             </Node>
+             <Node>
+              <Name>encodeCGImage:forKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>ab55046964ea6c79c481d5293c9c34b12</Anchor>
+             </Node>
+             <Node>
+              <Name>encodeCGPath:forKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a27f2a8884a1361edd790a8814aaa942c</Anchor>
+             </Node>
+             <Node>
+              <Name>encodeCPTPoint:forKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a746d4f308f3786322315e5a643325f97</Anchor>
+             </Node>
+             <Node>
+              <Name>encodeCPTRect:forKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a5fdda74bc99c143279dd3306f64055dd</Anchor>
+             </Node>
+             <Node>
+              <Name>encodeCPTSize:forKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a552217da9181e2ab914f2413caddb720</Anchor>
+             </Node>
+             <Node>
+              <Name>encodeDecimal:forKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>ae7e9e46a040d14b1e9030282737466ac</Anchor>
+             </Node>
+             <Node>
+              <Name>MyCGPathApplierFunc</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>ab852de4544f62fc26bbd04a8fbf5084b</Anchor>
+             </Node>
+             <Node>
+              <Name>newCGColorSpaceDecodeForKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>ad81d132ed5b9af75e9c796fc68c9cefe</Anchor>
+             </Node>
+             <Node>
+              <Name>newCGImageDecodeForKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a37671c425b4bc7a5ec43b053276934f1</Anchor>
+             </Node>
+             <Node>
+              <Name>newCGPathDecodeForKey:</Name>
+              <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a376dbe4b3b9e4d371398641a97521a8c</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>NSDecimalNumber(CPTExtensions)</Name>
+            <Path>category_n_s_decimal_number_07_c_p_t_extensions_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>decimalNumber</Name>
+              <Path>category_n_s_decimal_number_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a6c80f780658d0078b610a8f70b74c684</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>NSNumber(CPTExtensions)</Name>
+            <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>cgFloatValue</Name>
+              <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a9370f186d6f1498bccf3b9a185e8dba1</Anchor>
+             </Node>
+             <Node>
+              <Name>decimalNumber</Name>
+              <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a2d2f1c778838c77c168838c4814a1af4</Anchor>
+             </Node>
+             <Node>
+              <Name>initWithCGFloat:</Name>
+              <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a797adfbaa84f6526f8c3dc8314df5c71</Anchor>
+             </Node>
+             <Node>
+              <Name>numberWithCGFloat:</Name>
+              <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+              <Anchor>a24486cb7b0a47d63e21692a42e6a7b8e</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>NSString(CPTTextStyleExtensions)</Name>
+            <Path>category_n_s_string_07_c_p_t_text_style_extensions_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>drawInRect:withTextStyle:inContext:</Name>
+              <Path>category_n_s_string_07_c_p_t_text_style_extensions_08.html</Path>
+              <Anchor>ac14ef8f1450a4b80e9fa0cdb835041f0</Anchor>
+             </Node>
+             <Node>
+              <Name>sizeWithTextStyle:</Name>
+              <Path>category_n_s_string_07_c_p_t_text_style_extensions_08.html</Path>
+              <Anchor>a2443616a0293d3fa5a4a21c6a75be489</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4638,20 +5108,72 @@
               </Subnodes>
             </Subnodes>
            <Node>
+            <Name>CPTAnnotation(AbstractMethods)</Name>
+            <Path>category_c_p_t_annotation_07_abstract_methods_08.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTAxis(AbstractMethods)</Name>
+            <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTColor(CPTPlatformSpecificColorExtensions)</Name>
+            <Path>category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTConstraints(AbstractMethods)</Name>
+            <Path>category_c_p_t_constraints_07_abstract_methods_08.html</Path>
+           </Node>
+           <Node>
             <Name>CPTContextNode</Name>
             <Path>struct_c_p_t_context_node.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTFill(AbstractMethods)</Name>
+            <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
            </Node>
            <Node>
             <Name>CPTGradientElement</Name>
             <Path>struct_c_p_t_gradient_element.html</Path>
            </Node>
            <Node>
+            <Name>CPTGraph(AbstractFactoryMethods)</Name>
+            <Path>category_c_p_t_graph_07_abstract_factory_methods_08.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTLayer(CPTPlatformSpecificLayerExtensions)</Name>
+            <Path>category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTMutableNumericData(TypeConversion)</Name>
+            <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTNumericData(TypeConversion)</Name>
+            <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+           </Node>
+           <Node>
             <Name>CPTNumericDataType</Name>
             <Path>struct_c_p_t_numeric_data_type.html</Path>
            </Node>
            <Node>
+            <Name>CPTPlot(AbstractMethods)</Name>
+            <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTPlotSpace(AbstractMethods)</Name>
+            <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+           </Node>
+           <Node>
             <Name>CPTRGBAColor</Name>
             <Path>struct_c_p_t_r_g_b_a_color.html</Path>
+           </Node>
+           <Node>
+            <Name>CPTTheme(AbstractMethods)</Name>
+            <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+           </Node>
+           <Node>
+            <Name>NSCoder(CPTExtensions)</Name>
+            <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
             <Subnodes>
              <Node>
               <Name>CPTAnnotation</Name>
@@ -4856,6 +5378,10 @@
               <Path>interface_c_p_t_text_style.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>NSDecimalNumber(CPTExtensions)</Name>
+            <Path>category_n_s_decimal_number_07_c_p_t_extensions_08.html</Path>
             <Subnodes>
               <Subnodes>
                <Node>
@@ -4964,6 +5490,10 @@
               <Path>interface_c_p_t_text_style.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>NSNumber(CPTExtensions)</Name>
+            <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
             <Subnodes>
              <Node>
               <Name>&lt;CPTAxisDelegate&gt;</Name>
@@ -5044,6 +5574,10 @@
               </Subnodes>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>NSString(CPTTextStyleExtensions)</Name>
+            <Path>category_n_s_string_07_c_p_t_text_style_extensions_08.html</Path>
            </Node>
           </Subnodes>
          </Node>
@@ -5230,6 +5764,10 @@
               <Path>functions_func_0x77.html</Path>
              </Node>
              <Node>
+              <Name>x</Name>
+              <Path>functions_func_0x78.html</Path>
+             </Node>
+             <Node>
               <Name>y</Name>
               <Path>functions_func_0x79.html</Path>
              </Node>
@@ -5332,6 +5870,10 @@
           </Subnodes>
          </Node>
         </Subnodes>
+       </Node>
+       <Node>
+        <Name>Files</Name>
+        <Path></Path>
         <Subnodes>
          <Node>
           <Name>File List</Name>
@@ -5396,6 +5938,30 @@
              <Node>
               <Name>CPTPlatformSpecificCategories.h</Name>
               <Path>_c_p_t_platform_specific_categories_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>CPTLayer(CPTPlatformSpecificLayerExtensions)</Name>
+                <Path>category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>imageOfLayer</Name>
+                  <Path>category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08.html</Path>
+                  <Anchor>a8090476a4b0d5ce1ef54803af81e81d1</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CPTColor(CPTPlatformSpecificColorExtensions)</Name>
+                <Path>category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>nsColor</Name>
+                  <Path>category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08.html</Path>
+                  <Anchor>ab17b4b208316a1f55f8be4896a8b04e9</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>CPTPlatformSpecificCategories.m</Name>
@@ -5555,6 +6121,17 @@
                   <Name>rotation</Name>
                   <Path>interface_c_p_t_annotation.html</Path>
                   <Anchor>a86f7661eed5afb57595138db89f8c1e9</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CPTAnnotation(AbstractMethods)</Name>
+                <Path>category_c_p_t_annotation_07_abstract_methods_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>positionContentLayer</Name>
+                  <Path>category_c_p_t_annotation_07_abstract_methods_08.html</Path>
+                  <Anchor>a58d3fabc850353e8e386af2d835eade2</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -5958,6 +6535,32 @@
                   <Name>visibleRange</Name>
                   <Path>interface_c_p_t_axis.html</Path>
                   <Anchor>ae087326fdfc51acf12e343b28bce80c7</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CPTAxis(AbstractMethods)</Name>
+                <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>drawBackgroundBandsInContext:</Name>
+                  <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+                  <Anchor>a26e0b9f86de20b0fd293e98e6850154b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>drawBackgroundLimitsInContext:</Name>
+                  <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+                  <Anchor>a3a7f29c9c8f34165fd3b1635fcac3114</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>drawGridLinesInContext:isMajor:</Name>
+                  <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+                  <Anchor>afc4a9b3419504af68296616ce8a95572</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>viewPointForCoordinateDecimalNumber:</Name>
+                  <Path>category_c_p_t_axis_07_abstract_methods_08.html</Path>
+                  <Anchor>af25bf15f120918facdcd1a73ff0f963c</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -6647,6 +7250,22 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>CPTConstraints(AbstractMethods)</Name>
+                <Path>category_c_p_t_constraints_07_abstract_methods_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>isEqualToConstraint:</Name>
+                  <Path>category_c_p_t_constraints_07_abstract_methods_08.html</Path>
+                  <Anchor>abfb058646b0a84ec182fad04bda0f91f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>positionForLowerBound:upperBound:</Name>
+                  <Path>category_c_p_t_constraints_07_abstract_methods_08.html</Path>
+                  <Anchor>a1acc2b64398c613591a0b316822c9c3c</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -7005,6 +7624,22 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>CPTFill(AbstractMethods)</Name>
+                <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>fillPathInContext:</Name>
+                  <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+                  <Anchor>a49257e4d49a04ec51b6dbafca8597add</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>fillRect:inContext:</Name>
+                  <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+                  <Anchor>a26f512db109911c6099df80bc36dda74</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -7286,9 +7921,19 @@
                   <Anchor>afb261cb61ce7a4bffc5032b1bfc6db6b</Anchor>
                  </Node>
                  <Node>
+                  <Name>plots</Name>
+                  <Path>interface_c_p_t_graph.html</Path>
+                  <Anchor>af6c24073069e951d0e11a8d97bbaa390</Anchor>
+                 </Node>
+                 <Node>
                   <Name>plotSpaceAtIndex:</Name>
                   <Path>interface_c_p_t_graph.html</Path>
                   <Anchor>a73f8ce0d973faa74fd36cc68e3c2eb6d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotSpaces</Name>
+                  <Path>interface_c_p_t_graph.html</Path>
+                  <Anchor>a0e7522d4c0496bf31c4a34b7172a0fdd</Anchor>
                  </Node>
                  <Node>
                   <Name>plotSpaceWithIdentifier:</Name>
@@ -7404,6 +8049,22 @@
                   <Name>topDownLayerOrder</Name>
                   <Path>interface_c_p_t_graph.html</Path>
                   <Anchor>acc6600a5f74da011378d67cf472ce3c3</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CPTGraph(AbstractFactoryMethods)</Name>
+                <Path>category_c_p_t_graph_07_abstract_factory_methods_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>newAxisSet</Name>
+                  <Path>category_c_p_t_graph_07_abstract_factory_methods_08.html</Path>
+                  <Anchor>ad29ea84f5fb77006c0d0a6860401450e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>newPlotSpace</Name>
+                  <Path>category_c_p_t_graph_07_abstract_factory_methods_08.html</Path>
+                  <Anchor>ad79661155d109f17acf4b39cb11b7a56</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -7842,6 +8503,11 @@
                   <Anchor>af1bc62e474d875286086fff2cc3da80e</Anchor>
                  </Node>
                  <Node>
+                  <Name>legendEntries</Name>
+                  <Path>interface_c_p_t_legend.html</Path>
+                  <Anchor>ac26630dd9d52ec54a95c41b1ce4f1e0b</Anchor>
+                 </Node>
+                 <Node>
                   <Name>legendWithGraph:</Name>
                   <Path>interface_c_p_t_legend.html</Path>
                   <Anchor>a2e62adb6a9f1a8db77e86908a4bc9041</Anchor>
@@ -7855,6 +8521,11 @@
                   <Name>plotAtIndex:</Name>
                   <Path>interface_c_p_t_legend.html</Path>
                   <Anchor>a606ad66705362ba17e8376dd28197e41</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plots</Name>
+                  <Path>interface_c_p_t_legend.html</Path>
+                  <Anchor>a813f9f824a714c99d321a7924642e3af</Anchor>
                  </Node>
                  <Node>
                   <Name>plotWithIdentifier:</Name>
@@ -8411,6 +9082,39 @@
              <Node>
               <Name>CPTMutableNumericData+TypeConversion.h</Name>
               <Path>_c_p_t_mutable_numeric_data_09_type_conversion_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>CPTMutableNumericData(TypeConversion)</Name>
+                <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>convertToType:sampleBytes:byteOrder:</Name>
+                  <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+                  <Anchor>a9a4aacdf750422717667c63ee84e2e1a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>byteOrder</Name>
+                  <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+                  <Anchor>aba816791a6cd320251b7a54f1c504f32</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataType</Name>
+                  <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+                  <Anchor>a88cbe822cba4e66d1d46c27a7f47defc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataTypeFormat</Name>
+                  <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+                  <Anchor>ad2d079c12eb0faccdf055508e41888d0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sampleBytes</Name>
+                  <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
+                  <Anchor>a13c887d1f90790cfb5cee1571d1d933b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>CPTMutableNumericData+TypeConversion.m</Name>
@@ -8588,6 +9292,34 @@
              <Node>
               <Name>CPTNumericData+TypeConversion.h</Name>
               <Path>_c_p_t_numeric_data_09_type_conversion_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>CPTNumericData(TypeConversion)</Name>
+                <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>convertData:dataType:toData:dataType:</Name>
+                  <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+                  <Anchor>a363bb66468930747a1960786ee1b9925</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataByConvertingToDataType:</Name>
+                  <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+                  <Anchor>a3eb25c56b573de7f3b6e90c82c94a15f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataByConvertingToType:sampleBytes:byteOrder:</Name>
+                  <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+                  <Anchor>a4eeb1ac8d6a63ad6b14a7ed67ef51a70</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>swapByteOrderForData:sampleSize:</Name>
+                  <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
+                  <Anchor>a9d9b6aad253261c6d1f81715653a26d3</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>CPTNumericData+TypeConversion.m</Name>
@@ -9525,6 +10257,37 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>CPTPlot(AbstractMethods)</Name>
+                <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>dataIndexFromInteractionPoint:</Name>
+                  <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+                  <Anchor>a84a31dbe697c028b41ffda5083daac65</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>fieldIdentifiers</Name>
+                  <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+                  <Anchor>a2d76f1890e3cc9406526f3cf853d3b02</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>fieldIdentifiersForCoordinate:</Name>
+                  <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+                  <Anchor>a0467a2b65d0204c0cfb4eeeb59e8ba40</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>numberOfFields</Name>
+                  <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+                  <Anchor>a7095b4dca95e6e93fb222aa5c0a96bce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>positionLabelAnnotation:forIndex:</Name>
+                  <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
+                  <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>CPTPlotCachePrecision</Name>
                 <Path>_c_p_t_plot_8h.html</Path>
                 <Anchor>ad9096339b25b6dc933e810ac2726ca64</Anchor>
@@ -10025,6 +10788,77 @@
                   <Name>identifier</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
                   <Anchor>ad97e327cd52cd5086023efebd5b94c31</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CPTPlotSpace(AbstractMethods)</Name>
+                <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>doublePrecisionPlotPoint:forEvent:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a603876ee6cf8bcef05d08dafaca238a1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>doublePrecisionPlotPoint:forPlotAreaViewPoint:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a82b5a9d6a4ec2e1c26852136dafec971</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotAreaViewPointForDoublePrecisionPlotPoint:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a067fe72a5a6181ee7251db05aff0522f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotAreaViewPointForEvent:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>ab0e0b6301e1b13e6461b62cfbd2b69da</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotAreaViewPointForPlotPoint:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a44bfc5a4d3e11c01346759df6973b00a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotPoint:forEvent:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>ae30850cdd0463cf64596383e6020b08f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotPoint:forPlotAreaViewPoint:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a111b243e99d0e85c32f28d216aa6a3ed</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotRangeForCoordinate:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a3aa2997fb48c06d37e50ff1d114ad7df</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>scaleBy:aboutPoint:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a769547a1f95a562d9f88bb6967815174</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>scaleToFitPlots:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>ac98bd7995f1096cdd32a9df350574daa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>scaleTypeForCoordinate:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a418989b268a9fa93f37f48e4cba42044</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setPlotRange:forCoordinate:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a709089f3d44fbe7466910f6bcdf2193e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setScaleType:forCoordinate:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>aed4e84809aaa825c2e50f83b2a2c34a5</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -10833,6 +11667,22 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>NSString(CPTTextStyleExtensions)</Name>
+                <Path>category_n_s_string_07_c_p_t_text_style_extensions_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>drawInRect:withTextStyle:inContext:</Name>
+                  <Path>category_n_s_string_07_c_p_t_text_style_extensions_08.html</Path>
+                  <Anchor>ac14ef8f1450a4b80e9fa0cdb835041f0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sizeWithTextStyle:</Name>
+                  <Path>category_n_s_string_07_c_p_t_text_style_extensions_08.html</Path>
+                  <Anchor>a2443616a0293d3fa5a4a21c6a75be489</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>CPTTextAlignment</Name>
                 <Path>_c_p_t_text_style_8h.html</Path>
                 <Anchor>a2787a4973068e8d2dd94451f8112dc6d</Anchor>
@@ -10917,6 +11767,32 @@
                   <Name>graphClass</Name>
                   <Path>interface_c_p_t_theme.html</Path>
                   <Anchor>a72dbc05172faa4acded92f6a7cc56df6</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CPTTheme(AbstractMethods)</Name>
+                <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>applyThemeToAxisSet:</Name>
+                  <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+                  <Anchor>a109d674d79ec6908ab860b58a1e6cbe5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>applyThemeToBackground:</Name>
+                  <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+                  <Anchor>a4ec9e92f0a8f194ec4f73882cfbb8cef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>applyThemeToPlotArea:</Name>
+                  <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+                  <Anchor>a9b8a05bfd892bac23f5f5af636caf71d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>newGraph</Name>
+                  <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+                  <Anchor>a62847df437e0cb5e1f00251f9e5f3ff7</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -11945,6 +12821,16 @@
                   <Path>interface_c_p_t_x_y_graph.html</Path>
                   <Anchor>a4d94e3162f7f98283ea4a81e6f01d639</Anchor>
                  </Node>
+                 <Node>
+                  <Name>xScaleType</Name>
+                  <Path>interface_c_p_t_x_y_graph.html</Path>
+                  <Anchor>ad379e27014617c9df2e841113009d099</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>yScaleType</Name>
+                  <Path>interface_c_p_t_x_y_graph.html</Path>
+                  <Anchor>ac374248219d7455fe9188158680b453b</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
               </Subnodes>
@@ -12021,6 +12907,99 @@
              <Node>
               <Name>NSCoderExtensions.h</Name>
               <Path>_n_s_coder_extensions_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>NSCoder(CPTExtensions)</Name>
+                <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>decodeCGFloatForKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>aa56e9710449020066b0cf670abd36568</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>decodeCPTPointForKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a0cebac9fd6a8b7f6ca49156c62f94e5a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>decodeCPTRectForKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a5dffff66c769ad28defdab2471d50e21</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>decodeCPTSizeForKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>aa669b446bc273da8c70412b848b4fe02</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>decodeDecimalForKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>adcf827ca1ed6af7a65b9e247e45a42c2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>encodeCGColorSpace:forKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>aa0ea5a33e266c10c72472b8efd940872</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>encodeCGFloat:forKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a989674ab519e8ba874aa27422764dfa7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>encodeCGImage:forKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>ab55046964ea6c79c481d5293c9c34b12</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>encodeCGPath:forKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a27f2a8884a1361edd790a8814aaa942c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>encodeCPTPoint:forKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a746d4f308f3786322315e5a643325f97</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>encodeCPTRect:forKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a5fdda74bc99c143279dd3306f64055dd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>encodeCPTSize:forKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a552217da9181e2ab914f2413caddb720</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>encodeDecimal:forKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>ae7e9e46a040d14b1e9030282737466ac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>MyCGPathApplierFunc</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>ab852de4544f62fc26bbd04a8fbf5084b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>newCGColorSpaceDecodeForKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>ad81d132ed5b9af75e9c796fc68c9cefe</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>newCGImageDecodeForKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a37671c425b4bc7a5ec43b053276934f1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>newCGPathDecodeForKey:</Name>
+                  <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a376dbe4b3b9e4d371398641a97521a8c</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>NSCoderExtensions.m</Name>
@@ -12036,6 +13015,19 @@
              <Node>
               <Name>NSDecimalNumberExtensions.h</Name>
               <Path>_n_s_decimal_number_extensions_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>NSDecimalNumber(CPTExtensions)</Name>
+                <Path>category_n_s_decimal_number_07_c_p_t_extensions_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>decimalNumber</Name>
+                  <Path>category_n_s_decimal_number_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a6c80f780658d0078b610a8f70b74c684</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>NSDecimalNumberExtensions.m</Name>
@@ -12044,6 +13036,34 @@
              <Node>
               <Name>NSNumberExtensions.h</Name>
               <Path>_n_s_number_extensions_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>NSNumber(CPTExtensions)</Name>
+                <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>cgFloatValue</Name>
+                  <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a9370f186d6f1498bccf3b9a185e8dba1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>decimalNumber</Name>
+                  <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a2d2f1c778838c77c168838c4814a1af4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>initWithCGFloat:</Name>
+                  <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a797adfbaa84f6526f8c3dc8314df5c71</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>numberWithCGFloat:</Name>
+                  <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
+                  <Anchor>a24486cb7b0a47d63e21692a42e6a7b8e</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>NSNumberExtensions.m</Name>

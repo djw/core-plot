@@ -34,9 +34,22 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "CPTAnnotation(AbstractMethods)", "category_c_p_t_annotation_07_abstract_methods_08.html", null ],
+    [ "CPTAxis(AbstractMethods)", "category_c_p_t_axis_07_abstract_methods_08.html", null ],
+    [ "CPTColor(CPTPlatformSpecificColorExtensions)", "category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08.html", null ],
+    [ "CPTConstraints(AbstractMethods)", "category_c_p_t_constraints_07_abstract_methods_08.html", null ],
+    [ "CPTFill(AbstractMethods)", "category_c_p_t_fill_07_abstract_methods_08.html", null ],
     [ "CPTGradientElement", "struct_c_p_t_gradient_element.html", null ],
+    [ "CPTGraph(AbstractFactoryMethods)", "category_c_p_t_graph_07_abstract_factory_methods_08.html", null ],
+    [ "CPTLayer(CPTPlatformSpecificLayerExtensions)", "category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08.html", null ],
+    [ "CPTMutableNumericData(TypeConversion)", "category_c_p_t_mutable_numeric_data_07_type_conversion_08.html", null ],
+    [ "CPTNumericData(TypeConversion)", "category_c_p_t_numeric_data_07_type_conversion_08.html", null ],
     [ "CPTNumericDataType", "struct_c_p_t_numeric_data_type.html", null ],
+    [ "CPTPlot(AbstractMethods)", "category_c_p_t_plot_07_abstract_methods_08.html", null ],
+    [ "CPTPlotSpace(AbstractMethods)", "category_c_p_t_plot_space_07_abstract_methods_08.html", null ],
     [ "CPTRGBAColor", "struct_c_p_t_r_g_b_a_color.html", null ],
+    [ "CPTTheme(AbstractMethods)", "category_c_p_t_theme_07_abstract_methods_08.html", null ],
+    [ "NSCoder(CPTExtensions)", "category_n_s_coder_07_c_p_t_extensions_08.html", null ],
     [ "<NSCoding-p>", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html", [
       [ "CPTAnnotation", "interface_c_p_t_annotation.html", [
         [ "CPTLayerAnnotation", "interface_c_p_t_layer_annotation.html", null ],
@@ -97,35 +110,8 @@ var hierarchy =
       [ "CPTTextStyle", "interface_c_p_t_text_style.html", null ],
       [ "NSFormatter", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", null ]
     ] ],
-    [ "<NSMutableCopying-p>", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference.html", [
-      [ "CPTLineStyle", "interface_c_p_t_line_style.html", null ],
-      [ "CPTNumericData", "interface_c_p_t_numeric_data.html", null ],
-      [ "CPTPlotRange", "interface_c_p_t_plot_range.html", null ],
-      [ "CPTShadow", "interface_c_p_t_shadow.html", null ],
-      [ "CPTTextStyle", "interface_c_p_t_text_style.html", null ]
-    ] ],
-    [ "<NSObject-p>", "http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html", [
-      [ "<CPTAxisDelegate>", "protocol_c_p_t_axis_delegate-p.html", null ],
-      [ "<CPTLegendDelegate>", "protocol_c_p_t_legend_delegate-p.html", null ],
-      [ "<CPTPlotDataSource>", "protocol_c_p_t_plot_data_source-p.html", [
-        [ "<CPTBarPlotDataSource>", "protocol_c_p_t_bar_plot_data_source-p.html", null ],
-        [ "<CPTPieChartDataSource>", "protocol_c_p_t_pie_chart_data_source-p.html", null ],
-        [ "<CPTRangePlotDataSource>", "protocol_c_p_t_range_plot_data_source-p.html", null ],
-        [ "<CPTScatterPlotDataSource>", "protocol_c_p_t_scatter_plot_data_source-p.html", null ],
-        [ "<CPTTradingRangePlotDataSource>", "protocol_c_p_t_trading_range_plot_data_source-p.html", null ]
-      ] ],
-      [ "<CPTPlotDelegate>", "protocol_c_p_t_plot_delegate-p.html", [
-        [ "<CPTBarPlotDelegate>", "protocol_c_p_t_bar_plot_delegate-p.html", null ],
-        [ "<CPTPieChartDelegate>", "protocol_c_p_t_pie_chart_delegate-p.html", null ],
-        [ "<CPTRangePlotDelegate>", "protocol_c_p_t_range_plot_delegate-p.html", null ],
-        [ "<CPTScatterPlotDelegate>", "protocol_c_p_t_scatter_plot_delegate-p.html", null ],
-        [ "<CPTTradingRangePlotDelegate>", "protocol_c_p_t_trading_range_plot_delegate-p.html", null ]
-      ] ],
-      [ "<CPTPlotSpaceDelegate>", "protocol_c_p_t_plot_space_delegate-p.html", null ],
-      [ "<CPTResponder>", "protocol_c_p_t_responder-p.html", [
-        [ "CPTLayer", "interface_c_p_t_layer.html", null ],
-        [ "CPTPlotSpace", "interface_c_p_t_plot_space.html", null ]
-      ] ],
+    [ "NSDecimalNumber(CPTExtensions)", "category_n_s_decimal_number_07_c_p_t_extensions_08.html", null ],
+    [ "<NSKeyValueBindingCreation>", null, [
       [ "NSObject", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", [
         [ "CALayer", "http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html", null ],
         [ "CPTAnnotation", "interface_c_p_t_annotation.html", null ],
@@ -154,5 +140,39 @@ var hierarchy =
           ] ]
         ] ]
       ] ]
-    ] ]
+    ] ],
+    [ "<NSMutableCopying-p>", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference.html", [
+      [ "CPTLineStyle", "interface_c_p_t_line_style.html", null ],
+      [ "CPTNumericData", "interface_c_p_t_numeric_data.html", null ],
+      [ "CPTPlotRange", "interface_c_p_t_plot_range.html", null ],
+      [ "CPTShadow", "interface_c_p_t_shadow.html", null ],
+      [ "CPTTextStyle", "interface_c_p_t_text_style.html", null ]
+    ] ],
+    [ "NSNumber(CPTExtensions)", "category_n_s_number_07_c_p_t_extensions_08.html", null ],
+    [ "NSNumber(CPTPlatformSpecificNumberExtensions)", "category_n_s_number_07_c_p_t_platform_specific_number_extensions_08.html", null ],
+    [ "<NSObject-p>", "http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html", [
+      [ "<CPTAxisDelegate>", "protocol_c_p_t_axis_delegate-p.html", null ],
+      [ "<CPTLegendDelegate>", "protocol_c_p_t_legend_delegate-p.html", null ],
+      [ "<CPTPlotDataSource>", "protocol_c_p_t_plot_data_source-p.html", [
+        [ "<CPTBarPlotDataSource>", "protocol_c_p_t_bar_plot_data_source-p.html", null ],
+        [ "<CPTPieChartDataSource>", "protocol_c_p_t_pie_chart_data_source-p.html", null ],
+        [ "<CPTRangePlotDataSource>", "protocol_c_p_t_range_plot_data_source-p.html", null ],
+        [ "<CPTScatterPlotDataSource>", "protocol_c_p_t_scatter_plot_data_source-p.html", null ],
+        [ "<CPTTradingRangePlotDataSource>", "protocol_c_p_t_trading_range_plot_data_source-p.html", null ]
+      ] ],
+      [ "<CPTPlotDelegate>", "protocol_c_p_t_plot_delegate-p.html", [
+        [ "<CPTBarPlotDelegate>", "protocol_c_p_t_bar_plot_delegate-p.html", null ],
+        [ "<CPTPieChartDelegate>", "protocol_c_p_t_pie_chart_delegate-p.html", null ],
+        [ "<CPTRangePlotDelegate>", "protocol_c_p_t_range_plot_delegate-p.html", null ],
+        [ "<CPTScatterPlotDelegate>", "protocol_c_p_t_scatter_plot_delegate-p.html", null ],
+        [ "<CPTTradingRangePlotDelegate>", "protocol_c_p_t_trading_range_plot_delegate-p.html", null ]
+      ] ],
+      [ "<CPTPlotSpaceDelegate>", "protocol_c_p_t_plot_space_delegate-p.html", null ],
+      [ "<CPTResponder>", "protocol_c_p_t_responder-p.html", [
+        [ "CPTLayer", "interface_c_p_t_layer.html", null ],
+        [ "CPTPlotSpace", "interface_c_p_t_plot_space.html", null ]
+      ] ],
+      [ "NSObject", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", null ]
+    ] ],
+    [ "NSString(CPTTextStyleExtensions)", "category_n_s_string_07_c_p_t_text_style_extensions_08.html", null ]
 ];
