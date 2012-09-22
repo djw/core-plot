@@ -1,7 +1,7 @@
 var hierarchy =
 [
-    [ "<CAMediaTiming-p>", "http://www.devworld.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html", [
-      [ "CALayer", "http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html", [
+    [ "<CAMediaTiming>", "https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html", [
+      [ "CALayer", "https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html", [
         [ "CPTLayer", "interface_c_p_t_layer.html", [
           [ "CPTAnnotationHostLayer", "interface_c_p_t_annotation_host_layer.html", [
             [ "CPTBorderedLayer", "interface_c_p_t_bordered_layer.html", [
@@ -50,7 +50,7 @@ var hierarchy =
     [ "CPTRGBAColor", "struct_c_p_t_r_g_b_a_color.html", null ],
     [ "CPTTheme(AbstractMethods)", "category_c_p_t_theme_07_abstract_methods_08.html", null ],
     [ "NSCoder(CPTExtensions)", "category_n_s_coder_07_c_p_t_extensions_08.html", null ],
-    [ "<NSCoding-p>", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html", [
+    [ "<NSCoding>", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html", [
       [ "CPTAnnotation", "interface_c_p_t_annotation.html", [
         [ "CPTLayerAnnotation", "interface_c_p_t_layer_annotation.html", null ],
         [ "CPTPlotSpaceAnnotation", "interface_c_p_t_plot_space_annotation.html", null ]
@@ -87,14 +87,14 @@ var hierarchy =
         [ "CPTMutableTextStyle", "interface_c_p_t_mutable_text_style.html", null ]
       ] ],
       [ "CPTTheme", "interface_c_p_t_theme.html", null ],
-      [ "NSFormatter", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", [
-        [ "NSNumberFormatter", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html#//apple_ref/occ/cl/NSNumberFormatter.html", [
+      [ "NSFormatter", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", [
+        [ "NSNumberFormatter", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html#//apple_ref/occ/cl/NSNumberFormatter.html", [
           [ "CPTCalendarFormatter", "interface_c_p_t_calendar_formatter.html", null ],
           [ "CPTTimeFormatter", "interface_c_p_t_time_formatter.html", null ]
         ] ]
       ] ]
     ] ],
-    [ "<NSCopying-p>", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html", [
+    [ "<NSCopying>", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html", [
       [ "CPTColor", "interface_c_p_t_color.html", null ],
       [ "CPTConstraints", "interface_c_p_t_constraints.html", null ],
       [ "CPTFill", "interface_c_p_t_fill.html", null ],
@@ -108,12 +108,12 @@ var hierarchy =
       [ "CPTPlotSymbol", "interface_c_p_t_plot_symbol.html", null ],
       [ "CPTShadow", "interface_c_p_t_shadow.html", null ],
       [ "CPTTextStyle", "interface_c_p_t_text_style.html", null ],
-      [ "NSFormatter", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", null ]
+      [ "NSFormatter", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", null ]
     ] ],
     [ "NSDecimalNumber(CPTExtensions)", "category_n_s_decimal_number_07_c_p_t_extensions_08.html", null ],
     [ "<NSKeyValueBindingCreation>", null, [
-      [ "NSObject", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", [
-        [ "CALayer", "http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html", null ],
+      [ "NSObject", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", [
+        [ "CALayer", "https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html", null ],
         [ "CPTAnnotation", "interface_c_p_t_annotation.html", null ],
         [ "CPTAxisLabel", "interface_c_p_t_axis_label.html", null ],
         [ "CPTColor", "interface_c_p_t_color.html", null ],
@@ -133,15 +133,15 @@ var hierarchy =
         [ "CPTShadow", "interface_c_p_t_shadow.html", null ],
         [ "CPTTextStyle", "interface_c_p_t_text_style.html", null ],
         [ "CPTTheme", "interface_c_p_t_theme.html", null ],
-        [ "NSFormatter", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", null ],
-        [ "UIResponder", "http://developer.apple.com/iPhone/library/documentation/UIKit/Reference/UIResponder_Class/Reference/Reference.html#//apple_ref/occ/cl/UIResponder.html", [
-          [ "UIView", "http://developer.apple.com/iPhone/library/documentation/UIKit/Reference/UIView_Class/UIView/UIView.html", [
+        [ "NSFormatter", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html", null ],
+        [ "UIResponder", "https://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIResponder_Class/Reference/Reference.html#//apple_ref/occ/cl/UIResponder.html", [
+          [ "UIView", "https://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIView_Class/UIView/UIView.html", [
             [ "CPTGraphHostingView", "interface_c_p_t_graph_hosting_view.html", null ]
           ] ]
         ] ]
       ] ]
     ] ],
-    [ "<NSMutableCopying-p>", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference.html", [
+    [ "<NSMutableCopying>", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference.html", [
       [ "CPTLineStyle", "interface_c_p_t_line_style.html", null ],
       [ "CPTNumericData", "interface_c_p_t_numeric_data.html", null ],
       [ "CPTPlotRange", "interface_c_p_t_plot_range.html", null ],
@@ -150,7 +150,7 @@ var hierarchy =
     ] ],
     [ "NSNumber(CPTExtensions)", "category_n_s_number_07_c_p_t_extensions_08.html", null ],
     [ "NSNumber(CPTPlatformSpecificNumberExtensions)", "category_n_s_number_07_c_p_t_platform_specific_number_extensions_08.html", null ],
-    [ "<NSObject-p>", "http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html", [
+    [ "<NSObject>", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html", [
       [ "<CPTAxisDelegate>", "protocol_c_p_t_axis_delegate-p.html", null ],
       [ "<CPTLegendDelegate>", "protocol_c_p_t_legend_delegate-p.html", null ],
       [ "<CPTPlotDataSource>", "protocol_c_p_t_plot_data_source-p.html", [
@@ -172,7 +172,7 @@ var hierarchy =
         [ "CPTLayer", "interface_c_p_t_layer.html", null ],
         [ "CPTPlotSpace", "interface_c_p_t_plot_space.html", null ]
       ] ],
-      [ "NSObject", "http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", null ]
+      [ "NSObject", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", null ]
     ] ],
     [ "NSString(CPTTextStyleExtensions)", "category_n_s_string_07_c_p_t_text_style_extensions_08.html", null ]
 ];

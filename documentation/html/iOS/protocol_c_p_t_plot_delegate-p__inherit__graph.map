@@ -1,8 +1,8 @@
-<map id="G" name="G">
-<area shape="rect" id="node5" href="$protocol_c_p_t_bar_plot_delegate-p.html" title="Bar plot delegate." alt="" coords="403,5,573,35"/>
-<area shape="rect" id="node7" href="$protocol_c_p_t_pie_chart_delegate-p.html" title="Pie chart delegate." alt="" coords="399,59,577,90"/>
-<area shape="rect" id="node9" href="$protocol_c_p_t_range_plot_delegate-p.html" title="Range plot delegate." alt="" coords="394,114,582,145"/>
-<area shape="rect" id="node11" href="$protocol_c_p_t_scatter_plot_delegate-p.html" title="Scatter plot delegate." alt="" coords="392,169,584,199"/>
-<area shape="rect" id="node13" href="$protocol_c_p_t_trading_range_plot_delegate-p.html" title="Trading range plot delegate." alt="" coords="369,223,607,254"/>
-<area shape="rect" id="node2" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html" title="\&lt;NSObject&#45;p\&gt;" alt="" coords="5,114,123,145"/>
+<map id="&lt;CPTPlotDelegate&gt;" name="&lt;CPTPlotDelegate&gt;">
+<area shape="rect" id="node3" href="$protocol_c_p_t_bar_plot_delegate-p.html" title="Bar plot delegate." alt="" coords="387,5,557,35"/>
+<area shape="rect" id="node4" href="$protocol_c_p_t_pie_chart_delegate-p.html" title="Pie chart delegate." alt="" coords="383,59,561,90"/>
+<area shape="rect" id="node5" href="$protocol_c_p_t_range_plot_delegate-p.html" title="Range plot delegate." alt="" coords="378,114,566,145"/>
+<area shape="rect" id="node6" href="$protocol_c_p_t_scatter_plot_delegate-p.html" title="Scatter plot delegate." alt="" coords="376,169,568,199"/>
+<area shape="rect" id="node7" href="$protocol_c_p_t_trading_range_plot_delegate-p.html" title="Trading range plot delegate." alt="" coords="353,223,591,254"/>
+<area shape="rect" id="node2" href="doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="5,114,107,145"/>
 </map>

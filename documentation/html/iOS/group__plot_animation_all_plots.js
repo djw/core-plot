@@ -1,5 +1,5 @@
 var group__plot_animation_all_plots =
 [
-    [ "labelOffset", "group__plot_animation_all_plots.html#ga9e258bb5f1e2385674299200c4eed799", null ],
-    [ "labelRotation", "group__plot_animation_all_plots.html#ga1e0c675adacdd43c50517622154f6301", null ]
+    [ "labelOffset", "group__plot_animation_all_plots.html#ga205ca158d787fd439ec6122fe67c79a3", null ],
+    [ "labelRotation", "group__plot_animation_all_plots.html#ga5333fc80b5492cdf839157ceb822fff8", null ]
 ];

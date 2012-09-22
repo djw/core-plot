@@ -1,9 +1,9 @@
 var group__axis_animation =
 [
-    [ "labelOffset", "group__axis_animation.html#ga22c8cbbc6caa0c600638da2fccbfb2a7", null ],
-    [ "labelRotation", "group__axis_animation.html#gad338d4f6cd7c0341d1375b4f9e124876", null ],
-    [ "minorTickLabelOffset", "group__axis_animation.html#ga91691988d490b0c2887dd69d1c1697bd", null ],
-    [ "minorTickLabelRotation", "group__axis_animation.html#ga25e530fc54647e81e5f612dade755169", null ],
-    [ "titleOffset", "group__axis_animation.html#ga3d84072327ed4e3694c06149a776a7c0", null ],
-    [ "titleRotation", "group__axis_animation.html#ga340ca2d5f773f6530de7dbfe263906aa", null ]
+    [ "labelOffset", "group__axis_animation.html#gafbad21e8f2702041243c289fe5ca4a80", null ],
+    [ "labelRotation", "group__axis_animation.html#ga4db159f7fc3eeb6e051673ede30c6ebe", null ],
+    [ "minorTickLabelOffset", "group__axis_animation.html#ga61cc6615127cfe6ab2c00567ec3ac457", null ],
+    [ "minorTickLabelRotation", "group__axis_animation.html#ga4916a1d51e3dc4cb9caf6f7b3b6c3ded", null ],
+    [ "titleOffset", "group__axis_animation.html#gae68fb272fc8934a30842bcf31eb6ae9c", null ],
+    [ "titleRotation", "group__axis_animation.html#gab127b0be3b73ef8d4be5f558f8c0df2f", null ]
 ];

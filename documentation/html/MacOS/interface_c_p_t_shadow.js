@@ -1,8 +1,9 @@
 var interface_c_p_t_shadow =
 [
-    [ "setShadowInContext:", "interface_c_p_t_shadow.html#a1e3212290b9c55d569717a5b8c0d7a5e", null ],
+    [ "init", "interface_c_p_t_shadow.html#a6fda9e41506511e56dcfbad27143443f", null ],
+    [ "setShadowInContext:", "interface_c_p_t_shadow.html#ac3f8bccecfddfd95ceba9d8419c6d547", null ],
     [ "shadow", "interface_c_p_t_shadow.html#a63f431d05aa7b531a7eb62304f26aff0", null ],
-    [ "shadowBlurRadius", "interface_c_p_t_shadow.html#aca940d90e3d1c82c8d0c76bd82e94e1e", null ],
-    [ "shadowColor", "interface_c_p_t_shadow.html#a4b74daf19dcd32a125e6323c57b1d01d", null ],
-    [ "shadowOffset", "interface_c_p_t_shadow.html#adbb1725d2f48eea758d76d3b91e37dbf", null ]
+    [ "shadowBlurRadius", "interface_c_p_t_shadow.html#a6994dd269611600264e6b18a230bbe9d", null ],
+    [ "shadowColor", "interface_c_p_t_shadow.html#af326b111e18d626b5499da87dbb12154", null ],
+    [ "shadowOffset", "interface_c_p_t_shadow.html#aa2d8d32f8e36f5563cb91acceb2e6552", null ]
 ];

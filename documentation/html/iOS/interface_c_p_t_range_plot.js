@@ -2,9 +2,9 @@ var interface_c_p_t_range_plot =
 [
     [ "initWithFrame:", "interface_c_p_t_range_plot.html#aaa362f21ff912ab51d4c5b1c315e5400", null ],
     [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_range_plot.html#a2412c210d3fbdd64fe2a3fc0cd4a8749", null ],
-    [ "areaFill", "interface_c_p_t_range_plot.html#aac1321dad4d9536ba4df80b46446291a", null ],
-    [ "barLineStyle", "interface_c_p_t_range_plot.html#a1bdcb86f0882515c5e4927171773a1ed", null ],
-    [ "barWidth", "group__plot_animation_range_plot.html#ga2980f30a9d38415b430137d7d23d607c", null ],
-    [ "gapHeight", "group__plot_animation_range_plot.html#ga1b244c91e12dc4e161712dc9669cb75f", null ],
-    [ "gapWidth", "group__plot_animation_range_plot.html#ga165db5f03bb140f1e84b27e680412689", null ]
+    [ "areaFill", "interface_c_p_t_range_plot.html#a7e7d579b6aa2bd2c665733dcb370e5be", null ],
+    [ "barLineStyle", "interface_c_p_t_range_plot.html#a4a7fca5905356ee92634732b0ad2100b", null ],
+    [ "barWidth", "group__plot_animation_range_plot.html#ga2d739816549ce6c3fcb18c1bdb49297a", null ],
+    [ "gapHeight", "group__plot_animation_range_plot.html#ga98cbb9e06f7deee8c77d0e08b140303b", null ],
+    [ "gapWidth", "group__plot_animation_range_plot.html#ga0f89cc8fdac87c494bb7e6cfd0b44462", null ]
 ];

@@ -1,6 +1,6 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="291,105,383,135"/>
-<area shape="rect" id="node5" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="208,185,335,215"/>
-<area shape="rect" id="node18" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="533,185,661,215"/>
-<area shape="rect" id="node9" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="136,265,347,295"/>
+<map id="Source/CPTAnnotationHostLayer.h" name="Source/CPTAnnotationHostLayer.h">
+<area shape="rect" id="node2" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="371,105,462,135"/>
+<area shape="rect" id="node3" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="544,185,670,215"/>
+<area shape="rect" id="node8" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="295,185,424,215"/>
+<area shape="rect" id="node5" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="661,265,872,295"/>
 </map>

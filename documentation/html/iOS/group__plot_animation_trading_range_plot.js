@@ -1,6 +1,6 @@
 var group__plot_animation_trading_range_plot =
 [
-    [ "barCornerRadius", "group__plot_animation_trading_range_plot.html#ga13215c9ee64730284c7b395c285e92db", null ],
-    [ "barWidth", "group__plot_animation_trading_range_plot.html#ga17e4c2a24773233219fced333997f013", null ],
-    [ "stickLength", "group__plot_animation_trading_range_plot.html#gac504792fc8939f47a00812a385afb3a0", null ]
+    [ "barCornerRadius", "group__plot_animation_trading_range_plot.html#ga2e9f919d3391c00618891cf4b187e0b7", null ],
+    [ "barWidth", "group__plot_animation_trading_range_plot.html#gabb195850cc3e10886c76e4d326563e4f", null ],
+    [ "stickLength", "group__plot_animation_trading_range_plot.html#ga343ebbd30e751ae54bfa6eeb1442e7e7", null ]
 ];

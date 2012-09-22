@@ -3,13 +3,13 @@ var interface_c_p_t_pie_chart =
     [ "defaultPieSliceColorForIndex:", "interface_c_p_t_pie_chart.html#ad2efbb8005aebd12a9801a54edacf1ea", null ],
     [ "initWithFrame:", "interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b", null ],
     [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_pie_chart.html#a01efe9e766b46553537673d947da309e", null ],
-    [ "borderLineStyle", "interface_c_p_t_pie_chart.html#ad42ce799d20617a6c9a8879aea31fbb3", null ],
-    [ "centerAnchor", "group__plot_animation_pie_chart.html#ga4c665d1eb7b562f8ced08a62d980ee2c", null ],
-    [ "endAngle", "group__plot_animation_pie_chart.html#ga1ec146fb288f43545adfd617014d7c94", null ],
-    [ "labelRotationRelativeToRadius", "interface_c_p_t_pie_chart.html#a696510978f4d118239d2d90e96c65e1c", null ],
-    [ "overlayFill", "interface_c_p_t_pie_chart.html#a25deafa6f8e629789652c90789f19b51", null ],
-    [ "pieInnerRadius", "group__plot_animation_pie_chart.html#gaaf477318b2ce1ad016c532d386b5379e", null ],
-    [ "pieRadius", "group__plot_animation_pie_chart.html#ga6bae24e928917347230bab548418ceea", null ],
-    [ "sliceDirection", "interface_c_p_t_pie_chart.html#ad0218003271a042fe4f1d81df50f3bd1", null ],
-    [ "startAngle", "group__plot_animation_pie_chart.html#ga139122421a061b2ca1622bdebca5b1c3", null ]
+    [ "borderLineStyle", "interface_c_p_t_pie_chart.html#a9124e88bc83ed9b8d5cece7603d892b7", null ],
+    [ "centerAnchor", "group__plot_animation_pie_chart.html#gac624054adc7fd7cb8f870900119ff8e1", null ],
+    [ "endAngle", "group__plot_animation_pie_chart.html#ga8dcd13d8dda5f7a4f88d8656b822a265", null ],
+    [ "labelRotationRelativeToRadius", "interface_c_p_t_pie_chart.html#a425663a2d5c558dfe28700f45ab9944c", null ],
+    [ "overlayFill", "interface_c_p_t_pie_chart.html#a141c3bf7dbbbcb0d34175d81247256e4", null ],
+    [ "pieInnerRadius", "group__plot_animation_pie_chart.html#gaa635801e780dc5de8c6171066819e8e0", null ],
+    [ "pieRadius", "group__plot_animation_pie_chart.html#ga8e4be9249da46cd1df689a8fd29f62ae", null ],
+    [ "sliceDirection", "interface_c_p_t_pie_chart.html#ab616377e7b58de77c9edb3e9fa507660", null ],
+    [ "startAngle", "group__plot_animation_pie_chart.html#ga27933b9f07bd608546132806f160a98d", null ]
 ];

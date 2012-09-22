@@ -14,6 +14,7 @@ var interface_c_p_t_color =
     [ "greenColor", "interface_c_p_t_color.html#a202da52855a1e86e829ff0087f41706d", null ],
     [ "initWithCGColor:", "interface_c_p_t_color.html#a888d749efbcf678c050c46d8ca04977d", null ],
     [ "initWithComponentRed:green:blue:alpha:", "interface_c_p_t_color.html#ada4885b6d51a8724f5aadf3eeab98e49", null ],
+    [ "isEqual:", "interface_c_p_t_color.html#ab1438b5628b4a231d36b44ecf5bc745d", null ],
     [ "lightGrayColor", "interface_c_p_t_color.html#a8c194f226ebb9922fe9db54376cca1d0", null ],
     [ "magentaColor", "interface_c_p_t_color.html#a3fd86bf1383ba48a6f26e24ccdf9adc8", null ],
     [ "orangeColor", "interface_c_p_t_color.html#aee92660401132c65fae4c276f66e6c5d", null ],
@@ -21,6 +22,6 @@ var interface_c_p_t_color =
     [ "redColor", "interface_c_p_t_color.html#a57a186426f928d73fe9a628282a61625", null ],
     [ "whiteColor", "interface_c_p_t_color.html#a0b7248f8556d34f0a0654791d8871ffd", null ],
     [ "yellowColor", "interface_c_p_t_color.html#a877615981642026b796d940a4a2d2d1d", null ],
-    [ "cgColor", "interface_c_p_t_color.html#adaef81a9410c85048357a67670a7f733", null ],
+    [ "cgColor", "interface_c_p_t_color.html#a49389a74eb50601a4a748d3914db4a08", null ],
     [ "uiColor", "interface_c_p_t_color.html#a47cd72bec7f2ba5ae09e6c6c143e9e9e", null ]
 ];

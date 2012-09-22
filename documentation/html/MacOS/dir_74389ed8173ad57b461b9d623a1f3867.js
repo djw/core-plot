@@ -16,7 +16,7 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
     ] ],
     [ "CPTAxisLabel.m", "_c_p_t_axis_label_8m.html", null ],
     [ "CPTAxisLabelGroup.h", "_c_p_t_axis_label_group_8h.html", [
-      [ "CPTAxisLabelGroup", "interface_c_p_t_axis_label_group.html", null ]
+      [ "CPTAxisLabelGroup", "interface_c_p_t_axis_label_group.html", "interface_c_p_t_axis_label_group" ]
     ] ],
     [ "CPTAxisLabelGroup.m", "_c_p_t_axis_label_group_8m.html", null ],
     [ "CPTAxisSet.h", "_c_p_t_axis_set_8h.html", [

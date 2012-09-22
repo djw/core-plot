@@ -13,7 +13,6 @@ var category_n_s_coder_07_c_p_t_extensions_08 =
     [ "encodeCPTRect:forKey:", "category_n_s_coder_07_c_p_t_extensions_08.html#a5fdda74bc99c143279dd3306f64055dd", null ],
     [ "encodeCPTSize:forKey:", "category_n_s_coder_07_c_p_t_extensions_08.html#a552217da9181e2ab914f2413caddb720", null ],
     [ "encodeDecimal:forKey:", "category_n_s_coder_07_c_p_t_extensions_08.html#ae7e9e46a040d14b1e9030282737466ac", null ],
-    [ "MyCGPathApplierFunc", "category_n_s_coder_07_c_p_t_extensions_08.html#ab852de4544f62fc26bbd04a8fbf5084b", null ],
     [ "newCGColorSpaceDecodeForKey:", "category_n_s_coder_07_c_p_t_extensions_08.html#ad81d132ed5b9af75e9c796fc68c9cefe", null ],
     [ "newCGImageDecodeForKey:", "category_n_s_coder_07_c_p_t_extensions_08.html#a37671c425b4bc7a5ec43b053276934f1", null ],
     [ "newCGPathDecodeForKey:", "category_n_s_coder_07_c_p_t_extensions_08.html#a376dbe4b3b9e4d371398641a97521a8c", null ]
