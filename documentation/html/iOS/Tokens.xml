@@ -38019,7 +38019,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_axis.html</Path>
     <Anchor>a4de83fbb58b29487c057c146aff820c1</Anchor>
-    <Abstract>The data coordinate value where the axis crosses the orthogonal axis.</Abstract>
+    <Abstract>The data coordinate value where the axis crosses the orthogonal axis. If the axisConstraints is non-n...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -38030,7 +38030,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_axis.html</Path>
     <Anchor>a5d06e7f7eaecbe7b3551874677ea1105</Anchor>
-    <Abstract>The constraints used when positioning relative to the plot area. If nil (the default), the axis is fixed relative to the plot space coordinates, and moves whenever the plot space ranges change.</Abstract>
+    <Abstract>The constraints used when positioning relative to the plot area. If nil (the default), the axis is fixed relative to the plot space coordinates, crossing the orthogonal axis at orthogonalCoordinateDecimal and moves only whenever the plot space ranges change.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

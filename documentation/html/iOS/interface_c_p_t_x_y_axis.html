@@ -230,10 +230,10 @@ Public Instance Methods</h2></td></tr>
 Properties</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Positioning</div></td></tr>
 <tr class="memitem:a4de83fbb58b29487c057c146aff820c1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSDecimal">NSDecimal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_axis.html#a4de83fbb58b29487c057c146aff820c1">orthogonalCoordinateDecimal</a></td></tr>
-<tr class="memdesc:a4de83fbb58b29487c057c146aff820c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The data coordinate value where the axis crosses the orthogonal axis.  <a href="#a4de83fbb58b29487c057c146aff820c1"></a><br/></td></tr>
+<tr class="memdesc:a4de83fbb58b29487c057c146aff820c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The data coordinate value where the axis crosses the orthogonal axis. If the <a class="el" href="interface_c_p_t_x_y_axis.html#a5d06e7f7eaecbe7b3551874677ea1105">axisConstraints</a> is non-nil, the constraints take priority and this property is ignored.  <a href="#a4de83fbb58b29487c057c146aff820c1"></a><br/></td></tr>
 <tr class="separator:a4de83fbb58b29487c057c146aff820c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d06e7f7eaecbe7b3551874677ea1105"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_constraints.html">CPTConstraints</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_axis.html#a5d06e7f7eaecbe7b3551874677ea1105">axisConstraints</a></td></tr>
-<tr class="memdesc:a5d06e7f7eaecbe7b3551874677ea1105"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constraints used when positioning relative to the plot area. If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> (the default), the axis is fixed relative to the plot space coordinates, and moves whenever the plot space ranges change.  <a href="#a5d06e7f7eaecbe7b3551874677ea1105"></a><br/></td></tr>
+<tr class="memdesc:a5d06e7f7eaecbe7b3551874677ea1105"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constraints used when positioning relative to the plot area. If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> (the default), the axis is fixed relative to the plot space coordinates, crossing the orthogonal axis at <a class="el" href="interface_c_p_t_x_y_axis.html#a4de83fbb58b29487c057c146aff820c1">orthogonalCoordinateDecimal</a> and moves only whenever the plot space ranges change.  <a href="#a5d06e7f7eaecbe7b3551874677ea1105"></a><br/></td></tr>
 <tr class="separator:a5d06e7f7eaecbe7b3551874677ea1105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_c_p_t_axis"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_c_p_t_axis')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_c_p_t_axis.html">CPTAxis</a></td></tr>
 <tr class="memitem:ac38a35088e6240db7cc1a4563415dd6c inherit properties_interface_c_p_t_axis"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_axis.html#ac38a35088e6240db7cc1a4563415dd6c">axisLineStyle</a></td></tr>
@@ -542,7 +542,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The constraints used when positioning relative to the plot area. If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> (the default), the axis is fixed relative to the plot space coordinates, and moves whenever the plot space ranges change. </p>
+<p>The constraints used when positioning relative to the plot area. If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> (the default), the axis is fixed relative to the plot space coordinates, crossing the orthogonal axis at <a class="el" href="interface_c_p_t_x_y_axis.html#a4de83fbb58b29487c057c146aff820c1">orthogonalCoordinateDecimal</a> and moves only whenever the plot space ranges change. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="interface_c_p_t_x_y_axis.html#a4de83fbb58b29487c057c146aff820c1">orthogonalCoordinateDecimal</a> </dd></dl>
 
 </div>
 </div>
@@ -564,7 +565,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The data coordinate value where the axis crosses the orthogonal axis. </p>
+<p>The data coordinate value where the axis crosses the orthogonal axis. If the <a class="el" href="interface_c_p_t_x_y_axis.html#a5d06e7f7eaecbe7b3551874677ea1105">axisConstraints</a> is non-nil, the constraints take priority and this property is ignored. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="interface_c_p_t_x_y_axis.html#a5d06e7f7eaecbe7b3551874677ea1105">axisConstraints</a> </dd></dl>
 
 </div>
 </div>
