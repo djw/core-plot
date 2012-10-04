@@ -1,20 +1,20 @@
 <map id="Source/CPTLegend.m" name="Source/CPTLegend.m">
-<area shape="rect" id="node2" href="$_c_p_t_legend_8h.html" title="CPTLegend.h" alt="" coords="1122,86,1227,117"/>
-<area shape="rect" id="node14" href="$_c_p_t_exceptions_8h.html" title="CPTExceptions.h" alt="" coords="1462,166,1591,197"/>
-<area shape="rect" id="node15" href="$_c_p_t_graph_8h.html" title="CPTGraph.h" alt="" coords="926,86,1023,117"/>
-<area shape="rect" id="node16" href="$_c_p_t_legend_entry_8h.html" title="CPTLegendEntry.h" alt="" coords="715,326,853,357"/>
-<area shape="rect" id="node17" href="$_c_p_t_plot_8h.html" title="CPTPlot.h" alt="" coords="341,166,424,197"/>
-<area shape="rect" id="node19" href="$_c_p_t_text_style_8h.html" title="CPTTextStyle.h" alt="" coords="264,406,381,437"/>
-<area shape="rect" id="node22" href="$_c_p_t_utilities_8h.html" title="CPTUtilities.h" alt="" coords="533,326,640,357"/>
-<area shape="rect" id="node23" href="$_n_s_coder_extensions_8h.html" title="NSCoderExtensions.h" alt="" coords="1275,406,1433,437"/>
-<area shape="rect" id="node24" href="$_n_s_number_extensions_8h.html" title="NSNumberExtensions.h" alt="" coords="976,406,1148,437"/>
-<area shape="rect" id="node4" href="$_c_p_t_bordered_layer_8h.html" title="CPTBorderedLayer.h" alt="" coords="1099,166,1249,197"/>
-<area shape="rect" id="node5" href="$_c_p_t_annotation_host_layer_8h.html" title="CPTAnnotationHostLayer.h" alt="" coords="827,246,1020,277"/>
-<area shape="rect" id="node6" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="877,326,969,357"/>
-<area shape="rect" id="node7" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="824,406,951,437"/>
-<area shape="rect" id="node11" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="519,406,648,437"/>
-<area shape="rect" id="node9" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="1252,486,1463,517"/>
-<area shape="rect" id="node18" href="$_c_p_t_mutable_text_style_8h.html" title="CPTMutableTextStyle.h" alt="" coords="91,326,260,357"/>
+<area shape="rect" id="node2" href="$_c_p_t_legend_8h.html" title="CPTLegend.h" alt="" coords="1396,86,1501,117"/>
+<area shape="rect" id="node11" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="577,406,705,437"/>
+<area shape="rect" id="node14" href="$_c_p_t_exceptions_8h.html" title="CPTExceptions.h" alt="" coords="1577,166,1705,197"/>
+<area shape="rect" id="node15" href="$_c_p_t_graph_8h.html" title="CPTGraph.h" alt="" coords="1175,86,1272,117"/>
+<area shape="rect" id="node16" href="$_c_p_t_legend_entry_8h.html" title="CPTLegendEntry.h" alt="" coords="675,326,813,357"/>
+<area shape="rect" id="node17" href="$_c_p_t_plot_8h.html" title="CPTPlot.h" alt="" coords="421,166,504,197"/>
+<area shape="rect" id="node19" href="$_c_p_t_text_style_8h.html" title="CPTTextStyle.h" alt="" coords="217,406,335,437"/>
+<area shape="rect" id="node22" href="$_c_p_t_utilities_8h.html" title="CPTUtilities.h" alt="" coords="1066,326,1173,357"/>
+<area shape="rect" id="node23" href="$_n_s_coder_extensions_8h.html" title="NSCoderExtensions.h" alt="" coords="1095,406,1253,437"/>
+<area shape="rect" id="node24" href="$_n_s_number_extensions_8h.html" title="NSNumberExtensions.h" alt="" coords="1380,406,1552,437"/>
+<area shape="rect" id="node4" href="$_c_p_t_bordered_layer_8h.html" title="CPTBorderedLayer.h" alt="" coords="1187,166,1337,197"/>
+<area shape="rect" id="node5" href="$_c_p_t_annotation_host_layer_8h.html" title="CPTAnnotationHostLayer.h" alt="" coords="888,246,1081,277"/>
+<area shape="rect" id="node6" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="909,326,1001,357"/>
+<area shape="rect" id="node7" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="892,406,1019,437"/>
+<area shape="rect" id="node9" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="892,486,1103,517"/>
+<area shape="rect" id="node18" href="$_c_p_t_mutable_text_style_8h.html" title="CPTMutableTextStyle.h" alt="" coords="280,326,449,357"/>
 <area shape="rect" id="node20" href="$_c_p_t_numeric_data_type_8h.html" title="CPTNumericDataType.h" alt="" coords="5,246,179,277"/>
-<area shape="rect" id="node21" href="$_c_p_t_plot_range_8h.html" title="CPTPlotRange.h" alt="" coords="285,326,408,357"/>
+<area shape="rect" id="node21" href="$_c_p_t_plot_range_8h.html" title="CPTPlotRange.h" alt="" coords="133,326,256,357"/>
 </map>

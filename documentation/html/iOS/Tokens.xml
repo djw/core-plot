@@ -315,6 +315,61 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTFloat</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_definitions_8h.html</Path>
+    <Anchor>a479e1c605b12da89dc3c76f572435269</Anchor>
+    <Abstract>Casts a number to CGFloat.</Abstract>
+    <DeclaredIn>CPTDefinitions.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTPointMake</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_definitions_8h.html</Path>
+    <Anchor>a13b0594fffae7b4f59cd91ea61b09573</Anchor>
+    <Abstract>A replacement for CGPointMake(), casting each parameter to CGFloat.</Abstract>
+    <DeclaredIn>CPTDefinitions.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTSizeMake</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_definitions_8h.html</Path>
+    <Anchor>aaf9616f446e3d7eb16e21711bcf40a17</Anchor>
+    <Abstract>A replacement for CGSizeMake(), casting each parameter to CGFloat.</Abstract>
+    <DeclaredIn>CPTDefinitions.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTRectMake</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_definitions_8h.html</Path>
+    <Anchor>a12b10fd595dc158fa09df8d6fdb7cc13</Anchor>
+    <Abstract>A replacement for CGRectMake(), casting each parameter to CGFloat.</Abstract>
+    <DeclaredIn>CPTDefinitions.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTRectInset</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_definitions_8h.html</Path>
+    <Anchor>aa791cbebc3ff4ba4af5af05a8420dc3d</Anchor>
+    <Abstract>A replacement for CGRectInset(), casting each offset parameter to CGFloat.</Abstract>
+    <DeclaredIn>CPTDefinitions.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTAlignmentLeft</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -8826,7 +8881,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1066e5f68687c2a4f97f19398912d36e</Anchor>
+    <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
     <Abstract>The title text of a legend entry.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -8838,7 +8893,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>abe4e69caf2e8163449edf9a85916bbf9</Anchor>
+    <Anchor>a071199e3b35244f2daa0e155df832536</Anchor>
     <Abstract>Draws the legend swatch of a legend entry. Subclasses should call super to draw the background fill a...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -8946,7 +9001,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+    <Anchor>aaf45d3cd5ab07ce4b48f6aef5d846d83</Anchor>
     <Abstract>Insert records into the plot data cache at the given index.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -8982,7 +9037,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a992adf7119df39d7f10320c48084dbe6</Anchor>
+    <Anchor>a2c7200284fadd28e8d56a9e40fb6b60a</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -8994,7 +9049,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a2094588e0c3777b7f722a197ed413943</Anchor>
+    <Anchor>a81173fc21d62d8c9a02119bc8ce43a61</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -9006,7 +9061,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
+    <Anchor>a7105afa491531dc56be2e351d983a4bc</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -9030,7 +9085,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Anchor>aeb020c020b4ae0e61e72d6a92601b7a8</Anchor>
     <Abstract>Retrieves a single value from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -9054,7 +9109,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a585e6360378a42760007251b07acade7</Anchor>
+    <Anchor>a8b520af4bdca9c516fb93f7c03d51e88</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -9078,7 +9133,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Anchor>ae0ffdb3fdef1ae61664791ad07e4217c</Anchor>
     <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -9138,7 +9193,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+    <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -10275,7 +10330,7 @@
       <Scope>CPTBarPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-    <Anchor>a5cd27b080cd53123a5ae42ec779d5f3b</Anchor>
+    <Anchor>a0cbed970c248ea694c48fa78a1a4f16c</Anchor>
     <Abstract>(Optional) Gets a bar fill for the given bar plot. This method will not be called if -barFillsForBarP...</Abstract>
     <DeclaredIn>CPTBarPlot.h</DeclaredIn>
   </Token>
@@ -10299,7 +10354,7 @@
       <Scope>CPTBarPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-    <Anchor>ad23834118ed616eba4b33fd88703fe2c</Anchor>
+    <Anchor>aedc2347a7ce0738aca0405766839f6ca</Anchor>
     <Abstract>(Optional) Gets a bar line style for the given bar plot. This method will not be called if -barLineSt...</Abstract>
     <DeclaredIn>CPTBarPlot.h</DeclaredIn>
   </Token>
@@ -10311,7 +10366,7 @@
       <Scope>CPTBarPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-    <Anchor>a0260f990d08ebb0addd11b376bc814ed</Anchor>
+    <Anchor>ac0f9feacac00c55f1ed915fe0606e25a</Anchor>
     <Abstract>(Optional) Gets the legend title for the given bar plot bar.</Abstract>
     <DeclaredIn>CPTBarPlot.h</DeclaredIn>
   </Token>
@@ -10347,7 +10402,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+    <Anchor>a2756cde65834d2394b3f5ef661f33ff8</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -10371,7 +10426,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+    <Anchor>af7ebe3ffc46200418556e27ccf97c3f6</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -10419,7 +10474,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+    <Anchor>a040b56efe34d3d31ef94052120cb2999</Anchor>
     <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -10472,7 +10527,7 @@
       <Scope>CPTBarPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
-    <Anchor>a045bf92ef3b534c9b367aadbb155d086</Anchor>
+    <Anchor>a3c8adf424d97bad401976ade0374e45f</Anchor>
     <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
     <DeclaredIn>CPTBarPlot.h</DeclaredIn>
   </Token>
@@ -10484,7 +10539,7 @@
       <Scope>CPTBarPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
-    <Anchor>aa730508fe533648e040d3b15afd80001</Anchor>
+    <Anchor>a50725c0872ea1dc92532624a21442c60</Anchor>
     <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
     <DeclaredIn>CPTBarPlot.h</DeclaredIn>
   </Token>
@@ -10496,7 +10551,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+    <Anchor>a4072c95ca84e57912bffa0ed8b2f5a60</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -10508,7 +10563,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
+    <Anchor>adb0bb01121df46904ac3e308f790bb85</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -13073,7 +13128,7 @@
       <Scope>CPTGradient</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_gradient.html</Path>
-    <Anchor>abd28bf29423338bbb678fc021f4e3c98</Anchor>
+    <Anchor>a9301ffff63c7e434fe688962b2df8d85</Anchor>
     <Abstract>Copies the current gradient and removes the color stop at index from the list of color stops...</Abstract>
     <DeclaredIn>CPTGradient.h</DeclaredIn>
   </Token>
@@ -13097,7 +13152,7 @@
       <Scope>CPTGradient</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_gradient.html</Path>
-    <Anchor>a9e9a6c82b772378bc2c1ee102ecdc6c0</Anchor>
+    <Anchor>a917951692ee14d0dad4cca367c4e4f6b</Anchor>
     <Abstract>Gets the color at color stop index from the list of color stops.</Abstract>
     <DeclaredIn>CPTGradient.h</DeclaredIn>
   </Token>
@@ -13423,7 +13478,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>afb261cb61ce7a4bffc5032b1bfc6db6b</Anchor>
+    <Anchor>acd1fd9fb82de3514eb7dcf90c3fd5db9</Anchor>
     <Abstract>Gets the plot at the given index in the plot array.</Abstract>
     <DeclaredIn>CPTGraph.h</DeclaredIn>
   </Token>
@@ -13495,7 +13550,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>a22d22861e6ed12c4b93108279a911ba2</Anchor>
+    <Anchor>ab7208a2480e18775bafcc3208c891cee</Anchor>
     <Abstract>Add a plot to the default plot space at the given index in the plot array.</Abstract>
     <DeclaredIn>CPTGraph.h</DeclaredIn>
   </Token>
@@ -13507,7 +13562,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>a822111f0fbcdf0e9fdea89cca90f752b</Anchor>
+    <Anchor>a0bd8c32654c18d6a81c1f7e544be7d17</Anchor>
     <Abstract>Add a plot to the given plot space at the given index in the plot array.</Abstract>
     <DeclaredIn>CPTGraph.h</DeclaredIn>
   </Token>
@@ -13531,7 +13586,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>a73f8ce0d973faa74fd36cc68e3c2eb6d</Anchor>
+    <Anchor>a39907c69e9fa500a2ad5b57667c31047</Anchor>
     <Abstract>Gets the plot space at the given index in the plot space array.</Abstract>
     <DeclaredIn>CPTGraph.h</DeclaredIn>
   </Token>
@@ -17691,7 +17746,7 @@
       <Scope>CPTLegend</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_legend.html</Path>
-    <Anchor>a606ad66705362ba17e8376dd28197e41</Anchor>
+    <Anchor>a53d93d278405c17a0ad67fdca706c586</Anchor>
     <Abstract>Gets the plot at the given index in the plot array.</Abstract>
     <DeclaredIn>CPTLegend.h</DeclaredIn>
   </Token>
@@ -17727,7 +17782,7 @@
       <Scope>CPTLegend</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_legend.html</Path>
-    <Anchor>af1bc62e474d875286086fff2cc3da80e</Anchor>
+    <Anchor>a50a6d913386d2547030a3f86f70619ab</Anchor>
     <Abstract>Add a plot to the legend at the given index in the plot array.</Abstract>
     <DeclaredIn>CPTLegend.h</DeclaredIn>
   </Token>
@@ -18742,7 +18797,7 @@
       <Scope>CPTLegendDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_legend_delegate-p.html</Path>
-    <Anchor>a296de27e682d78b5caabd715912eb164</Anchor>
+    <Anchor>a5aeb5bb90d09dfbe1ae63b8ced1bba68</Anchor>
     <Abstract>(Required) This method gives the delegate a chance to draw custom swatches for each legend entry...</Abstract>
     <DeclaredIn>CPTLegend.h</DeclaredIn>
   </Token>
@@ -20400,7 +20455,7 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>ab23d66d8894d7177139326eb50c8376a</Anchor>
+    <Anchor>a4f67fa2a781ce9d2dc2b0f45024029ad</Anchor>
     <Abstract>Gets the offset of a given sample in the data buffer.</Abstract>
     <DeclaredIn>CPTNumericData.h</DeclaredIn>
   </Token>
@@ -20424,7 +20479,7 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>a212bc12e3d60d199400de338f061d3bf</Anchor>
+    <Anchor>affc5d66ab104876e989b8b56a995e7ad</Anchor>
     <Abstract>Gets a pointer to a given sample in the data buffer.</Abstract>
     <DeclaredIn>CPTNumericData.h</DeclaredIn>
   </Token>
@@ -20448,7 +20503,7 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>acc5d8b0ee2134440aff791a852b17f49</Anchor>
+    <Anchor>abacd7b1b21cbd5ecc88b36efe6b244a5</Anchor>
     <Abstract>Gets the value of a given sample in the data buffer.</Abstract>
     <DeclaredIn>CPTNumericData.h</DeclaredIn>
   </Token>
@@ -21973,7 +22028,7 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>ab23d66d8894d7177139326eb50c8376a</Anchor>
+    <Anchor>a4f67fa2a781ce9d2dc2b0f45024029ad</Anchor>
     <Abstract>Gets the offset of a given sample in the data buffer.</Abstract>
     <DeclaredIn>CPTNumericData.h</DeclaredIn>
   </Token>
@@ -21997,7 +22052,7 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>a212bc12e3d60d199400de338f061d3bf</Anchor>
+    <Anchor>affc5d66ab104876e989b8b56a995e7ad</Anchor>
     <Abstract>Gets a pointer to a given sample in the data buffer.</Abstract>
     <DeclaredIn>CPTNumericData.h</DeclaredIn>
   </Token>
@@ -22021,7 +22076,7 @@
       <Scope>CPTNumericData</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_numeric_data.html</Path>
-    <Anchor>acc5d8b0ee2134440aff791a852b17f49</Anchor>
+    <Anchor>abacd7b1b21cbd5ecc88b36efe6b244a5</Anchor>
     <Abstract>Gets the value of a given sample in the data buffer.</Abstract>
     <DeclaredIn>CPTNumericData.h</DeclaredIn>
   </Token>
@@ -22540,7 +22595,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1066e5f68687c2a4f97f19398912d36e</Anchor>
+    <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
     <Abstract>The title text of a legend entry.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -22552,7 +22607,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>abe4e69caf2e8163449edf9a85916bbf9</Anchor>
+    <Anchor>a071199e3b35244f2daa0e155df832536</Anchor>
     <Abstract>Draws the legend swatch of a legend entry. Subclasses should call super to draw the background fill a...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -22660,7 +22715,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+    <Anchor>aaf45d3cd5ab07ce4b48f6aef5d846d83</Anchor>
     <Abstract>Insert records into the plot data cache at the given index.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -22696,7 +22751,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a992adf7119df39d7f10320c48084dbe6</Anchor>
+    <Anchor>a2c7200284fadd28e8d56a9e40fb6b60a</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -22708,7 +22763,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a2094588e0c3777b7f722a197ed413943</Anchor>
+    <Anchor>a81173fc21d62d8c9a02119bc8ce43a61</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -22720,7 +22775,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
+    <Anchor>a7105afa491531dc56be2e351d983a4bc</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -22744,7 +22799,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Anchor>aeb020c020b4ae0e61e72d6a92601b7a8</Anchor>
     <Abstract>Retrieves a single value from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -22768,7 +22823,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a585e6360378a42760007251b07acade7</Anchor>
+    <Anchor>a8b520af4bdca9c516fb93f7c03d51e88</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -22792,7 +22847,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Anchor>ae0ffdb3fdef1ae61664791ad07e4217c</Anchor>
     <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -22852,7 +22907,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+    <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -23945,7 +24000,7 @@
       <Scope>CPTPieChartDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-    <Anchor>a1a14dc189512fde5a0ce1148f50364ac</Anchor>
+    <Anchor>a999402a36201101f7a7c0bddff5edc9d</Anchor>
     <Abstract>(Optional) Gets a fill for the given pie chart slice. This method will not be called if -sliceFillsFo...</Abstract>
     <DeclaredIn>CPTPieChart.h</DeclaredIn>
   </Token>
@@ -23969,7 +24024,7 @@
       <Scope>CPTPieChartDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-    <Anchor>a5e1c479464fc6bdde26d5fc50e044c1a</Anchor>
+    <Anchor>a1aa4801689abd206551396ee885789db</Anchor>
     <Abstract>(Optional) Offsets the slice radially from the center point. Can be used to “explode” the chart...</Abstract>
     <DeclaredIn>CPTPieChart.h</DeclaredIn>
   </Token>
@@ -23981,7 +24036,7 @@
       <Scope>CPTPieChartDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-    <Anchor>a8c3e883e352b9e1091747b44355d1c1a</Anchor>
+    <Anchor>a9c59c9ce0407050e223997bbfb7e1e96</Anchor>
     <Abstract>(Optional) Gets the legend title for the given pie chart slice.</Abstract>
     <DeclaredIn>CPTPieChart.h</DeclaredIn>
   </Token>
@@ -24017,7 +24072,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+    <Anchor>a2756cde65834d2394b3f5ef661f33ff8</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -24041,7 +24096,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+    <Anchor>af7ebe3ffc46200418556e27ccf97c3f6</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -24089,7 +24144,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+    <Anchor>a040b56efe34d3d31ef94052120cb2999</Anchor>
     <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -24142,7 +24197,7 @@
       <Scope>CPTPieChartDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
-    <Anchor>af6c6cf7f61a0cd35fd05928e45a8e2ca</Anchor>
+    <Anchor>a35e676ca5c0fe07fec852453eb26bab4</Anchor>
     <Abstract>(Optional) Informs the delegate that a pie slice was touched.</Abstract>
     <DeclaredIn>CPTPieChart.h</DeclaredIn>
   </Token>
@@ -24154,7 +24209,7 @@
       <Scope>CPTPieChartDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
-    <Anchor>a3a32631d407cd002bdafe97ee0af60db</Anchor>
+    <Anchor>a0e5ea05533c6214aec611a11c21c0c46</Anchor>
     <Abstract>(Optional) Informs the delegate that a pie slice was touched.</Abstract>
     <DeclaredIn>CPTPieChart.h</DeclaredIn>
   </Token>
@@ -24166,7 +24221,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+    <Anchor>a4072c95ca84e57912bffa0ed8b2f5a60</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -24178,7 +24233,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
+    <Anchor>adb0bb01121df46904ac3e308f790bb85</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -24279,7 +24334,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1066e5f68687c2a4f97f19398912d36e</Anchor>
+    <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
     <Abstract>The title text of a legend entry.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -24291,7 +24346,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>abe4e69caf2e8163449edf9a85916bbf9</Anchor>
+    <Anchor>a071199e3b35244f2daa0e155df832536</Anchor>
     <Abstract>Draws the legend swatch of a legend entry. Subclasses should call super to draw the background fill a...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -25224,7 +25279,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+    <Anchor>aaf45d3cd5ab07ce4b48f6aef5d846d83</Anchor>
     <Abstract>Insert records into the plot data cache at the given index.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -25315,7 +25370,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a992adf7119df39d7f10320c48084dbe6</Anchor>
+    <Anchor>a2c7200284fadd28e8d56a9e40fb6b60a</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -25327,7 +25382,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a2094588e0c3777b7f722a197ed413943</Anchor>
+    <Anchor>a81173fc21d62d8c9a02119bc8ce43a61</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -25339,7 +25394,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
+    <Anchor>a7105afa491531dc56be2e351d983a4bc</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -25363,7 +25418,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Anchor>aeb020c020b4ae0e61e72d6a92601b7a8</Anchor>
     <Abstract>Retrieves a single value from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -25387,7 +25442,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a585e6360378a42760007251b07acade7</Anchor>
+    <Anchor>a8b520af4bdca9c516fb93f7c03d51e88</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -25411,7 +25466,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Anchor>ae0ffdb3fdef1ae61664791ad07e4217c</Anchor>
     <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -25548,7 +25603,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+    <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -25653,7 +25708,7 @@
       <Scope>CPTPlot(AbstractMethods)</Scope>
     </TokenIdentifier>
     <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
-    <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+    <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -27461,7 +27516,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+    <Anchor>a2756cde65834d2394b3f5ef661f33ff8</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -27485,7 +27540,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+    <Anchor>af7ebe3ffc46200418556e27ccf97c3f6</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -27533,7 +27588,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+    <Anchor>a040b56efe34d3d31ef94052120cb2999</Anchor>
     <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -27586,7 +27641,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+    <Anchor>a4072c95ca84e57912bffa0ed8b2f5a60</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -27598,7 +27653,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
+    <Anchor>adb0bb01121df46904ac3e308f790bb85</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -27687,7 +27742,7 @@
       <Scope>CPTPlotGroup</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_group.html</Path>
-    <Anchor>ab100faf209cb5f6819c9d4ffdcdd2441</Anchor>
+    <Anchor>a86ca987af8e3f256163f48dd429c2f1f</Anchor>
     <Abstract>Add a plot to this plot group at the given index.</Abstract>
     <DeclaredIn>CPTPlotGroup.h</DeclaredIn>
   </Token>
@@ -30238,7 +30293,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1066e5f68687c2a4f97f19398912d36e</Anchor>
+    <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
     <Abstract>The title text of a legend entry.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -30250,7 +30305,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>abe4e69caf2e8163449edf9a85916bbf9</Anchor>
+    <Anchor>a071199e3b35244f2daa0e155df832536</Anchor>
     <Abstract>Draws the legend swatch of a legend entry. Subclasses should call super to draw the background fill a...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -30358,7 +30413,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+    <Anchor>aaf45d3cd5ab07ce4b48f6aef5d846d83</Anchor>
     <Abstract>Insert records into the plot data cache at the given index.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -30394,7 +30449,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a992adf7119df39d7f10320c48084dbe6</Anchor>
+    <Anchor>a2c7200284fadd28e8d56a9e40fb6b60a</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -30406,7 +30461,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a2094588e0c3777b7f722a197ed413943</Anchor>
+    <Anchor>a81173fc21d62d8c9a02119bc8ce43a61</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -30418,7 +30473,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
+    <Anchor>a7105afa491531dc56be2e351d983a4bc</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -30442,7 +30497,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Anchor>aeb020c020b4ae0e61e72d6a92601b7a8</Anchor>
     <Abstract>Retrieves a single value from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -30466,7 +30521,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a585e6360378a42760007251b07acade7</Anchor>
+    <Anchor>a8b520af4bdca9c516fb93f7c03d51e88</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -30490,7 +30545,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Anchor>ae0ffdb3fdef1ae61664791ad07e4217c</Anchor>
     <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -30550,7 +30605,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+    <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -31621,7 +31676,7 @@
       <Scope>CPTRangePlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
-    <Anchor>a316457d724e002e906cbff8b58b985e3</Anchor>
+    <Anchor>a5dcc1cc08d0b62371aedd28ebaf73777</Anchor>
     <Abstract>(Optional) Gets a bar line style for the given range plot. This method will not be called if -barLine...</Abstract>
     <DeclaredIn>CPTRangePlot.h</DeclaredIn>
   </Token>
@@ -31657,7 +31712,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+    <Anchor>a2756cde65834d2394b3f5ef661f33ff8</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -31681,7 +31736,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+    <Anchor>af7ebe3ffc46200418556e27ccf97c3f6</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -31729,7 +31784,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+    <Anchor>a040b56efe34d3d31ef94052120cb2999</Anchor>
     <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -31782,7 +31837,7 @@
       <Scope>CPTRangePlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
-    <Anchor>a74b148579f4033d70be59a2a6ebc5463</Anchor>
+    <Anchor>a41ef8f25b7dd44fc56e6ad10bd6d5d92</Anchor>
     <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
     <DeclaredIn>CPTRangePlot.h</DeclaredIn>
   </Token>
@@ -31794,7 +31849,7 @@
       <Scope>CPTRangePlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
-    <Anchor>a8dbdfb7e0fa0ca835d0cb3e3c99501b0</Anchor>
+    <Anchor>a20f5d42329cc3ad2917bf8582aff1224</Anchor>
     <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
     <DeclaredIn>CPTRangePlot.h</DeclaredIn>
   </Token>
@@ -31806,7 +31861,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+    <Anchor>a4072c95ca84e57912bffa0ed8b2f5a60</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -31818,7 +31873,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
+    <Anchor>adb0bb01121df46904ac3e308f790bb85</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32039,7 +32094,7 @@
       <Scope>CPTScatterPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_scatter_plot.html</Path>
-    <Anchor>a3dfa49dc1c7aae889ca0834ae63dba45</Anchor>
+    <Anchor>a8dbca5232daceaa2c4fb09ed79e64ebd</Anchor>
     <Abstract>Returns the plot area view point of a visible point.</Abstract>
     <DeclaredIn>CPTScatterPlot.h</DeclaredIn>
   </Token>
@@ -32051,7 +32106,7 @@
       <Scope>CPTScatterPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_scatter_plot.html</Path>
-    <Anchor>a9f74ed3bfedfb98fc91ce0e485d9b2b9</Anchor>
+    <Anchor>a4099c3017570cd44820c8d558f059605</Anchor>
     <Abstract>Returns the plot symbol to use for a given index.</Abstract>
     <DeclaredIn>CPTScatterPlot.h</DeclaredIn>
   </Token>
@@ -32121,7 +32176,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1066e5f68687c2a4f97f19398912d36e</Anchor>
+    <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
     <Abstract>The title text of a legend entry.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32133,7 +32188,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>abe4e69caf2e8163449edf9a85916bbf9</Anchor>
+    <Anchor>a071199e3b35244f2daa0e155df832536</Anchor>
     <Abstract>Draws the legend swatch of a legend entry. Subclasses should call super to draw the background fill a...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32241,7 +32296,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+    <Anchor>aaf45d3cd5ab07ce4b48f6aef5d846d83</Anchor>
     <Abstract>Insert records into the plot data cache at the given index.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32277,7 +32332,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a992adf7119df39d7f10320c48084dbe6</Anchor>
+    <Anchor>a2c7200284fadd28e8d56a9e40fb6b60a</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32289,7 +32344,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a2094588e0c3777b7f722a197ed413943</Anchor>
+    <Anchor>a81173fc21d62d8c9a02119bc8ce43a61</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32301,7 +32356,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
+    <Anchor>a7105afa491531dc56be2e351d983a4bc</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32325,7 +32380,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Anchor>aeb020c020b4ae0e61e72d6a92601b7a8</Anchor>
     <Abstract>Retrieves a single value from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32349,7 +32404,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a585e6360378a42760007251b07acade7</Anchor>
+    <Anchor>a8b520af4bdca9c516fb93f7c03d51e88</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32373,7 +32428,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Anchor>ae0ffdb3fdef1ae61664791ad07e4217c</Anchor>
     <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -32433,7 +32488,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+    <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -33537,7 +33592,7 @@
       <Scope>CPTScatterPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_scatter_plot_data_source-p.html</Path>
-    <Anchor>aec36a56195942c7ca5bf1d469846b1f8</Anchor>
+    <Anchor>affc727eaa2c04713828b49598f819764</Anchor>
     <Abstract>(Optional) Gets a single plot symbol for the given scatter plot. This method will not be called if -s...</Abstract>
     <DeclaredIn>CPTScatterPlot.h</DeclaredIn>
   </Token>
@@ -33573,7 +33628,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+    <Anchor>a2756cde65834d2394b3f5ef661f33ff8</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -33597,7 +33652,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+    <Anchor>af7ebe3ffc46200418556e27ccf97c3f6</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -33645,7 +33700,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+    <Anchor>a040b56efe34d3d31ef94052120cb2999</Anchor>
     <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -33698,7 +33753,7 @@
       <Scope>CPTScatterPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
-    <Anchor>adb2b5b0dc2c027e3056d645ddff2420e</Anchor>
+    <Anchor>a296a514ccb58946904a6fa781a6c4e73</Anchor>
     <Abstract>(Optional) Informs the delegate that a data point was touched.</Abstract>
     <DeclaredIn>CPTScatterPlot.h</DeclaredIn>
   </Token>
@@ -33710,7 +33765,7 @@
       <Scope>CPTScatterPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
-    <Anchor>a56d4c1d60f795575229583b649f55ef5</Anchor>
+    <Anchor>a1da0d81587a750ee94e4cd96762f097b</Anchor>
     <Abstract>(Optional) Informs the delegate that a data point was touched.</Abstract>
     <DeclaredIn>CPTScatterPlot.h</DeclaredIn>
   </Token>
@@ -33722,7 +33777,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+    <Anchor>a4072c95ca84e57912bffa0ed8b2f5a60</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -33734,7 +33789,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
+    <Anchor>adb0bb01121df46904ac3e308f790bb85</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -35722,7 +35777,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1066e5f68687c2a4f97f19398912d36e</Anchor>
+    <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
     <Abstract>The title text of a legend entry.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -35734,7 +35789,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>abe4e69caf2e8163449edf9a85916bbf9</Anchor>
+    <Anchor>a071199e3b35244f2daa0e155df832536</Anchor>
     <Abstract>Draws the legend swatch of a legend entry. Subclasses should call super to draw the background fill a...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -35842,7 +35897,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+    <Anchor>aaf45d3cd5ab07ce4b48f6aef5d846d83</Anchor>
     <Abstract>Insert records into the plot data cache at the given index.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -35878,7 +35933,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a992adf7119df39d7f10320c48084dbe6</Anchor>
+    <Anchor>a2c7200284fadd28e8d56a9e40fb6b60a</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -35890,7 +35945,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a2094588e0c3777b7f722a197ed413943</Anchor>
+    <Anchor>a81173fc21d62d8c9a02119bc8ce43a61</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -35902,7 +35957,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
+    <Anchor>a7105afa491531dc56be2e351d983a4bc</Anchor>
     <Abstract>Retrieves a single number from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -35926,7 +35981,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+    <Anchor>aeb020c020b4ae0e61e72d6a92601b7a8</Anchor>
     <Abstract>Retrieves a single value from the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -35950,7 +36005,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a585e6360378a42760007251b07acade7</Anchor>
+    <Anchor>a8b520af4bdca9c516fb93f7c03d51e88</Anchor>
     <Abstract>Copies an array of numbers to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -35974,7 +36029,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+    <Anchor>ae0ffdb3fdef1ae61664791ad07e4217c</Anchor>
     <Abstract>Copies an array of arbitrary values to replace a part of the cache.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -36034,7 +36089,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+    <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
     <Abstract>Adjusts the position of the data label annotation for the plot point at the given index...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -37149,7 +37204,7 @@
       <Scope>CPTTradingRangePlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-    <Anchor>ae9b7253b7ae91d00dce3a0f04d45af0d</Anchor>
+    <Anchor>ae6f1d190fd66fc0aa350f02ab614ecae</Anchor>
     <Abstract>(Optional) Gets the fill used with a candlestick plot when close &amp;gt;= open for the given plot...</Abstract>
     <DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>
   </Token>
@@ -37173,7 +37228,7 @@
       <Scope>CPTTradingRangePlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-    <Anchor>acacf0574c8b1029e73fdd67c209cfa73</Anchor>
+    <Anchor>a6144f6cc60062af154105742fa1a71e5</Anchor>
     <Abstract>(Optional) Gets the fill used with a candlestick plot when close &amp;lt; open for the given plot...</Abstract>
     <DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>
   </Token>
@@ -37197,7 +37252,7 @@
       <Scope>CPTTradingRangePlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-    <Anchor>ab9ca3f94634e86d5c5fb74c36b875179</Anchor>
+    <Anchor>acce497b99bc0e7e9bfca99aadd423b06</Anchor>
     <Abstract>(Optional) Gets the line style used to draw candlestick or OHLC symbols for the given trading range p...</Abstract>
     <DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>
   </Token>
@@ -37221,7 +37276,7 @@
       <Scope>CPTTradingRangePlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-    <Anchor>a99a001076e83f7d70794528fdc5f54f4</Anchor>
+    <Anchor>a3eb6d30513a0408eb3011377d0c15ba2</Anchor>
     <Abstract>(Optional) Gets the line style used to outline candlestick symbols when close &amp;gt;= open for the given t...</Abstract>
     <DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>
   </Token>
@@ -37245,7 +37300,7 @@
       <Scope>CPTTradingRangePlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-    <Anchor>a435a89ee8c17f9cbb040e9c5f2cf195d</Anchor>
+    <Anchor>acfaefdf6423efc3d8f62b8e60fb8cb02</Anchor>
     <Abstract>(Optional) Gets the line style used to outline candlestick symbols when close &amp;lt; open for the given tr...</Abstract>
     <DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>
   </Token>
@@ -37281,7 +37336,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+    <Anchor>a2756cde65834d2394b3f5ef661f33ff8</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -37305,7 +37360,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+    <Anchor>af7ebe3ffc46200418556e27ccf97c3f6</Anchor>
     <Abstract>(Optional) Gets a plot data value for the given plot and field. Implement one and only one of the opt...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -37353,7 +37408,7 @@
       <Scope>CPTPlotDataSource-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-    <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+    <Anchor>a040b56efe34d3d31ef94052120cb2999</Anchor>
     <Abstract>(Optional) Gets a data label for the given plot. This method will not be called if -dataLabelsForPlot...</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -37406,7 +37461,7 @@
       <Scope>CPTTradingRangePlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
-    <Anchor>a93ea9a1210ada3f0921a3a57274bc3d7</Anchor>
+    <Anchor>a1d7880c0ab59766d4ec198179740ec92</Anchor>
     <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
     <DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>
   </Token>
@@ -37418,7 +37473,7 @@
       <Scope>CPTTradingRangePlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
-    <Anchor>abd79cb81cdbbb29776e9e4e146271202</Anchor>
+    <Anchor>a09f8f0dc39b8938b2274353266ce445b</Anchor>
     <Abstract>(Optional) Informs the delegate that a bar was touched.</Abstract>
     <DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>
   </Token>
@@ -37430,7 +37485,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+    <Anchor>a4072c95ca84e57912bffa0ed8b2f5a60</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -37442,7 +37497,7 @@
       <Scope>CPTPlotDelegate-p</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-    <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
+    <Anchor>adb0bb01121df46904ac3e308f790bb85</Anchor>
     <Abstract>(Optional) Informs the delegate that a data label was touched.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
@@ -39837,7 +39892,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>afb261cb61ce7a4bffc5032b1bfc6db6b</Anchor>
+    <Anchor>acd1fd9fb82de3514eb7dcf90c3fd5db9</Anchor>
     <Abstract>Gets the plot at the given index in the plot array.</Abstract>
     <DeclaredIn>CPTGraph.h</DeclaredIn>
   </Token>
@@ -39909,7 +39964,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>a22d22861e6ed12c4b93108279a911ba2</Anchor>
+    <Anchor>ab7208a2480e18775bafcc3208c891cee</Anchor>
     <Abstract>Add a plot to the default plot space at the given index in the plot array.</Abstract>
     <DeclaredIn>CPTGraph.h</DeclaredIn>
   </Token>
@@ -39921,7 +39976,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>a822111f0fbcdf0e9fdea89cca90f752b</Anchor>
+    <Anchor>a0bd8c32654c18d6a81c1f7e544be7d17</Anchor>
     <Abstract>Add a plot to the given plot space at the given index in the plot array.</Abstract>
     <DeclaredIn>CPTGraph.h</DeclaredIn>
   </Token>
@@ -39945,7 +40000,7 @@
       <Scope>CPTGraph</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
-    <Anchor>a73f8ce0d973faa74fd36cc68e3c2eb6d</Anchor>
+    <Anchor>a39907c69e9fa500a2ad5b57667c31047</Anchor>
     <Abstract>Gets the plot space at the given index in the plot space array.</Abstract>
     <DeclaredIn>CPTGraph.h</DeclaredIn>
   </Token>

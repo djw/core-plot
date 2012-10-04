@@ -1,5 +1,10 @@
 var NAVTREEINDEX3 =
 {
+"globals_0x64.html":[3,1,0,4],
+"globals_0x65.html":[3,1,0,5],
+"globals_0x66.html":[3,1,0,6],
+"globals_0x67.html":[3,1,0,7],
+"globals_0x69.html":[3,1,0,8],
 "globals_0x6b.html":[3,1,0,9],
 "globals_0x6c.html":[3,1,0,10],
 "globals_0x6d.html":[3,1,0,11],
@@ -57,8 +62,8 @@ var NAVTREEINDEX3 =
 "group__plot_animation_bar_plot.html#ga1ba05e25fedbec2194ab2ade17ac78b8":[1,0,3,1,0],
 "group__plot_animation_bar_plot.html#ga5adb339ad41725c4e858ad8ef02cf34a":[2,0,10,8],
 "group__plot_animation_bar_plot.html#ga5adb339ad41725c4e858ad8ef02cf34a":[1,0,3,1,2],
-"group__plot_animation_bar_plot.html#ga872d2d85e4df97a300dbd553900d96ca":[2,0,10,6],
 "group__plot_animation_bar_plot.html#ga872d2d85e4df97a300dbd553900d96ca":[1,0,3,1,1],
+"group__plot_animation_bar_plot.html#ga872d2d85e4df97a300dbd553900d96ca":[2,0,10,6],
 "group__plot_animation_pie_chart.html":[1,0,3,2],
 "group__plot_animation_pie_chart.html#ga27933b9f07bd608546132806f160a98d":[1,0,3,2,4],
 "group__plot_animation_pie_chart.html#ga27933b9f07bd608546132806f160a98d":[2,0,48,11],
@@ -244,10 +249,5 @@ var NAVTREEINDEX3 =
 "interface_c_p_t_color_space.html":[2,0,17],
 "interface_c_p_t_color_space.html#a04f20d53ebf7cc49da6d76142add6268":[2,0,17,1],
 "interface_c_p_t_color_space.html#ac58f6c211393735a956588fe0e140c56":[2,0,17,0],
-"interface_c_p_t_color_space.html#ade629d495bfb67a9086d58c17577b760":[2,0,17,2],
-"interface_c_p_t_constraints.html":[2,0,18],
-"interface_c_p_t_constraints.html#a0188b6fa9cb67fb8cc3b3ef0f8181af4":[2,0,18,5],
-"interface_c_p_t_constraints.html#a125152878889655fb812140f79a4af56":[2,0,18,3],
-"interface_c_p_t_constraints.html#a1acc2b64398c613591a0b316822c9c3c":[2,0,18,7],
-"interface_c_p_t_constraints.html#a213ba65d803f1d8b6a255fdf7da9aa72":[2,0,18,1]
+"interface_c_p_t_color_space.html#ade629d495bfb67a9086d58c17577b760":[2,0,17,2]
 };

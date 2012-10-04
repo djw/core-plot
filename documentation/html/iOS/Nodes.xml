@@ -954,7 +954,7 @@
              <Node>
               <Name>barFillForBarPlot:recordIndex:</Name>
               <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-              <Anchor>a5cd27b080cd53123a5ae42ec779d5f3b</Anchor>
+              <Anchor>a0cbed970c248ea694c48fa78a1a4f16c</Anchor>
              </Node>
              <Node>
               <Name>barFillsForBarPlot:recordIndexRange:</Name>
@@ -964,7 +964,7 @@
              <Node>
               <Name>barLineStyleForBarPlot:recordIndex:</Name>
               <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-              <Anchor>ad23834118ed616eba4b33fd88703fe2c</Anchor>
+              <Anchor>aedc2347a7ce0738aca0405766839f6ca</Anchor>
              </Node>
              <Node>
               <Name>barLineStylesForBarPlot:recordIndexRange:</Name>
@@ -974,7 +974,7 @@
              <Node>
               <Name>legendTitleForBarPlot:recordIndex:</Name>
               <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-              <Anchor>a0260f990d08ebb0addd11b376bc814ed</Anchor>
+              <Anchor>ac0f9feacac00c55f1ed915fe0606e25a</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -985,12 +985,12 @@
              <Node>
               <Name>barPlot:barWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
-              <Anchor>a045bf92ef3b534c9b367aadbb155d086</Anchor>
+              <Anchor>a3c8adf424d97bad401976ade0374e45f</Anchor>
              </Node>
              <Node>
               <Name>barPlot:barWasSelectedAtRecordIndex:withEvent:</Name>
               <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
-              <Anchor>aa730508fe533648e040d3b15afd80001</Anchor>
+              <Anchor>a50725c0872ea1dc92532624a21442c60</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1425,7 +1425,7 @@
              <Node>
               <Name>newColorStopAtIndex:</Name>
               <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>a9e9a6c82b772378bc2c1ee102ecdc6c0</Anchor>
+              <Anchor>a917951692ee14d0dad4cca367c4e4f6b</Anchor>
              </Node>
              <Node>
               <Name>rainbowGradient</Name>
@@ -1435,7 +1435,7 @@
              <Node>
               <Name>removeColorStopAtIndex:</Name>
               <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>abd28bf29423338bbb678fc021f4e3c98</Anchor>
+              <Anchor>a9301ffff63c7e434fe688962b2df8d85</Anchor>
              </Node>
              <Node>
               <Name>removeColorStopAtPosition:</Name>
@@ -1552,12 +1552,12 @@
              <Node>
               <Name>insertPlot:atIndex:</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>a22d22861e6ed12c4b93108279a911ba2</Anchor>
+              <Anchor>ab7208a2480e18775bafcc3208c891cee</Anchor>
              </Node>
              <Node>
               <Name>insertPlot:atIndex:intoPlotSpace:</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>a822111f0fbcdf0e9fdea89cca90f752b</Anchor>
+              <Anchor>a0bd8c32654c18d6a81c1f7e544be7d17</Anchor>
              </Node>
              <Node>
               <Name>newAxisSet</Name>
@@ -1572,12 +1572,12 @@
              <Node>
               <Name>plotAtIndex:</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>afb261cb61ce7a4bffc5032b1bfc6db6b</Anchor>
+              <Anchor>acd1fd9fb82de3514eb7dcf90c3fd5db9</Anchor>
              </Node>
              <Node>
               <Name>plotSpaceAtIndex:</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>a73f8ce0d973faa74fd36cc68e3c2eb6d</Anchor>
+              <Anchor>a39907c69e9fa500a2ad5b57667c31047</Anchor>
              </Node>
              <Node>
               <Name>plotSpaceWithIdentifier:</Name>
@@ -2096,7 +2096,7 @@
              <Node>
               <Name>insertPlot:atIndex:</Name>
               <Path>interface_c_p_t_legend.html</Path>
-              <Anchor>af1bc62e474d875286086fff2cc3da80e</Anchor>
+              <Anchor>a50a6d913386d2547030a3f86f70619ab</Anchor>
              </Node>
              <Node>
               <Name>legendEntries</Name>
@@ -2116,7 +2116,7 @@
              <Node>
               <Name>plotAtIndex:</Name>
               <Path>interface_c_p_t_legend.html</Path>
-              <Anchor>a606ad66705362ba17e8376dd28197e41</Anchor>
+              <Anchor>a53d93d278405c17a0ad67fdca706c586</Anchor>
              </Node>
              <Node>
               <Name>plots</Name>
@@ -2237,7 +2237,7 @@
              <Node>
               <Name>legend:shouldDrawSwatchAtIndex:forPlot:inRect:inContext:</Name>
               <Path>protocol_c_p_t_legend_delegate-p.html</Path>
-              <Anchor>a296de27e682d78b5caabd715912eb164</Anchor>
+              <Anchor>a5aeb5bb90d09dfbe1ae63b8ced1bba68</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2808,7 +2808,7 @@
              <Node>
               <Name>sampleIndex:</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>ab23d66d8894d7177139326eb50c8376a</Anchor>
+              <Anchor>a4f67fa2a781ce9d2dc2b0f45024029ad</Anchor>
              </Node>
              <Node>
               <Name>samplePointer:</Name>
@@ -2818,7 +2818,7 @@
              <Node>
               <Name>samplePointerAtIndex:</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>a212bc12e3d60d199400de338f061d3bf</Anchor>
+              <Anchor>affc5d66ab104876e989b8b56a995e7ad</Anchor>
              </Node>
              <Node>
               <Name>sampleValue:</Name>
@@ -2828,7 +2828,7 @@
              <Node>
               <Name>sampleValueAtIndex:</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>acc5d8b0ee2134440aff791a852b17f49</Anchor>
+              <Anchor>abacd7b1b21cbd5ecc88b36efe6b244a5</Anchor>
              </Node>
              <Node>
               <Name>swapByteOrderForData:sampleSize:</Name>
@@ -3012,12 +3012,12 @@
              <Node>
               <Name>legendTitleForPieChart:recordIndex:</Name>
               <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-              <Anchor>a8c3e883e352b9e1091747b44355d1c1a</Anchor>
+              <Anchor>a9c59c9ce0407050e223997bbfb7e1e96</Anchor>
              </Node>
              <Node>
               <Name>radialOffsetForPieChart:recordIndex:</Name>
               <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-              <Anchor>a5e1c479464fc6bdde26d5fc50e044c1a</Anchor>
+              <Anchor>a1aa4801689abd206551396ee885789db</Anchor>
              </Node>
              <Node>
               <Name>radialOffsetsForPieChart:recordIndexRange:</Name>
@@ -3027,7 +3027,7 @@
              <Node>
               <Name>sliceFillForPieChart:recordIndex:</Name>
               <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-              <Anchor>a1a14dc189512fde5a0ce1148f50364ac</Anchor>
+              <Anchor>a999402a36201101f7a7c0bddff5edc9d</Anchor>
              </Node>
              <Node>
               <Name>sliceFillsForPieChart:recordIndexRange:</Name>
@@ -3043,12 +3043,12 @@
              <Node>
               <Name>pieChart:sliceWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
-              <Anchor>af6c6cf7f61a0cd35fd05928e45a8e2ca</Anchor>
+              <Anchor>a35e676ca5c0fe07fec852453eb26bab4</Anchor>
              </Node>
              <Node>
               <Name>pieChart:sliceWasSelectedAtRecordIndex:withEvent:</Name>
               <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
-              <Anchor>a3a32631d407cd002bdafe97ee0af60db</Anchor>
+              <Anchor>a0e5ea05533c6214aec611a11c21c0c46</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3064,7 +3064,7 @@
              <Node>
               <Name>cacheArray:forKey:atRecordIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+              <Anchor>ae0ffdb3fdef1ae61664791ad07e4217c</Anchor>
              </Node>
              <Node>
               <Name>cachedArrayForKey:</Name>
@@ -3074,17 +3074,17 @@
              <Node>
               <Name>cachedDecimalForField:recordIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
+              <Anchor>a7105afa491531dc56be2e351d983a4bc</Anchor>
              </Node>
              <Node>
               <Name>cachedDoubleForField:recordIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>a2094588e0c3777b7f722a197ed413943</Anchor>
+              <Anchor>a81173fc21d62d8c9a02119bc8ce43a61</Anchor>
              </Node>
              <Node>
               <Name>cachedNumberForField:recordIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>a992adf7119df39d7f10320c48084dbe6</Anchor>
+              <Anchor>a2c7200284fadd28e8d56a9e40fb6b60a</Anchor>
              </Node>
              <Node>
               <Name>cachedNumbersForField:</Name>
@@ -3094,7 +3094,7 @@
              <Node>
               <Name>cachedValueForKey:recordIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+              <Anchor>aeb020c020b4ae0e61e72d6a92601b7a8</Anchor>
              </Node>
              <Node>
               <Name>cacheNumbers:forField:</Name>
@@ -3104,7 +3104,7 @@
              <Node>
               <Name>cacheNumbers:forField:atRecordIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>a585e6360378a42760007251b07acade7</Anchor>
+              <Anchor>a8b520af4bdca9c516fb93f7c03d51e88</Anchor>
              </Node>
              <Node>
               <Name>dataIndexFromInteractionPoint:</Name>
@@ -3119,7 +3119,7 @@
              <Node>
               <Name>drawSwatchForLegend:atIndex:inRect:inContext:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>abe4e69caf2e8163449edf9a85916bbf9</Anchor>
+              <Anchor>a071199e3b35244f2daa0e155df832536</Anchor>
              </Node>
              <Node>
               <Name>fieldIdentifiers</Name>
@@ -3139,7 +3139,7 @@
              <Node>
               <Name>insertDataAtIndex:numberOfRecords:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+              <Anchor>aaf45d3cd5ab07ce4b48f6aef5d846d83</Anchor>
              </Node>
              <Node>
               <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
@@ -3184,7 +3184,7 @@
              <Node>
               <Name>positionLabelAnnotation:forIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+              <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
              </Node>
              <Node>
               <Name>relabel</Name>
@@ -3229,7 +3229,7 @@
              <Node>
               <Name>titleForLegendEntryAtIndex:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>a1066e5f68687c2a4f97f19398912d36e</Anchor>
+              <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
              </Node>
              <Node>
               <Name>alignsPointsToPixels</Name>
@@ -3350,7 +3350,7 @@
              <Node>
               <Name>positionLabelAnnotation:forIndex:</Name>
               <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
-              <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+              <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3473,7 +3473,7 @@
              <Node>
               <Name>dataLabelForPlot:recordIndex:</Name>
               <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-              <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+              <Anchor>a040b56efe34d3d31ef94052120cb2999</Anchor>
              </Node>
              <Node>
               <Name>dataLabelsForPlot:recordIndexRange:</Name>
@@ -3483,7 +3483,7 @@
              <Node>
               <Name>doubleForPlot:field:recordIndex:</Name>
               <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-              <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+              <Anchor>af7ebe3ffc46200418556e27ccf97c3f6</Anchor>
              </Node>
              <Node>
               <Name>doublesForPlot:field:recordIndexRange:</Name>
@@ -3493,7 +3493,7 @@
              <Node>
               <Name>numberForPlot:field:recordIndex:</Name>
               <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-              <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+              <Anchor>a2756cde65834d2394b3f5ef661f33ff8</Anchor>
              </Node>
              <Node>
               <Name>numberOfRecordsForPlot:</Name>
@@ -3519,12 +3519,12 @@
              <Node>
               <Name>plot:dataLabelWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-              <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+              <Anchor>a4072c95ca84e57912bffa0ed8b2f5a60</Anchor>
              </Node>
              <Node>
               <Name>plot:dataLabelWasSelectedAtRecordIndex:withEvent:</Name>
               <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-              <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
+              <Anchor>adb0bb01121df46904ac3e308f790bb85</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3540,7 +3540,7 @@
              <Node>
               <Name>insertPlot:atIndex:</Name>
               <Path>interface_c_p_t_plot_group.html</Path>
-              <Anchor>ab100faf209cb5f6819c9d4ffdcdd2441</Anchor>
+              <Anchor>a86ca987af8e3f256163f48dd429c2f1f</Anchor>
              </Node>
              <Node>
               <Name>removePlot:</Name>
@@ -4098,7 +4098,7 @@
              <Node>
               <Name>barLineStyleForRangePlot:recordIndex:</Name>
               <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
-              <Anchor>a316457d724e002e906cbff8b58b985e3</Anchor>
+              <Anchor>a5dcc1cc08d0b62371aedd28ebaf73777</Anchor>
              </Node>
              <Node>
               <Name>barLineStylesForRangePlot:recordIndexRange:</Name>
@@ -4114,12 +4114,12 @@
              <Node>
               <Name>rangePlot:rangeWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
-              <Anchor>a74b148579f4033d70be59a2a6ebc5463</Anchor>
+              <Anchor>a41ef8f25b7dd44fc56e6ad10bd6d5d92</Anchor>
              </Node>
              <Node>
               <Name>rangePlot:rangeWasSelectedAtRecordIndex:withEvent:</Name>
               <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
-              <Anchor>a8dbdfb7e0fa0ca835d0cb3e3c99501b0</Anchor>
+              <Anchor>a20f5d42329cc3ad2917bf8582aff1224</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4192,12 +4192,12 @@
              <Node>
               <Name>plotAreaPointOfVisiblePointAtIndex:</Name>
               <Path>interface_c_p_t_scatter_plot.html</Path>
-              <Anchor>a3dfa49dc1c7aae889ca0834ae63dba45</Anchor>
+              <Anchor>a8dbca5232daceaa2c4fb09ed79e64ebd</Anchor>
              </Node>
              <Node>
               <Name>plotSymbolForRecordIndex:</Name>
               <Path>interface_c_p_t_scatter_plot.html</Path>
-              <Anchor>a9f74ed3bfedfb98fc91ce0e485d9b2b9</Anchor>
+              <Anchor>a4099c3017570cd44820c8d558f059605</Anchor>
              </Node>
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
@@ -4253,7 +4253,7 @@
              <Node>
               <Name>symbolForScatterPlot:recordIndex:</Name>
               <Path>protocol_c_p_t_scatter_plot_data_source-p.html</Path>
-              <Anchor>aec36a56195942c7ca5bf1d469846b1f8</Anchor>
+              <Anchor>affc727eaa2c04713828b49598f819764</Anchor>
              </Node>
              <Node>
               <Name>symbolsForScatterPlot:recordIndexRange:</Name>
@@ -4269,12 +4269,12 @@
              <Node>
               <Name>scatterPlot:plotSymbolWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
-              <Anchor>adb2b5b0dc2c027e3056d645ddff2420e</Anchor>
+              <Anchor>a296a514ccb58946904a6fa781a6c4e73</Anchor>
              </Node>
              <Node>
               <Name>scatterPlot:plotSymbolWasSelectedAtRecordIndex:withEvent:</Name>
               <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
-              <Anchor>a56d4c1d60f795575229583b649f55ef5</Anchor>
+              <Anchor>a1da0d81587a750ee94e4cd96762f097b</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4577,7 +4577,7 @@
              <Node>
               <Name>decreaseFillForTradingRangePlot:recordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-              <Anchor>acacf0574c8b1029e73fdd67c209cfa73</Anchor>
+              <Anchor>a6144f6cc60062af154105742fa1a71e5</Anchor>
              </Node>
              <Node>
               <Name>decreaseFillsForTradingRangePlot:recordIndexRange:</Name>
@@ -4587,7 +4587,7 @@
              <Node>
               <Name>decreaseLineStyleForTradingRangePlot:recordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-              <Anchor>a435a89ee8c17f9cbb040e9c5f2cf195d</Anchor>
+              <Anchor>acfaefdf6423efc3d8f62b8e60fb8cb02</Anchor>
              </Node>
              <Node>
               <Name>decreaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
@@ -4597,7 +4597,7 @@
              <Node>
               <Name>increaseFillForTradingRangePlot:recordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-              <Anchor>ae9b7253b7ae91d00dce3a0f04d45af0d</Anchor>
+              <Anchor>ae6f1d190fd66fc0aa350f02ab614ecae</Anchor>
              </Node>
              <Node>
               <Name>increaseFillsForTradingRangePlot:recordIndexRange:</Name>
@@ -4607,7 +4607,7 @@
              <Node>
               <Name>increaseLineStyleForTradingRangePlot:recordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-              <Anchor>a99a001076e83f7d70794528fdc5f54f4</Anchor>
+              <Anchor>a3eb6d30513a0408eb3011377d0c15ba2</Anchor>
              </Node>
              <Node>
               <Name>increaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
@@ -4617,7 +4617,7 @@
              <Node>
               <Name>lineStyleForTradingRangePlot:recordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-              <Anchor>ab9ca3f94634e86d5c5fb74c36b875179</Anchor>
+              <Anchor>acce497b99bc0e7e9bfca99aadd423b06</Anchor>
              </Node>
              <Node>
               <Name>lineStylesForTradingRangePlot:recordIndexRange:</Name>
@@ -4633,12 +4633,12 @@
              <Node>
               <Name>tradingRangePlot:barWasSelectedAtRecordIndex:</Name>
               <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
-              <Anchor>a93ea9a1210ada3f0921a3a57274bc3d7</Anchor>
+              <Anchor>a1d7880c0ab59766d4ec198179740ec92</Anchor>
              </Node>
              <Node>
               <Name>tradingRangePlot:barWasSelectedAtRecordIndex:withEvent:</Name>
               <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
-              <Anchor>abd79cb81cdbbb29776e9e4e146271202</Anchor>
+              <Anchor>a09f8f0dc39b8938b2274353266ce445b</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -6698,7 +6698,7 @@
                  <Node>
                   <Name>barFillForBarPlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-                  <Anchor>a5cd27b080cd53123a5ae42ec779d5f3b</Anchor>
+                  <Anchor>a0cbed970c248ea694c48fa78a1a4f16c</Anchor>
                  </Node>
                  <Node>
                   <Name>barFillsForBarPlot:recordIndexRange:</Name>
@@ -6708,7 +6708,7 @@
                  <Node>
                   <Name>barLineStyleForBarPlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-                  <Anchor>ad23834118ed616eba4b33fd88703fe2c</Anchor>
+                  <Anchor>aedc2347a7ce0738aca0405766839f6ca</Anchor>
                  </Node>
                  <Node>
                   <Name>barLineStylesForBarPlot:recordIndexRange:</Name>
@@ -6718,7 +6718,7 @@
                  <Node>
                   <Name>legendTitleForBarPlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
-                  <Anchor>a0260f990d08ebb0addd11b376bc814ed</Anchor>
+                  <Anchor>ac0f9feacac00c55f1ed915fe0606e25a</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -6729,12 +6729,12 @@
                  <Node>
                   <Name>barPlot:barWasSelectedAtRecordIndex:</Name>
                   <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
-                  <Anchor>a045bf92ef3b534c9b367aadbb155d086</Anchor>
+                  <Anchor>a3c8adf424d97bad401976ade0374e45f</Anchor>
                  </Node>
                  <Node>
                   <Name>barPlot:barWasSelectedAtRecordIndex:withEvent:</Name>
                   <Path>protocol_c_p_t_bar_plot_delegate-p.html</Path>
-                  <Anchor>aa730508fe533648e040d3b15afd80001</Anchor>
+                  <Anchor>a50725c0872ea1dc92532624a21442c60</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -7281,6 +7281,31 @@
                 <Anchor>a1133842e0f1c9446242d6a2ce34728ee</Anchor>
                </Node>
                <Node>
+                <Name>CPTFloat</Name>
+                <Path>_c_p_t_definitions_8h.html</Path>
+                <Anchor>a479e1c605b12da89dc3c76f572435269</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTPointMake</Name>
+                <Path>_c_p_t_definitions_8h.html</Path>
+                <Anchor>a13b0594fffae7b4f59cd91ea61b09573</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTRectInset</Name>
+                <Path>_c_p_t_definitions_8h.html</Path>
+                <Anchor>aa791cbebc3ff4ba4af5af05a8420dc3d</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTRectMake</Name>
+                <Path>_c_p_t_definitions_8h.html</Path>
+                <Anchor>a12b10fd595dc158fa09df8d6fdb7cc13</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTSizeMake</Name>
+                <Path>_c_p_t_definitions_8h.html</Path>
+                <Anchor>aaf9616f446e3d7eb16e21711bcf40a17</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTAlignment</Name>
                 <Path>_c_p_t_definitions_8h.html</Path>
                 <Anchor>a968901ece413ec4608f1625910ca9a9f</Anchor>
@@ -7716,7 +7741,7 @@
                  <Node>
                   <Name>newColorStopAtIndex:</Name>
                   <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>a9e9a6c82b772378bc2c1ee102ecdc6c0</Anchor>
+                  <Anchor>a917951692ee14d0dad4cca367c4e4f6b</Anchor>
                  </Node>
                  <Node>
                   <Name>rainbowGradient</Name>
@@ -7726,7 +7751,7 @@
                  <Node>
                   <Name>removeColorStopAtIndex:</Name>
                   <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>abd28bf29423338bbb678fc021f4e3c98</Anchor>
+                  <Anchor>a9301ffff63c7e434fe688962b2df8d85</Anchor>
                  </Node>
                  <Node>
                   <Name>removeColorStopAtPosition:</Name>
@@ -7871,12 +7896,12 @@
                  <Node>
                   <Name>insertPlot:atIndex:</Name>
                   <Path>interface_c_p_t_graph.html</Path>
-                  <Anchor>a22d22861e6ed12c4b93108279a911ba2</Anchor>
+                  <Anchor>ab7208a2480e18775bafcc3208c891cee</Anchor>
                  </Node>
                  <Node>
                   <Name>insertPlot:atIndex:intoPlotSpace:</Name>
                   <Path>interface_c_p_t_graph.html</Path>
-                  <Anchor>a822111f0fbcdf0e9fdea89cca90f752b</Anchor>
+                  <Anchor>a0bd8c32654c18d6a81c1f7e544be7d17</Anchor>
                  </Node>
                  <Node>
                   <Name>newAxisSet</Name>
@@ -7891,12 +7916,12 @@
                  <Node>
                   <Name>plotAtIndex:</Name>
                   <Path>interface_c_p_t_graph.html</Path>
-                  <Anchor>afb261cb61ce7a4bffc5032b1bfc6db6b</Anchor>
+                  <Anchor>acd1fd9fb82de3514eb7dcf90c3fd5db9</Anchor>
                  </Node>
                  <Node>
                   <Name>plotSpaceAtIndex:</Name>
                   <Path>interface_c_p_t_graph.html</Path>
-                  <Anchor>a73f8ce0d973faa74fd36cc68e3c2eb6d</Anchor>
+                  <Anchor>a39907c69e9fa500a2ad5b57667c31047</Anchor>
                  </Node>
                  <Node>
                   <Name>plotSpaceWithIdentifier:</Name>
@@ -8447,7 +8472,7 @@
                  <Node>
                   <Name>legend:shouldDrawSwatchAtIndex:forPlot:inRect:inContext:</Name>
                   <Path>protocol_c_p_t_legend_delegate-p.html</Path>
-                  <Anchor>a296de27e682d78b5caabd715912eb164</Anchor>
+                  <Anchor>a5aeb5bb90d09dfbe1ae63b8ced1bba68</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -8483,7 +8508,7 @@
                  <Node>
                   <Name>insertPlot:atIndex:</Name>
                   <Path>interface_c_p_t_legend.html</Path>
-                  <Anchor>af1bc62e474d875286086fff2cc3da80e</Anchor>
+                  <Anchor>a50a6d913386d2547030a3f86f70619ab</Anchor>
                  </Node>
                  <Node>
                   <Name>legendEntries</Name>
@@ -8503,7 +8528,7 @@
                  <Node>
                   <Name>plotAtIndex:</Name>
                   <Path>interface_c_p_t_legend.html</Path>
-                  <Anchor>a606ad66705362ba17e8376dd28197e41</Anchor>
+                  <Anchor>a53d93d278405c17a0ad67fdca706c586</Anchor>
                  </Node>
                  <Node>
                   <Name>plots</Name>
@@ -9434,7 +9459,7 @@
                  <Node>
                   <Name>sampleIndex:</Name>
                   <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>ab23d66d8894d7177139326eb50c8376a</Anchor>
+                  <Anchor>a4f67fa2a781ce9d2dc2b0f45024029ad</Anchor>
                  </Node>
                  <Node>
                   <Name>samplePointer:</Name>
@@ -9444,7 +9469,7 @@
                  <Node>
                   <Name>samplePointerAtIndex:</Name>
                   <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>a212bc12e3d60d199400de338f061d3bf</Anchor>
+                  <Anchor>affc5d66ab104876e989b8b56a995e7ad</Anchor>
                  </Node>
                  <Node>
                   <Name>sampleValue:</Name>
@@ -9454,7 +9479,7 @@
                  <Node>
                   <Name>sampleValueAtIndex:</Name>
                   <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>acc5d8b0ee2134440aff791a852b17f49</Anchor>
+                  <Anchor>abacd7b1b21cbd5ecc88b36efe6b244a5</Anchor>
                  </Node>
                  <Node>
                   <Name>swapByteOrderForData:sampleSize:</Name>
@@ -9719,12 +9744,12 @@
                  <Node>
                   <Name>legendTitleForPieChart:recordIndex:</Name>
                   <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-                  <Anchor>a8c3e883e352b9e1091747b44355d1c1a</Anchor>
+                  <Anchor>a9c59c9ce0407050e223997bbfb7e1e96</Anchor>
                  </Node>
                  <Node>
                   <Name>radialOffsetForPieChart:recordIndex:</Name>
                   <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-                  <Anchor>a5e1c479464fc6bdde26d5fc50e044c1a</Anchor>
+                  <Anchor>a1aa4801689abd206551396ee885789db</Anchor>
                  </Node>
                  <Node>
                   <Name>radialOffsetsForPieChart:recordIndexRange:</Name>
@@ -9734,7 +9759,7 @@
                  <Node>
                   <Name>sliceFillForPieChart:recordIndex:</Name>
                   <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
-                  <Anchor>a1a14dc189512fde5a0ce1148f50364ac</Anchor>
+                  <Anchor>a999402a36201101f7a7c0bddff5edc9d</Anchor>
                  </Node>
                  <Node>
                   <Name>sliceFillsForPieChart:recordIndexRange:</Name>
@@ -9750,12 +9775,12 @@
                  <Node>
                   <Name>pieChart:sliceWasSelectedAtRecordIndex:</Name>
                   <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
-                  <Anchor>af6c6cf7f61a0cd35fd05928e45a8e2ca</Anchor>
+                  <Anchor>a35e676ca5c0fe07fec852453eb26bab4</Anchor>
                  </Node>
                  <Node>
                   <Name>pieChart:sliceWasSelectedAtRecordIndex:withEvent:</Name>
                   <Path>protocol_c_p_t_pie_chart_delegate-p.html</Path>
-                  <Anchor>a3a32631d407cd002bdafe97ee0af60db</Anchor>
+                  <Anchor>a0e5ea05533c6214aec611a11c21c0c46</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -9928,7 +9953,7 @@
                  <Node>
                   <Name>dataLabelForPlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-                  <Anchor>ac1bda304421f3bff21f4db54282620d9</Anchor>
+                  <Anchor>a040b56efe34d3d31ef94052120cb2999</Anchor>
                  </Node>
                  <Node>
                   <Name>dataLabelsForPlot:recordIndexRange:</Name>
@@ -9938,7 +9963,7 @@
                  <Node>
                   <Name>doubleForPlot:field:recordIndex:</Name>
                   <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-                  <Anchor>a751d55385f637298442d0fdaad503da7</Anchor>
+                  <Anchor>af7ebe3ffc46200418556e27ccf97c3f6</Anchor>
                  </Node>
                  <Node>
                   <Name>doublesForPlot:field:recordIndexRange:</Name>
@@ -9948,7 +9973,7 @@
                  <Node>
                   <Name>numberForPlot:field:recordIndex:</Name>
                   <Path>protocol_c_p_t_plot_data_source-p.html</Path>
-                  <Anchor>a7402b4e0aa6cf2376e1f335acb55ec66</Anchor>
+                  <Anchor>a2756cde65834d2394b3f5ef661f33ff8</Anchor>
                  </Node>
                  <Node>
                   <Name>numberOfRecordsForPlot:</Name>
@@ -9974,12 +9999,12 @@
                  <Node>
                   <Name>plot:dataLabelWasSelectedAtRecordIndex:</Name>
                   <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-                  <Anchor>ad6ca9ed72b54b2715f01c95d086eb78b</Anchor>
+                  <Anchor>a4072c95ca84e57912bffa0ed8b2f5a60</Anchor>
                  </Node>
                  <Node>
                   <Name>plot:dataLabelWasSelectedAtRecordIndex:withEvent:</Name>
                   <Path>protocol_c_p_t_plot_delegate-p.html</Path>
-                  <Anchor>aca6e11525937a7d62f66694d5915eb9e</Anchor>
+                  <Anchor>adb0bb01121df46904ac3e308f790bb85</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -9995,7 +10020,7 @@
                  <Node>
                   <Name>cacheArray:forKey:atRecordIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>a1e1b223ae1c7e740c7b4ac72cec9d887</Anchor>
+                  <Anchor>ae0ffdb3fdef1ae61664791ad07e4217c</Anchor>
                  </Node>
                  <Node>
                   <Name>cachedArrayForKey:</Name>
@@ -10005,17 +10030,17 @@
                  <Node>
                   <Name>cachedDecimalForField:recordIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>a66bfafb7ca36a701fcc02adf3c10e301</Anchor>
+                  <Anchor>a7105afa491531dc56be2e351d983a4bc</Anchor>
                  </Node>
                  <Node>
                   <Name>cachedDoubleForField:recordIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>a2094588e0c3777b7f722a197ed413943</Anchor>
+                  <Anchor>a81173fc21d62d8c9a02119bc8ce43a61</Anchor>
                  </Node>
                  <Node>
                   <Name>cachedNumberForField:recordIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>a992adf7119df39d7f10320c48084dbe6</Anchor>
+                  <Anchor>a2c7200284fadd28e8d56a9e40fb6b60a</Anchor>
                  </Node>
                  <Node>
                   <Name>cachedNumbersForField:</Name>
@@ -10025,7 +10050,7 @@
                  <Node>
                   <Name>cachedValueForKey:recordIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>a582dfb6712a17743f62993d2e2a578e7</Anchor>
+                  <Anchor>aeb020c020b4ae0e61e72d6a92601b7a8</Anchor>
                  </Node>
                  <Node>
                   <Name>cacheNumbers:forField:</Name>
@@ -10035,7 +10060,7 @@
                  <Node>
                   <Name>cacheNumbers:forField:atRecordIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>a585e6360378a42760007251b07acade7</Anchor>
+                  <Anchor>a8b520af4bdca9c516fb93f7c03d51e88</Anchor>
                  </Node>
                  <Node>
                   <Name>dataIndexFromInteractionPoint:</Name>
@@ -10050,7 +10075,7 @@
                  <Node>
                   <Name>drawSwatchForLegend:atIndex:inRect:inContext:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>abe4e69caf2e8163449edf9a85916bbf9</Anchor>
+                  <Anchor>a071199e3b35244f2daa0e155df832536</Anchor>
                  </Node>
                  <Node>
                   <Name>fieldIdentifiers</Name>
@@ -10070,7 +10095,7 @@
                  <Node>
                   <Name>insertDataAtIndex:numberOfRecords:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>ab3c45087d014d31a56d8911b3db89040</Anchor>
+                  <Anchor>aaf45d3cd5ab07ce4b48f6aef5d846d83</Anchor>
                  </Node>
                  <Node>
                   <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
@@ -10115,7 +10140,7 @@
                  <Node>
                   <Name>positionLabelAnnotation:forIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+                  <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
                  </Node>
                  <Node>
                   <Name>relabel</Name>
@@ -10160,7 +10185,7 @@
                  <Node>
                   <Name>titleForLegendEntryAtIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>a1066e5f68687c2a4f97f19398912d36e</Anchor>
+                  <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
                  </Node>
                  <Node>
                   <Name>alignsPointsToPixels</Name>
@@ -10281,7 +10306,7 @@
                  <Node>
                   <Name>positionLabelAnnotation:forIndex:</Name>
                   <Path>category_c_p_t_plot_07_abstract_methods_08.html</Path>
-                  <Anchor>ac9db7bb0cac2d54ec7f843c23c48a7eb</Anchor>
+                  <Anchor>af5f23800375c34d2eb1eeebba17ce2b2</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -10470,7 +10495,7 @@
                  <Node>
                   <Name>insertPlot:atIndex:</Name>
                   <Path>interface_c_p_t_plot_group.html</Path>
-                  <Anchor>ab100faf209cb5f6819c9d4ffdcdd2441</Anchor>
+                  <Anchor>a86ca987af8e3f256163f48dd429c2f1f</Anchor>
                  </Node>
                  <Node>
                   <Name>removePlot:</Name>
@@ -11143,7 +11168,7 @@
                  <Node>
                   <Name>barLineStyleForRangePlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_range_plot_data_source-p.html</Path>
-                  <Anchor>a316457d724e002e906cbff8b58b985e3</Anchor>
+                  <Anchor>a5dcc1cc08d0b62371aedd28ebaf73777</Anchor>
                  </Node>
                  <Node>
                   <Name>barLineStylesForRangePlot:recordIndexRange:</Name>
@@ -11159,12 +11184,12 @@
                  <Node>
                   <Name>rangePlot:rangeWasSelectedAtRecordIndex:</Name>
                   <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
-                  <Anchor>a74b148579f4033d70be59a2a6ebc5463</Anchor>
+                  <Anchor>a41ef8f25b7dd44fc56e6ad10bd6d5d92</Anchor>
                  </Node>
                  <Node>
                   <Name>rangePlot:rangeWasSelectedAtRecordIndex:withEvent:</Name>
                   <Path>protocol_c_p_t_range_plot_delegate-p.html</Path>
-                  <Anchor>a8dbdfb7e0fa0ca835d0cb3e3c99501b0</Anchor>
+                  <Anchor>a20f5d42329cc3ad2917bf8582aff1224</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -11367,7 +11392,7 @@
                  <Node>
                   <Name>symbolForScatterPlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_scatter_plot_data_source-p.html</Path>
-                  <Anchor>aec36a56195942c7ca5bf1d469846b1f8</Anchor>
+                  <Anchor>affc727eaa2c04713828b49598f819764</Anchor>
                  </Node>
                  <Node>
                   <Name>symbolsForScatterPlot:recordIndexRange:</Name>
@@ -11383,12 +11408,12 @@
                  <Node>
                   <Name>scatterPlot:plotSymbolWasSelectedAtRecordIndex:</Name>
                   <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
-                  <Anchor>adb2b5b0dc2c027e3056d645ddff2420e</Anchor>
+                  <Anchor>a296a514ccb58946904a6fa781a6c4e73</Anchor>
                  </Node>
                  <Node>
                   <Name>scatterPlot:plotSymbolWasSelectedAtRecordIndex:withEvent:</Name>
                   <Path>protocol_c_p_t_scatter_plot_delegate-p.html</Path>
-                  <Anchor>a56d4c1d60f795575229583b649f55ef5</Anchor>
+                  <Anchor>a1da0d81587a750ee94e4cd96762f097b</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -11409,12 +11434,12 @@
                  <Node>
                   <Name>plotAreaPointOfVisiblePointAtIndex:</Name>
                   <Path>interface_c_p_t_scatter_plot.html</Path>
-                  <Anchor>a3dfa49dc1c7aae889ca0834ae63dba45</Anchor>
+                  <Anchor>a8dbca5232daceaa2c4fb09ed79e64ebd</Anchor>
                  </Node>
                  <Node>
                   <Name>plotSymbolForRecordIndex:</Name>
                   <Path>interface_c_p_t_scatter_plot.html</Path>
-                  <Anchor>a9f74ed3bfedfb98fc91ce0e485d9b2b9</Anchor>
+                  <Anchor>a4099c3017570cd44820c8d558f059605</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
@@ -11919,7 +11944,7 @@
                  <Node>
                   <Name>decreaseFillForTradingRangePlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-                  <Anchor>acacf0574c8b1029e73fdd67c209cfa73</Anchor>
+                  <Anchor>a6144f6cc60062af154105742fa1a71e5</Anchor>
                  </Node>
                  <Node>
                   <Name>decreaseFillsForTradingRangePlot:recordIndexRange:</Name>
@@ -11929,7 +11954,7 @@
                  <Node>
                   <Name>decreaseLineStyleForTradingRangePlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-                  <Anchor>a435a89ee8c17f9cbb040e9c5f2cf195d</Anchor>
+                  <Anchor>acfaefdf6423efc3d8f62b8e60fb8cb02</Anchor>
                  </Node>
                  <Node>
                   <Name>decreaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
@@ -11939,7 +11964,7 @@
                  <Node>
                   <Name>increaseFillForTradingRangePlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-                  <Anchor>ae9b7253b7ae91d00dce3a0f04d45af0d</Anchor>
+                  <Anchor>ae6f1d190fd66fc0aa350f02ab614ecae</Anchor>
                  </Node>
                  <Node>
                   <Name>increaseFillsForTradingRangePlot:recordIndexRange:</Name>
@@ -11949,7 +11974,7 @@
                  <Node>
                   <Name>increaseLineStyleForTradingRangePlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-                  <Anchor>a99a001076e83f7d70794528fdc5f54f4</Anchor>
+                  <Anchor>a3eb6d30513a0408eb3011377d0c15ba2</Anchor>
                  </Node>
                  <Node>
                   <Name>increaseLineStylesForTradingRangePlot:recordIndexRange:</Name>
@@ -11959,7 +11984,7 @@
                  <Node>
                   <Name>lineStyleForTradingRangePlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_data_source-p.html</Path>
-                  <Anchor>ab9ca3f94634e86d5c5fb74c36b875179</Anchor>
+                  <Anchor>acce497b99bc0e7e9bfca99aadd423b06</Anchor>
                  </Node>
                  <Node>
                   <Name>lineStylesForTradingRangePlot:recordIndexRange:</Name>
@@ -11975,12 +12000,12 @@
                  <Node>
                   <Name>tradingRangePlot:barWasSelectedAtRecordIndex:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
-                  <Anchor>a93ea9a1210ada3f0921a3a57274bc3d7</Anchor>
+                  <Anchor>a1d7880c0ab59766d4ec198179740ec92</Anchor>
                  </Node>
                  <Node>
                   <Name>tradingRangePlot:barWasSelectedAtRecordIndex:withEvent:</Name>
                   <Path>protocol_c_p_t_trading_range_plot_delegate-p.html</Path>
-                  <Anchor>abd79cb81cdbbb29776e9e4e146271202</Anchor>
+                  <Anchor>a09f8f0dc39b8938b2274353266ce445b</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

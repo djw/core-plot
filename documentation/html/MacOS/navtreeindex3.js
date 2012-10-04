@@ -1,5 +1,10 @@
 var NAVTREEINDEX3 =
 {
+"globals_0x61.html":[3,1,0,1],
+"globals_0x62.html":[3,1,0,2],
+"globals_0x63.html":[3,1,0,3],
+"globals_0x64.html":[3,1,0,4],
+"globals_0x65.html":[3,1,0,5],
 "globals_0x66.html":[3,1,0,6],
 "globals_0x67.html":[3,1,0,7],
 "globals_0x69.html":[3,1,0,8],
@@ -244,10 +249,5 @@ var NAVTREEINDEX3 =
 "interface_c_p_t_bar_plot.html#adea03b275e3d8bf928795cf7010d099e":[2,0,10,15],
 "interface_c_p_t_bordered_layer.html":[2,0,13],
 "interface_c_p_t_bordered_layer.html#a04127d4633e8dd352124b753c2a45151":[2,0,13,2],
-"interface_c_p_t_bordered_layer.html#a2e2aa73578fc28eea7f44b5264e69d7e":[2,0,13,1],
-"interface_c_p_t_bordered_layer.html#a32f4e71968bb8876d4869fb7b45d148e":[2,0,13,3],
-"interface_c_p_t_bordered_layer.html#ab7d3984b53ff3a3c545b55e176e4296f":[2,0,13,0],
-"interface_c_p_t_calendar_formatter.html":[2,0,14],
-"interface_c_p_t_calendar_formatter.html#a1b521c6134c5309112eec09831b9c054":[2,0,14,5],
-"interface_c_p_t_calendar_formatter.html#a51a60897aa90c1e74f62f6427ec8c532":[2,0,14,0]
+"interface_c_p_t_bordered_layer.html#a2e2aa73578fc28eea7f44b5264e69d7e":[2,0,13,1]
 };

@@ -4,6 +4,11 @@ var _c_p_t_definitions_8h =
     [ "__cpt_weak", "_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576", null ],
     [ "CPT_SDK_SUPPORTS_WEAK", "_c_p_t_definitions_8h.html#ac23f606c1706a1172bc646f5c9c27218", null ],
     [ "cpt_weak_property", "_c_p_t_definitions_8h.html#a1133842e0f1c9446242d6a2ce34728ee", null ],
+    [ "CPTFloat", "_c_p_t_definitions_8h.html#a479e1c605b12da89dc3c76f572435269", null ],
+    [ "CPTPointMake", "_c_p_t_definitions_8h.html#a13b0594fffae7b4f59cd91ea61b09573", null ],
+    [ "CPTRectInset", "_c_p_t_definitions_8h.html#aa791cbebc3ff4ba4af5af05a8420dc3d", null ],
+    [ "CPTRectMake", "_c_p_t_definitions_8h.html#a12b10fd595dc158fa09df8d6fdb7cc13", null ],
+    [ "CPTSizeMake", "_c_p_t_definitions_8h.html#aaf9616f446e3d7eb16e21711bcf40a17", null ],
     [ "CPTAlignment", "_c_p_t_definitions_8h.html#a968901ece413ec4608f1625910ca9a9f", [
       [ "CPTAlignmentLeft", "_c_p_t_definitions_8h.html#a968901ece413ec4608f1625910ca9a9fae8f682a93e3fc9cfbf5e41109763e9c9", null ],
       [ "CPTAlignmentCenter", "_c_p_t_definitions_8h.html#a968901ece413ec4608f1625910ca9a9fa4648db9a75f1c0e92a90b65e18e49704", null ],
