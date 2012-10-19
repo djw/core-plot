@@ -931,6 +931,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTLayerBoundsDidChangeNotification</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__notification.html</Path>
+    <Anchor>ga669dd393fd70aaec3a78d56db0947f6c</Anchor>
+    <Abstract>Notification sent by all layers when the layer bounds  change.</Abstract>
+    <DeclaredIn>CPTLayer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTLayerBoundsDidChangeNotification</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__notification.html</Path>
+    <Anchor>ga669dd393fd70aaec3a78d56db0947f6c</Anchor>
+    <Abstract>Notification sent by all layers when the layer bounds  change.</Abstract>
+    <DeclaredIn>CPTLayer.m</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTLegendNeedsRedrawForPlotNotification</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
@@ -3923,6 +3945,17 @@
     <Anchor>gacdcc79d94fa2215225c836c3b2f04565</Anchor>
     <Abstract>Notification sent by various objects to tell the graph it should redraw itself.</Abstract>
     <DeclaredIn>CPTGraph.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTLayerBoundsDidChangeNotification</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__notification.html</Path>
+    <Anchor>ga669dd393fd70aaec3a78d56db0947f6c</Anchor>
+    <Abstract>Notification sent by all layers when the layer bounds  change.</Abstract>
+    <DeclaredIn>CPTLayer.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10633,17 +10666,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>sublayerMarginLeft:top:right:bottom:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTBorderedLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a2e2aa73578fc28eea7f44b5264e69d7e</Anchor>
-    <Abstract>Increases the sublayer margin on all four sides by half the width of the border line style...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>addAnnotation:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -11046,359 +11068,37 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>annotations</Name>
+      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTBorderedLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
+    <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>inLayout</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
-      <Scope>CPTAnnotationHostLayer</Scope>
+      <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
-    <Path>interface_c_p_t_annotation_host_layer.html</Path>
-    <Anchor>a6f43db8818fe93657867ceffcde6e529</Anchor>
-    <Abstract>An array of annotations attached to this layer.</Abstract>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>ab16acb1d28e96a1885cf907e449a7325</Anchor>
+    <Abstract>Set to YES when changing the layout of this layer. Otherwise, if masking the border, all layout property changes will be passed to the superlayer.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>graph</Name>
+      <Name>sublayerMarginLeft:top:right:bottom:</Name>
       <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
+      <Type>instm</Type>
+      <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a8fc618d8979ab2b5a15430700bbe2b99</Anchor>
-    <Abstract>The graph for the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingLeft</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a7321f4d4af2e790e41fa277bba0f8456</Anchor>
-    <Abstract>Amount to inset the left side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingTop</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>aa9fce361a854d6a9657a8ccbff59efc1</Anchor>
-    <Abstract>Amount to inset the top of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingRight</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>afea40806e6c6a11d354ddbf15792efcb</Anchor>
-    <Abstract>Amount to inset the right side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingBottom</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a0f90f18ea1fcebd8b6ec3dfb3ed44716</Anchor>
-    <Abstract>Amount to inset the bottom of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>identifier</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad864eabdf1f356b56266d2c713721d99</Anchor>
-    <Abstract>An object used to identify the layer in collections.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad95ea54a7ebf06e98e6ae9dd99d9b86a</Anchor>
-    <Abstract>The scale factor applied to the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>useFastRendering</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2caa71c1ac233aed316ff1f034913262</Anchor>
-    <Abstract>If YES, subclasses should optimize their drawing for speed over precision.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>shadow</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
-    <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBorder</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a06be29da235c38bd3486381fe8a32bc9</Anchor>
-    <Abstract>If YES, a sublayer mask is applied to clip sublayer content to the inside of the border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>outerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2e1e16f13017cc667b069e54ff56e39c</Anchor>
-    <Abstract>A drawing path that encompasses the outer boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>innerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a1101010e2d09bb239f698885938306dd</Anchor>
-    <Abstract>A drawing path that encompasses the inner boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>maskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a00eb8c95b69aa830cead6cb9dd62d549</Anchor>
-    <Abstract>A drawing path that encompasses the layer content including any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayerMaskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>acead64e0d841d758aa3f5d94b1e56825</Anchor>
-    <Abstract>A drawing path that encompasses the layer content excluding any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayersExcludedFromAutomaticLayout</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a38dd48786a040cdb102fa481d2aff263</Anchor>
-    <Abstract>A set of sublayers that should be excluded from the automatic sublayer layout.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>anchorPoint</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/anchorPoint</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>bounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/bounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/contentsScale</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cornerRadius</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/cornerRadius</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>delegate</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/delegate</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>frame</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/frame</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/masksToBounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>needsDisplayOnBoundsChange</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/needsDisplayOnBoundsChange</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opacity</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opacity</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opaque</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opaque</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>autoreverses</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/autoreverses</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>beginTime</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/beginTime</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>duration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/duration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>fillMode</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/fillMode</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatCount</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatCount</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatDuration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatDuration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>speed</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/speed</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>timeOffset</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/timeOffset</Anchor>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>a2e2aa73578fc28eea7f44b5264e69d7e</Anchor>
+    <Abstract>Increases the sublayer margin on all four sides by half the width of the border line style...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11409,6 +11109,17 @@
     </TokenIdentifier>
     <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
     <Anchor>//apple_ref/occ/clm/CALayer/layer</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>annotations</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAnnotationHostLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_annotation_host_layer.html</Path>
+    <Anchor>a6f43db8818fe93657867ceffcde6e529</Anchor>
+    <Abstract>An array of annotations attached to this layer.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -13719,6 +13430,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTBorderedLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
+    <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sublayerMarginLeft:top:right:bottom:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -14220,359 +13943,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>annotations</Name>
+      <Name>inLayout</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
-      <Scope>CPTAnnotationHostLayer</Scope>
+      <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
-    <Path>interface_c_p_t_annotation_host_layer.html</Path>
-    <Anchor>a6f43db8818fe93657867ceffcde6e529</Anchor>
-    <Abstract>An array of annotations attached to this layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>graph</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a8fc618d8979ab2b5a15430700bbe2b99</Anchor>
-    <Abstract>The graph for the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingLeft</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a7321f4d4af2e790e41fa277bba0f8456</Anchor>
-    <Abstract>Amount to inset the left side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingTop</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>aa9fce361a854d6a9657a8ccbff59efc1</Anchor>
-    <Abstract>Amount to inset the top of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingRight</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>afea40806e6c6a11d354ddbf15792efcb</Anchor>
-    <Abstract>Amount to inset the right side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingBottom</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a0f90f18ea1fcebd8b6ec3dfb3ed44716</Anchor>
-    <Abstract>Amount to inset the bottom of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>identifier</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad864eabdf1f356b56266d2c713721d99</Anchor>
-    <Abstract>An object used to identify the layer in collections.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad95ea54a7ebf06e98e6ae9dd99d9b86a</Anchor>
-    <Abstract>The scale factor applied to the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>useFastRendering</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2caa71c1ac233aed316ff1f034913262</Anchor>
-    <Abstract>If YES, subclasses should optimize their drawing for speed over precision.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>shadow</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
-    <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBorder</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a06be29da235c38bd3486381fe8a32bc9</Anchor>
-    <Abstract>If YES, a sublayer mask is applied to clip sublayer content to the inside of the border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>outerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2e1e16f13017cc667b069e54ff56e39c</Anchor>
-    <Abstract>A drawing path that encompasses the outer boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>innerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a1101010e2d09bb239f698885938306dd</Anchor>
-    <Abstract>A drawing path that encompasses the inner boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>maskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a00eb8c95b69aa830cead6cb9dd62d549</Anchor>
-    <Abstract>A drawing path that encompasses the layer content including any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayerMaskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>acead64e0d841d758aa3f5d94b1e56825</Anchor>
-    <Abstract>A drawing path that encompasses the layer content excluding any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayersExcludedFromAutomaticLayout</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a38dd48786a040cdb102fa481d2aff263</Anchor>
-    <Abstract>A set of sublayers that should be excluded from the automatic sublayer layout.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>anchorPoint</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/anchorPoint</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>bounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/bounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/contentsScale</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cornerRadius</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/cornerRadius</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>delegate</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/delegate</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>frame</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/frame</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/masksToBounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>needsDisplayOnBoundsChange</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/needsDisplayOnBoundsChange</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opacity</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opacity</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opaque</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opaque</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>autoreverses</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/autoreverses</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>beginTime</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/beginTime</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>duration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/duration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>fillMode</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/fillMode</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatCount</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatCount</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatDuration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatDuration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>speed</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/speed</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>timeOffset</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/timeOffset</Anchor>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>ab16acb1d28e96a1885cf907e449a7325</Anchor>
+    <Abstract>Set to YES when changing the layout of this layer. Otherwise, if masking the border, all layout property changes will be passed to the superlayer.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17812,6 +17190,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTBorderedLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
+    <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sublayerMarginLeft:top:right:bottom:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -18280,359 +17670,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>annotations</Name>
+      <Name>inLayout</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
-      <Scope>CPTAnnotationHostLayer</Scope>
+      <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
-    <Path>interface_c_p_t_annotation_host_layer.html</Path>
-    <Anchor>a6f43db8818fe93657867ceffcde6e529</Anchor>
-    <Abstract>An array of annotations attached to this layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>graph</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a8fc618d8979ab2b5a15430700bbe2b99</Anchor>
-    <Abstract>The graph for the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingLeft</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a7321f4d4af2e790e41fa277bba0f8456</Anchor>
-    <Abstract>Amount to inset the left side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingTop</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>aa9fce361a854d6a9657a8ccbff59efc1</Anchor>
-    <Abstract>Amount to inset the top of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingRight</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>afea40806e6c6a11d354ddbf15792efcb</Anchor>
-    <Abstract>Amount to inset the right side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingBottom</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a0f90f18ea1fcebd8b6ec3dfb3ed44716</Anchor>
-    <Abstract>Amount to inset the bottom of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>identifier</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad864eabdf1f356b56266d2c713721d99</Anchor>
-    <Abstract>An object used to identify the layer in collections.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad95ea54a7ebf06e98e6ae9dd99d9b86a</Anchor>
-    <Abstract>The scale factor applied to the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>useFastRendering</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2caa71c1ac233aed316ff1f034913262</Anchor>
-    <Abstract>If YES, subclasses should optimize their drawing for speed over precision.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>shadow</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
-    <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBorder</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a06be29da235c38bd3486381fe8a32bc9</Anchor>
-    <Abstract>If YES, a sublayer mask is applied to clip sublayer content to the inside of the border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>outerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2e1e16f13017cc667b069e54ff56e39c</Anchor>
-    <Abstract>A drawing path that encompasses the outer boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>innerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a1101010e2d09bb239f698885938306dd</Anchor>
-    <Abstract>A drawing path that encompasses the inner boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>maskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a00eb8c95b69aa830cead6cb9dd62d549</Anchor>
-    <Abstract>A drawing path that encompasses the layer content including any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayerMaskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>acead64e0d841d758aa3f5d94b1e56825</Anchor>
-    <Abstract>A drawing path that encompasses the layer content excluding any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayersExcludedFromAutomaticLayout</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a38dd48786a040cdb102fa481d2aff263</Anchor>
-    <Abstract>A set of sublayers that should be excluded from the automatic sublayer layout.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>anchorPoint</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/anchorPoint</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>bounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/bounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/contentsScale</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cornerRadius</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/cornerRadius</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>delegate</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/delegate</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>frame</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/frame</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/masksToBounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>needsDisplayOnBoundsChange</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/needsDisplayOnBoundsChange</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opacity</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opacity</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opaque</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opaque</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>autoreverses</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/autoreverses</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>beginTime</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/beginTime</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>duration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/duration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>fillMode</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/fillMode</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatCount</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatCount</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatDuration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatDuration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>speed</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/speed</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>timeOffset</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/timeOffset</Anchor>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>ab16acb1d28e96a1885cf907e449a7325</Anchor>
+    <Abstract>Set to YES when changing the layout of this layer. Otherwise, if masking the border, all layout property changes will be passed to the superlayer.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26663,6 +25708,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTBorderedLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
+    <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sublayerMarginLeft:top:right:bottom:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -27109,359 +26166,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>annotations</Name>
+      <Name>inLayout</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
-      <Scope>CPTAnnotationHostLayer</Scope>
+      <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
-    <Path>interface_c_p_t_annotation_host_layer.html</Path>
-    <Anchor>a6f43db8818fe93657867ceffcde6e529</Anchor>
-    <Abstract>An array of annotations attached to this layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>graph</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a8fc618d8979ab2b5a15430700bbe2b99</Anchor>
-    <Abstract>The graph for the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingLeft</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a7321f4d4af2e790e41fa277bba0f8456</Anchor>
-    <Abstract>Amount to inset the left side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingTop</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>aa9fce361a854d6a9657a8ccbff59efc1</Anchor>
-    <Abstract>Amount to inset the top of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingRight</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>afea40806e6c6a11d354ddbf15792efcb</Anchor>
-    <Abstract>Amount to inset the right side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingBottom</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a0f90f18ea1fcebd8b6ec3dfb3ed44716</Anchor>
-    <Abstract>Amount to inset the bottom of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>identifier</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad864eabdf1f356b56266d2c713721d99</Anchor>
-    <Abstract>An object used to identify the layer in collections.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad95ea54a7ebf06e98e6ae9dd99d9b86a</Anchor>
-    <Abstract>The scale factor applied to the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>useFastRendering</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2caa71c1ac233aed316ff1f034913262</Anchor>
-    <Abstract>If YES, subclasses should optimize their drawing for speed over precision.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>shadow</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
-    <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBorder</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a06be29da235c38bd3486381fe8a32bc9</Anchor>
-    <Abstract>If YES, a sublayer mask is applied to clip sublayer content to the inside of the border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>outerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2e1e16f13017cc667b069e54ff56e39c</Anchor>
-    <Abstract>A drawing path that encompasses the outer boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>innerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a1101010e2d09bb239f698885938306dd</Anchor>
-    <Abstract>A drawing path that encompasses the inner boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>maskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a00eb8c95b69aa830cead6cb9dd62d549</Anchor>
-    <Abstract>A drawing path that encompasses the layer content including any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayerMaskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>acead64e0d841d758aa3f5d94b1e56825</Anchor>
-    <Abstract>A drawing path that encompasses the layer content excluding any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayersExcludedFromAutomaticLayout</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a38dd48786a040cdb102fa481d2aff263</Anchor>
-    <Abstract>A set of sublayers that should be excluded from the automatic sublayer layout.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>anchorPoint</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/anchorPoint</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>bounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/bounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/contentsScale</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cornerRadius</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/cornerRadius</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>delegate</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/delegate</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>frame</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/frame</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/masksToBounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>needsDisplayOnBoundsChange</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/needsDisplayOnBoundsChange</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opacity</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opacity</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opaque</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opaque</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>autoreverses</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/autoreverses</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>beginTime</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/beginTime</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>duration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/duration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>fillMode</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/fillMode</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatCount</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatCount</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatDuration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatDuration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>speed</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/speed</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>timeOffset</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/timeOffset</Anchor>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>ab16acb1d28e96a1885cf907e449a7325</Anchor>
+    <Abstract>Set to YES when changing the layout of this layer. Otherwise, if masking the border, all layout property changes will be passed to the superlayer.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34166,6 +32878,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTBorderedLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
+    <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sublayerMarginLeft:top:right:bottom:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -34601,359 +33325,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>annotations</Name>
+      <Name>inLayout</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
-      <Scope>CPTAnnotationHostLayer</Scope>
+      <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
-    <Path>interface_c_p_t_annotation_host_layer.html</Path>
-    <Anchor>a6f43db8818fe93657867ceffcde6e529</Anchor>
-    <Abstract>An array of annotations attached to this layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>graph</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a8fc618d8979ab2b5a15430700bbe2b99</Anchor>
-    <Abstract>The graph for the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingLeft</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a7321f4d4af2e790e41fa277bba0f8456</Anchor>
-    <Abstract>Amount to inset the left side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingTop</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>aa9fce361a854d6a9657a8ccbff59efc1</Anchor>
-    <Abstract>Amount to inset the top of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingRight</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>afea40806e6c6a11d354ddbf15792efcb</Anchor>
-    <Abstract>Amount to inset the right side of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>paddingBottom</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a0f90f18ea1fcebd8b6ec3dfb3ed44716</Anchor>
-    <Abstract>Amount to inset the bottom of each sublayer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>identifier</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad864eabdf1f356b56266d2c713721d99</Anchor>
-    <Abstract>An object used to identify the layer in collections.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>ad95ea54a7ebf06e98e6ae9dd99d9b86a</Anchor>
-    <Abstract>The scale factor applied to the layer.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>useFastRendering</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2caa71c1ac233aed316ff1f034913262</Anchor>
-    <Abstract>If YES, subclasses should optimize their drawing for speed over precision.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>shadow</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
-    <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBorder</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a06be29da235c38bd3486381fe8a32bc9</Anchor>
-    <Abstract>If YES, a sublayer mask is applied to clip sublayer content to the inside of the border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>outerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a2e1e16f13017cc667b069e54ff56e39c</Anchor>
-    <Abstract>A drawing path that encompasses the outer boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>innerBorderPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a1101010e2d09bb239f698885938306dd</Anchor>
-    <Abstract>A drawing path that encompasses the inner boundary of the layer border.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>maskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a00eb8c95b69aa830cead6cb9dd62d549</Anchor>
-    <Abstract>A drawing path that encompasses the layer content including any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayerMaskingPath</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>acead64e0d841d758aa3f5d94b1e56825</Anchor>
-    <Abstract>A drawing path that encompasses the layer content excluding any borders. Set to NULL when no masking ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sublayersExcludedFromAutomaticLayout</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a38dd48786a040cdb102fa481d2aff263</Anchor>
-    <Abstract>A set of sublayers that should be excluded from the automatic sublayer layout.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>anchorPoint</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/anchorPoint</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>bounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/bounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>contentsScale</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/contentsScale</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cornerRadius</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/cornerRadius</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>delegate</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/delegate</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>frame</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/frame</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>masksToBounds</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/masksToBounds</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>needsDisplayOnBoundsChange</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/needsDisplayOnBoundsChange</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opacity</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opacity</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>opaque</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instp</Type>
-      <Scope>CALayer</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/instp/CALayer/opaque</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>autoreverses</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/autoreverses</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>beginTime</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/beginTime</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>duration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/duration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>fillMode</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/fillMode</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatCount</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatCount</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>repeatDuration</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/repeatDuration</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>speed</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/speed</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>timeOffset</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>intfp</Type>
-      <Scope>CAMediaTiming-p</Scope>
-    </TokenIdentifier>
-    <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
-    <Anchor>//apple_ref/occ/intfp/CAMediaTiming/timeOffset</Anchor>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>ab16acb1d28e96a1885cf907e449a7325</Anchor>
+    <Abstract>Set to YES when changing the layout of this layer. Otherwise, if masking the border, all layout property changes will be passed to the superlayer.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -40122,6 +38501,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTBorderedLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_bordered_layer.html</Path>
+    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
+    <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sublayerMarginLeft:top:right:bottom:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -40629,7 +39020,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a136358c51d1ee508198f1ce3b50ab29f</Anchor>
-    <Abstract>Initializes a newly allocated CPTAnnotation object.</Abstract>
+    <Abstract>Initializes a newly allocated CPTXYPlotSpace object.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

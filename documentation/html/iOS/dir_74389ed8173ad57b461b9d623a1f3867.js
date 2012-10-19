@@ -75,10 +75,8 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
       [ "CPTImage", "interface_c_p_t_image.html", "interface_c_p_t_image" ]
     ] ],
     [ "CPTImage.m", "_c_p_t_image_8m.html", null ],
-    [ "CPTLayer.h", "_c_p_t_layer_8h.html", [
-      [ "CPTLayer", "interface_c_p_t_layer.html", "interface_c_p_t_layer" ]
-    ] ],
-    [ "CPTLayer.m", "_c_p_t_layer_8m.html", null ],
+    [ "CPTLayer.h", "_c_p_t_layer_8h.html", "_c_p_t_layer_8h" ],
+    [ "CPTLayer.m", "_c_p_t_layer_8m.html", "_c_p_t_layer_8m" ],
     [ "CPTLayerAnnotation.h", "_c_p_t_layer_annotation_8h.html", [
       [ "CPTLayerAnnotation", "interface_c_p_t_layer_annotation.html", "interface_c_p_t_layer_annotation" ]
     ] ],

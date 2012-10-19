@@ -219,6 +219,11 @@
             <Anchor>gacdcc79d94fa2215225c836c3b2f04565</Anchor>
            </Node>
            <Node>
+            <Name>CPTLayerBoundsDidChangeNotification</Name>
+            <Path>group__notification.html</Path>
+            <Anchor>ga669dd393fd70aaec3a78d56db0947f6c</Anchor>
+           </Node>
+           <Node>
             <Name>CPTLegendNeedsLayoutForPlotNotification</Name>
             <Path>group__notification.html</Path>
             <Anchor>ga531a1b173c232bc63c207180d2ebd174</Anchor>
@@ -1191,6 +1196,11 @@
               <Anchor>ab7d3984b53ff3a3c545b55e176e4296f</Anchor>
              </Node>
              <Node>
+              <Name>renderBorderedLayer:asVectorInContext:</Name>
+              <Path>interface_c_p_t_bordered_layer.html</Path>
+              <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+             </Node>
+             <Node>
               <Name>sublayerMarginLeft:top:right:bottom:</Name>
               <Path>interface_c_p_t_bordered_layer.html</Path>
               <Anchor>a2e2aa73578fc28eea7f44b5264e69d7e</Anchor>
@@ -1204,6 +1214,11 @@
               <Name>fill</Name>
               <Path>interface_c_p_t_bordered_layer.html</Path>
               <Anchor>a32f4e71968bb8876d4869fb7b45d148e</Anchor>
+             </Node>
+             <Node>
+              <Name>inLayout</Name>
+              <Path>interface_c_p_t_bordered_layer.html</Path>
+              <Anchor>ab16acb1d28e96a1885cf907e449a7325</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -7114,6 +7129,11 @@
                   <Anchor>ab7d3984b53ff3a3c545b55e176e4296f</Anchor>
                  </Node>
                  <Node>
+                  <Name>renderBorderedLayer:asVectorInContext:</Name>
+                  <Path>interface_c_p_t_bordered_layer.html</Path>
+                  <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+                 </Node>
+                 <Node>
                   <Name>sublayerMarginLeft:top:right:bottom:</Name>
                   <Path>interface_c_p_t_bordered_layer.html</Path>
                   <Anchor>a2e2aa73578fc28eea7f44b5264e69d7e</Anchor>
@@ -7127,6 +7147,11 @@
                   <Name>fill</Name>
                   <Path>interface_c_p_t_bordered_layer.html</Path>
                   <Anchor>a32f4e71968bb8876d4869fb7b45d148e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>inLayout</Name>
+                  <Path>interface_c_p_t_bordered_layer.html</Path>
+                  <Anchor>ab16acb1d28e96a1885cf907e449a7325</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -8615,11 +8640,23 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>CPTLayerBoundsDidChangeNotification</Name>
+                <Path>_c_p_t_layer_8h.html</Path>
+                <Anchor>ga669dd393fd70aaec3a78d56db0947f6c</Anchor>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
               <Name>CPTLayer.m</Name>
               <Path>_c_p_t_layer_8m.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>CPTLayerBoundsDidChangeNotification</Name>
+                <Path>_c_p_t_layer_8m.html</Path>
+                <Anchor>ga669dd393fd70aaec3a78d56db0947f6c</Anchor>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>CPTLayerAnnotation.h</Name>

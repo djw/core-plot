@@ -77,12 +77,17 @@ $(document).ready(function(){initNavTree('_c_p_t_bordered_layer_8h_source.html',
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">@private</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno"><a class="code" href="interface_c_p_t_bordered_layer.html#a04127d4633e8dd352124b753c2a45151">    9</a></span>&#160;    <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *<a class="code" href="interface_c_p_t_bordered_layer.html#a04127d4633e8dd352124b753c2a45151" title="The line style for the layer border.">borderLineStyle</a>;</div>
 <div class="line"><a name="l00010"></a><span class="lineno"><a class="code" href="interface_c_p_t_bordered_layer.html#a32f4e71968bb8876d4869fb7b45d148e">   10</a></span>&#160;    <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *<a class="code" href="interface_c_p_t_bordered_layer.html#a32f4e71968bb8876d4869fb7b45d148e" title="The fill for the layer background.">fill</a>;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *borderLineStyle;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *fill;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="code" href="interface_c_p_t_bordered_layer.html#ab16acb1d28e96a1885cf907e449a7325">   11</a></span>&#160;    <a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a> <a class="code" href="interface_c_p_t_bordered_layer.html#ab16acb1d28e96a1885cf907e449a7325" title="Set to YES when changing the layout of this layer. Otherwise, if masking the border, all layout property changes will be passed to the superlayer.">inLayout</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> *borderLineStyle;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *fill;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite) BOOL inLayout;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;-(void)renderBorderedLayer:(<a class="code" href="interface_c_p_t_bordered_layer.html" title="A layer with a border line and background fill.">CPTBorderedLayer</a> *)layer asVectorInContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">@end</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
