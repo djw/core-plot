@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"interface_c_p_t_bar_plot.html#adea03b275e3d8bf928795cf7010d099e":[2,0,10,15],
 "interface_c_p_t_bordered_layer.html":[2,0,13],
 "interface_c_p_t_bordered_layer.html#a04127d4633e8dd352124b753c2a45151":[2,0,13,3],
 "interface_c_p_t_bordered_layer.html#a2e2aa73578fc28eea7f44b5264e69d7e":[2,0,13,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "interface_c_p_t_line_cap.html#a38d68a7618dfdcf600134f6a343074e4":[2,0,39,14],
 "interface_c_p_t_line_cap.html#a4d4916b27147835abc0140c2b290fbdb":[2,0,39,10],
 "interface_c_p_t_line_cap.html#a7be1cf663f628ad0fa710b54573ce5de":[2,0,39,3],
-"interface_c_p_t_line_cap.html#a8645084095025f60f5271f7f8a36acc7":[2,0,39,5],
-"interface_c_p_t_line_cap.html#a9494f963cd7667cd0834ee7b48e940b3":[2,0,39,19]
+"interface_c_p_t_line_cap.html#a8645084095025f60f5271f7f8a36acc7":[2,0,39,5]
 };

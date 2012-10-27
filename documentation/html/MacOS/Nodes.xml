@@ -1011,6 +1011,11 @@
             <Path>interface_c_p_t_axis_set.html</Path>
             <Subnodes>
              <Node>
+              <Name>axisForCoordinate:atIndex:</Name>
+              <Path>interface_c_p_t_axis_set.html</Path>
+              <Anchor>a4be38dafb00d0ab726c5582547852398</Anchor>
+             </Node>
+             <Node>
               <Name>initWithFrame:</Name>
               <Path>interface_c_p_t_axis_set.html</Path>
               <Anchor>af1b1939683cc055a4489fabdc6c43066</Anchor>
@@ -6839,6 +6844,11 @@
                 <Name>CPTAxisSet</Name>
                 <Path>interface_c_p_t_axis_set.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>axisForCoordinate:atIndex:</Name>
+                  <Path>interface_c_p_t_axis_set.html</Path>
+                  <Anchor>a4be38dafb00d0ab726c5582547852398</Anchor>
+                 </Node>
                  <Node>
                   <Name>initWithFrame:</Name>
                   <Path>interface_c_p_t_axis_set.html</Path>

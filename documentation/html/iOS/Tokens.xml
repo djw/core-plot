@@ -8142,17 +8142,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>axes</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxisSet</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis_set.html</Path>
-    <Anchor>a70be0bf758f38164cf984a49c2750550</Anchor>
-    <Abstract>The axes in the axis set.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>borderLineStyle</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -8506,6 +8495,29 @@
     </TokenIdentifier>
     <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
     <Anchor>//apple_ref/occ/intfp/CAMediaTiming/timeOffset</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axes</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxisSet</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis_set.html</Path>
+    <Anchor>a70be0bf758f38164cf984a49c2750550</Anchor>
+    <Abstract>The axes in the axis set.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axisForCoordinate:atIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxisSet</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis_set.html</Path>
+    <Anchor>a4be38dafb00d0ab726c5582547852398</Anchor>
+    <Abstract>Returns the first, second, third, etc. axis with the given coordinate value.</Abstract>
+    <DeclaredIn>CPTAxisSet.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -37418,6 +37430,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>axisForCoordinate:atIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxisSet</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis_set.html</Path>
+    <Anchor>a4be38dafb00d0ab726c5582547852398</Anchor>
+    <Abstract>Returns the first, second, third, etc. axis with the given coordinate value.</Abstract>
+    <DeclaredIn>CPTAxisSet.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>init</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -37796,17 +37820,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>axes</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxisSet</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis_set.html</Path>
-    <Anchor>a70be0bf758f38164cf984a49c2750550</Anchor>
-    <Abstract>The axes in the axis set.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>borderLineStyle</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -37815,6 +37828,17 @@
     <Path>interface_c_p_t_axis_set.html</Path>
     <Anchor>a39354c9bc6f6da53cb41af986c579a75</Anchor>
     <Abstract>The line style for the layer border. If nil, the border is not drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axes</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxisSet</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis_set.html</Path>
+    <Anchor>a70be0bf758f38164cf984a49c2750550</Anchor>
+    <Abstract>The axes in the axis set.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
