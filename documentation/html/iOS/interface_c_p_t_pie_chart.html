@@ -66,8 +66,7 @@ $(document).ready(function(){initNavTree('interface_c_p_t_pie_chart.html','');})
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="class_c_p_t_pie_chart-members.html">List of all members</a> &#124;
-<a href="#properties">Properties</a>  </div>
+<a href="class_c_p_t_pie_chart-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">CPTPieChart Class Reference</div>  </div>
 </div><!--header-->
@@ -109,6 +108,13 @@ Public Class Methods</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Information</div></td></tr>
+<tr class="memitem:a37ad311932e5219f093d4cfc2daeff16"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_pie_chart.html#a37ad311932e5219f093d4cfc2daeff16">pieSliceIndexAtAngle:</a></td></tr>
+<tr class="memdesc:a37ad311932e5219f093d4cfc2daeff16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the pie slices for one corresponding to the given angle.  <a href="#a37ad311932e5219f093d4cfc2daeff16"></a><br/></td></tr>
+<tr class="separator:a37ad311932e5219f093d4cfc2daeff16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54ad30e26087c307a063bb0b4300e8c9"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_pie_chart.html#a54ad30e26087c307a063bb0b4300e8c9">medianAngleForPieSliceIndex:</a></td></tr>
+<tr class="memdesc:a54ad30e26087c307a063bb0b4300e8c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the halfway-point between the starting and ending angles of a given pie slice.  <a href="#a54ad30e26087c307a063bb0b4300e8c9"></a><br/></td></tr>
+<tr class="separator:a54ad30e26087c307a063bb0b4300e8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr class="memitem:a921a8ed64d495233f8ce420f2f69067b"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b">initWithFrame:</a><code> [implementation]</code></td></tr>
 <tr class="memdesc:a921a8ed64d495233f8ce420f2f69067b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_pie_chart.html" title="A pie chart.">CPTPieChart</a> object with the provided frame rectangle.  <a href="#a921a8ed64d495233f8ce420f2f69067b"></a><br/></td></tr>
@@ -311,6 +317,7 @@ Public Instance Methods</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Appearance</div></td></tr>
 <tr class="memitem:ga8e4be9249da46cd1df689a8fd29f62ae"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#ga8e4be9249da46cd1df689a8fd29f62ae">pieRadius</a></td></tr>
 <tr class="memdesc:ga8e4be9249da46cd1df689a8fd29f62ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">The radius of the overall pie chart. Defaults to <code>80%</code> of the initial frame size.  <a href="group__plot_animation_pie_chart.html#ga8e4be9249da46cd1df689a8fd29f62ae"></a><br/></td></tr>
 <tr class="separator:ga8e4be9249da46cd1df689a8fd29f62ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -323,18 +330,20 @@ Properties</h2></td></tr>
 <tr class="memitem:ga8dcd13d8dda5f7a4f88d8656b822a265"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#ga8dcd13d8dda5f7a4f88d8656b822a265">endAngle</a></td></tr>
 <tr class="memdesc:ga8dcd13d8dda5f7a4f88d8656b822a265"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ending angle for the last slice in radians. If <code>NaN</code>, the ending angle is the same as the start angle, i.e., the pie slices fill the whole circle. Defaults to <code>NaN</code>.  <a href="group__plot_animation_pie_chart.html#ga8dcd13d8dda5f7a4f88d8656b822a265"></a><br/></td></tr>
 <tr class="separator:ga8dcd13d8dda5f7a4f88d8656b822a265"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab616377e7b58de77c9edb3e9fa507660"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1">CPTPieDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#ab616377e7b58de77c9edb3e9fa507660">sliceDirection</a></td></tr>
-<tr class="memdesc:ab616377e7b58de77c9edb3e9fa507660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the starting point. Defaults to clockwise.  <a href="#ab616377e7b58de77c9edb3e9fa507660"></a><br/></td></tr>
-<tr class="separator:ab616377e7b58de77c9edb3e9fa507660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab616377e7b58de77c9edb3e9fa507660"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1">CPTPieDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#gab616377e7b58de77c9edb3e9fa507660">sliceDirection</a></td></tr>
+<tr class="memdesc:gab616377e7b58de77c9edb3e9fa507660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the starting point. Defaults to clockwise.  <a href="group__plot_animation_pie_chart.html#gab616377e7b58de77c9edb3e9fa507660"></a><br/></td></tr>
+<tr class="separator:gab616377e7b58de77c9edb3e9fa507660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac624054adc7fd7cb8f870900119ff8e1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGPoint">CGPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_pie_chart.html#gac624054adc7fd7cb8f870900119ff8e1">centerAnchor</a></td></tr>
 <tr class="memdesc:gac624054adc7fd7cb8f870900119ff8e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the center of the pie chart with the x and y coordinates given as a fraction of the width and height, respectively. Defaults to (<code>0.5</code>, <code>0.5</code>).  <a href="group__plot_animation_pie_chart.html#gac624054adc7fd7cb8f870900119ff8e1"></a><br/></td></tr>
 <tr class="separator:gac624054adc7fd7cb8f870900119ff8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Drawing</div></td></tr>
 <tr class="memitem:a9124e88bc83ed9b8d5cece7603d892b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#a9124e88bc83ed9b8d5cece7603d892b7">borderLineStyle</a></td></tr>
 <tr class="memdesc:a9124e88bc83ed9b8d5cece7603d892b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style used to outline the pie slices. If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a>, no border is drawn. Defaults to <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a>.  <a href="#a9124e88bc83ed9b8d5cece7603d892b7"></a><br/></td></tr>
 <tr class="separator:a9124e88bc83ed9b8d5cece7603d892b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a141c3bf7dbbbcb0d34175d81247256e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#a141c3bf7dbbbcb0d34175d81247256e4">overlayFill</a></td></tr>
 <tr class="memdesc:a141c3bf7dbbbcb0d34175d81247256e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fill drawn on top of the pie chart. Can be used to add shading and/or gloss effects. Defaults to <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a>.  <a href="#a141c3bf7dbbbcb0d34175d81247256e4"></a><br/></td></tr>
 <tr class="separator:a141c3bf7dbbbcb0d34175d81247256e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Data Labels</div></td></tr>
 <tr class="memitem:a425663a2d5c558dfe28700f45ab9944c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_pie_chart.html#a425663a2d5c558dfe28700f45ab9944c">labelRotationRelativeToRadius</a></td></tr>
 <tr class="memdesc:a425663a2d5c558dfe28700f45ab9944c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a>, the default, the data labels are rotated relative to the default coordinate system (the positive x-axis is zero rotation). If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, the labels are rotated relative to the radius of the pie chart (zero rotation is parallel to the radius).  <a href="#a425663a2d5c558dfe28700f45ab9944c"></a><br/></td></tr>
 <tr class="separator:a425663a2d5c558dfe28700f45ab9944c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -540,7 +549,7 @@ Properties</h2></td></tr>
 <li><a class="el" href="group__plot_animation_pie_chart.html#gaa635801e780dc5de8c6171066819e8e0">pieInnerRadius</a> = <code>0.0</code></li>
 <li><a class="el" href="group__plot_animation_pie_chart.html#ga27933b9f07bd608546132806f160a98d">startAngle</a> = <code>π/2</code></li>
 <li><a class="el" href="group__plot_animation_pie_chart.html#ga8dcd13d8dda5f7a4f88d8656b822a265">endAngle</a> = <code>NaN</code></li>
-<li><a class="el" href="interface_c_p_t_pie_chart.html#ab616377e7b58de77c9edb3e9fa507660">sliceDirection</a> = <a class="el" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1aa1b4df7575240af272a52cc0d9401185" title="Pie slices are drawn in a clockwise direction.">CPTPieDirectionClockwise</a></li>
+<li><a class="el" href="group__plot_animation_pie_chart.html#gab616377e7b58de77c9edb3e9fa507660">sliceDirection</a> = <a class="el" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1aa1b4df7575240af272a52cc0d9401185" title="Pie slices are drawn in a clockwise direction.">CPTPieDirectionClockwise</a></li>
 <li><a class="el" href="group__plot_animation_pie_chart.html#gac624054adc7fd7cb8f870900119ff8e1">centerAnchor</a> = (<code>0.5</code>, <code>0.5</code>)</li>
 <li><a class="el" href="interface_c_p_t_pie_chart.html#a9124e88bc83ed9b8d5cece7603d892b7">borderLineStyle</a> = <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a></li>
 <li><a class="el" href="interface_c_p_t_pie_chart.html#a141c3bf7dbbbcb0d34175d81247256e4">overlayFill</a> = <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a></li>
@@ -557,6 +566,56 @@ Properties</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The initialized <a class="el" href="interface_c_p_t_pie_chart.html" title="A pie chart.">CPTPieChart</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c">CPTPlot</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a54ad30e26087c307a063bb0b4300e8c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a>) medianAngleForPieSliceIndex: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a>)&#160;</td>
+          <td class="paramname"><em>index</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the halfway-point between the starting and ending angles of a given pie slice. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>A pie slice index. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The angle that is halfway between the slice's starting and ending angles, or <code>NaN</code> if an angle matching the given index cannot be found. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a37ad311932e5219f093d4cfc2daeff16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a>) pieSliceIndexAtAngle: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a>)&#160;</td>
+          <td class="paramname"><em>angle</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Searches the pie slices for one corresponding to the given angle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angle</td><td>An angle in radians. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The index of the pie slice that matches the given angle. Returns <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_Constants/Reference/reference.html#//apple_ref/doc/c_ref/NSNotFound">NSNotFound</a> if no such pie slice exists. </dd></dl>
 
 </div>
 </div>
@@ -671,28 +730,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A fill drawn on top of the pie chart. Can be used to add shading and/or gloss effects. Defaults to <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a>. </p>
-
-</div>
-</div>
-<a class="anchor" id="ab616377e7b58de77c9edb3e9fa507660"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">- (<a class="el" href="_c_p_t_pie_chart_8h.html#a0b209ff8a87cc94ca1901c089415e7c1">CPTPieDirection</a>) sliceDirection</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the starting point. Defaults to clockwise. </p>
 
 </div>
 </div>

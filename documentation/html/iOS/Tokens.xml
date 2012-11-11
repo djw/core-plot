@@ -4085,6 +4085,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sliceDirection</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPieChart</Scope>
+    </TokenIdentifier>
+    <Path>group__plot_animation_pie_chart.html</Path>
+    <Anchor>gab616377e7b58de77c9edb3e9fa507660</Anchor>
+    <Abstract>Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the st...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>plotAnimation</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
@@ -9726,28 +9737,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>lineStyle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTBarPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_bar_plot.html</Path>
-    <Anchor>adea03b275e3d8bf928795cf7010d099e</Anchor>
-    <Abstract>The line style for the bar outline. If nil, the outline is not drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>fill</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTBarPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_bar_plot.html</Path>
-    <Anchor>ad0972046dbbd640f5a3a22999a0cb284</Anchor>
-    <Abstract>The fill style for the bars. If nil, the bars are not filled.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>barsAreHorizontal</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -9789,6 +9778,28 @@
     <Path>interface_c_p_t_bar_plot.html</Path>
     <Anchor>a91e6813045c340ad81e62949c1f19b18</Anchor>
     <Abstract>Sets the plot range for the independent axis.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineStyle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTBarPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_bar_plot.html</Path>
+    <Anchor>adea03b275e3d8bf928795cf7010d099e</Anchor>
+    <Abstract>The line style for the bar outline. If nil, the outline is not drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fill</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTBarPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_bar_plot.html</Path>
+    <Anchor>ad0972046dbbd640f5a3a22999a0cb284</Anchor>
+    <Abstract>The fill style for the bars. If nil, the bars are not filled.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21588,6 +21599,30 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>pieSliceIndexAtAngle:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPieChart</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_pie_chart.html</Path>
+    <Anchor>a37ad311932e5219f093d4cfc2daeff16</Anchor>
+    <Abstract>Searches the pie slices for one corresponding to the given angle.</Abstract>
+    <DeclaredIn>CPTPieChart.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>medianAngleForPieSliceIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPieChart</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_pie_chart.html</Path>
+    <Anchor>a54ad30e26087c307a063bb0b4300e8c9</Anchor>
+    <Abstract>Computes the halfway-point between the starting and ending angles of a given pie slice.</Abstract>
+    <DeclaredIn>CPTPieChart.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>initWithFrame:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -22424,8 +22459,8 @@
       <Type>instp</Type>
       <Scope>CPTPieChart</Scope>
     </TokenIdentifier>
-    <Path>interface_c_p_t_pie_chart.html</Path>
-    <Anchor>ab616377e7b58de77c9edb3e9fa507660</Anchor>
+    <Path>group__plot_animation_pie_chart.html</Path>
+    <Anchor>gab616377e7b58de77c9edb3e9fa507660</Anchor>
     <Abstract>Determines whether the pie slices are drawn in a clockwise or counter-clockwise direction from the st...</Abstract>
   </Token>
   <Token>
@@ -30847,17 +30882,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>pointingDeviceDownEvent:atPoint:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTScatterPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_scatter_plot.html</Path>
-    <Anchor>a20b580ab2ba747f8dcf116ebd78dbba6</Anchor>
-    <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>plotRangeForField:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -31623,6 +31647,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>areaBaseValue</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTScatterPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_scatter_plot.html</Path>
+    <Anchor>a64bb064f84c73f12b9b2960c3f21ae55</Anchor>
+    <Abstract>The Y coordinate of the straight boundary of the area fill. If not a number, the area is not filled...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>areaBaseValue2</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTScatterPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_scatter_plot.html</Path>
+    <Anchor>a8cefac4a3f4f00635d7c64268a7a27a9</Anchor>
+    <Abstract>The Y coordinate of the straight boundary of the secondary area fill. If not a number, the area is not filled.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>interpolation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTScatterPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_scatter_plot.html</Path>
+    <Anchor>aeb700f644a939b24bc8f78336443af12</Anchor>
+    <Abstract>The interpolation algorithm used for lines between data points. Default is CPTScatterPlotInterpolatio...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>dataLineStyle</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -31664,50 +31721,6 @@
     <Path>interface_c_p_t_scatter_plot.html</Path>
     <Anchor>aff0dd9499ac91f20e8c3b0c363677a31</Anchor>
     <Abstract>The fill style for the area above the data line. If nil, the area is not filled.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>areaBaseValue</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTScatterPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_scatter_plot.html</Path>
-    <Anchor>a64bb064f84c73f12b9b2960c3f21ae55</Anchor>
-    <Abstract>The Y coordinate of the straight boundary of the area fill. If not a number, the area is not filled...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>areaBaseValue2</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTScatterPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_scatter_plot.html</Path>
-    <Anchor>a8cefac4a3f4f00635d7c64268a7a27a9</Anchor>
-    <Abstract>The Y coordinate of the straight boundary of the secondary area fill. If not a number, the area is not filled.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>interpolation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTScatterPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_scatter_plot.html</Path>
-    <Anchor>aeb700f644a939b24bc8f78336443af12</Anchor>
-    <Abstract>The interpolation algorithm used for lines between data points. Default is CPTScatterPlotInterpolatio...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>plotSymbolMarginForHitDetection</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTScatterPlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_scatter_plot.html</Path>
-    <Anchor>a83d327295d6ac30fdc0edfabb2449334</Anchor>
-    <Abstract>A margin added to each side of a symbol when determining whether it has been hit.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32262,6 +32275,28 @@
     </TokenIdentifier>
     <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
     <Anchor>//apple_ref/occ/intfp/CAMediaTiming/timeOffset</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>plotSymbolMarginForHitDetection</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTScatterPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_scatter_plot.html</Path>
+    <Anchor>a83d327295d6ac30fdc0edfabb2449334</Anchor>
+    <Abstract>A margin added to each side of a symbol when determining whether it has been hit.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointingDeviceDownEvent:atPoint:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTScatterPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_scatter_plot.html</Path>
+    <Anchor>a20b580ab2ba747f8dcf116ebd78dbba6</Anchor>
+    <Abstract>Informs the receiver that the user has touched the screen.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34891,6 +34926,50 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>plotStyle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTradingRangePlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_trading_range_plot.html</Path>
+    <Anchor>a9584aee2dddff9e7974ab0b53153afdd</Anchor>
+    <Abstract>The style of trading range plot drawn. The default is CPTTradingRangePlotStyleOHLC.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>barWidth</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTradingRangePlot</Scope>
+    </TokenIdentifier>
+    <Path>group__plot_animation_trading_range_plot.html</Path>
+    <Anchor>gabb195850cc3e10886c76e4d326563e4f</Anchor>
+    <Abstract>The width of bars in candlestick plots (view coordinates).</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stickLength</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTradingRangePlot</Scope>
+    </TokenIdentifier>
+    <Path>group__plot_animation_trading_range_plot.html</Path>
+    <Anchor>ga343ebbd30e751ae54bfa6eeb1442e7e7</Anchor>
+    <Abstract>The length of close and open sticks on OHLC plots (view coordinates).</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>barCornerRadius</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTradingRangePlot</Scope>
+    </TokenIdentifier>
+    <Path>group__plot_animation_trading_range_plot.html</Path>
+    <Anchor>ga2e9f919d3391c00618891cf4b187e0b7</Anchor>
+    <Abstract>The corner radius used for candlestick plots. Defaults to 0.0.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>lineStyle</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -34943,50 +35022,6 @@
     <Path>interface_c_p_t_trading_range_plot.html</Path>
     <Anchor>a525cba26a6ddaa1155b21465303ad68e</Anchor>
     <Abstract>The fill used with a candlestick plot when close &amp;lt; open.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>plotStyle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTTradingRangePlot</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_trading_range_plot.html</Path>
-    <Anchor>a9584aee2dddff9e7974ab0b53153afdd</Anchor>
-    <Abstract>The style of trading range plot drawn. The default is CPTTradingRangePlotStyleOHLC.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>barWidth</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTTradingRangePlot</Scope>
-    </TokenIdentifier>
-    <Path>group__plot_animation_trading_range_plot.html</Path>
-    <Anchor>gabb195850cc3e10886c76e4d326563e4f</Anchor>
-    <Abstract>The width of bars in candlestick plots (view coordinates).</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>stickLength</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTTradingRangePlot</Scope>
-    </TokenIdentifier>
-    <Path>group__plot_animation_trading_range_plot.html</Path>
-    <Anchor>ga343ebbd30e751ae54bfa6eeb1442e7e7</Anchor>
-    <Abstract>The length of close and open sticks on OHLC plots (view coordinates).</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>barCornerRadius</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTTradingRangePlot</Scope>
-    </TokenIdentifier>
-    <Path>group__plot_animation_trading_range_plot.html</Path>
-    <Anchor>ga2e9f919d3391c00618891cf4b187e0b7</Anchor>
-    <Abstract>The corner radius used for candlestick plots. Defaults to 0.0.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
