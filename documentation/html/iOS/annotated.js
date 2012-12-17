@@ -1,5 +1,11 @@
 var annotated =
 [
+    [ "CPTAnimation", "interface_c_p_t_animation.html", "interface_c_p_t_animation" ],
+    [ "CPTAnimation(CPTAnimationPeriodAdditions)", "category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html", "category_c_p_t_animation_07_c_p_t_animation_period_additions_08" ],
+    [ "<CPTAnimationDelegate>", "protocol_c_p_t_animation_delegate-p.html", "protocol_c_p_t_animation_delegate-p" ],
+    [ "CPTAnimationOperation", "interface_c_p_t_animation_operation.html", "interface_c_p_t_animation_operation" ],
+    [ "CPTAnimationPeriod", "interface_c_p_t_animation_period.html", "interface_c_p_t_animation_period" ],
+    [ "CPTAnimationPeriod(AbstractMethods)", "category_c_p_t_animation_period_07_abstract_methods_08.html", "category_c_p_t_animation_period_07_abstract_methods_08" ],
     [ "CPTAnnotation", "interface_c_p_t_annotation.html", "interface_c_p_t_annotation" ],
     [ "CPTAnnotation(AbstractMethods)", "category_c_p_t_annotation_07_abstract_methods_08.html", "category_c_p_t_annotation_07_abstract_methods_08" ],
     [ "CPTAnnotationHostLayer", "interface_c_p_t_annotation_host_layer.html", "interface_c_p_t_annotation_host_layer" ],

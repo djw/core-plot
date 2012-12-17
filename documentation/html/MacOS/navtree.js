@@ -31,13 +31,14 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_c_p_t_annotation_8h.html",
-"_c_p_t_numeric_data_type_8m.html#af674df64d1830cf66691c2927f6ace97",
-"_c_p_t_utilities_8h.html#adcbdbd10791c880ee51e1c1e47929df1",
-"globals.html",
-"interface_c_p_t_bar_plot.html#ad0972046dbbd640f5a3a22999a0cb284",
-"interface_c_p_t_line_cap.html#a7be1cf663f628ad0fa710b54573ce5de",
-"interface_c_p_t_plot_symbol.html#a90309e41b8fb0a83b7f55166392fb3be"
+"_c_p_t_animation_8h.html",
+"_c_p_t_mutable_numeric_data_09_type_conversion_8m.html",
+"_c_p_t_utilities_8h.html#a00cd4fa9bc439191406e291fcc1d73cb",
+"functions_0x64.html",
+"interface_c_p_t_animation_period.html#a7882ace41eb0f2b385654a7265805d5e",
+"interface_c_p_t_graph.html#afd2dd137ca9744576057b33b2e9b3f4a",
+"interface_c_p_t_plot.html#a8be7b7e904558fbd5ea954704ae9355a",
+"protocol_c_p_t_pie_chart_data_source-p.html#a999402a36201101f7a7c0bddff5edc9d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

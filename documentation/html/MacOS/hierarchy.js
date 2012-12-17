@@ -34,6 +34,8 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "CPTAnimation(CPTAnimationPeriodAdditions)", "category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html", null ],
+    [ "CPTAnimationPeriod(AbstractMethods)", "category_c_p_t_animation_period_07_abstract_methods_08.html", null ],
     [ "CPTAnnotation(AbstractMethods)", "category_c_p_t_annotation_07_abstract_methods_08.html", null ],
     [ "CPTAxis(AbstractMethods)", "category_c_p_t_axis_07_abstract_methods_08.html", null ],
     [ "CPTColor(CPTPlatformSpecificColorExtensions)", "category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08.html", null ],
@@ -121,6 +123,9 @@ var hierarchy =
     [ "<NSKeyValueBindingCreation>", "https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ApplicationKit/Protocols/NSKeyValueBindingCreation_Protocol/Reference/Reference.html", [
       [ "NSObject", "https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html", [
         [ "CALayer", "https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html", null ],
+        [ "CPTAnimation", "interface_c_p_t_animation.html", null ],
+        [ "CPTAnimationOperation", "interface_c_p_t_animation_operation.html", null ],
+        [ "CPTAnimationPeriod", "interface_c_p_t_animation_period.html", null ],
         [ "CPTAnnotation", "interface_c_p_t_annotation.html", null ],
         [ "CPTAxisLabel", "interface_c_p_t_axis_label.html", null ],
         [ "CPTColor", "interface_c_p_t_color.html", null ],
@@ -156,6 +161,7 @@ var hierarchy =
     ] ],
     [ "NSNumber(CPTExtensions)", "category_n_s_number_07_c_p_t_extensions_08.html", null ],
     [ "<NSObject>", "https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html", [
+      [ "<CPTAnimationDelegate>", "protocol_c_p_t_animation_delegate-p.html", null ],
       [ "<CPTAxisDelegate>", "protocol_c_p_t_axis_delegate-p.html", null ],
       [ "<CPTLegendDelegate>", "protocol_c_p_t_legend_delegate-p.html", null ],
       [ "<CPTPlotDataSource>", "protocol_c_p_t_plot_data_source-p.html", [
