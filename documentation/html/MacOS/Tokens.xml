@@ -7598,6 +7598,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -7862,6 +7873,16 @@
     <Path>interface_c_p_t_axis.html</Path>
     <Abstract>An abstract axis class.</Abstract>
     <DeclaredIn>CPTAxis.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>updateAxisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8774,6 +8795,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10433,6 +10465,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -11076,6 +11119,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -13077,6 +13131,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -14137,13 +14202,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -16974,13 +17039,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -18365,6 +18430,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -19197,6 +19273,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20488,6 +20575,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>renderAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -21213,13 +21311,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -27447,6 +27545,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -28777,6 +28886,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -30277,6 +30397,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -30555,13 +30686,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -31941,6 +32072,17 @@
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
     <Abstract>The shadow drawn under the layer content. If nil (the default), no shadow is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -35448,6 +35590,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -37432,6 +37585,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -38395,13 +38559,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>
@@ -41113,6 +41277,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -41770,6 +41945,16 @@
     <Path>interface_c_p_t_x_y_axis.html</Path>
     <Anchor>a8807c07c6e743d5532388aa9d554a2b6</Anchor>
     <Abstract>Initializes a newly allocated CPTXYAxis object with the provided frame rectangle.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>updateAxisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -43035,6 +43220,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -43916,6 +44112,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shadowMargin</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_layer.html</Path>
+    <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
+    <Abstract>The maximum margin size needed to fully enclose the layer shadow.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>masksToBorder</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -44500,13 +44707,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>renderBorderedLayer:asVectorInContext:</Name>
+      <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
       <Scope>CPTBorderedLayer</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_bordered_layer.html</Path>
-    <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+    <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
     <Abstract>Draws the fill and border of a CPTBorderedLayer into the given graphics context.</Abstract>
     <DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
   </Token>

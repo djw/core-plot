@@ -1032,6 +1032,11 @@
               <Anchor>ab76319c8e162fe4bb190f4e8545e9375</Anchor>
              </Node>
              <Node>
+              <Name>updateAxisTitle</Name>
+              <Path>interface_c_p_t_axis.html</Path>
+              <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
+             </Node>
+             <Node>
               <Name>updateMajorTickLabels</Name>
               <Path>interface_c_p_t_axis.html</Path>
               <Anchor>a0309fd80bac45af748560f9341b65e2d</Anchor>
@@ -1617,9 +1622,9 @@
               <Anchor>ab7d3984b53ff3a3c545b55e176e4296f</Anchor>
              </Node>
              <Node>
-              <Name>renderBorderedLayer:asVectorInContext:</Name>
+              <Name>renderBorderedLayerAsVectorInContext:</Name>
               <Path>interface_c_p_t_bordered_layer.html</Path>
-              <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+              <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
              </Node>
              <Node>
               <Name>sublayerMarginLeft:top:right:bottom:</Name>
@@ -2644,6 +2649,11 @@
               <Name>shadow</Name>
               <Path>interface_c_p_t_layer.html</Path>
               <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
+             </Node>
+             <Node>
+              <Name>shadowMargin</Name>
+              <Path>interface_c_p_t_layer.html</Path>
+              <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
              </Node>
              <Node>
               <Name>sublayerMaskingPath</Name>
@@ -7484,6 +7494,11 @@
                   <Anchor>ab76319c8e162fe4bb190f4e8545e9375</Anchor>
                  </Node>
                  <Node>
+                  <Name>updateAxisTitle</Name>
+                  <Path>interface_c_p_t_axis.html</Path>
+                  <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
+                 </Node>
+                 <Node>
                   <Name>updateMajorTickLabels</Name>
                   <Path>interface_c_p_t_axis.html</Path>
                   <Anchor>a0309fd80bac45af748560f9341b65e2d</Anchor>
@@ -8209,9 +8224,9 @@
                   <Anchor>ab7d3984b53ff3a3c545b55e176e4296f</Anchor>
                  </Node>
                  <Node>
-                  <Name>renderBorderedLayer:asVectorInContext:</Name>
+                  <Name>renderBorderedLayerAsVectorInContext:</Name>
                   <Path>interface_c_p_t_bordered_layer.html</Path>
-                  <Anchor>a7d3eb8e29793bb9f272ab675547c0443</Anchor>
+                  <Anchor>adad7b14539c65329aa9d2b4cf9a0e1c8</Anchor>
                  </Node>
                  <Node>
                   <Name>sublayerMarginLeft:top:right:bottom:</Name>
@@ -9702,6 +9717,11 @@
                   <Name>shadow</Name>
                   <Path>interface_c_p_t_layer.html</Path>
                   <Anchor>a5d02df0255dcbd533fddf5cf3bfaf1a4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>shadowMargin</Name>
+                  <Path>interface_c_p_t_layer.html</Path>
+                  <Anchor>ab3a471615d0f555c19105f535d3c16c5</Anchor>
                  </Node>
                  <Node>
                   <Name>sublayerMaskingPath</Name>

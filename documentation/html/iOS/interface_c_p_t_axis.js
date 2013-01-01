@@ -11,6 +11,7 @@ var interface_c_p_t_axis =
     [ "relabel", "interface_c_p_t_axis.html#a8142c888e487899aa4816a6b865f5cea", null ],
     [ "removeBackgroundLimitBand:", "interface_c_p_t_axis.html#ae963f0bb8651f7dfaa74024a8c179f13", null ],
     [ "setNeedsRelabel", "interface_c_p_t_axis.html#ab76319c8e162fe4bb190f4e8545e9375", null ],
+    [ "updateAxisTitle", "interface_c_p_t_axis.html#a456a04a537bf6840d6beceb05f466d76", null ],
     [ "updateMajorTickLabels", "interface_c_p_t_axis.html#a0309fd80bac45af748560f9341b65e2d", null ],
     [ "updateMinorTickLabels", "interface_c_p_t_axis.html#a7769ce93d289793fbec4aecdc080844a", null ],
     [ "viewPointForCoordinateDecimalNumber:", "interface_c_p_t_axis.html#af25bf15f120918facdcd1a73ff0f963c", null ],

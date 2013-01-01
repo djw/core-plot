@@ -29,6 +29,7 @@ var interface_c_p_t_layer =
     [ "paddingRight", "interface_c_p_t_layer.html#afea40806e6c6a11d354ddbf15792efcb", null ],
     [ "paddingTop", "interface_c_p_t_layer.html#aa9fce361a854d6a9657a8ccbff59efc1", null ],
     [ "shadow", "interface_c_p_t_layer.html#a5d02df0255dcbd533fddf5cf3bfaf1a4", null ],
+    [ "shadowMargin", "interface_c_p_t_layer.html#ab3a471615d0f555c19105f535d3c16c5", null ],
     [ "sublayerMaskingPath", "interface_c_p_t_layer.html#acead64e0d841d758aa3f5d94b1e56825", null ],
     [ "sublayersExcludedFromAutomaticLayout", "interface_c_p_t_layer.html#a38dd48786a040cdb102fa481d2aff263", null ],
     [ "useFastRendering", "interface_c_p_t_layer.html#a2caa71c1ac233aed316ff1f034913262", null ]

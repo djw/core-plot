@@ -66,7 +66,8 @@ $(document).ready(function(){initNavTree('interface_c_p_t_axis.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="class_c_p_t_axis-members.html">List of all members</a>  </div>
+<a href="class_c_p_t_axis-members.html">List of all members</a> &#124;
+<a href="#pub-methods">Public Instance Methods</a>  </div>
   <div class="headertitle">
 <div class="title">CPTAxis Class Reference</div>  </div>
 </div><!--header-->
@@ -97,6 +98,8 @@ $(document).ready(function(){initNavTree('interface_c_p_t_axis.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr class="memitem:a456a04a537bf6840d6beceb05f466d76"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a456a04a537bf6840d6beceb05f466d76">updateAxisTitle</a><code> [implementation]</code></td></tr>
+<tr class="separator:a456a04a537bf6840d6beceb05f466d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Ticks</div></td></tr>
 <tr class="memitem:a57f71a8b45765ab6fe353d8311a37ee1"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_axis.html#a57f71a8b45765ab6fe353d8311a37ee1">filteredMajorTickLocations:</a></td></tr>
 <tr class="memdesc:a57f71a8b45765ab6fe353d8311a37ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes any major ticks falling inside the label exclusion ranges from the set of tick locations.  <a href="#a57f71a8b45765ab6fe353d8311a37ee1"></a><br/></td></tr>
@@ -345,6 +348,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a5d02df0255dcbd533fddf5cf3bfaf1a4 inherit properties_interface_c_p_t_layer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_shadow.html">CPTShadow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer.html#a5d02df0255dcbd533fddf5cf3bfaf1a4">shadow</a></td></tr>
 <tr class="memdesc:a5d02df0255dcbd533fddf5cf3bfaf1a4 inherit properties_interface_c_p_t_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">The shadow drawn under the layer content. If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> (the default), no shadow is drawn.  <a href="#a5d02df0255dcbd533fddf5cf3bfaf1a4"></a><br/></td></tr>
 <tr class="separator:a5d02df0255dcbd533fddf5cf3bfaf1a4 inherit properties_interface_c_p_t_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a471615d0f555c19105f535d3c16c5 inherit properties_interface_c_p_t_layer"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGSize">CGSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer.html#ab3a471615d0f555c19105f535d3c16c5">shadowMargin</a></td></tr>
+<tr class="memdesc:ab3a471615d0f555c19105f535d3c16c5 inherit properties_interface_c_p_t_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum margin size needed to fully enclose the layer <a class="el" href="interface_c_p_t_layer.html#a5d02df0255dcbd533fddf5cf3bfaf1a4">shadow</a>.  <a href="#ab3a471615d0f555c19105f535d3c16c5"></a><br/></td></tr>
+<tr class="separator:ab3a471615d0f555c19105f535d3c16c5 inherit properties_interface_c_p_t_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06be29da235c38bd3486381fe8a32bc9 inherit properties_interface_c_p_t_layer"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_layer.html#a06be29da235c38bd3486381fe8a32bc9">masksToBorder</a></td></tr>
 <tr class="memdesc:a06be29da235c38bd3486381fe8a32bc9 inherit properties_interface_c_p_t_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, a sublayer mask is applied to clip sublayer content to the inside of the border.  <a href="#a06be29da235c38bd3486381fe8a32bc9"></a><br/></td></tr>
 <tr class="separator:a06be29da235c38bd3486381fe8a32bc9 inherit properties_interface_c_p_t_layer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -848,6 +854,29 @@ Axis Ranges</div></div>
 </div><div class="memdoc">
 
 <p>Marks the receiver as needing to update the labels before the content is next drawn. </p>
+
+</div>
+</div>
+<a class="anchor" id="a456a04a537bf6840d6beceb05f466d76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateAxisTitle </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

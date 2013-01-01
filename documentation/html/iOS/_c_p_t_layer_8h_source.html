@@ -105,46 +105,47 @@ $(document).ready(function(){initNavTree('_c_p_t_layer_8h_source.html','');});
 <div class="line"><a name="l00050"></a><span class="lineno"><a class="code" href="interface_c_p_t_layer.html#ad95ea54a7ebf06e98e6ae9dd99d9b86a">   50</a></span>&#160;<span class="keyword">@property</span> (readwrite, assign) CGFloat contentsScale;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">@property</span> (nonatomic, readonly, assign) BOOL useFastRendering;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, copy) <a class="code" href="interface_c_p_t_shadow.html" title="Immutable wrapper for various shadow drawing properties.">CPTShadow</a> *shadow;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, assign) BOOL masksToBorder;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, assign) CGPathRef outerBorderPath;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, assign) CGPathRef innerBorderPath;</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="code" href="interface_c_p_t_layer.html#a00eb8c95b69aa830cead6cb9dd62d549">   60</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly, assign) CGPathRef maskingPath;</div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="code" href="interface_c_p_t_layer.html#acead64e0d841d758aa3f5d94b1e56825">   61</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly, assign) CGPathRef sublayerMaskingPath;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, copy) id&lt;NSCopying, NSCoding, NSObject&gt; identifier;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="code" href="interface_c_p_t_layer.html#a38dd48786a040cdb102fa481d2aff263">   71</a></span>&#160;<span class="keyword">@property</span> (readonly) <a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *sublayersExcludedFromAutomaticLayout;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;-(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>)initWithFrame:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGRect">CGRect</a>)newFrame;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;-(void)renderAsVectorInContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;-(void)recursivelyRenderInContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;-(void)layoutAndRenderInContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;-(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSData_Class/Reference/Reference.html">NSData</a> *)dataForPDFRepresentationOfLayer;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;-(void)applySublayerMaskToContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context forSublayer:(<a class="code" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> *)sublayer withOffset:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGPoint">CGPoint</a>)offset;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;-(void)applyMaskToContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;-(void)pixelAlign;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;-(void)sublayerMarginLeft:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a> *)left top:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a> *)top right:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a> *)right bottom:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a> *)bottom;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;-(void)logLayers;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keyword">@end</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">// for MacOS 10.6 SDK compatibility</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED &lt; 1070</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor"></span><span class="keyword">@interface </span>CALayer(CPTExtensions)</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="keyword">@property</span> (readwrite) CGFloat contentsScale;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="keyword">@end</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="interface_c_p_t_layer.html#ab3a471615d0f555c19105f535d3c16c5">   53</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly) CGSize shadowMargin;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, assign) BOOL masksToBorder;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, assign) CGPathRef outerBorderPath;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, assign) CGPathRef innerBorderPath;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="code" href="interface_c_p_t_layer.html#a00eb8c95b69aa830cead6cb9dd62d549">   61</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly, assign) CGPathRef maskingPath;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="code" href="interface_c_p_t_layer.html#acead64e0d841d758aa3f5d94b1e56825">   62</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readonly, assign) CGPathRef sublayerMaskingPath;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, copy) id&lt;NSCopying, NSCoding, NSObject&gt; identifier;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="code" href="interface_c_p_t_layer.html#a38dd48786a040cdb102fa481d2aff263">   72</a></span>&#160;<span class="keyword">@property</span> (readonly) <a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference.html">NSSet</a> *sublayersExcludedFromAutomaticLayout;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;-(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>)initWithFrame:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGRect">CGRect</a>)newFrame;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;-(void)renderAsVectorInContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;-(void)recursivelyRenderInContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;-(void)layoutAndRenderInContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;-(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSData_Class/Reference/Reference.html">NSData</a> *)dataForPDFRepresentationOfLayer;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;-(void)applySublayerMaskToContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context forSublayer:(<a class="code" href="interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot.">CPTLayer</a> *)sublayer withOffset:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGPoint">CGPoint</a>)offset;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;-(void)applyMaskToContext:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;-(void)pixelAlign;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;-(void)sublayerMarginLeft:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a> *)left top:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a> *)top right:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a> *)right bottom:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a> *)bottom;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;-(void)logLayers;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">// for MacOS 10.6 SDK compatibility</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED &lt; 1070</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor"></span><span class="keyword">@interface </span>CALayer(CPTExtensions)</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keyword">@property</span> (readwrite) CGFloat contentsScale;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
