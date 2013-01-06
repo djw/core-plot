@@ -7111,16 +7111,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>updateAxisTitle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>filteredMajorTickLocations:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -7609,83 +7599,6 @@
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>ad63bdd206b79377d54a9e2eee9362d12</Anchor>
     <Abstract>The line cap for the end of the axis line with the maximum value.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleTextStyle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a54be876224c0bbc93964bf7b54e8fb99</Anchor>
-    <Abstract>The text style used to draw the axis title text.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>axisTitle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a7926f918e17bb671be30aac6bc2169e7</Anchor>
-    <Abstract>The axis title. If nil, no title is drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleOffset</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>group__axis_animation.html</Path>
-    <Anchor>gae68fb272fc8934a30842bcf31eb6ae9c</Anchor>
-    <Abstract>The offset distance between the axis title and the axis line.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>title</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a0141093359c38a240da73f5e89f858f0</Anchor>
-    <Abstract>A convenience property for setting the text title of the axis.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleRotation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>group__axis_animation.html</Path>
-    <Anchor>gab127b0be3b73ef8d4be5f558f8c0df2f</Anchor>
-    <Abstract>The rotation angle of the axis title in radians. If NaN (the default), the title will be parallel to ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleLocation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>aae16ecb681fe187b78a23e83f55325cb</Anchor>
-    <Abstract>The position along the axis where the axis title should be centered. If NaN (the default), the defaultTitleLocation will be used.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>defaultTitleLocation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>ace7cf1ff4de08b4f04d564e7779479ec</Anchor>
-    <Abstract>The position along the axis where the axis title should be centered if titleLocation is NaN...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8207,6 +8120,95 @@
     </TokenIdentifier>
     <Path>https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction.html</Path>
     <Anchor>//apple_ref/occ/intfp/CAMediaTiming/timeOffset</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleTextStyle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a54be876224c0bbc93964bf7b54e8fb99</Anchor>
+    <Abstract>The text style used to draw the axis title text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a7926f918e17bb671be30aac6bc2169e7</Anchor>
+    <Abstract>The axis title. If nil, no title is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleOffset</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>group__axis_animation.html</Path>
+    <Anchor>gae68fb272fc8934a30842bcf31eb6ae9c</Anchor>
+    <Abstract>The offset distance between the axis title and the axis line.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>title</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a0141093359c38a240da73f5e89f858f0</Anchor>
+    <Abstract>A convenience property for setting the text title of the axis.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleRotation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>group__axis_animation.html</Path>
+    <Anchor>gab127b0be3b73ef8d4be5f558f8c0df2f</Anchor>
+    <Abstract>The rotation angle of the axis title in radians. If NaN (the default), the title will be parallel to ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleLocation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>aae16ecb681fe187b78a23e83f55325cb</Anchor>
+    <Abstract>The position along the axis where the axis title should be centered. If NaN (the default), the defaultTitleLocation will be used.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>defaultTitleLocation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>ace7cf1ff4de08b4f04d564e7779479ec</Anchor>
+    <Abstract>The position along the axis where the axis title should be centered if titleLocation is NaN...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>updateAxisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
+    <Abstract>Update the axis title position.</Abstract>
+    <DeclaredIn>CPTAxis.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -37919,16 +37921,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>updateAxisTitle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>filteredMajorTickLocations:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -37972,6 +37964,18 @@
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>af25bf15f120918facdcd1a73ff0f963c</Anchor>
     <Abstract>Converts a position on the axis to drawing coordinates.</Abstract>
+    <DeclaredIn>CPTAxis.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>updateAxisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a456a04a537bf6840d6beceb05f466d76</Anchor>
+    <Abstract>Update the axis title position.</Abstract>
     <DeclaredIn>CPTAxis.h</DeclaredIn>
   </Token>
   <Token>
@@ -38539,83 +38543,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>titleTextStyle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a54be876224c0bbc93964bf7b54e8fb99</Anchor>
-    <Abstract>The text style used to draw the axis title text.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>axisTitle</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a7926f918e17bb671be30aac6bc2169e7</Anchor>
-    <Abstract>The axis title. If nil, no title is drawn.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleOffset</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>group__axis_animation.html</Path>
-    <Anchor>gae68fb272fc8934a30842bcf31eb6ae9c</Anchor>
-    <Abstract>The offset distance between the axis title and the axis line.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>title</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a0141093359c38a240da73f5e89f858f0</Anchor>
-    <Abstract>A convenience property for setting the text title of the axis.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleRotation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>group__axis_animation.html</Path>
-    <Anchor>gab127b0be3b73ef8d4be5f558f8c0df2f</Anchor>
-    <Abstract>The rotation angle of the axis title in radians. If NaN (the default), the title will be parallel to ...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>titleLocation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>aae16ecb681fe187b78a23e83f55325cb</Anchor>
-    <Abstract>The position along the axis where the axis title should be centered. If NaN (the default), the defaultTitleLocation will be used.</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>defaultTitleLocation</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instp</Type>
-      <Scope>CPTAxis</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>ace7cf1ff4de08b4f04d564e7779479ec</Anchor>
-    <Abstract>The position along the axis where the axis title should be centered if titleLocation is NaN...</Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>majorIntervalLength</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -38778,6 +38705,83 @@
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a6102deaadd58e4cad6c109a7bf2c96d6</Anchor>
     <Abstract>The axis set that the axis belongs to.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleTextStyle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a54be876224c0bbc93964bf7b54e8fb99</Anchor>
+    <Abstract>The text style used to draw the axis title text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axisTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a7926f918e17bb671be30aac6bc2169e7</Anchor>
+    <Abstract>The axis title. If nil, no title is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleOffset</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>group__axis_animation.html</Path>
+    <Anchor>gae68fb272fc8934a30842bcf31eb6ae9c</Anchor>
+    <Abstract>The offset distance between the axis title and the axis line.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>title</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a0141093359c38a240da73f5e89f858f0</Anchor>
+    <Abstract>A convenience property for setting the text title of the axis.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleRotation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>group__axis_animation.html</Path>
+    <Anchor>gab127b0be3b73ef8d4be5f558f8c0df2f</Anchor>
+    <Abstract>The rotation angle of the axis title in radians. If NaN (the default), the title will be parallel to ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>titleLocation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>aae16ecb681fe187b78a23e83f55325cb</Anchor>
+    <Abstract>The position along the axis where the axis title should be centered. If NaN (the default), the defaultTitleLocation will be used.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>defaultTitleLocation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>ace7cf1ff4de08b4f04d564e7779479ec</Anchor>
+    <Abstract>The position along the axis where the axis title should be centered if titleLocation is NaN...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
