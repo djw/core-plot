@@ -2422,7 +2422,7 @@
     </TokenIdentifier>
     <Path>_c_p_t_scatter_plot_8h.html</Path>
     <Anchor>a0a9d8cdea584afe83809167eedeca8daa61b6b90b68d1b6c1ba6330683ed700df</Anchor>
-    <Abstract>Steps beginnning at data point.</Abstract>
+    <Abstract>Steps beginning at data point.</Abstract>
     <DeclaredIn>CPTScatterPlot.h</DeclaredIn>
   </Token>
   <Token>
@@ -7653,7 +7653,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a3a16c174519ce26e20538a238c6c4a5e</Anchor>
-    <Abstract>The number of ticks that should be targeted when autogenerating positions. This property only applies...</Abstract>
+    <Abstract>The number of ticks that should be targeted when auto-generating positions. This property only applie...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15851,46 +15851,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>awakeFromNib</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTGraphHostingView</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_graph_hosting_view.html</Path>
-    <Anchor>ad90154aa5faba3a168db8eb82d3e227d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>encodeWithCoder:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTGraphHostingView</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_graph_hosting_view.html</Path>
-    <Anchor>af47dc5c034d7c79f037157f3bce4be2e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>initWithCoder:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTGraphHostingView</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_graph_hosting_view.html</Path>
-    <Anchor>a21462660eb1f15f3ea29ee4b8a3c811d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pinchGestureRecognizer</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CPTGraphHostingView</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_graph_hosting_view.html</Path>
-    <Anchor>a6bd1dffebe1484ddd8711743a2a32f3d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>hostedGraph</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -15971,6 +15931,66 @@
     </TokenIdentifier>
     <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
     <Anchor>//apple_ref/occ/clm/NSObject/new</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>classForCoder</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/classForCoder</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>copy</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/copy</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dealloc</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/dealloc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>finalize</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/finalize</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/init</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mutableCopy</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>NSObject</Scope>
+    </TokenIdentifier>
+    <Path>https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
+    <Anchor>//apple_ref/occ/instm/NSObject/mutableCopy</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -38594,7 +38614,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a3a16c174519ce26e20538a238c6c4a5e</Anchor>
-    <Abstract>The number of ticks that should be targeted when autogenerating positions. This property only applies...</Abstract>
+    <Abstract>The number of ticks that should be targeted when auto-generating positions. This property only applie...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -2158,26 +2158,6 @@
             <Path>interface_c_p_t_graph_hosting_view.html</Path>
             <Subnodes>
              <Node>
-              <Name>awakeFromNib</Name>
-              <Path>interface_c_p_t_graph_hosting_view.html</Path>
-              <Anchor>ad90154aa5faba3a168db8eb82d3e227d</Anchor>
-             </Node>
-             <Node>
-              <Name>encodeWithCoder:</Name>
-              <Path>interface_c_p_t_graph_hosting_view.html</Path>
-              <Anchor>af47dc5c034d7c79f037157f3bce4be2e</Anchor>
-             </Node>
-             <Node>
-              <Name>initWithCoder:</Name>
-              <Path>interface_c_p_t_graph_hosting_view.html</Path>
-              <Anchor>a21462660eb1f15f3ea29ee4b8a3c811d</Anchor>
-             </Node>
-             <Node>
-              <Name>pinchGestureRecognizer</Name>
-              <Path>interface_c_p_t_graph_hosting_view.html</Path>
-              <Anchor>a6bd1dffebe1484ddd8711743a2a32f3d</Anchor>
-             </Node>
-             <Node>
               <Name>allowPinchScaling</Name>
               <Path>interface_c_p_t_graph_hosting_view.html</Path>
               <Anchor>a377eaa7fab835f4ab3503f533b61117f</Anchor>
@@ -6313,26 +6293,6 @@
                 <Name>CPTGraphHostingView</Name>
                 <Path>interface_c_p_t_graph_hosting_view.html</Path>
                 <Subnodes>
-                 <Node>
-                  <Name>awakeFromNib</Name>
-                  <Path>interface_c_p_t_graph_hosting_view.html</Path>
-                  <Anchor>ad90154aa5faba3a168db8eb82d3e227d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>encodeWithCoder:</Name>
-                  <Path>interface_c_p_t_graph_hosting_view.html</Path>
-                  <Anchor>af47dc5c034d7c79f037157f3bce4be2e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>initWithCoder:</Name>
-                  <Path>interface_c_p_t_graph_hosting_view.html</Path>
-                  <Anchor>a21462660eb1f15f3ea29ee4b8a3c811d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>pinchGestureRecognizer</Name>
-                  <Path>interface_c_p_t_graph_hosting_view.html</Path>
-                  <Anchor>a6bd1dffebe1484ddd8711743a2a32f3d</Anchor>
-                 </Node>
                  <Node>
                   <Name>allowPinchScaling</Name>
                   <Path>interface_c_p_t_graph_hosting_view.html</Path>

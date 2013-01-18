@@ -1,14 +1,13 @@
 <map id="Source/CPTPlotAreaFrame.m" name="Source/CPTPlotAreaFrame.m">
-<area shape="rect" id="node2" href="$_c_p_t_plot_area_frame_8h.html" title="CPTPlotAreaFrame.h" alt="" coords="876,166,1028,197"/>
-<area shape="rect" id="node14" href="$_c_p_t_axis_set_8h.html" title="CPTAxisSet.h" alt="" coords="208,326,313,357"/>
-<area shape="rect" id="node11" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="738,486,867,517"/>
-<area shape="rect" id="node15" href="$_c_p_t_line_style_8h.html" title="CPTLineStyle.h" alt="" coords="1058,486,1173,517"/>
-<area shape="rect" id="node16" href="$_c_p_t_plot_area_8h.html" title="CPTPlotArea.h" alt="" coords="660,86,772,117"/>
-<area shape="rect" id="node18" href="$_c_p_t_plot_group_8h.html" title="CPTPlotGroup.h" alt="" coords="298,246,421,277"/>
-<area shape="rect" id="node3" href="$_c_p_t_bordered_layer_8h.html" title="CPTBorderedLayer.h" alt="" coords="859,246,1009,277"/>
-<area shape="rect" id="node5" href="$_c_p_t_annotation_host_layer_8h.html" title="CPTAnnotationHostLayer.h" alt="" coords="484,326,677,357"/>
-<area shape="rect" id="node6" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="404,406,496,437"/>
-<area shape="rect" id="node7" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="291,486,417,517"/>
-<area shape="rect" id="node9" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="5,566,216,597"/>
-<area shape="rect" id="node17" href="$_c_p_t_graph_8h.html" title="CPTGraph.h" alt="" coords="754,166,851,197"/>
+<area shape="rect" id="node2" href="$_c_p_t_plot_area_frame_8h.html" title="CPTPlotAreaFrame.h" alt="" coords="250,166,403,197"/>
+<area shape="rect" id="node14" href="$_c_p_t_axis_set_8h.html" title="CPTAxisSet.h" alt="" coords="4,326,109,357"/>
+<area shape="rect" id="node15" href="$_c_p_t_plot_area_8h.html" title="CPTPlotArea.h" alt="" coords="518,86,631,117"/>
+<area shape="rect" id="node17" href="$_c_p_t_plot_group_8h.html" title="CPTPlotGroup.h" alt="" coords="893,246,1016,277"/>
+<area shape="rect" id="node3" href="$_c_p_t_bordered_layer_8h.html" title="CPTBorderedLayer.h" alt="" coords="251,246,401,277"/>
+<area shape="rect" id="node5" href="$_c_p_t_annotation_host_layer_8h.html" title="CPTAnnotationHostLayer.h" alt="" coords="477,326,671,357"/>
+<area shape="rect" id="node6" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="539,406,631,437"/>
+<area shape="rect" id="node7" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="682,486,808,517"/>
+<area shape="rect" id="node11" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="375,486,504,517"/>
+<area shape="rect" id="node9" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="893,566,1104,597"/>
+<area shape="rect" id="node16" href="$_c_p_t_graph_8h.html" title="CPTGraph.h" alt="" coords="427,166,524,197"/>
 </map>

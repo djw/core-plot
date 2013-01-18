@@ -2472,7 +2472,7 @@
     </TokenIdentifier>
     <Path>_c_p_t_scatter_plot_8h.html</Path>
     <Anchor>a0a9d8cdea584afe83809167eedeca8daa61b6b90b68d1b6c1ba6330683ed700df</Anchor>
-    <Abstract>Steps beginnning at data point.</Abstract>
+    <Abstract>Steps beginning at data point.</Abstract>
     <DeclaredIn>CPTScatterPlot.h</DeclaredIn>
   </Token>
   <Token>
@@ -8498,7 +8498,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a3a16c174519ce26e20538a238c6c4a5e</Anchor>
-    <Abstract>The number of ticks that should be targeted when autogenerating positions. This property only applies...</Abstract>
+    <Abstract>The number of ticks that should be targeted when auto-generating positions. This property only applie...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -42703,7 +42703,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a3a16c174519ce26e20538a238c6c4a5e</Anchor>
-    <Abstract>The number of ticks that should be targeted when autogenerating positions. This property only applies...</Abstract>
+    <Abstract>The number of ticks that should be targeted when auto-generating positions. This property only applie...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

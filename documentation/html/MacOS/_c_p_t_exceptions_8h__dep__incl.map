@@ -1,22 +1,16 @@
 <map id="Source/CPTExceptions.h" name="Source/CPTExceptions.h">
 <area shape="rect" id="node2" href="$_c_p_t_annotation_host_layer_8m.html" title="Source/CPTAnnotationHost\lLayer.m" alt="" coords="5,86,203,136"/>
 <area shape="rect" id="node3" href="$_c_p_t_axis_8m.html" title="Source/CPTAxis.m" alt="" coords="227,95,368,126"/>
-<area shape="rect" id="node4" href="$_c_p_t_axis_label_8m.html" title="Source/CPTAxisLabel.m" alt="" coords="392,95,567,126"/>
-<area shape="rect" id="node5" href="$_c_p_t_axis_title_8m.html" title="Source/CPTAxisTitle.m" alt="" coords="592,95,761,126"/>
-<area shape="rect" id="node6" href="$_c_p_t_bar_plot_8m.html" title="Source/CPTBarPlot.m" alt="" coords="786,95,944,126"/>
-<area shape="rect" id="node7" href="$_c_p_t_calendar_formatter_8m.html" title="Source/CPTCalendarFormatter.m" alt="" coords="968,95,1201,126"/>
-<area shape="rect" id="node8" href="$_c_p_t_exceptions_8m.html" title="Source/CPTExceptions.m" alt="" coords="1227,95,1409,126"/>
-<area shape="rect" id="node9" href="$_c_p_t_graph_8m.html" title="Source/CPTGraph.m" alt="" coords="1434,95,1587,126"/>
-<area shape="rect" id="node10" href="$_c_p_t_layer_8m.html" title="Source/CPTLayer.m" alt="" coords="1611,95,1759,126"/>
-<area shape="rect" id="node11" href="$_c_p_t_legend_8m.html" title="Source/CPTLegend.m" alt="" coords="1784,95,1944,126"/>
-<area shape="rect" id="node12" href="$_c_p_t_mutable_numeric_data_8m.html" title="Source/CPTMutableNumeric\lData.m" alt="" coords="1968,86,2169,136"/>
-<area shape="rect" id="node13" href="$_c_p_t_numeric_data_8m.html" title="Source/CPTNumericData.m" alt="" coords="2195,95,2391,126"/>
-<area shape="rect" id="node14" href="$_c_p_t_plot_8m.html" title="Source/CPTPlot.m" alt="" coords="2416,95,2553,126"/>
-<area shape="rect" id="node15" href="$_c_p_t_range_plot_8m.html" title="Source/CPTRangePlot.m" alt="" coords="2578,95,2755,126"/>
-<area shape="rect" id="node16" href="$_c_p_t_scatter_plot_8m.html" title="Source/CPTScatterPlot.m" alt="" coords="2780,95,2961,126"/>
-<area shape="rect" id="node17" href="$_c_p_t_theme_8m.html" title="Source/CPTTheme.m" alt="" coords="2985,95,3143,126"/>
-<area shape="rect" id="node18" href="$_c_p_t_trading_range_plot_8m.html" title="Source/CPTTradingRangePlot.m" alt="" coords="3166,95,3393,126"/>
-<area shape="rect" id="node19" href="$_c_p_t_x_y_axis_8m.html" title="Source/CPTXYAxis.m" alt="" coords="3418,95,3576,126"/>
-<area shape="rect" id="node20" href="$_c_p_t_x_y_graph_8m.html" title="Source/CPTXYGraph.m" alt="" coords="3601,95,3769,126"/>
-<area shape="rect" id="node21" href="$_c_p_t_x_y_plot_space_8m.html" title="Source/CPTXYPlotSpace.m" alt="" coords="3794,95,3984,126"/>
+<area shape="rect" id="node4" href="$_c_p_t_bar_plot_8m.html" title="Source/CPTBarPlot.m" alt="" coords="392,95,549,126"/>
+<area shape="rect" id="node5" href="$_c_p_t_calendar_formatter_8m.html" title="Source/CPTCalendarFormatter.m" alt="" coords="574,95,807,126"/>
+<area shape="rect" id="node6" href="$_c_p_t_exceptions_8m.html" title="Source/CPTExceptions.m" alt="" coords="832,95,1015,126"/>
+<area shape="rect" id="node7" href="$_c_p_t_graph_8m.html" title="Source/CPTGraph.m" alt="" coords="1040,95,1192,126"/>
+<area shape="rect" id="node8" href="$_c_p_t_legend_8m.html" title="Source/CPTLegend.m" alt="" coords="1216,95,1376,126"/>
+<area shape="rect" id="node9" href="$_c_p_t_numeric_data_8m.html" title="Source/CPTNumericData.m" alt="" coords="1400,95,1596,126"/>
+<area shape="rect" id="node10" href="$_c_p_t_plot_8m.html" title="Source/CPTPlot.m" alt="" coords="1622,95,1759,126"/>
+<area shape="rect" id="node11" href="$_c_p_t_range_plot_8m.html" title="Source/CPTRangePlot.m" alt="" coords="1783,95,1960,126"/>
+<area shape="rect" id="node12" href="$_c_p_t_scatter_plot_8m.html" title="Source/CPTScatterPlot.m" alt="" coords="1985,95,2167,126"/>
+<area shape="rect" id="node13" href="$_c_p_t_theme_8m.html" title="Source/CPTTheme.m" alt="" coords="2191,95,2348,126"/>
+<area shape="rect" id="node14" href="$_c_p_t_trading_range_plot_8m.html" title="Source/CPTTradingRangePlot.m" alt="" coords="2371,95,2599,126"/>
+<area shape="rect" id="node15" href="$_c_p_t_x_y_plot_space_8m.html" title="Source/CPTXYPlotSpace.m" alt="" coords="2623,95,2813,126"/>
 </map>
