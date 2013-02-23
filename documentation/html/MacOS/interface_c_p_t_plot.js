@@ -18,7 +18,6 @@ var interface_c_p_t_plot =
     [ "initWithFrame:", "interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c", null ],
     [ "insertDataAtIndex:numberOfRecords:", "interface_c_p_t_plot.html#aaf45d3cd5ab07ce4b48f6aef5d846d83", null ],
     [ "loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:", "interface_c_p_t_plot.html#add94c343f3b3a52ae770087520b62d4e", null ],
-    [ "nilData", "interface_c_p_t_plot.html#a9911432fff3af672a45bfe5e8b02d268", null ],
     [ "numberOfFields", "interface_c_p_t_plot.html#a7095b4dca95e6e93fb222aa5c0a96bce", null ],
     [ "numberOfLegendEntries", "interface_c_p_t_plot.html#a26d4458527479b7b55bbd9cfcfadd5d6", null ],
     [ "numbersFromDataSourceForField:recordIndexRange:", "interface_c_p_t_plot.html#a9c0c497a111974900062776de03b3738", null ],

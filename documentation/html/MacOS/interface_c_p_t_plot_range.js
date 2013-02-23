@@ -10,7 +10,6 @@ var interface_c_p_t_plot_range =
     [ "initWithLocation:length:", "interface_c_p_t_plot_range.html#a954aa1c4e17d07c9cc3ec37ae9bbd0cc", null ],
     [ "intersectsRange:", "interface_c_p_t_plot_range.html#af57683e90998288b8d330fc0dd88ce39", null ],
     [ "isEqualToRange:", "interface_c_p_t_plot_range.html#ac57ed5a93c31a89f95eaf392087286e9", null ],
-    [ "plotRangeWithLocation:length:", "interface_c_p_t_plot_range.html#a93a5cdd8e0756d5692e62631385ddfb7", null ],
     [ "end", "interface_c_p_t_plot_range.html#adc543d1939579179e9d6a4614e617a45", null ],
     [ "endDouble", "interface_c_p_t_plot_range.html#aa01772dc9e183b18fddb47204b8fe77e", null ],
     [ "length", "interface_c_p_t_plot_range.html#a5e34c109f1a0eb69f85025edbdbcf13a", null ],

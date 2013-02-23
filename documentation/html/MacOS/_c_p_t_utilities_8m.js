@@ -54,7 +54,5 @@ var _c_p_t_utilities_8m =
     [ "CPTStringFromPoint", "_c_p_t_utilities_8m.html#a63b4f83bf1143a073a8b1cf8bd2672a7", null ],
     [ "CPTStringFromRect", "_c_p_t_utilities_8m.html#a4af074290b1cfdef226b1deb88cf3149", null ],
     [ "CPTStringFromSize", "_c_p_t_utilities_8m.html#aa61355b699ad55345c7bda5c66636237", null ],
-    [ "squareOfDistanceBetweenPoints", "_c_p_t_utilities_8m.html#a4e2f173fa3724527e7af5d3a091b1563", null ],
-    [ "cache", "_c_p_t_utilities_8m.html#a3f9109bf255b12c464df2ab0503d8c23", null ],
-    [ "cacheValueInitialized", "_c_p_t_utilities_8m.html#a74eae8e1621de40f546fe73db535fc0e", null ]
+    [ "squareOfDistanceBetweenPoints", "_c_p_t_utilities_8m.html#a4e2f173fa3724527e7af5d3a091b1563", null ]
 ];

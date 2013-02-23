@@ -7115,7 +7115,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7997,7 +7997,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9996,7 +9996,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10641,7 +10641,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -12309,7 +12309,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -13821,7 +13821,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17013,7 +17013,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>ade1996ed526f4e64cb770c7a92e1a8b7</Anchor>
-    <Abstract>Informs the receiver that tracking of mouse moves has been cancelled for any reason.</Abstract>
+    <Abstract>Informs the receiver that tracking of mouse moveshas been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17938,7 +17938,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18784,7 +18784,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20032,7 +20032,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21435,7 +21435,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26166,7 +26166,7 @@
       <Scope>CPTNumericDataType</Scope>
     </TokenIdentifier>
     <Path>struct_c_p_t_numeric_data_type.html</Path>
-    <Abstract>Struct that describes the encoding of numeric data samples.</Abstract>
+    <Abstract>Structure that describes the encoding of numeric data samples.</Abstract>
     <DeclaredIn>CPTNumericDataType.h</DeclaredIn>
   </Token>
   <Token>
@@ -26767,7 +26767,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28353,7 +28353,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -29828,7 +29828,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -30810,7 +30810,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -31595,7 +31595,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32740,7 +32740,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
     <Anchor>ac13506e5cd0a592d71a822a711ed7b10</Anchor>
-    <Abstract>Informs the receiver that tracking of mouse moves has been cancelled for any reason.</Abstract>
+    <Abstract>Informs the receiver that tracking of mouse moveshas been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34856,7 +34856,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -36199,7 +36199,7 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_responder-p.html</Path>
     <Anchor>ae1e168c2cf883e9567e18a2ec7c1554c</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
     <DeclaredIn>CPTResponder.h</DeclaredIn>
   </Token>
   <Token>
@@ -36829,7 +36829,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -38683,7 +38683,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -40499,7 +40499,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -42180,7 +42180,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -43600,7 +43600,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_layer.html</Path>
     <Anchor>ac0e5ad9ddd8736055a2b0307d39a8648</Anchor>
-    <Abstract>(Required) Informs the receiver that tracking of mouse moves has been cancelled for any reason...</Abstract>
+    <Abstract>(Required) Informs the receiver that tracking of mouse moveshas been cancelled for any reason...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -44683,7 +44683,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>ade1996ed526f4e64cb770c7a92e1a8b7</Anchor>
-    <Abstract>Informs the receiver that tracking of mouse moves has been cancelled for any reason.</Abstract>
+    <Abstract>Informs the receiver that tracking of mouse moveshas been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45354,7 +45354,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_plot_space.html</Path>
     <Anchor>ac13506e5cd0a592d71a822a711ed7b10</Anchor>
-    <Abstract>Informs the receiver that tracking of mouse moves has been cancelled for any reason.</Abstract>
+    <Abstract>Informs the receiver that tracking of mouse moveshas been cancelled for any reason.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

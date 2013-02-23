@@ -33,7 +33,7 @@
 <area shape="rect" id="node29" href="$interface_c_p_t_plot_area_frame.html" title="A layer drawn on top of the graph layer and behind all plot elements." alt="" coords="2977,862,3117,893"/>
 <area shape="rect" id="node35" href="$interface_c_p_t_legend.html" title="A graph legend." alt="" coords="1544,625,1637,656"/>
 <area shape="rect" id="node26" href="doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/.html#documentation/UIKit/Reference/UIView_Class/UIView/UIView" title="UIView" alt="" coords="1376,839,1440,870"/>
-<area shape="rect" id="node36" href="$struct_c_p_t_numeric_data_type.html" title="Struct that describes the encoding of numeric data samples." alt="" coords="2630,378,2791,409"/>
+<area shape="rect" id="node36" href="$struct_c_p_t_numeric_data_type.html" title="Structure that describes the encoding of numeric data samples." alt="" coords="2630,378,2791,409"/>
 <area shape="rect" id="node37" href="doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/.html#documentation/corefoundation/Reference/CFByteOrderUtils/Reference/reference" title="CFByteOrder" alt="" coords="2354,378,2456,409"/>
 <area shape="rect" id="node38" href="doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html.html#//apple_ref/occ/cl/NSNumberFormatter" title="NSNumberFormatter" alt="" coords="944,15,1098,46"/>
 </map>

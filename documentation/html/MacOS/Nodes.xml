@@ -8,6 +8,40 @@
        <Node>
         <Name>Core Plot</Name>
         <Path>index.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Introduction</Name>
+          <Path>index.html</Path>
+          <Anchor>intro</Anchor>
+         </Node>
+         <Node>
+          <Name>Getting Started</Name>
+          <Path>index.html</Path>
+          <Anchor>start</Anchor>
+         </Node>
+         <Node>
+          <Name>Contributing to Core Plot</Name>
+          <Path>index.html</Path>
+          <Anchor>contribute</Anchor>
+          <Subnodes>
+           <Node>
+            <Name>Coding Standards</Name>
+            <Path>index.html</Path>
+            <Anchor>coding</Anchor>
+           </Node>
+           <Node>
+            <Name>Documentation Policy</Name>
+            <Path>index.html</Path>
+            <Anchor>documentation</Anchor>
+           </Node>
+           <Node>
+            <Name>Testing Policy</Name>
+            <Path>index.html</Path>
+            <Anchor>testing</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
        </Node>
        <Node>
         <Name>Animation &amp; Constants</Name>
@@ -488,101 +522,6 @@
               <Anchor>adbddee5b1b1b924b84f12b89e81e1ea9</Anchor>
              </Node>
              <Node>
-              <Name>animate:property:from:to:duration:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>aa73c986d9014e5e9d7a51e4f657d0dc0</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:from:to:duration:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a2e0110ee02741d205e278f1eba30ce1b</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:from:to:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a3650c26bb960da338e2459c6be7bb3be</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromDecimal:toDecimal:duration:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a91fa96364cab7e1bc60e217052748c35</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromDecimal:toDecimal:duration:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a0954d36167fd09a3b51e748de67ab1c7</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromDecimal:toDecimal:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a4406f29c7f29663d1afe61eadb5a6d53</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPlotRange:toPlotRange:duration:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>af70a1012dc5d5f8f889bce4b96e4376e</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPlotRange:toPlotRange:duration:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a18cfd34dbf87b265462a9ff1e0352ff9</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPlotRange:toPlotRange:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a5cb84be69dc926b9de02075f84edbe57</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPoint:toPoint:duration:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a271321e47d4c05f64b45fbedcb49046a</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPoint:toPoint:duration:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a89c0dd0c9cc9de59c9abbe74d3222773</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPoint:toPoint:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>ad31a491cc550e5a8ce835f92d88a570d</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromRect:toRect:duration:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a9ea2952e4db5bf114264775fc4f36954</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromRect:toRect:duration:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a8065d95ab20c7f48f690536bc7027104</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromRect:toRect:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a5cb6cb6a183a957582138ea74f1323e7</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromSize:toSize:duration:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>aed020e870f72d1cbce75f7dfd522df80</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromSize:toSize:duration:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a0faf39be934492f1e595fbf7b297dea2</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromSize:toSize:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a5653ca9b086242ecf9105f6015ac5615</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:period:animationCurve:delegate:</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a238b81cc36673f9e9e2f51b829cbd3e2</Anchor>
-             </Node>
-             <Node>
               <Name>init</Name>
               <Path>interface_c_p_t_animation.html</Path>
               <Anchor>abc8333bfad0e314387747705b69690ea</Anchor>
@@ -596,11 +535,6 @@
               <Name>removeAnimationOperation:</Name>
               <Path>interface_c_p_t_animation.html</Path>
               <Anchor>aa6ad2026515a949c41d69ab57998dbd0</Anchor>
-             </Node>
-             <Node>
-              <Name>sharedInstance</Name>
-              <Path>interface_c_p_t_animation.html</Path>
-              <Anchor>a6aca2388145255fdfddc0232723fd9b9</Anchor>
              </Node>
              <Node>
               <Name>defaultAnimationCurve</Name>
@@ -618,96 +552,6 @@
             <Name>CPTAnimation(CPTAnimationPeriodAdditions)</Name>
             <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
             <Subnodes>
-             <Node>
-              <Name>animate:property:from:to:duration:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>aa73c986d9014e5e9d7a51e4f657d0dc0</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:from:to:duration:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a2e0110ee02741d205e278f1eba30ce1b</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:from:to:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a3650c26bb960da338e2459c6be7bb3be</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromDecimal:toDecimal:duration:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a91fa96364cab7e1bc60e217052748c35</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromDecimal:toDecimal:duration:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a0954d36167fd09a3b51e748de67ab1c7</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromDecimal:toDecimal:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a4406f29c7f29663d1afe61eadb5a6d53</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPlotRange:toPlotRange:duration:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>af70a1012dc5d5f8f889bce4b96e4376e</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPlotRange:toPlotRange:duration:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a18cfd34dbf87b265462a9ff1e0352ff9</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPlotRange:toPlotRange:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a5cb84be69dc926b9de02075f84edbe57</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPoint:toPoint:duration:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a271321e47d4c05f64b45fbedcb49046a</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPoint:toPoint:duration:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a89c0dd0c9cc9de59c9abbe74d3222773</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromPoint:toPoint:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>ad31a491cc550e5a8ce835f92d88a570d</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromRect:toRect:duration:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a9ea2952e4db5bf114264775fc4f36954</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromRect:toRect:duration:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a8065d95ab20c7f48f690536bc7027104</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromRect:toRect:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a5cb6cb6a183a957582138ea74f1323e7</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromSize:toSize:duration:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>aed020e870f72d1cbce75f7dfd522df80</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromSize:toSize:duration:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a0faf39be934492f1e595fbf7b297dea2</Anchor>
-             </Node>
-             <Node>
-              <Name>animate:property:fromSize:toSize:duration:withDelay:animationCurve:delegate:</Name>
-              <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-              <Anchor>a5653ca9b086242ecf9105f6015ac5615</Anchor>
-             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -815,36 +659,6 @@
               <Name>initWithStartSize:endSize:duration:withDelay:</Name>
               <Path>interface_c_p_t_animation_period.html</Path>
               <Anchor>a538060155e0dd2a019be5aab1443eaaa</Anchor>
-             </Node>
-             <Node>
-              <Name>periodWithStart:end:duration:withDelay:</Name>
-              <Path>interface_c_p_t_animation_period.html</Path>
-              <Anchor>a6626a9d9c163b8a47c7e95ee82a56db2</Anchor>
-             </Node>
-             <Node>
-              <Name>periodWithStartDecimal:endDecimal:duration:withDelay:</Name>
-              <Path>interface_c_p_t_animation_period.html</Path>
-              <Anchor>ad1ac79ccfa196cc9f404c0b4fd9e17d8</Anchor>
-             </Node>
-             <Node>
-              <Name>periodWithStartPlotRange:endPlotRange:duration:withDelay:</Name>
-              <Path>interface_c_p_t_animation_period.html</Path>
-              <Anchor>a9583beb67d38f0ce55cf92feca72ff62</Anchor>
-             </Node>
-             <Node>
-              <Name>periodWithStartPoint:endPoint:duration:withDelay:</Name>
-              <Path>interface_c_p_t_animation_period.html</Path>
-              <Anchor>a658d8d1ff79a9b9905c9f9b8f747c4f7</Anchor>
-             </Node>
-             <Node>
-              <Name>periodWithStartRect:endRect:duration:withDelay:</Name>
-              <Path>interface_c_p_t_animation_period.html</Path>
-              <Anchor>ab5179cf696edbe70736d94d544fd4ee7</Anchor>
-             </Node>
-             <Node>
-              <Name>periodWithStartSize:endSize:duration:withDelay:</Name>
-              <Path>interface_c_p_t_animation_period.html</Path>
-              <Anchor>a7cbb86808f23214204bd0557264baf19</Anchor>
              </Node>
              <Node>
               <Name>tweenedValueForProgress:</Name>
@@ -1494,11 +1308,6 @@
               <Anchor>a61249cfee58b15eea564fa0667c23b42</Anchor>
              </Node>
              <Node>
-              <Name>tubularBarPlotWithColor:horizontalBars:</Name>
-              <Path>interface_c_p_t_bar_plot.html</Path>
-              <Anchor>ac12f1fb03d8762d6e718acb0a2cd077f</Anchor>
-             </Node>
-             <Node>
               <Name>barBaseCornerRadius</Name>
               <Path>group__plot_animation_bar_plot.html</Path>
               <Anchor>ga1ba05e25fedbec2194ab2ade17ac78b8</Anchor>
@@ -1694,64 +1503,9 @@
             <Path>interface_c_p_t_color.html</Path>
             <Subnodes>
              <Node>
-              <Name>blackColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a67a6b0b31fbdc3292a35f357b34270ec</Anchor>
-             </Node>
-             <Node>
-              <Name>blueColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a295e0844a6ebfa4bc544eb5d5d44d84d</Anchor>
-             </Node>
-             <Node>
-              <Name>brownColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a4617052de6721dc389fd437b32d3972a</Anchor>
-             </Node>
-             <Node>
-              <Name>clearColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a0db7840149d0eb73a44bb71f5cc67d4d</Anchor>
-             </Node>
-             <Node>
               <Name>colorWithAlphaComponent:</Name>
               <Path>interface_c_p_t_color.html</Path>
               <Anchor>aaa74d0120cea7d93c4a95a9a3e667a19</Anchor>
-             </Node>
-             <Node>
-              <Name>colorWithCGColor:</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>ab72436e31a1f2cb6d31e93b8452a08d3</Anchor>
-             </Node>
-             <Node>
-              <Name>colorWithComponentRed:green:blue:alpha:</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>aa9c315b6d95ec957d5875d9c3f0f46c1</Anchor>
-             </Node>
-             <Node>
-              <Name>colorWithGenericGray:</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>afeb545d545ae08a0d4d1b0b067eacfbd</Anchor>
-             </Node>
-             <Node>
-              <Name>cyanColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a2bcf6d1ca44ad87b53db5c29f6f37502</Anchor>
-             </Node>
-             <Node>
-              <Name>darkGrayColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>abb6516e54f353a9e7d74bfc4e3c04640</Anchor>
-             </Node>
-             <Node>
-              <Name>grayColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>add8bdd2bf45c6069cc93927a8e0138b9</Anchor>
-             </Node>
-             <Node>
-              <Name>greenColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a202da52855a1e86e829ff0087f41706d</Anchor>
              </Node>
              <Node>
               <Name>initWithCGColor:</Name>
@@ -1767,41 +1521,6 @@
               <Name>isEqual:</Name>
               <Path>interface_c_p_t_color.html</Path>
               <Anchor>ab1438b5628b4a231d36b44ecf5bc745d</Anchor>
-             </Node>
-             <Node>
-              <Name>lightGrayColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a8c194f226ebb9922fe9db54376cca1d0</Anchor>
-             </Node>
-             <Node>
-              <Name>magentaColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a3fd86bf1383ba48a6f26e24ccdf9adc8</Anchor>
-             </Node>
-             <Node>
-              <Name>orangeColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>aee92660401132c65fae4c276f66e6c5d</Anchor>
-             </Node>
-             <Node>
-              <Name>purpleColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a0e94d1148ae9d2cf04925b05a2479aaa</Anchor>
-             </Node>
-             <Node>
-              <Name>redColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a57a186426f928d73fe9a628282a61625</Anchor>
-             </Node>
-             <Node>
-              <Name>whiteColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a0b7248f8556d34f0a0654791d8871ffd</Anchor>
-             </Node>
-             <Node>
-              <Name>yellowColor</Name>
-              <Path>interface_c_p_t_color.html</Path>
-              <Anchor>a877615981642026b796d940a4a2d2d1d</Anchor>
              </Node>
              <Node>
               <Name>cgColor</Name>
@@ -1831,11 +1550,6 @@
             <Path>interface_c_p_t_color_space.html</Path>
             <Subnodes>
              <Node>
-              <Name>genericRGBSpace</Name>
-              <Path>interface_c_p_t_color_space.html</Path>
-              <Anchor>ac58f6c211393735a956588fe0e140c56</Anchor>
-             </Node>
-             <Node>
               <Name>initWithCGColorSpace:</Name>
               <Path>interface_c_p_t_color_space.html</Path>
               <Anchor>a04f20d53ebf7cc49da6d76142add6268</Anchor>
@@ -1851,21 +1565,6 @@
             <Name>CPTConstraints</Name>
             <Path>interface_c_p_t_constraints.html</Path>
             <Subnodes>
-             <Node>
-              <Name>constraintWithLowerOffset:</Name>
-              <Path>interface_c_p_t_constraints.html</Path>
-              <Anchor>aa7abefa93642ba05aab96f3f000ecc6a</Anchor>
-             </Node>
-             <Node>
-              <Name>constraintWithRelativeOffset:</Name>
-              <Path>interface_c_p_t_constraints.html</Path>
-              <Anchor>a213ba65d803f1d8b6a255fdf7da9aa72</Anchor>
-             </Node>
-             <Node>
-              <Name>constraintWithUpperOffset:</Name>
-              <Path>interface_c_p_t_constraints.html</Path>
-              <Anchor>aa446279fed6d3e5b743520ae580718ea</Anchor>
-             </Node>
              <Node>
               <Name>initWithLowerOffset:</Name>
               <Path>interface_c_p_t_constraints.html</Path>
@@ -1929,16 +1628,6 @@
             <Name>CPTDecimalNumberValueTransformer</Name>
             <Path>interface_c_p_t_decimal_number_value_transformer.html</Path>
             <Subnodes>
-             <Node>
-              <Name>allowsReverseTransformation</Name>
-              <Path>interface_c_p_t_decimal_number_value_transformer.html</Path>
-              <Anchor>ade6e8e07c5810ec4cecff863845484d8</Anchor>
-             </Node>
-             <Node>
-              <Name>transformedValueClass</Name>
-              <Path>interface_c_p_t_decimal_number_value_transformer.html</Path>
-              <Anchor>a310743aa6b41ad0b0b1355a9c0d3759a</Anchor>
-             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -1954,21 +1643,6 @@
               <Name>fillRect:inContext:</Name>
               <Path>interface_c_p_t_fill.html</Path>
               <Anchor>a1f2d6ee7959728411f8cca7d62c19a21</Anchor>
-             </Node>
-             <Node>
-              <Name>fillWithColor:</Name>
-              <Path>interface_c_p_t_fill.html</Path>
-              <Anchor>a4df6e8fd7e31fb0a33511512296dcd26</Anchor>
-             </Node>
-             <Node>
-              <Name>fillWithGradient:</Name>
-              <Path>interface_c_p_t_fill.html</Path>
-              <Anchor>ae4970ff5ae953ff11e829b82925ada6b</Anchor>
-             </Node>
-             <Node>
-              <Name>fillWithImage:</Name>
-              <Path>interface_c_p_t_fill.html</Path>
-              <Anchor>a02016f499a2cffd02796ed30bf79ba75</Anchor>
              </Node>
              <Node>
               <Name>initWithColor:</Name>
@@ -2013,21 +1687,6 @@
               <Anchor>a6138b7d9b8e913c91bb026f6a8e2740b</Anchor>
              </Node>
              <Node>
-              <Name>aquaNormalGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>ad8125b1c1bd5474a4d158e33a90d682e</Anchor>
-             </Node>
-             <Node>
-              <Name>aquaPressedGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>aa2621022f4666ee3d3edeebcf889a7f7</Anchor>
-             </Node>
-             <Node>
-              <Name>aquaSelectedGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>a77de86a1cd435f2d035ac5631d54c7df</Anchor>
-             </Node>
-             <Node>
               <Name>drawSwatchInRect:inContext:</Name>
               <Path>interface_c_p_t_gradient.html</Path>
               <Anchor>a25b0a26d315183c8d48f91ae08a929b2</Anchor>
@@ -2048,24 +1707,9 @@
               <Anchor>aa236bd219d89be3a6e6e3d7424d4f815</Anchor>
              </Node>
              <Node>
-              <Name>gradientWithBeginningColor:endingColor:</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>a4863b01046dbb2b19a056e37860af035</Anchor>
-             </Node>
-             <Node>
-              <Name>gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>ab66ae06884b757f8519efde6fc9f27e0</Anchor>
-             </Node>
-             <Node>
               <Name>gradientWithBlendingMode:</Name>
               <Path>interface_c_p_t_gradient.html</Path>
               <Anchor>af84c12a31b6e5eb3cc05bb6a56e49a5b</Anchor>
-             </Node>
-             <Node>
-              <Name>hydrogenSpectrumGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>a1e3090eaea39bd0ac3c810f80afd47ff</Anchor>
              </Node>
              <Node>
               <Name>init</Name>
@@ -2088,11 +1732,6 @@
               <Anchor>a917951692ee14d0dad4cca367c4e4f6b</Anchor>
              </Node>
              <Node>
-              <Name>rainbowGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>a9e9b5caff97a2757c1581e18b82bc850</Anchor>
-             </Node>
-             <Node>
               <Name>removeColorStopAtIndex:</Name>
               <Path>interface_c_p_t_gradient.html</Path>
               <Anchor>a9301ffff63c7e434fe688962b2df8d85</Anchor>
@@ -2101,36 +1740,6 @@
               <Name>removeColorStopAtPosition:</Name>
               <Path>interface_c_p_t_gradient.html</Path>
               <Anchor>a84390b356f12080e5baab72a3f7aeeaa</Anchor>
-             </Node>
-             <Node>
-              <Name>sourceListSelectedGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>a87dd2593355b18b2ed282c1cef3a2105</Anchor>
-             </Node>
-             <Node>
-              <Name>sourceListUnselectedGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>a918625705aceed85de17d341325e8504</Anchor>
-             </Node>
-             <Node>
-              <Name>unifiedDarkGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>a0c4e86f5c95474d432593ad31aa3c792</Anchor>
-             </Node>
-             <Node>
-              <Name>unifiedNormalGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>a3ac99fab45c2e77c495dbb748e28d535</Anchor>
-             </Node>
-             <Node>
-              <Name>unifiedPressedGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>aaea26d140eded8072fa2752b237f7d9d</Anchor>
-             </Node>
-             <Node>
-              <Name>unifiedSelectedGradient</Name>
-              <Path>interface_c_p_t_gradient.html</Path>
-              <Anchor>ab6650d7e4b84bce528a16e37089a40e1</Anchor>
              </Node>
              <Node>
               <Name>angle</Name>
@@ -2440,21 +2049,6 @@
               <Anchor>aab29f34450ad6c1f232e54f31c1d6517</Anchor>
              </Node>
              <Node>
-              <Name>imageForPNGFile:</Name>
-              <Path>interface_c_p_t_image.html</Path>
-              <Anchor>a2456200e77db5c651696fbb8be097492</Anchor>
-             </Node>
-             <Node>
-              <Name>imageWithCGImage:</Name>
-              <Path>interface_c_p_t_image.html</Path>
-              <Anchor>a0f5aea573694f892d6323ef0865855a7</Anchor>
-             </Node>
-             <Node>
-              <Name>imageWithCGImage:scale:</Name>
-              <Path>interface_c_p_t_image.html</Path>
-              <Anchor>a69a63ea3a3bec2284a5c60c426d7fbcc</Anchor>
-             </Node>
-             <Node>
               <Name>init</Name>
               <Path>interface_c_p_t_image.html</Path>
               <Anchor>a9391551b2e4984230fc5b24cec859eca</Anchor>
@@ -2744,16 +2338,6 @@
               <Anchor>a49fa9dffd59dc365d811da971418f345</Anchor>
              </Node>
              <Node>
-              <Name>legendWithGraph:</Name>
-              <Path>interface_c_p_t_legend.html</Path>
-              <Anchor>a2e62adb6a9f1a8db77e86908a4bc9041</Anchor>
-             </Node>
-             <Node>
-              <Name>legendWithPlots:</Name>
-              <Path>interface_c_p_t_legend.html</Path>
-              <Anchor>a03b4f1ebac5433ca1e9f2417f9f8cb8e</Anchor>
-             </Node>
-             <Node>
               <Name>plotAtIndex:</Name>
               <Path>interface_c_p_t_legend.html</Path>
               <Anchor>a53d93d278405c17a0ad67fdca706c586</Anchor>
@@ -2937,11 +2521,6 @@
               <Anchor>aac545bdeef6f90581c21a9bd3d2cee7d</Anchor>
              </Node>
              <Node>
-              <Name>limitBandWithRange:fill:</Name>
-              <Path>interface_c_p_t_limit_band.html</Path>
-              <Anchor>a5458e91780d369927eb484ec3d33debb</Anchor>
-             </Node>
-             <Node>
               <Name>fill</Name>
               <Path>interface_c_p_t_limit_band.html</Path>
               <Anchor>aeac3e23fa3b5d85c92b79cda09d7154b</Anchor>
@@ -2958,79 +2537,14 @@
             <Path>interface_c_p_t_line_cap.html</Path>
             <Subnodes>
              <Node>
-              <Name>barPlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>a9f17942ef0752804bf828570a9d27c30</Anchor>
-             </Node>
-             <Node>
-              <Name>crossPlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>ad6560ea204c0e0fa374e98651f6bd657</Anchor>
-             </Node>
-             <Node>
-              <Name>customLineCapWithPath:</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>abb2a9d1f8a6e03e47a69998b33da771b</Anchor>
-             </Node>
-             <Node>
-              <Name>diamondPlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>a7be1cf663f628ad0fa710b54573ce5de</Anchor>
-             </Node>
-             <Node>
-              <Name>ellipsePlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>a94fc5dc9cdf0c22e429f5bbe45aabd1a</Anchor>
-             </Node>
-             <Node>
-              <Name>hexagonPlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>a8645084095025f60f5271f7f8a36acc7</Anchor>
-             </Node>
-             <Node>
               <Name>init</Name>
               <Path>interface_c_p_t_line_cap.html</Path>
               <Anchor>a068ed63e6bb0fcd99aab2d13788105c2</Anchor>
              </Node>
              <Node>
-              <Name>lineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>a113fa6e1ae7d3cf88618b00d34a5bb53</Anchor>
-             </Node>
-             <Node>
-              <Name>openArrowPlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>a1736d5b1267c3e09a716122c6f0917ce</Anchor>
-             </Node>
-             <Node>
-              <Name>pentagonPlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>ab2bfb8b3d17fadc5a6c995f69c3bc741</Anchor>
-             </Node>
-             <Node>
-              <Name>rectanglePlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>a4d4916b27147835abc0140c2b290fbdb</Anchor>
-             </Node>
-             <Node>
               <Name>renderAsVectorInContext:atPoint:inDirection:</Name>
               <Path>interface_c_p_t_line_cap.html</Path>
               <Anchor>ac1252a5cf020a9099998783bf6de1a22</Anchor>
-             </Node>
-             <Node>
-              <Name>snowPlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>a250cf4b3fbdf16aa0ab80232a50d94e6</Anchor>
-             </Node>
-             <Node>
-              <Name>solidArrowPlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>af6b4eb2e995fc4f66ca0c7f6edc9e562</Anchor>
-             </Node>
-             <Node>
-              <Name>sweptArrowPlotLineCap</Name>
-              <Path>interface_c_p_t_line_cap.html</Path>
-              <Anchor>a38d68a7618dfdcf600134f6a343074e4</Anchor>
              </Node>
              <Node>
               <Name>customLineCapPath</Name>
@@ -3072,11 +2586,6 @@
               <Name>init</Name>
               <Path>interface_c_p_t_line_style.html</Path>
               <Anchor>ad1126ac34f822be1b1cfb3d5d999ecfc</Anchor>
-             </Node>
-             <Node>
-              <Name>lineStyle</Name>
-              <Path>interface_c_p_t_line_style.html</Path>
-              <Anchor>a1a62163fa497ad6a5eeb2d31e654424d</Anchor>
              </Node>
              <Node>
               <Name>setLineStyleInContext:</Name>
@@ -3401,46 +2910,6 @@
               <Anchor>a355575cf6aa1fe32a18a90c46b782391</Anchor>
              </Node>
              <Node>
-              <Name>numericDataWithArray:dataType:shape:</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>ad89d93869720b7ac8107de74e76d3dc6</Anchor>
-             </Node>
-             <Node>
-              <Name>numericDataWithArray:dataType:shape:dataOrder:</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>adf140fe6539051c44c8780c90044387b</Anchor>
-             </Node>
-             <Node>
-              <Name>numericDataWithArray:dataTypeString:shape:</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>aa781a92879b57f0482f705675b4acdf3</Anchor>
-             </Node>
-             <Node>
-              <Name>numericDataWithArray:dataTypeString:shape:dataOrder:</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>a42e699b8452bd439ae59933c90f69f88</Anchor>
-             </Node>
-             <Node>
-              <Name>numericDataWithData:dataType:shape:</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>adb15b1ebe1e5d858f121a6a1eda3877e</Anchor>
-             </Node>
-             <Node>
-              <Name>numericDataWithData:dataType:shape:dataOrder:</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>a9873c0f264936215ef1ac818dedbbbff</Anchor>
-             </Node>
-             <Node>
-              <Name>numericDataWithData:dataTypeString:shape:</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>a87a6819fa9a13c0d4766e1f9f2f2f2e3</Anchor>
-             </Node>
-             <Node>
-              <Name>numericDataWithData:dataTypeString:shape:dataOrder:</Name>
-              <Path>interface_c_p_t_numeric_data.html</Path>
-              <Anchor>a0cb2309701fd5c7cc1d58d5168d8c7aa</Anchor>
-             </Node>
-             <Node>
               <Name>sampleArray</Name>
               <Path>interface_c_p_t_numeric_data.html</Path>
               <Anchor>a3e15c0587ce8799610f5be441cb8b9b4</Anchor>
@@ -3583,11 +3052,6 @@
             <Name>CPTPieChart</Name>
             <Path>interface_c_p_t_pie_chart.html</Path>
             <Subnodes>
-             <Node>
-              <Name>defaultPieSliceColorForIndex:</Name>
-              <Path>interface_c_p_t_pie_chart.html</Path>
-              <Anchor>ad2efbb8005aebd12a9801a54edacf1ea</Anchor>
-             </Node>
              <Node>
               <Name>initWithFrame:</Name>
               <Path>interface_c_p_t_pie_chart.html</Path>
@@ -3795,11 +3259,6 @@
               <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
-             </Node>
-             <Node>
-              <Name>nilData</Name>
-              <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
              </Node>
              <Node>
               <Name>numberOfFields</Name>
@@ -4259,11 +3718,6 @@
               <Anchor>ac57ed5a93c31a89f95eaf392087286e9</Anchor>
              </Node>
              <Node>
-              <Name>plotRangeWithLocation:length:</Name>
-              <Path>interface_c_p_t_plot_range.html</Path>
-              <Anchor>a93a5cdd8e0756d5692e62631385ddfb7</Anchor>
-             </Node>
-             <Node>
               <Name>end</Name>
               <Path>interface_c_p_t_plot_range.html</Path>
               <Anchor>adc543d1939579179e9d6a4614e617a45</Anchor>
@@ -4584,59 +4038,9 @@
             <Path>interface_c_p_t_plot_symbol.html</Path>
             <Subnodes>
              <Node>
-              <Name>crossPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>ab2d36eba576566e60c3dadbb81fe886d</Anchor>
-             </Node>
-             <Node>
-              <Name>customPlotSymbolWithPath:</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a715be2de872ed5940283a3d154c611a9</Anchor>
-             </Node>
-             <Node>
-              <Name>dashPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a7e5e96545c2cc264e8fb89538278cabf</Anchor>
-             </Node>
-             <Node>
-              <Name>diamondPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a111def02bb8eea47521fc85adafad4a9</Anchor>
-             </Node>
-             <Node>
-              <Name>ellipsePlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a6c94ea057bb768f43cdd4174b94877ef</Anchor>
-             </Node>
-             <Node>
-              <Name>hexagonPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a0221521330d08dbac22401a0f82857ac</Anchor>
-             </Node>
-             <Node>
               <Name>init</Name>
               <Path>interface_c_p_t_plot_symbol.html</Path>
               <Anchor>aee46d68f52f2be30de36c9fdc71e2c68</Anchor>
-             </Node>
-             <Node>
-              <Name>pentagonPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>aff2e05a3db2a505ff2cce92270e61500</Anchor>
-             </Node>
-             <Node>
-              <Name>plotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a5b5b57210487af1251c442a8101b77e2</Anchor>
-             </Node>
-             <Node>
-              <Name>plusPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a8d7149c060cd1457d417a03d3bdacae0</Anchor>
-             </Node>
-             <Node>
-              <Name>rectanglePlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a9e3f258b0522737c62e0818b67138659</Anchor>
              </Node>
              <Node>
               <Name>renderAsVectorInContext:atPoint:scale:</Name>
@@ -4647,21 +4051,6 @@
               <Name>renderInContext:atPoint:scale:alignToPixels:</Name>
               <Path>interface_c_p_t_plot_symbol.html</Path>
               <Anchor>a4c0dcd1bf6c9ef6dcb468894b5b519b2</Anchor>
-             </Node>
-             <Node>
-              <Name>snowPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>ad37168ea22df9dccda63efcdd8f34555</Anchor>
-             </Node>
-             <Node>
-              <Name>starPlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a7bab94b965c138b5b17b1d2f425a1eff</Anchor>
-             </Node>
-             <Node>
-              <Name>trianglePlotSymbol</Name>
-              <Path>interface_c_p_t_plot_symbol.html</Path>
-              <Anchor>a90309e41b8fb0a83b7f55166392fb3be</Anchor>
              </Node>
              <Node>
               <Name>anchorPoint</Name>
@@ -4948,11 +4337,6 @@
               <Anchor>ac3f8bccecfddfd95ceba9d8419c6d547</Anchor>
              </Node>
              <Node>
-              <Name>shadow</Name>
-              <Path>interface_c_p_t_shadow.html</Path>
-              <Anchor>a63f431d05aa7b531a7eb62304f26aff0</Anchor>
-             </Node>
-             <Node>
               <Name>shadowBlurRadius</Name>
               <Path>interface_c_p_t_shadow.html</Path>
               <Anchor>a6994dd269611600264e6b18a230bbe9d</Anchor>
@@ -5020,11 +4404,6 @@
               <Anchor>a5340ca95c2bf736b226c6d07bce23567</Anchor>
              </Node>
              <Node>
-              <Name>textStyle</Name>
-              <Path>interface_c_p_t_text_style.html</Path>
-              <Anchor>a548f9a9c88b177fd0b7cf0f63b0a0e15</Anchor>
-             </Node>
-             <Node>
               <Name>color</Name>
               <Path>interface_c_p_t_text_style.html</Path>
               <Anchor>a92fe213dcfdf9c486d68f0a0fd7df25b</Anchor>
@@ -5076,29 +4455,9 @@
               <Anchor>a4f682751028577b593bbe8539cd19f8e</Anchor>
              </Node>
              <Node>
-              <Name>name</Name>
-              <Path>interface_c_p_t_theme.html</Path>
-              <Anchor>a58e8ac1ab1f7eda2a2975c5e95d0f5cc</Anchor>
-             </Node>
-             <Node>
               <Name>newGraph</Name>
               <Path>interface_c_p_t_theme.html</Path>
               <Anchor>a62847df437e0cb5e1f00251f9e5f3ff7</Anchor>
-             </Node>
-             <Node>
-              <Name>registerTheme:</Name>
-              <Path>interface_c_p_t_theme.html</Path>
-              <Anchor>a9fb5f53161a38eafd5ac287d1b05b898</Anchor>
-             </Node>
-             <Node>
-              <Name>themeClasses</Name>
-              <Path>interface_c_p_t_theme.html</Path>
-              <Anchor>a60d344670a10a97fd30d8d03d313d52b</Anchor>
-             </Node>
-             <Node>
-              <Name>themeNamed:</Name>
-              <Path>interface_c_p_t_theme.html</Path>
-              <Anchor>a14e11dbf2ed696500d7719f95d66cc4e</Anchor>
              </Node>
              <Node>
               <Name>graphClass</Name>
@@ -5536,11 +4895,6 @@
               <Name>initWithCGFloat:</Name>
               <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
               <Anchor>a797adfbaa84f6526f8c3dc8314df5c71</Anchor>
-             </Node>
-             <Node>
-              <Name>numberWithCGFloat:</Name>
-              <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
-              <Anchor>a24486cb7b0a47d63e21692a42e6a7b8e</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -6488,16 +5842,6 @@
                 <Name>CPTDecimalNumberValueTransformer</Name>
                 <Path>interface_c_p_t_decimal_number_value_transformer.html</Path>
                 <Subnodes>
-                 <Node>
-                  <Name>allowsReverseTransformation</Name>
-                  <Path>interface_c_p_t_decimal_number_value_transformer.html</Path>
-                  <Anchor>ade6e8e07c5810ec4cecff863845484d8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>transformedValueClass</Name>
-                  <Path>interface_c_p_t_decimal_number_value_transformer.html</Path>
-                  <Anchor>a310743aa6b41ad0b0b1355a9c0d3759a</Anchor>
-                 </Node>
                 </Subnodes>
                </Node>
               </Subnodes>
@@ -6660,11 +6004,6 @@
                 <Path>_c_p_t_platform_specific_functions_8m.html</Path>
                 <Anchor>aa788843028b5cdba8df9b77d759d286f</Anchor>
                </Node>
-               <Node>
-                <Name>pushedContexts</Name>
-                <Path>_c_p_t_platform_specific_functions_8m.html</Path>
-                <Anchor>ac3b8263a013e028207791107228a7d8d</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -6726,101 +6065,6 @@
                   <Anchor>adbddee5b1b1b924b84f12b89e81e1ea9</Anchor>
                  </Node>
                  <Node>
-                  <Name>animate:property:from:to:duration:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>aa73c986d9014e5e9d7a51e4f657d0dc0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:from:to:duration:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a2e0110ee02741d205e278f1eba30ce1b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:from:to:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a3650c26bb960da338e2459c6be7bb3be</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromDecimal:toDecimal:duration:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a91fa96364cab7e1bc60e217052748c35</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromDecimal:toDecimal:duration:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a0954d36167fd09a3b51e748de67ab1c7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromDecimal:toDecimal:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a4406f29c7f29663d1afe61eadb5a6d53</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPlotRange:toPlotRange:duration:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>af70a1012dc5d5f8f889bce4b96e4376e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPlotRange:toPlotRange:duration:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a18cfd34dbf87b265462a9ff1e0352ff9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPlotRange:toPlotRange:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a5cb84be69dc926b9de02075f84edbe57</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPoint:toPoint:duration:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a271321e47d4c05f64b45fbedcb49046a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPoint:toPoint:duration:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a89c0dd0c9cc9de59c9abbe74d3222773</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPoint:toPoint:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>ad31a491cc550e5a8ce835f92d88a570d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromRect:toRect:duration:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a9ea2952e4db5bf114264775fc4f36954</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromRect:toRect:duration:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a8065d95ab20c7f48f690536bc7027104</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromRect:toRect:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a5cb6cb6a183a957582138ea74f1323e7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromSize:toSize:duration:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>aed020e870f72d1cbce75f7dfd522df80</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromSize:toSize:duration:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a0faf39be934492f1e595fbf7b297dea2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromSize:toSize:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a5653ca9b086242ecf9105f6015ac5615</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:period:animationCurve:delegate:</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a238b81cc36673f9e9e2f51b829cbd3e2</Anchor>
-                 </Node>
-                 <Node>
                   <Name>init</Name>
                   <Path>interface_c_p_t_animation.html</Path>
                   <Anchor>abc8333bfad0e314387747705b69690ea</Anchor>
@@ -6834,11 +6078,6 @@
                   <Name>removeAnimationOperation:</Name>
                   <Path>interface_c_p_t_animation.html</Path>
                   <Anchor>aa6ad2026515a949c41d69ab57998dbd0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>sharedInstance</Name>
-                  <Path>interface_c_p_t_animation.html</Path>
-                  <Anchor>a6aca2388145255fdfddc0232723fd9b9</Anchor>
                  </Node>
                  <Node>
                   <Name>defaultAnimationCurve</Name>
@@ -7025,16 +6264,6 @@
               <Name>CPTAnimation.m</Name>
               <Path>_c_p_t_animation_8m.html</Path>
               <Subnodes>
-               <Node>
-                <Name>instance</Name>
-                <Path>_c_p_t_animation_8m.html</Path>
-                <Anchor>a6ebbe922abbf7dbaf67a5589620467c5</Anchor>
-               </Node>
-               <Node>
-                <Name>kCPTAnimationFrameRate</Name>
-                <Path>_c_p_t_animation_8m.html</Path>
-                <Anchor>add5be08071f3ce1c17ae81245d751e8e</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -7127,36 +6356,6 @@
                   <Anchor>a538060155e0dd2a019be5aab1443eaaa</Anchor>
                  </Node>
                  <Node>
-                  <Name>periodWithStart:end:duration:withDelay:</Name>
-                  <Path>interface_c_p_t_animation_period.html</Path>
-                  <Anchor>a6626a9d9c163b8a47c7e95ee82a56db2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>periodWithStartDecimal:endDecimal:duration:withDelay:</Name>
-                  <Path>interface_c_p_t_animation_period.html</Path>
-                  <Anchor>ad1ac79ccfa196cc9f404c0b4fd9e17d8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>periodWithStartPlotRange:endPlotRange:duration:withDelay:</Name>
-                  <Path>interface_c_p_t_animation_period.html</Path>
-                  <Anchor>a9583beb67d38f0ce55cf92feca72ff62</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>periodWithStartPoint:endPoint:duration:withDelay:</Name>
-                  <Path>interface_c_p_t_animation_period.html</Path>
-                  <Anchor>a658d8d1ff79a9b9905c9f9b8f747c4f7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>periodWithStartRect:endRect:duration:withDelay:</Name>
-                  <Path>interface_c_p_t_animation_period.html</Path>
-                  <Anchor>ab5179cf696edbe70736d94d544fd4ee7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>periodWithStartSize:endSize:duration:withDelay:</Name>
-                  <Path>interface_c_p_t_animation_period.html</Path>
-                  <Anchor>a7cbb86808f23214204bd0557264baf19</Anchor>
-                 </Node>
-                 <Node>
                   <Name>tweenedValueForProgress:</Name>
                   <Path>interface_c_p_t_animation_period.html</Path>
                   <Anchor>a843278bf4e80a43026c6b72e641b84d0</Anchor>
@@ -7203,96 +6402,6 @@
                 <Name>CPTAnimation(CPTAnimationPeriodAdditions)</Name>
                 <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
                 <Subnodes>
-                 <Node>
-                  <Name>animate:property:from:to:duration:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>aa73c986d9014e5e9d7a51e4f657d0dc0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:from:to:duration:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a2e0110ee02741d205e278f1eba30ce1b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:from:to:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a3650c26bb960da338e2459c6be7bb3be</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromDecimal:toDecimal:duration:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a91fa96364cab7e1bc60e217052748c35</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromDecimal:toDecimal:duration:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a0954d36167fd09a3b51e748de67ab1c7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromDecimal:toDecimal:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a4406f29c7f29663d1afe61eadb5a6d53</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPlotRange:toPlotRange:duration:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>af70a1012dc5d5f8f889bce4b96e4376e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPlotRange:toPlotRange:duration:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a18cfd34dbf87b265462a9ff1e0352ff9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPlotRange:toPlotRange:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a5cb84be69dc926b9de02075f84edbe57</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPoint:toPoint:duration:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a271321e47d4c05f64b45fbedcb49046a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPoint:toPoint:duration:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a89c0dd0c9cc9de59c9abbe74d3222773</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromPoint:toPoint:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>ad31a491cc550e5a8ce835f92d88a570d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromRect:toRect:duration:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a9ea2952e4db5bf114264775fc4f36954</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromRect:toRect:duration:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a8065d95ab20c7f48f690536bc7027104</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromRect:toRect:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a5cb6cb6a183a957582138ea74f1323e7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromSize:toSize:duration:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>aed020e870f72d1cbce75f7dfd522df80</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromSize:toSize:duration:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a0faf39be934492f1e595fbf7b297dea2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>animate:property:fromSize:toSize:duration:withDelay:animationCurve:delegate:</Name>
-                  <Path>category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html</Path>
-                  <Anchor>a5653ca9b086242ecf9105f6015ac5615</Anchor>
-                 </Node>
                 </Subnodes>
                </Node>
               </Subnodes>
@@ -8059,11 +7168,6 @@
                   <Anchor>a61249cfee58b15eea564fa0667c23b42</Anchor>
                  </Node>
                  <Node>
-                  <Name>tubularBarPlotWithColor:horizontalBars:</Name>
-                  <Path>interface_c_p_t_bar_plot.html</Path>
-                  <Anchor>ac12f1fb03d8762d6e718acb0a2cd077f</Anchor>
-                 </Node>
-                 <Node>
                   <Name>barBaseCornerRadius</Name>
                   <Path>group__plot_animation_bar_plot.html</Path>
                   <Anchor>ga1ba05e25fedbec2194ab2ade17ac78b8</Anchor>
@@ -8316,64 +7420,9 @@
                 <Path>interface_c_p_t_color.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>blackColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a67a6b0b31fbdc3292a35f357b34270ec</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>blueColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a295e0844a6ebfa4bc544eb5d5d44d84d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>brownColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a4617052de6721dc389fd437b32d3972a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>clearColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a0db7840149d0eb73a44bb71f5cc67d4d</Anchor>
-                 </Node>
-                 <Node>
                   <Name>colorWithAlphaComponent:</Name>
                   <Path>interface_c_p_t_color.html</Path>
                   <Anchor>aaa74d0120cea7d93c4a95a9a3e667a19</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>colorWithCGColor:</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>ab72436e31a1f2cb6d31e93b8452a08d3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>colorWithComponentRed:green:blue:alpha:</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>aa9c315b6d95ec957d5875d9c3f0f46c1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>colorWithGenericGray:</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>afeb545d545ae08a0d4d1b0b067eacfbd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>cyanColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a2bcf6d1ca44ad87b53db5c29f6f37502</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>darkGrayColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>abb6516e54f353a9e7d74bfc4e3c04640</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>grayColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>add8bdd2bf45c6069cc93927a8e0138b9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>greenColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a202da52855a1e86e829ff0087f41706d</Anchor>
                  </Node>
                  <Node>
                   <Name>initWithCGColor:</Name>
@@ -8389,41 +7438,6 @@
                   <Name>isEqual:</Name>
                   <Path>interface_c_p_t_color.html</Path>
                   <Anchor>ab1438b5628b4a231d36b44ecf5bc745d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>lightGrayColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a8c194f226ebb9922fe9db54376cca1d0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>magentaColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a3fd86bf1383ba48a6f26e24ccdf9adc8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>orangeColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>aee92660401132c65fae4c276f66e6c5d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>purpleColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a0e94d1148ae9d2cf04925b05a2479aaa</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>redColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a57a186426f928d73fe9a628282a61625</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>whiteColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a0b7248f8556d34f0a0654791d8871ffd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>yellowColor</Name>
-                  <Path>interface_c_p_t_color.html</Path>
-                  <Anchor>a877615981642026b796d940a4a2d2d1d</Anchor>
                  </Node>
                  <Node>
                   <Name>cgColor</Name>
@@ -8452,11 +7466,6 @@
                 <Path>interface_c_p_t_color_space.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>genericRGBSpace</Name>
-                  <Path>interface_c_p_t_color_space.html</Path>
-                  <Anchor>ac58f6c211393735a956588fe0e140c56</Anchor>
-                 </Node>
-                 <Node>
                   <Name>initWithCGColorSpace:</Name>
                   <Path>interface_c_p_t_color_space.html</Path>
                   <Anchor>a04f20d53ebf7cc49da6d76142add6268</Anchor>
@@ -8482,21 +7491,6 @@
                 <Name>CPTConstraints</Name>
                 <Path>interface_c_p_t_constraints.html</Path>
                 <Subnodes>
-                 <Node>
-                  <Name>constraintWithLowerOffset:</Name>
-                  <Path>interface_c_p_t_constraints.html</Path>
-                  <Anchor>aa7abefa93642ba05aab96f3f000ecc6a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>constraintWithRelativeOffset:</Name>
-                  <Path>interface_c_p_t_constraints.html</Path>
-                  <Anchor>a213ba65d803f1d8b6a255fdf7da9aa72</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>constraintWithUpperOffset:</Name>
-                  <Path>interface_c_p_t_constraints.html</Path>
-                  <Anchor>aa446279fed6d3e5b743520ae580718ea</Anchor>
-                 </Node>
                  <Node>
                   <Name>initWithLowerOffset:</Name>
                   <Path>interface_c_p_t_constraints.html</Path>
@@ -8892,21 +7886,6 @@
                   <Anchor>a1f2d6ee7959728411f8cca7d62c19a21</Anchor>
                  </Node>
                  <Node>
-                  <Name>fillWithColor:</Name>
-                  <Path>interface_c_p_t_fill.html</Path>
-                  <Anchor>a4df6e8fd7e31fb0a33511512296dcd26</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>fillWithGradient:</Name>
-                  <Path>interface_c_p_t_fill.html</Path>
-                  <Anchor>ae4970ff5ae953ff11e829b82925ada6b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>fillWithImage:</Name>
-                  <Path>interface_c_p_t_fill.html</Path>
-                  <Anchor>a02016f499a2cffd02796ed30bf79ba75</Anchor>
-                 </Node>
-                 <Node>
                   <Name>initWithColor:</Name>
                   <Path>interface_c_p_t_fill.html</Path>
                   <Anchor>ae5071229f02ae283a0e9b62c8a53e317</Anchor>
@@ -8980,21 +7959,6 @@
                   <Anchor>a6138b7d9b8e913c91bb026f6a8e2740b</Anchor>
                  </Node>
                  <Node>
-                  <Name>aquaNormalGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>ad8125b1c1bd5474a4d158e33a90d682e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>aquaPressedGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>aa2621022f4666ee3d3edeebcf889a7f7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>aquaSelectedGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>a77de86a1cd435f2d035ac5631d54c7df</Anchor>
-                 </Node>
-                 <Node>
                   <Name>drawSwatchInRect:inContext:</Name>
                   <Path>interface_c_p_t_gradient.html</Path>
                   <Anchor>a25b0a26d315183c8d48f91ae08a929b2</Anchor>
@@ -9015,24 +7979,9 @@
                   <Anchor>aa236bd219d89be3a6e6e3d7424d4f815</Anchor>
                  </Node>
                  <Node>
-                  <Name>gradientWithBeginningColor:endingColor:</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>a4863b01046dbb2b19a056e37860af035</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>ab66ae06884b757f8519efde6fc9f27e0</Anchor>
-                 </Node>
-                 <Node>
                   <Name>gradientWithBlendingMode:</Name>
                   <Path>interface_c_p_t_gradient.html</Path>
                   <Anchor>af84c12a31b6e5eb3cc05bb6a56e49a5b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>hydrogenSpectrumGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>a1e3090eaea39bd0ac3c810f80afd47ff</Anchor>
                  </Node>
                  <Node>
                   <Name>init</Name>
@@ -9055,11 +8004,6 @@
                   <Anchor>a917951692ee14d0dad4cca367c4e4f6b</Anchor>
                  </Node>
                  <Node>
-                  <Name>rainbowGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>a9e9b5caff97a2757c1581e18b82bc850</Anchor>
-                 </Node>
-                 <Node>
                   <Name>removeColorStopAtIndex:</Name>
                   <Path>interface_c_p_t_gradient.html</Path>
                   <Anchor>a9301ffff63c7e434fe688962b2df8d85</Anchor>
@@ -9068,36 +8012,6 @@
                   <Name>removeColorStopAtPosition:</Name>
                   <Path>interface_c_p_t_gradient.html</Path>
                   <Anchor>a84390b356f12080e5baab72a3f7aeeaa</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>sourceListSelectedGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>a87dd2593355b18b2ed282c1cef3a2105</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>sourceListUnselectedGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>a918625705aceed85de17d341325e8504</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>unifiedDarkGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>a0c4e86f5c95474d432593ad31aa3c792</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>unifiedNormalGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>a3ac99fab45c2e77c495dbb748e28d535</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>unifiedPressedGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>aaea26d140eded8072fa2752b237f7d9d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>unifiedSelectedGradient</Name>
-                  <Path>interface_c_p_t_gradient.html</Path>
-                  <Anchor>ab6650d7e4b84bce528a16e37089a40e1</Anchor>
                  </Node>
                  <Node>
                   <Name>angle</Name>
@@ -9498,21 +8412,6 @@
                   <Anchor>aab29f34450ad6c1f232e54f31c1d6517</Anchor>
                  </Node>
                  <Node>
-                  <Name>imageForPNGFile:</Name>
-                  <Path>interface_c_p_t_image.html</Path>
-                  <Anchor>a2456200e77db5c651696fbb8be097492</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>imageWithCGImage:</Name>
-                  <Path>interface_c_p_t_image.html</Path>
-                  <Anchor>a0f5aea573694f892d6323ef0865855a7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>imageWithCGImage:scale:</Name>
-                  <Path>interface_c_p_t_image.html</Path>
-                  <Anchor>a69a63ea3a3bec2284a5c60c426d7fbcc</Anchor>
-                 </Node>
-                 <Node>
                   <Name>init</Name>
                   <Path>interface_c_p_t_image.html</Path>
                   <Anchor>a9391551b2e4984230fc5b24cec859eca</Anchor>
@@ -9844,16 +8743,6 @@
                   <Anchor>a49fa9dffd59dc365d811da971418f345</Anchor>
                  </Node>
                  <Node>
-                  <Name>legendWithGraph:</Name>
-                  <Path>interface_c_p_t_legend.html</Path>
-                  <Anchor>a2e62adb6a9f1a8db77e86908a4bc9041</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>legendWithPlots:</Name>
-                  <Path>interface_c_p_t_legend.html</Path>
-                  <Anchor>a03b4f1ebac5433ca1e9f2417f9f8cb8e</Anchor>
-                 </Node>
-                 <Node>
                   <Name>plotAtIndex:</Name>
                   <Path>interface_c_p_t_legend.html</Path>
                   <Anchor>a53d93d278405c17a0ad67fdca706c586</Anchor>
@@ -10078,11 +8967,6 @@
                   <Anchor>aac545bdeef6f90581c21a9bd3d2cee7d</Anchor>
                  </Node>
                  <Node>
-                  <Name>limitBandWithRange:fill:</Name>
-                  <Path>interface_c_p_t_limit_band.html</Path>
-                  <Anchor>a5458e91780d369927eb484ec3d33debb</Anchor>
-                 </Node>
-                 <Node>
                   <Name>fill</Name>
                   <Path>interface_c_p_t_limit_band.html</Path>
                   <Anchor>aeac3e23fa3b5d85c92b79cda09d7154b</Anchor>
@@ -10109,79 +8993,14 @@
                 <Path>interface_c_p_t_line_cap.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>barPlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>a9f17942ef0752804bf828570a9d27c30</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>crossPlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>ad6560ea204c0e0fa374e98651f6bd657</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>customLineCapWithPath:</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>abb2a9d1f8a6e03e47a69998b33da771b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>diamondPlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>a7be1cf663f628ad0fa710b54573ce5de</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ellipsePlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>a94fc5dc9cdf0c22e429f5bbe45aabd1a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>hexagonPlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>a8645084095025f60f5271f7f8a36acc7</Anchor>
-                 </Node>
-                 <Node>
                   <Name>init</Name>
                   <Path>interface_c_p_t_line_cap.html</Path>
                   <Anchor>a068ed63e6bb0fcd99aab2d13788105c2</Anchor>
                  </Node>
                  <Node>
-                  <Name>lineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>a113fa6e1ae7d3cf88618b00d34a5bb53</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>openArrowPlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>a1736d5b1267c3e09a716122c6f0917ce</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>pentagonPlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>ab2bfb8b3d17fadc5a6c995f69c3bc741</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>rectanglePlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>a4d4916b27147835abc0140c2b290fbdb</Anchor>
-                 </Node>
-                 <Node>
                   <Name>renderAsVectorInContext:atPoint:inDirection:</Name>
                   <Path>interface_c_p_t_line_cap.html</Path>
                   <Anchor>ac1252a5cf020a9099998783bf6de1a22</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>snowPlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>a250cf4b3fbdf16aa0ab80232a50d94e6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>solidArrowPlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>af6b4eb2e995fc4f66ca0c7f6edc9e562</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>sweptArrowPlotLineCap</Name>
-                  <Path>interface_c_p_t_line_cap.html</Path>
-                  <Anchor>a38d68a7618dfdcf600134f6a343074e4</Anchor>
                  </Node>
                  <Node>
                   <Name>customLineCapPath</Name>
@@ -10305,11 +9124,6 @@
                   <Name>init</Name>
                   <Path>interface_c_p_t_line_style.html</Path>
                   <Anchor>ad1126ac34f822be1b1cfb3d5d999ecfc</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>lineStyle</Name>
-                  <Path>interface_c_p_t_line_style.html</Path>
-                  <Anchor>a1a62163fa497ad6a5eeb2d31e654424d</Anchor>
                  </Node>
                  <Node>
                   <Name>setLineStyleInContext:</Name>
@@ -10740,46 +9554,6 @@
                   <Anchor>a355575cf6aa1fe32a18a90c46b782391</Anchor>
                  </Node>
                  <Node>
-                  <Name>numericDataWithArray:dataType:shape:</Name>
-                  <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>ad89d93869720b7ac8107de74e76d3dc6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>numericDataWithArray:dataType:shape:dataOrder:</Name>
-                  <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>adf140fe6539051c44c8780c90044387b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>numericDataWithArray:dataTypeString:shape:</Name>
-                  <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>aa781a92879b57f0482f705675b4acdf3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>numericDataWithArray:dataTypeString:shape:dataOrder:</Name>
-                  <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>a42e699b8452bd439ae59933c90f69f88</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>numericDataWithData:dataType:shape:</Name>
-                  <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>adb15b1ebe1e5d858f121a6a1eda3877e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>numericDataWithData:dataType:shape:dataOrder:</Name>
-                  <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>a9873c0f264936215ef1ac818dedbbbff</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>numericDataWithData:dataTypeString:shape:</Name>
-                  <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>a87a6819fa9a13c0d4766e1f9f2f2f2e3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>numericDataWithData:dataTypeString:shape:dataOrder:</Name>
-                  <Path>interface_c_p_t_numeric_data.html</Path>
-                  <Anchor>a0cb2309701fd5c7cc1d58d5168d8c7aa</Anchor>
-                 </Node>
-                 <Node>
                   <Name>sampleArray</Name>
                   <Path>interface_c_p_t_numeric_data.html</Path>
                   <Anchor>a3e15c0587ce8799610f5be441cb8b9b4</Anchor>
@@ -10988,11 +9762,6 @@
               <Path>_c_p_t_numeric_data_type_8m.html</Path>
               <Subnodes>
                <Node>
-                <Name>ByteOrderForDataTypeString</Name>
-                <Path>_c_p_t_numeric_data_type_8m.html</Path>
-                <Anchor>af30ff96230ff37c1573143ded2b921f8</Anchor>
-               </Node>
-               <Node>
                 <Name>CPTDataType</Name>
                 <Path>_c_p_t_numeric_data_type_8m.html</Path>
                 <Anchor>ac00abad966bbdb7e7033cf4fa081ed5a</Anchor>
@@ -11016,16 +9785,6 @@
                 <Name>CPTDataTypeWithDataTypeString</Name>
                 <Path>_c_p_t_numeric_data_type_8m.html</Path>
                 <Anchor>a287d220e26a98dd1a8ec009394d07dc9</Anchor>
-               </Node>
-               <Node>
-                <Name>DataTypeForDataTypeString</Name>
-                <Path>_c_p_t_numeric_data_type_8m.html</Path>
-                <Anchor>af674df64d1830cf66691c2927f6ace97</Anchor>
-               </Node>
-               <Node>
-                <Name>SampleBytesForDataTypeString</Name>
-                <Path>_c_p_t_numeric_data_type_8m.html</Path>
-                <Anchor>a3d445f6d87e24f993b0dd5829e44f3b1</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -11116,11 +9875,6 @@
                 <Name>CPTPieChart</Name>
                 <Path>interface_c_p_t_pie_chart.html</Path>
                 <Subnodes>
-                 <Node>
-                  <Name>defaultPieSliceColorForIndex:</Name>
-                  <Path>interface_c_p_t_pie_chart.html</Path>
-                  <Anchor>ad2efbb8005aebd12a9801a54edacf1ea</Anchor>
-                 </Node>
                  <Node>
                   <Name>initWithFrame:</Name>
                   <Path>interface_c_p_t_pie_chart.html</Path>
@@ -11248,11 +10002,6 @@
               <Name>CPTPieChart.m</Name>
               <Path>_c_p_t_pie_chart_8m.html</Path>
               <Subnodes>
-               <Node>
-                <Name>colorLookupTable</Name>
-                <Path>_c_p_t_pie_chart_8m.html</Path>
-                <Anchor>a8cd7d286d0711d335858a26d7c2f5b60</Anchor>
-               </Node>
                <Node>
                 <Name>CPTPieChartBindingPieSliceFills</Name>
                 <Path>_c_p_t_pie_chart_8m.html</Path>
@@ -11439,11 +10188,6 @@
                   <Name>loadNumbersForAllFieldsFromDataSourceInRecordIndexRange:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>add94c343f3b3a52ae770087520b62d4e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nilData</Name>
-                  <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>a9911432fff3af672a45bfe5e8b02d268</Anchor>
                  </Node>
                  <Node>
                   <Name>numberOfFields</Name>
@@ -11779,11 +10523,6 @@
               <Name>CPTPlotArea.m</Name>
               <Path>_c_p_t_plot_area_8m.html</Path>
               <Subnodes>
-               <Node>
-                <Name>kCPTNumberOfLayers</Name>
-                <Path>_c_p_t_plot_area_8m.html</Path>
-                <Anchor>a5aad990133f0875eaa283b96b2adbea5</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -11910,11 +10649,6 @@
                   <Name>isEqualToRange:</Name>
                   <Path>interface_c_p_t_plot_range.html</Path>
                   <Anchor>ac57ed5a93c31a89f95eaf392087286e9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>plotRangeWithLocation:length:</Name>
-                  <Path>interface_c_p_t_plot_range.html</Path>
-                  <Anchor>a93a5cdd8e0756d5692e62631385ddfb7</Anchor>
                  </Node>
                  <Node>
                   <Name>end</Name>
@@ -12301,59 +11035,9 @@
                 <Path>interface_c_p_t_plot_symbol.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>crossPlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>ab2d36eba576566e60c3dadbb81fe886d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>customPlotSymbolWithPath:</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a715be2de872ed5940283a3d154c611a9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>dashPlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a7e5e96545c2cc264e8fb89538278cabf</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>diamondPlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a111def02bb8eea47521fc85adafad4a9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ellipsePlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a6c94ea057bb768f43cdd4174b94877ef</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>hexagonPlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a0221521330d08dbac22401a0f82857ac</Anchor>
-                 </Node>
-                 <Node>
                   <Name>init</Name>
                   <Path>interface_c_p_t_plot_symbol.html</Path>
                   <Anchor>aee46d68f52f2be30de36c9fdc71e2c68</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>pentagonPlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>aff2e05a3db2a505ff2cce92270e61500</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>plotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a5b5b57210487af1251c442a8101b77e2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>plusPlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a8d7149c060cd1457d417a03d3bdacae0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>rectanglePlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a9e3f258b0522737c62e0818b67138659</Anchor>
                  </Node>
                  <Node>
                   <Name>renderAsVectorInContext:atPoint:scale:</Name>
@@ -12364,21 +11048,6 @@
                   <Name>renderInContext:atPoint:scale:alignToPixels:</Name>
                   <Path>interface_c_p_t_plot_symbol.html</Path>
                   <Anchor>a4c0dcd1bf6c9ef6dcb468894b5b519b2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>snowPlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>ad37168ea22df9dccda63efcdd8f34555</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>starPlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a7bab94b965c138b5b17b1d2f425a1eff</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>trianglePlotSymbol</Name>
-                  <Path>interface_c_p_t_plot_symbol.html</Path>
-                  <Anchor>a90309e41b8fb0a83b7f55166392fb3be</Anchor>
                  </Node>
                  <Node>
                   <Name>anchorPoint</Name>
@@ -12932,11 +11601,6 @@
                   <Anchor>ac3f8bccecfddfd95ceba9d8419c6d547</Anchor>
                  </Node>
                  <Node>
-                  <Name>shadow</Name>
-                  <Path>interface_c_p_t_shadow.html</Path>
-                  <Anchor>a63f431d05aa7b531a7eb62304f26aff0</Anchor>
-                 </Node>
-                 <Node>
                   <Name>shadowBlurRadius</Name>
                   <Path>interface_c_p_t_shadow.html</Path>
                   <Anchor>a6994dd269611600264e6b18a230bbe9d</Anchor>
@@ -13034,11 +11698,6 @@
                   <Name>init</Name>
                   <Path>interface_c_p_t_text_style.html</Path>
                   <Anchor>a5340ca95c2bf736b226c6d07bce23567</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>textStyle</Name>
-                  <Path>interface_c_p_t_text_style.html</Path>
-                  <Anchor>a548f9a9c88b177fd0b7cf0f63b0a0e15</Anchor>
                  </Node>
                  <Node>
                   <Name>color</Name>
@@ -13140,29 +11799,9 @@
                   <Anchor>a4f682751028577b593bbe8539cd19f8e</Anchor>
                  </Node>
                  <Node>
-                  <Name>name</Name>
-                  <Path>interface_c_p_t_theme.html</Path>
-                  <Anchor>a58e8ac1ab1f7eda2a2975c5e95d0f5cc</Anchor>
-                 </Node>
-                 <Node>
                   <Name>newGraph</Name>
                   <Path>interface_c_p_t_theme.html</Path>
                   <Anchor>a62847df437e0cb5e1f00251f9e5f3ff7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>registerTheme:</Name>
-                  <Path>interface_c_p_t_theme.html</Path>
-                  <Anchor>a9fb5f53161a38eafd5ac287d1b05b898</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>themeClasses</Name>
-                  <Path>interface_c_p_t_theme.html</Path>
-                  <Anchor>a60d344670a10a97fd30d8d03d313d52b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>themeNamed:</Name>
-                  <Path>interface_c_p_t_theme.html</Path>
-                  <Anchor>a14e11dbf2ed696500d7719f95d66cc4e</Anchor>
                  </Node>
                  <Node>
                   <Name>graphClass</Name>
@@ -13228,11 +11867,6 @@
               <Name>CPTTheme.m</Name>
               <Path>_c_p_t_theme_8m.html</Path>
               <Subnodes>
-               <Node>
-                <Name>themes</Name>
-                <Path>_c_p_t_theme_8m.html</Path>
-                <Anchor>ad2e8309d9ffe5a6635f415a9f3a5e69a</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -14135,16 +12769,6 @@
                 <Path>_c_p_t_utilities_8m.html</Path>
                 <Anchor>a4e2f173fa3724527e7af5d3a091b1563</Anchor>
                </Node>
-               <Node>
-                <Name>cache</Name>
-                <Path>_c_p_t_utilities_8m.html</Path>
-                <Anchor>a3f9109bf255b12c464df2ab0503d8c23</Anchor>
-               </Node>
-               <Node>
-                <Name>cacheValueInitialized</Name>
-                <Path>_c_p_t_utilities_8m.html</Path>
-                <Anchor>a74eae8e1621de40f546fe73db535fc0e</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -14461,11 +13085,6 @@
                   <Name>initWithCGFloat:</Name>
                   <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
                   <Anchor>a797adfbaa84f6526f8c3dc8314df5c71</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>numberWithCGFloat:</Name>
-                  <Path>category_n_s_number_07_c_p_t_extensions_08.html</Path>
-                  <Anchor>a24486cb7b0a47d63e21692a42e6a7b8e</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

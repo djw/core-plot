@@ -1,9 +1,6 @@
 var interface_c_p_t_image =
 [
     [ "drawInRect:inContext:", "interface_c_p_t_image.html#aab29f34450ad6c1f232e54f31c1d6517", null ],
-    [ "imageForPNGFile:", "interface_c_p_t_image.html#a2456200e77db5c651696fbb8be097492", null ],
-    [ "imageWithCGImage:", "interface_c_p_t_image.html#a0f5aea573694f892d6323ef0865855a7", null ],
-    [ "imageWithCGImage:scale:", "interface_c_p_t_image.html#a69a63ea3a3bec2284a5c60c426d7fbcc", null ],
     [ "init", "interface_c_p_t_image.html#a9391551b2e4984230fc5b24cec859eca", null ],
     [ "initForPNGFile:", "interface_c_p_t_image.html#a9ffebde730aa2e5ef5cb3dadf549e38c", null ],
     [ "initWithCGImage:", "interface_c_p_t_image.html#a42f9e2cc9877c3b672c6706dc9157962", null ],

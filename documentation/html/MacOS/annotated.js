@@ -1,7 +1,7 @@
 var annotated =
 [
     [ "CPTAnimation", "interface_c_p_t_animation.html", "interface_c_p_t_animation" ],
-    [ "CPTAnimation(CPTAnimationPeriodAdditions)", "category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html", "category_c_p_t_animation_07_c_p_t_animation_period_additions_08" ],
+    [ "CPTAnimation(CPTAnimationPeriodAdditions)", "category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html", null ],
     [ "<CPTAnimationDelegate>", "protocol_c_p_t_animation_delegate-p.html", "protocol_c_p_t_animation_delegate-p" ],
     [ "CPTAnimationOperation", "interface_c_p_t_animation_operation.html", "interface_c_p_t_animation_operation" ],
     [ "CPTAnimationPeriod", "interface_c_p_t_animation_period.html", "interface_c_p_t_animation_period" ],
@@ -27,7 +27,7 @@ var annotated =
     [ "CPTConstraints", "interface_c_p_t_constraints.html", "interface_c_p_t_constraints" ],
     [ "CPTConstraints(AbstractMethods)", "category_c_p_t_constraints_07_abstract_methods_08.html", "category_c_p_t_constraints_07_abstract_methods_08" ],
     [ "CPTContextNode", "struct_c_p_t_context_node.html", "struct_c_p_t_context_node" ],
-    [ "CPTDecimalNumberValueTransformer", "interface_c_p_t_decimal_number_value_transformer.html", "interface_c_p_t_decimal_number_value_transformer" ],
+    [ "CPTDecimalNumberValueTransformer", "interface_c_p_t_decimal_number_value_transformer.html", null ],
     [ "CPTFill", "interface_c_p_t_fill.html", "interface_c_p_t_fill" ],
     [ "CPTFill(AbstractMethods)", "category_c_p_t_fill_07_abstract_methods_08.html", "category_c_p_t_fill_07_abstract_methods_08" ],
     [ "CPTGradient", "interface_c_p_t_gradient.html", "interface_c_p_t_gradient" ],

@@ -1,6 +1,5 @@
 var interface_c_p_t_pie_chart =
 [
-    [ "defaultPieSliceColorForIndex:", "interface_c_p_t_pie_chart.html#ad2efbb8005aebd12a9801a54edacf1ea", null ],
     [ "initWithFrame:", "interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b", null ],
     [ "medianAngleForPieSliceIndex:", "interface_c_p_t_pie_chart.html#a54ad30e26087c307a063bb0b4300e8c9", null ],
     [ "pieSliceIndexAtAngle:", "interface_c_p_t_pie_chart.html#a37ad311932e5219f093d4cfc2daeff16", null ],

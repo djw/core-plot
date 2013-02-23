@@ -34,6 +34,6 @@
 <area shape="rect" id="node25" href="$interface_c_p_t_graph_hosting_view.html" title="A container view for displaying a CPTGraph." alt="" coords="1472,846,1638,877"/>
 <area shape="rect" id="node29" href="$interface_c_p_t_plot_area_frame.html" title="A layer drawn on top of the graph layer and behind all plot elements." alt="" coords="2515,790,2655,821"/>
 <area shape="rect" id="node26" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/ApplicationKit/Classes/NSView_Class/Reference/NSView" title="NSView" alt="" coords="984,949,1053,979"/>
-<area shape="rect" id="node36" href="$struct_c_p_t_numeric_data_type.html" title="Struct that describes the encoding of numeric data samples." alt="" coords="2169,413,2330,443"/>
+<area shape="rect" id="node36" href="$struct_c_p_t_numeric_data_type.html" title="Structure that describes the encoding of numeric data samples." alt="" coords="2169,413,2330,443"/>
 <area shape="rect" id="node37" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference" title="NSNumberFormatter" alt="" coords="942,239,1096,270"/>
 </map>

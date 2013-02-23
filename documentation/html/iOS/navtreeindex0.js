@@ -36,8 +36,6 @@ var NAVTREEINDEX0 =
 "_c_p_t_animation_8h.html#a9bc578142a3f60459a3fd1936e688631aee3209c53758d9ec1ffa3b03a2265937":[3,0,1,0,2,22],
 "_c_p_t_animation_8h_source.html":[3,0,1,0],
 "_c_p_t_animation_8m.html":[3,0,1,1],
-"_c_p_t_animation_8m.html#a6ebbe922abbf7dbaf67a5589620467c5":[3,0,1,1,0],
-"_c_p_t_animation_8m.html#add5be08071f3ce1c17ae81245d751e8e":[3,0,1,1,1],
 "_c_p_t_animation_operation_8h.html":[3,0,1,2],
 "_c_p_t_animation_operation_8h_source.html":[3,0,1,2],
 "_c_p_t_animation_operation_8m.html":[3,0,1,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "_c_p_t_mutable_numeric_data_09_type_conversion_8h_source.html":[3,0,1,64],
 "_c_p_t_mutable_numeric_data_09_type_conversion_8m.html":[3,0,1,65],
 "_c_p_t_mutable_numeric_data_8h.html":[3,0,1,66],
-"_c_p_t_mutable_numeric_data_8h_source.html":[3,0,1,66]
+"_c_p_t_mutable_numeric_data_8h_source.html":[3,0,1,66],
+"_c_p_t_mutable_numeric_data_8m.html":[3,0,1,67],
+"_c_p_t_mutable_plot_range_8h.html":[3,0,1,68]
 };

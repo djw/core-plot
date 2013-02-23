@@ -7,8 +7,6 @@ var interface_c_p_t_legend =
     [ "initWithPlots:", "interface_c_p_t_legend.html#a70ce54e5ed07f13cfd66e4ed3d0f3149", null ],
     [ "insertPlot:atIndex:", "interface_c_p_t_legend.html#a50a6d913386d2547030a3f86f70619ab", null ],
     [ "legendEntries", "interface_c_p_t_legend.html#a49fa9dffd59dc365d811da971418f345", null ],
-    [ "legendWithGraph:", "interface_c_p_t_legend.html#a2e62adb6a9f1a8db77e86908a4bc9041", null ],
-    [ "legendWithPlots:", "interface_c_p_t_legend.html#a03b4f1ebac5433ca1e9f2417f9f8cb8e", null ],
     [ "plotAtIndex:", "interface_c_p_t_legend.html#a53d93d278405c17a0ad67fdca706c586", null ],
     [ "plots", "interface_c_p_t_legend.html#aeee50cb5ba04b01e903793e555e910b8", null ],
     [ "plotWithIdentifier:", "interface_c_p_t_legend.html#a393396b77a402fa40385672bcf9d1e64", null ],

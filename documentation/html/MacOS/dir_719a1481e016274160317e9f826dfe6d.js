@@ -1,7 +1,7 @@
 var dir_719a1481e016274160317e9f826dfe6d =
 [
     [ "CPTDecimalNumberValueTransformer.h", "_c_p_t_decimal_number_value_transformer_8h.html", [
-      [ "CPTDecimalNumberValueTransformer", "interface_c_p_t_decimal_number_value_transformer.html", "interface_c_p_t_decimal_number_value_transformer" ]
+      [ "CPTDecimalNumberValueTransformer", "interface_c_p_t_decimal_number_value_transformer.html", null ]
     ] ],
     [ "CPTDecimalNumberValueTransformer.m", "_c_p_t_decimal_number_value_transformer_8m.html", null ],
     [ "CPTGraphHostingView.h", "_c_p_t_graph_hosting_view_8h.html", [
