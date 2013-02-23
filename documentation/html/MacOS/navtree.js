@@ -43,7 +43,7 @@ var NAVTREEINDEX =
 "_c_p_t_mutable_numeric_data_8h_source.html",
 "_c_p_t_utilities_8h.html#a344d9cc450b8f69583b387bc0c5d29cd",
 "functions_func_0x6d.html",
-"interface_c_p_t_axis.html#a52ee1623327cbf1ecb404bcf9b1b1235",
+"interface_c_p_t_axis.html#a54be876224c0bbc93964bf7b54e8fb99",
 "interface_c_p_t_legend.html#af7c9b6e040f20e643a7012e5ad2d4b92",
 "interface_c_p_t_range_plot.html#aaa362f21ff912ab51d4c5b1c315e5400"
 ];

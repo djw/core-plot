@@ -9162,7 +9162,7 @@
       <Scope>CPTAxis</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a025b25c1f351db742f018f5b4e1bf757</Anchor>
+    <Anchor>ab05c383db96bfc1d86a9972fc9617f5a</Anchor>
     <Abstract>The number formatter used to format the label text. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., “Jan 10, 2010”). The CPTCalendarFormatter and CPTTimeFormatter classes are useful for this purpose.</Abstract>
   </Token>
   <Token>
@@ -9173,7 +9173,7 @@
       <Scope>CPTAxis</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a4d692b10fbbb4017d9fa560ab81728ca</Anchor>
+    <Anchor>aa5f163e5cc1be724e435a7ca73d015ba</Anchor>
     <Abstract>The number formatter used to format the label text of minor ticks. If you need a non-numerical label...</Abstract>
   </Token>
   <Token>
@@ -13007,7 +13007,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -27421,7 +27421,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -29467,7 +29467,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -35466,7 +35466,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -37461,7 +37461,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -41153,7 +41153,7 @@
       <Scope>CPTPlot</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_plot.html</Path>
-    <Anchor>aa1cdba14f211b49b16774f21978422f6</Anchor>
+    <Anchor>af2f78146fa09f036c433fe0495bf43a4</Anchor>
     <Abstract>The number formatter used to format the data labels. Set this property to nil to hide the data labels...</Abstract>
   </Token>
   <Token>
@@ -42999,7 +42999,7 @@
       <Scope>CPTAxis</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a025b25c1f351db742f018f5b4e1bf757</Anchor>
+    <Anchor>ab05c383db96bfc1d86a9972fc9617f5a</Anchor>
     <Abstract>The number formatter used to format the label text. If you need a non-numerical label, such as a date, you can use a formatter than turns the numerical plot coordinate into a string (e.g., “Jan 10, 2010”). The CPTCalendarFormatter and CPTTimeFormatter classes are useful for this purpose.</Abstract>
   </Token>
   <Token>
@@ -43010,7 +43010,7 @@
       <Scope>CPTAxis</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_axis.html</Path>
-    <Anchor>a4d692b10fbbb4017d9fa560ab81728ca</Anchor>
+    <Anchor>aa5f163e5cc1be724e435a7ca73d015ba</Anchor>
     <Abstract>The number formatter used to format the label text of minor ticks. If you need a non-numerical label...</Abstract>
   </Token>
   <Token>
