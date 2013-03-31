@@ -14,5 +14,7 @@ var interface_c_p_t_gradient =
     [ "removeColorStopAtPosition:", "interface_c_p_t_gradient.html#a84390b356f12080e5baab72a3f7aeeaa", null ],
     [ "angle", "interface_c_p_t_gradient.html#a76d15b8d10cde6b48a4230e2441d0bdf", null ],
     [ "blendingMode", "interface_c_p_t_gradient.html#a00769935eaa5208fb69f76fc4874f848", null ],
-    [ "gradientType", "interface_c_p_t_gradient.html#abc7cbad384dae1e3d43ab8186ea43507", null ]
+    [ "endAnchor", "interface_c_p_t_gradient.html#aab1d473cc6ae8b3d07f6197a062f6b90", null ],
+    [ "gradientType", "interface_c_p_t_gradient.html#abc7cbad384dae1e3d43ab8186ea43507", null ],
+    [ "startAnchor", "interface_c_p_t_gradient.html#acb9ad7f96778d1d33bd5a23b17aa2989", null ]
 ];

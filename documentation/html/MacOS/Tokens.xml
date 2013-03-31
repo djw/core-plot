@@ -16681,6 +16681,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>gradientType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTGradient</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_gradient.html</Path>
+    <Anchor>abc7cbad384dae1e3d43ab8186ea43507</Anchor>
+    <Abstract>The gradient type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>angle</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -16692,14 +16703,25 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>gradientType</Name>
+      <Name>startAnchor</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
       <Scope>CPTGradient</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_gradient.html</Path>
-    <Anchor>abc7cbad384dae1e3d43ab8186ea43507</Anchor>
-    <Abstract>The gradient type.</Abstract>
+    <Anchor>acb9ad7f96778d1d33bd5a23b17aa2989</Anchor>
+    <Abstract>The anchor point for starting point of a radial gradient. Defaults to (0.5, 0.5) which centers the gr...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>endAnchor</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTGradient</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_gradient.html</Path>
+    <Anchor>aab1d473cc6ae8b3d07f6197a062f6b90</Anchor>
+    <Abstract>The anchor point for ending point of a radial gradient. Defaults to (0.5, 0.5) which centers the grad...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -1543,9 +1543,19 @@
               <Anchor>a00769935eaa5208fb69f76fc4874f848</Anchor>
              </Node>
              <Node>
+              <Name>endAnchor</Name>
+              <Path>interface_c_p_t_gradient.html</Path>
+              <Anchor>aab1d473cc6ae8b3d07f6197a062f6b90</Anchor>
+             </Node>
+             <Node>
               <Name>gradientType</Name>
               <Path>interface_c_p_t_gradient.html</Path>
               <Anchor>abc7cbad384dae1e3d43ab8186ea43507</Anchor>
+             </Node>
+             <Node>
+              <Name>startAnchor</Name>
+              <Path>interface_c_p_t_gradient.html</Path>
+              <Anchor>acb9ad7f96778d1d33bd5a23b17aa2989</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -7818,9 +7828,19 @@
                   <Anchor>a00769935eaa5208fb69f76fc4874f848</Anchor>
                  </Node>
                  <Node>
+                  <Name>endAnchor</Name>
+                  <Path>interface_c_p_t_gradient.html</Path>
+                  <Anchor>aab1d473cc6ae8b3d07f6197a062f6b90</Anchor>
+                 </Node>
+                 <Node>
                   <Name>gradientType</Name>
                   <Path>interface_c_p_t_gradient.html</Path>
                   <Anchor>abc7cbad384dae1e3d43ab8186ea43507</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>startAnchor</Name>
+                  <Path>interface_c_p_t_gradient.html</Path>
+                  <Anchor>acb9ad7f96778d1d33bd5a23b17aa2989</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
