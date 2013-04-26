@@ -184,7 +184,11 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
     [ "CPTShadow.m", "_c_p_t_shadow_8m.html", null ],
     [ "CPTTextLayer.h", "_c_p_t_text_layer_8h.html", "_c_p_t_text_layer_8h" ],
     [ "CPTTextLayer.m", "_c_p_t_text_layer_8m.html", "_c_p_t_text_layer_8m" ],
-    [ "CPTTextStyle.h", "_c_p_t_text_style_8h.html", "_c_p_t_text_style_8h" ],
+    [ "CPTTextStyle.h", "_c_p_t_text_style_8h.html", [
+      [ "CPTTextStyle", "interface_c_p_t_text_style.html", "interface_c_p_t_text_style" ],
+      [ "CPTTextStyle(CPTPlatformSpecificTextStyleExtensions)", "category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html", "category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08" ],
+      [ "NSString(CPTTextStyleExtensions)", "category_n_s_string_07_c_p_t_text_style_extensions_08.html", "category_n_s_string_07_c_p_t_text_style_extensions_08" ]
+    ] ],
     [ "CPTTextStyle.m", "_c_p_t_text_style_8m.html", null ],
     [ "CPTTheme.h", "_c_p_t_theme_8h.html", "_c_p_t_theme_8h" ],
     [ "CPTTheme.m", "_c_p_t_theme_8m.html", null ],

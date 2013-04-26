@@ -134,6 +134,61 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTTextAlignmentLeft</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+    <Anchor>a2787a4973068e8d2dd94451f8112dc6da058e0ba57754aa691a0be22e464fab95</Anchor>
+    <Abstract>Left alignment.</Abstract>
+    <DeclaredIn>CPTTextStylePlatformSpecific.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTextAlignmentCenter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+    <Anchor>a2787a4973068e8d2dd94451f8112dc6daa23e7da29ea5917a7d23abde9198acd1</Anchor>
+    <Abstract>Center alignment.</Abstract>
+    <DeclaredIn>CPTTextStylePlatformSpecific.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTextAlignmentRight</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+    <Anchor>a2787a4973068e8d2dd94451f8112dc6dac04cbc48b6dd21897678451ece032298</Anchor>
+    <Abstract>Right alignment.</Abstract>
+    <DeclaredIn>CPTTextStylePlatformSpecific.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTextAlignmentJustified</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+    <Anchor>a2787a4973068e8d2dd94451f8112dc6da1e6c20f8102f84ac17a6e3899e87fcd6</Anchor>
+    <Abstract>Justified alignment.</Abstract>
+    <DeclaredIn>CPTTextStylePlatformSpecific.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTextAlignmentNatural</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+    <Anchor>a2787a4973068e8d2dd94451f8112dc6da749c2c51b8963ecd489f1a7ee3a8ef6d</Anchor>
+    <Abstract>Natural alignment of the text&amp;#39;s script.</Abstract>
+    <DeclaredIn>CPTTextStylePlatformSpecific.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTAnimationCurveDefault</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -2551,39 +2606,6 @@
     <Anchor>aac3e77177bea87569a70ef179cab5291</Anchor>
     <Abstract>Margin width around the text.</Abstract>
     <DeclaredIn>CPTTextLayer.m</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CPTTextAlignmentLeft</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>_c_p_t_text_style_8h.html</Path>
-    <Anchor>a2787a4973068e8d2dd94451f8112dc6da058e0ba57754aa691a0be22e464fab95</Anchor>
-    <Abstract>Left alignment.</Abstract>
-    <DeclaredIn>CPTTextStyle.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CPTTextAlignmentCenter</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>_c_p_t_text_style_8h.html</Path>
-    <Anchor>a2787a4973068e8d2dd94451f8112dc6daa23e7da29ea5917a7d23abde9198acd1</Anchor>
-    <Abstract>Center alignment.</Abstract>
-    <DeclaredIn>CPTTextStyle.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CPTTextAlignmentRight</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>_c_p_t_text_style_8h.html</Path>
-    <Anchor>a2787a4973068e8d2dd94451f8112dc6dac04cbc48b6dd21897678451ece032298</Anchor>
-    <Abstract>Right alignment.</Abstract>
-    <DeclaredIn>CPTTextStyle.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9012,6 +9034,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a92cced9658bf4aa9bcf53f35ca36130f</Anchor>
+    <Abstract>A convenience property for setting the styled text title of the axis.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>titleRotation</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -11885,6 +11918,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>attributedTitleForLegendEntryAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ab84112fbf936231064ea9a9c3df46de8</Anchor>
+    <Abstract>The styled title text of a legend entry.</Abstract>
+    <DeclaredIn>CPTPlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>drawSwatchForLegend:atIndex:inRect:inContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -12847,6 +12892,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a49b5b67afbdae125bc1fad1b9acc2bb9</Anchor>
+    <Abstract>The styled title of the plot displayed in the legend.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>plotSpace</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -13457,6 +13513,18 @@
     <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
     <Anchor>ac0f9feacac00c55f1ed915fe0606e25a</Anchor>
     <Abstract>(Optional) Gets the legend title for the given bar plot bar.</Abstract>
+    <DeclaredIn>CPTBarPlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedLegendTitleForBarPlot:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTBarPlotDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+    <Anchor>af4201c4ff61b4bfb204a660d0975d76a</Anchor>
+    <Abstract>(Optional) Gets the styled legend title for the given bar plot bar.</Abstract>
     <DeclaredIn>CPTBarPlot.h</DeclaredIn>
   </Token>
   <Token>
@@ -17520,7 +17588,18 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>ad8c60d97fec2dfaa3af6d12779cd0689</Anchor>
-    <Abstract>The title string. Default is nil.</Abstract>
+    <Abstract>The title string.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTGraph</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_graph.html</Path>
+    <Anchor>ad3b2a1532da0c6b60eb17d1478322b6d</Anchor>
+    <Abstract>The styled title string.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25406,6 +25485,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>attributes</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTextStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_style.html</Path>
+    <Anchor>a87aaa8195516d5d5df5d6ae642833a6c</Anchor>
+    <Abstract>A dictionary of standard text attributes suitable for formatting an NSAttributedString.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>textStyle</Name>
       <APILanguage>occ</APILanguage>
       <Type>clm</Type>
@@ -25418,6 +25508,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>textStyleWithAttributes:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTTextStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_style.html</Path>
+    <Anchor>a80362539a83c2b2002dff8069bdf9f47</Anchor>
+    <Abstract>Creates and returns a new CPTTextStyle instance initialized from a dictionary of text attributes...</Abstract>
+    <DeclaredIn>CPTTextStyle.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>init</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -25426,6 +25528,15 @@
     <Path>interface_c_p_t_text_style.html</Path>
     <Anchor>a5340ca95c2bf736b226c6d07bce23567</Anchor>
     <Abstract>Initializes a newly allocated CPTAnnotation object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTMutableTextStyle(CPTPlatformSpecificMutableTextStyleExtensions)</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cat</Type>
+      <Scope>CPTMutableTextStyle(CPTPlatformSpecificMutableTextStyleExtensions)</Scope>
+    </TokenIdentifier>
+    <Path>category_c_p_t_mutable_text_style_07_c_p_t_platform_specific_mutable_text_style_extensions_08.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26365,6 +26476,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>attributedTitleForLegendEntryAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ab84112fbf936231064ea9a9c3df46de8</Anchor>
+    <Abstract>The styled title text of a legend entry.</Abstract>
+    <DeclaredIn>CPTPlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>drawSwatchForLegend:atIndex:inRect:inContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -27283,6 +27406,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a49b5b67afbdae125bc1fad1b9acc2bb9</Anchor>
+    <Abstract>The styled title of the plot displayed in the legend.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>plotSpace</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -27897,6 +28031,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>attributedLegendTitleForPieChart:recordIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTPieChartDataSource-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
+    <Anchor>a6a85e1a9e613eb65267abfb8a884434a</Anchor>
+    <Abstract>(Optional) Gets the styled legend title for the given pie chart slice.</Abstract>
+    <DeclaredIn>CPTPieChart.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>numberOfRecordsForPlot:</Name>
       <APILanguage>occ</APILanguage>
       <Type>intfm</Type>
@@ -28201,6 +28347,18 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
     <Abstract>The title text of a legend entry.</Abstract>
+    <DeclaredIn>CPTPlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedTitleForLegendEntryAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ab84112fbf936231064ea9a9c3df46de8</Anchor>
+    <Abstract>The styled title text of a legend entry.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
   <Token>
@@ -28767,6 +28925,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>affe4c7f178c7ce40674f1b3fa61fbe81</Anchor>
     <Abstract>The title of the plot displayed in the legend.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a49b5b67afbdae125bc1fad1b9acc2bb9</Anchor>
+    <Abstract>The styled title of the plot displayed in the legend.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34454,6 +34623,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>attributedTitleForLegendEntryAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ab84112fbf936231064ea9a9c3df46de8</Anchor>
+    <Abstract>The styled title text of a legend entry.</Abstract>
+    <DeclaredIn>CPTPlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>drawSwatchForLegend:atIndex:inRect:inContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -35325,6 +35506,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>affe4c7f178c7ce40674f1b3fa61fbe81</Anchor>
     <Abstract>The title of the plot displayed in the legend.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a49b5b67afbdae125bc1fad1b9acc2bb9</Anchor>
+    <Abstract>The styled title of the plot displayed in the legend.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -36427,6 +36619,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>attributedTitleForLegendEntryAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ab84112fbf936231064ea9a9c3df46de8</Anchor>
+    <Abstract>The styled title text of a legend entry.</Abstract>
+    <DeclaredIn>CPTPlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>drawSwatchForLegend:atIndex:inRect:inContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -37320,6 +37524,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>affe4c7f178c7ce40674f1b3fa61fbe81</Anchor>
     <Abstract>The title of the plot displayed in the legend.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a49b5b67afbdae125bc1fad1b9acc2bb9</Anchor>
+    <Abstract>The styled title of the plot displayed in the legend.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -38548,6 +38763,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>initWithAttributedText:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTTextLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_layer.html</Path>
+    <Anchor>a7bae6c503725f48198dc22c62b5fd41e</Anchor>
+    <Abstract>Initializes a newly allocated CPTTextLayer object with the provided styled text.</Abstract>
+    <DeclaredIn>CPTTextLayer.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>initWithFrame:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -39073,7 +39300,7 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_text_layer.html</Path>
     <Anchor>a1c9038927b1bd0fa284581bc355b1f39</Anchor>
-    <Abstract>The text to display. Insert newline characters (&amp;#39;\n&amp;#39;) at the line breaks to display multi-line text...</Abstract>
+    <Abstract>The text to display.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -39085,6 +39312,17 @@
     <Path>interface_c_p_t_text_layer.html</Path>
     <Anchor>a1129d7d4192186d521a1f101ae4f35f3</Anchor>
     <Abstract>The text style used to draw the text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedText</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTextLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_layer.html</Path>
+    <Anchor>a54ed451e9d4e5727a9728e5242ddc4dd</Anchor>
+    <Abstract>The styled text to display.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -39150,6 +39388,18 @@
     <Path>interface_c_p_t_text_style.html</Path>
     <Anchor>a548f9a9c88b177fd0b7cf0f63b0a0e15</Anchor>
     <Abstract>Creates and returns a new CPTTextStyle instance.</Abstract>
+    <DeclaredIn>CPTTextStyle.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>textStyleWithAttributes:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>CPTTextStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_style.html</Path>
+    <Anchor>a80362539a83c2b2002dff8069bdf9f47</Anchor>
+    <Abstract>Creates and returns a new CPTTextStyle instance initialized from a dictionary of text attributes...</Abstract>
     <DeclaredIn>CPTTextStyle.h</DeclaredIn>
   </Token>
   <Token>
@@ -39456,6 +39706,51 @@
     <Path>interface_c_p_t_text_style.html</Path>
     <Anchor>a3fa7c61325f90a770cddcada731cacda</Anchor>
     <Abstract>The paragraph alignment for multi-line text. Default is CPTTextAlignmentLeft.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributes</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTextStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_style.html</Path>
+    <Anchor>a87aaa8195516d5d5df5d6ae642833a6c</Anchor>
+    <Abstract>A dictionary of standard text attributes suitable for formatting an NSAttributedString.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTTextStyle(CPTPlatformSpecificTextStyleExtensions)</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cat</Type>
+      <Scope>CPTTextStyle(CPTPlatformSpecificTextStyleExtensions)</Scope>
+    </TokenIdentifier>
+    <Path>category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html</Path>
+    <Abstract>Platform-specific extensions to CPTTextStyle.</Abstract>
+    <DeclaredIn>CPTTextStyle.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>textStyleWithAttributes:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>CPTTextStyle(CPTPlatformSpecificTextStyleExtensions)</Scope>
+    </TokenIdentifier>
+    <Path>category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html</Path>
+    <Anchor>a80362539a83c2b2002dff8069bdf9f47</Anchor>
+    <Abstract>Creates and returns a new CPTTextStyle instance initialized from a dictionary of text attributes...</Abstract>
+    <DeclaredIn>CPTTextStyle.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributes</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTextStyle(CPTPlatformSpecificTextStyleExtensions)</Scope>
+    </TokenIdentifier>
+    <Path>category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html</Path>
+    <Anchor>a87aaa8195516d5d5df5d6ae642833a6c</Anchor>
+    <Abstract>A dictionary of standard text attributes suitable for formatting an NSAttributedString.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -40093,6 +40388,18 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
     <Abstract>The title text of a legend entry.</Abstract>
+    <DeclaredIn>CPTPlot.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedTitleForLegendEntryAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>ab84112fbf936231064ea9a9c3df46de8</Anchor>
+    <Abstract>The styled title text of a legend entry.</Abstract>
     <DeclaredIn>CPTPlot.h</DeclaredIn>
   </Token>
   <Token>
@@ -41012,6 +41319,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>affe4c7f178c7ce40674f1b3fa61fbe81</Anchor>
     <Abstract>The title of the plot displayed in the legend.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a49b5b67afbdae125bc1fad1b9acc2bb9</Anchor>
+    <Abstract>The styled title of the plot displayed in the legend.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -42880,6 +43198,17 @@
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a0141093359c38a240da73f5e89f858f0</Anchor>
     <Abstract>A convenience property for setting the text title of the axis.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a92cced9658bf4aa9bcf53f35ca36130f</Anchor>
+    <Abstract>A convenience property for setting the styled text title of the axis.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45200,7 +45529,18 @@
     </TokenIdentifier>
     <Path>interface_c_p_t_graph.html</Path>
     <Anchor>ad8c60d97fec2dfaa3af6d12779cd0689</Anchor>
-    <Abstract>The title string. Default is nil.</Abstract>
+    <Abstract>The title string.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attributedTitle</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTGraph</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_graph.html</Path>
+    <Anchor>ad3b2a1532da0c6b60eb17d1478322b6d</Anchor>
+    <Abstract>The styled title string.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45863,6 +46203,29 @@
     </TokenIdentifier>
     <Path>https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html</Path>
     <Anchor>//apple_ref/occ/clm/NSObject/new</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cat</Type>
+      <Scope>NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)</Scope>
+    </TokenIdentifier>
+    <Path>category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html</Path>
+    <Abstract>NSAttributedString extensions for drawing styled text.</Abstract>
+    <DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>drawInRect:inContext:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)</Scope>
+    </TokenIdentifier>
+    <Path>category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html</Path>
+    <Anchor>a132f9ee7d43ef10540712d58a48d2bf2</Anchor>
+    <Abstract>Draws the styled text into the given graphics context.</Abstract>
+    <DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

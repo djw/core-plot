@@ -1,5 +1,6 @@
 var interface_c_p_t_plot =
 [
+    [ "attributedTitleForLegendEntryAtIndex:", "interface_c_p_t_plot.html#ab84112fbf936231064ea9a9c3df46de8", null ],
     [ "cacheArray:forKey:", "interface_c_p_t_plot.html#ad2dd1bbb5f56791dac2d5192a32f3657", null ],
     [ "cacheArray:forKey:atRecordIndex:", "interface_c_p_t_plot.html#ae0ffdb3fdef1ae61664791ad07e4217c", null ],
     [ "cachedArrayForKey:", "interface_c_p_t_plot.html#acc4f970c4eb5f0630f86552f7f85ed5d", null ],
@@ -35,6 +36,7 @@ var interface_c_p_t_plot =
     [ "setNeedsRelabel", "interface_c_p_t_plot.html#a0947c9947f44847ad89ee01ab762a5c4", null ],
     [ "titleForLegendEntryAtIndex:", "interface_c_p_t_plot.html#a78ef2f45498b2c5b8c69ccf5ac01f84c", null ],
     [ "alignsPointsToPixels", "interface_c_p_t_plot.html#ae3ebd8478e3bb09584278c3929b499a2", null ],
+    [ "attributedTitle", "interface_c_p_t_plot.html#a49b5b67afbdae125bc1fad1b9acc2bb9", null ],
     [ "cachedDataCount", "interface_c_p_t_plot.html#a8be7b7e904558fbd5ea954704ae9355a", null ],
     [ "cachePrecision", "interface_c_p_t_plot.html#abae82fd37d34329054b059672ab4e152", null ],
     [ "dataNeedsReloading", "interface_c_p_t_plot.html#a4d560a8d6ecf92085ecd6def8af83f4b", null ],

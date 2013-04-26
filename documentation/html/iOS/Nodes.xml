@@ -684,6 +684,11 @@
               <Anchor>ad4458ffc44003fee5e1750dc0b47f1cc</Anchor>
              </Node>
              <Node>
+              <Name>attributedTitle</Name>
+              <Path>interface_c_p_t_axis.html</Path>
+              <Anchor>a92cced9658bf4aa9bcf53f35ca36130f</Anchor>
+             </Node>
+             <Node>
               <Name>axisLabels</Name>
               <Path>interface_c_p_t_axis.html</Path>
               <Anchor>af97e5ab7010e257c180d124f6fdeef72</Anchor>
@@ -1191,6 +1196,11 @@
             <Name>&lt;CPTBarPlotDataSource&gt;</Name>
             <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
             <Subnodes>
+             <Node>
+              <Name>attributedLegendTitleForBarPlot:recordIndex:</Name>
+              <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+              <Anchor>af4201c4ff61b4bfb204a660d0975d76a</Anchor>
+             </Node>
              <Node>
               <Name>barFillForBarPlot:recordIndex:</Name>
               <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
@@ -1703,6 +1713,11 @@
               <Name>removePlotWithIdentifier:</Name>
               <Path>interface_c_p_t_graph.html</Path>
               <Anchor>a435400c6b127ec31e8bfb8f2eeb5a5ff</Anchor>
+             </Node>
+             <Node>
+              <Name>attributedTitle</Name>
+              <Path>interface_c_p_t_graph.html</Path>
+              <Anchor>ad3b2a1532da0c6b60eb17d1478322b6d</Anchor>
              </Node>
              <Node>
               <Name>axisSet</Name>
@@ -2657,6 +2672,10 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTMutableTextStyle(CPTPlatformSpecificMutableTextStyleExtensions)</Name>
+            <Path>category_c_p_t_mutable_text_style_07_c_p_t_platform_specific_mutable_text_style_extensions_08.html</Path>
+           </Node>
+           <Node>
             <Name>CPTNumericData</Name>
             <Path>interface_c_p_t_numeric_data.html</Path>
             <Subnodes>
@@ -2930,6 +2949,11 @@
             <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
             <Subnodes>
              <Node>
+              <Name>attributedLegendTitleForPieChart:recordIndex:</Name>
+              <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
+              <Anchor>a6a85e1a9e613eb65267abfb8a884434a</Anchor>
+             </Node>
+             <Node>
               <Name>legendTitleForPieChart:recordIndex:</Name>
               <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
               <Anchor>a9c59c9ce0407050e223997bbfb7e1e96</Anchor>
@@ -2976,6 +3000,11 @@
             <Name>CPTPlot</Name>
             <Path>interface_c_p_t_plot.html</Path>
             <Subnodes>
+             <Node>
+              <Name>attributedTitleForLegendEntryAtIndex:</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>ab84112fbf936231064ea9a9c3df46de8</Anchor>
+             </Node>
              <Node>
               <Name>cacheArray:forKey:</Name>
               <Path>interface_c_p_t_plot.html</Path>
@@ -3150,6 +3179,11 @@
               <Name>alignsPointsToPixels</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>ae3ebd8478e3bb09584278c3929b499a2</Anchor>
+             </Node>
+             <Node>
+              <Name>attributedTitle</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>a49b5b67afbdae125bc1fad1b9acc2bb9</Anchor>
              </Node>
              <Node>
               <Name>cachedDataCount</Name>
@@ -4159,6 +4193,11 @@
             <Path>interface_c_p_t_text_layer.html</Path>
             <Subnodes>
              <Node>
+              <Name>initWithAttributedText:</Name>
+              <Path>interface_c_p_t_text_layer.html</Path>
+              <Anchor>a7bae6c503725f48198dc22c62b5fd41e</Anchor>
+             </Node>
+             <Node>
               <Name>initWithFrame:</Name>
               <Path>interface_c_p_t_text_layer.html</Path>
               <Anchor>aa7f4721ec788e3c981083b78b958b0b1</Anchor>
@@ -4184,6 +4223,11 @@
               <Anchor>ad880891133a1d5277d14d5182258768a</Anchor>
              </Node>
              <Node>
+              <Name>attributedText</Name>
+              <Path>interface_c_p_t_text_layer.html</Path>
+              <Anchor>a54ed451e9d4e5727a9728e5242ddc4dd</Anchor>
+             </Node>
+             <Node>
               <Name>text</Name>
               <Path>interface_c_p_t_text_layer.html</Path>
               <Anchor>a1c9038927b1bd0fa284581bc355b1f39</Anchor>
@@ -4205,6 +4249,11 @@
               <Anchor>a5340ca95c2bf736b226c6d07bce23567</Anchor>
              </Node>
              <Node>
+              <Name>attributes</Name>
+              <Path>interface_c_p_t_text_style.html</Path>
+              <Anchor>a87aaa8195516d5d5df5d6ae642833a6c</Anchor>
+             </Node>
+             <Node>
               <Name>color</Name>
               <Path>interface_c_p_t_text_style.html</Path>
               <Anchor>a92fe213dcfdf9c486d68f0a0fd7df25b</Anchor>
@@ -4223,6 +4272,17 @@
               <Name>textAlignment</Name>
               <Path>interface_c_p_t_text_style.html</Path>
               <Anchor>a3fa7c61325f90a770cddcada731cacda</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPTTextStyle(CPTPlatformSpecificTextStyleExtensions)</Name>
+            <Path>category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>attributes</Name>
+              <Path>category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html</Path>
+              <Anchor>a87aaa8195516d5d5df5d6ae642833a6c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4582,6 +4642,17 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)</Name>
+            <Path>category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>drawInRect:inContext:</Name>
+              <Path>category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html</Path>
+              <Anchor>a132f9ee7d43ef10540712d58a48d2bf2</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>NSCoder(CPTExtensions)</Name>
             <Path>category_n_s_coder_07_c_p_t_extensions_08.html</Path>
             <Subnodes>
@@ -4906,6 +4977,10 @@
             <Path>category_c_p_t_mutable_numeric_data_07_type_conversion_08.html</Path>
            </Node>
            <Node>
+            <Name>CPTMutableTextStyle(CPTPlatformSpecificMutableTextStyleExtensions)</Name>
+            <Path>category_c_p_t_mutable_text_style_07_c_p_t_platform_specific_mutable_text_style_extensions_08.html</Path>
+           </Node>
+           <Node>
             <Name>CPTNumericData(TypeConversion)</Name>
             <Path>category_c_p_t_numeric_data_07_type_conversion_08.html</Path>
            </Node>
@@ -4926,8 +5001,16 @@
             <Path>struct_c_p_t_r_g_b_a_color.html</Path>
            </Node>
            <Node>
+            <Name>CPTTextStyle(CPTPlatformSpecificTextStyleExtensions)</Name>
+            <Path>category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html</Path>
+           </Node>
+           <Node>
             <Name>CPTTheme(AbstractMethods)</Name>
             <Path>category_c_p_t_theme_07_abstract_methods_08.html</Path>
+           </Node>
+           <Node>
+            <Name>NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)</Name>
+            <Path>category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html</Path>
            </Node>
            <Node>
             <Name>NSCoder(CPTExtensions)</Name>
@@ -5742,6 +5825,17 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)</Name>
+                <Path>category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>drawInRect:inContext:</Name>
+                  <Path>category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html</Path>
+                  <Anchor>a132f9ee7d43ef10540712d58a48d2bf2</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -5813,6 +5907,40 @@
              <Node>
               <Name>CPTTextStylePlatformSpecific.h</Name>
               <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>CPTTextAlignment</Name>
+                <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+                <Anchor>a2787a4973068e8d2dd94451f8112dc6d</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>CPTTextAlignmentLeft</Name>
+                  <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+                  <Anchor>a2787a4973068e8d2dd94451f8112dc6da058e0ba57754aa691a0be22e464fab95</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTextAlignmentCenter</Name>
+                  <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+                  <Anchor>a2787a4973068e8d2dd94451f8112dc6daa23e7da29ea5917a7d23abde9198acd1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTextAlignmentRight</Name>
+                  <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+                  <Anchor>a2787a4973068e8d2dd94451f8112dc6dac04cbc48b6dd21897678451ece032298</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTextAlignmentJustified</Name>
+                  <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+                  <Anchor>a2787a4973068e8d2dd94451f8112dc6da1e6c20f8102f84ac17a6e3899e87fcd6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CPTTextAlignmentNatural</Name>
+                  <Path>_c_p_t_text_style_platform_specific_8h.html</Path>
+                  <Anchor>a2787a4973068e8d2dd94451f8112dc6da749c2c51b8963ecd489f1a7ee3a8ef6d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>CPTTextStylePlatformSpecific.m</Name>
@@ -6432,6 +6560,11 @@
                   <Anchor>ad4458ffc44003fee5e1750dc0b47f1cc</Anchor>
                  </Node>
                  <Node>
+                  <Name>attributedTitle</Name>
+                  <Path>interface_c_p_t_axis.html</Path>
+                  <Anchor>a92cced9658bf4aa9bcf53f35ca36130f</Anchor>
+                 </Node>
+                 <Node>
                   <Name>axisLabels</Name>
                   <Path>interface_c_p_t_axis.html</Path>
                   <Anchor>af97e5ab7010e257c180d124f6fdeef72</Anchor>
@@ -6909,6 +7042,11 @@
                 <Name>&lt;CPTBarPlotDataSource&gt;</Name>
                 <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>attributedLegendTitleForBarPlot:recordIndex:</Name>
+                  <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+                  <Anchor>af4201c4ff61b4bfb204a660d0975d76a</Anchor>
+                 </Node>
                  <Node>
                   <Name>barFillForBarPlot:recordIndex:</Name>
                   <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
@@ -8016,6 +8154,11 @@
                   <Name>removePlotWithIdentifier:</Name>
                   <Path>interface_c_p_t_graph.html</Path>
                   <Anchor>a435400c6b127ec31e8bfb8f2eeb5a5ff</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>attributedTitle</Name>
+                  <Path>interface_c_p_t_graph.html</Path>
+                  <Anchor>ad3b2a1532da0c6b60eb17d1478322b6d</Anchor>
                  </Node>
                  <Node>
                   <Name>axisSet</Name>
@@ -9643,6 +9786,11 @@
                 <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>attributedLegendTitleForPieChart:recordIndex:</Name>
+                  <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
+                  <Anchor>a6a85e1a9e613eb65267abfb8a884434a</Anchor>
+                 </Node>
+                 <Node>
                   <Name>legendTitleForPieChart:recordIndex:</Name>
                   <Path>protocol_c_p_t_pie_chart_data_source-p.html</Path>
                   <Anchor>a9c59c9ce0407050e223997bbfb7e1e96</Anchor>
@@ -9914,6 +10062,11 @@
                 <Path>interface_c_p_t_plot.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>attributedTitleForLegendEntryAtIndex:</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>ab84112fbf936231064ea9a9c3df46de8</Anchor>
+                 </Node>
+                 <Node>
                   <Name>cacheArray:forKey:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>ad2dd1bbb5f56791dac2d5192a32f3657</Anchor>
@@ -10087,6 +10240,11 @@
                   <Name>alignsPointsToPixels</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>ae3ebd8478e3bb09584278c3929b499a2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>attributedTitle</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>a49b5b67afbdae125bc1fad1b9acc2bb9</Anchor>
                  </Node>
                  <Node>
                   <Name>cachedDataCount</Name>
@@ -11441,6 +11599,11 @@
                 <Path>interface_c_p_t_text_layer.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>initWithAttributedText:</Name>
+                  <Path>interface_c_p_t_text_layer.html</Path>
+                  <Anchor>a7bae6c503725f48198dc22c62b5fd41e</Anchor>
+                 </Node>
+                 <Node>
                   <Name>initWithFrame:</Name>
                   <Path>interface_c_p_t_text_layer.html</Path>
                   <Anchor>aa7f4721ec788e3c981083b78b958b0b1</Anchor>
@@ -11464,6 +11627,11 @@
                   <Name>sizeToFit</Name>
                   <Path>interface_c_p_t_text_layer.html</Path>
                   <Anchor>ad880891133a1d5277d14d5182258768a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>attributedText</Name>
+                  <Path>interface_c_p_t_text_layer.html</Path>
+                  <Anchor>a54ed451e9d4e5727a9728e5242ddc4dd</Anchor>
                  </Node>
                  <Node>
                   <Name>text</Name>
@@ -11509,6 +11677,11 @@
                   <Anchor>a5340ca95c2bf736b226c6d07bce23567</Anchor>
                  </Node>
                  <Node>
+                  <Name>attributes</Name>
+                  <Path>interface_c_p_t_text_style.html</Path>
+                  <Anchor>a87aaa8195516d5d5df5d6ae642833a6c</Anchor>
+                 </Node>
+                 <Node>
                   <Name>color</Name>
                   <Path>interface_c_p_t_text_style.html</Path>
                   <Anchor>a92fe213dcfdf9c486d68f0a0fd7df25b</Anchor>
@@ -11531,6 +11704,17 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>CPTTextStyle(CPTPlatformSpecificTextStyleExtensions)</Name>
+                <Path>category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>attributes</Name>
+                  <Path>category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html</Path>
+                  <Anchor>a87aaa8195516d5d5df5d6ae642833a6c</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>NSString(CPTTextStyleExtensions)</Name>
                 <Path>category_n_s_string_07_c_p_t_text_style_extensions_08.html</Path>
                 <Subnodes>
@@ -11543,28 +11727,6 @@
                   <Name>sizeWithTextStyle:</Name>
                   <Path>category_n_s_string_07_c_p_t_text_style_extensions_08.html</Path>
                   <Anchor>a2443616a0293d3fa5a4a21c6a75be489</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>CPTTextAlignment</Name>
-                <Path>_c_p_t_text_style_8h.html</Path>
-                <Anchor>a2787a4973068e8d2dd94451f8112dc6d</Anchor>
-                <Subnodes>
-                 <Node>
-                  <Name>CPTTextAlignmentLeft</Name>
-                  <Path>_c_p_t_text_style_8h.html</Path>
-                  <Anchor>a2787a4973068e8d2dd94451f8112dc6da058e0ba57754aa691a0be22e464fab95</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>CPTTextAlignmentCenter</Name>
-                  <Path>_c_p_t_text_style_8h.html</Path>
-                  <Anchor>a2787a4973068e8d2dd94451f8112dc6daa23e7da29ea5917a7d23abde9198acd1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>CPTTextAlignmentRight</Name>
-                  <Path>_c_p_t_text_style_8h.html</Path>
-                  <Anchor>a2787a4973068e8d2dd94451f8112dc6dac04cbc48b6dd21897678451ece032298</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

@@ -117,6 +117,9 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:a9c59c9ce0407050e223997bbfb7e1e96"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#a9c59c9ce0407050e223997bbfb7e1e96">legendTitleForPieChart:recordIndex:</a></td></tr>
 <tr class="memdesc:a9c59c9ce0407050e223997bbfb7e1e96"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) Gets the legend title for the given pie chart slice.  <a href="#a9c59c9ce0407050e223997bbfb7e1e96">More...</a><br/></td></tr>
 <tr class="separator:a9c59c9ce0407050e223997bbfb7e1e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a85e1a9e613eb65267abfb8a884434a"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSAttributedString_Class/Reference/NSAttributedString.html">NSAttributedString</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_pie_chart_data_source-p.html#a6a85e1a9e613eb65267abfb8a884434a">attributedLegendTitleForPieChart:recordIndex:</a></td></tr>
+<tr class="memdesc:a6a85e1a9e613eb65267abfb8a884434a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) Gets the styled legend title for the given pie chart slice.  <a href="#a6a85e1a9e613eb65267abfb8a884434a">More...</a><br/></td></tr>
+<tr class="separator:a6a85e1a9e613eb65267abfb8a884434a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_protocol_c_p_t_plot_data_source-p"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_protocol_c_p_t_plot_data_source-p')"><img src="closed.png" alt="-"/>&#160;Public Instance Methods inherited from <a class="el" href="protocol_c_p_t_plot_data_source-p.html">&lt;CPTPlotDataSource&gt;</a></td></tr>
 <tr class="memitem:a4f88c11590a2ec86a41bab421d207744 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_plot_data_source-p.html#a4f88c11590a2ec86a41bab421d207744">numberOfRecordsForPlot:</a></td></tr>
 <tr class="memdesc:a4f88c11590a2ec86a41bab421d207744 inherit pub_methods_protocol_c_p_t_plot_data_source-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Required</em>) The number of data points for the plot.  <a href="#a4f88c11590a2ec86a41bab421d207744">More...</a><br/></td></tr>
@@ -156,6 +159,42 @@ Public Instance Methods</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A pie chart data source. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a6a85e1a9e613eb65267abfb8a884434a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSAttributedString_Class/Reference/NSAttributedString.html">NSAttributedString</a> *) attributedLegendTitleForPieChart: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_pie_chart.html">CPTPieChart</a> *)&#160;</td>
+          <td class="paramname"><em>pieChart</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">recordIndex:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a>)&#160;</td>
+          <td class="paramname"><em>idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(<em>Optional</em>) Gets the styled legend title for the given pie chart slice. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pieChart</td><td>The pie chart. </td></tr>
+    <tr><td class="paramname">idx</td><td>The data index of interest. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The styled title text for the legend entry for the point with the given index. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a9c59c9ce0407050e223997bbfb7e1e96"></a>
 <div class="memitem">
 <div class="memproto">

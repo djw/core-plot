@@ -16,6 +16,7 @@ var interface_c_p_t_axis =
     [ "updateMinorTickLabels", "interface_c_p_t_axis.html#a7769ce93d289793fbec4aecdc080844a", null ],
     [ "viewPointForCoordinateDecimalNumber:", "interface_c_p_t_axis.html#af25bf15f120918facdcd1a73ff0f963c", null ],
     [ "alternatingBandFills", "interface_c_p_t_axis.html#ad4458ffc44003fee5e1750dc0b47f1cc", null ],
+    [ "attributedTitle", "interface_c_p_t_axis.html#a92cced9658bf4aa9bcf53f35ca36130f", null ],
     [ "axisLabels", "interface_c_p_t_axis.html#af97e5ab7010e257c180d124f6fdeef72", null ],
     [ "axisLineCapMax", "interface_c_p_t_axis.html#ad63bdd206b79377d54a9e2eee9362d12", null ],
     [ "axisLineCapMin", "interface_c_p_t_axis.html#aa511c927069ff375012e1a76bf8bcfbe", null ],

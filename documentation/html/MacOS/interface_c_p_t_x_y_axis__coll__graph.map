@@ -1,43 +1,44 @@
 <map id="CPTXYAxis" name="CPTXYAxis">
-<area shape="rect" id="node2" href="$interface_c_p_t_axis.html" title="An abstract axis class." alt="" coords="3379,721,3453,752"/>
-<area shape="rect" id="node36" href="$interface_c_p_t_grid_lines.html" title="An abstract class that draws grid lines for an axis." alt="" coords="3605,789,3712,820"/>
-<area shape="rect" id="node3" href="$interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot." alt="" coords="1513,1704,1594,1734"/>
-<area shape="rect" id="node20" href="$interface_c_p_t_annotation_host_layer.html" title="A container layer for annotations." alt="" coords="1820,1578,2002,1609"/>
-<area shape="rect" id="node28" href="$interface_c_p_t_axis_set.html" title="A container layer for the set of axes for a graph." alt="" coords="1864,1370,1958,1401"/>
-<area shape="rect" id="node31" href="$interface_c_p_t_grid_line_group.html" title="A group of grid line layers." alt="" coords="2566,1733,2706,1764"/>
-<area shape="rect" id="node32" href="$interface_c_p_t_axis_label_group.html" title="A container layer for the axis labels." alt="" coords="1836,1740,1985,1770"/>
-<area shape="rect" id="node33" href="$interface_c_p_t_plot_group.html" title="Defines the coordinate system of a plot." alt="" coords="1855,1685,1966,1716"/>
-<area shape="rect" id="node39" href="$interface_c_p_t_axis_label.html" title="An axis label." alt="" coords="1856,477,1965,508"/>
-<area shape="rect" id="node4" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction" title="CALayer" alt="" coords="1199,1704,1273,1734"/>
-<area shape="rect" id="node5" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference" title="NSObject" alt="" coords="321,977,402,1008"/>
-<area shape="rect" id="node10" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString" title="NSString" alt="" coords="518,1142,594,1173"/>
-<area shape="rect" id="node14" href="$interface_c_p_t_shadow.html" title="Immutable wrapper for various shadow drawing properties." alt="" coords="776,612,872,642"/>
-<area shape="rect" id="node15" href="$interface_c_p_t_color.html" title="An immutable color." alt="" coords="515,701,597,732"/>
-<area shape="rect" id="node16" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference" title="NSSet" alt="" coords="527,1856,585,1886"/>
-<area shape="rect" id="node21" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference" title="NSArray" alt="" coords="520,1477,592,1508"/>
-<area shape="rect" id="node22" href="$interface_c_p_t_fill.html" title="Draws area fills." alt="" coords="523,1026,589,1057"/>
-<area shape="rect" id="node23" href="$interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties." alt="" coords="772,1069,876,1100"/>
-<area shape="rect" id="node24" href="$interface_c_p_t_text_style.html" title="Immutable wrapper for various text style properties." alt="" coords="771,810,877,841"/>
-<area shape="rect" id="node27" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/ApplicationKit/Classes/NSResponder_Class/Reference/Reference" title="NSResponder" alt="" coords="502,544,610,574"/>
-<area shape="rect" id="node34" href="$interface_c_p_t_plot_space.html" title="Defines the coordinate system of a plot." alt="" coords="3127,1712,3235,1742"/>
-<area shape="rect" id="node37" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference" title="NSFormatter" alt="" coords="505,222,607,253"/>
-<area shape="rect" id="node40" href="$interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data." alt="" coords="501,386,611,417"/>
-<area shape="rect" id="node41" href="$interface_c_p_t_line_cap.html" title="End cap decorations for lines." alt="" coords="1187,317,1285,348"/>
-<area shape="rect" id="node42" href="$interface_c_p_t_constraints.html" title="Implements a one&#45;dimensional constrained position within a given numeric range." alt="" coords="496,166,616,197"/>
-<area shape="rect" id="node6" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="65,1597,167,1628"/>
-<area shape="rect" id="node13" href="$protocol_c_p_t_responder-p.html" title="The basis of all event processing in Core Plot." alt="" coords="1168,1993,1304,2024"/>
-<area shape="rect" id="node7" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/ApplicationKit/Protocols/NSKeyValueBindingCreation_Protocol/Reference/Reference" title="\&lt;NSKeyValueBindingCreation\&gt;" alt="" coords="5,977,227,1008"/>
-<area shape="rect" id="node8" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference" title="\&lt;NSCoding\&gt;" alt="" coords="308,728,414,758"/>
-<area shape="rect" id="node9" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction" title="\&lt;CAMediaTiming\&gt;" alt="" coords="752,1600,896,1630"/>
-<area shape="rect" id="node18" href="$interface_c_p_t_graph.html" title="An abstract graph class." alt="" coords="2853,1324,2939,1354"/>
-<area shape="rect" id="node11" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference" title="\&lt;NSCopying\&gt;" alt="" coords="305,244,418,274"/>
-<area shape="rect" id="node12" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference" title="\&lt;NSMutableCopying\&gt;" alt="" coords="279,1310,444,1341"/>
-<area shape="rect" id="node17" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/NSFastEnumeration_protocol/Reference/NSFastEnumeration" title="\&lt;NSFastEnumeration\&gt;" alt="" coords="278,1889,445,1920"/>
-<area shape="rect" id="node25" href="$interface_c_p_t_graph_hosting_view.html" title="A container view for displaying a CPTGraph." alt="" coords="3098,1274,3264,1305"/>
-<area shape="rect" id="node19" href="$interface_c_p_t_bordered_layer.html" title="A layer with a border line and background fill." alt="" coords="2230,1204,2370,1234"/>
-<area shape="rect" id="node29" href="$interface_c_p_t_plot_area_frame.html" title="A layer drawn on top of the graph layer and behind all plot elements." alt="" coords="2566,1377,2706,1408"/>
-<area shape="rect" id="node35" href="$interface_c_p_t_legend.html" title="A graph legend." alt="" coords="2589,1113,2683,1144"/>
-<area shape="rect" id="node30" href="$interface_c_p_t_plot_area.html" title="A layer representing the actual plotting area of a graph." alt="" coords="2250,1690,2350,1721"/>
-<area shape="rect" id="node26" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/ApplicationKit/Classes/NSView_Class/Reference/NSView" title="NSView" alt="" coords="998,576,1066,606"/>
-<area shape="rect" id="node38" href="$interface_c_p_t_axis_title.html" title="An axis title." alt="" coords="2422,468,2525,498"/>
+<area shape="rect" id="node2" href="$interface_c_p_t_axis.html" title="An abstract axis class." alt="" coords="3403,754,3477,785"/>
+<area shape="rect" id="node37" href="$interface_c_p_t_grid_lines.html" title="An abstract class that draws grid lines for an axis." alt="" coords="3629,705,3736,736"/>
+<area shape="rect" id="node3" href="$interface_c_p_t_layer.html" title="Base class for all Core Animation layers in Core Plot." alt="" coords="1537,585,1618,616"/>
+<area shape="rect" id="node20" href="$interface_c_p_t_annotation_host_layer.html" title="A container layer for annotations." alt="" coords="1844,800,2026,830"/>
+<area shape="rect" id="node28" href="$interface_c_p_t_axis_set.html" title="A container layer for the set of axes for a graph." alt="" coords="1888,1008,1982,1038"/>
+<area shape="rect" id="node32" href="$interface_c_p_t_grid_line_group.html" title="A group of grid line layers." alt="" coords="2590,858,2730,889"/>
+<area shape="rect" id="node33" href="$interface_c_p_t_axis_label_group.html" title="A container layer for the axis labels." alt="" coords="1860,638,2009,669"/>
+<area shape="rect" id="node34" href="$interface_c_p_t_plot_group.html" title="Defines the coordinate system of a plot." alt="" coords="1879,693,1990,724"/>
+<area shape="rect" id="node40" href="$interface_c_p_t_axis_label.html" title="An axis label." alt="" coords="1880,104,1989,134"/>
+<area shape="rect" id="node4" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction" title="CALayer" alt="" coords="1223,592,1297,622"/>
+<area shape="rect" id="node5" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference" title="NSObject" alt="" coords="321,736,402,766"/>
+<area shape="rect" id="node10" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString" title="NSString" alt="" coords="530,1674,606,1705"/>
+<area shape="rect" id="node14" href="$interface_c_p_t_shadow.html" title="Immutable wrapper for various shadow drawing properties." alt="" coords="800,1428,896,1458"/>
+<area shape="rect" id="node15" href="$interface_c_p_t_color.html" title="An immutable color." alt="" coords="527,1345,609,1376"/>
+<area shape="rect" id="node16" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSSet_Class/Reference/Reference" title="NSSet" alt="" coords="539,462,597,493"/>
+<area shape="rect" id="node21" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference" title="NSArray" alt="" coords="532,805,604,836"/>
+<area shape="rect" id="node22" href="$interface_c_p_t_fill.html" title="Draws area fills." alt="" coords="535,990,601,1021"/>
+<area shape="rect" id="node23" href="$interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties." alt="" coords="796,1150,900,1181"/>
+<area shape="rect" id="node24" href="$interface_c_p_t_text_style.html" title="Immutable wrapper for various text style properties." alt="" coords="795,1554,901,1585"/>
+<area shape="rect" id="node27" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/ApplicationKit/Classes/NSResponder_Class/Reference/Reference" title="NSResponder" alt="" coords="514,356,622,386"/>
+<area shape="rect" id="node29" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSAttributedString_Class/Reference/NSAttributedString" title="NSAttributedString" alt="" coords="497,1956,639,1986"/>
+<area shape="rect" id="node35" href="$interface_c_p_t_plot_space.html" title="Defines the coordinate system of a plot." alt="" coords="3151,1124,3259,1154"/>
+<area shape="rect" id="node38" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference" title="NSFormatter" alt="" coords="517,249,619,280"/>
+<area shape="rect" id="node41" href="$interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data." alt="" coords="513,2020,623,2050"/>
+<area shape="rect" id="node42" href="$interface_c_p_t_line_cap.html" title="End cap decorations for lines." alt="" coords="1211,398,1309,429"/>
+<area shape="rect" id="node43" href="$interface_c_p_t_constraints.html" title="Implements a one&#45;dimensional constrained position within a given numeric range." alt="" coords="508,2104,628,2134"/>
+<area shape="rect" id="node6" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="65,400,167,430"/>
+<area shape="rect" id="node13" href="$protocol_c_p_t_responder-p.html" title="The basis of all event processing in Core Plot." alt="" coords="1192,344,1328,374"/>
+<area shape="rect" id="node7" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/ApplicationKit/Protocols/NSKeyValueBindingCreation_Protocol/Reference/Reference" title="\&lt;NSKeyValueBindingCreation\&gt;" alt="" coords="5,736,227,766"/>
+<area shape="rect" id="node8" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference" title="\&lt;NSCoding\&gt;" alt="" coords="308,1086,414,1117"/>
+<area shape="rect" id="node9" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/GraphicsImaging/Reference/CAMediaTiming_protocol/Introduction/Introduction" title="\&lt;CAMediaTiming\&gt;" alt="" coords="776,822,920,853"/>
+<area shape="rect" id="node18" href="$interface_c_p_t_graph.html" title="An abstract graph class." alt="" coords="2877,1100,2963,1130"/>
+<area shape="rect" id="node11" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference" title="\&lt;NSCopying\&gt;" alt="" coords="305,1420,418,1450"/>
+<area shape="rect" id="node12" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSMutableCopying_Protocol/Reference/Reference" title="\&lt;NSMutableCopying\&gt;" alt="" coords="279,1770,444,1801"/>
+<area shape="rect" id="node17" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/NSFastEnumeration_protocol/Reference/NSFastEnumeration" title="\&lt;NSFastEnumeration\&gt;" alt="" coords="278,404,445,434"/>
+<area shape="rect" id="node25" href="$interface_c_p_t_graph_hosting_view.html" title="A container view for displaying a CPTGraph." alt="" coords="3122,1001,3288,1032"/>
+<area shape="rect" id="node19" href="$interface_c_p_t_bordered_layer.html" title="A layer with a border line and background fill." alt="" coords="2254,1134,2394,1165"/>
+<area shape="rect" id="node30" href="$interface_c_p_t_plot_area_frame.html" title="A layer drawn on top of the graph layer and behind all plot elements." alt="" coords="2590,1008,2730,1038"/>
+<area shape="rect" id="node36" href="$interface_c_p_t_legend.html" title="A graph legend." alt="" coords="2613,1221,2707,1252"/>
+<area shape="rect" id="node31" href="$interface_c_p_t_plot_area.html" title="A layer representing the actual plotting area of a graph." alt="" coords="2274,836,2374,866"/>
+<area shape="rect" id="node26" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/ApplicationKit/Classes/NSView_Class/Reference/NSView" title="NSView" alt="" coords="1022,188,1090,218"/>
+<area shape="rect" id="node39" href="$interface_c_p_t_axis_title.html" title="An axis title." alt="" coords="2446,141,2549,172"/>
 </map>

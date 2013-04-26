@@ -45,12 +45,15 @@ var hierarchy =
     [ "CPTGraph(AbstractFactoryMethods)", "category_c_p_t_graph_07_abstract_factory_methods_08.html", null ],
     [ "CPTLayer(CPTPlatformSpecificLayerExtensions)", "category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08.html", null ],
     [ "CPTMutableNumericData(TypeConversion)", "category_c_p_t_mutable_numeric_data_07_type_conversion_08.html", null ],
+    [ "CPTMutableTextStyle(CPTPlatformSpecificMutableTextStyleExtensions)", "category_c_p_t_mutable_text_style_07_c_p_t_platform_specific_mutable_text_style_extensions_08.html", null ],
     [ "CPTNumericData(TypeConversion)", "category_c_p_t_numeric_data_07_type_conversion_08.html", null ],
     [ "CPTNumericDataType", "struct_c_p_t_numeric_data_type.html", null ],
     [ "CPTPlot(AbstractMethods)", "category_c_p_t_plot_07_abstract_methods_08.html", null ],
     [ "CPTPlotSpace(AbstractMethods)", "category_c_p_t_plot_space_07_abstract_methods_08.html", null ],
     [ "CPTRGBAColor", "struct_c_p_t_r_g_b_a_color.html", null ],
+    [ "CPTTextStyle(CPTPlatformSpecificTextStyleExtensions)", "category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html", null ],
     [ "CPTTheme(AbstractMethods)", "category_c_p_t_theme_07_abstract_methods_08.html", null ],
+    [ "NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)", "category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html", null ],
     [ "NSCoder(CPTExtensions)", "category_n_s_coder_07_c_p_t_extensions_08.html", null ],
     [ "<NSCoding>", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html", [
       [ "CPTAnnotation", "interface_c_p_t_annotation.html", [
