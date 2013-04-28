@@ -1036,6 +1036,11 @@
               <Anchor>ga4916a1d51e3dc4cb9caf6f7b3b6c3ded</Anchor>
              </Node>
              <Node>
+              <Name>minorTickLabelShadow</Name>
+              <Path>interface_c_p_t_axis.html</Path>
+              <Anchor>af6509aab704d3959c90aa2c191834248</Anchor>
+             </Node>
+             <Node>
               <Name>minorTickLabelTextStyle</Name>
               <Path>interface_c_p_t_axis.html</Path>
               <Anchor>a92a41256f52399f37daa926f06b53e99</Anchor>
@@ -3473,6 +3478,11 @@
               <Name>plotSpace</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>a437197f6a22e1becd75937efe860873e</Anchor>
+             </Node>
+             <Node>
+              <Name>showLabels</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>a4ad047e4c0b08fdd4e94eef536a7081b</Anchor>
              </Node>
              <Node>
               <Name>title</Name>
@@ -6929,6 +6939,11 @@
                   <Name>minorTickLabelRotation</Name>
                   <Path>group__axis_animation.html</Path>
                   <Anchor>ga4916a1d51e3dc4cb9caf6f7b3b6c3ded</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>minorTickLabelShadow</Name>
+                  <Path>interface_c_p_t_axis.html</Path>
+                  <Anchor>af6509aab704d3959c90aa2c191834248</Anchor>
                  </Node>
                  <Node>
                   <Name>minorTickLabelTextStyle</Name>
@@ -10536,6 +10551,11 @@
                   <Name>plotSpace</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>a437197f6a22e1becd75937efe860873e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>showLabels</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>a4ad047e4c0b08fdd4e94eef536a7081b</Anchor>
                  </Node>
                  <Node>
                   <Name>title</Name>

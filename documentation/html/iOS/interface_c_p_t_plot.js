@@ -53,5 +53,6 @@ var interface_c_p_t_plot =
     [ "needsRelabel", "interface_c_p_t_plot.html#a6d86e8c36c677b9efeb2f599e647a74a", null ],
     [ "plotArea", "interface_c_p_t_plot.html#ac9a1a50376c4de43d67516317a60620a", null ],
     [ "plotSpace", "interface_c_p_t_plot.html#a437197f6a22e1becd75937efe860873e", null ],
+    [ "showLabels", "interface_c_p_t_plot.html#a4ad047e4c0b08fdd4e94eef536a7081b", null ],
     [ "title", "interface_c_p_t_plot.html#affe4c7f178c7ce40674f1b3fa61fbe81", null ]
 ];

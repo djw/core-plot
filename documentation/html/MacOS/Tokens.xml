@@ -9266,6 +9266,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>minorTickLabelShadow</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>af6509aab704d3959c90aa2c191834248</Anchor>
+    <Abstract>The shadow applied to each minor tick axis label.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>relabel</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -13010,6 +13021,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a6d86e8c36c677b9efeb2f599e647a74a</Anchor>
     <Abstract>If YES, the plot needs to be relabeled before the layer content is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>showLabels</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a4ad047e4c0b08fdd4e94eef536a7081b</Anchor>
+    <Abstract>Set to NO to override all other label settings and hide the data labels. Defaults to YES...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -27527,6 +27549,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>showLabels</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a4ad047e4c0b08fdd4e94eef536a7081b</Anchor>
+    <Abstract>Set to NO to override all other label settings and hide the data labels. Defaults to YES...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>labelOffset</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -29605,6 +29638,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a6d86e8c36c677b9efeb2f599e647a74a</Anchor>
     <Abstract>If YES, the plot needs to be relabeled before the layer content is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>showLabels</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a4ad047e4c0b08fdd4e94eef536a7081b</Anchor>
+    <Abstract>Set to NO to override all other label settings and hide the data labels. Defaults to YES...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -35630,6 +35674,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>showLabels</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a4ad047e4c0b08fdd4e94eef536a7081b</Anchor>
+    <Abstract>Set to NO to override all other label settings and hide the data labels. Defaults to YES...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>labelOffset</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -37645,6 +37700,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a6d86e8c36c677b9efeb2f599e647a74a</Anchor>
     <Abstract>If YES, the plot needs to be relabeled before the layer content is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>showLabels</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a4ad047e4c0b08fdd4e94eef536a7081b</Anchor>
+    <Abstract>Set to NO to override all other label settings and hide the data labels. Defaults to YES...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -41443,6 +41509,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>showLabels</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>a4ad047e4c0b08fdd4e94eef536a7081b</Anchor>
+    <Abstract>Set to NO to override all other label settings and hide the data labels. Defaults to YES...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>labelOffset</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -43418,6 +43495,17 @@
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>acd1339c315384978516696648b6ad3d6</Anchor>
     <Abstract>The shadow applied to each axis label.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>minorTickLabelShadow</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>af6509aab704d3959c90aa2c191834248</Anchor>
+    <Abstract>The shadow applied to each minor tick axis label.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"interface_c_p_t_line_style.html#a6534d213baf82190c509be88be83bfda":[2,0,44,6],
 "interface_c_p_t_line_style.html#a6766f6b71b5802ae5d68ed5eb6a9f02d":[2,0,44,5],
 "interface_c_p_t_line_style.html#a81041dd3df05988c4c91f5ad71fa57ab":[2,0,44,1],
 "interface_c_p_t_line_style.html#aa7267e191fddb2806c97d0e8d7ca7fe8":[2,0,44,4],
@@ -94,6 +95,7 @@ var NAVTREEINDEX5 =
 "interface_c_p_t_plot.html#a43d13f5df60b7f24fe5695dc8a07b034":[2,0,58,40],
 "interface_c_p_t_plot.html#a44f525ed96c9819b64fedc766feec98c":[2,0,58,16],
 "interface_c_p_t_plot.html#a49b5b67afbdae125bc1fad1b9acc2bb9":[2,0,58,36],
+"interface_c_p_t_plot.html#a4ad047e4c0b08fdd4e94eef536a7081b":[2,0,58,53],
 "interface_c_p_t_plot.html#a4d560a8d6ecf92085ecd6def8af83f4b":[2,0,58,39],
 "interface_c_p_t_plot.html#a5321f1ed99f4a88d40b723bb55555d55":[2,0,58,27],
 "interface_c_p_t_plot.html#a5e035ab29bb66dfe2c31a3bfdcadc014":[2,0,58,29],
@@ -133,7 +135,7 @@ var NAVTREEINDEX5 =
 "interface_c_p_t_plot.html#af2f78146fa09f036c433fe0495bf43a4":[2,0,58,45],
 "interface_c_p_t_plot.html#af5f23800375c34d2eb1eeebba17ce2b2":[2,0,58,25],
 "interface_c_p_t_plot.html#aff032ba633d5eb1766ee8849bcd19fb0":[2,0,58,7],
-"interface_c_p_t_plot.html#affe4c7f178c7ce40674f1b3fa61fbe81":[2,0,58,53],
+"interface_c_p_t_plot.html#affe4c7f178c7ce40674f1b3fa61fbe81":[2,0,58,54],
 "interface_c_p_t_plot_area.html":[2,0,60],
 "interface_c_p_t_plot_area.html#a0066c0b6b579af4650d53270e1e82381":[2,0,60,2],
 "interface_c_p_t_plot_area.html#a0bca0eb21ae6580732f197e0f4f65a4e":[2,0,60,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "interface_c_p_t_shadow.html#af326b111e18d626b5499da87dbb12154":[2,0,79,3],
 "interface_c_p_t_text_layer.html":[2,0,80],
 "interface_c_p_t_text_layer.html#a1129d7d4192186d521a1f101ae4f35f3":[2,0,80,8],
-"interface_c_p_t_text_layer.html#a1c9038927b1bd0fa284581bc355b1f39":[2,0,80,7],
-"interface_c_p_t_text_layer.html#a3e35097b8e8ca6b74126ae985d8ea9fc":[2,0,80,4],
-"interface_c_p_t_text_layer.html#a54ed451e9d4e5727a9728e5242ddc4dd":[2,0,80,6]
+"interface_c_p_t_text_layer.html#a1c9038927b1bd0fa284581bc355b1f39":[2,0,80,7]
 };

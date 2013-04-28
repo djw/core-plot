@@ -49,6 +49,7 @@ var interface_c_p_t_axis =
     [ "minorTickLabelFormatter", "interface_c_p_t_axis.html#aa5f163e5cc1be724e435a7ca73d015ba", null ],
     [ "minorTickLabelOffset", "group__axis_animation.html#ga61cc6615127cfe6ab2c00567ec3ac457", null ],
     [ "minorTickLabelRotation", "group__axis_animation.html#ga4916a1d51e3dc4cb9caf6f7b3b6c3ded", null ],
+    [ "minorTickLabelShadow", "interface_c_p_t_axis.html#af6509aab704d3959c90aa2c191834248", null ],
     [ "minorTickLabelTextStyle", "interface_c_p_t_axis.html#a92a41256f52399f37daa926f06b53e99", null ],
     [ "minorTickLength", "interface_c_p_t_axis.html#a18d850bbd32a1341ef059d81722f5b17", null ],
     [ "minorTickLineStyle", "interface_c_p_t_axis.html#af1c73b5407cfc1591bbf184e1d7242f0", null ],

@@ -450,6 +450,9 @@ Data Labels</h2></td></tr>
 <tr class="memitem:a6d86e8c36c677b9efeb2f599e647a74a"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot.html#a6d86e8c36c677b9efeb2f599e647a74a">needsRelabel</a></td></tr>
 <tr class="memdesc:a6d86e8c36c677b9efeb2f599e647a74a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, the plot needs to be relabeled before the layer content is drawn.  <a href="#a6d86e8c36c677b9efeb2f599e647a74a">More...</a><br/></td></tr>
 <tr class="separator:a6d86e8c36c677b9efeb2f599e647a74a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ad047e4c0b08fdd4e94eef536a7081b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot.html#a4ad047e4c0b08fdd4e94eef536a7081b">showLabels</a></td></tr>
+<tr class="memdesc:a4ad047e4c0b08fdd4e94eef536a7081b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a> to override all other label settings and hide the data labels. Defaults to <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>.  <a href="#a4ad047e4c0b08fdd4e94eef536a7081b">More...</a><br/></td></tr>
+<tr class="separator:a4ad047e4c0b08fdd4e94eef536a7081b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga205ca158d787fd439ec6122fe67c79a3"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__plot_animation_all_plots.html#ga205ca158d787fd439ec6122fe67c79a3">labelOffset</a></td></tr>
 <tr class="memdesc:ga205ca158d787fd439ec6122fe67c79a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distance that labels should be offset from their anchor points. The direction of the offset is defined by subclasses.  <a href="group__plot_animation_all_plots.html#ga205ca158d787fd439ec6122fe67c79a3">More...</a><br/></td></tr>
 <tr class="separator:ga205ca158d787fd439ec6122fe67c79a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1070,6 +1073,7 @@ See <a class="el" href="group__plot_bindings.html">Plot Bindings</a> for a list 
 <li><a class="el" href="interface_c_p_t_plot.html#a437197f6a22e1becd75937efe860873e">plotSpace</a> = <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a></li>
 <li><a class="el" href="interface_c_p_t_plot.html#a4d560a8d6ecf92085ecd6def8af83f4b">dataNeedsReloading</a> = <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a></li>
 <li><a class="el" href="interface_c_p_t_plot.html#a6d86e8c36c677b9efeb2f599e647a74a">needsRelabel</a> = <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a></li>
+<li><a class="el" href="interface_c_p_t_plot.html#a4ad047e4c0b08fdd4e94eef536a7081b">showLabels</a> = <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a></li>
 <li><a class="el" href="group__plot_animation_all_plots.html#ga205ca158d787fd439ec6122fe67c79a3">labelOffset</a> = <code>0.0</code></li>
 <li><a class="el" href="group__plot_animation_all_plots.html#ga5333fc80b5492cdf839157ceb822fff8">labelRotation</a> = <code>0.0</code></li>
 <li><a class="el" href="interface_c_p_t_plot.html#aadbf56752444f510f33693086dd2c7d5">labelField</a> = <code>0</code></li>
@@ -1933,6 +1937,28 @@ See <a class="el" href="group__plot_bindings.html">Plot Bindings</a> for a list 
 </div><div class="memdoc">
 
 <p>The plot space for the plot. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4ad047e4c0b08fdd4e94eef536a7081b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>) showLabels</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set to <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a> to override all other label settings and hide the data labels. Defaults to <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>. </p>
 
 </div>
 </div>
