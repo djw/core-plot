@@ -3392,6 +3392,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTDecimalMin</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>a38e413651af6d8a40cd00523fccb051b</Anchor>
+    <Abstract>Determines the smaller of two NSDecimal values.</Abstract>
+    <DeclaredIn>CPTUtilities.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTDecimalMax</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>a68821dc7f39e46866cb7ded257c2dbc8</Anchor>
+    <Abstract>Determines the larger of two NSDecimal values.</Abstract>
+    <DeclaredIn>CPTUtilities.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTDecimalAbs</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>a4c716cd94435f9e18db143b7cde70706</Anchor>
+    <Abstract>Determines the absolute value of an NSDecimal value.</Abstract>
+    <DeclaredIn>CPTUtilities.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTExpandedRange</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -3993,6 +4026,39 @@
     <Path>_c_p_t_utilities_8m.html</Path>
     <Anchor>a60c0cc1078e99634848563d9e69f4efc</Anchor>
     <Abstract>Creates and returns an NSDecimal struct that represents the value “not a number” (NaN).</Abstract>
+    <DeclaredIn>CPTUtilities.m</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTDecimalMin</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8m.html</Path>
+    <Anchor>a38e413651af6d8a40cd00523fccb051b</Anchor>
+    <Abstract>Determines the smaller of two NSDecimal values.</Abstract>
+    <DeclaredIn>CPTUtilities.m</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTDecimalMax</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8m.html</Path>
+    <Anchor>a68821dc7f39e46866cb7ded257c2dbc8</Anchor>
+    <Abstract>Determines the larger of two NSDecimal values.</Abstract>
+    <DeclaredIn>CPTUtilities.m</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTDecimalAbs</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8m.html</Path>
+    <Anchor>a4c716cd94435f9e18db143b7cde70706</Anchor>
+    <Abstract>Determines the absolute value of an NSDecimal value.</Abstract>
     <DeclaredIn>CPTUtilities.m</DeclaredIn>
   </Token>
   <Token>
@@ -13094,7 +13160,7 @@
       <Scope>CPTCalendarFormatter</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_calendar_formatter.html</Path>
-    <Anchor>aa2e143d41e0c51cda348abf2f7a53638</Anchor>
+    <Anchor>a79e70575bec242938f783674c81f09c6</Anchor>
     <Abstract>Converts decimal number for the time into a date string. Uses the date formatter to do the conversion...</Abstract>
   </Token>
   <Token>
@@ -36371,7 +36437,7 @@
       <Scope>CPTTimeFormatter</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_time_formatter.html</Path>
-    <Anchor>a11b21b865619109cf5a9cb010c1800ae</Anchor>
+    <Anchor>a8a32373a85c2eb6bfdd29b299869c85f</Anchor>
     <Abstract>Converts decimal number for the time into a date string. Uses the date formatter to do the conversion...</Abstract>
   </Token>
   <Token>
@@ -41548,6 +41614,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>shiftRange:by:inGlobalRange:elastic:withDisplacement:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTXYPlotSpace</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_x_y_plot_space.html</Path>
+    <Anchor>aed0b73322bb589a72ce1577352b4b6a2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>pointingDeviceCancelledEvent:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -41888,6 +41964,39 @@
     <Path>interface_c_p_t_x_y_plot_space.html</Path>
     <Anchor>a97fe1702d5d020f8d1ca26ed518a279b</Anchor>
     <Abstract>The scale type of the y coordinate. Defaults to CPTScaleTypeLinear.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allowsMomentum</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTXYPlotSpace</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_x_y_plot_space.html</Path>
+    <Anchor>a9fdd1c2961b64bfac4fcc37382f1d2a2</Anchor>
+    <Abstract>If YES, plot space scrolling slows down gradually rather than stopping abruptly. Defaults to NO...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>elasticGlobalXRange</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTXYPlotSpace</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_x_y_plot_space.html</Path>
+    <Anchor>a1ce77762fefdc3a5ac5d7e8657f3c681</Anchor>
+    <Abstract>If YES, the plot space can scroll beyond the bounds set by the globalXRange, and will bounce back to ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>elasticGlobalYRange</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTXYPlotSpace</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_x_y_plot_space.html</Path>
+    <Anchor>a78f0a1dda6a3032602a35abd498c11e1</Anchor>
+    <Abstract>If YES, the plot space can scroll beyond the bounds set by the globalYRange, and will bounce back to ...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

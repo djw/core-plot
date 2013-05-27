@@ -1489,7 +1489,7 @@
              <Node>
               <Name>stringForObjectValue:</Name>
               <Path>interface_c_p_t_calendar_formatter.html</Path>
-              <Anchor>aa2e143d41e0c51cda348abf2f7a53638</Anchor>
+              <Anchor>a79e70575bec242938f783674c81f09c6</Anchor>
              </Node>
              <Node>
               <Name>dateFormatter</Name>
@@ -4589,7 +4589,7 @@
              <Node>
               <Name>stringForObjectValue:</Name>
               <Path>interface_c_p_t_time_formatter.html</Path>
-              <Anchor>a11b21b865619109cf5a9cb010c1800ae</Anchor>
+              <Anchor>a8a32373a85c2eb6bfdd29b299869c85f</Anchor>
              </Node>
              <Node>
               <Name>dateFormatter</Name>
@@ -4827,6 +4827,26 @@
               <Name>pointingDeviceUpEvent:atPoint:</Name>
               <Path>interface_c_p_t_x_y_plot_space.html</Path>
               <Anchor>a354a115c6fe52cefb705f2defe9dd462</Anchor>
+             </Node>
+             <Node>
+              <Name>shiftRange:by:inGlobalRange:elastic:withDisplacement:</Name>
+              <Path>interface_c_p_t_x_y_plot_space.html</Path>
+              <Anchor>aed0b73322bb589a72ce1577352b4b6a2</Anchor>
+             </Node>
+             <Node>
+              <Name>allowsMomentum</Name>
+              <Path>interface_c_p_t_x_y_plot_space.html</Path>
+              <Anchor>a9fdd1c2961b64bfac4fcc37382f1d2a2</Anchor>
+             </Node>
+             <Node>
+              <Name>elasticGlobalXRange</Name>
+              <Path>interface_c_p_t_x_y_plot_space.html</Path>
+              <Anchor>a1ce77762fefdc3a5ac5d7e8657f3c681</Anchor>
+             </Node>
+             <Node>
+              <Name>elasticGlobalYRange</Name>
+              <Path>interface_c_p_t_x_y_plot_space.html</Path>
+              <Anchor>a78f0a1dda6a3032602a35abd498c11e1</Anchor>
              </Node>
              <Node>
               <Name>globalXRange</Name>
@@ -7544,7 +7564,7 @@
                  <Node>
                   <Name>stringForObjectValue:</Name>
                   <Path>interface_c_p_t_calendar_formatter.html</Path>
-                  <Anchor>aa2e143d41e0c51cda348abf2f7a53638</Anchor>
+                  <Anchor>a79e70575bec242938f783674c81f09c6</Anchor>
                  </Node>
                  <Node>
                   <Name>dateFormatter</Name>
@@ -12092,7 +12112,7 @@
                  <Node>
                   <Name>stringForObjectValue:</Name>
                   <Path>interface_c_p_t_time_formatter.html</Path>
-                  <Anchor>a11b21b865619109cf5a9cb010c1800ae</Anchor>
+                  <Anchor>a8a32373a85c2eb6bfdd29b299869c85f</Anchor>
                  </Node>
                  <Node>
                   <Name>dateFormatter</Name>
@@ -12446,6 +12466,11 @@
                 <Anchor>ae826ae8e3f55a0aa794ac2e699254cad</Anchor>
                </Node>
                <Node>
+                <Name>CPTDecimalAbs</Name>
+                <Path>_c_p_t_utilities_8h.html</Path>
+                <Anchor>a4c716cd94435f9e18db143b7cde70706</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTDecimalAdd</Name>
                 <Path>_c_p_t_utilities_8h.html</Path>
                 <Anchor>a985b63fe956e796f53954a568487b522</Anchor>
@@ -12601,6 +12626,16 @@
                 <Anchor>aa77e18a004fab76d1bffa9cb602977b3</Anchor>
                </Node>
                <Node>
+                <Name>CPTDecimalMax</Name>
+                <Path>_c_p_t_utilities_8h.html</Path>
+                <Anchor>a68821dc7f39e46866cb7ded257c2dbc8</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTDecimalMin</Name>
+                <Path>_c_p_t_utilities_8h.html</Path>
+                <Anchor>a38e413651af6d8a40cd00523fccb051b</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTDecimalMultiply</Name>
                 <Path>_c_p_t_utilities_8h.html</Path>
                 <Anchor>a66a98d0312337dd95a4f67356d773631</Anchor>
@@ -12725,6 +12760,11 @@
                 <Name>CPTAlignSizeToUserSpace</Name>
                 <Path>_c_p_t_utilities_8m.html</Path>
                 <Anchor>ae826ae8e3f55a0aa794ac2e699254cad</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTDecimalAbs</Name>
+                <Path>_c_p_t_utilities_8m.html</Path>
+                <Anchor>a4c716cd94435f9e18db143b7cde70706</Anchor>
                </Node>
                <Node>
                 <Name>CPTDecimalAdd</Name>
@@ -12880,6 +12920,16 @@
                 <Name>CPTDecimalLongValue</Name>
                 <Path>_c_p_t_utilities_8m.html</Path>
                 <Anchor>aa77e18a004fab76d1bffa9cb602977b3</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTDecimalMax</Name>
+                <Path>_c_p_t_utilities_8m.html</Path>
+                <Anchor>a68821dc7f39e46866cb7ded257c2dbc8</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTDecimalMin</Name>
+                <Path>_c_p_t_utilities_8m.html</Path>
+                <Anchor>a38e413651af6d8a40cd00523fccb051b</Anchor>
                </Node>
                <Node>
                 <Name>CPTDecimalMultiply</Name>
@@ -13100,6 +13150,26 @@
                   <Anchor>a354a115c6fe52cefb705f2defe9dd462</Anchor>
                  </Node>
                  <Node>
+                  <Name>shiftRange:by:inGlobalRange:elastic:withDisplacement:</Name>
+                  <Path>interface_c_p_t_x_y_plot_space.html</Path>
+                  <Anchor>aed0b73322bb589a72ce1577352b4b6a2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>allowsMomentum</Name>
+                  <Path>interface_c_p_t_x_y_plot_space.html</Path>
+                  <Anchor>a9fdd1c2961b64bfac4fcc37382f1d2a2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>elasticGlobalXRange</Name>
+                  <Path>interface_c_p_t_x_y_plot_space.html</Path>
+                  <Anchor>a1ce77762fefdc3a5ac5d7e8657f3c681</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>elasticGlobalYRange</Name>
+                  <Path>interface_c_p_t_x_y_plot_space.html</Path>
+                  <Anchor>a78f0a1dda6a3032602a35abd498c11e1</Anchor>
+                 </Node>
+                 <Node>
                   <Name>globalXRange</Name>
                   <Path>interface_c_p_t_x_y_plot_space.html</Path>
                   <Anchor>a21e87799bc5c6a11cac1f14e15f9cbcb</Anchor>
@@ -13136,6 +13206,8 @@
              <Node>
               <Name>CPTXYPlotSpace.m</Name>
               <Path>_c_p_t_x_y_plot_space_8m.html</Path>
+              <Subnodes>
+              </Subnodes>
              </Node>
              <Node>
               <Name>mainpage.h</Name>

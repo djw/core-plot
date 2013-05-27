@@ -114,6 +114,8 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:afe0c31b5a5442c2ec1b3b36584f6cefc"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_plot_space.html#afe0c31b5a5442c2ec1b3b36584f6cefc">pointingDeviceDraggedEvent:atPoint:</a><code> [implementation]</code></td></tr>
 <tr class="memdesc:afe0c31b5a5442c2ec1b3b36584f6cefc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the receiver that the user has moved their finger while touching the screen.  <a href="#afe0c31b5a5442c2ec1b3b36584f6cefc">More...</a><br/></td></tr>
 <tr class="separator:afe0c31b5a5442c2ec1b3b36584f6cefc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed0b73322bb589a72ce1577352b4b6a2"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_x_y_plot_space.html#aed0b73322bb589a72ce1577352b4b6a2">shiftRange:by:inGlobalRange:elastic:withDisplacement:</a><code> [implementation]</code></td></tr>
+<tr class="separator:aed0b73322bb589a72ce1577352b4b6a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interface_c_p_t_plot_space"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_c_p_t_plot_space')"><img src="closed.png" alt="-"/>&#160;Public Instance Methods inherited from <a class="el" href="interface_c_p_t_plot_space.html">CPTPlotSpace</a></td></tr>
 <tr class="memitem:ac13506e5cd0a592d71a822a711ed7b10 inherit pub_methods_interface_c_p_t_plot_space"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#ac13506e5cd0a592d71a822a711ed7b10">pointingDeviceCancelledEvent:</a><code> [implementation]</code></td></tr>
 <tr class="memdesc:ac13506e5cd0a592d71a822a711ed7b10 inherit pub_methods_interface_c_p_t_plot_space"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the receiver that tracking of toucheshas been cancelled for any reason.  <a href="#ac13506e5cd0a592d71a822a711ed7b10">More...</a><br/></td></tr>
@@ -204,6 +206,15 @@ Properties</h2></td></tr>
 <tr class="memitem:a97fe1702d5d020f8d1ca26ed518a279b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182a">CPTScaleType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_plot_space.html#a97fe1702d5d020f8d1ca26ed518a279b">yScaleType</a></td></tr>
 <tr class="memdesc:a97fe1702d5d020f8d1ca26ed518a279b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scale type of the y coordinate. Defaults to <a class="el" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182aad834e3496afe3f6a4e898a88e272d40e" title="Linear axis scale.">CPTScaleTypeLinear</a>.  <a href="#a97fe1702d5d020f8d1ca26ed518a279b">More...</a><br/></td></tr>
 <tr class="separator:a97fe1702d5d020f8d1ca26ed518a279b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fdd1c2961b64bfac4fcc37382f1d2a2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_plot_space.html#a9fdd1c2961b64bfac4fcc37382f1d2a2">allowsMomentum</a></td></tr>
+<tr class="memdesc:a9fdd1c2961b64bfac4fcc37382f1d2a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, plot space scrolling slows down gradually rather than stopping abruptly. Defaults to <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a>.  <a href="#a9fdd1c2961b64bfac4fcc37382f1d2a2">More...</a><br/></td></tr>
+<tr class="separator:a9fdd1c2961b64bfac4fcc37382f1d2a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce77762fefdc3a5ac5d7e8657f3c681"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_plot_space.html#a1ce77762fefdc3a5ac5d7e8657f3c681">elasticGlobalXRange</a></td></tr>
+<tr class="memdesc:a1ce77762fefdc3a5ac5d7e8657f3c681"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, the plot space can scroll beyond the bounds set by the <a class="el" href="interface_c_p_t_x_y_plot_space.html#a21e87799bc5c6a11cac1f14e15f9cbcb">globalXRange</a>, and will bounce back to the <a class="el" href="interface_c_p_t_x_y_plot_space.html#a21e87799bc5c6a11cac1f14e15f9cbcb">globalXRange</a> when released. Defaults to <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a>.  <a href="#a1ce77762fefdc3a5ac5d7e8657f3c681">More...</a><br/></td></tr>
+<tr class="separator:a1ce77762fefdc3a5ac5d7e8657f3c681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f0a1dda6a3032602a35abd498c11e1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_x_y_plot_space.html#a78f0a1dda6a3032602a35abd498c11e1">elasticGlobalYRange</a></td></tr>
+<tr class="memdesc:a78f0a1dda6a3032602a35abd498c11e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, the plot space can scroll beyond the bounds set by the <a class="el" href="interface_c_p_t_x_y_plot_space.html#a0335e189737848267238b79fc5b88204">globalYRange</a>, and will bounce back to the <a class="el" href="interface_c_p_t_x_y_plot_space.html#a0335e189737848267238b79fc5b88204">globalYRange</a> when released. Defaults to <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a>.  <a href="#a78f0a1dda6a3032602a35abd498c11e1">More...</a><br/></td></tr>
+<tr class="separator:a78f0a1dda6a3032602a35abd498c11e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_c_p_t_plot_space"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_c_p_t_plot_space')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_c_p_t_plot_space.html">CPTPlotSpace</a></td></tr>
 <tr class="memitem:afa172d0d2b3b0f42a39961a2898c8923 inherit properties_interface_c_p_t_plot_space"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>&lt; <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html">NSCopying</a>, <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html">NSCoding</a>, <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_plot_space.html#afa172d0d2b3b0f42a39961a2898c8923">identifier</a></td></tr>
 <tr class="memdesc:afa172d0d2b3b0f42a39961a2898c8923 inherit properties_interface_c_p_t_plot_space"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object used to identify the plot in collections.  <a href="#afa172d0d2b3b0f42a39961a2898c8923">More...</a><br/></td></tr>
@@ -268,6 +279,9 @@ Additional Inherited Members</h2></td></tr>
 <li><a class="el" href="interface_c_p_t_x_y_plot_space.html#a0335e189737848267238b79fc5b88204">globalYRange</a> = <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a></li>
 <li><a class="el" href="interface_c_p_t_x_y_plot_space.html#ad350a854ee2958626c0c6ee85d6385b6">xScaleType</a> = <a class="el" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182aad834e3496afe3f6a4e898a88e272d40e" title="Linear axis scale.">CPTScaleTypeLinear</a></li>
 <li><a class="el" href="interface_c_p_t_x_y_plot_space.html#a97fe1702d5d020f8d1ca26ed518a279b">yScaleType</a> = <a class="el" href="_c_p_t_definitions_8h.html#a351ca539c18874842ed40ad03225182aad834e3496afe3f6a4e898a88e272d40e" title="Linear axis scale.">CPTScaleTypeLinear</a></li>
+<li><a class="el" href="interface_c_p_t_x_y_plot_space.html#a9fdd1c2961b64bfac4fcc37382f1d2a2">allowsMomentum</a> = <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a></li>
+<li><a class="el" href="interface_c_p_t_x_y_plot_space.html#a1ce77762fefdc3a5ac5d7e8657f3c681">elasticGlobalXRange</a> = <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a></li>
+<li><a class="el" href="interface_c_p_t_x_y_plot_space.html#a78f0a1dda6a3032602a35abd498c11e1">elasticGlobalYRange</a> = <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a></li>
 </ul>
 <dl class="section return"><dt>Returns</dt><dd>The initialized object. </dd></dl>
 
@@ -416,7 +430,125 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aed0b73322bb589a72ce1577352b4b6a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *) shiftRange: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *)&#160;</td>
+          <td class="paramname"><em>oldRange</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">by:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSDecimal">NSDecimal</a>)&#160;</td>
+          <td class="paramname"><em>shift</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inGlobalRange:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot_range.html">CPTPlotRange</a> *)&#160;</td>
+          <td class="paramname"><em>globalRange</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">elastic:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>)&#160;</td>
+          <td class="paramname"><em>elastic</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withDisplacement:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a> *)&#160;</td>
+          <td class="paramname"><em>displacement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a9fdd1c2961b64bfac4fcc37382f1d2a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>) allowsMomentum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, plot space scrolling slows down gradually rather than stopping abruptly. Defaults to <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1ce77762fefdc3a5ac5d7e8657f3c681"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>) elasticGlobalXRange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, the plot space can scroll beyond the bounds set by the <a class="el" href="interface_c_p_t_x_y_plot_space.html#a21e87799bc5c6a11cac1f14e15f9cbcb">globalXRange</a>, and will bounce back to the <a class="el" href="interface_c_p_t_x_y_plot_space.html#a21e87799bc5c6a11cac1f14e15f9cbcb">globalXRange</a> when released. Defaults to <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a78f0a1dda6a3032602a35abd498c11e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>) elasticGlobalYRange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, the plot space can scroll beyond the bounds set by the <a class="el" href="interface_c_p_t_x_y_plot_space.html#a0335e189737848267238b79fc5b88204">globalYRange</a>, and will bounce back to the <a class="el" href="interface_c_p_t_x_y_plot_space.html#a0335e189737848267238b79fc5b88204">globalYRange</a> when released. Defaults to <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a>. </p>
+
+</div>
+</div>
 <a class="anchor" id="a21e87799bc5c6a11cac1f14e15f9cbcb"></a>
 <div class="memitem">
 <div class="memproto">

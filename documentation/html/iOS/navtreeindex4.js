@@ -1,5 +1,11 @@
 var NAVTREEINDEX4 =
 {
+"interface_c_p_t_axis.html#ac46c911c8e9d1ff891ea5d8a7814a3b0":[2,0,9,38],
+"interface_c_p_t_axis.html#ac6f34073debd7c11cb57ee29162bff64":[2,0,9,31],
+"interface_c_p_t_axis.html#acd1339c315384978516696648b6ad3d6":[2,0,9,34],
+"interface_c_p_t_axis.html#ace7cf1ff4de08b4f04d564e7779479ec":[2,0,9,25],
+"interface_c_p_t_axis.html#ad4458ffc44003fee5e1750dc0b47f1cc":[2,0,9,15],
+"interface_c_p_t_axis.html#ad4bac56dcbc8ea9df349606dae51d098":[2,0,9,56],
 "interface_c_p_t_axis.html#ad63bdd206b79377d54a9e2eee9362d12":[2,0,9,18],
 "interface_c_p_t_axis.html#ae963f0bb8651f7dfaa74024a8c179f13":[2,0,9,9],
 "interface_c_p_t_axis.html#af1c73b5407cfc1591bbf184e1d7242f0":[2,0,9,52],
@@ -53,7 +59,7 @@ var NAVTREEINDEX4 =
 "interface_c_p_t_calendar_formatter.html":[2,0,20],
 "interface_c_p_t_calendar_formatter.html#a1b521c6134c5309112eec09831b9c054":[2,0,20,5],
 "interface_c_p_t_calendar_formatter.html#a51a60897aa90c1e74f62f6427ec8c532":[2,0,20,0],
-"interface_c_p_t_calendar_formatter.html#aa2e143d41e0c51cda348abf2f7a53638":[2,0,20,2],
+"interface_c_p_t_calendar_formatter.html#a79e70575bec242938f783674c81f09c6":[2,0,20,2],
 "interface_c_p_t_calendar_formatter.html#ab6ad8cd0f0bf399e05d7b779a3b1638a":[2,0,20,1],
 "interface_c_p_t_calendar_formatter.html#ab9cfe4e2423eac8014563c1dfbfb0c22":[2,0,20,3],
 "interface_c_p_t_calendar_formatter.html#ad7414d3bacd6ffb655afe8623c02c142":[2,0,20,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX4 =
 "interface_c_p_t_line_cap.html#a068ed63e6bb0fcd99aab2d13788105c2":[2,0,43,0],
 "interface_c_p_t_line_cap.html#a29931aa613a3793007b46131e07510e5":[2,0,43,4],
 "interface_c_p_t_line_cap.html#a340bd8dfbf97ddf6984fa3fe45f2cc68":[2,0,43,5],
-"interface_c_p_t_line_cap.html#a9494f963cd7667cd0834ee7b48e940b3":[2,0,43,6],
-"interface_c_p_t_line_cap.html#ac1252a5cf020a9099998783bf6de1a22":[2,0,43,1],
-"interface_c_p_t_line_cap.html#af97cb44b144f0e78d540d9890ad03048":[2,0,43,3],
-"interface_c_p_t_line_cap.html#afbb9bcb1dfca8eb40d611f901677909f":[2,0,43,7],
-"interface_c_p_t_line_style.html":[2,0,44],
-"interface_c_p_t_line_style.html#a088b3a8a43576bfe1290177d61bc52f9":[2,0,44,11],
-"interface_c_p_t_line_style.html#a4013bcb6c2e1af2e37cfabd7d8222320":[2,0,44,7]
+"interface_c_p_t_line_cap.html#a9494f963cd7667cd0834ee7b48e940b3":[2,0,43,6]
 };
