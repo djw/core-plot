@@ -251,6 +251,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a54ed451e9d4e5727a9728e5242ddc4dd"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSAttributedString_Class/Reference/NSAttributedString.html">NSAttributedString</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_text_layer.html#a54ed451e9d4e5727a9728e5242ddc4dd">attributedText</a></td></tr>
 <tr class="memdesc:a54ed451e9d4e5727a9728e5242ddc4dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The styled text to display.  <a href="#a54ed451e9d4e5727a9728e5242ddc4dd">More...</a><br/></td></tr>
 <tr class="separator:a54ed451e9d4e5727a9728e5242ddc4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4c0cccd95ab52103ab97d23e0aa40bd"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGSize">CGSize</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_text_layer.html#aa4c0cccd95ab52103ab97d23e0aa40bd">maximumSize</a></td></tr>
+<tr class="memdesc:aa4c0cccd95ab52103ab97d23e0aa40bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum size of the layer. The default is {<code>0.0</code>, <code>0.0</code>}.  <a href="#aa4c0cccd95ab52103ab97d23e0aa40bd">More...</a><br/></td></tr>
+<tr class="separator:aa4c0cccd95ab52103ab97d23e0aa40bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_c_p_t_bordered_layer"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_c_p_t_bordered_layer')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_c_p_t_bordered_layer.html">CPTBorderedLayer</a></td></tr>
 <tr class="memitem:a04127d4633e8dd352124b753c2a45151 inherit properties_interface_c_p_t_bordered_layer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_bordered_layer.html#a04127d4633e8dd352124b753c2a45151">borderLineStyle</a></td></tr>
 <tr class="memdesc:a04127d4633e8dd352124b753c2a45151 inherit properties_interface_c_p_t_bordered_layer"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line style for the layer border.  <a href="#a04127d4633e8dd352124b753c2a45151">More...</a><br/></td></tr>
@@ -453,6 +456,29 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The styled text to display. </p>
 <p>Assigning a new value to this property also sets the value of the <a class="el" href="interface_c_p_t_text_layer.html#a1c9038927b1bd0fa284581bc355b1f39">text</a> property to the same string, without formatting information. It also replaces the <a class="el" href="interface_c_p_t_text_layer.html#a1129d7d4192186d521a1f101ae4f35f3">textStyle</a> with a style matching the first position (location <code>0</code>) of the styled text. Insert newline characters (<code>'\n'</code>) at the line breaks to display multi-line text. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa4c0cccd95ab52103ab97d23e0aa40bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGSize">CGSize</a>) maximumSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The maximum size of the layer. The default is {<code>0.0</code>, <code>0.0</code>}. </p>
+<p>A text layer will size itself to fit its text drawn with its text style unless it exceeds this size. If the <code><b>width</b></code> and/or <code><b>height</b></code> of this size is less than or equal to zero (<code>0.0</code>), no size limit will be enforced in the corresponding dimension. The maximum layer size includes any padding applied to the layer. </p>
 
 </div>
 </div>

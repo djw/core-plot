@@ -22830,6 +22830,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>lineBreakMode</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTMutableTextStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_mutable_text_style.html</Path>
+    <Anchor>a4a29832215b8f1c3ac3e0ba2efedbc03</Anchor>
+    <Abstract>The line break mode used when laying out the text. Default is NSLineBreakByWordWrapping ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>fontName</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -22871,6 +22882,17 @@
     <Path>interface_c_p_t_text_style.html</Path>
     <Anchor>a3fa7c61325f90a770cddcada731cacda</Anchor>
     <Abstract>The paragraph alignment for multi-line text. Default is CPTTextAlignmentLeft.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineBreakMode</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTextStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_style.html</Path>
+    <Anchor>a361d4d93aa837c7d1139c063bbad51d7</Anchor>
+    <Abstract>The line break mode used when laying out the text. Default is NSLineBreakByWordWrapping ...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -35679,6 +35701,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>maximumSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTextLayer</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_layer.html</Path>
+    <Anchor>aa4c0cccd95ab52103ab97d23e0aa40bd</Anchor>
+    <Abstract>The maximum size of the layer. The default is {0.0, 0.0}.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>borderLineStyle</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -35989,6 +36022,17 @@
     <Path>interface_c_p_t_text_style.html</Path>
     <Anchor>a3fa7c61325f90a770cddcada731cacda</Anchor>
     <Abstract>The paragraph alignment for multi-line text. Default is CPTTextAlignmentLeft.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineBreakMode</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTTextStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_text_style.html</Path>
+    <Anchor>a361d4d93aa837c7d1139c063bbad51d7</Anchor>
+    <Abstract>The line break mode used when laying out the text. Default is NSLineBreakByWordWrapping ...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

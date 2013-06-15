@@ -2670,6 +2670,11 @@
               <Anchor>a919138e4b200dd0eeb3d0dc8893a7315</Anchor>
              </Node>
              <Node>
+              <Name>lineBreakMode</Name>
+              <Path>interface_c_p_t_mutable_text_style.html</Path>
+              <Anchor>a4a29832215b8f1c3ac3e0ba2efedbc03</Anchor>
+             </Node>
+             <Node>
               <Name>textAlignment</Name>
               <Path>interface_c_p_t_mutable_text_style.html</Path>
               <Anchor>a0f052478536e3e31e488c4249752a858</Anchor>
@@ -4238,6 +4243,11 @@
               <Anchor>a54ed451e9d4e5727a9728e5242ddc4dd</Anchor>
              </Node>
              <Node>
+              <Name>maximumSize</Name>
+              <Path>interface_c_p_t_text_layer.html</Path>
+              <Anchor>aa4c0cccd95ab52103ab97d23e0aa40bd</Anchor>
+             </Node>
+             <Node>
               <Name>text</Name>
               <Path>interface_c_p_t_text_layer.html</Path>
               <Anchor>a1c9038927b1bd0fa284581bc355b1f39</Anchor>
@@ -4277,6 +4287,11 @@
               <Name>fontSize</Name>
               <Path>interface_c_p_t_text_style.html</Path>
               <Anchor>aafe4f3da0f9942461947eb2a8a3069be</Anchor>
+             </Node>
+             <Node>
+              <Name>lineBreakMode</Name>
+              <Path>interface_c_p_t_text_style.html</Path>
+              <Anchor>a361d4d93aa837c7d1139c063bbad51d7</Anchor>
              </Node>
              <Node>
               <Name>textAlignment</Name>
@@ -9434,6 +9449,11 @@
                   <Anchor>a919138e4b200dd0eeb3d0dc8893a7315</Anchor>
                  </Node>
                  <Node>
+                  <Name>lineBreakMode</Name>
+                  <Path>interface_c_p_t_mutable_text_style.html</Path>
+                  <Anchor>a4a29832215b8f1c3ac3e0ba2efedbc03</Anchor>
+                 </Node>
+                 <Node>
                   <Name>textAlignment</Name>
                   <Path>interface_c_p_t_mutable_text_style.html</Path>
                   <Anchor>a0f052478536e3e31e488c4249752a858</Anchor>
@@ -11674,6 +11694,11 @@
                   <Anchor>a54ed451e9d4e5727a9728e5242ddc4dd</Anchor>
                  </Node>
                  <Node>
+                  <Name>maximumSize</Name>
+                  <Path>interface_c_p_t_text_layer.html</Path>
+                  <Anchor>aa4c0cccd95ab52103ab97d23e0aa40bd</Anchor>
+                 </Node>
+                 <Node>
                   <Name>text</Name>
                   <Path>interface_c_p_t_text_layer.html</Path>
                   <Anchor>a1c9038927b1bd0fa284581bc355b1f39</Anchor>
@@ -11735,6 +11760,11 @@
                   <Name>fontSize</Name>
                   <Path>interface_c_p_t_text_style.html</Path>
                   <Anchor>aafe4f3da0f9942461947eb2a8a3069be</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>lineBreakMode</Name>
+                  <Path>interface_c_p_t_text_style.html</Path>
+                  <Anchor>a361d4d93aa837c7d1139c063bbad51d7</Anchor>
                  </Node>
                  <Node>
                   <Name>textAlignment</Name>
