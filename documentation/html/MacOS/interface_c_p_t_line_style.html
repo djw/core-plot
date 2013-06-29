@@ -69,6 +69,7 @@ $(document).ready(function(){initNavTree('interface_c_p_t_line_style.html','');}
 <div class="header">
   <div class="summary">
 <a href="class_c_p_t_line_style-members.html">List of all members</a> &#124;
+<a href="#pub-methods">Public Instance Methods</a> &#124;
 <a href="#properties">Properties</a>  </div>
   <div class="headertitle">
 <div class="title">CPTLineStyle Class Reference</div>  </div>
@@ -121,6 +122,8 @@ Public Class Methods</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr class="memitem:a940b643832175d6be58a88f838bdeafe"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_line_style.html#a940b643832175d6be58a88f838bdeafe">isOpaque</a><code> [implementation]</code></td></tr>
+<tr class="separator:a940b643832175d6be58a88f838bdeafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Drawing</div></td></tr>
 <tr class="memitem:a81041dd3df05988c4c91f5ad71fa57ab"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_line_style.html#a81041dd3df05988c4c91f5ad71fa57ab">setLineStyleInContext:</a></td></tr>
 <tr class="memdesc:a81041dd3df05988c4c91f5ad71fa57ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all of the line drawing properties in the given graphics context.  <a href="#a81041dd3df05988c4c91f5ad71fa57ab">More...</a><br/></td></tr>
@@ -206,6 +209,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a4013bcb6c2e1af2e37cfabd7d8222320"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#a4013bcb6c2e1af2e37cfabd7d8222320">lineFill</a></td></tr>
 <tr class="memdesc:a4013bcb6c2e1af2e37cfabd7d8222320"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current line fill. Default is <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a>.  <a href="#a4013bcb6c2e1af2e37cfabd7d8222320">More...</a><br/></td></tr>
 <tr class="separator:a4013bcb6c2e1af2e37cfabd7d8222320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac88fdac017362df967dd29d303dbebb0"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_line_style.html#ac88fdac017362df967dd29d303dbebb0">opaque</a></td></tr>
+<tr class="memdesc:ac88fdac017362df967dd29d303dbebb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, a line drawn using the line style is completely opaque.  <a href="#ac88fdac017362df967dd29d303dbebb0">More...</a><br/></td></tr>
+<tr class="separator:ac88fdac017362df967dd29d303dbebb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Immutable wrapper for various line drawing properties. </p>
@@ -246,6 +252,29 @@ Properties</h2></td></tr>
 <li><a class="el" href="interface_c_p_t_line_style.html#a4013bcb6c2e1af2e37cfabd7d8222320">lineFill</a> = <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a></li>
 </ul>
 <dl class="section return"><dt>Returns</dt><dd>The initialized object. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a940b643832175d6be58a88f838bdeafe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>) isOpaque </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -503,6 +532,28 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The miter limit for the joins of connected lines in a graphics context. Default is <code>10.0</code>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac88fdac017362df967dd29d303dbebb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>) opaque</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a>, a line drawn using the line style is completely opaque. </p>
 
 </div>
 </div>

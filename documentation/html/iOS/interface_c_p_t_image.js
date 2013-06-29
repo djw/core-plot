@@ -6,7 +6,9 @@ var interface_c_p_t_image =
     [ "initWithCGImage:", "interface_c_p_t_image.html#a42f9e2cc9877c3b672c6706dc9157962", null ],
     [ "initWithCGImage:scale:", "interface_c_p_t_image.html#a1a3f7e09b1b0c7c5a3d3c46fca9e02ea", null ],
     [ "isEqual:", "interface_c_p_t_image.html#adfdccdee9971145e93c3233044817f5e", null ],
+    [ "isOpaque", "interface_c_p_t_image.html#ac05b2ef4ab329a22338e1481921d0298", null ],
     [ "image", "interface_c_p_t_image.html#a5c9c1cd8273611dc457fd07262ec50a9", null ],
+    [ "opaque", "interface_c_p_t_image.html#a476330b51406cafe77a84ece45c79fa4", null ],
     [ "scale", "interface_c_p_t_image.html#a598024670268445f825aa784c2d75fe2", null ],
     [ "tileAnchoredToContext", "interface_c_p_t_image.html#a31481c660e93aab1851d9258e1c4adc2", null ],
     [ "tiled", "interface_c_p_t_image.html#a915a28cd82f50bf31ffa77a99f6fde86", null ]

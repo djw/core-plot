@@ -1538,6 +1538,11 @@
               <Anchor>ab1438b5628b4a231d36b44ecf5bc745d</Anchor>
              </Node>
              <Node>
+              <Name>isOpaque</Name>
+              <Path>interface_c_p_t_color.html</Path>
+              <Anchor>a425263053b8353f6e717ee0020d76664</Anchor>
+             </Node>
+             <Node>
               <Name>cgColor</Name>
               <Path>interface_c_p_t_color.html</Path>
               <Anchor>a49389a74eb50601a4a748d3914db4a08</Anchor>
@@ -1546,6 +1551,11 @@
               <Name>nsColor</Name>
               <Path>interface_c_p_t_color.html</Path>
               <Anchor>ab17b4b208316a1f55f8be4896a8b04e9</Anchor>
+             </Node>
+             <Node>
+              <Name>opaque</Name>
+              <Path>interface_c_p_t_color.html</Path>
+              <Anchor>ac66beac4641c20dd63c043097290685e</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1674,6 +1684,16 @@
               <Path>interface_c_p_t_fill.html</Path>
               <Anchor>a4603b21b905949d7bba491f97443ed11</Anchor>
              </Node>
+             <Node>
+              <Name>isOpaque</Name>
+              <Path>interface_c_p_t_fill.html</Path>
+              <Anchor>a40b8b086dcfc2ccd658fbc57804b744c</Anchor>
+             </Node>
+             <Node>
+              <Name>opaque</Name>
+              <Path>interface_c_p_t_fill.html</Path>
+              <Anchor>acfeede795ed7311ad4080218927a1236</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -1689,6 +1709,16 @@
               <Name>fillRect:inContext:</Name>
               <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
               <Anchor>a1f2d6ee7959728411f8cca7d62c19a21</Anchor>
+             </Node>
+             <Node>
+              <Name>isOpaque</Name>
+              <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+              <Anchor>a40b8b086dcfc2ccd658fbc57804b744c</Anchor>
+             </Node>
+             <Node>
+              <Name>opaque</Name>
+              <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+              <Anchor>acfeede795ed7311ad4080218927a1236</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1737,6 +1767,11 @@
               <Anchor>a87f5295ba1889cf1e859a63ba79f4c98</Anchor>
              </Node>
              <Node>
+              <Name>isOpaque</Name>
+              <Path>interface_c_p_t_gradient.html</Path>
+              <Anchor>a742c25754a4a6861358597724c8ef7e2</Anchor>
+             </Node>
+             <Node>
               <Name>newColorAtPosition:</Name>
               <Path>interface_c_p_t_gradient.html</Path>
               <Anchor>ae7bd0208887774cebb37dcd95899ac47</Anchor>
@@ -1775,6 +1810,11 @@
               <Name>gradientType</Name>
               <Path>interface_c_p_t_gradient.html</Path>
               <Anchor>abc7cbad384dae1e3d43ab8186ea43507</Anchor>
+             </Node>
+             <Node>
+              <Name>opaque</Name>
+              <Path>interface_c_p_t_gradient.html</Path>
+              <Anchor>a5f8a994778c4744510b84844439c4a4b</Anchor>
              </Node>
              <Node>
               <Name>startAnchor</Name>
@@ -2104,9 +2144,19 @@
               <Anchor>adfdccdee9971145e93c3233044817f5e</Anchor>
              </Node>
              <Node>
+              <Name>isOpaque</Name>
+              <Path>interface_c_p_t_image.html</Path>
+              <Anchor>ac05b2ef4ab329a22338e1481921d0298</Anchor>
+             </Node>
+             <Node>
               <Name>image</Name>
               <Path>interface_c_p_t_image.html</Path>
               <Anchor>a5c9c1cd8273611dc457fd07262ec50a9</Anchor>
+             </Node>
+             <Node>
+              <Name>opaque</Name>
+              <Path>interface_c_p_t_image.html</Path>
+              <Anchor>a476330b51406cafe77a84ece45c79fa4</Anchor>
              </Node>
              <Node>
               <Name>scale</Name>
@@ -2618,6 +2668,11 @@
               <Anchor>ad1126ac34f822be1b1cfb3d5d999ecfc</Anchor>
              </Node>
              <Node>
+              <Name>isOpaque</Name>
+              <Path>interface_c_p_t_line_style.html</Path>
+              <Anchor>a940b643832175d6be58a88f838bdeafe</Anchor>
+             </Node>
+             <Node>
               <Name>setLineStyleInContext:</Name>
               <Path>interface_c_p_t_line_style.html</Path>
               <Anchor>a81041dd3df05988c4c91f5ad71fa57ab</Anchor>
@@ -2666,6 +2721,11 @@
               <Name>miterLimit</Name>
               <Path>interface_c_p_t_line_style.html</Path>
               <Anchor>ad39e459f0332855f39282cfa8ac7e329</Anchor>
+             </Node>
+             <Node>
+              <Name>opaque</Name>
+              <Path>interface_c_p_t_line_style.html</Path>
+              <Anchor>ac88fdac017362df967dd29d303dbebb0</Anchor>
              </Node>
              <Node>
               <Name>patternPhase</Name>
@@ -3550,6 +3610,11 @@
               <Name>sublayerIndexForAxis:layerType:</Name>
               <Path>interface_c_p_t_plot_area.html</Path>
               <Anchor>a86af66098849fb0d8ecf08d224150023</Anchor>
+             </Node>
+             <Node>
+              <Name>sublayersExcludedFromAutomaticLayout</Name>
+              <Path>interface_c_p_t_plot_area.html</Path>
+              <Anchor>ab53ebc1ff31f51c2997e97e99a27e384</Anchor>
              </Node>
              <Node>
               <Name>updateAxisSetLayersForType:</Name>
@@ -7638,6 +7703,11 @@
                   <Anchor>ab1438b5628b4a231d36b44ecf5bc745d</Anchor>
                  </Node>
                  <Node>
+                  <Name>isOpaque</Name>
+                  <Path>interface_c_p_t_color.html</Path>
+                  <Anchor>a425263053b8353f6e717ee0020d76664</Anchor>
+                 </Node>
+                 <Node>
                   <Name>cgColor</Name>
                   <Path>interface_c_p_t_color.html</Path>
                   <Anchor>a49389a74eb50601a4a748d3914db4a08</Anchor>
@@ -7646,6 +7716,11 @@
                   <Name>nsColor</Name>
                   <Path>interface_c_p_t_color.html</Path>
                   <Anchor>ab17b4b208316a1f55f8be4896a8b04e9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>opaque</Name>
+                  <Path>interface_c_p_t_color.html</Path>
+                  <Anchor>ac66beac4641c20dd63c043097290685e</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -8098,6 +8173,16 @@
                   <Path>interface_c_p_t_fill.html</Path>
                   <Anchor>a4603b21b905949d7bba491f97443ed11</Anchor>
                  </Node>
+                 <Node>
+                  <Name>isOpaque</Name>
+                  <Path>interface_c_p_t_fill.html</Path>
+                  <Anchor>a40b8b086dcfc2ccd658fbc57804b744c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>opaque</Name>
+                  <Path>interface_c_p_t_fill.html</Path>
+                  <Anchor>acfeede795ed7311ad4080218927a1236</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -8113,6 +8198,16 @@
                   <Name>fillRect:inContext:</Name>
                   <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
                   <Anchor>a1f2d6ee7959728411f8cca7d62c19a21</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isOpaque</Name>
+                  <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+                  <Anchor>a40b8b086dcfc2ccd658fbc57804b744c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>opaque</Name>
+                  <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+                  <Anchor>acfeede795ed7311ad4080218927a1236</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -8192,6 +8287,11 @@
                   <Anchor>a87f5295ba1889cf1e859a63ba79f4c98</Anchor>
                  </Node>
                  <Node>
+                  <Name>isOpaque</Name>
+                  <Path>interface_c_p_t_gradient.html</Path>
+                  <Anchor>a742c25754a4a6861358597724c8ef7e2</Anchor>
+                 </Node>
+                 <Node>
                   <Name>newColorAtPosition:</Name>
                   <Path>interface_c_p_t_gradient.html</Path>
                   <Anchor>ae7bd0208887774cebb37dcd95899ac47</Anchor>
@@ -8230,6 +8330,11 @@
                   <Name>gradientType</Name>
                   <Path>interface_c_p_t_gradient.html</Path>
                   <Anchor>abc7cbad384dae1e3d43ab8186ea43507</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>opaque</Name>
+                  <Path>interface_c_p_t_gradient.html</Path>
+                  <Anchor>a5f8a994778c4744510b84844439c4a4b</Anchor>
                  </Node>
                  <Node>
                   <Name>startAnchor</Name>
@@ -8650,9 +8755,19 @@
                   <Anchor>adfdccdee9971145e93c3233044817f5e</Anchor>
                  </Node>
                  <Node>
+                  <Name>isOpaque</Name>
+                  <Path>interface_c_p_t_image.html</Path>
+                  <Anchor>ac05b2ef4ab329a22338e1481921d0298</Anchor>
+                 </Node>
+                 <Node>
                   <Name>image</Name>
                   <Path>interface_c_p_t_image.html</Path>
                   <Anchor>a5c9c1cd8273611dc457fd07262ec50a9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>opaque</Name>
+                  <Path>interface_c_p_t_image.html</Path>
+                  <Anchor>a476330b51406cafe77a84ece45c79fa4</Anchor>
                  </Node>
                  <Node>
                   <Name>scale</Name>
@@ -9339,6 +9454,11 @@
                   <Anchor>ad1126ac34f822be1b1cfb3d5d999ecfc</Anchor>
                  </Node>
                  <Node>
+                  <Name>isOpaque</Name>
+                  <Path>interface_c_p_t_line_style.html</Path>
+                  <Anchor>a940b643832175d6be58a88f838bdeafe</Anchor>
+                 </Node>
+                 <Node>
                   <Name>setLineStyleInContext:</Name>
                   <Path>interface_c_p_t_line_style.html</Path>
                   <Anchor>a81041dd3df05988c4c91f5ad71fa57ab</Anchor>
@@ -9387,6 +9507,11 @@
                   <Name>miterLimit</Name>
                   <Path>interface_c_p_t_line_style.html</Path>
                   <Anchor>ad39e459f0332855f39282cfa8ac7e329</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>opaque</Name>
+                  <Path>interface_c_p_t_line_style.html</Path>
+                  <Anchor>ac88fdac017362df967dd29d303dbebb0</Anchor>
                  </Node>
                  <Node>
                   <Name>patternPhase</Name>
@@ -10702,6 +10827,11 @@
                   <Name>sublayerIndexForAxis:layerType:</Name>
                   <Path>interface_c_p_t_plot_area.html</Path>
                   <Anchor>a86af66098849fb0d8ecf08d224150023</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sublayersExcludedFromAutomaticLayout</Name>
+                  <Path>interface_c_p_t_plot_area.html</Path>
+                  <Anchor>ab53ebc1ff31f51c2997e97e99a27e384</Anchor>
                  </Node>
                  <Node>
                   <Name>updateAxisSetLayersForType:</Name>

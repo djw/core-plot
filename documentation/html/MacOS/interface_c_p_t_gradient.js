@@ -8,6 +8,7 @@ var interface_c_p_t_gradient =
     [ "gradientWithBlendingMode:", "interface_c_p_t_gradient.html#af84c12a31b6e5eb3cc05bb6a56e49a5b", null ],
     [ "init", "interface_c_p_t_gradient.html#aa869a5a9ca0404c384ad719856c69bff", null ],
     [ "isEqual:", "interface_c_p_t_gradient.html#a87f5295ba1889cf1e859a63ba79f4c98", null ],
+    [ "isOpaque", "interface_c_p_t_gradient.html#a742c25754a4a6861358597724c8ef7e2", null ],
     [ "newColorAtPosition:", "interface_c_p_t_gradient.html#ae7bd0208887774cebb37dcd95899ac47", null ],
     [ "newColorStopAtIndex:", "interface_c_p_t_gradient.html#a917951692ee14d0dad4cca367c4e4f6b", null ],
     [ "removeColorStopAtIndex:", "interface_c_p_t_gradient.html#a9301ffff63c7e434fe688962b2df8d85", null ],
@@ -16,5 +17,6 @@ var interface_c_p_t_gradient =
     [ "blendingMode", "interface_c_p_t_gradient.html#a00769935eaa5208fb69f76fc4874f848", null ],
     [ "endAnchor", "interface_c_p_t_gradient.html#aab1d473cc6ae8b3d07f6197a062f6b90", null ],
     [ "gradientType", "interface_c_p_t_gradient.html#abc7cbad384dae1e3d43ab8186ea43507", null ],
+    [ "opaque", "interface_c_p_t_gradient.html#a5f8a994778c4744510b84844439c4a4b", null ],
     [ "startAnchor", "interface_c_p_t_gradient.html#acb9ad7f96778d1d33bd5a23b17aa2989", null ]
 ];

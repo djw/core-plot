@@ -1,6 +1,7 @@
 var interface_c_p_t_line_style =
 [
     [ "init", "interface_c_p_t_line_style.html#ad1126ac34f822be1b1cfb3d5d999ecfc", null ],
+    [ "isOpaque", "interface_c_p_t_line_style.html#a940b643832175d6be58a88f838bdeafe", null ],
     [ "setLineStyleInContext:", "interface_c_p_t_line_style.html#a81041dd3df05988c4c91f5ad71fa57ab", null ],
     [ "strokePathInContext:", "interface_c_p_t_line_style.html#aed358b6a220869cf5b13f1f7bd2324cb", null ],
     [ "strokeRect:inContext:", "interface_c_p_t_line_style.html#ac899ebf06d0c0262a939b64c713ea75e", null ],
@@ -11,5 +12,6 @@ var interface_c_p_t_line_style =
     [ "lineJoin", "interface_c_p_t_line_style.html#abc0a66df1b94999e59f19df2a250f1f0", null ],
     [ "lineWidth", "interface_c_p_t_line_style.html#ad2ce3e1a5e6ab6e0f3d350bea0993822", null ],
     [ "miterLimit", "interface_c_p_t_line_style.html#ad39e459f0332855f39282cfa8ac7e329", null ],
+    [ "opaque", "interface_c_p_t_line_style.html#ac88fdac017362df967dd29d303dbebb0", null ],
     [ "patternPhase", "interface_c_p_t_line_style.html#a088b3a8a43576bfe1290177d61bc52f9", null ]
 ];

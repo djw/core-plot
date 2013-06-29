@@ -4,6 +4,7 @@ var interface_c_p_t_plot_area =
     [ "layoutSublayers", "interface_c_p_t_plot_area.html#af94e10929fc0092e404420c028f97159", null ],
     [ "setAxisSetLayersForType:", "interface_c_p_t_plot_area.html#a0066c0b6b579af4650d53270e1e82381", null ],
     [ "sublayerIndexForAxis:layerType:", "interface_c_p_t_plot_area.html#a86af66098849fb0d8ecf08d224150023", null ],
+    [ "sublayersExcludedFromAutomaticLayout", "interface_c_p_t_plot_area.html#ab53ebc1ff31f51c2997e97e99a27e384", null ],
     [ "updateAxisSetLayersForType:", "interface_c_p_t_plot_area.html#a5eab7932d8e866d0169b3d1dbc33201b", null ],
     [ "axisLabelGroup", "interface_c_p_t_plot_area.html#a0bca0eb21ae6580732f197e0f4f65a4e", null ],
     [ "axisSet", "interface_c_p_t_plot_area.html#ae658b78586eed20192835add5fc98dcd", null ],

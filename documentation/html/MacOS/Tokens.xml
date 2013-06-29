@@ -14841,6 +14841,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>isOpaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTColor</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_color.html</Path>
+    <Anchor>a425263053b8353f6e717ee0020d76664</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>initWithCGColor:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -15076,6 +15086,17 @@
     <Path>interface_c_p_t_color.html</Path>
     <Anchor>a49389a74eb50601a4a748d3914db4a08</Anchor>
     <Abstract>The CGColorRef to wrap around.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>opaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTColor</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_color.html</Path>
+    <Anchor>ac66beac4641c20dd63c043097290685e</Anchor>
+    <Abstract>If YES, the color is completely opaque.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16002,6 +16023,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>isOpaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTFill</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_fill.html</Path>
+    <Anchor>a40b8b086dcfc2ccd658fbc57804b744c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>initWithColor:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -16242,6 +16273,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>opaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTFill</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_fill.html</Path>
+    <Anchor>acfeede795ed7311ad4080218927a1236</Anchor>
+    <Abstract>If YES, the fill is completely opaque.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTFill(AbstractMethods)</Name>
       <APILanguage>c</APILanguage>
       <Type>cat</Type>
@@ -16250,6 +16292,16 @@
     <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
     <Abstract>CPTFill abstract methods—must be overridden by subclasses.</Abstract>
     <DeclaredIn>CPTFill.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isOpaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>CPTFill(AbstractMethods)</Scope>
+    </TokenIdentifier>
+    <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+    <Anchor>a40b8b086dcfc2ccd658fbc57804b744c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16274,6 +16326,17 @@
     <Anchor>ad78c0dda3d9cad04bd72c56d8f882037</Anchor>
     <Abstract>Draws the gradient into the given graphics context clipped to the current drawing path...</Abstract>
     <DeclaredIn>CPTFill.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>opaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTFill(AbstractMethods)</Scope>
+    </TokenIdentifier>
+    <Path>category_c_p_t_fill_07_abstract_methods_08.html</Path>
+    <Anchor>acfeede795ed7311ad4080218927a1236</Anchor>
+    <Abstract>If YES, the fill is completely opaque.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16501,6 +16564,16 @@
     </TokenIdentifier>
     <Path>https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ApplicationKit/Protocols/NSKeyValueBindingCreation_Protocol/Reference/Reference.html</Path>
     <Anchor>//apple_ref/occ/clm/NSObject/exposeBinding:</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isOpaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTGradient</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_gradient.html</Path>
+    <Anchor>a742c25754a4a6861358597724c8ef7e2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16823,6 +16896,17 @@
     </TokenIdentifier>
     <Path>https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference.html</Path>
     <Anchor>//apple_ref/occ/intfm/NSCoding/encodeWithCoder:</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>opaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTGradient</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_gradient.html</Path>
+    <Anchor>a5f8a994778c4744510b84844439c4a4b</Anchor>
+    <Abstract>If YES, the gradient is completely opaque.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -19841,6 +19925,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>isOpaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTImage</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_image.html</Path>
+    <Anchor>ac05b2ef4ab329a22338e1481921d0298</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>initWithCGImage:scale:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -20132,6 +20226,17 @@
     <Path>interface_c_p_t_image.html</Path>
     <Anchor>a31481c660e93aab1851d9258e1c4adc2</Anchor>
     <Abstract>Anchor the tiled image to the context origin?</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>opaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTImage</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_image.html</Path>
+    <Anchor>a476330b51406cafe77a84ece45c79fa4</Anchor>
+    <Abstract>If YES, the image is completely opaque.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -23466,6 +23571,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>isOpaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_line_style.html</Path>
+    <Anchor>a940b643832175d6be58a88f838bdeafe</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>setLineStyleInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -23791,6 +23906,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>opaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_line_style.html</Path>
+    <Anchor>ac88fdac017362df967dd29d303dbebb0</Anchor>
+    <Abstract>If YES, a line drawn using the line style is completely opaque.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTMutableLineStyle</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -23978,6 +24104,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>opaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_line_style.html</Path>
+    <Anchor>ac88fdac017362df967dd29d303dbebb0</Anchor>
+    <Abstract>If YES, a line drawn using the line style is completely opaque.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>lineStyle</Name>
       <APILanguage>occ</APILanguage>
       <Type>clm</Type>
@@ -23987,6 +24124,16 @@
     <Anchor>a1a62163fa497ad6a5eeb2d31e654424d</Anchor>
     <Abstract>Creates and returns a new CPTLineStyle instance.</Abstract>
     <DeclaredIn>CPTLineStyle.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isOpaque</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_line_style.html</Path>
+    <Anchor>a940b643832175d6be58a88f838bdeafe</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -30049,6 +30196,16 @@
     <Path>interface_c_p_t_plot_area.html</Path>
     <Anchor>af94e10929fc0092e404420c028f97159</Anchor>
     <Abstract>Updates the layout of all sublayers. Sublayers fill the super layer’s bounds except for the plotGroup...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sublayersExcludedFromAutomaticLayout</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTPlotArea</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot_area.html</Path>
+    <Anchor>ab53ebc1ff31f51c2997e97e99a27e384</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
