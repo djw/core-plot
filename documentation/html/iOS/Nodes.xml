@@ -834,6 +834,11 @@
               <Anchor>a53ba8f4b4d3def84212c126d4e3df424</Anchor>
              </Node>
              <Node>
+              <Name>minorTickLabelDirection</Name>
+              <Path>interface_c_p_t_axis.html</Path>
+              <Anchor>acb5890ff6c321e244168a823e275b22d</Anchor>
+             </Node>
+             <Node>
               <Name>minorTickLabelFormatter</Name>
               <Path>interface_c_p_t_axis.html</Path>
               <Anchor>aa5f163e5cc1be724e435a7ca73d015ba</Anchor>
@@ -907,6 +912,11 @@
               <Name>tickDirection</Name>
               <Path>interface_c_p_t_axis.html</Path>
               <Anchor>a0f8ac29cfaf4ffa033e538c62f0ae3f8</Anchor>
+             </Node>
+             <Node>
+              <Name>tickLabelDirection</Name>
+              <Path>interface_c_p_t_axis.html</Path>
+              <Anchor>a62c12a4733a26849512842206b8c7d46</Anchor>
              </Node>
              <Node>
               <Name>title</Name>
@@ -6820,6 +6830,11 @@
                   <Anchor>a53ba8f4b4d3def84212c126d4e3df424</Anchor>
                  </Node>
                  <Node>
+                  <Name>minorTickLabelDirection</Name>
+                  <Path>interface_c_p_t_axis.html</Path>
+                  <Anchor>acb5890ff6c321e244168a823e275b22d</Anchor>
+                 </Node>
+                 <Node>
                   <Name>minorTickLabelFormatter</Name>
                   <Path>interface_c_p_t_axis.html</Path>
                   <Anchor>aa5f163e5cc1be724e435a7ca73d015ba</Anchor>
@@ -6893,6 +6908,11 @@
                   <Name>tickDirection</Name>
                   <Path>interface_c_p_t_axis.html</Path>
                   <Anchor>a0f8ac29cfaf4ffa033e538c62f0ae3f8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>tickLabelDirection</Name>
+                  <Path>interface_c_p_t_axis.html</Path>
+                  <Anchor>a62c12a4733a26849512842206b8c7d46</Anchor>
                  </Node>
                  <Node>
                   <Name>title</Name>

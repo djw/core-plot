@@ -8410,6 +8410,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>tickLabelDirection</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a62c12a4733a26849512842206b8c7d46</Anchor>
+    <Abstract>The offset direction for major tick labels. The direction is given as the sign that ticks extend alon...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>minorTickLabelDirection</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>acb5890ff6c321e244168a823e275b22d</Anchor>
+    <Abstract>The offset direction for minor tick labels. The direction is given as the sign that ticks extend alon...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>labelFormatter</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -39596,6 +39618,28 @@
     <Path>interface_c_p_t_axis.html</Path>
     <Anchor>a92a41256f52399f37daa926f06b53e99</Anchor>
     <Abstract>The text style used to draw the label text of minor tick labels.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tickLabelDirection</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>a62c12a4733a26849512842206b8c7d46</Anchor>
+    <Abstract>The offset direction for major tick labels. The direction is given as the sign that ticks extend alon...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>minorTickLabelDirection</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>acb5890ff6c321e244168a823e275b22d</Anchor>
+    <Abstract>The offset direction for minor tick labels. The direction is given as the sign that ticks extend alon...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
