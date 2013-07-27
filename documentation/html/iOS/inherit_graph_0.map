@@ -69,7 +69,7 @@
 <area shape="rect" id="node69" href="doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="65,1917,167,1947"/>
 <area shape="rect" id="node70" href="$protocol_c_p_t_animation_delegate-p.html" title="Animation delegate." alt="" coords="275,1834,466,1865"/>
 <area shape="rect" id="node71" href="$protocol_c_p_t_axis_delegate-p.html" title="Axis labeling delegate." alt="" coords="294,1889,447,1919"/>
-<area shape="rect" id="node72" href="$protocol_c_p_t_legend_delegate-p.html" title="Axis labeling delegate." alt="" coords="285,1943,456,1974"/>
+<area shape="rect" id="node72" href="$protocol_c_p_t_legend_delegate-p.html" title="Legend delegate." alt="" coords="285,1943,456,1974"/>
 <area shape="rect" id="node73" href="$protocol_c_p_t_plot_data_source-p.html" title="A plot data source." alt="" coords="288,1998,453,2029"/>
 <area shape="rect" id="node79" href="$protocol_c_p_t_plot_delegate-p.html" title="Plot delegate." alt="" coords="296,2235,445,2266"/>
 <area shape="rect" id="node85" href="$protocol_c_p_t_plot_space_delegate-p.html" title="Plot space delegate." alt="" coords="278,2290,464,2321"/>

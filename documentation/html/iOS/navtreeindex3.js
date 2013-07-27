@@ -1,9 +1,7 @@
 var NAVTREEINDEX3 =
 {
-"functions_0x78.html":[2,3,0,20],
-"functions_0x79.html":[2,3,0,21],
-"functions_func.html":[2,3,1,0],
 "functions_func.html":[2,3,1],
+"functions_func.html":[2,3,1,0],
 "functions_func_0x62.html":[2,3,1,1],
 "functions_func_0x63.html":[2,3,1,2],
 "functions_func_0x64.html":[2,3,1,3],
@@ -25,8 +23,8 @@ var NAVTREEINDEX3 =
 "functions_func_0x77.html":[2,3,1,19],
 "functions_func_0x78.html":[2,3,1,20],
 "functions_func_0x79.html":[2,3,1,21],
-"functions_prop.html":[2,3,3,0],
 "functions_prop.html":[2,3,3],
+"functions_prop.html":[2,3,3,0],
 "functions_prop_0x62.html":[2,3,3,1],
 "functions_prop_0x63.html":[2,3,3,2],
 "functions_prop_0x64.html":[2,3,3,3],
@@ -95,7 +93,7 @@ var NAVTREEINDEX3 =
 "group__graph_animation.html#ga262aa2db69e5e4438f8542762f0e1d85":[2,0,30,30],
 "group__legend_animation.html":[1,0,2],
 "group__legend_animation.html#gae082399e5db0f009292ab67dbeaf908c":[1,0,2,0],
-"group__legend_animation.html#gae082399e5db0f009292ab67dbeaf908c":[2,0,39,25],
+"group__legend_animation.html#gae082399e5db0f009292ab67dbeaf908c":[2,0,39,26],
 "group__notification.html":[1,1],
 "group__notification.html#ga23f2cfa5cf45e2998bd8983b9ee2f5cc":[1,1,5],
 "group__notification.html#ga531a1b173c232bc63c207180d2ebd174":[1,1,2],
@@ -136,8 +134,8 @@ var NAVTREEINDEX3 =
 "group__plot_animation_range_plot.html#ga0f89cc8fdac87c494bb7e6cfd0b44462":[2,0,71,6],
 "group__plot_animation_range_plot.html#ga2d739816549ce6c3fcb18c1bdb49297a":[2,0,71,4],
 "group__plot_animation_range_plot.html#ga2d739816549ce6c3fcb18c1bdb49297a":[1,0,3,3,0],
-"group__plot_animation_range_plot.html#ga98cbb9e06f7deee8c77d0e08b140303b":[1,0,3,3,1],
 "group__plot_animation_range_plot.html#ga98cbb9e06f7deee8c77d0e08b140303b":[2,0,71,5],
+"group__plot_animation_range_plot.html#ga98cbb9e06f7deee8c77d0e08b140303b":[1,0,3,3,1],
 "group__plot_animation_scatter_plot.html":[1,0,3,4],
 "group__plot_animation_trading_range_plot.html":[1,0,3,5],
 "group__plot_animation_trading_range_plot.html#ga2e9f919d3391c00618891cf4b187e0b7":[1,0,3,5,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX3 =
 "interface_c_p_t_axis.html#ab05c383db96bfc1d86a9972fc9617f5a":[2,0,9,29],
 "interface_c_p_t_axis.html#ab21c160d932b25c5354145c772303596":[2,0,9,43],
 "interface_c_p_t_axis.html#ab254c313a2b0ce382179d1723714bddf":[2,0,9,27],
-"interface_c_p_t_axis.html#ab5e844b640a302270fdbfd561e29d1d9":[2,0,9,58]
+"interface_c_p_t_axis.html#ab5e844b640a302270fdbfd561e29d1d9":[2,0,9,58],
+"interface_c_p_t_axis.html#ab76319c8e162fe4bb190f4e8545e9375":[2,0,9,10],
+"interface_c_p_t_axis.html#ac32ef2e6f27af09f3cb22b44606193ab":[2,0,9,30]
 };

@@ -2960,26 +2960,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>independentCoord</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>_c_p_t_trading_range_plot_8m.html</Path>
-    <Anchor>ab50ad83f89e50228658675b75849092a</Anchor>
-    <DeclaredIn>CPTTradingRangePlot.m</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>dependentCoord</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>_c_p_t_trading_range_plot_8m.html</Path>
-    <Anchor>a46bfa15f3a2affab2022948e869c54a4</Anchor>
-    <DeclaredIn>CPTTradingRangePlot.m</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>CPTDecimalCharValue</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -21629,6 +21609,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>pointingDeviceDownEvent:atPoint:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTLegend</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_legend.html</Path>
+    <Anchor>a01e711135ba5fdbf3e9620c86e6260fc</Anchor>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>renderBorderedLayerAsVectorInContext:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -21708,17 +21699,6 @@
     <Anchor>aeb212c9b1cc7cd17a285e713920988d7</Anchor>
     <Abstract>Logs this layer and all of its sublayers.</Abstract>
     <DeclaredIn>CPTLayer.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pointingDeviceDownEvent:atPoint:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a01d9a8ac339b89631c3ce8f4fc785d46</Anchor>
-    <Abstract>(Required) Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22350,7 +22330,7 @@
       <Scope>CPTLegendDelegate</Scope>
     </TokenIdentifier>
     <Path>protocol_c_p_t_legend_delegate-p.html</Path>
-    <Abstract>Axis labeling delegate.</Abstract>
+    <Abstract>Legend delegate.</Abstract>
     <DeclaredIn>CPTLegend.h</DeclaredIn>
   </Token>
   <Token>
@@ -22362,7 +22342,31 @@
     </TokenIdentifier>
     <Path>protocol_c_p_t_legend_delegate-p.html</Path>
     <Anchor>a5aeb5bb90d09dfbe1ae63b8ced1bba68</Anchor>
-    <Abstract>(Required) This method gives the delegate a chance to draw custom swatches for each legend entry...</Abstract>
+    <Abstract>(Optional) This method gives the delegate a chance to draw custom swatches for each legend entry...</Abstract>
+    <DeclaredIn>CPTLegend.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>legend:legendEntryForPlot:wasSelectedAtIndex:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTLegendDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_legend_delegate-p.html</Path>
+    <Anchor>a1bd5cab7fa59ba19f7668091a0bf5c0f</Anchor>
+    <Abstract>(Optional) Informs the delegate that the swatch or label of a legend entry was clicked.</Abstract>
+    <DeclaredIn>CPTLegend.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>legend:legendEntryForPlot:wasSelectedAtIndex:withEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTLegendDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_legend_delegate-p.html</Path>
+    <Anchor>a3e79f9a14ad1aa0c0096374489c8c0d5</Anchor>
+    <Abstract>(Optional) Informs the delegate that the swatch or label of a legend entry was clicked.</Abstract>
     <DeclaredIn>CPTLegend.h</DeclaredIn>
   </Token>
   <Token>

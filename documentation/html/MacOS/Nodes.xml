@@ -2443,6 +2443,11 @@
               <Anchor>a393396b77a402fa40385672bcf9d1e64</Anchor>
              </Node>
              <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_legend.html</Path>
+              <Anchor>a01e711135ba5fdbf3e9620c86e6260fc</Anchor>
+             </Node>
+             <Node>
               <Name>removePlot:</Name>
               <Path>interface_c_p_t_legend.html</Path>
               <Anchor>a2e33766ad491f6c490ca74d864597d4d</Anchor>
@@ -2548,6 +2553,16 @@
             <Name>&lt;CPTLegendDelegate&gt;</Name>
             <Path>protocol_c_p_t_legend_delegate-p.html</Path>
             <Subnodes>
+             <Node>
+              <Name>legend:legendEntryForPlot:wasSelectedAtIndex:</Name>
+              <Path>protocol_c_p_t_legend_delegate-p.html</Path>
+              <Anchor>a1bd5cab7fa59ba19f7668091a0bf5c0f</Anchor>
+             </Node>
+             <Node>
+              <Name>legend:legendEntryForPlot:wasSelectedAtIndex:withEvent:</Name>
+              <Path>protocol_c_p_t_legend_delegate-p.html</Path>
+              <Anchor>a3e79f9a14ad1aa0c0096374489c8c0d5</Anchor>
+             </Node>
              <Node>
               <Name>legend:shouldDrawSwatchAtIndex:forPlot:inRect:inContext:</Name>
               <Path>protocol_c_p_t_legend_delegate-p.html</Path>
@@ -9045,6 +9060,16 @@
                 <Path>protocol_c_p_t_legend_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>legend:legendEntryForPlot:wasSelectedAtIndex:</Name>
+                  <Path>protocol_c_p_t_legend_delegate-p.html</Path>
+                  <Anchor>a1bd5cab7fa59ba19f7668091a0bf5c0f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>legend:legendEntryForPlot:wasSelectedAtIndex:withEvent:</Name>
+                  <Path>protocol_c_p_t_legend_delegate-p.html</Path>
+                  <Anchor>a3e79f9a14ad1aa0c0096374489c8c0d5</Anchor>
+                 </Node>
+                 <Node>
                   <Name>legend:shouldDrawSwatchAtIndex:forPlot:inRect:inContext:</Name>
                   <Path>protocol_c_p_t_legend_delegate-p.html</Path>
                   <Anchor>a5aeb5bb90d09dfbe1ae63b8ced1bba68</Anchor>
@@ -9104,6 +9129,11 @@
                   <Name>plotWithIdentifier:</Name>
                   <Path>interface_c_p_t_legend.html</Path>
                   <Anchor>a393396b77a402fa40385672bcf9d1e64</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>pointingDeviceDownEvent:atPoint:</Name>
+                  <Path>interface_c_p_t_legend.html</Path>
+                  <Anchor>a01e711135ba5fdbf3e9620c86e6260fc</Anchor>
                  </Node>
                  <Node>
                   <Name>removePlot:</Name>
@@ -12603,16 +12633,6 @@
                 <Name>CPTTradingRangePlotBindingXValues</Name>
                 <Path>_c_p_t_trading_range_plot_8m.html</Path>
                 <Anchor>ga19d17ef5e84a7a36c4c3fc05aa552348</Anchor>
-               </Node>
-               <Node>
-                <Name>dependentCoord</Name>
-                <Path>_c_p_t_trading_range_plot_8m.html</Path>
-                <Anchor>a46bfa15f3a2affab2022948e869c54a4</Anchor>
-               </Node>
-               <Node>
-                <Name>independentCoord</Name>
-                <Path>_c_p_t_trading_range_plot_8m.html</Path>
-                <Anchor>ab50ad83f89e50228658675b75849092a</Anchor>
                </Node>
               </Subnodes>
              </Node>

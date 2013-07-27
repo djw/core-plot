@@ -10,6 +10,7 @@ var interface_c_p_t_legend =
     [ "plotAtIndex:", "interface_c_p_t_legend.html#a53d93d278405c17a0ad67fdca706c586", null ],
     [ "plots", "interface_c_p_t_legend.html#aeee50cb5ba04b01e903793e555e910b8", null ],
     [ "plotWithIdentifier:", "interface_c_p_t_legend.html#a393396b77a402fa40385672bcf9d1e64", null ],
+    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_legend.html#a01e711135ba5fdbf3e9620c86e6260fc", null ],
     [ "removePlot:", "interface_c_p_t_legend.html#a2e33766ad491f6c490ca74d864597d4d", null ],
     [ "removePlotWithIdentifier:", "interface_c_p_t_legend.html#a9f5efa6adcfa546733d35ea0f6603b46", null ],
     [ "setLayoutChanged", "interface_c_p_t_legend.html#a24d66983bfa3714a97c53268f8fde7d2", null ],

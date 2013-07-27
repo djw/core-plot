@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"interface_c_p_t_axis.html#a1b364b8af8a412f91c4e8d957b6703d9":[2,0,9,39],
-"interface_c_p_t_axis.html#a26e0b9f86de20b0fd293e98e6850154b":[2,0,9,1],
 "interface_c_p_t_axis.html#a36035b42d516647283e95f69e14a0655":[2,0,9,28],
 "interface_c_p_t_axis.html#a3a16c174519ce26e20538a238c6c4a5e":[2,0,9,59],
 "interface_c_p_t_axis.html#a3a7f29c9c8f34165fd3b1635fcac3114":[2,0,9,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "interface_c_p_t_layer.html#afea40806e6c6a11d354ddbf15792efcb":[2,0,38,26],
 "interface_c_p_t_layer_annotation.html":[2,0,40],
 "interface_c_p_t_layer_annotation.html#a0e6c047f901938d54a9a6c46a8b8a392":[2,0,40,1],
-"interface_c_p_t_layer_annotation.html#a7ae7a57b0d083052e0f773c228dac0c9":[2,0,40,2]
+"interface_c_p_t_layer_annotation.html#a7ae7a57b0d083052e0f773c228dac0c9":[2,0,40,2],
+"interface_c_p_t_layer_annotation.html#ade63e250ce4a5645c7b85bfa5fb66619":[2,0,40,0],
+"interface_c_p_t_legend.html":[2,0,41]
 };

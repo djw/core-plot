@@ -232,13 +232,11 @@ var NAVTREEINDEX1 =
 "_c_p_t_trading_range_plot_8m.html":[3,0,1,116],
 "_c_p_t_trading_range_plot_8m.html#a0365781ece8d658eb0eaf822dbd6dcd6":[3,0,1,116,6],
 "_c_p_t_trading_range_plot_8m.html#a306d6a52959ac8bea1230ef5305e8636":[3,0,1,116,3],
-"_c_p_t_trading_range_plot_8m.html#a46bfa15f3a2affab2022948e869c54a4":[3,0,1,116,10],
 "_c_p_t_trading_range_plot_8m.html#a50d2cb897e004a1cf8d6af5635daaae0":[3,0,1,116,7],
 "_c_p_t_trading_range_plot_8m.html#a5c3e3e9b06e7ba491ecd5bd98aac091c":[3,0,1,116,4],
 "_c_p_t_trading_range_plot_8m.html#a6d25c69831bde5aedd4564bccc13b734":[3,0,1,116,5],
 "_c_p_t_trading_range_plot_8m.html#a79233b77eb1664118f183720e60cf03a":[3,0,1,116,8],
 "_c_p_t_trading_range_plot_8m.html#a823dd852225cb78ef545d50fa74c0097":[3,0,1,116,1],
-"_c_p_t_trading_range_plot_8m.html#ab50ad83f89e50228658675b75849092a":[3,0,1,116,11],
 "_c_p_t_trading_range_plot_8m.html#ad63deec419ad5017e7a677de4cef450a":[3,0,1,116,2],
 "_c_p_t_trading_range_plot_8m.html#afc476a911fbf3eba1e7daf31ad5c5f27":[3,0,1,116,0],
 "_c_p_t_trading_range_plot_8m.html#ga19d17ef5e84a7a36c4c3fc05aa552348":[3,0,1,116,9],
@@ -249,5 +247,7 @@ var NAVTREEINDEX1 =
 "_c_p_t_utilities_8h.html#a1970a76e2fccbfcf42c75b6f919220f0":[3,0,1,117,25],
 "_c_p_t_utilities_8h.html#a1a69e57bc4c30878360633a47e0f48d1":[3,0,1,117,0],
 "_c_p_t_utilities_8h.html#a1e357f0a18b4d94f218b8a8afeeb3162":[3,0,1,117,17],
-"_c_p_t_utilities_8h.html#a22c1b63e82c9a3e701128d3f3ec80df8":[3,0,1,117,15]
+"_c_p_t_utilities_8h.html#a22c1b63e82c9a3e701128d3f3ec80df8":[3,0,1,117,15],
+"_c_p_t_utilities_8h.html#a27c8baf65f50f88334840f6c4f48aea1":[3,0,1,117,1],
+"_c_p_t_utilities_8h.html#a2964d83bf11ac682a07702c466d7d147":[3,0,1,117,28]
 };
