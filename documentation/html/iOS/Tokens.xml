@@ -21011,7 +21011,7 @@
       <Scope>CPTLineStyle</Scope>
     </TokenIdentifier>
     <Path>interface_c_p_t_line_style.html</Path>
-    <Abstract>Immutable wrapper for various line drawing properties.</Abstract>
+    <Abstract>Immutable wrapper for various line drawing properties. Create a CPTMutableLineStyle if you want to cu...</Abstract>
     <DeclaredIn>CPTLineStyle.h</DeclaredIn>
   </Token>
   <Token>
@@ -21353,6 +21353,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>lineGradient</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_line_style.html</Path>
+    <Anchor>afb93dd0422b8a0ac0f2f0bad9ce79481</Anchor>
+    <Abstract>The current line gradient fill. Default is nil.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>opaque</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -21463,6 +21474,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>lineGradient</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTMutableLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_mutable_line_style.html</Path>
+    <Anchor>a70fd237f3ea7f86ba4de88185b889f7e</Anchor>
+    <Abstract>The current line gradient fill. Default is nil.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>lineCap</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -21548,6 +21570,17 @@
     <Path>interface_c_p_t_line_style.html</Path>
     <Anchor>a4013bcb6c2e1af2e37cfabd7d8222320</Anchor>
     <Abstract>The current line fill. Default is nil.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lineGradient</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTLineStyle</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_line_style.html</Path>
+    <Anchor>afb93dd0422b8a0ac0f2f0bad9ce79481</Anchor>
+    <Abstract>The current line gradient fill. Default is nil.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

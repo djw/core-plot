@@ -36,7 +36,7 @@
 <area shape="rect" id="node38" href="$interface_c_p_t_legend_entry.html" title="A graph legend entry." alt="" coords="572,961,698,991"/>
 <area shape="rect" id="node39" href="$interface_c_p_t_limit_band.html" title="Defines a range and fill used to highlight a band of data." alt="" coords="580,1453,690,1483"/>
 <area shape="rect" id="node40" href="$interface_c_p_t_line_cap.html" title="End cap decorations for lines." alt="" coords="586,1507,684,1538"/>
-<area shape="rect" id="node41" href="$interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties." alt="" coords="583,1671,686,1702"/>
+<area shape="rect" id="node41" href="$interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties. Create a CPTMutableLineStyle if you want to cu..." alt="" coords="583,1671,686,1702"/>
 <area shape="rect" id="node43" href="$interface_c_p_t_numeric_data.html" title="An annotated NSData type." alt="" coords="570,1726,700,1757"/>
 <area shape="rect" id="node45" href="$interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data." alt="" coords="579,1781,690,1811"/>
 <area shape="rect" id="node47" href="$interface_c_p_t_plot_space.html" title="Defines the coordinate system of a plot." alt="" coords="581,578,689,609"/>

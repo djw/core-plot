@@ -2733,6 +2733,11 @@
               <Anchor>a4013bcb6c2e1af2e37cfabd7d8222320</Anchor>
              </Node>
              <Node>
+              <Name>lineGradient</Name>
+              <Path>interface_c_p_t_line_style.html</Path>
+              <Anchor>afb93dd0422b8a0ac0f2f0bad9ce79481</Anchor>
+             </Node>
+             <Node>
               <Name>lineJoin</Name>
               <Path>interface_c_p_t_line_style.html</Path>
               <Anchor>abc0a66df1b94999e59f19df2a250f1f0</Anchor>
@@ -2782,6 +2787,11 @@
               <Name>lineFill</Name>
               <Path>interface_c_p_t_mutable_line_style.html</Path>
               <Anchor>a24b132989be30f94e9d8691793eba7f4</Anchor>
+             </Node>
+             <Node>
+              <Name>lineGradient</Name>
+              <Path>interface_c_p_t_mutable_line_style.html</Path>
+              <Anchor>a70fd237f3ea7f86ba4de88185b889f7e</Anchor>
              </Node>
              <Node>
               <Name>lineJoin</Name>
@@ -9544,6 +9554,11 @@
                   <Anchor>a4013bcb6c2e1af2e37cfabd7d8222320</Anchor>
                  </Node>
                  <Node>
+                  <Name>lineGradient</Name>
+                  <Path>interface_c_p_t_line_style.html</Path>
+                  <Anchor>afb93dd0422b8a0ac0f2f0bad9ce79481</Anchor>
+                 </Node>
+                 <Node>
                   <Name>lineJoin</Name>
                   <Path>interface_c_p_t_line_style.html</Path>
                   <Anchor>abc0a66df1b94999e59f19df2a250f1f0</Anchor>
@@ -9603,6 +9618,11 @@
                   <Name>lineFill</Name>
                   <Path>interface_c_p_t_mutable_line_style.html</Path>
                   <Anchor>a24b132989be30f94e9d8691793eba7f4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>lineGradient</Name>
+                  <Path>interface_c_p_t_mutable_line_style.html</Path>
+                  <Anchor>a70fd237f3ea7f86ba4de88185b889f7e</Anchor>
                  </Node>
                  <Node>
                   <Name>lineJoin</Name>

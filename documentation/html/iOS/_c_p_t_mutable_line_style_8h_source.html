@@ -73,7 +73,7 @@ $(document).ready(function(){initNavTree('_c_p_t_mutable_line_style_8h_source.ht
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">@class</span> <a class="code" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a>;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="code" href="interface_c_p_t_mutable_line_style.html">    5</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_c_p_t_mutable_line_style.html" title="Mutable wrapper for various line drawing properties.">CPTMutableLineStyle</a> : <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties.">CPTLineStyle</a> {</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="code" href="interface_c_p_t_mutable_line_style.html">    5</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_c_p_t_mutable_line_style.html" title="Mutable wrapper for various line drawing properties.">CPTMutableLineStyle</a> : <a class="code" href="interface_c_p_t_line_style.html" title="Immutable wrapper for various line drawing properties. Create a CPTMutableLineStyle if you want to cu...">CPTLineStyle</a> {</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno"><a class="code" href="interface_c_p_t_mutable_line_style.html#a6f4cb9e2bba7a5212de2efc45e717f4a">    8</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, assign) CGLineCap lineCap;</div>
@@ -84,8 +84,9 @@ $(document).ready(function(){initNavTree('_c_p_t_mutable_line_style_8h_source.ht
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="code" href="interface_c_p_t_mutable_line_style.html#acd9c3a833a21cb466ba1bef030db5416">   13</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, assign) CGFloat patternPhase;</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="code" href="interface_c_p_t_mutable_line_style.html#af17fccf684aaaef8245ec90080e3ecfc">   14</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, retain) <a class="code" href="interface_c_p_t_color.html" title="An immutable color.">CPTColor</a> *lineColor;</div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="code" href="interface_c_p_t_mutable_line_style.html#a24b132989be30f94e9d8691793eba7f4">   15</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, retain) <a class="code" href="interface_c_p_t_fill.html" title="Draws area fills.">CPTFill</a> *lineFill;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="code" href="interface_c_p_t_mutable_line_style.html#a70fd237f3ea7f86ba4de88185b889f7e">   16</a></span>&#160;<span class="keyword">@property</span> (nonatomic, readwrite, retain) <a class="code" href="interface_c_p_t_gradient.html" title="Draws color gradient fills.">CPTGradient</a> *lineGradient;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">@end</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

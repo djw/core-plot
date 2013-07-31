@@ -9,6 +9,7 @@ var interface_c_p_t_line_style =
     [ "lineCap", "interface_c_p_t_line_style.html#a6766f6b71b5802ae5d68ed5eb6a9f02d", null ],
     [ "lineColor", "interface_c_p_t_line_style.html#a6534d213baf82190c509be88be83bfda", null ],
     [ "lineFill", "interface_c_p_t_line_style.html#a4013bcb6c2e1af2e37cfabd7d8222320", null ],
+    [ "lineGradient", "interface_c_p_t_line_style.html#afb93dd0422b8a0ac0f2f0bad9ce79481", null ],
     [ "lineJoin", "interface_c_p_t_line_style.html#abc0a66df1b94999e59f19df2a250f1f0", null ],
     [ "lineWidth", "interface_c_p_t_line_style.html#ad2ce3e1a5e6ab6e0f3d350bea0993822", null ],
     [ "miterLimit", "interface_c_p_t_line_style.html#ad39e459f0332855f39282cfa8ac7e329", null ],
