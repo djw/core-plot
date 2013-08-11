@@ -30,6 +30,7 @@ var annotated =
     [ "CPTDecimalNumberValueTransformer", "interface_c_p_t_decimal_number_value_transformer.html", null ],
     [ "CPTFill", "interface_c_p_t_fill.html", "interface_c_p_t_fill" ],
     [ "CPTFill(AbstractMethods)", "category_c_p_t_fill_07_abstract_methods_08.html", "category_c_p_t_fill_07_abstract_methods_08" ],
+    [ "CPTFunctionDataSource", "interface_c_p_t_function_data_source.html", "interface_c_p_t_function_data_source" ],
     [ "CPTGradient", "interface_c_p_t_gradient.html", "interface_c_p_t_gradient" ],
     [ "CPTGradientElement", "struct_c_p_t_gradient_element.html", "struct_c_p_t_gradient_element" ],
     [ "CPTGraph", "interface_c_p_t_graph.html", "interface_c_p_t_graph" ],

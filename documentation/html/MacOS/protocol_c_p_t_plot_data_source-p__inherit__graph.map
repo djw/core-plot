@@ -1,8 +1,9 @@
 <map id="&lt;CPTPlotDataSource&gt;" name="&lt;CPTPlotDataSource&gt;">
 <area shape="rect" id="node3" href="$protocol_c_p_t_bar_plot_data_source-p.html" title="A bar plot data source." alt="" coords="381,5,566,35"/>
-<area shape="rect" id="node4" href="$protocol_c_p_t_pie_chart_data_source-p.html" title="A pie chart data source." alt="" coords="376,59,571,90"/>
-<area shape="rect" id="node5" href="$protocol_c_p_t_range_plot_data_source-p.html" title="A range plot data source." alt="" coords="371,114,576,145"/>
-<area shape="rect" id="node6" href="$protocol_c_p_t_scatter_plot_data_source-p.html" title="A scatter plot data source." alt="" coords="369,169,578,199"/>
-<area shape="rect" id="node7" href="$protocol_c_p_t_trading_range_plot_data_source-p.html" title="A trading range plot data source." alt="" coords="373,223,574,273"/>
-<area shape="rect" id="node2" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="5,114,107,145"/>
+<area shape="rect" id="node4" href="$interface_c_p_t_function_data_source.html" title="A datasource class that automatically creates scatter plot data from a function." alt="" coords="386,59,561,90"/>
+<area shape="rect" id="node5" href="$protocol_c_p_t_pie_chart_data_source-p.html" title="A pie chart data source." alt="" coords="376,114,571,145"/>
+<area shape="rect" id="node6" href="$protocol_c_p_t_range_plot_data_source-p.html" title="A range plot data source." alt="" coords="371,169,576,199"/>
+<area shape="rect" id="node7" href="$protocol_c_p_t_scatter_plot_data_source-p.html" title="A scatter plot data source." alt="" coords="369,223,578,254"/>
+<area shape="rect" id="node8" href="$protocol_c_p_t_trading_range_plot_data_source-p.html" title="A trading range plot data source." alt="" coords="373,278,574,328"/>
+<area shape="rect" id="node2" href="doxygen-cocoa-tags.xml$https://developer.apple.com/library/mac/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="5,142,107,173"/>
 </map>

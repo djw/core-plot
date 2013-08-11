@@ -1733,6 +1733,37 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CPTFunctionDataSource</Name>
+            <Path>interface_c_p_t_function_data_source.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>initForPlot:withFunction:</Name>
+              <Path>interface_c_p_t_function_data_source.html</Path>
+              <Anchor>ae6da4d60187259112f28cf9b4a403fc7</Anchor>
+             </Node>
+             <Node>
+              <Name>dataPlot</Name>
+              <Path>interface_c_p_t_function_data_source.html</Path>
+              <Anchor>ace6581fc728bd3bcb8228748f8baf1a4</Anchor>
+             </Node>
+             <Node>
+              <Name>dataRange</Name>
+              <Path>interface_c_p_t_function_data_source.html</Path>
+              <Anchor>a2d779ae217a7e95cbb301bbf3e8c2511</Anchor>
+             </Node>
+             <Node>
+              <Name>dataSourceFunction</Name>
+              <Path>interface_c_p_t_function_data_source.html</Path>
+              <Anchor>a17536bddb94c77a06329cfcd8b9e88cf</Anchor>
+             </Node>
+             <Node>
+              <Name>resolution</Name>
+              <Path>interface_c_p_t_function_data_source.html</Path>
+              <Anchor>a9df6e8ee353b75f2715ebcc9e24ec0e2</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CPTGradient</Name>
             <Path>interface_c_p_t_gradient.html</Path>
             <Subnodes>
@@ -5594,6 +5625,10 @@
                 <Path>interface_c_p_t_fill.html</Path>
                </Node>
                <Node>
+                <Name>CPTFunctionDataSource</Name>
+                <Path>interface_c_p_t_function_data_source.html</Path>
+               </Node>
+               <Node>
                 <Name>CPTGradient</Name>
                 <Path>interface_c_p_t_gradient.html</Path>
                </Node>
@@ -5699,6 +5734,10 @@
                <Node>
                 <Name>&lt;CPTBarPlotDataSource&gt;</Name>
                 <Path>protocol_c_p_t_bar_plot_data_source-p.html</Path>
+               </Node>
+               <Node>
+                <Name>CPTFunctionDataSource</Name>
+                <Path>interface_c_p_t_function_data_source.html</Path>
                </Node>
                <Node>
                 <Name>&lt;CPTPieChartDataSource&gt;</Name>
@@ -8261,6 +8300,52 @@
              <Node>
               <Name>CPTFill.m</Name>
               <Path>_c_p_t_fill_8m.html</Path>
+             </Node>
+             <Node>
+              <Name>CPTFunctionDataSource.h</Name>
+              <Path>_c_p_t_function_data_source_8h.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>CPTFunctionDataSource</Name>
+                <Path>interface_c_p_t_function_data_source.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>initForPlot:withFunction:</Name>
+                  <Path>interface_c_p_t_function_data_source.html</Path>
+                  <Anchor>ae6da4d60187259112f28cf9b4a403fc7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataPlot</Name>
+                  <Path>interface_c_p_t_function_data_source.html</Path>
+                  <Anchor>ace6581fc728bd3bcb8228748f8baf1a4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataRange</Name>
+                  <Path>interface_c_p_t_function_data_source.html</Path>
+                  <Anchor>a2d779ae217a7e95cbb301bbf3e8c2511</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataSourceFunction</Name>
+                  <Path>interface_c_p_t_function_data_source.html</Path>
+                  <Anchor>a17536bddb94c77a06329cfcd8b9e88cf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>resolution</Name>
+                  <Path>interface_c_p_t_function_data_source.html</Path>
+                  <Anchor>a9df6e8ee353b75f2715ebcc9e24ec0e2</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CPTDataSourceFunction</Name>
+                <Path>_c_p_t_function_data_source_8h.html</Path>
+                <Anchor>a9a113352b15f5dc4aa9afa6e116fcb8a</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>CPTFunctionDataSource.m</Name>
+              <Path>_c_p_t_function_data_source_8m.html</Path>
              </Node>
              <Node>
               <Name>CPTGradient.h</Name>

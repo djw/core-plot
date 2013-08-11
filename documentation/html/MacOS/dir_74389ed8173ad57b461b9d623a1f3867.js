@@ -71,6 +71,8 @@ var dir_74389ed8173ad57b461b9d623a1f3867 =
       [ "CPTFill(AbstractMethods)", "category_c_p_t_fill_07_abstract_methods_08.html", "category_c_p_t_fill_07_abstract_methods_08" ]
     ] ],
     [ "CPTFill.m", "_c_p_t_fill_8m.html", null ],
+    [ "CPTFunctionDataSource.h", "_c_p_t_function_data_source_8h.html", "_c_p_t_function_data_source_8h" ],
+    [ "CPTFunctionDataSource.m", "_c_p_t_function_data_source_8m.html", null ],
     [ "CPTGradient.h", "_c_p_t_gradient_8h.html", "_c_p_t_gradient_8h" ],
     [ "CPTGradient.m", "_c_p_t_gradient_8m.html", null ],
     [ "CPTGraph.h", "_c_p_t_graph_8h.html", "_c_p_t_graph_8h" ],
