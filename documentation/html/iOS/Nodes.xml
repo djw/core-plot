@@ -3312,6 +3312,11 @@
               <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
              </Node>
              <Node>
+              <Name>adjustLabelAnchors</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
+             </Node>
+             <Node>
               <Name>alignsPointsToPixels</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>ae3ebd8478e3bb09584278c3929b499a2</Anchor>
@@ -10570,6 +10575,11 @@
                   <Name>titleForLegendEntryAtIndex:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>a78ef2f45498b2c5b8c69ccf5ac01f84c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>adjustLabelAnchors</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
                  </Node>
                  <Node>
                   <Name>alignsPointsToPixels</Name>

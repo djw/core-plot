@@ -11888,6 +11888,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>adjustLabelAnchors</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
+    <Abstract>If YES, data labels anchor points are adjusted automatically when the labels are positioned. If NO, data labels anchor points do not change.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>showLabels</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -25322,6 +25333,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>adjustLabelAnchors</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
+    <Abstract>If YES, data labels anchor points are adjusted automatically when the labels are positioned. If NO, data labels anchor points do not change.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>showLabels</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -27321,6 +27343,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a6d86e8c36c677b9efeb2f599e647a74a</Anchor>
     <Abstract>If YES, the plot needs to be relabeled before the layer content is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>adjustLabelAnchors</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
+    <Abstract>If YES, data labels anchor points are adjusted automatically when the labels are positioned. If NO, data labels anchor points do not change.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32777,6 +32810,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>adjustLabelAnchors</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
+    <Abstract>If YES, data labels anchor points are adjusted automatically when the labels are positioned. If NO, data labels anchor points do not change.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>showLabels</Name>
       <APILanguage>occ</APILanguage>
       <Type>instp</Type>
@@ -34713,6 +34757,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a6d86e8c36c677b9efeb2f599e647a74a</Anchor>
     <Abstract>If YES, the plot needs to be relabeled before the layer content is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>adjustLabelAnchors</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
+    <Abstract>If YES, data labels anchor points are adjusted automatically when the labels are positioned. If NO, data labels anchor points do not change.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -38161,6 +38216,17 @@
     <Path>interface_c_p_t_plot.html</Path>
     <Anchor>a6d86e8c36c677b9efeb2f599e647a74a</Anchor>
     <Abstract>If YES, the plot needs to be relabeled before the layer content is drawn.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>adjustLabelAnchors</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+      <Scope>CPTPlot</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_plot.html</Path>
+    <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
+    <Abstract>If YES, data labels anchor points are adjusted automatically when the labels are positioned. If NO, data labels anchor points do not change.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

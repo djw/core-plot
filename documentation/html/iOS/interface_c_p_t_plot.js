@@ -35,6 +35,7 @@ var interface_c_p_t_plot =
     [ "setDataNeedsReloading", "interface_c_p_t_plot.html#acfe6ff4ab292b2e176725746447d00ad", null ],
     [ "setNeedsRelabel", "interface_c_p_t_plot.html#a0947c9947f44847ad89ee01ab762a5c4", null ],
     [ "titleForLegendEntryAtIndex:", "interface_c_p_t_plot.html#a78ef2f45498b2c5b8c69ccf5ac01f84c", null ],
+    [ "adjustLabelAnchors", "interface_c_p_t_plot.html#aebcf44b046a0d0774f86e9bbeb0a24b2", null ],
     [ "alignsPointsToPixels", "interface_c_p_t_plot.html#ae3ebd8478e3bb09584278c3929b499a2", null ],
     [ "attributedTitle", "interface_c_p_t_plot.html#a49b5b67afbdae125bc1fad1b9acc2bb9", null ],
     [ "cachedDataCount", "interface_c_p_t_plot.html#a8be7b7e904558fbd5ea954704ae9355a", null ],

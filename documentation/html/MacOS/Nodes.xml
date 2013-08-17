@@ -3521,6 +3521,11 @@
               <Anchor>a0b7620120142f873de71318ee17ac026</Anchor>
              </Node>
              <Node>
+              <Name>adjustLabelAnchors</Name>
+              <Path>interface_c_p_t_plot.html</Path>
+              <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
+             </Node>
+             <Node>
               <Name>alignsPointsToPixels</Name>
               <Path>interface_c_p_t_plot.html</Path>
               <Anchor>ae3ebd8478e3bb09584278c3929b499a2</Anchor>
@@ -10781,6 +10786,11 @@
                   <Name>valueClassForBinding:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
                   <Anchor>a0b7620120142f873de71318ee17ac026</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>adjustLabelAnchors</Name>
+                  <Path>interface_c_p_t_plot.html</Path>
+                  <Anchor>aebcf44b046a0d0774f86e9bbeb0a24b2</Anchor>
                  </Node>
                  <Node>
                   <Name>alignsPointsToPixels</Name>
