@@ -3499,6 +3499,72 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CPTStringFromPoint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>a63b4f83bf1143a073a8b1cf8bd2672a7</Anchor>
+    <Abstract>Creates a string representation of the given point.</Abstract>
+    <DeclaredIn>CPTUtilities.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTStringFromSize</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>aa61355b699ad55345c7bda5c66636237</Anchor>
+    <Abstract>Creates a string representation of the given size.</Abstract>
+    <DeclaredIn>CPTUtilities.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTStringFromRect</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>a4af074290b1cfdef226b1deb88cf3149</Anchor>
+    <Abstract>Creates a string representation of the given rectangle.</Abstract>
+    <DeclaredIn>CPTUtilities.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>squareOfDistanceBetweenPoints</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>a4e2f173fa3724527e7af5d3a091b1563</Anchor>
+    <Abstract>Computes the square of the distance between two points.</Abstract>
+    <DeclaredIn>CPTUtilities.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTAlignPointFunction</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>a0bb1004ed3b335e85b2e611917104a60</Anchor>
+    <Abstract>A function called to align a point in a CGContext.</Abstract>
+    <DeclaredIn>CPTUtilities.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CPTAlignRectFunction</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>_c_p_t_utilities_8h.html</Path>
+    <Anchor>ad84cfb28f7c5994e20330077a98a96f9</Anchor>
+    <Abstract>A function called to align a rectangle in a CGContext.</Abstract>
+    <DeclaredIn>CPTUtilities.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPTAlignPointToUserSpace</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -3550,50 +3616,6 @@
     <Path>_c_p_t_utilities_8h.html</Path>
     <Anchor>a27c8baf65f50f88334840f6c4f48aea1</Anchor>
     <Abstract>Aligns a rectangle in user space between integral coordinates in device space.</Abstract>
-    <DeclaredIn>CPTUtilities.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CPTStringFromPoint</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>_c_p_t_utilities_8h.html</Path>
-    <Anchor>a63b4f83bf1143a073a8b1cf8bd2672a7</Anchor>
-    <Abstract>Creates a string representation of the given point.</Abstract>
-    <DeclaredIn>CPTUtilities.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CPTStringFromSize</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>_c_p_t_utilities_8h.html</Path>
-    <Anchor>aa61355b699ad55345c7bda5c66636237</Anchor>
-    <Abstract>Creates a string representation of the given size.</Abstract>
-    <DeclaredIn>CPTUtilities.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CPTStringFromRect</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>_c_p_t_utilities_8h.html</Path>
-    <Anchor>a4af074290b1cfdef226b1deb88cf3149</Anchor>
-    <Abstract>Creates a string representation of the given rectangle.</Abstract>
-    <DeclaredIn>CPTUtilities.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>squareOfDistanceBetweenPoints</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>_c_p_t_utilities_8h.html</Path>
-    <Anchor>a4e2f173fa3724527e7af5d3a091b1563</Anchor>
-    <Abstract>Computes the square of the distance between two points.</Abstract>
     <DeclaredIn>CPTUtilities.h</DeclaredIn>
   </Token>
   <Token>

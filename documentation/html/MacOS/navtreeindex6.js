@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"interface_c_p_t_plot_range.html#ac57ed5a93c31a89f95eaf392087286e9":[2,0,68,9],
+"interface_c_p_t_plot_range.html#ac9f8c06f95de6f58a7970b0bd1a0d4d5":[2,0,68,4],
 "interface_c_p_t_plot_range.html#ad0ea31c9410605b61864346b5cf70e48":[2,0,68,3],
 "interface_c_p_t_plot_range.html#adc543d1939579179e9d6a4614e617a45":[2,0,68,10],
 "interface_c_p_t_plot_range.html#ae643ffe8042fcc24173c8cd4dc82e558":[2,0,68,19],
@@ -247,6 +249,5 @@ var NAVTREEINDEX6 =
 "struct_c_p_t_r_g_b_a_color.html":[2,0,78],
 "struct_c_p_t_r_g_b_a_color.html#aa0a747fd8d521399dde552fff8cbd974":[2,0,78,1],
 "struct_c_p_t_r_g_b_a_color.html#aa71c02270e204b91762a63ffba293ccf":[2,0,78,0],
-"struct_c_p_t_r_g_b_a_color.html#aac4408d03ce0a0b26ff3ff4fa5c60318":[2,0,78,2],
-"struct_c_p_t_r_g_b_a_color.html#ac1ecf7e0d03dcc366ec1059f9563eaef":[2,0,78,3]
+"struct_c_p_t_r_g_b_a_color.html#aac4408d03ce0a0b26ff3ff4fa5c60318":[2,0,78,2]
 };

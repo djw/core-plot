@@ -12545,6 +12545,16 @@
               <Path>_c_p_t_utilities_8h.html</Path>
               <Subnodes>
                <Node>
+                <Name>CPTAlignPointFunction</Name>
+                <Path>_c_p_t_utilities_8h.html</Path>
+                <Anchor>a0bb1004ed3b335e85b2e611917104a60</Anchor>
+               </Node>
+               <Node>
+                <Name>CPTAlignRectFunction</Name>
+                <Path>_c_p_t_utilities_8h.html</Path>
+                <Anchor>ad84cfb28f7c5994e20330077a98a96f9</Anchor>
+               </Node>
+               <Node>
                 <Name>CPTAlignIntegralPointToUserSpace</Name>
                 <Path>_c_p_t_utilities_8h.html</Path>
                 <Anchor>a1a69e57bc4c30878360633a47e0f48d1</Anchor>

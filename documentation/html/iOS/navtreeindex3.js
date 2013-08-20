@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"functions_0x74.html":[2,3,0,16],
+"functions_0x75.html":[2,3,0,17],
 "functions_0x76.html":[2,3,0,18],
 "functions_0x77.html":[2,3,0,19],
 "functions_0x78.html":[2,3,0,20],
@@ -129,8 +131,8 @@ var NAVTREEINDEX3 =
 "group__plot_animation_pie_chart.html#ga8e4be9249da46cd1df689a8fd29f62ae":[2,0,56,10],
 "group__plot_animation_pie_chart.html#gaa635801e780dc5de8c6171066819e8e0":[1,0,3,2,2],
 "group__plot_animation_pie_chart.html#gaa635801e780dc5de8c6171066819e8e0":[2,0,56,9],
-"group__plot_animation_pie_chart.html#gab616377e7b58de77c9edb3e9fa507660":[1,0,3,2,4],
 "group__plot_animation_pie_chart.html#gab616377e7b58de77c9edb3e9fa507660":[2,0,56,11],
+"group__plot_animation_pie_chart.html#gab616377e7b58de77c9edb3e9fa507660":[1,0,3,2,4],
 "group__plot_animation_pie_chart.html#gac624054adc7fd7cb8f870900119ff8e1":[1,0,3,2,0],
 "group__plot_animation_pie_chart.html#gac624054adc7fd7cb8f870900119ff8e1":[2,0,56,5],
 "group__plot_animation_range_plot.html":[1,0,3,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "interface_c_p_t_axis.html#aa5f163e5cc1be724e435a7ca73d015ba":[2,0,9,47],
 "interface_c_p_t_axis.html#aaa6603f91f2b3fff34562699f2e19171":[2,0,9,7],
 "interface_c_p_t_axis.html#aae16ecb681fe187b78a23e83f55325cb":[2,0,9,64],
-"interface_c_p_t_axis.html#ab02ec81ab3f3059bf045a851c1f3ed11":[2,0,9,24],
-"interface_c_p_t_axis.html#ab05c383db96bfc1d86a9972fc9617f5a":[2,0,9,29],
-"interface_c_p_t_axis.html#ab21c160d932b25c5354145c772303596":[2,0,9,43]
+"interface_c_p_t_axis.html#ab02ec81ab3f3059bf045a851c1f3ed11":[2,0,9,24]
 };
