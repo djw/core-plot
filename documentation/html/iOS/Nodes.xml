@@ -44,6 +44,10 @@
         </Subnodes>
        </Node>
        <Node>
+        <Name>Deprecated List</Name>
+        <Path>deprecated.html</Path>
+       </Node>
+       <Node>
         <Name>Animation &amp; Constants</Name>
         <Path>modules.html</Path>
         <Subnodes>
@@ -3772,12 +3776,22 @@
              <Node>
               <Name>doublePrecisionPlotPoint:forEvent:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
-              <Anchor>a603876ee6cf8bcef05d08dafaca238a1</Anchor>
+              <Anchor>acea37df3d2d5dbb49cc274964483d36c</Anchor>
              </Node>
              <Node>
               <Name>doublePrecisionPlotPoint:forPlotAreaViewPoint:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
-              <Anchor>a82b5a9d6a4ec2e1c26852136dafec971</Anchor>
+              <Anchor>a6f87222a7284c583def4ab72ab3528fd</Anchor>
+             </Node>
+             <Node>
+              <Name>doublePrecisionPlotPoint:numberOfCoordinates:forEvent:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>a5223e2384ec4c8f6d9e8183eabc101d4</Anchor>
+             </Node>
+             <Node>
+              <Name>doublePrecisionPlotPoint:numberOfCoordinates:forPlotAreaViewPoint:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>ab90605aee6099589fb9cb84482e087fd</Anchor>
              </Node>
              <Node>
               <Name>init</Name>
@@ -3787,7 +3801,12 @@
              <Node>
               <Name>plotAreaViewPointForDoublePrecisionPlotPoint:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
-              <Anchor>a067fe72a5a6181ee7251db05aff0522f</Anchor>
+              <Anchor>af97c2a3f683704662a49a1fbfec72c1b</Anchor>
+             </Node>
+             <Node>
+              <Name>plotAreaViewPointForDoublePrecisionPlotPoint:numberOfCoordinates:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>ac459869fef9bdf78a4795078166a8f27</Anchor>
              </Node>
              <Node>
               <Name>plotAreaViewPointForEvent:</Name>
@@ -3797,17 +3816,32 @@
              <Node>
               <Name>plotAreaViewPointForPlotPoint:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
-              <Anchor>a44bfc5a4d3e11c01346759df6973b00a</Anchor>
+              <Anchor>a29439d0e224d5fd5b52eee1526828aa4</Anchor>
+             </Node>
+             <Node>
+              <Name>plotAreaViewPointForPlotPoint:numberOfCoordinates:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>ad84232165013b7500bb082bd0445b929</Anchor>
              </Node>
              <Node>
               <Name>plotPoint:forEvent:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
-              <Anchor>ae30850cdd0463cf64596383e6020b08f</Anchor>
+              <Anchor>a34d61ee2ca92c1e14fc51ec4522c70af</Anchor>
              </Node>
              <Node>
               <Name>plotPoint:forPlotAreaViewPoint:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
-              <Anchor>a111b243e99d0e85c32f28d216aa6a3ed</Anchor>
+              <Anchor>a034a059894180b5615c3d910fbc8c459</Anchor>
+             </Node>
+             <Node>
+              <Name>plotPoint:numberOfCoordinates:forEvent:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>abe6d3e81f6ea0f3a675dfcda7f26ac47</Anchor>
+             </Node>
+             <Node>
+              <Name>plotPoint:numberOfCoordinates:forPlotAreaViewPoint:</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>a8fabeab1561a9f3ad94e621200a31b12</Anchor>
              </Node>
              <Node>
               <Name>plotRangeForCoordinate:</Name>
@@ -3879,6 +3913,11 @@
               <Path>interface_c_p_t_plot_space.html</Path>
               <Anchor>afa172d0d2b3b0f42a39961a2898c8923</Anchor>
              </Node>
+             <Node>
+              <Name>numberOfCoordinates</Name>
+              <Path>interface_c_p_t_plot_space.html</Path>
+              <Anchor>ac5d18418b2f8c88e6a8a82a0b8d49e7d</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -3888,17 +3927,32 @@
              <Node>
               <Name>doublePrecisionPlotPoint:forEvent:</Name>
               <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-              <Anchor>a603876ee6cf8bcef05d08dafaca238a1</Anchor>
+              <Anchor>acea37df3d2d5dbb49cc274964483d36c</Anchor>
              </Node>
              <Node>
               <Name>doublePrecisionPlotPoint:forPlotAreaViewPoint:</Name>
               <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-              <Anchor>a82b5a9d6a4ec2e1c26852136dafec971</Anchor>
+              <Anchor>a6f87222a7284c583def4ab72ab3528fd</Anchor>
+             </Node>
+             <Node>
+              <Name>doublePrecisionPlotPoint:numberOfCoordinates:forEvent:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a5223e2384ec4c8f6d9e8183eabc101d4</Anchor>
+             </Node>
+             <Node>
+              <Name>doublePrecisionPlotPoint:numberOfCoordinates:forPlotAreaViewPoint:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>ab90605aee6099589fb9cb84482e087fd</Anchor>
              </Node>
              <Node>
               <Name>plotAreaViewPointForDoublePrecisionPlotPoint:</Name>
               <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-              <Anchor>a067fe72a5a6181ee7251db05aff0522f</Anchor>
+              <Anchor>af97c2a3f683704662a49a1fbfec72c1b</Anchor>
+             </Node>
+             <Node>
+              <Name>plotAreaViewPointForDoublePrecisionPlotPoint:numberOfCoordinates:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>ac459869fef9bdf78a4795078166a8f27</Anchor>
              </Node>
              <Node>
               <Name>plotAreaViewPointForEvent:</Name>
@@ -3908,17 +3962,32 @@
              <Node>
               <Name>plotAreaViewPointForPlotPoint:</Name>
               <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-              <Anchor>a44bfc5a4d3e11c01346759df6973b00a</Anchor>
+              <Anchor>a29439d0e224d5fd5b52eee1526828aa4</Anchor>
+             </Node>
+             <Node>
+              <Name>plotAreaViewPointForPlotPoint:numberOfCoordinates:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>ad84232165013b7500bb082bd0445b929</Anchor>
              </Node>
              <Node>
               <Name>plotPoint:forEvent:</Name>
               <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-              <Anchor>ae30850cdd0463cf64596383e6020b08f</Anchor>
+              <Anchor>a34d61ee2ca92c1e14fc51ec4522c70af</Anchor>
              </Node>
              <Node>
               <Name>plotPoint:forPlotAreaViewPoint:</Name>
               <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-              <Anchor>a111b243e99d0e85c32f28d216aa6a3ed</Anchor>
+              <Anchor>a034a059894180b5615c3d910fbc8c459</Anchor>
+             </Node>
+             <Node>
+              <Name>plotPoint:numberOfCoordinates:forEvent:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>abe6d3e81f6ea0f3a675dfcda7f26ac47</Anchor>
+             </Node>
+             <Node>
+              <Name>plotPoint:numberOfCoordinates:forPlotAreaViewPoint:</Name>
+              <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+              <Anchor>a8fabeab1561a9f3ad94e621200a31b12</Anchor>
              </Node>
              <Node>
               <Name>plotRangeForCoordinate:</Name>
@@ -7732,6 +7801,11 @@
                 <Anchor>abd26af4304957387867e6e9e8cef1576</Anchor>
                </Node>
                <Node>
+                <Name>cpt_deprecated</Name>
+                <Path>_c_p_t_definitions_8h.html</Path>
+                <Anchor>a6fd501dc7964d3477fa67930f90f5ea3</Anchor>
+               </Node>
+               <Node>
                 <Name>CPT_SDK_SUPPORTS_WEAK</Name>
                 <Path>_c_p_t_definitions_8h.html</Path>
                 <Anchor>ac23f606c1706a1172bc646f5c9c27218</Anchor>
@@ -11119,12 +11193,22 @@
                  <Node>
                   <Name>doublePrecisionPlotPoint:forEvent:</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
-                  <Anchor>a603876ee6cf8bcef05d08dafaca238a1</Anchor>
+                  <Anchor>acea37df3d2d5dbb49cc274964483d36c</Anchor>
                  </Node>
                  <Node>
                   <Name>doublePrecisionPlotPoint:forPlotAreaViewPoint:</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
-                  <Anchor>a82b5a9d6a4ec2e1c26852136dafec971</Anchor>
+                  <Anchor>a6f87222a7284c583def4ab72ab3528fd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>doublePrecisionPlotPoint:numberOfCoordinates:forEvent:</Name>
+                  <Path>interface_c_p_t_plot_space.html</Path>
+                  <Anchor>a5223e2384ec4c8f6d9e8183eabc101d4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>doublePrecisionPlotPoint:numberOfCoordinates:forPlotAreaViewPoint:</Name>
+                  <Path>interface_c_p_t_plot_space.html</Path>
+                  <Anchor>ab90605aee6099589fb9cb84482e087fd</Anchor>
                  </Node>
                  <Node>
                   <Name>init</Name>
@@ -11134,7 +11218,12 @@
                  <Node>
                   <Name>plotAreaViewPointForDoublePrecisionPlotPoint:</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
-                  <Anchor>a067fe72a5a6181ee7251db05aff0522f</Anchor>
+                  <Anchor>af97c2a3f683704662a49a1fbfec72c1b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotAreaViewPointForDoublePrecisionPlotPoint:numberOfCoordinates:</Name>
+                  <Path>interface_c_p_t_plot_space.html</Path>
+                  <Anchor>ac459869fef9bdf78a4795078166a8f27</Anchor>
                  </Node>
                  <Node>
                   <Name>plotAreaViewPointForEvent:</Name>
@@ -11144,17 +11233,32 @@
                  <Node>
                   <Name>plotAreaViewPointForPlotPoint:</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
-                  <Anchor>a44bfc5a4d3e11c01346759df6973b00a</Anchor>
+                  <Anchor>a29439d0e224d5fd5b52eee1526828aa4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotAreaViewPointForPlotPoint:numberOfCoordinates:</Name>
+                  <Path>interface_c_p_t_plot_space.html</Path>
+                  <Anchor>ad84232165013b7500bb082bd0445b929</Anchor>
                  </Node>
                  <Node>
                   <Name>plotPoint:forEvent:</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
-                  <Anchor>ae30850cdd0463cf64596383e6020b08f</Anchor>
+                  <Anchor>a34d61ee2ca92c1e14fc51ec4522c70af</Anchor>
                  </Node>
                  <Node>
                   <Name>plotPoint:forPlotAreaViewPoint:</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
-                  <Anchor>a111b243e99d0e85c32f28d216aa6a3ed</Anchor>
+                  <Anchor>a034a059894180b5615c3d910fbc8c459</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotPoint:numberOfCoordinates:forEvent:</Name>
+                  <Path>interface_c_p_t_plot_space.html</Path>
+                  <Anchor>abe6d3e81f6ea0f3a675dfcda7f26ac47</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotPoint:numberOfCoordinates:forPlotAreaViewPoint:</Name>
+                  <Path>interface_c_p_t_plot_space.html</Path>
+                  <Anchor>a8fabeab1561a9f3ad94e621200a31b12</Anchor>
                  </Node>
                  <Node>
                   <Name>plotRangeForCoordinate:</Name>
@@ -11226,6 +11330,11 @@
                   <Path>interface_c_p_t_plot_space.html</Path>
                   <Anchor>afa172d0d2b3b0f42a39961a2898c8923</Anchor>
                  </Node>
+                 <Node>
+                  <Name>numberOfCoordinates</Name>
+                  <Path>interface_c_p_t_plot_space.html</Path>
+                  <Anchor>ac5d18418b2f8c88e6a8a82a0b8d49e7d</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -11235,17 +11344,32 @@
                  <Node>
                   <Name>doublePrecisionPlotPoint:forEvent:</Name>
                   <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-                  <Anchor>a603876ee6cf8bcef05d08dafaca238a1</Anchor>
+                  <Anchor>acea37df3d2d5dbb49cc274964483d36c</Anchor>
                  </Node>
                  <Node>
                   <Name>doublePrecisionPlotPoint:forPlotAreaViewPoint:</Name>
                   <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-                  <Anchor>a82b5a9d6a4ec2e1c26852136dafec971</Anchor>
+                  <Anchor>a6f87222a7284c583def4ab72ab3528fd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>doublePrecisionPlotPoint:numberOfCoordinates:forEvent:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a5223e2384ec4c8f6d9e8183eabc101d4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>doublePrecisionPlotPoint:numberOfCoordinates:forPlotAreaViewPoint:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>ab90605aee6099589fb9cb84482e087fd</Anchor>
                  </Node>
                  <Node>
                   <Name>plotAreaViewPointForDoublePrecisionPlotPoint:</Name>
                   <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-                  <Anchor>a067fe72a5a6181ee7251db05aff0522f</Anchor>
+                  <Anchor>af97c2a3f683704662a49a1fbfec72c1b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotAreaViewPointForDoublePrecisionPlotPoint:numberOfCoordinates:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>ac459869fef9bdf78a4795078166a8f27</Anchor>
                  </Node>
                  <Node>
                   <Name>plotAreaViewPointForEvent:</Name>
@@ -11255,17 +11379,32 @@
                  <Node>
                   <Name>plotAreaViewPointForPlotPoint:</Name>
                   <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-                  <Anchor>a44bfc5a4d3e11c01346759df6973b00a</Anchor>
+                  <Anchor>a29439d0e224d5fd5b52eee1526828aa4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotAreaViewPointForPlotPoint:numberOfCoordinates:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>ad84232165013b7500bb082bd0445b929</Anchor>
                  </Node>
                  <Node>
                   <Name>plotPoint:forEvent:</Name>
                   <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-                  <Anchor>ae30850cdd0463cf64596383e6020b08f</Anchor>
+                  <Anchor>a34d61ee2ca92c1e14fc51ec4522c70af</Anchor>
                  </Node>
                  <Node>
                   <Name>plotPoint:forPlotAreaViewPoint:</Name>
                   <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
-                  <Anchor>a111b243e99d0e85c32f28d216aa6a3ed</Anchor>
+                  <Anchor>a034a059894180b5615c3d910fbc8c459</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotPoint:numberOfCoordinates:forEvent:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>abe6d3e81f6ea0f3a675dfcda7f26ac47</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>plotPoint:numberOfCoordinates:forPlotAreaViewPoint:</Name>
+                  <Path>category_c_p_t_plot_space_07_abstract_methods_08.html</Path>
+                  <Anchor>a8fabeab1561a9f3ad94e621200a31b12</Anchor>
                  </Node>
                  <Node>
                   <Name>plotRangeForCoordinate:</Name>

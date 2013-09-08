@@ -2,6 +2,7 @@ var _c_p_t_definitions_8h =
 [
     [ "CPTRGBAColor", "struct_c_p_t_r_g_b_a_color.html", "struct_c_p_t_r_g_b_a_color" ],
     [ "__cpt_weak", "_c_p_t_definitions_8h.html#abd26af4304957387867e6e9e8cef1576", null ],
+    [ "cpt_deprecated", "_c_p_t_definitions_8h.html#a6fd501dc7964d3477fa67930f90f5ea3", null ],
     [ "CPT_SDK_SUPPORTS_WEAK", "_c_p_t_definitions_8h.html#ac23f606c1706a1172bc646f5c9c27218", null ],
     [ "cpt_weak_property", "_c_p_t_definitions_8h.html#a1133842e0f1c9446242d6a2ce34728ee", null ],
     [ "CPTFloat", "_c_p_t_definitions_8h.html#a479e1c605b12da89dc3c76f572435269", null ],

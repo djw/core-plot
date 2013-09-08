@@ -1,13 +1,19 @@
 var interface_c_p_t_plot_space =
 [
-    [ "doublePrecisionPlotPoint:forEvent:", "interface_c_p_t_plot_space.html#a603876ee6cf8bcef05d08dafaca238a1", null ],
-    [ "doublePrecisionPlotPoint:forPlotAreaViewPoint:", "interface_c_p_t_plot_space.html#a82b5a9d6a4ec2e1c26852136dafec971", null ],
+    [ "doublePrecisionPlotPoint:forEvent:", "interface_c_p_t_plot_space.html#acea37df3d2d5dbb49cc274964483d36c", null ],
+    [ "doublePrecisionPlotPoint:forPlotAreaViewPoint:", "interface_c_p_t_plot_space.html#a6f87222a7284c583def4ab72ab3528fd", null ],
+    [ "doublePrecisionPlotPoint:numberOfCoordinates:forEvent:", "interface_c_p_t_plot_space.html#a5223e2384ec4c8f6d9e8183eabc101d4", null ],
+    [ "doublePrecisionPlotPoint:numberOfCoordinates:forPlotAreaViewPoint:", "interface_c_p_t_plot_space.html#ab90605aee6099589fb9cb84482e087fd", null ],
     [ "init", "interface_c_p_t_plot_space.html#af7d60a2bbabb78e523704c628184853d", null ],
-    [ "plotAreaViewPointForDoublePrecisionPlotPoint:", "interface_c_p_t_plot_space.html#a067fe72a5a6181ee7251db05aff0522f", null ],
+    [ "plotAreaViewPointForDoublePrecisionPlotPoint:", "interface_c_p_t_plot_space.html#af97c2a3f683704662a49a1fbfec72c1b", null ],
+    [ "plotAreaViewPointForDoublePrecisionPlotPoint:numberOfCoordinates:", "interface_c_p_t_plot_space.html#ac459869fef9bdf78a4795078166a8f27", null ],
     [ "plotAreaViewPointForEvent:", "interface_c_p_t_plot_space.html#ab0e0b6301e1b13e6461b62cfbd2b69da", null ],
-    [ "plotAreaViewPointForPlotPoint:", "interface_c_p_t_plot_space.html#a44bfc5a4d3e11c01346759df6973b00a", null ],
-    [ "plotPoint:forEvent:", "interface_c_p_t_plot_space.html#ae30850cdd0463cf64596383e6020b08f", null ],
-    [ "plotPoint:forPlotAreaViewPoint:", "interface_c_p_t_plot_space.html#a111b243e99d0e85c32f28d216aa6a3ed", null ],
+    [ "plotAreaViewPointForPlotPoint:", "interface_c_p_t_plot_space.html#a29439d0e224d5fd5b52eee1526828aa4", null ],
+    [ "plotAreaViewPointForPlotPoint:numberOfCoordinates:", "interface_c_p_t_plot_space.html#ad84232165013b7500bb082bd0445b929", null ],
+    [ "plotPoint:forEvent:", "interface_c_p_t_plot_space.html#a34d61ee2ca92c1e14fc51ec4522c70af", null ],
+    [ "plotPoint:forPlotAreaViewPoint:", "interface_c_p_t_plot_space.html#a034a059894180b5615c3d910fbc8c459", null ],
+    [ "plotPoint:numberOfCoordinates:forEvent:", "interface_c_p_t_plot_space.html#abe6d3e81f6ea0f3a675dfcda7f26ac47", null ],
+    [ "plotPoint:numberOfCoordinates:forPlotAreaViewPoint:", "interface_c_p_t_plot_space.html#a8fabeab1561a9f3ad94e621200a31b12", null ],
     [ "plotRangeForCoordinate:", "interface_c_p_t_plot_space.html#a3aa2997fb48c06d37e50ff1d114ad7df", null ],
     [ "pointingDeviceCancelledEvent:", "interface_c_p_t_plot_space.html#ac13506e5cd0a592d71a822a711ed7b10", null ],
     [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_plot_space.html#af673f11ab0bbcbd03a84345b22646e6d", null ],
@@ -21,5 +27,6 @@ var interface_c_p_t_plot_space =
     [ "allowsUserInteraction", "interface_c_p_t_plot_space.html#a281b47b1cf26f73dc8dab59d4d299aec", null ],
     [ "delegate", "interface_c_p_t_plot_space.html#a47647c47574e6f9b37c155744610df4b", null ],
     [ "graph", "interface_c_p_t_plot_space.html#ad3ea3123d9b15683f9ae214b898399da", null ],
-    [ "identifier", "interface_c_p_t_plot_space.html#afa172d0d2b3b0f42a39961a2898c8923", null ]
+    [ "identifier", "interface_c_p_t_plot_space.html#afa172d0d2b3b0f42a39961a2898c8923", null ],
+    [ "numberOfCoordinates", "interface_c_p_t_plot_space.html#ac5d18418b2f8c88e6a8a82a0b8d49e7d", null ]
 ];
