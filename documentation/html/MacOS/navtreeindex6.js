@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"interface_c_p_t_plot_range.html#a45e8fa6852f7d3bc5c021aae072a216c":[3,0,68,2],
+"interface_c_p_t_plot_range.html#a5e34c109f1a0eb69f85025edbdbcf13a":[3,0,68,12],
 "interface_c_p_t_plot_range.html#a5fce6affec6cc73e6a856caac6d57b05":[3,0,68,6],
 "interface_c_p_t_plot_range.html#a62480dc618823e2efec97c8ebe1090d6":[3,0,68,16],
 "interface_c_p_t_plot_range.html#a71430ba5a14b9e09829b95fbc2d37479":[3,0,68,17],
@@ -168,10 +170,14 @@ var NAVTREEINDEX6 =
 "protocol_c_p_t_animation_delegate-p.html#ab8566bf2208be0fcccfa3a0780c98bcc":[3,0,2,2],
 "protocol_c_p_t_animation_delegate-p.html#abcb8364998bf1d93e1cc4bca4d383f73":[3,0,2,3],
 "protocol_c_p_t_axis_delegate-p.html":[3,0,11],
-"protocol_c_p_t_axis_delegate-p.html#a0be638dbd688af96a213231dc323e567":[3,0,11,3],
-"protocol_c_p_t_axis_delegate-p.html#ab102ae99efcaf69b4ae7371ddc39cf25":[3,0,11,1],
-"protocol_c_p_t_axis_delegate-p.html#ab27bd14305245d42377355695025920e":[3,0,11,0],
-"protocol_c_p_t_axis_delegate-p.html#ad64607f8bc424cc948bdea67a59b6b0f":[3,0,11,2],
+"protocol_c_p_t_axis_delegate-p.html#a0be638dbd688af96a213231dc323e567":[3,0,11,7],
+"protocol_c_p_t_axis_delegate-p.html#a19022261e1fca9c9b129aae6b5939e3f":[3,0,11,3],
+"protocol_c_p_t_axis_delegate-p.html#a2047fd02364b681ab57f57d2933ff2a4":[3,0,11,1],
+"protocol_c_p_t_axis_delegate-p.html#a79100e4a353a90d18a053fcb299e7ff3":[3,0,11,0],
+"protocol_c_p_t_axis_delegate-p.html#a90356ee77ea08083515c41a0c29ad3ac":[3,0,11,2],
+"protocol_c_p_t_axis_delegate-p.html#ab102ae99efcaf69b4ae7371ddc39cf25":[3,0,11,5],
+"protocol_c_p_t_axis_delegate-p.html#ab27bd14305245d42377355695025920e":[3,0,11,4],
+"protocol_c_p_t_axis_delegate-p.html#ad64607f8bc424cc948bdea67a59b6b0f":[3,0,11,6],
 "protocol_c_p_t_bar_plot_data_source-p.html":[3,0,17],
 "protocol_c_p_t_bar_plot_data_source-p.html#a03beba8be2db7660228bb88427ab325a":[3,0,17,4],
 "protocol_c_p_t_bar_plot_data_source-p.html#a0cbed970c248ea694c48fa78a1a4f16c":[3,0,17,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX6 =
 "protocol_c_p_t_trading_range_plot_data_source-p.html#aab81434371c3f13b01452eb6fe4c3683":[3,0,90,1],
 "protocol_c_p_t_trading_range_plot_data_source-p.html#ab6020f62891e2e6ecba51bd5f67d446a":[3,0,90,7],
 "protocol_c_p_t_trading_range_plot_data_source-p.html#acce497b99bc0e7e9bfca99aadd423b06":[3,0,90,8],
-"protocol_c_p_t_trading_range_plot_data_source-p.html#acf8f90b75862cea16b180761db7ab6ac":[3,0,90,5],
-"protocol_c_p_t_trading_range_plot_data_source-p.html#acfaefdf6423efc3d8f62b8e60fb8cb02":[3,0,90,2],
-"protocol_c_p_t_trading_range_plot_data_source-p.html#ad304432600cde24946858e2bed07b89a":[3,0,90,3],
-"protocol_c_p_t_trading_range_plot_data_source-p.html#ae6f1d190fd66fc0aa350f02ab614ecae":[3,0,90,4],
-"protocol_c_p_t_trading_range_plot_delegate-p.html":[3,0,91],
-"protocol_c_p_t_trading_range_plot_delegate-p.html#a09f8f0dc39b8938b2274353266ce445b":[3,0,91,1],
-"protocol_c_p_t_trading_range_plot_delegate-p.html#a1d7880c0ab59766d4ec198179740ec92":[3,0,91,0]
+"protocol_c_p_t_trading_range_plot_data_source-p.html#acf8f90b75862cea16b180761db7ab6ac":[3,0,90,5]
 };

@@ -8041,6 +8041,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>pointingDeviceDownEvent:atPoint:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>aee11cc32971bc78bbf56ac751211f4c0</Anchor>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>viewPointForCoordinateDecimalNumber:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -8073,17 +8084,6 @@
     <Anchor>aeb212c9b1cc7cd17a285e713920988d7</Anchor>
     <Abstract>Logs this layer and all of its sublayers.</Abstract>
     <DeclaredIn>CPTLayer.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pointingDeviceDownEvent:atPoint:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a01d9a8ac339b89631c3ce8f4fc785d46</Anchor>
-    <Abstract>(Required) Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9687,6 +9687,54 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>axis:labelWasSelected:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTAxisDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+    <Anchor>a79100e4a353a90d18a053fcb299e7ff3</Anchor>
+    <Abstract>(Optional) Informs the delegate that an axis label was clicked.</Abstract>
+    <DeclaredIn>CPTAxis.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axis:labelWasSelected:withEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTAxisDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+    <Anchor>a2047fd02364b681ab57f57d2933ff2a4</Anchor>
+    <Abstract>(Optional) Informs the delegate that an axis label was clicked.</Abstract>
+    <DeclaredIn>CPTAxis.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axis:minorTickLabelWasSelected:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTAxisDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+    <Anchor>a90356ee77ea08083515c41a0c29ad3ac</Anchor>
+    <Abstract>(Optional) Informs the delegate that a minor tick axis label was clicked.</Abstract>
+    <DeclaredIn>CPTAxis.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>axis:minorTickLabelWasSelected:withEvent:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+      <Scope>CPTAxisDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+    <Anchor>a19022261e1fca9c9b129aae6b5939e3f</Anchor>
+    <Abstract>(Optional) Informs the delegate that a minor tick axis label was clicked.</Abstract>
+    <DeclaredIn>CPTAxis.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>description</Name>
       <APILanguage>unknown</APILanguage>
       <Type>intfm</Type>
@@ -10741,6 +10789,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>pointingDeviceDownEvent:atPoint:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxisSet</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis_set.html</Path>
+    <Anchor>a9df9d9d6141658873ebd8c71eafec0e6</Anchor>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>init</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -10761,17 +10820,6 @@
     <Anchor>aeb212c9b1cc7cd17a285e713920988d7</Anchor>
     <Abstract>Logs this layer and all of its sublayers.</Abstract>
     <DeclaredIn>CPTLayer.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pointingDeviceDownEvent:atPoint:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a01d9a8ac339b89631c3ce8f4fc785d46</Anchor>
-    <Abstract>(Required) Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -43397,6 +43445,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>pointingDeviceDownEvent:atPoint:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxis</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis.html</Path>
+    <Anchor>aee11cc32971bc78bbf56ac751211f4c0</Anchor>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>viewPointForCoordinateDecimalNumber:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -43549,17 +43608,6 @@
     <Anchor>aeb212c9b1cc7cd17a285e713920988d7</Anchor>
     <Abstract>Logs this layer and all of its sublayers.</Abstract>
     <DeclaredIn>CPTLayer.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pointingDeviceDownEvent:atPoint:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a01d9a8ac339b89631c3ce8f4fc785d46</Anchor>
-    <Abstract>(Required) Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -44981,6 +45029,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>pointingDeviceDownEvent:atPoint:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+      <Scope>CPTAxisSet</Scope>
+    </TokenIdentifier>
+    <Path>interface_c_p_t_axis_set.html</Path>
+    <Anchor>a9df9d9d6141658873ebd8c71eafec0e6</Anchor>
+    <Abstract>Informs the receiver that the user has pressed the mouse button.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>axisForCoordinate:atIndex:</Name>
       <APILanguage>occ</APILanguage>
       <Type>instm</Type>
@@ -45013,17 +45072,6 @@
     <Anchor>aeb212c9b1cc7cd17a285e713920988d7</Anchor>
     <Abstract>Logs this layer and all of its sublayers.</Abstract>
     <DeclaredIn>CPTLayer.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pointingDeviceDownEvent:atPoint:</Name>
-      <APILanguage>occ</APILanguage>
-      <Type>instm</Type>
-      <Scope>CPTLayer</Scope>
-    </TokenIdentifier>
-    <Path>interface_c_p_t_layer.html</Path>
-    <Anchor>a01d9a8ac339b89631c3ce8f4fc785d46</Anchor>
-    <Abstract>(Required) Informs the receiver that the user has pressed the mouse button.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

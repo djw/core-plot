@@ -8,6 +8,7 @@ var interface_c_p_t_axis =
     [ "filteredMinorTickLocations:", "interface_c_p_t_axis.html#a00bf088cb31b8068b5e369a00d55c270", null ],
     [ "initWithFrame:", "interface_c_p_t_axis.html#a16baaf9ca6edb23fe543f48bb15054b8", null ],
     [ "layoutSublayers", "interface_c_p_t_axis.html#aaa6603f91f2b3fff34562699f2e19171", null ],
+    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_axis.html#aee11cc32971bc78bbf56ac751211f4c0", null ],
     [ "relabel", "interface_c_p_t_axis.html#a8142c888e487899aa4816a6b865f5cea", null ],
     [ "removeBackgroundLimitBand:", "interface_c_p_t_axis.html#ae963f0bb8651f7dfaa74024a8c179f13", null ],
     [ "setNeedsRelabel", "interface_c_p_t_axis.html#ab76319c8e162fe4bb190f4e8545e9375", null ],

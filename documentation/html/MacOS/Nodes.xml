@@ -835,6 +835,11 @@
               <Anchor>aaa6603f91f2b3fff34562699f2e19171</Anchor>
              </Node>
              <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_axis.html</Path>
+              <Anchor>aee11cc32971bc78bbf56ac751211f4c0</Anchor>
+             </Node>
+             <Node>
               <Name>relabel</Name>
               <Path>interface_c_p_t_axis.html</Path>
               <Anchor>a8142c888e487899aa4816a6b865f5cea</Anchor>
@@ -1177,6 +1182,26 @@
             <Path>protocol_c_p_t_axis_delegate-p.html</Path>
             <Subnodes>
              <Node>
+              <Name>axis:labelWasSelected:</Name>
+              <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+              <Anchor>a79100e4a353a90d18a053fcb299e7ff3</Anchor>
+             </Node>
+             <Node>
+              <Name>axis:labelWasSelected:withEvent:</Name>
+              <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+              <Anchor>a2047fd02364b681ab57f57d2933ff2a4</Anchor>
+             </Node>
+             <Node>
+              <Name>axis:minorTickLabelWasSelected:</Name>
+              <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+              <Anchor>a90356ee77ea08083515c41a0c29ad3ac</Anchor>
+             </Node>
+             <Node>
+              <Name>axis:minorTickLabelWasSelected:withEvent:</Name>
+              <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+              <Anchor>a19022261e1fca9c9b129aae6b5939e3f</Anchor>
+             </Node>
+             <Node>
               <Name>axis:shouldUpdateAxisLabelsAtLocations:</Name>
               <Path>protocol_c_p_t_axis_delegate-p.html</Path>
               <Anchor>ab27bd14305245d42377355695025920e</Anchor>
@@ -1278,6 +1303,11 @@
               <Name>initWithFrame:</Name>
               <Path>interface_c_p_t_axis_set.html</Path>
               <Anchor>af1b1939683cc055a4489fabdc6c43066</Anchor>
+             </Node>
+             <Node>
+              <Name>pointingDeviceDownEvent:atPoint:</Name>
+              <Path>interface_c_p_t_axis_set.html</Path>
+              <Anchor>a9df9d9d6141658873ebd8c71eafec0e6</Anchor>
              </Node>
              <Node>
               <Name>relabelAxes</Name>
@@ -6918,6 +6948,26 @@
                 <Path>protocol_c_p_t_axis_delegate-p.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>axis:labelWasSelected:</Name>
+                  <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+                  <Anchor>a79100e4a353a90d18a053fcb299e7ff3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>axis:labelWasSelected:withEvent:</Name>
+                  <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+                  <Anchor>a2047fd02364b681ab57f57d2933ff2a4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>axis:minorTickLabelWasSelected:</Name>
+                  <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+                  <Anchor>a90356ee77ea08083515c41a0c29ad3ac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>axis:minorTickLabelWasSelected:withEvent:</Name>
+                  <Path>protocol_c_p_t_axis_delegate-p.html</Path>
+                  <Anchor>a19022261e1fca9c9b129aae6b5939e3f</Anchor>
+                 </Node>
+                 <Node>
                   <Name>axis:shouldUpdateAxisLabelsAtLocations:</Name>
                   <Path>protocol_c_p_t_axis_delegate-p.html</Path>
                   <Anchor>ab27bd14305245d42377355695025920e</Anchor>
@@ -6982,6 +7032,11 @@
                   <Name>layoutSublayers</Name>
                   <Path>interface_c_p_t_axis.html</Path>
                   <Anchor>aaa6603f91f2b3fff34562699f2e19171</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>pointingDeviceDownEvent:atPoint:</Name>
+                  <Path>interface_c_p_t_axis.html</Path>
+                  <Anchor>aee11cc32971bc78bbf56ac751211f4c0</Anchor>
                  </Node>
                  <Node>
                   <Name>relabel</Name>
@@ -7463,6 +7518,11 @@
                   <Name>initWithFrame:</Name>
                   <Path>interface_c_p_t_axis_set.html</Path>
                   <Anchor>af1b1939683cc055a4489fabdc6c43066</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>pointingDeviceDownEvent:atPoint:</Name>
+                  <Path>interface_c_p_t_axis_set.html</Path>
+                  <Anchor>a9df9d9d6141658873ebd8c71eafec0e6</Anchor>
                  </Node>
                  <Node>
                   <Name>relabelAxes</Name>

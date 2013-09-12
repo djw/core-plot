@@ -113,6 +113,19 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:ab102ae99efcaf69b4ae7371ddc39cf25"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_axis_delegate-p.html#ab102ae99efcaf69b4ae7371ddc39cf25">axis:shouldUpdateMinorAxisLabelsAtLocations:</a></td></tr>
 <tr class="memdesc:ab102ae99efcaf69b4ae7371ddc39cf25"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) This method gives the delegate a chance to create custom labels for each minor tick. It can be used with any labeling policy. Returning <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/NO">NO</a> will cause the axis not to update the labels. It is then the delegate&rsquo;s responsibility to do this.  <a href="#ab102ae99efcaf69b4ae7371ddc39cf25">More...</a><br/></td></tr>
 <tr class="separator:ab102ae99efcaf69b4ae7371ddc39cf25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Label Selection</div></td></tr>
+<tr class="memitem:a79100e4a353a90d18a053fcb299e7ff3"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_axis_delegate-p.html#a79100e4a353a90d18a053fcb299e7ff3">axis:labelWasSelected:</a></td></tr>
+<tr class="memdesc:a79100e4a353a90d18a053fcb299e7ff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) Informs the delegate that an axis label was clicked.  <a href="#a79100e4a353a90d18a053fcb299e7ff3">More...</a><br/></td></tr>
+<tr class="separator:a79100e4a353a90d18a053fcb299e7ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2047fd02364b681ab57f57d2933ff2a4"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_axis_delegate-p.html#a2047fd02364b681ab57f57d2933ff2a4">axis:labelWasSelected:withEvent:</a></td></tr>
+<tr class="memdesc:a2047fd02364b681ab57f57d2933ff2a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) Informs the delegate that an axis label was clicked.  <a href="#a2047fd02364b681ab57f57d2933ff2a4">More...</a><br/></td></tr>
+<tr class="separator:a2047fd02364b681ab57f57d2933ff2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90356ee77ea08083515c41a0c29ad3ac"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_axis_delegate-p.html#a90356ee77ea08083515c41a0c29ad3ac">axis:minorTickLabelWasSelected:</a></td></tr>
+<tr class="memdesc:a90356ee77ea08083515c41a0c29ad3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) Informs the delegate that a minor tick axis label was clicked.  <a href="#a90356ee77ea08083515c41a0c29ad3ac">More...</a><br/></td></tr>
+<tr class="separator:a90356ee77ea08083515c41a0c29ad3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19022261e1fca9c9b129aae6b5939e3f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_axis_delegate-p.html#a19022261e1fca9c9b129aae6b5939e3f">axis:minorTickLabelWasSelected:withEvent:</a></td></tr>
+<tr class="memdesc:a19022261e1fca9c9b129aae6b5939e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) Informs the delegate that a minor tick axis label was clicked.  <a href="#a19022261e1fca9c9b129aae6b5939e3f">More...</a><br/></td></tr>
+<tr class="separator:a19022261e1fca9c9b129aae6b5939e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_NSObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_NSObject')"><img src="closed.png" alt="-"/>&#160;Public Instance Methods inherited from <a class="el" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html">&lt;NSObject&gt;</a></td></tr>
 <tr class="memitem://apple_ref/occ/intfm/NSObject/description inherit pub_methods_NSObject"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html#//apple_ref/occ/intfm/NSObject/description">description</a></td></tr>
 <tr class="separator://apple_ref/occ/intfm/NSObject/description inherit pub_methods_NSObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,6 +137,160 @@ Public Instance Methods</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Axis labeling delegate. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a79100e4a353a90d18a053fcb299e7ff3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) axis: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_axis.html">CPTAxis</a> *)&#160;</td>
+          <td class="paramname"><em>axis</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">labelWasSelected:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_axis_label.html">CPTAxisLabel</a> *)&#160;</td>
+          <td class="paramname"><em>label</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(<em>Optional</em>) Informs the delegate that an axis label was clicked. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>The axis. </td></tr>
+    <tr><td class="paramname">label</td><td>The selected axis label. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2047fd02364b681ab57f57d2933ff2a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) axis: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_axis.html">CPTAxis</a> *)&#160;</td>
+          <td class="paramname"><em>axis</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">labelWasSelected:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_axis_label.html">CPTAxisLabel</a> *)&#160;</td>
+          <td class="paramname"><em>label</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withEvent:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_platform_specific_defines_8h.html#a083121a0367e861b460a0007c779d422">CPTNativeEvent</a> *)&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(<em>Optional</em>) Informs the delegate that an axis label was clicked. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>The axis. </td></tr>
+    <tr><td class="paramname">label</td><td>The selected axis label. </td></tr>
+    <tr><td class="paramname">event</td><td>The event that triggered the selection. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a90356ee77ea08083515c41a0c29ad3ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) axis: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_axis.html">CPTAxis</a> *)&#160;</td>
+          <td class="paramname"><em>axis</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">minorTickLabelWasSelected:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_axis_label.html">CPTAxisLabel</a> *)&#160;</td>
+          <td class="paramname"><em>label</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(<em>Optional</em>) Informs the delegate that a minor tick axis label was clicked. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>The axis. </td></tr>
+    <tr><td class="paramname">label</td><td>The selected minor tick axis label. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a19022261e1fca9c9b129aae6b5939e3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) axis: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_axis.html">CPTAxis</a> *)&#160;</td>
+          <td class="paramname"><em>axis</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">minorTickLabelWasSelected:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_axis_label.html">CPTAxisLabel</a> *)&#160;</td>
+          <td class="paramname"><em>label</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withEvent:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_platform_specific_defines_8h.html#a083121a0367e861b460a0007c779d422">CPTNativeEvent</a> *)&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(<em>Optional</em>) Informs the delegate that a minor tick axis label was clicked. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>The axis. </td></tr>
+    <tr><td class="paramname">label</td><td>The selected minor tick axis label. </td></tr>
+    <tr><td class="paramname">event</td><td>The event that triggered the selection. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="ab27bd14305245d42377355695025920e"></a>
 <div class="memitem">
 <div class="memproto">
