@@ -2,7 +2,7 @@ var interface_c_p_t_bar_plot =
 [
     [ "initWithFrame:", "interface_c_p_t_bar_plot.html#a7029fe2b567b5a4ea9349889e4e17393", null ],
     [ "plotRangeEnclosingBars", "interface_c_p_t_bar_plot.html#a77dcf8f2baf7d190c198d5a12e3eaad6", null ],
-    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_bar_plot.html#a61249cfee58b15eea564fa0667c23b42", null ],
+    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_bar_plot.html#a3dfe65c8efcc3b8a23e7048c943f1b45", null ],
     [ "barBaseCornerRadius", "group__plot_animation_bar_plot.html#ga1ba05e25fedbec2194ab2ade17ac78b8", null ],
     [ "barBasesVary", "interface_c_p_t_bar_plot.html#aa8ae06060f09c97697a051358def4d4e", null ],
     [ "barCornerRadius", "group__plot_animation_bar_plot.html#ga872d2d85e4df97a300dbd553900d96ca", null ],

@@ -24,7 +24,7 @@ var interface_c_p_t_plot =
     [ "numbersFromDataSourceForField:recordIndexRange:", "interface_c_p_t_plot.html#a9c0c497a111974900062776de03b3738", null ],
     [ "plotRangeForCoordinate:", "interface_c_p_t_plot.html#ab11593d353d63f2cc8b73c286681352b", null ],
     [ "plotRangeForField:", "interface_c_p_t_plot.html#aa82038cde6e710a65e2d04d12f727602", null ],
-    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_plot.html#aa8b3f962b5b957dbdcb4df287b9b33bc", null ],
+    [ "pointingDeviceDownEvent:atPoint:", "interface_c_p_t_plot.html#a45965abcaead6bd17f4974d87dd1891e", null ],
     [ "positionLabelAnnotation:forIndex:", "interface_c_p_t_plot.html#af5f23800375c34d2eb1eeebba17ce2b2", null ],
     [ "relabel", "interface_c_p_t_plot.html#a9f5c19d04b743782b00a409136cde65a", null ],
     [ "relabelIndexRange:", "interface_c_p_t_plot.html#a5321f1ed99f4a88d40b723bb55555d55", null ],

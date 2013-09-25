@@ -15,5 +15,9 @@
      <string>com.CorePlot.documentation</string>
      <key>DocSetPublisherName</key>
      <string>Core Plot</string>
+     <key>DashDocSetFamily</key>
+     <string>doxy</string>
+     <key>DocSetPlatformFamily</key>
+     <string>doxygen</string>
 </dict>
 </plist>

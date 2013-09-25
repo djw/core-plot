@@ -650,7 +650,7 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_axis.html</Path>
-              <Anchor>aee11cc32971bc78bbf56ac751211f4c0</Anchor>
+              <Anchor>a3add925f6f2f32876ad41ee8f2df3fc8</Anchor>
              </Node>
              <Node>
               <Name>relabel</Name>
@@ -1120,7 +1120,7 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_axis_set.html</Path>
-              <Anchor>a9df9d9d6141658873ebd8c71eafec0e6</Anchor>
+              <Anchor>a7bf20f895757c455693b0941928b96c1</Anchor>
              </Node>
              <Node>
               <Name>relabelAxes</Name>
@@ -1172,7 +1172,7 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_bar_plot.html</Path>
-              <Anchor>a61249cfee58b15eea564fa0667c23b42</Anchor>
+              <Anchor>a3dfe65c8efcc3b8a23e7048c943f1b45</Anchor>
              </Node>
              <Node>
               <Name>barBaseCornerRadius</Name>
@@ -1310,7 +1310,7 @@
              <Node>
               <Name>sublayerMarginLeft:top:right:bottom:</Name>
               <Path>interface_c_p_t_bordered_layer.html</Path>
-              <Anchor>a2e2aa73578fc28eea7f44b5264e69d7e</Anchor>
+              <Anchor>ae2cbe745deac7be6de6bfcdb8cd3edd6</Anchor>
              </Node>
              <Node>
               <Name>borderLineStyle</Name>
@@ -1797,17 +1797,17 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>a3a243e265538fcd389c5aebc50cfa79e</Anchor>
+              <Anchor>abdea20142d2d203b7e58c223660d81ba</Anchor>
              </Node>
              <Node>
               <Name>pointingDeviceDraggedEvent:atPoint:</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>abaedc2c315f45953c09a485c84bd79ab</Anchor>
+              <Anchor>a758a20d15a4700d068a47fc912670f26</Anchor>
              </Node>
              <Node>
               <Name>pointingDeviceUpEvent:atPoint:</Name>
               <Path>interface_c_p_t_graph.html</Path>
-              <Anchor>a90c1076be18edc004da37ed9bcd8895e</Anchor>
+              <Anchor>ae0fcb63eec3a7775e8568299a91cbe20</Anchor>
              </Node>
              <Node>
               <Name>reloadData</Name>
@@ -2108,17 +2108,17 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_layer.html</Path>
-              <Anchor>a01d9a8ac339b89631c3ce8f4fc785d46</Anchor>
+              <Anchor>aa922c527d0fc072fbf2ff3f9a13068c4</Anchor>
              </Node>
              <Node>
               <Name>pointingDeviceDraggedEvent:atPoint:</Name>
               <Path>interface_c_p_t_layer.html</Path>
-              <Anchor>a1726497f805f2ea612aa22ced9b04f19</Anchor>
+              <Anchor>ac87a3c12f031e722eb4ecb734320a9f0</Anchor>
              </Node>
              <Node>
               <Name>pointingDeviceUpEvent:atPoint:</Name>
               <Path>interface_c_p_t_layer.html</Path>
-              <Anchor>af6dc2ef2ad6aec078871ba8e933ec15d</Anchor>
+              <Anchor>a3b1237d27a1cd3a2b6804d4de317dec9</Anchor>
              </Node>
              <Node>
               <Name>recursivelyRenderInContext:</Name>
@@ -2306,7 +2306,7 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_legend.html</Path>
-              <Anchor>a01e711135ba5fdbf3e9620c86e6260fc</Anchor>
+              <Anchor>a7533b8173b1ff48dbe422d4d993a5700</Anchor>
              </Node>
              <Node>
               <Name>removePlot:</Name>
@@ -3065,7 +3065,7 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_pie_chart.html</Path>
-              <Anchor>a01efe9e766b46553537673d947da309e</Anchor>
+              <Anchor>a822a081fccd882011f0bf33635f1e13e</Anchor>
              </Node>
              <Node>
               <Name>borderLineStyle</Name>
@@ -3293,7 +3293,7 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_plot.html</Path>
-              <Anchor>aa8b3f962b5b957dbdcb4df287b9b33bc</Anchor>
+              <Anchor>a45965abcaead6bd17f4974d87dd1891e</Anchor>
              </Node>
              <Node>
               <Name>positionLabelAnnotation:forIndex:</Name>
@@ -3886,17 +3886,17 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
-              <Anchor>af673f11ab0bbcbd03a84345b22646e6d</Anchor>
+              <Anchor>a78dcb094b3176585aa3e705e882f0758</Anchor>
              </Node>
              <Node>
               <Name>pointingDeviceDraggedEvent:atPoint:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
-              <Anchor>ae943541548f44a0e96398c6331d5991f</Anchor>
+              <Anchor>a387d023fed407222bfca3f830311a13e</Anchor>
              </Node>
              <Node>
               <Name>pointingDeviceUpEvent:atPoint:</Name>
               <Path>interface_c_p_t_plot_space.html</Path>
-              <Anchor>a47270a6ca503dc7e691bda3811d90724</Anchor>
+              <Anchor>adfdf3d8cc6c7be7cb17b909133344bd4</Anchor>
              </Node>
              <Node>
               <Name>scaleBy:aboutPoint:</Name>
@@ -4191,7 +4191,7 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_range_plot.html</Path>
-              <Anchor>a2412c210d3fbdd64fe2a3fc0cd4a8749</Anchor>
+              <Anchor>a5d3b69661b89f37ab392be4a09cf6890</Anchor>
              </Node>
              <Node>
               <Name>areaFill</Name>
@@ -4331,7 +4331,7 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_scatter_plot.html</Path>
-              <Anchor>a20b580ab2ba747f8dcf116ebd78dbba6</Anchor>
+              <Anchor>ab374bf8a1ee14e6c1f57ff333cfb3be8</Anchor>
              </Node>
              <Node>
               <Name>areaBaseValue</Name>
@@ -4656,7 +4656,7 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_trading_range_plot.html</Path>
-              <Anchor>adf3bb632f49fded3b806629623999bc6</Anchor>
+              <Anchor>a6a2db305742248c5f64dd01df4131445</Anchor>
              </Node>
              <Node>
               <Name>barCornerRadius</Name>
@@ -4857,22 +4857,22 @@
              <Node>
               <Name>pointingDeviceDownEvent:atPoint:</Name>
               <Path>interface_c_p_t_x_y_plot_space.html</Path>
-              <Anchor>a2063259d8a95c15c563b67a30c271315</Anchor>
+              <Anchor>a08faa704355f7f4ad9393a68ab45c423</Anchor>
              </Node>
              <Node>
               <Name>pointingDeviceDraggedEvent:atPoint:</Name>
               <Path>interface_c_p_t_x_y_plot_space.html</Path>
-              <Anchor>afe0c31b5a5442c2ec1b3b36584f6cefc</Anchor>
+              <Anchor>aa7d8e61c8351c7dfea20220f37928924</Anchor>
              </Node>
              <Node>
               <Name>pointingDeviceUpEvent:atPoint:</Name>
               <Path>interface_c_p_t_x_y_plot_space.html</Path>
-              <Anchor>a354a115c6fe52cefb705f2defe9dd462</Anchor>
+              <Anchor>aac158e80164a2f89b644cd03b642c235</Anchor>
              </Node>
              <Node>
               <Name>shiftRange:by:inGlobalRange:elastic:withDisplacement:</Name>
               <Path>interface_c_p_t_x_y_plot_space.html</Path>
-              <Anchor>aed0b73322bb589a72ce1577352b4b6a2</Anchor>
+              <Anchor>a693bec697a70e998714dec96510df249</Anchor>
              </Node>
              <Node>
               <Name>allowsMomentum</Name>
@@ -6830,7 +6830,7 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_axis.html</Path>
-                  <Anchor>aee11cc32971bc78bbf56ac751211f4c0</Anchor>
+                  <Anchor>a3add925f6f2f32876ad41ee8f2df3fc8</Anchor>
                  </Node>
                  <Node>
                   <Name>relabel</Name>
@@ -7316,7 +7316,7 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_axis_set.html</Path>
-                  <Anchor>a9df9d9d6141658873ebd8c71eafec0e6</Anchor>
+                  <Anchor>a7bf20f895757c455693b0941928b96c1</Anchor>
                  </Node>
                  <Node>
                   <Name>relabelAxes</Name>
@@ -7440,7 +7440,7 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_bar_plot.html</Path>
-                  <Anchor>a61249cfee58b15eea564fa0667c23b42</Anchor>
+                  <Anchor>a3dfe65c8efcc3b8a23e7048c943f1b45</Anchor>
                  </Node>
                  <Node>
                   <Name>barBaseCornerRadius</Name>
@@ -7610,7 +7610,7 @@
                  <Node>
                   <Name>sublayerMarginLeft:top:right:bottom:</Name>
                   <Path>interface_c_p_t_bordered_layer.html</Path>
-                  <Anchor>a2e2aa73578fc28eea7f44b5264e69d7e</Anchor>
+                  <Anchor>ae2cbe745deac7be6de6bfcdb8cd3edd6</Anchor>
                  </Node>
                  <Node>
                   <Name>borderLineStyle</Name>
@@ -8542,17 +8542,17 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_graph.html</Path>
-                  <Anchor>a3a243e265538fcd389c5aebc50cfa79e</Anchor>
+                  <Anchor>abdea20142d2d203b7e58c223660d81ba</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceDraggedEvent:atPoint:</Name>
                   <Path>interface_c_p_t_graph.html</Path>
-                  <Anchor>abaedc2c315f45953c09a485c84bd79ab</Anchor>
+                  <Anchor>a758a20d15a4700d068a47fc912670f26</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceUpEvent:atPoint:</Name>
                   <Path>interface_c_p_t_graph.html</Path>
-                  <Anchor>a90c1076be18edc004da37ed9bcd8895e</Anchor>
+                  <Anchor>ae0fcb63eec3a7775e8568299a91cbe20</Anchor>
                  </Node>
                  <Node>
                   <Name>reloadData</Name>
@@ -8921,17 +8921,17 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_layer.html</Path>
-                  <Anchor>a01d9a8ac339b89631c3ce8f4fc785d46</Anchor>
+                  <Anchor>aa922c527d0fc072fbf2ff3f9a13068c4</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceDraggedEvent:atPoint:</Name>
                   <Path>interface_c_p_t_layer.html</Path>
-                  <Anchor>a1726497f805f2ea612aa22ced9b04f19</Anchor>
+                  <Anchor>ac87a3c12f031e722eb4ecb734320a9f0</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceUpEvent:atPoint:</Name>
                   <Path>interface_c_p_t_layer.html</Path>
-                  <Anchor>af6dc2ef2ad6aec078871ba8e933ec15d</Anchor>
+                  <Anchor>a3b1237d27a1cd3a2b6804d4de317dec9</Anchor>
                  </Node>
                  <Node>
                   <Name>recursivelyRenderInContext:</Name>
@@ -9161,7 +9161,7 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_legend.html</Path>
-                  <Anchor>a01e711135ba5fdbf3e9620c86e6260fc</Anchor>
+                  <Anchor>a7533b8173b1ff48dbe422d4d993a5700</Anchor>
                  </Node>
                  <Node>
                   <Name>removePlot:</Name>
@@ -10329,7 +10329,7 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_pie_chart.html</Path>
-                  <Anchor>a01efe9e766b46553537673d947da309e</Anchor>
+                  <Anchor>a822a081fccd882011f0bf33635f1e13e</Anchor>
                  </Node>
                  <Node>
                   <Name>borderLineStyle</Name>
@@ -10658,7 +10658,7 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_plot.html</Path>
-                  <Anchor>aa8b3f962b5b957dbdcb4df287b9b33bc</Anchor>
+                  <Anchor>a45965abcaead6bd17f4974d87dd1891e</Anchor>
                  </Node>
                  <Node>
                   <Name>positionLabelAnnotation:forIndex:</Name>
@@ -11333,17 +11333,17 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
-                  <Anchor>af673f11ab0bbcbd03a84345b22646e6d</Anchor>
+                  <Anchor>a78dcb094b3176585aa3e705e882f0758</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceDraggedEvent:atPoint:</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
-                  <Anchor>ae943541548f44a0e96398c6331d5991f</Anchor>
+                  <Anchor>a387d023fed407222bfca3f830311a13e</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceUpEvent:atPoint:</Name>
                   <Path>interface_c_p_t_plot_space.html</Path>
-                  <Anchor>a47270a6ca503dc7e691bda3811d90724</Anchor>
+                  <Anchor>adfdf3d8cc6c7be7cb17b909133344bd4</Anchor>
                  </Node>
                  <Node>
                   <Name>scaleBy:aboutPoint:</Name>
@@ -11738,7 +11738,7 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_range_plot.html</Path>
-                  <Anchor>a2412c210d3fbdd64fe2a3fc0cd4a8749</Anchor>
+                  <Anchor>a5d3b69661b89f37ab392be4a09cf6890</Anchor>
                  </Node>
                  <Node>
                   <Name>areaFill</Name>
@@ -11977,7 +11977,7 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_scatter_plot.html</Path>
-                  <Anchor>a20b580ab2ba747f8dcf116ebd78dbba6</Anchor>
+                  <Anchor>ab374bf8a1ee14e6c1f57ff333cfb3be8</Anchor>
                  </Node>
                  <Node>
                   <Name>areaBaseValue</Name>
@@ -12533,7 +12533,7 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_trading_range_plot.html</Path>
-                  <Anchor>adf3bb632f49fded3b806629623999bc6</Anchor>
+                  <Anchor>a6a2db305742248c5f64dd01df4131445</Anchor>
                  </Node>
                  <Node>
                   <Name>barCornerRadius</Name>
@@ -13450,22 +13450,22 @@
                  <Node>
                   <Name>pointingDeviceDownEvent:atPoint:</Name>
                   <Path>interface_c_p_t_x_y_plot_space.html</Path>
-                  <Anchor>a2063259d8a95c15c563b67a30c271315</Anchor>
+                  <Anchor>a08faa704355f7f4ad9393a68ab45c423</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceDraggedEvent:atPoint:</Name>
                   <Path>interface_c_p_t_x_y_plot_space.html</Path>
-                  <Anchor>afe0c31b5a5442c2ec1b3b36584f6cefc</Anchor>
+                  <Anchor>aa7d8e61c8351c7dfea20220f37928924</Anchor>
                  </Node>
                  <Node>
                   <Name>pointingDeviceUpEvent:atPoint:</Name>
                   <Path>interface_c_p_t_x_y_plot_space.html</Path>
-                  <Anchor>a354a115c6fe52cefb705f2defe9dd462</Anchor>
+                  <Anchor>aac158e80164a2f89b644cd03b642c235</Anchor>
                  </Node>
                  <Node>
                   <Name>shiftRange:by:inGlobalRange:elastic:withDisplacement:</Name>
                   <Path>interface_c_p_t_x_y_plot_space.html</Path>
-                  <Anchor>aed0b73322bb589a72ce1577352b4b6a2</Anchor>
+                  <Anchor>a693bec697a70e998714dec96510df249</Anchor>
                  </Node>
                  <Node>
                   <Name>allowsMomentum</Name>
