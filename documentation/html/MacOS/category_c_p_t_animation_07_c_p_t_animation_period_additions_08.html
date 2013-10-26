@@ -188,7 +188,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting value for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting value for the animation. If <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending value for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
   </table>
@@ -259,7 +259,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting value for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting value for the animation. If <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending value for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">animationCurve</td><td>The animation curve used to animate the new operation. </td></tr>
@@ -338,7 +338,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting value for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting value for the animation. If <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending value for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">delay</td><td>The starting delay of the animation in seconds. </td></tr>
@@ -400,7 +400,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting value for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting value for the animation. If <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending value for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
   </table>
@@ -471,7 +471,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting value for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting value for the animation. If <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending value for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">animationCurve</td><td>The animation curve used to animate the new operation. </td></tr>
@@ -550,7 +550,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting value for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting value for the animation. If <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending value for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">delay</td><td>The starting delay of the animation in seconds. </td></tr>
@@ -612,7 +612,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting plot range for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting plot range for the animation. If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> or any component of the range is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending plot range for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
   </table>
@@ -683,7 +683,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting plot range for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting plot range for the animation. If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> or any component of the range is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending plot range for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">animationCurve</td><td>The animation curve used to animate the new operation. </td></tr>
@@ -762,7 +762,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting plot range for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting plot range for the animation. If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> or any component of the range is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending plot range for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">delay</td><td>The starting delay of the animation in seconds. </td></tr>
@@ -824,7 +824,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting point for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting point for the animation. If either coordinate is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending point for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
   </table>
@@ -895,7 +895,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting point for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting point for the animation. If either coordinate is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending point for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">animationCurve</td><td>The animation curve used to animate the new operation. </td></tr>
@@ -974,7 +974,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting point for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting point for the animation. If either coordinate is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending point for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">delay</td><td>The starting delay of the animation in seconds. </td></tr>
@@ -1036,7 +1036,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting rectangle for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting rectangle for the animation. If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGRectNull">CGRectNull</a> or any field is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending rectangle for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
   </table>
@@ -1107,7 +1107,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting rectangle for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting rectangle for the animation. If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGRectNull">CGRectNull</a> or any field is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending rectangle for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">animationCurve</td><td>The animation curve used to animate the new operation. </td></tr>
@@ -1186,7 +1186,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting rectangle for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting rectangle for the animation. If <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGRectNull">CGRectNull</a> or any field is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending rectangle for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">delay</td><td>The starting delay of the animation in seconds. </td></tr>
@@ -1248,7 +1248,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting size for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting size for the animation. If either coordinate is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending size for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
   </table>
@@ -1319,7 +1319,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting size for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting size for the animation. If either coordinate is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending size for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">animationCurve</td><td>The animation curve used to animate the new operation. </td></tr>
@@ -1398,7 +1398,7 @@ Public Class Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">object</td><td>The object to animate. </td></tr>
     <tr><td class="paramname">property</td><td>The name of the property of <code><b>object</b></code> to animate. The property must have both getter and setter methods. </td></tr>
-    <tr><td class="paramname">from</td><td>The starting size for the animation. </td></tr>
+    <tr><td class="paramname">from</td><td>The starting size for the animation. If either coordinate is <code>NaN</code>, the animation starts from the current value of the animated property. </td></tr>
     <tr><td class="paramname">to</td><td>The ending size for the animation. </td></tr>
     <tr><td class="paramname">duration</td><td>The duration of the animation. </td></tr>
     <tr><td class="paramname">delay</td><td>The starting delay of the animation in seconds. </td></tr>

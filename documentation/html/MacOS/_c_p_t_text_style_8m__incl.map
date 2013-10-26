@@ -1,8 +1,8 @@
 <map id="Source/CPTTextStyle.m" name="Source/CPTTextStyle.m">
-<area shape="rect" id="node2" href="$_c_p_t_text_style_8h.html" title="CPTTextStyle.h" alt="" coords="57,166,175,197"/>
-<area shape="rect" id="node4" href="$_c_p_t_color_8h.html" title="CPTColor.h" alt="" coords="66,86,160,117"/>
-<area shape="rect" id="node5" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="378,86,507,117"/>
-<area shape="rect" id="node8" href="$_c_p_t_mutable_text_style_8h.html" title="CPTMutableTextStyle.h" alt="" coords="184,86,353,117"/>
-<area shape="rect" id="node9" href="$_n_s_coder_extensions_8h.html" title="NSCoderExtensions.h" alt="" coords="531,86,689,117"/>
-<area shape="rect" id="node3" href="$_c_p_t_text_style_platform_specific_8h.html" title="CPTTextStylePlatformSpecific.h" alt="" coords="5,246,227,277"/>
+<area shape="rect" id="node2" href="$_c_p_t_text_style_8h.html" title="CPTTextStyle.h" alt="" coords="57,166,172,197"/>
+<area shape="rect" id="node4" href="$_c_p_t_color_8h.html" title="CPTColor.h" alt="" coords="65,86,157,117"/>
+<area shape="rect" id="node5" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="375,86,503,117"/>
+<area shape="rect" id="node8" href="$_c_p_t_mutable_text_style_8h.html" title="CPTMutableTextStyle.h" alt="" coords="183,86,349,117"/>
+<area shape="rect" id="node9" href="$_n_s_coder_extensions_8h.html" title="NSCoderExtensions.h" alt="" coords="526,86,684,117"/>
+<area shape="rect" id="node3" href="$_c_p_t_text_style_platform_specific_8h.html" title="CPTTextStylePlatformSpecific.h" alt="" coords="5,246,224,277"/>
 </map>

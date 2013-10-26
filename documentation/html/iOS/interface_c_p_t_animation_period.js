@@ -6,6 +6,7 @@ var interface_c_p_t_animation_period =
     [ "initWithStartPoint:endPoint:duration:withDelay:", "interface_c_p_t_animation_period.html#a7b038a1a35ce50807919c9145c0dd6b3", null ],
     [ "initWithStartRect:endRect:duration:withDelay:", "interface_c_p_t_animation_period.html#a512e0d44e6e14a6242fc9b738ebf1a4b", null ],
     [ "initWithStartSize:endSize:duration:withDelay:", "interface_c_p_t_animation_period.html#a538060155e0dd2a019be5aab1443eaaa", null ],
+    [ "setStartValueFromObject:propertyGetter:", "interface_c_p_t_animation_period.html#af63ca2eff0d8e94596330001b170a3af", null ],
     [ "tweenedValueForProgress:", "interface_c_p_t_animation_period.html#a843278bf4e80a43026c6b72e641b84d0", null ],
     [ "delay", "interface_c_p_t_animation_period.html#a73a8785fa85a6b82134ace72e5f10f02", null ],
     [ "duration", "interface_c_p_t_animation_period.html#aa18e67b9efa0b99bb6804dc85bfccc08", null ],

@@ -43,10 +43,10 @@ var NAVTREEINDEX =
 "_c_p_t_animation_8h.html",
 "_c_p_t_mutable_numeric_data_09_type_conversion_8m.html",
 "_c_p_t_utilities_8h.html#a38e413651af6d8a40cd00523fccb051b",
-"functions_0x69.html",
-"interface_c_p_t_axis.html#a8142c888e487899aa4816a6b865f5cea",
-"interface_c_p_t_legend.html#a70ce54e5ed07f13cfd66e4ed3d0f3149",
-"interface_c_p_t_plot_space.html#ac98bd7995f1096cdd32a9df350574daa"
+"functions_0x68.html",
+"interface_c_p_t_axis.html#a7769ce93d289793fbec4aecdc080844a",
+"interface_c_p_t_legend.html#a57670747c45fe73a9a540e9a886b393f",
+"interface_c_p_t_plot_space.html#ac459869fef9bdf78a4795078166a8f27"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

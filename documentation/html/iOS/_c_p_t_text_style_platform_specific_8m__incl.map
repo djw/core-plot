@@ -1,12 +1,12 @@
 <map id="iPhoneOnly/CPTTextStylePlatformSpecific.m" name="iPhoneOnly/CPTTextStylePlatformSpecific.m">
-<area shape="rect" id="node2" href="$_c_p_t_text_style_platform_specific_8h.html" title="CPTTextStylePlatformSpecific.h" alt="" coords="5,265,227,295"/>
-<area shape="rect" id="node3" href="$_c_p_t_color_8h.html" title="CPTColor.h" alt="" coords="265,185,359,215"/>
-<area shape="rect" id="node4" href="$_c_p_t_mutable_text_style_8h.html" title="CPTMutableTextStyle.h" alt="" coords="96,105,265,135"/>
-<area shape="rect" id="node6" href="$_c_p_t_platform_specific_categories_8h.html" title="CPTPlatformSpecificCategories.h" alt="" coords="342,105,572,135"/>
-<area shape="rect" id="node14" href="$_c_p_t_platform_specific_functions_8h.html" title="CPTPlatformSpecificFunctions.h" alt="" coords="597,105,821,135"/>
-<area shape="rect" id="node5" href="$_c_p_t_text_style_8h.html" title="CPTTextStyle.h" alt="" coords="113,185,231,215"/>
-<area shape="rect" id="node7" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="561,185,653,215"/>
-<area shape="rect" id="node9" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="348,345,559,375"/>
-<area shape="rect" id="node8" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="468,265,595,295"/>
-<area shape="rect" id="node11" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="619,265,748,295"/>
+<area shape="rect" id="node2" href="$_c_p_t_text_style_platform_specific_8h.html" title="CPTTextStylePlatformSpecific.h" alt="" coords="5,265,224,295"/>
+<area shape="rect" id="node3" href="$_c_p_t_color_8h.html" title="CPTColor.h" alt="" coords="263,185,355,215"/>
+<area shape="rect" id="node4" href="$_c_p_t_mutable_text_style_8h.html" title="CPTMutableTextStyle.h" alt="" coords="96,105,263,135"/>
+<area shape="rect" id="node6" href="$_c_p_t_platform_specific_categories_8h.html" title="CPTPlatformSpecificCategories.h" alt="" coords="338,105,568,135"/>
+<area shape="rect" id="node14" href="$_c_p_t_platform_specific_functions_8h.html" title="CPTPlatformSpecificFunctions.h" alt="" coords="592,105,816,135"/>
+<area shape="rect" id="node5" href="$_c_p_t_text_style_8h.html" title="CPTTextStyle.h" alt="" coords="114,185,229,215"/>
+<area shape="rect" id="node7" href="$_c_p_t_layer_8h.html" title="CPTLayer.h" alt="" coords="555,185,647,215"/>
+<area shape="rect" id="node9" href="$_c_p_t_platform_specific_defines_8h.html" title="CPTPlatformSpecificDefines.h" alt="" coords="343,345,552,375"/>
+<area shape="rect" id="node8" href="$_c_p_t_responder_8h.html" title="CPTResponder.h" alt="" coords="463,265,589,295"/>
+<area shape="rect" id="node11" href="$_c_p_t_definitions_8h.html" title="CPTDefinitions.h" alt="" coords="613,265,741,295"/>
 </map>

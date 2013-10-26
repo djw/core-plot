@@ -1,19 +1,19 @@
 <map id="Source/CPTPlotSpace.h" name="Source/CPTPlotSpace.h">
-<area shape="rect" id="node2" href="$_core_plot-_cocoa_touch_8h.html" title="CorePlot&#45;CocoaTouch.h" alt="" coords="5,185,181,215"/>
-<area shape="rect" id="node3" href="$_c_p_t_axis_8m.html" title="Source/CPTAxis.m" alt="" coords="1419,95,1560,126"/>
-<area shape="rect" id="node4" href="$_c_p_t_x_y_plot_space_8h.html" title="Source/CPTXYPlotSpace.h" alt="" coords="906,95,1093,126"/>
-<area shape="rect" id="node7" href="$_c_p_t_range_plot_8m.html" title="Source/CPTRangePlot.m" alt="" coords="206,185,383,215"/>
-<area shape="rect" id="node8" href="$_c_p_t_scatter_plot_8m.html" title="Source/CPTScatterPlot.m" alt="" coords="1264,185,1445,215"/>
-<area shape="rect" id="node9" href="$_c_p_t_trading_range_plot_8m.html" title="Source/CPTTradingRangePlot.m" alt="" coords="1470,185,1697,215"/>
-<area shape="rect" id="node10" href="$_c_p_t_x_y_axis_8m.html" title="Source/CPTXYAxis.m" alt="" coords="1722,185,1880,215"/>
-<area shape="rect" id="node13" href="$_c_p_t_graph_8m.html" title="Source/CPTGraph.m" alt="" coords="1584,95,1736,126"/>
-<area shape="rect" id="node14" href="$_c_p_t_pie_chart_8m.html" title="Source/CPTPieChart.m" alt="" coords="1760,95,1927,126"/>
-<area shape="rect" id="node15" href="$_c_p_t_plot_8m.html" title="Source/CPTPlot.m" alt="" coords="1951,95,2088,126"/>
-<area shape="rect" id="node16" href="$_c_p_t_plot_space_8m.html" title="Source/CPTPlotSpace.m" alt="" coords="2113,95,2287,126"/>
-<area shape="rect" id="node17" href="$_c_p_t_plot_space_annotation_8m.html" title="Source/CPTPlotSpaceAnnotation.m" alt="" coords="2311,95,2557,126"/>
-<area shape="rect" id="node18" href="$_c_p_t_graph_hosting_view_8m.html" title="iPhoneOnly/CPTGraphHosting\lView.m" alt="" coords="2582,86,2796,136"/>
-<area shape="rect" id="node5" href="$_c_p_t_bar_plot_8m.html" title="Source/CPTBarPlot.m" alt="" coords="622,185,780,215"/>
-<area shape="rect" id="node6" href="$_c_p_t_function_data_source_8m.html" title="Source/CPTFunctionDataSource.m" alt="" coords="804,185,1045,215"/>
-<area shape="rect" id="node11" href="$_c_p_t_x_y_graph_8m.html" title="Source/CPTXYGraph.m" alt="" coords="1070,185,1239,215"/>
-<area shape="rect" id="node12" href="$_c_p_t_x_y_plot_space_8m.html" title="Source/CPTXYPlotSpace.m" alt="" coords="407,185,597,215"/>
+<area shape="rect" id="node2" href="$_core_plot-_cocoa_touch_8h.html" title="CorePlot&#45;CocoaTouch.h" alt="" coords="5,185,179,215"/>
+<area shape="rect" id="node3" href="$_c_p_t_axis_8m.html" title="Source/CPTAxis.m" alt="" coords="1414,95,1553,126"/>
+<area shape="rect" id="node4" href="$_c_p_t_x_y_plot_space_8h.html" title="Source/CPTXYPlotSpace.h" alt="" coords="904,95,1091,126"/>
+<area shape="rect" id="node7" href="$_c_p_t_range_plot_8m.html" title="Source/CPTRangePlot.m" alt="" coords="203,185,380,215"/>
+<area shape="rect" id="node8" href="$_c_p_t_scatter_plot_8m.html" title="Source/CPTScatterPlot.m" alt="" coords="1260,185,1441,215"/>
+<area shape="rect" id="node9" href="$_c_p_t_trading_range_plot_8m.html" title="Source/CPTTradingRangePlot.m" alt="" coords="1465,185,1691,215"/>
+<area shape="rect" id="node10" href="$_c_p_t_x_y_axis_8m.html" title="Source/CPTXYAxis.m" alt="" coords="1715,185,1871,215"/>
+<area shape="rect" id="node13" href="$_c_p_t_graph_8m.html" title="Source/CPTGraph.m" alt="" coords="1577,95,1728,126"/>
+<area shape="rect" id="node14" href="$_c_p_t_pie_chart_8m.html" title="Source/CPTPieChart.m" alt="" coords="1754,95,1920,126"/>
+<area shape="rect" id="node15" href="$_c_p_t_plot_8m.html" title="Source/CPTPlot.m" alt="" coords="1945,95,2081,126"/>
+<area shape="rect" id="node16" href="$_c_p_t_plot_space_8m.html" title="Source/CPTPlotSpace.m" alt="" coords="2106,95,2280,126"/>
+<area shape="rect" id="node17" href="$_c_p_t_plot_space_annotation_8m.html" title="Source/CPTPlotSpaceAnnotation.m" alt="" coords="2305,95,2551,126"/>
+<area shape="rect" id="node18" href="$_c_p_t_graph_hosting_view_8m.html" title="iPhoneOnly/CPTGraphHosting\lView.m" alt="" coords="2576,86,2789,136"/>
+<area shape="rect" id="node5" href="$_c_p_t_bar_plot_8m.html" title="Source/CPTBarPlot.m" alt="" coords="620,185,777,215"/>
+<area shape="rect" id="node6" href="$_c_p_t_function_data_source_8m.html" title="Source/CPTFunctionDataSource.m" alt="" coords="802,185,1043,215"/>
+<area shape="rect" id="node11" href="$_c_p_t_x_y_graph_8m.html" title="Source/CPTXYGraph.m" alt="" coords="1068,185,1236,215"/>
+<area shape="rect" id="node12" href="$_c_p_t_x_y_plot_space_8m.html" title="Source/CPTXYPlotSpace.m" alt="" coords="404,185,595,215"/>
 </map>

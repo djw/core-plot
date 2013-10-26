@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"protocol_c_p_t_trading_range_plot_data_source-p.html#acce497b99bc0e7e9bfca99aadd423b06":[3,0,90,8],
+"protocol_c_p_t_trading_range_plot_data_source-p.html#acf8f90b75862cea16b180761db7ab6ac":[3,0,90,5],
 "protocol_c_p_t_trading_range_plot_data_source-p.html#acfaefdf6423efc3d8f62b8e60fb8cb02":[3,0,90,2],
 "protocol_c_p_t_trading_range_plot_data_source-p.html#ad304432600cde24946858e2bed07b89a":[3,0,90,3],
 "protocol_c_p_t_trading_range_plot_data_source-p.html#ae6f1d190fd66fc0aa350f02ab614ecae":[3,0,90,4],

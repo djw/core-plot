@@ -1,5 +1,5 @@
 <map id="CPTMutableTextStyle" name="CPTMutableTextStyle">
-<area shape="rect" id="node2" href="$interface_c_p_t_text_style.html" title="Immutable wrapper for various text style properties. " alt="" coords="347,270,452,301"/>
+<area shape="rect" id="node2" href="$interface_c_p_t_text_style.html" title="Immutable wrapper for various text style properties. " alt="" coords="347,270,449,301"/>
 <area shape="rect" id="node3" href="/Users/eskroch/Projects/Core Plot/documentation/doxygen/doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference" title="NSObject" alt="" coords="108,89,188,119"/>
 <area shape="rect" id="node9" href="/Users/eskroch/Projects/Core Plot/documentation/doxygen/doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString" title="NSString" alt="" coords="434,171,509,202"/>
 <area shape="rect" id="node10" href="$interface_c_p_t_color.html" title="An immutable color. " alt="" coords="278,171,359,202"/>

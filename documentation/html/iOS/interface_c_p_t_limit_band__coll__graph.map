@@ -1,6 +1,6 @@
 <map id="CPTLimitBand" name="CPTLimitBand">
 <area shape="rect" id="node2" href="/Users/eskroch/Projects/Core Plot/documentation/doxygen/doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference" title="NSObject" alt="" coords="108,89,188,119"/>
-<area shape="rect" id="node7" href="$interface_c_p_t_fill.html" title="Draws area fills. " alt="" coords="163,171,228,202"/>
+<area shape="rect" id="node7" href="$interface_c_p_t_fill.html" title="Draws area fills. " alt="" coords="164,171,228,202"/>
 <area shape="rect" id="node8" href="$interface_c_p_t_plot_range.html" title="Defines an immutable range of plot data. " alt="" coords="302,171,412,202"/>
 <area shape="rect" id="node3" href="/Users/eskroch/Projects/Core Plot/documentation/doxygen/doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject" title="\&lt;NSObject\&gt;" alt="" coords="5,6,107,37"/>
 <area shape="rect" id="node5" href="/Users/eskroch/Projects/Core Plot/documentation/doxygen/doxygen-cocoa-touch-tags.xml$https://developer.apple.com/library/ios/.html#documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/Reference/Reference" title="\&lt;NSCoding\&gt;" alt="" coords="212,89,317,119"/>

@@ -1,9 +1,9 @@
 <map id="Source/CPTPlotAreaFrame.h" name="Source/CPTPlotAreaFrame.h">
-<area shape="rect" id="node2" href="$_core_plot-_cocoa_touch_8h.html" title="CorePlot&#45;CocoaTouch.h" alt="" coords="5,95,181,126"/>
-<area shape="rect" id="node3" href="$_c_p_t_graph_8m.html" title="Source/CPTGraph.m" alt="" coords="205,95,357,126"/>
-<area shape="rect" id="node4" href="$_c_p_t_plot_8m.html" title="Source/CPTPlot.m" alt="" coords="382,95,519,126"/>
-<area shape="rect" id="node5" href="$_c_p_t_plot_area_frame_8m.html" title="Source/CPTPlotAreaFrame.m" alt="" coords="543,95,749,126"/>
-<area shape="rect" id="node6" href="$_c_p_t_plot_space_annotation_8m.html" title="Source/CPTPlotSpaceAnnotation.m" alt="" coords="774,95,1020,126"/>
-<area shape="rect" id="node7" href="$_c_p_t_x_y_plot_space_8m.html" title="Source/CPTXYPlotSpace.m" alt="" coords="1044,95,1235,126"/>
-<area shape="rect" id="node8" href="$_c_p_t_graph_hosting_view_8m.html" title="iPhoneOnly/CPTGraphHosting\lView.m" alt="" coords="1260,86,1475,136"/>
+<area shape="rect" id="node2" href="$_core_plot-_cocoa_touch_8h.html" title="CorePlot&#45;CocoaTouch.h" alt="" coords="5,95,179,126"/>
+<area shape="rect" id="node3" href="$_c_p_t_graph_8m.html" title="Source/CPTGraph.m" alt="" coords="203,95,353,126"/>
+<area shape="rect" id="node4" href="$_c_p_t_plot_8m.html" title="Source/CPTPlot.m" alt="" coords="378,95,515,126"/>
+<area shape="rect" id="node5" href="$_c_p_t_plot_area_frame_8m.html" title="Source/CPTPlotAreaFrame.m" alt="" coords="539,95,745,126"/>
+<area shape="rect" id="node6" href="$_c_p_t_plot_space_annotation_8m.html" title="Source/CPTPlotSpaceAnnotation.m" alt="" coords="770,95,1016,126"/>
+<area shape="rect" id="node7" href="$_c_p_t_x_y_plot_space_8m.html" title="Source/CPTXYPlotSpace.m" alt="" coords="1040,95,1231,126"/>
+<area shape="rect" id="node8" href="$_c_p_t_graph_hosting_view_8m.html" title="iPhoneOnly/CPTGraphHosting\lView.m" alt="" coords="1256,86,1469,136"/>
 </map>

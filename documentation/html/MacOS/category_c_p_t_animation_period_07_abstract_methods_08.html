@@ -82,6 +82,10 @@ $(document).ready(function(){initNavTree('category_c_p_t_animation_period_07_abs
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
+<tr class="memitem:a09f581965f24ec4a487740a804036bfc"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="category_c_p_t_animation_period_07_abstract_methods_08.html#a09f581965f24ec4a487740a804036bfc">setStartValueFromObject:propertyGetter:</a></td></tr>
+<tr class="memdesc:a09f581965f24ec4a487740a804036bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the start value from the property getter.  <a href="#a09f581965f24ec4a487740a804036bfc">More...</a><br/></td></tr>
+<tr class="separator:a09f581965f24ec4a487740a804036bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Interpolation</div></td></tr>
 <tr class="memitem:ab1a7727b66612682d8fd277830086c78"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSValue_Class/Reference/Reference.html">NSValue</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="category_c_p_t_animation_period_07_abstract_methods_08.html#ab1a7727b66612682d8fd277830086c78">tweenedValueForProgress:</a></td></tr>
 <tr class="memdesc:ab1a7727b66612682d8fd277830086c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a value between <a class="el" href="interface_c_p_t_animation_period.html#a816ca7005649bb9ecf4cf55993bbf1d1">startValue </a> and <a class="el" href="interface_c_p_t_animation_period.html#ae221c4f2ae1b9b844c275f1af6f3611f">endValue </a>.  <a href="#ab1a7727b66612682d8fd277830086c78">More...</a><br/></td></tr>
@@ -90,6 +94,43 @@ Public Instance Methods</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="interface_c_p_t_animation_period.html" title="Animation timing information and animated values. ">CPTAnimationPeriod</a> abstract methods—must be overridden by subclasses. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a09f581965f24ec4a487740a804036bfc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setStartValueFromObject: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>)&#160;</td>
+          <td class="paramname"><em>boundObject</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">propertyGetter:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/SEL">SEL</a>)&#160;</td>
+          <td class="paramname"><em>boundGetter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the start value from the property getter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boundObject</td><td>The object to update for each animation frame. </td></tr>
+    <tr><td class="paramname">boundGetter</td><td>The getter method for the property to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Extends class <a class="el" href="interface_c_p_t_animation_period.html#af63ca2eff0d8e94596330001b170a3af">CPTAnimationPeriod</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab1a7727b66612682d8fd277830086c78"></a>
 <div class="memitem">
 <div class="memproto">
