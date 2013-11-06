@@ -160,7 +160,9 @@ var hierarchy =
     [ "NSNumber(CPTExtensions)", "category_n_s_number_07_c_p_t_extensions_08.html", null ],
     [ "NSNumber(CPTPlatformSpecificNumberExtensions)", "category_n_s_number_07_c_p_t_platform_specific_number_extensions_08.html", null ],
     [ "<NSObject>", "https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSObject_Protocol/Reference/NSObject.html", [
-      [ "<CPTAnimationDelegate>", "protocol_c_p_t_animation_delegate-p.html", null ],
+      [ "<CPTAnimationDelegate>", "protocol_c_p_t_animation_delegate-p.html", [
+        [ "CPTXYPlotSpace", "interface_c_p_t_x_y_plot_space.html", null ]
+      ] ],
       [ "<CPTAxisDelegate>", "protocol_c_p_t_axis_delegate-p.html", null ],
       [ "<CPTLegendDelegate>", "protocol_c_p_t_legend_delegate-p.html", null ],
       [ "<CPTPlotDataSource>", "protocol_c_p_t_plot_data_source-p.html", [

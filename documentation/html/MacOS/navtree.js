@@ -47,7 +47,7 @@ var NAVTREEINDEX =
 "interface_c_p_t_annotation_host_layer.html#a6f43db8818fe93657867ceffcde6e529",
 "interface_c_p_t_layer.html#a7321f4d4af2e790e41fa277bba0f8456",
 "interface_c_p_t_plot_range.html#a193ff5eddba438e2080866220cdb0516",
-"protocol_c_p_t_trading_range_plot_data_source-p.html#acce497b99bc0e7e9bfca99aadd423b06"
+"protocol_c_p_t_trading_range_plot_data_source-p.html#aab81434371c3f13b01452eb6fe4c3683"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
