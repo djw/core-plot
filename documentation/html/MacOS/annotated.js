@@ -98,6 +98,7 @@ var annotated =
     [ "CPTXYPlotSpace", "interface_c_p_t_x_y_plot_space.html", "interface_c_p_t_x_y_plot_space" ],
     [ "NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)", "category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html", "category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08" ],
     [ "NSCoder(CPTExtensions)", "category_n_s_coder_07_c_p_t_extensions_08.html", "category_n_s_coder_07_c_p_t_extensions_08" ],
+    [ "NSColor(CPTPlatformSpecificExtensions)", "category_n_s_color_07_c_p_t_platform_specific_extensions_08.html", null ],
     [ "NSDecimalNumber(CPTExtensions)", "category_n_s_decimal_number_07_c_p_t_extensions_08.html", "category_n_s_decimal_number_07_c_p_t_extensions_08" ],
     [ "NSNumber(CPTExtensions)", "category_n_s_number_07_c_p_t_extensions_08.html", "category_n_s_number_07_c_p_t_extensions_08" ],
     [ "NSString(CPTTextStyleExtensions)", "category_n_s_string_07_c_p_t_text_style_extensions_08.html", "category_n_s_string_07_c_p_t_text_style_extensions_08" ]

@@ -136,18 +136,27 @@ $(document).ready(function(){initNavTree('_c_p_t_layer_8h_source.html','');});
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keyword">@end</span></div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">// for MacOS 10.6 SDK compatibility</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED &lt; 1070</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor">#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor"></span><span class="comment">// for MacOS 10.6 SDK compatibility</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED &lt; MAC_OS_X_VERSION_10_7</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor"></span><span class="keyword">@interface </span>CALayer(CPTExtensions)</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="keyword">@property</span> (readwrite) CGFloat contentsScale;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="keyword">@end</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment">// for MacOS 10.5 SDK compatibility</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED &lt; MAC_OS_X_VERSION_10_6</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span><span class="keyword">@interface </span>CALayer(CPTExtensions2)</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;+(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>)needsDisplayForKey:(<a class="codeRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSString_Class/Reference/NSString.html">NSString</a> *)aKey;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor"></span></div>
 <div class="ttc" id="interface_c_p_t_layer_html_aa9fce361a854d6a9657a8ccbff59efc1"><div class="ttname"><a href="interface_c_p_t_layer.html#aa9fce361a854d6a9657a8ccbff59efc1">CPTLayer::paddingTop</a></div><div class="ttdeci">CGFloat paddingTop</div><div class="ttdoc">Amount to inset the top of each sublayer. </div><div class="ttdef"><b>Definition:</b> CPTLayer.h:21</div></div>
 <div class="ttc" id="interface_c_p_t_layer_html_a0f90f18ea1fcebd8b6ec3dfb3ed44716"><div class="ttname"><a href="interface_c_p_t_layer.html#a0f90f18ea1fcebd8b6ec3dfb3ed44716">CPTLayer::paddingBottom</a></div><div class="ttdeci">CGFloat paddingBottom</div><div class="ttdoc">Amount to inset the bottom of each sublayer. </div><div class="ttdef"><b>Definition:</b> CPTLayer.h:23</div></div>
 <div class="ttc" id="reference_html_//apple_ref/c/tdef/CGPoint"><div class="ttname"><a href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGPoint">CGPoint</a></div><div class="ttdeci">typedef CGPoint</div></div>

@@ -1,5 +1,10 @@
 var NAVTREEINDEX7 =
 {
+"protocol_c_p_t_scatter_plot_delegate-p.html#a296a514ccb58946904a6fa781a6c4e73":[3,0,81,0],
+"protocol_c_p_t_trading_range_plot_data_source-p.html":[3,0,90],
+"protocol_c_p_t_trading_range_plot_data_source-p.html#a3eb6d30513a0408eb3011377d0c15ba2":[3,0,90,6],
+"protocol_c_p_t_trading_range_plot_data_source-p.html#a6144f6cc60062af154105742fa1a71e5":[3,0,90,0],
+"protocol_c_p_t_trading_range_plot_data_source-p.html#a8f9edafb0c8264c62bea1aeadc709b54":[3,0,90,9],
 "protocol_c_p_t_trading_range_plot_data_source-p.html#aab81434371c3f13b01452eb6fe4c3683":[3,0,90,1],
 "protocol_c_p_t_trading_range_plot_data_source-p.html#ab6020f62891e2e6ecba51bd5f67d446a":[3,0,90,7],
 "protocol_c_p_t_trading_range_plot_data_source-p.html#acce497b99bc0e7e9bfca99aadd423b06":[3,0,90,8],

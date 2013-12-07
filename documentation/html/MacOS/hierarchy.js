@@ -106,6 +106,7 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "NSColor(CPTPlatformSpecificExtensions)", "category_n_s_color_07_c_p_t_platform_specific_extensions_08.html", null ],
     [ "<NSCopying>", "https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html", [
       [ "CPTColor", "interface_c_p_t_color.html", null ],
       [ "CPTConstraints", "interface_c_p_t_constraints.html", null ],

@@ -97,6 +97,18 @@ $(document).ready(function(){initNavTree('_c_p_t_platform_specific_categories_8h
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;-(void)drawInRect:(<a class="codeRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGRect">CGRect</a>)rect inContext:(<a class="codeRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGContext/Reference/reference.html#//apple_ref/c/tdef/CGContextRef">CGContextRef</a>)context;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#pragma mark - NSColor</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="category_n_s_color_07_c_p_t_platform_specific_extensions_08.html">   49</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="category_n_s_color_07_c_p_t_platform_specific_extensions_08.html">NSColor(CPTPlatformSpecificExtensions)</a></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#if MAC_OS_X_VERSION_MAX_ALLOWED&lt;MAC_OS_X_VERSION_10_8</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;-(<a class="codeRef" href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGColor/Reference/reference.html#//apple_ref/c/tdef/CGColorRef">CGColorRef</a>)CGColor;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="category_n_s_color_07_c_p_t_platform_specific_extensions_08_html"><div class="ttname"><a href="category_n_s_color_07_c_p_t_platform_specific_extensions_08.html">NSColor(CPTPlatformSpecificExtensions)</a></div><div class="ttdoc">NSColor extensions for color conversion. </div><div class="ttdef"><b>Definition:</b> CPTPlatformSpecificCategories.h:49</div></div>
 <div class="ttc" id="_c_p_t_platform_specific_defines_8h_html"><div class="ttname"><a href="_c_p_t_platform_specific_defines_8h.html">CPTPlatformSpecificDefines.h</a></div></div>
 <div class="ttc" id="category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08_html"><div class="ttname"><a href="category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08.html">CPTColor(CPTPlatformSpecificColorExtensions)</a></div><div class="ttdoc">Platform-specific extensions to CPTColor. </div><div class="ttdef"><b>Definition:</b> CPTPlatformSpecificCategories.h:24</div></div>
 <div class="ttc" id="_c_p_t_layer_8h_html"><div class="ttname"><a href="_c_p_t_layer_8h.html">CPTLayer.h</a></div></div>
@@ -105,6 +117,7 @@ $(document).ready(function(){initNavTree('_c_p_t_platform_specific_categories_8h
 <div class="ttc" id="category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08_html"><div class="ttname"><a href="category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08.html">CPTLayer(CPTPlatformSpecificLayerExtensions)</a></div><div class="ttdoc">Platform-specific extensions to CPTLayer. </div><div class="ttdef"><b>Definition:</b> CPTPlatformSpecificCategories.h:10</div></div>
 <div class="ttc" id="Reference_html"><div class="ttname"><a href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ApplicationKit/Classes/NSImage_Class/Reference/Reference.html">NSImage</a></div></div>
 <div class="ttc" id="reference_html_//apple_ref/c/tdef/CGRect"><div class="ttname"><a href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGRect">CGRect</a></div><div class="ttdeci">typedef CGRect</div></div>
+<div class="ttc" id="reference_html_//apple_ref/c/tdef/CGColorRef"><div class="ttname"><a href="https://developer.apple.com/library/mac/#documentation/GraphicsImaging/Reference/CGColor/Reference/reference.html#//apple_ref/c/tdef/CGColorRef">CGColorRef</a></div><div class="ttdeci">typedef CGColorRef</div></div>
 <div class="ttc" id="_c_p_t_color_8h_html"><div class="ttname"><a href="_c_p_t_color_8h.html">CPTColor.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

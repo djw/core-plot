@@ -44,9 +44,9 @@ var NAVTREEINDEX =
 "_c_p_t_mutable_numeric_data_09_type_conversion_8m.html",
 "_c_p_t_utilities_8h.html#a38e413651af6d8a40cd00523fccb051b",
 "functions_0x68.html",
-"interface_c_p_t_axis.html#a7769ce93d289793fbec4aecdc080844a",
-"interface_c_p_t_legend.html#a57670747c45fe73a9a540e9a886b393f",
-"interface_c_p_t_plot_space.html#ac459869fef9bdf78a4795078166a8f27"
+"interface_c_p_t_axis.html#a6102deaadd58e4cad6c109a7bf2c96d6",
+"interface_c_p_t_legend.html#a48e2326472517ac2a8a95275e06e038c",
+"interface_c_p_t_plot_space.html#ab0e0b6301e1b13e6461b62cfbd2b69da"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

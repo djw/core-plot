@@ -106,7 +106,7 @@ Public Class Methods</h2></td></tr>
 <tr class="memdesc:a9fb5f53161a38eafd5ac287d1b05b898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a theme class.  <a href="#a9fb5f53161a38eafd5ac287d1b05b898">More...</a><br/></td></tr>
 <tr class="separator:a9fb5f53161a38eafd5ac287d1b05b898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60d344670a10a97fd30d8d03d313d52b"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_c_p_t_theme.html#a60d344670a10a97fd30d8d03d313d52b">themeClasses</a></td></tr>
-<tr class="memdesc:a60d344670a10a97fd30d8d03d313d52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of the available theme classes, sorted by name.  <a href="#a60d344670a10a97fd30d8d03d313d52b">More...</a><br/></td></tr>
+<tr class="memdesc:a60d344670a10a97fd30d8d03d313d52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of the available theme classes, sorted by name.  <a href="#a60d344670a10a97fd30d8d03d313d52b">More...</a><br/></td></tr>
 <tr class="separator:a60d344670a10a97fd30d8d03d313d52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14e11dbf2ed696500d7719f95d66cc4e"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_theme.html">CPTTheme</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_c_p_t_theme.html#a14e11dbf2ed696500d7719f95d66cc4e">themeNamed:</a></td></tr>
 <tr class="memdesc:a14e11dbf2ed696500d7719f95d66cc4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a named theme.  <a href="#a14e11dbf2ed696500d7719f95d66cc4e">More...</a><br/></td></tr>
@@ -407,8 +407,9 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>List of the available theme classes, sorted by name. </p>
+<p>A list of the available theme classes, sorted by name. </p>
 <dl class="section return"><dt>Returns</dt><dd>An <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> containing all available theme classes, sorted by name. </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>Sorting is supported on MacOS 10.6 and later. Returns an unsorted array on earlier systems. </dd></dl>
 
 </div>
 </div>

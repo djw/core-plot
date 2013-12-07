@@ -1,5 +1,10 @@
 var NAVTREEINDEX5 =
 {
+"interface_c_p_t_layer.html#a42e21f40d25b81ffafdc9940d894876d":[3,0,39,5],
+"interface_c_p_t_layer.html#a4de967624f58f1b0c1d84d33b2645478":[3,0,39,1],
+"interface_c_p_t_layer.html#a4f6b9618bb5b33f57f67c2841710aec3":[3,0,39,9],
+"interface_c_p_t_layer.html#a59a7f3e71976ccd5f2b45e9635a29fbc":[3,0,39,2],
+"interface_c_p_t_layer.html#a5d02df0255dcbd533fddf5cf3bfaf1a4":[3,0,39,28],
 "interface_c_p_t_layer.html#a7321f4d4af2e790e41fa277bba0f8456":[3,0,39,25],
 "interface_c_p_t_layer.html#a8090476a4b0d5ce1ef54803af81e81d1":[3,0,39,3],
 "interface_c_p_t_layer.html#a8fc618d8979ab2b5a15430700bbe2b99":[3,0,39,18],
@@ -162,7 +167,7 @@ var NAVTREEINDEX5 =
 "interface_c_p_t_pie_chart.html#a141c3bf7dbbbcb0d34175d81247256e4":[3,0,58,8],
 "interface_c_p_t_pie_chart.html#a37ad311932e5219f093d4cfc2daeff16":[3,0,58,2],
 "interface_c_p_t_pie_chart.html#a425663a2d5c558dfe28700f45ab9944c":[3,0,58,7],
-"interface_c_p_t_pie_chart.html#a54ad30e26087c307a063bb0b4300e8c9":[3,0,58,1],
+"interface_c_p_t_pie_chart.html#a58ffda071a1e78200cf3fc874eade03b":[3,0,58,1],
 "interface_c_p_t_pie_chart.html#a822a081fccd882011f0bf33635f1e13e":[3,0,58,3],
 "interface_c_p_t_pie_chart.html#a9124e88bc83ed9b8d5cece7603d892b7":[3,0,58,4],
 "interface_c_p_t_pie_chart.html#a921a8ed64d495233f8ce420f2f69067b":[3,0,58,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX5 =
 "interface_c_p_t_plot_area_frame.html#a24eba376f907c560dd33f86a63c80dc2":[3,0,64,0],
 "interface_c_p_t_plot_area_frame.html#ac618de46a709b372b4b1cda0efd3f527":[3,0,64,2],
 "interface_c_p_t_plot_group.html":[3,0,67],
-"interface_c_p_t_plot_group.html#a370f190cc488434b9f89130af26b2774":[3,0,67,0],
-"interface_c_p_t_plot_group.html#a86ca987af8e3f256163f48dd429c2f1f":[3,0,67,1],
-"interface_c_p_t_plot_group.html#ab8606e231f1f95161e5b1589b853c493":[3,0,67,2],
-"interface_c_p_t_plot_range.html":[3,0,68],
-"interface_c_p_t_plot_range.html#a0c3cfe8e6aa5e7a72ccdf54bb05d18e4":[3,0,68,14],
-"interface_c_p_t_plot_range.html#a141a2b5f4b14eee65bd61d121477850e":[3,0,68,20]
+"interface_c_p_t_plot_group.html#a370f190cc488434b9f89130af26b2774":[3,0,67,0]
 };

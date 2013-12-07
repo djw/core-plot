@@ -1,5 +1,10 @@
 var NAVTREEINDEX6 =
 {
+"interface_c_p_t_plot_group.html#a86ca987af8e3f256163f48dd429c2f1f":[3,0,67,1],
+"interface_c_p_t_plot_group.html#ab8606e231f1f95161e5b1589b853c493":[3,0,67,2],
+"interface_c_p_t_plot_range.html":[3,0,68],
+"interface_c_p_t_plot_range.html#a0c3cfe8e6aa5e7a72ccdf54bb05d18e4":[3,0,68,14],
+"interface_c_p_t_plot_range.html#a141a2b5f4b14eee65bd61d121477850e":[3,0,68,20],
 "interface_c_p_t_plot_range.html#a193ff5eddba438e2080866220cdb0516":[3,0,68,1],
 "interface_c_p_t_plot_range.html#a211376d108e43009457867b616fe8f3b":[3,0,68,21],
 "interface_c_p_t_plot_range.html#a45e8fa6852f7d3bc5c021aae072a216c":[3,0,68,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX6 =
 "protocol_c_p_t_scatter_plot_data_source-p.html#aecc09bf2220d7e45571d7f41d2459832":[3,0,80,1],
 "protocol_c_p_t_scatter_plot_data_source-p.html#affc727eaa2c04713828b49598f819764":[3,0,80,0],
 "protocol_c_p_t_scatter_plot_delegate-p.html":[3,0,81],
-"protocol_c_p_t_scatter_plot_delegate-p.html#a1da0d81587a750ee94e4cd96762f097b":[3,0,81,1],
-"protocol_c_p_t_scatter_plot_delegate-p.html#a296a514ccb58946904a6fa781a6c4e73":[3,0,81,0],
-"protocol_c_p_t_trading_range_plot_data_source-p.html":[3,0,90],
-"protocol_c_p_t_trading_range_plot_data_source-p.html#a3eb6d30513a0408eb3011377d0c15ba2":[3,0,90,6],
-"protocol_c_p_t_trading_range_plot_data_source-p.html#a6144f6cc60062af154105742fa1a71e5":[3,0,90,0],
-"protocol_c_p_t_trading_range_plot_data_source-p.html#a8f9edafb0c8264c62bea1aeadc709b54":[3,0,90,9]
+"protocol_c_p_t_scatter_plot_delegate-p.html#a1da0d81587a750ee94e4cd96762f097b":[3,0,81,1]
 };

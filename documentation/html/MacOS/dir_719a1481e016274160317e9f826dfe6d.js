@@ -11,7 +11,8 @@ var dir_719a1481e016274160317e9f826dfe6d =
     [ "CPTPlatformSpecificCategories.h", "_c_p_t_platform_specific_categories_8h.html", [
       [ "CPTLayer(CPTPlatformSpecificLayerExtensions)", "category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08.html", "category_c_p_t_layer_07_c_p_t_platform_specific_layer_extensions_08" ],
       [ "CPTColor(CPTPlatformSpecificColorExtensions)", "category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08.html", "category_c_p_t_color_07_c_p_t_platform_specific_color_extensions_08" ],
-      [ "NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)", "category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html", "category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08" ]
+      [ "NSAttributedString(CPTPlatformSpecificAttributedStringExtensions)", "category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08.html", "category_n_s_attributed_string_07_c_p_t_platform_specific_attributed_string_extensions_08" ],
+      [ "NSColor(CPTPlatformSpecificExtensions)", "category_n_s_color_07_c_p_t_platform_specific_extensions_08.html", null ]
     ] ],
     [ "CPTPlatformSpecificCategories.m", "_c_p_t_platform_specific_categories_8m.html", null ],
     [ "CPTPlatformSpecificDefines.h", "_c_p_t_platform_specific_defines_8h.html", "_c_p_t_platform_specific_defines_8h" ],
