@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"protocol_c_p_t_scatter_plot_data_source-p.html#aecc09bf2220d7e45571d7f41d2459832":[3,0,80,1],
+"protocol_c_p_t_scatter_plot_data_source-p.html#affc727eaa2c04713828b49598f819764":[3,0,80,0],
 "protocol_c_p_t_scatter_plot_delegate-p.html":[3,0,81],
 "protocol_c_p_t_scatter_plot_delegate-p.html#a1da0d81587a750ee94e4cd96762f097b":[3,0,81,1],
 "protocol_c_p_t_scatter_plot_delegate-p.html#a296a514ccb58946904a6fa781a6c4e73":[3,0,81,0],

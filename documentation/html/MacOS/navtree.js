@@ -47,7 +47,7 @@ var NAVTREEINDEX =
 "interface_c_p_t_annotation.html#ad8f668efbcdc429333f635fa383210d0",
 "interface_c_p_t_layer.html#a3b1237d27a1cd3a2b6804d4de317dec9",
 "interface_c_p_t_plot_group.html#a370f190cc488434b9f89130af26b2774",
-"protocol_c_p_t_scatter_plot_delegate-p.html"
+"protocol_c_p_t_scatter_plot_data_source-p.html#aecc09bf2220d7e45571d7f41d2459832"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
