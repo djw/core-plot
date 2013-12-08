@@ -21,6 +21,7 @@ var interface_c_p_t_plot_space =
     [ "pointingDeviceUpEvent:atPoint:", "interface_c_p_t_plot_space.html#adfdf3d8cc6c7be7cb17b909133344bd4", null ],
     [ "scaleBy:aboutPoint:", "interface_c_p_t_plot_space.html#a769547a1f95a562d9f88bb6967815174", null ],
     [ "scaleToFitPlots:", "interface_c_p_t_plot_space.html#ac98bd7995f1096cdd32a9df350574daa", null ],
+    [ "scaleToFitPlots:forCoordinate:", "interface_c_p_t_plot_space.html#a81dc88851a1e9793f50850d6a5ad39fd", null ],
     [ "scaleTypeForCoordinate:", "interface_c_p_t_plot_space.html#a418989b268a9fa93f37f48e4cba42044", null ],
     [ "setPlotRange:forCoordinate:", "interface_c_p_t_plot_space.html#a709089f3d44fbe7466910f6bcdf2193e", null ],
     [ "setScaleType:forCoordinate:", "interface_c_p_t_plot_space.html#aed4e84809aaa825c2e50f83b2a2c34a5", null ],

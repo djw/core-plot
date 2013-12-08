@@ -176,6 +176,9 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:ac98bd7995f1096cdd32a9df350574daa"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#ac98bd7995f1096cdd32a9df350574daa">scaleToFitPlots:</a></td></tr>
 <tr class="memdesc:ac98bd7995f1096cdd32a9df350574daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales the plot ranges so that the plots just fit in the visible space.  <a href="#ac98bd7995f1096cdd32a9df350574daa">More...</a><br/></td></tr>
 <tr class="separator:ac98bd7995f1096cdd32a9df350574daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81dc88851a1e9793f50850d6a5ad39fd"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#a81dc88851a1e9793f50850d6a5ad39fd">scaleToFitPlots:forCoordinate:</a></td></tr>
+<tr class="memdesc:a81dc88851a1e9793f50850d6a5ad39fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales the plot range for the given coordinate so that the plots just fit in the visible space.  <a href="#a81dc88851a1e9793f50850d6a5ad39fd">More...</a><br/></td></tr>
+<tr class="separator:a81dc88851a1e9793f50850d6a5ad39fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a769547a1f95a562d9f88bb6967815174"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_plot_space.html#a769547a1f95a562d9f88bb6967815174">scaleBy:aboutPoint:</a></td></tr>
 <tr class="memdesc:a769547a1f95a562d9f88bb6967815174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zooms the plot space equally in each dimension.  <a href="#a769547a1f95a562d9f88bb6967815174">More...</a><br/></td></tr>
 <tr class="separator:a769547a1f95a562d9f88bb6967815174"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1051,6 +1054,43 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Provided by category <a class="el" href="category_c_p_t_plot_space_07_abstract_methods_08.html#ac98bd7995f1096cdd32a9df350574daa">CPTPlotSpace(AbstractMethods)</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81dc88851a1e9793f50850d6a5ad39fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) <a class="el" href="category_c_p_t_plot_space_07_abstract_methods_08.html#ac98bd7995f1096cdd32a9df350574daa">scaleToFitPlots:</a> </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/Reference/Reference.html">NSArray</a> *)&#160;</td>
+          <td class="paramname"><em>plots</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">forCoordinate:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_c_p_t_definitions_8h.html#a26e0566373a7a68bbd54e5747d4ece1b">CPTCoordinate</a>)&#160;</td>
+          <td class="paramname"><em>coordinate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scales the plot range for the given coordinate so that the plots just fit in the visible space. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plots</td><td>An array of the plots that have to fit in the visible area. </td></tr>
+    <tr><td class="paramname">coordinate</td><td>The axis coordinate. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Provided by category <a class="el" href="category_c_p_t_plot_space_07_abstract_methods_08.html#a81dc88851a1e9793f50850d6a5ad39fd">CPTPlotSpace(AbstractMethods)</a>.</p>
 
 </div>
 </div>

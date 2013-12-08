@@ -1,16 +1,17 @@
 <map id="Source/CPTPlotRange.h" name="Source/CPTPlotRange.h">
-<area shape="rect" id="node2" href="$_c_p_t_animation_period_8m.html" title="Source/CPTAnimationPeriod.m" alt="" coords="380,86,599,117"/>
-<area shape="rect" id="node3" href="$_c_p_t_limit_band_8m.html" title="Source/CPTLimitBand.m" alt="" coords="624,86,800,117"/>
-<area shape="rect" id="node4" href="$_c_p_t_mutable_plot_range_8h.html" title="Source/CPTMutablePlotRange.h" alt="" coords="825,86,1049,117"/>
-<area shape="rect" id="node10" href="$_c_p_t_plot_range_8m.html" title="Source/CPTPlotRange.m" alt="" coords="1425,166,1601,197"/>
-<area shape="rect" id="node13" href="$_c_p_t_range_plot_8m.html" title="Source/CPTRangePlot.m" alt="" coords="1123,86,1300,117"/>
-<area shape="rect" id="node14" href="$_c_p_t_scatter_plot_8m.html" title="Source/CPTScatterPlot.m" alt="" coords="1325,86,1507,117"/>
-<area shape="rect" id="node15" href="$_c_p_t_trading_range_plot_8m.html" title="Source/CPTTradingRangePlot.m" alt="" coords="1531,86,1756,117"/>
+<area shape="rect" id="node2" href="$_c_p_t_animation_period_8m.html" title="Source/CPTAnimationPeriod.m" alt="" coords="470,86,689,117"/>
+<area shape="rect" id="node3" href="$_c_p_t_limit_band_8m.html" title="Source/CPTLimitBand.m" alt="" coords="714,86,891,117"/>
+<area shape="rect" id="node4" href="$_c_p_t_mutable_plot_range_8h.html" title="Source/CPTMutablePlotRange.h" alt="" coords="916,86,1140,117"/>
+<area shape="rect" id="node10" href="$_c_p_t_plot_range_8m.html" title="Source/CPTPlotRange.m" alt="" coords="1623,166,1800,197"/>
+<area shape="rect" id="node14" href="$_c_p_t_range_plot_8m.html" title="Source/CPTRangePlot.m" alt="" coords="1214,86,1391,117"/>
+<area shape="rect" id="node15" href="$_c_p_t_scatter_plot_8m.html" title="Source/CPTScatterPlot.m" alt="" coords="1416,86,1597,117"/>
+<area shape="rect" id="node16" href="$_c_p_t_trading_range_plot_8m.html" title="Source/CPTTradingRangePlot.m" alt="" coords="1621,86,1847,117"/>
 <area shape="rect" id="node5" href="$_c_p_t_axis_8m.html" title="Source/CPTAxis.m" alt="" coords="5,166,144,197"/>
 <area shape="rect" id="node6" href="$_c_p_t_bar_plot_8m.html" title="Source/CPTBarPlot.m" alt="" coords="168,166,325,197"/>
 <area shape="rect" id="node7" href="$_c_p_t_function_data_source_8m.html" title="Source/CPTFunctionDataSource.m" alt="" coords="350,166,591,197"/>
 <area shape="rect" id="node8" href="$_c_p_t_mutable_plot_range_8m.html" title="Source/CPTMutablePlotRange.m" alt="" coords="616,166,844,197"/>
 <area shape="rect" id="node9" href="$_c_p_t_plot_8m.html" title="Source/CPTPlot.m" alt="" coords="869,166,1005,197"/>
-<area shape="rect" id="node11" href="$_c_p_t_x_y_axis_8m.html" title="Source/CPTXYAxis.m" alt="" coords="1030,166,1185,197"/>
-<area shape="rect" id="node12" href="$_c_p_t_x_y_plot_space_8m.html" title="Source/CPTXYPlotSpace.m" alt="" coords="1210,166,1400,197"/>
+<area shape="rect" id="node11" href="$_c_p_t_plot_space_8m.html" title="Source/CPTPlotSpace.m" alt="" coords="1030,166,1204,197"/>
+<area shape="rect" id="node12" href="$_c_p_t_x_y_axis_8m.html" title="Source/CPTXYAxis.m" alt="" coords="1229,166,1384,197"/>
+<area shape="rect" id="node13" href="$_c_p_t_x_y_plot_space_8m.html" title="Source/CPTXYPlotSpace.m" alt="" coords="1408,166,1599,197"/>
 </map>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"functions_0x67.html":[3,3,0,6],
 "functions_0x68.html":[3,3,0,7],
 "functions_0x69.html":[3,3,0,8],
 "functions_0x6c.html":[3,3,0,9],
@@ -149,8 +150,8 @@ var NAVTREEINDEX3 =
 "group__plot_animation_range_plot.html#ga0f89cc8fdac87c494bb7e6cfd0b44462":[3,0,72,6],
 "group__plot_animation_range_plot.html#ga2d739816549ce6c3fcb18c1bdb49297a":[3,0,72,4],
 "group__plot_animation_range_plot.html#ga2d739816549ce6c3fcb18c1bdb49297a":[2,0,3,3,0],
-"group__plot_animation_range_plot.html#ga98cbb9e06f7deee8c77d0e08b140303b":[3,0,72,5],
 "group__plot_animation_range_plot.html#ga98cbb9e06f7deee8c77d0e08b140303b":[2,0,3,3,1],
+"group__plot_animation_range_plot.html#ga98cbb9e06f7deee8c77d0e08b140303b":[3,0,72,5],
 "group__plot_animation_scatter_plot.html":[2,0,3,4],
 "group__plot_animation_trading_range_plot.html":[2,0,3,5],
 "group__plot_animation_trading_range_plot.html#ga2e9f919d3391c00618891cf4b187e0b7":[2,0,3,5,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "interface_c_p_t_axis.html#a53ba8f4b4d3def84212c126d4e3df424":[3,0,9,46],
 "interface_c_p_t_axis.html#a54be876224c0bbc93964bf7b54e8fb99":[3,0,9,68],
 "interface_c_p_t_axis.html#a56aaf8047ed2272d59a824a7a22d0f8c":[3,0,9,61],
-"interface_c_p_t_axis.html#a57f71a8b45765ab6fe353d8311a37ee1":[3,0,9,4],
-"interface_c_p_t_axis.html#a5b2277ba0696a7e140f28a2ab62d51e1":[3,0,9,45]
+"interface_c_p_t_axis.html#a57f71a8b45765ab6fe353d8311a37ee1":[3,0,9,4]
 };

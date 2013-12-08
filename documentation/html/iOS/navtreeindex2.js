@@ -182,11 +182,12 @@ var NAVTREEINDEX2 =
 "category_c_p_t_plot_space_07_abstract_methods_08.html#a29439d0e224d5fd5b52eee1526828aa4":[3,0,68,7],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#a34d61ee2ca92c1e14fc51ec4522c70af":[3,0,68,9],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#a3aa2997fb48c06d37e50ff1d114ad7df":[3,0,68,13],
-"category_c_p_t_plot_space_07_abstract_methods_08.html#a418989b268a9fa93f37f48e4cba42044":[3,0,68,16],
+"category_c_p_t_plot_space_07_abstract_methods_08.html#a418989b268a9fa93f37f48e4cba42044":[3,0,68,17],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#a5223e2384ec4c8f6d9e8183eabc101d4":[3,0,68,2],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#a6f87222a7284c583def4ab72ab3528fd":[3,0,68,1],
-"category_c_p_t_plot_space_07_abstract_methods_08.html#a709089f3d44fbe7466910f6bcdf2193e":[3,0,68,17],
+"category_c_p_t_plot_space_07_abstract_methods_08.html#a709089f3d44fbe7466910f6bcdf2193e":[3,0,68,18],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#a769547a1f95a562d9f88bb6967815174":[3,0,68,14],
+"category_c_p_t_plot_space_07_abstract_methods_08.html#a81dc88851a1e9793f50850d6a5ad39fd":[3,0,68,16],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#a8fabeab1561a9f3ad94e621200a31b12":[3,0,68,12],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#ab0e0b6301e1b13e6461b62cfbd2b69da":[3,0,68,6],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#ab90605aee6099589fb9cb84482e087fd":[3,0,68,3],
@@ -195,7 +196,7 @@ var NAVTREEINDEX2 =
 "category_c_p_t_plot_space_07_abstract_methods_08.html#ac98bd7995f1096cdd32a9df350574daa":[3,0,68,15],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#acea37df3d2d5dbb49cc274964483d36c":[3,0,68,0],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#ad84232165013b7500bb082bd0445b929":[3,0,68,8],
-"category_c_p_t_plot_space_07_abstract_methods_08.html#aed4e84809aaa825c2e50f83b2a2c34a5":[3,0,68,18],
+"category_c_p_t_plot_space_07_abstract_methods_08.html#aed4e84809aaa825c2e50f83b2a2c34a5":[3,0,68,19],
 "category_c_p_t_plot_space_07_abstract_methods_08.html#af97c2a3f683704662a49a1fbfec72c1b":[3,0,68,4],
 "category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html":[3,0,83],
 "category_c_p_t_text_style_07_c_p_t_platform_specific_text_style_extensions_08.html#a87aaa8195516d5d5df5d6ae642833a6c":[3,0,83,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "functions_0x63.html":[3,3,0,2],
 "functions_0x64.html":[3,3,0,3],
 "functions_0x65.html":[3,3,0,4],
-"functions_0x66.html":[3,3,0,5],
-"functions_0x67.html":[3,3,0,6]
+"functions_0x66.html":[3,3,0,5]
 };
