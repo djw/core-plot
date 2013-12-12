@@ -1,5 +1,6 @@
 var interface_c_p_t_animation_period =
 [
+    [ "canStartWithValueFromObject:propertyGetter:", "interface_c_p_t_animation_period.html#ae3e51681fd88e945dd23ae3d6d11dab8", null ],
     [ "initWithStart:end:duration:withDelay:", "interface_c_p_t_animation_period.html#ad9a5bade11ddbd1b51be133eea6839b5", null ],
     [ "initWithStartDecimal:endDecimal:duration:withDelay:", "interface_c_p_t_animation_period.html#a7882ace41eb0f2b385654a7265805d5e", null ],
     [ "initWithStartPlotRange:endPlotRange:duration:withDelay:", "interface_c_p_t_animation_period.html#a623486b85909f929c3cecc82bde8abd8", null ],

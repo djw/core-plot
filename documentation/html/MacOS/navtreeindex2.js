@@ -142,8 +142,9 @@ var NAVTREEINDEX2 =
 "annotated.html":[3,0],
 "category_c_p_t_animation_07_c_p_t_animation_period_additions_08.html":[3,0,1],
 "category_c_p_t_animation_period_07_abstract_methods_08.html":[3,0,5],
-"category_c_p_t_animation_period_07_abstract_methods_08.html#a09f581965f24ec4a487740a804036bfc":[3,0,5,0],
-"category_c_p_t_animation_period_07_abstract_methods_08.html#ab1a7727b66612682d8fd277830086c78":[3,0,5,1],
+"category_c_p_t_animation_period_07_abstract_methods_08.html#a09f581965f24ec4a487740a804036bfc":[3,0,5,1],
+"category_c_p_t_animation_period_07_abstract_methods_08.html#ab1a7727b66612682d8fd277830086c78":[3,0,5,2],
+"category_c_p_t_animation_period_07_abstract_methods_08.html#af48f72650900ce2c7d0b79bb9b4834ee":[3,0,5,0],
 "category_c_p_t_annotation_07_abstract_methods_08.html":[3,0,7],
 "category_c_p_t_annotation_07_abstract_methods_08.html#a58d3fabc850353e8e386af2d835eade2":[3,0,7,0],
 "category_c_p_t_axis_07_abstract_methods_08.html":[3,0,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "files.html":[4,0],
 "functions.html":[3,3,0],
 "functions.html":[3,3,0,0],
-"functions_0x62.html":[3,3,0,1],
-"functions_0x63.html":[3,3,0,2]
+"functions_0x62.html":[3,3,0,1]
 };

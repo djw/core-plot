@@ -6,5 +6,7 @@ var interface_c_p_t_animation_operation =
     [ "boundObject", "interface_c_p_t_animation_operation.html#ab8f6a1f80c3339f0c5eecb0ce2b34bb8", null ],
     [ "boundSetter", "interface_c_p_t_animation_operation.html#a609dd9c1f4b5329a628b93b24a7963b9", null ],
     [ "delegate", "interface_c_p_t_animation_operation.html#a13dda2deac6fef6aed4d4c4bef937106", null ],
-    [ "period", "interface_c_p_t_animation_operation.html#a5c3f2f648d83a19ac2d99578fd673bf4", null ]
+    [ "identifier", "interface_c_p_t_animation_operation.html#a5e59d6c5e7f3ba0345dc79b25d635cf8", null ],
+    [ "period", "interface_c_p_t_animation_operation.html#a5c3f2f648d83a19ac2d99578fd673bf4", null ],
+    [ "userInfo", "interface_c_p_t_animation_operation.html#a33223d013aa8964e82c1f20fcb1a9228", null ]
 ];

@@ -90,10 +90,52 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:ab1a7727b66612682d8fd277830086c78"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSValue_Class/Reference/Reference.html">NSValue</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="category_c_p_t_animation_period_07_abstract_methods_08.html#ab1a7727b66612682d8fd277830086c78">tweenedValueForProgress:</a></td></tr>
 <tr class="memdesc:ab1a7727b66612682d8fd277830086c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a value between <a class="el" href="interface_c_p_t_animation_period.html#a816ca7005649bb9ecf4cf55993bbf1d1">startValue </a> and <a class="el" href="interface_c_p_t_animation_period.html#ae221c4f2ae1b9b844c275f1af6f3611f">endValue </a>.  <a href="#ab1a7727b66612682d8fd277830086c78">More...</a><br/></td></tr>
 <tr class="separator:ab1a7727b66612682d8fd277830086c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Comparison</div></td></tr>
+<tr class="memitem:af48f72650900ce2c7d0b79bb9b4834ee"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="category_c_p_t_animation_period_07_abstract_methods_08.html#af48f72650900ce2c7d0b79bb9b4834ee">canStartWithValueFromObject:propertyGetter:</a></td></tr>
+<tr class="memdesc:af48f72650900ce2c7d0b79bb9b4834ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the current value of the bound property is between the start and end value.  <a href="#af48f72650900ce2c7d0b79bb9b4834ee">More...</a><br/></td></tr>
+<tr class="separator:af48f72650900ce2c7d0b79bb9b4834ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="interface_c_p_t_animation_period.html" title="Animation timing information and animated values. ">CPTAnimationPeriod</a> abstract methods—must be overridden by subclasses. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="af48f72650900ce2c7d0b79bb9b4834ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>) canStartWithValueFromObject: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>)&#160;</td>
+          <td class="paramname"><em>boundObject</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">propertyGetter:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/SEL">SEL</a>)&#160;</td>
+          <td class="paramname"><em>boundGetter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines if the current value of the bound property is between the start and end value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boundObject</td><td>The object to update for each animation frame. </td></tr>
+    <tr><td class="paramname">boundGetter</td><td>The getter method for the property to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a> if the current value of the bound property is between the start and end value. </dd></dl>
+
+<p>Extends class <a class="el" href="interface_c_p_t_animation_period.html#ae3e51681fd88e945dd23ae3d6d11dab8">CPTAnimationPeriod</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a09f581965f24ec4a487740a804036bfc"></a>
 <div class="memitem">
 <div class="memproto">

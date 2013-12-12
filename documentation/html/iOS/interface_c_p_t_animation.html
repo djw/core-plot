@@ -192,6 +192,10 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:a723742bc3fae1d0ed104eb5b5b0c7c7a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_animation.html#a723742bc3fae1d0ed104eb5b5b0c7c7a">removeAllAnimationOperations</a></td></tr>
 <tr class="memdesc:a723742bc3fae1d0ed104eb5b5b0c7c7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all animation operations from the animation queue.  <a href="#a723742bc3fae1d0ed104eb5b5b0c7c7a">More...</a><br/></td></tr>
 <tr class="separator:a723742bc3fae1d0ed104eb5b5b0c7c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Retrieving Animation Operations</div></td></tr>
+<tr class="memitem:a06d21b315c6bedcffc716d1213fc4af3"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_animation_operation.html">CPTAnimationOperation</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_animation.html#a06d21b315c6bedcffc716d1213fc4af3">operationWithIdentifier:</a></td></tr>
+<tr class="memdesc:a06d21b315c6bedcffc716d1213fc4af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the animation operation with the given identifier from the animation operation array.  <a href="#a06d21b315c6bedcffc716d1213fc4af3">More...</a><br/></td></tr>
+<tr class="separator:a06d21b315c6bedcffc716d1213fc4af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr class="memitem:abc8333bfad0e314387747705b69690ea"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_animation.html#abc8333bfad0e314387747705b69690ea">init</a><code> [implementation]</code></td></tr>
 <tr class="memdesc:abc8333bfad0e314387747705b69690ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_animation.html" title="The controller for Core Plot animations. ">CPTAnimation</a> object.  <a href="#abc8333bfad0e314387747705b69690ea">More...</a><br/></td></tr>
@@ -1615,6 +1619,31 @@ Properties</h2></td></tr>
 <li><a class="el" href="interface_c_p_t_animation.html#aef3b16e334b1bf90e5f0ae803f24f7d4">defaultAnimationCurve</a> = <a class="el" href="_c_p_t_animation_8h.html#a9bc578142a3f60459a3fd1936e688631a554eeccc8c62f293f43dc14d55317953" title="Linear animation curve. ">CPTAnimationCurveLinear</a></li>
 </ul>
 <dl class="section return"><dt>Returns</dt><dd>The initialized object. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a06d21b315c6bedcffc716d1213fc4af3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_c_p_t_animation_operation.html">CPTAnimationOperation</a> *) operationWithIdentifier: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>&lt;<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Protocols/NSCopying_Protocol/Reference/Reference.html">NSCopying</a>, <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html">NSObject</a>&gt;)&#160;</td>
+          <td class="paramname"><em>identifier</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the animation operation with the given identifier from the animation operation array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">identifier</td><td>An animation operation identifier. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The animation operation with the given identifier or <a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> if it was not found. </dd></dl>
 
 </div>
 </div>

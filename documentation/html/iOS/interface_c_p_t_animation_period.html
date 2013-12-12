@@ -140,6 +140,9 @@ Public Instance Methods</h2></td></tr>
 <tr class="memitem:a843278bf4e80a43026c6b72e641b84d0"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/Foundation/Classes/NSValue_Class/Reference/Reference.html">NSValue</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_animation_period.html#a843278bf4e80a43026c6b72e641b84d0">tweenedValueForProgress:</a><code> [implementation]</code></td></tr>
 <tr class="memdesc:a843278bf4e80a43026c6b72e641b84d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a value between <a class="el" href="interface_c_p_t_animation_period.html#a816ca7005649bb9ecf4cf55993bbf1d1">startValue </a> and <a class="el" href="interface_c_p_t_animation_period.html#ae221c4f2ae1b9b844c275f1af6f3611f">endValue </a>.  <a href="#a843278bf4e80a43026c6b72e641b84d0">More...</a><br/></td></tr>
 <tr class="separator:a843278bf4e80a43026c6b72e641b84d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3e51681fd88e945dd23ae3d6d11dab8"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_animation_period.html#ae3e51681fd88e945dd23ae3d6d11dab8">canStartWithValueFromObject:propertyGetter:</a><code> [implementation]</code></td></tr>
+<tr class="memdesc:ae3e51681fd88e945dd23ae3d6d11dab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the current value of the bound property is between the start and end value.  <a href="#ae3e51681fd88e945dd23ae3d6d11dab8">More...</a><br/></td></tr>
+<tr class="separator:ae3e51681fd88e945dd23ae3d6d11dab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization</div></td></tr>
 <tr class="memitem:ad9a5bade11ddbd1b51be133eea6839b5"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_c_p_t_animation_period.html#ad9a5bade11ddbd1b51be133eea6839b5">initWithStart:end:duration:withDelay:</a></td></tr>
 <tr class="memdesc:ad9a5bade11ddbd1b51be133eea6839b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a newly allocated <a class="el" href="interface_c_p_t_animation_period.html" title="Animation timing information and animated values. ">CPTAnimationPeriod</a> object with the provided start and end values and duration.  <a href="#ad9a5bade11ddbd1b51be133eea6839b5">More...</a><br/></td></tr>
@@ -193,7 +196,7 @@ Properties</h2></td></tr>
 <tr class="memdesc:aa18e67b9efa0b99bb6804dc85bfccc08"><td class="mdescLeft">&#160;</td><td class="mdescRight">The duration of the animation, in seconds.  <a href="#aa18e67b9efa0b99bb6804dc85bfccc08">More...</a><br/></td></tr>
 <tr class="separator:aa18e67b9efa0b99bb6804dc85bfccc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73a8785fa85a6b82134ace72e5f10f02"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_animation_period.html#a73a8785fa85a6b82134ace72e5f10f02">delay</a></td></tr>
-<tr class="memdesc:a73a8785fa85a6b82134ace72e5f10f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">The delay in seconds between the <a class="el" href="interface_c_p_t_animation_period.html#aa757f5ce4046f977812c4c8b1fb463da">startOffset</a> and the time the animation will start.  <a href="#a73a8785fa85a6b82134ace72e5f10f02">More...</a><br/></td></tr>
+<tr class="memdesc:a73a8785fa85a6b82134ace72e5f10f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">The delay in seconds between the <a class="el" href="interface_c_p_t_animation_period.html#aa757f5ce4046f977812c4c8b1fb463da">startOffset</a> and the time the animation will start. If <code>NaN</code>, the animation will not start until the current value of the bound property is between <a class="el" href="interface_c_p_t_animation_period.html#a816ca7005649bb9ecf4cf55993bbf1d1">startValue</a> and <a class="el" href="interface_c_p_t_animation_period.html#ae221c4f2ae1b9b844c275f1af6f3611f">endValue</a>.  <a href="#a73a8785fa85a6b82134ace72e5f10f02">More...</a><br/></td></tr>
 <tr class="separator:a73a8785fa85a6b82134ace72e5f10f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa757f5ce4046f977812c4c8b1fb463da"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/GraphicsImaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/c/tdef/CGFloat">CGFloat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_c_p_t_animation_period.html#aa757f5ce4046f977812c4c8b1fb463da">startOffset</a></td></tr>
 <tr class="memdesc:aa757f5ce4046f977812c4c8b1fb463da"><td class="mdescLeft">&#160;</td><td class="mdescRight">The animation time clock offset when the receiver was created.  <a href="#aa757f5ce4046f977812c4c8b1fb463da">More...</a><br/></td></tr>
@@ -212,6 +215,52 @@ Properties</h2></td></tr>
 </li>
 </ul>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="ae3e51681fd88e945dd23ae3d6d11dab8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>) canStartWithValueFromObject: </td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/id">id</a>)&#160;</td>
+          <td class="paramname"><em>boundObject</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">propertyGetter:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/SEL">SEL</a>)&#160;</td>
+          <td class="paramname"><em>boundGetter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines if the current value of the bound property is between the start and end value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boundObject</td><td>The object to update for each animation frame. </td></tr>
+    <tr><td class="paramname">boundGetter</td><td>The getter method for the property to update. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="elRef" href="https://developer.apple.com/library/ios/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/YES">YES</a> if the current value of the bound property is between the start and end value. </dd></dl>
+
+<p>Provided by category <a class="el" href="category_c_p_t_animation_period_07_abstract_methods_08.html#af48f72650900ce2c7d0b79bb9b4834ee">CPTAnimationPeriod(AbstractMethods)</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad9a5bade11ddbd1b51be133eea6839b5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -912,7 +961,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The delay in seconds between the <a class="el" href="interface_c_p_t_animation_period.html#aa757f5ce4046f977812c4c8b1fb463da">startOffset</a> and the time the animation will start. </p>
+<p>The delay in seconds between the <a class="el" href="interface_c_p_t_animation_period.html#aa757f5ce4046f977812c4c8b1fb463da">startOffset</a> and the time the animation will start. If <code>NaN</code>, the animation will not start until the current value of the bound property is between <a class="el" href="interface_c_p_t_animation_period.html#a816ca7005649bb9ecf4cf55993bbf1d1">startValue</a> and <a class="el" href="interface_c_p_t_animation_period.html#ae221c4f2ae1b9b844c275f1af6f3611f">endValue</a>. </p>
 
 </div>
 </div>
