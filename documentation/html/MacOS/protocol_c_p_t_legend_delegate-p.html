@@ -101,6 +101,18 @@ $(document).ready(function(){initNavTree('protocol_c_p_t_legend_delegate-p.html'
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Instance Methods</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Drawing</div></td></tr>
+<tr class="memitem:ae75c7df3b7dbf3889177af8e7addf69e"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_legend_delegate-p.html#ae75c7df3b7dbf3889177af8e7addf69e">legend:fillForEntryAtIndex:forPlot:</a></td></tr>
+<tr class="memdesc:ae75c7df3b7dbf3889177af8e7addf69e"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) This method gives the delegate a chance to provide a background fill for each legend entry.  <a href="#ae75c7df3b7dbf3889177af8e7addf69e">More...</a><br/></td></tr>
+<tr class="separator:ae75c7df3b7dbf3889177af8e7addf69e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa2b88c7672381b6f9eb0942c71c7e9"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_legend_delegate-p.html#acaa2b88c7672381b6f9eb0942c71c7e9">legend:lineStyleForEntryAtIndex:forPlot:</a></td></tr>
+<tr class="memdesc:acaa2b88c7672381b6f9eb0942c71c7e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) This method gives the delegate a chance to provide a border line style for each legend entry.  <a href="#acaa2b88c7672381b6f9eb0942c71c7e9">More...</a><br/></td></tr>
+<tr class="separator:acaa2b88c7672381b6f9eb0942c71c7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21bbe3ee715bd7ed34b45dc89448790b"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_legend_delegate-p.html#a21bbe3ee715bd7ed34b45dc89448790b">legend:fillForSwatchAtIndex:forPlot:</a></td></tr>
+<tr class="memdesc:a21bbe3ee715bd7ed34b45dc89448790b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) This method gives the delegate a chance to provide a custom swatch fill for each legend entry.  <a href="#a21bbe3ee715bd7ed34b45dc89448790b">More...</a><br/></td></tr>
+<tr class="separator:a21bbe3ee715bd7ed34b45dc89448790b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51f854442d81c444e9393229aee9711"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_legend_delegate-p.html#aa51f854442d81c444e9393229aee9711">legend:lineStyleForSwatchAtIndex:forPlot:</a></td></tr>
+<tr class="memdesc:aa51f854442d81c444e9393229aee9711"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) This method gives the delegate a chance to provide a custom swatch border line style for each legend entry.  <a href="#aa51f854442d81c444e9393229aee9711">More...</a><br/></td></tr>
+<tr class="separator:aa51f854442d81c444e9393229aee9711"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aeb5bb90d09dfbe1ae63b8ced1bba68"><td class="memItemLeft" align="right" valign="top">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/c/tdef/BOOL">BOOL</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_c_p_t_legend_delegate-p.html#a5aeb5bb90d09dfbe1ae63b8ced1bba68">legend:shouldDrawSwatchAtIndex:forPlot:inRect:inContext:</a></td></tr>
 <tr class="memdesc:a5aeb5bb90d09dfbe1ae63b8ced1bba68"><td class="mdescLeft">&#160;</td><td class="mdescRight">(<em>Optional</em>) This method gives the delegate a chance to draw custom swatches for each legend entry.  <a href="#a5aeb5bb90d09dfbe1ae63b8ced1bba68">More...</a><br/></td></tr>
 <tr class="separator:a5aeb5bb90d09dfbe1ae63b8ced1bba68"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,6 +134,92 @@ Public Instance Methods</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Legend delegate. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="ae75c7df3b7dbf3889177af8e7addf69e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *) legend: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_legend.html">CPTLegend</a> *)&#160;</td>
+          <td class="paramname"><em>legend</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">fillForEntryAtIndex:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a>)&#160;</td>
+          <td class="paramname"><em>idx</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">forPlot:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot.html">CPTPlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(<em>Optional</em>) This method gives the delegate a chance to provide a background fill for each legend entry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">legend</td><td>The legend. </td></tr>
+    <tr><td class="paramname">idx</td><td>The zero-based index of the legend entry for the given plot. </td></tr>
+    <tr><td class="paramname">plot</td><td>The plot. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The fill for the legend entry background or <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> to use the default <a class="el" href="interface_c_p_t_legend.html#ad4d1eb5c8bba7332c186eebf42a536dc">entryFill </a> . </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a21bbe3ee715bd7ed34b45dc89448790b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_c_p_t_fill.html">CPTFill</a> *) legend: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_legend.html">CPTLegend</a> *)&#160;</td>
+          <td class="paramname"><em>legend</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">fillForSwatchAtIndex:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a>)&#160;</td>
+          <td class="paramname"><em>idx</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">forPlot:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot.html">CPTPlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(<em>Optional</em>) This method gives the delegate a chance to provide a custom swatch fill for each legend entry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">legend</td><td>The legend. </td></tr>
+    <tr><td class="paramname">idx</td><td>The zero-based index of the legend entry for the given plot. </td></tr>
+    <tr><td class="paramname">plot</td><td>The plot. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The fill for the legend swatch or <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> to use the default <a class="el" href="interface_c_p_t_legend.html#a2ca957d6505ad2bbfdbd19c5cf425cb5">swatchFill </a> . </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a1bd5cab7fa59ba19f7668091a0bf5c0f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -210,6 +308,92 @@ Public Instance Methods</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="acaa2b88c7672381b6f9eb0942c71c7e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *) legend: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_legend.html">CPTLegend</a> *)&#160;</td>
+          <td class="paramname"><em>legend</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">lineStyleForEntryAtIndex:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a>)&#160;</td>
+          <td class="paramname"><em>idx</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">forPlot:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot.html">CPTPlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(<em>Optional</em>) This method gives the delegate a chance to provide a border line style for each legend entry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">legend</td><td>The legend. </td></tr>
+    <tr><td class="paramname">idx</td><td>The zero-based index of the legend entry for the given plot. </td></tr>
+    <tr><td class="paramname">plot</td><td>The plot. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The line style for the legend entry border or <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> to use the default <a class="el" href="interface_c_p_t_legend.html#aa955aed669f8fbf5c564c592172eb777">entryBorderLineStyle </a> . </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa51f854442d81c444e9393229aee9711"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_c_p_t_line_style.html">CPTLineStyle</a> *) legend: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_legend.html">CPTLegend</a> *)&#160;</td>
+          <td class="paramname"><em>legend</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">lineStyleForSwatchAtIndex:</td>
+          <td></td>
+          <td class="paramtype">(<a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Miscellaneous/Foundation_DataTypes/Reference/reference.html#//apple_ref/c/tdef/NSUInteger">NSUInteger</a>)&#160;</td>
+          <td class="paramname"><em>idx</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">forPlot:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_c_p_t_plot.html">CPTPlot</a> *)&#160;</td>
+          <td class="paramname"><em>plot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(<em>Optional</em>) This method gives the delegate a chance to provide a custom swatch border line style for each legend entry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">legend</td><td>The legend. </td></tr>
+    <tr><td class="paramname">idx</td><td>The zero-based index of the legend entry for the given plot. </td></tr>
+    <tr><td class="paramname">plot</td><td>The plot. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The line style for the legend swatch border or <a class="elRef" href="https://developer.apple.com/library/mac/#documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html#//apple_ref/doc/c_ref/nil">nil</a> to use the default <a class="el" href="interface_c_p_t_legend.html#a362ecc806661529391aa77811a1b7f86">swatchBorderLineStyle </a> . </dd></dl>
 
 </div>
 </div>

@@ -45,6 +45,7 @@ var interface_c_p_t_plot =
     [ "decimalDataType", "interface_c_p_t_plot.html#a3d4a0347d075ee17c058739438dc32ba", null ],
     [ "doubleDataType", "interface_c_p_t_plot.html#aaca5aa7610aa5d694f83cfaaa39f2bb0", null ],
     [ "doublePrecisionCache", "interface_c_p_t_plot.html#a8ea1af2352130e3f994fb57340222331", null ],
+    [ "drawLegendSwatchDecoration", "interface_c_p_t_plot.html#a0cc922210d502e1e6290cc0ae9aaeab6", null ],
     [ "labelField", "interface_c_p_t_plot.html#aadbf56752444f510f33693086dd2c7d5", null ],
     [ "labelFormatter", "interface_c_p_t_plot.html#af2f78146fa09f036c433fe0495bf43a4", null ],
     [ "labelOffset", "group__plot_animation_all_plots.html#ga205ca158d787fd439ec6122fe67c79a3", null ],
